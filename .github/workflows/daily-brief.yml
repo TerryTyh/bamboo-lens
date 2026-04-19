@@ -30,7 +30,6 @@ jobs:
           python3 scripts/generate_daily_brief.py
 
       - name: Send to WeCom
-        if: ${{ secrets.WECOM_WEBHOOK_URL != '' }}
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         run: python3 scripts/send_wecom.py outputs/daily_brief.md
