@@ -116,6 +116,50 @@ def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
 
+def derive_validation_questions(event: dict) -> list[str]:
+    company = event.get("company_name", "")
+    title = normalize(event.get("title", ""))
+    fact = normalize(event.get("fact", ""))
+    event_type = normalize(event.get("type", ""))
+    questions: list[str] = []
+
+    if company == "NVIDIA":
+        questions = [
+            "下次财报里数据中心收入能否继续维持高增速，而不是只靠个别大客户拉动。",
+            "GAAP / non-GAAP 毛利率是否仍能维持在高位，平台扩张是否开始侵蚀盈利质量。",
+            "超大客户资本开支口径有没有变化，推理需求是否真的接上训练需求。"
+        ]
+    elif company == "TSMC":
+        questions = [
+            "下一次法说会里 2nm 和 CoWoS 的需求口径是否继续偏紧。",
+            "毛利率和营业利润率能否维持高位，海外扩产是否开始明显稀释盈利。",
+            "高资本开支之后，自由现金流和资本回报是否仍然稳得住。"
+        ]
+    elif company == "阿里巴巴":
+        questions = [
+            "云业务增速是否能继续高于集团整体，AI 收入是否还能保持高景气。",
+            "云和 AI 的增长能否继续转化为估值中枢上移，而不只是阶段性情绪催化。",
+            "回购和资本配置是否持续执行，港股 / 中概折价修复逻辑是否还成立。"
+        ]
+    elif "财报" in event_type or "指引" in event_type:
+        questions = [
+            "下一次财报里收入、利润率和现金流是否继续朝同一方向改善。",
+            "本次强化信息是否只是一次性高点，还是已经开始形成连续兑现。",
+        ]
+    elif "预告" in event_type or "验证点" in event_type:
+        questions = [
+            f"{company} 下一次正式披露里，最重要的经营指标会不会支持当前判断。",
+            "管理层最新口径是否会改变我们对增长质量或资本回报的看法。"
+        ]
+    else:
+        questions = [
+            f"{company} 这次变化会不会继续出现在下一次正式披露里，而不是一次性新闻。",
+            "这条变化对业务质量和估值逻辑的影响，能否被后续数据继续验证。"
+        ]
+
+    return questions[:3]
+
+
 def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
     names = "、".join(company["name"] for company in companies)
@@ -135,7 +179,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         changes_block = "\n\n".join(key_changes)
         conclusion = f"当前事件库已整理出 {len(events)} 条已判断事件，今天最值得先看的是 {top_events[0]['company_name']}。"
         no_action = "- 其余公司今天暂不新增高优先级动作，维持原判断。"
-        next_check = f"{top_events[0]['company_name']}：{compact(top_events[0]['title'], 48)}"
+        validation_questions = derive_validation_questions(top_events[0])
+        next_check = "\n".join(f"  {idx}. {question}" for idx, question in enumerate(validation_questions, start=1))
         tomorrow_focus = f"- 继续补第一版真实来源抓取，让日报从样例事件过渡到官方实时事件\n- 优先增强 {top_events[0]['company_name']} 的后续验证链路"
     else:
         changes_block = f"""1. 公司：系统层
@@ -158,7 +203,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
             )
         candidate_block = "\n\n".join(candidate_lines)
     else:
-        candidate_block = "- 今天没有新增官方候选事件进入待研判队列。"
+        candidate_block = "- 今天没有新增可入库的官方候选事件。当前云端快照链路是通的，但还需要继续增强网页抓取和候选抽取质量。"
 
     return f"""# 竹鉴日报 | {today}
 
@@ -182,7 +227,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
 
 - 研究动作：优先推进真实来源抓取、事件抽取与公司状态回写
 - 资金动作建议：继续观察
-- 下一次验证点：{next_check}
+- 下一次验证点：
+{next_check}
 
 明日重点：
 
