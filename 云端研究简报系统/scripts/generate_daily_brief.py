@@ -24,6 +24,44 @@ def load_event_store() -> dict:
     return json.loads(EVENT_STORE_FILE.read_text(encoding="utf-8"))
 
 
+def event_priority_score(priority: str) -> int:
+    mapping = {
+        "P1": 30,
+        "P2": 20,
+        "P3": 10,
+        "候选": 5,
+    }
+    return mapping.get((priority or "").strip(), 0)
+
+
+def event_type_score(event_type: str) -> int:
+    value = (event_type or "").strip()
+    if "财报指引" in value:
+        return 26
+    if "财报" in value:
+        return 24
+    if "并购" in value or "业务扩张" in value:
+        return 22
+    if "产品" in value or "平台" in value or "技术" in value:
+        return 20
+    if "月度营收" in value:
+        return 18
+    if "资本配置" in value or "董事会" in value:
+        return 16
+    if "管理层表述" in value or "投资者沟通" in value:
+        return 12
+    if "预告" in value or "验证点" in value:
+        return 4
+    return 10
+
+
+def rank_event(event: dict) -> tuple[int, int]:
+    return (
+        event_priority_score(event.get("priority", "")) + event_type_score(event.get("type", "")),
+        event.get("sort_key", 0),
+    )
+
+
 def flatten_events(store: dict) -> list[dict]:
     items = []
     for company_id, payload in store.get("companies", {}).items():
@@ -42,7 +80,7 @@ def flatten_events(store: dict) -> list[dict]:
                     "sort_key": event.get("sort_key", 0),
                 }
             )
-    return sorted(items, key=lambda item: item["sort_key"], reverse=True)
+    return sorted(items, key=rank_event, reverse=True)
 
 
 def flatten_official_candidates(store: dict) -> list[dict]:
@@ -89,8 +127,9 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         for index, event in enumerate(top_events, start=1):
             key_changes.append(
                 f"""{index}. 公司：{event["company_name"]}
-   事实：{normalize(event["fact"])}
-   判断：{normalize(event["judgment"])}
+   事件：{normalize(event["title"])}
+   核心内容：{normalize(event["fact"])}
+   为什么重要：{normalize(event["judgment"])}
    动作：{event["action"]}"""
             )
         changes_block = "\n\n".join(key_changes)
