@@ -74,6 +74,10 @@ def compact(text: str, limit: int = 82) -> str:
     return value[: limit - 1].rstrip() + "…"
 
 
+def normalize(text: str) -> str:
+    return " ".join((text or "").split()).strip()
+
+
 def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
     names = "、".join(company["name"] for company in companies)
@@ -85,8 +89,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         for index, event in enumerate(top_events, start=1):
             key_changes.append(
                 f"""{index}. 公司：{event["company_name"]}
-   事实：{compact(event["fact"], 100)}
-   判断：{compact(event["judgment"], 100)}
+   事实：{normalize(event["fact"])}
+   判断：{normalize(event["judgment"])}
    动作：{event["action"]}"""
             )
         changes_block = "\n\n".join(key_changes)
@@ -110,8 +114,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
             source = f" 来源：{event['source_url']}" if event.get("source_url") else ""
             candidate_lines.append(
                 f"""{index}. 公司：{event["company_name"]}
-   候选：{compact(event["title"], 90)}
-   说明：{compact(event["judgment"], 92)}{source}"""
+   候选：{normalize(event["title"])}
+   说明：{normalize(event["judgment"])}{source}"""
             )
         candidate_block = "\n\n".join(candidate_lines)
     else:
