@@ -90,6 +90,7 @@ python3 scripts/check_setup.py
 2. 抽取待研判候选事件
 3. 生成已判断事件库
 4. 产出日报并推送企业微信
+5. 上传日报、事件库、候选事件和快照清单为 workflow artifact
 
 ## 当前边界
 
