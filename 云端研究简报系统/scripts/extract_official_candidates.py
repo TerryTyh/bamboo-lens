@@ -15,6 +15,7 @@ MANIFEST_FILE = SNAPSHOT_DIR / "manifest.json"
 OUTPUT_FILE = ROOT / "outputs" / "official_candidates.json"
 
 DATE_REGEX = re.compile(r"(20\d{2}[-/年.]\d{1,2}(?:[-/月.]\d{1,2})?)")
+EN_DATE_REGEX = re.compile(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+20\d{2})", re.IGNORECASE)
 NOISE_PATTERNS = (
     "cookie",
     "privacy",
@@ -70,28 +71,40 @@ def clean_candidate(text: str) -> str:
 
 def parse_date(value: str) -> tuple[str, int]:
     match = DATE_REGEX.search(value or "")
-    if not match:
-        return "", 0
+    if match:
+        raw = match.group(1)
+        normalized = (
+            raw.replace("年", "-")
+            .replace("月", "-")
+            .replace("日", "")
+            .replace("/", "-")
+            .replace(".", "-")
+        )
+        parts = [part for part in normalized.split("-") if part]
+        if len(parts) == 2:
+            parts.append("01")
+        if len(parts) == 3:
+            try:
+                sort_key = int(datetime.strptime("-".join(parts), "%Y-%m-%d").strftime("%Y%m%d"))
+                return "-".join(parts), sort_key
+            except ValueError:
+                pass
 
-    raw = match.group(1)
-    normalized = (
-        raw.replace("年", "-")
-        .replace("月", "-")
-        .replace("日", "")
-        .replace("/", "-")
-        .replace(".", "-")
-    )
-    parts = [part for part in normalized.split("-") if part]
-    if len(parts) == 2:
-        parts.append("01")
-    if len(parts) != 3:
-        return raw, 0
+    en_match = EN_DATE_REGEX.search(value or "")
+    if en_match:
+        raw = en_match.group(1)
+        normalized = raw.replace("Sept", "Sep")
+        try:
+            parsed = datetime.strptime(normalized, "%b %d, %Y")
+            return parsed.strftime("%Y-%m-%d"), int(parsed.strftime("%Y%m%d"))
+        except ValueError:
+            try:
+                parsed = datetime.strptime(normalized, "%B %d, %Y")
+                return parsed.strftime("%Y-%m-%d"), int(parsed.strftime("%Y%m%d"))
+            except ValueError:
+                return raw, 0
 
-    try:
-        sort_key = int(datetime.strptime("-".join(parts), "%Y-%m-%d").strftime("%Y%m%d"))
-    except ValueError:
-        return raw, 0
-    return "-".join(parts), sort_key
+    return "", 0
 
 
 def score_candidate(tag: str, text: str) -> int:
@@ -112,13 +125,30 @@ def score_candidate(tag: str, text: str) -> int:
     return score
 
 
-def extract_candidates_from_html(html: str) -> list[dict]:
+def parse_text_nodes(html: str) -> list[tuple[str, str]]:
     parser = CandidateHTMLParser()
     parser.feed(html)
+    return parser.text_nodes
 
+
+def nearest_date(text_nodes: list[tuple[str, str]], index: int, window: int = 6) -> tuple[str, int]:
+    left = max(0, index - window)
+    right = min(len(text_nodes), index + window + 1)
+    for cursor in range(index, left - 1, -1):
+        date_text, sort_key = parse_date(text_nodes[cursor][1])
+        if sort_key:
+            return date_text, sort_key
+    for cursor in range(index + 1, right):
+        date_text, sort_key = parse_date(text_nodes[cursor][1])
+        if sort_key:
+            return date_text, sort_key
+    return "", 0
+
+
+def build_items_from_nodes(text_nodes: list[tuple[str, str]], min_score: int = 4) -> list[dict]:
     items: list[dict] = []
     seen: set[str] = set()
-    for tag, text in parser.text_nodes:
+    for index, (tag, text) in enumerate(text_nodes):
         title = clean_candidate(text)
         if not title:
             continue
@@ -128,10 +158,12 @@ def extract_candidates_from_html(html: str) -> list[dict]:
         seen.add(key)
 
         score = score_candidate(tag, title)
-        if score < 4:
+        if score < min_score:
             continue
 
         date_text, sort_key = parse_date(title)
+        if not sort_key:
+            date_text, sort_key = nearest_date(text_nodes, index)
         items.append(
             {
                 "title": title,
@@ -141,9 +173,58 @@ def extract_candidates_from_html(html: str) -> list[dict]:
                 "score": score,
             }
         )
+    return items
 
-    items.sort(key=lambda item: (item["sort_key"], item["score"]), reverse=True)
-    return items[:8]
+
+def dedupe_items(items: list[dict], limit: int = 8) -> list[dict]:
+    picked: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for item in sorted(items, key=lambda row: (row["sort_key"], row["score"]), reverse=True):
+        key = (item["title"].lower(), item["date"])
+        if key in seen:
+            continue
+        seen.add(key)
+        picked.append(item)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
+def extract_tsmc_candidates(text_nodes: list[tuple[str, str]], url: str) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if any(keyword in item["title"].lower() for keyword in ("revenue", "eps", "board", "quarter", "results"))
+    ]
+    if "quarterly-results" in url:
+        focused = [
+            item
+            for item in items
+            if any(keyword in item["title"].lower() for keyword in ("results", "eps", "conference", "quarter"))
+        ]
+    return dedupe_items(focused or items)
+
+
+def extract_nvidia_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if any(keyword in item["title"].lower() for keyword in ("financial", "results", "nvidia", "ai", "platform", "partner", "expands", "fusion"))
+    ]
+    return dedupe_items(focused or items)
+
+
+def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
+    text_nodes = parse_text_nodes(html)
+
+    if company_id == "tsmc":
+        return extract_tsmc_candidates(text_nodes, url)
+    if company_id == "nvidia":
+        return extract_nvidia_candidates(text_nodes)
+
+    return dedupe_items(build_items_from_nodes(text_nodes))
 
 
 def summarize_title(title: str, url: str) -> str:
@@ -151,6 +232,15 @@ def summarize_title(title: str, url: str) -> str:
     if len(value) > 120:
         value = value[:117].rstrip() + "..."
     return f"官方来源抓到候选更新：{value}（来源：{url}）"
+
+
+def candidate_fact(title: str, date_text: str, url: str) -> str:
+    parts = []
+    if date_text:
+        parts.append(f"日期：{date_text}")
+    parts.append(f"标题：{title}")
+    parts.append(f"来源：{url}")
+    return "；".join(parts)
 
 
 def build_payload() -> dict:
@@ -168,7 +258,7 @@ def build_payload() -> dict:
             continue
 
         html = path.read_text(encoding="utf-8", errors="ignore")
-        candidates = extract_candidates_from_html(html)
+        candidates = extract_candidates_from_html(html, row["company_id"], row["url"])
         for item in candidates:
             fallback_key = re.sub(r"\D", "", row.get("fetched_at", "")[:8]) or "0"
             grouped[row["company_id"]].append(
@@ -176,7 +266,7 @@ def build_payload() -> dict:
                     "title": item["title"],
                     "date": item["date"] or row.get("fetched_at", "")[:10],
                     "type": "官方候选",
-                    "fact": summarize_title(item["title"], row["url"]),
+                    "fact": candidate_fact(item["title"], item["date"] or row.get("fetched_at", "")[:10], row["url"]),
                     "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
                     "action": "加入待研判队列",
                     "priority": "候选",
