@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>研究文档阅读器</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="reader-body">
+    <div class="reader-shell">
+      <header class="reader-hero">
+        <div>
+          <a class="back-link" href="./index.html">← 返回研究门户</a>
+          <p class="eyebrow reader-kicker">Reader Mode</p>
+          <h1 id="readerTitle">加载中...</h1>
+          <p class="reader-summary">
+            这里会把 Markdown 文档渲染成正常阅读模式。建议通过本地服务打开，避免浏览器直接读取文件时出现乱码或无法加载。
+          </p>
+        </div>
+        <div class="reader-actions">
+          <a id="rawDocLink" class="button secondary" href="#">查看原始文档</a>
+        </div>
+      </header>
+
+      <div class="reader-layout">
+        <aside class="toc-panel">
+          <p class="toc-title">目录</p>
+          <nav id="toc"></nav>
+        </aside>
+        <article class="reader-card">
+          <div id="docMeta" class="doc-meta"></div>
+          <div id="docPager" class="doc-pager"></div>
+          <div id="docContent" class="markdown-body">
+            <p>正在加载文档...</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <script src="./reader.js"></script>
+  </body>
+</html>

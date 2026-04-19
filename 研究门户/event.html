@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>事件详情</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const company = params.get("company");
+        const page = params.get("page") || "1";
+        document.addEventListener("DOMContentLoaded", function () {
+          const backLink = document.getElementById("backToLatest");
+          if (!backLink) return;
+          if (company) {
+            backLink.href = `./company.html?company=${encodeURIComponent(company)}&page=${encodeURIComponent(page)}&v=20260412-24#companyUpdates`;
+            backLink.textContent = "← 返回公司主页";
+          } else {
+            backLink.href = "./index.html?v=20260412-24";
+            backLink.textContent = "← 返回研究门户";
+          }
+        });
+      })();
+    </script>
+  </head>
+  <body class="reader-body">
+    <div class="reader-shell">
+      <header class="reader-hero company-hero">
+        <div>
+          <a id="backToLatest" class="back-link" href="./index.html">← 返回公司主页</a>
+          <p class="eyebrow reader-kicker">Event Detail</p>
+          <div class="company-header-row">
+            <span id="eventCompanyTag" class="company-tag">核心公司</span>
+            <h1 id="eventCompanyTitle">加载中...</h1>
+          </div>
+          <p id="eventPageSummary" class="reader-summary"></p>
+        </div>
+      </header>
+
+      <main class="company-layout">
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Event Detail</p>
+            <h2 id="eventTitle">加载中...</h2>
+          </div>
+          <div class="event-detail-meta">
+            <span id="eventDate"></span>
+            <span id="eventType"></span>
+          </div>
+          <article class="card event-source-card">
+            <div class="event-source-head">
+              <div>
+                <h3>原始记录</h3>
+                <p class="muted">先看这条动态究竟发生了什么，再看后续判断。</p>
+              </div>
+            </div>
+            <div class="event-raw-stack">
+              <div class="event-raw-field">
+                <h4>事实</h4>
+                <p id="eventFact"></p>
+              </div>
+              <div class="event-raw-field">
+                <h4>判断</h4>
+                <p id="eventJudgment"></p>
+              </div>
+              <div class="event-raw-grid">
+                <div class="event-raw-field compact">
+                  <h4>动作</h4>
+                  <p id="eventAction"></p>
+                </div>
+                <div class="event-raw-field compact">
+                  <h4>优先级</h4>
+                  <p id="eventPriority"></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <div class="grid two-up">
+            <article class="card">
+              <h3>我的总结</h3>
+              <p id="eventSummary"></p>
+            </article>
+            <article class="card">
+              <h3>延伸分析</h3>
+              <p id="eventAnalysis"></p>
+            </article>
+          </div>
+          <div class="grid two-up">
+            <article class="card">
+              <h3>对业务的影响</h3>
+              <p id="eventBusinessImpact"></p>
+            </article>
+            <article class="card">
+              <h3>对估值 / 动作的影响</h3>
+              <p id="eventValuationImpact"></p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./company-event-data.js"></script>
+    <script src="./event.js"></script>
+  </body>
+</html>

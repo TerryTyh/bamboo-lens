@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>公司主页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="reader-body">
+    <div class="reader-shell">
+      <header class="reader-hero company-hero">
+        <div>
+          <a class="back-link" href="./index.html">← 返回研究门户</a>
+          <p class="eyebrow reader-kicker">Company Page</p>
+          <div class="company-header-row">
+            <span id="companyTag" class="company-tag">核心公司</span>
+            <h1 id="companyTitle">加载中...</h1>
+          </div>
+          <p id="companySummary" class="reader-summary"></p>
+        </div>
+      </header>
+
+      <main class="company-layout">
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Investment View</p>
+            <h2>当前结论</h2>
+          </div>
+          <div class="company-kpi-grid">
+            <article class="card">
+              <h3>一句话逻辑</h3>
+              <p id="companyThesis"></p>
+            </article>
+            <article class="card">
+              <h3>研究动作</h3>
+              <p id="companyAction"></p>
+            </article>
+            <article class="card">
+              <h3>资金动作建议</h3>
+              <p id="companyPortfolioAction"></p>
+            </article>
+            <article class="card">
+              <h3>下一次验证点</h3>
+              <p id="companyNextCheck"></p>
+            </article>
+            <article class="card">
+              <h3>最新判断变化</h3>
+              <p id="latestEvent"></p>
+            </article>
+            <article class="card">
+              <h3>对业务的整体影响</h3>
+              <p id="businessImpact"></p>
+            </article>
+            <article class="card">
+              <h3>对估值 / 动作的整体影响</h3>
+              <p id="valuationImpact"></p>
+            </article>
+          </div>
+        </section>
+
+        <section id="companyUpdates" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Latest Changes</p>
+            <h2>最新动态</h2>
+            <p class="muted">这里只保留按时间排序的事件本身。每条事件点进去，再看原文详情和分析。</p>
+          </div>
+          <article class="card">
+            <div class="events-header">
+              <div>
+                <h3>近期关键事件流</h3>
+                <p class="muted">按时间看这家公司最近的重要变化，支持分页。</p>
+              </div>
+            </div>
+            <div id="companyEventFeed" class="event-feed-stack"></div>
+            <div id="companyEventPager" class="event-pager"></div>
+          </article>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Company Understanding</p>
+            <h2>公司理解</h2>
+            <p class="muted">目标是快速回答“这家公司到底是做什么的，靠什么赚钱，为什么它更强”。</p>
+          </div>
+          <div class="grid two-up">
+            <article class="card">
+              <h3>公司定位</h3>
+              <p id="companyPositioning"></p>
+            </article>
+            <article class="card">
+              <h3>主营产品与服务</h3>
+              <p id="companyProducts"></p>
+            </article>
+            <article class="card">
+              <h3>主要客户与市场</h3>
+              <p id="companyMarkets"></p>
+            </article>
+            <article class="card">
+              <h3>护城河拆解</h3>
+              <p id="companyMoatDetail"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">How To Track</p>
+            <h2>怎么继续跟踪</h2>
+            <p class="muted">不是抽象口号，而是告诉你该看什么、去哪里看、看到之后意味着什么。</p>
+          </div>
+          <div class="grid two-up">
+            <article class="card">
+              <h3>跟踪清单</h3>
+              <div id="companyTrackingList" class="tracking-list"></div>
+            </article>
+            <article class="card">
+              <h3>当前最大担忧</h3>
+              <p id="companyRisk"></p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./company-event-data.js"></script>
+    <script src="./company.js"></script>
+  </body>
+</html>

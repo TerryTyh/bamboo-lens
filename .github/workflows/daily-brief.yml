@@ -1,0 +1,36 @@
+name: Daily Brief
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1-5"
+
+jobs:
+  daily-brief:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 云端研究简报系统
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate daily brief
+        run: |
+          python3 scripts/collect_official_snapshots.py
+          python3 scripts/extract_official_candidates.py
+          python3 scripts/build_event_store.py
+          python3 scripts/generate_daily_brief.py
+
+      - name: Send to WeCom
+        if: ${{ secrets.WECOM_WEBHOOK_URL != '' }}
+        env:
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+        run: python3 scripts/send_wecom.py outputs/daily_brief.md

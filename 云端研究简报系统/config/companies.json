@@ -1,0 +1,92 @@
+{
+  "companies": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "market": "US",
+      "tier": "A",
+      "theme": "AI infrastructure",
+      "official_sources": [
+        "https://investor.nvidia.com/news/press-releases/default.aspx",
+        "https://investor.nvidia.com/financial-info/default.aspx"
+      ]
+    },
+    {
+      "id": "tsmc",
+      "name": "TSMC",
+      "market": "Global Manufacturing",
+      "tier": "A",
+      "theme": "Advanced foundry",
+      "official_sources": [
+        "https://investor.tsmc.com/english/quarterly-results",
+        "https://pr.tsmc.com/english"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "market": "US",
+      "tier": "A",
+      "theme": "Enterprise AI platform",
+      "official_sources": [
+        "https://www.microsoft.com/en-us/investor/earnings",
+        "https://news.microsoft.com/source/"
+      ]
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴",
+      "market": "HK/ADR",
+      "tier": "A",
+      "theme": "Platform cash flow + cloud + AI",
+      "official_sources": [
+        "https://www.alibabagroup.com/en-US/ir-financial-reports-quarterly-results",
+        "https://www.alibabagroup.com/en-US/news-press-releases"
+      ]
+    },
+    {
+      "id": "inovance",
+      "name": "汇川技术",
+      "market": "CN A-share",
+      "tier": "A",
+      "theme": "Industrial automation platform",
+      "official_sources": [
+        "https://www.inovance.com/global/about/news",
+        "https://www.inovance.com/global/investor"
+      ]
+    },
+    {
+      "id": "gevernova",
+      "name": "GE Vernova",
+      "market": "US",
+      "tier": "A",
+      "theme": "Power system upgrade",
+      "official_sources": [
+        "https://www.gevernova.com/news/press-releases",
+        "https://www.gevernova.com/investors/events"
+      ]
+    },
+    {
+      "id": "luxshare",
+      "name": "立讯精密",
+      "market": "CN A-share",
+      "tier": "A",
+      "theme": "Complex manufacturing",
+      "official_sources": [
+        "https://www.luxshare-ict.com/investors/financial-reports.html?tp=1",
+        "https://www.luxshare-ict.com/en/news/"
+      ]
+    },
+    {
+      "id": "constellation",
+      "name": "Constellation Energy",
+      "market": "US",
+      "tier": "A",
+      "theme": "Zero-carbon power platform",
+      "official_sources": [
+        "https://www.constellationenergy.com/newsroom.html",
+        "https://investors.constellationenergy.com/news-events/default.aspx"
+      ]
+    }
+  ]
+}

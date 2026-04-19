@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>公司深度资料</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const company = params.get("company");
+        const section = params.get("section");
+        const page = params.get("page") || "1";
+        if (company && section === "latest") {
+          window.location.replace(`./company.html?company=${encodeURIComponent(company)}&page=${encodeURIComponent(page)}&v=20260412-24#companyUpdates`);
+        }
+      })();
+    </script>
+  </head>
+  <body class="reader-body">
+    <div class="reader-shell">
+      <header class="reader-hero company-hero">
+        <div>
+          <a id="backToCompany" class="back-link" href="./index.html">← 返回首页</a>
+          <p class="eyebrow reader-kicker">Company Deep Dive</p>
+          <div class="company-header-row">
+            <span id="deepCompanyTag" class="company-tag">核心公司</span>
+            <h1 id="deepCompanyTitle">加载中...</h1>
+          </div>
+          <p id="deepSectionSummary" class="reader-summary"></p>
+        </div>
+      </header>
+
+      <main class="company-layout">
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Focus</p>
+            <h2 id="deepSectionTitle">加载中...</h2>
+          </div>
+          <div class="card">
+            <div id="deepContent" class="deep-content"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./company-deep.js"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>竹鉴 | Bamboo Lens</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero dashboard-hero compact-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Bamboo Lens</p>
+          <h1>竹鉴</h1>
+          <p class="hero-text">
+            先看最近更新，再进公司主页。这里是你的长期投资研究驾驶舱。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#updates">最近更新</a>
+            <a class="button secondary" href="#companies">公司主页</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span class="label">核心池</span>
+            <span class="value">8 家</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">提升优先级</span>
+            <span class="value">6 家</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">需要二次验证</span>
+            <span class="value">立讯精密</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">最近新增样例</span>
+            <span class="value">NVIDIA</span>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="updates" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Recent Updates</p>
+            <h2>最近更新</h2>
+            <p class="muted">按时间看跨公司的关键动态。先知道最近有没有新变化，再决定要不要深入某家公司。</p>
+          </div>
+          <div class="timeline-head">
+            <span id="timelineCount" class="timeline-count">加载中...</span>
+            <p class="muted">点击某条事件，直接进入三级页看这条动态的详细记录与分析。</p>
+          </div>
+          <div id="timelineFeed" class="event-grid masonry-grid"></div>
+        </section>
+
+        <section id="companies" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Company Pages</p>
+            <h2>公司主页</h2>
+            <p class="muted">点进去看沉淀后的业务、财报、估值动作和最近变化，不再只是资料跳转页。</p>
+          </div>
+          <div class="company-grid">
+            <article class="company-card">
+              <span class="company-tag us">美股</span>
+              <h3>NVIDIA</h3>
+              <p>AI 工厂平台。重点看推理需求、客户 capex、毛利率。</p>
+              <a href="./company.html?company=nvidia&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag tw">全球制造</span>
+              <h3>TSMC</h3>
+              <p>先进制程底座。重点看 2nm、CoWoS、资本回报。</p>
+              <a href="./company.html?company=tsmc&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag us">美股</span>
+              <h3>Microsoft</h3>
+              <p>企业 AI 平台。重点看 Azure、Copilot、利润率兑现。</p>
+              <a href="./company.html?company=microsoft&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag hk">港股 / 中概</span>
+              <h3>阿里巴巴</h3>
+              <p>平台现金流 + 云 + AI。重点看估值中枢能否继续上移。</p>
+              <a href="./company.html?company=alibaba&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag cn">A 股</span>
+              <h3>汇川技术</h3>
+              <p>工业平台。重点看平台化、双轮驱动和出海验证。</p>
+              <a href="./company.html?company=inovance&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag us">美股</span>
+              <h3>GE Vernova</h3>
+              <p>电力系统升级平台。重点看订单、利润率、自由现金流。</p>
+              <a href="./company.html?company=gevernova&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag cn">A 股</span>
+              <h3>立讯精密</h3>
+              <p>复杂制造龙头。重点看现金流、资本效率和扩张质量。</p>
+              <a href="./company.html?company=luxshare&v=20260412-24">进入公司主页</a>
+            </article>
+            <article class="company-card">
+              <span class="company-tag us">美股</span>
+              <h3>Constellation Energy</h3>
+              <p>稳定零碳电力平台。重点看长期合同、整合、核电运行。</p>
+              <a href="./company.html?company=constellation&v=20260412-24">进入公司主页</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section slim">
+          <div class="framework-links">
+            <a href="./reader.html?doc=../长期高潜力公司跟踪系统/01-筛选规则.md&title=筛选规则">筛选规则</a>
+            <a href="./reader.html?doc=../长期高潜力公司跟踪系统/02-公司分析框架.md&title=公司分析框架">分析框架</a>
+            <a href="./reader.html?doc=../长期高潜力公司跟踪系统/21-研究结论到投资决策的落地规则V1.md&title=研究结论到投资决策的落地规则">决策规则</a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./company-event-data.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
