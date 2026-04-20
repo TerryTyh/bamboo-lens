@@ -149,6 +149,15 @@ def score_candidate(tag: str, text: str) -> int:
 
 
 def parse_text_nodes(html: str) -> list[tuple[str, str]]:
+    if "<html" not in html.lower() and "Markdown Content:" in html:
+        text_nodes = []
+        for line in html.splitlines():
+            text = normalize_text(line)
+            if not text:
+                continue
+            text_nodes.append(("text", text))
+        return text_nodes
+
     parser = CandidateHTMLParser()
     parser.feed(html)
     return parser.text_nodes
@@ -229,6 +238,41 @@ def extract_tsmc_candidates(text_nodes: list[tuple[str, str]], url: str) -> list
             if any(keyword in item["title"].lower() for keyword in ("results", "eps", "conference", "quarter"))
         ]
     return dedupe_items(focused or items)
+
+
+def extract_tsmc_candidates_from_markdown(text: str) -> list[dict]:
+    items: list[dict] = []
+
+    list_pattern = re.compile(r"\*\s+\[(20\d{2}/\d{2}/\d{2})\s+##\s+([^\]]+)\]\(([^)]+)\)")
+    for date_text, title, _url in list_pattern.findall(text):
+        parsed_date, sort_key = parse_date(date_text)
+        if not sort_key:
+            continue
+        items.append(
+            {
+                "title": clean_candidate(title),
+                "date": parsed_date,
+                "sort_key": sort_key,
+                "tag": "markdown",
+                "score": 9,
+            }
+        )
+
+    heading_pattern = re.compile(r"^#\s+(TSMC .*?)$", re.MULTILINE)
+    for title in heading_pattern.findall(text):
+        if any(keyword in title.lower() for keyword in ("latest news", "monthly revenue")):
+            continue
+        items.append(
+            {
+                "title": clean_candidate(title),
+                "date": "",
+                "sort_key": 0,
+                "tag": "markdown",
+                "score": 5,
+            }
+        )
+
+    return dedupe_items(items)
 
 
 def extract_nvidia_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
@@ -373,6 +417,9 @@ def extract_constellation_candidates_from_html(html: str) -> list[dict]:
 
 
 def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
+    if company_id == "tsmc" and "Markdown Content:" in html:
+        return extract_tsmc_candidates_from_markdown(html)
+
     text_nodes = parse_text_nodes(html)
 
     if company_id == "tsmc":

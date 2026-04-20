@@ -5,6 +5,8 @@ import gzip
 import json
 import ssl
 import urllib.request
+from urllib.error import HTTPError
+from urllib.parse import urlparse
 from datetime import datetime
 from pathlib import Path
 
@@ -31,28 +33,36 @@ def slugify(url: str) -> str:
 
 
 def fetch(url: str) -> str:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36 BambooLensBot/0.1"
-            ),
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-        },
-        method="GET",
-    )
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36 BambooLensBot/0.1"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    }
     context = ssl.create_default_context()
-    with urllib.request.urlopen(request, context=context, timeout=30) as response:
-        raw = response.read()
-        encoding = (response.headers.get("Content-Encoding") or "").lower()
-        if "gzip" in encoding or raw[:2] == b"\x1f\x8b":
-            raw = gzip.decompress(raw)
-        return raw.decode("utf-8", errors="ignore")
+
+    def _read(target_url: str) -> str:
+        request = urllib.request.Request(target_url, headers=headers, method="GET")
+        with urllib.request.urlopen(request, context=context, timeout=30) as response:
+            raw = response.read()
+            encoding = (response.headers.get("Content-Encoding") or "").lower()
+            if "gzip" in encoding or raw[:2] == b"\x1f\x8b":
+                raw = gzip.decompress(raw)
+            return raw.decode("utf-8", errors="ignore")
+
+    try:
+        return _read(url)
+    except HTTPError as error:
+        host = urlparse(url).netloc.lower()
+        if error.code == 403 and ("tsmc.com" in host):
+            proxy_url = f"https://r.jina.ai/http://{url.replace('https://', '').replace('http://', '')}"
+            return _read(proxy_url)
+        raise
 
 
 def main() -> None:
