@@ -24,6 +24,28 @@ NOISE_PATTERNS = (
     "learn more",
     "read more",
     "default.aspx",
+    "skip to main content",
+    "financial statements",
+    "segment revenue",
+    "segment results",
+    "earnings and financials",
+    "acquisition history",
+    "support for ai marketplace apps",
+    "educator training and development",
+    "reports",
+    "news and resources",
+    "corporate governance",
+    "culture and values",
+    "esg ",
+    "esg reports hub",
+    "esg ratings and awards",
+    "esg news and views",
+    "modern slavery act",
+    "transparency in coverage",
+    "sustainability report",
+    "supply chain management",
+    "nuclear preservation",
+    "nuclear license renewal",
 )
 
 
@@ -66,6 +88,7 @@ def load_manifest() -> list[dict]:
 def clean_candidate(text: str) -> str:
     value = normalize_text(text)
     value = re.sub(r"\s+[|｜-]\s+.*$", "", value)
+    value = re.sub(r"^var\s+[A-Za-z0-9_]+\s*=\s*.*$", "", value)
     return value.strip(" -|｜:：")
 
 
@@ -152,6 +175,8 @@ def build_items_from_nodes(text_nodes: list[tuple[str, str]], min_score: int = 4
         title = clean_candidate(text)
         if not title:
             continue
+        if "@" in title or title.count("/") > 3:
+            continue
         key = title.lower()
         if key in seen:
             continue
@@ -216,6 +241,62 @@ def extract_nvidia_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
     return dedupe_items(focused or items)
 
 
+def extract_microsoft_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("microsoft", "azure", "ai", "copilot", "cloud", "earnings", "results", "announces")
+        )
+    ]
+    return dedupe_items(focused)
+
+
+def extract_alibaba_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("alibaba", "cloud", "ai", "results", "earnings", "quarter", "repurchase", "qwen")
+        )
+    ]
+    return dedupe_items(focused)
+
+
+def extract_gevernova_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("ge vernova", "orders", "results", "earnings", "grid", "power", "acquisition")
+        )
+    ]
+    return dedupe_items(focused)
+
+
+def extract_constellation_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("constellation", "results", "earnings", "nuclear", "power", "calpine", "agreement")
+        )
+    ]
+    return dedupe_items(focused)
+
+
 def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
     text_nodes = parse_text_nodes(html)
 
@@ -223,6 +304,14 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
         return extract_tsmc_candidates(text_nodes, url)
     if company_id == "nvidia":
         return extract_nvidia_candidates(text_nodes)
+    if company_id == "microsoft":
+        return extract_microsoft_candidates(text_nodes)
+    if company_id == "alibaba":
+        return extract_alibaba_candidates(text_nodes)
+    if company_id == "gevernova":
+        return extract_gevernova_candidates(text_nodes)
+    if company_id == "constellation":
+        return extract_constellation_candidates(text_nodes)
 
     return dedupe_items(build_items_from_nodes(text_nodes))
 

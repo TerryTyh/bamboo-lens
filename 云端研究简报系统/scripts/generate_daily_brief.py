@@ -171,6 +171,7 @@ def parse_date_like(value: str) -> datetime | None:
         "%Y-%m",
         "%Y-%m-%dT%H:%M:%S",
         "%Y-%m-%dT%H:%M:%S.%f",
+        "%Y%m%d-%H%M%S",
     ]
     for fmt in candidates:
         try:

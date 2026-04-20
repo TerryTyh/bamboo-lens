@@ -32,11 +32,21 @@ def slugify(url: str) -> str:
 def fetch(url: str) -> str:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "BambooLensBot/0.1"},
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36 BambooLensBot/0.1"
+            ),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        },
         method="GET",
     )
     context = ssl.create_default_context()
-    with urllib.request.urlopen(request, context=context, timeout=20) as response:
+    with urllib.request.urlopen(request, context=context, timeout=30) as response:
         return response.read().decode("utf-8", errors="ignore")
 
 

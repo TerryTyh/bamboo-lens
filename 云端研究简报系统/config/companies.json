@@ -7,8 +7,7 @@
       "tier": "A",
       "theme": "AI infrastructure",
       "official_sources": [
-        "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "https://investor.nvidia.com/financial-info/default.aspx"
+        "https://investor.nvidia.com/news/press-releases/default.aspx"
       ]
     },
     {
@@ -29,7 +28,6 @@
       "tier": "A",
       "theme": "Enterprise AI platform",
       "official_sources": [
-        "https://www.microsoft.com/en-us/investor/earnings",
         "https://news.microsoft.com/source/"
       ]
     },
@@ -51,8 +49,7 @@
       "tier": "A",
       "theme": "Industrial automation platform",
       "official_sources": [
-        "https://www.inovance.com/global/about/news",
-        "https://www.inovance.com/global/investor"
+        "https://www.inovance.com/"
       ]
     },
     {
