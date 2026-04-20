@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import gzip
 import json
 import ssl
 import urllib.request
@@ -47,7 +48,11 @@ def fetch(url: str) -> str:
     )
     context = ssl.create_default_context()
     with urllib.request.urlopen(request, context=context, timeout=30) as response:
-        return response.read().decode("utf-8", errors="ignore")
+        raw = response.read()
+        encoding = (response.headers.get("Content-Encoding") or "").lower()
+        if "gzip" in encoding or raw[:2] == b"\x1f\x8b":
+            raw = gzip.decompress(raw)
+        return raw.decode("utf-8", errors="ignore")
 
 
 def main() -> None:

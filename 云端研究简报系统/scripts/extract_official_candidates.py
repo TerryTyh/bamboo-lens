@@ -325,6 +325,53 @@ def extract_inovance_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]
     return dedupe_items(focused)
 
 
+def extract_luxshare_candidates_from_html(html: str) -> list[dict]:
+    items: list[dict] = []
+    patterns = [
+        re.compile(
+            r"<p>\s*(20\d{2}-\d{2}-\d{2})\s*</p>[\s\S]{0,300}?<p class=\"mod_tit(?:24|36)\">([^<]+)</p>",
+            re.IGNORECASE,
+        ),
+    ]
+    for pattern in patterns:
+        for date_text, title in pattern.findall(html):
+            parsed_date, sort_key = parse_date(date_text)
+            if not sort_key:
+                continue
+            items.append(
+                {
+                    "title": clean_candidate(title),
+                    "date": parsed_date,
+                    "sort_key": sort_key,
+                    "tag": "html",
+                    "score": 8,
+                }
+            )
+    return dedupe_items(items)
+
+
+def extract_constellation_candidates_from_html(html: str) -> list[dict]:
+    items: list[dict] = []
+    pattern = re.compile(
+        r"<p class=\"mb-2 ce-label text-disabled\">([^<]+)</p>[\s\S]{0,260}?<p class=\"mb-(?:0|3) [^\"]*?ce-header-1[^\"]*?\">([^<]+)</p>",
+        re.IGNORECASE,
+    )
+    for date_text, title in pattern.findall(html):
+        parsed_date, sort_key = parse_date(date_text)
+        if not sort_key:
+            continue
+        items.append(
+            {
+                "title": clean_candidate(title),
+                "date": parsed_date,
+                "sort_key": sort_key,
+                "tag": "html",
+                "score": 7,
+            }
+        )
+    return dedupe_items(items)
+
+
 def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
     text_nodes = parse_text_nodes(html)
 
@@ -339,9 +386,9 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
     if company_id == "gevernova":
         return extract_gevernova_candidates(text_nodes)
     if company_id == "constellation":
-        return extract_constellation_candidates(text_nodes)
+        return extract_constellation_candidates_from_html(html) or extract_constellation_candidates(text_nodes)
     if company_id == "luxshare":
-        return extract_luxshare_candidates(text_nodes)
+        return extract_luxshare_candidates_from_html(html) or extract_luxshare_candidates(text_nodes)
     if company_id == "inovance":
         return extract_inovance_candidates(text_nodes)
 
