@@ -245,8 +245,23 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
    说明：{normalize(event["judgment"])}{source}"""
             )
         candidate_block = "\n\n".join(candidate_lines)
-    else:
+    elif top_events:
         candidate_block = "- 今天没有新增可入库的官方候选事件；系统已完成扫描，但没有发现足够新的、足够清晰的官方线索。"
+
+    if not top_events:
+        return f"""# 竹鉴日报 | {today}
+
+一句话结论：
+
+今天没有新增值得直接推送的已判断研究事件。
+
+明日重点：
+
+- 当前覆盖公司：{names}
+- 延续跟踪最近一轮官方候选里最值得研判的线索，优先看 NVIDIA 当天新增候选是否能升级为正式研究事件
+- 继续补强 TSMC、立讯精密、汇川技术、Constellation Energy 的官方来源抓取稳定性
+- 只有出现当日/近期新变化时，才恢复完整日报展开
+"""
 
     return f"""# 竹鉴日报 | {today}
 
