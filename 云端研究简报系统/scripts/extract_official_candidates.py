@@ -265,6 +265,7 @@ def build_payload() -> dict:
                 {
                     "title": item["title"],
                     "date": item["date"] or row.get("fetched_at", "")[:10],
+                    "fetched_at": row.get("fetched_at", ""),
                     "type": "官方候选",
                     "fact": candidate_fact(item["title"], item["date"] or row.get("fetched_at", "")[:10], row["url"]),
                     "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",

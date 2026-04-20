@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 
@@ -72,6 +72,7 @@ def flatten_events(store: dict) -> list[dict]:
                     "company_name": payload["name"],
                     "title": event["title"],
                     "date": event["date"],
+                    "fetched_at": event.get("fetched_at", ""),
                     "type": event["type"],
                     "fact": event["fact"],
                     "judgment": event["judgment"],
@@ -93,6 +94,7 @@ def flatten_official_candidates(store: dict) -> list[dict]:
                     "company_name": payload["name"],
                     "title": event["title"],
                     "date": event["date"],
+                    "fetched_at": event.get("fetched_at", ""),
                     "type": event["type"],
                     "fact": event["fact"],
                     "judgment": event["judgment"],
@@ -160,11 +162,50 @@ def derive_validation_questions(event: dict) -> list[str]:
     return questions[:3]
 
 
+def parse_date_like(value: str) -> datetime | None:
+    if not value:
+        return None
+    text = value.strip()
+    candidates = [
+        "%Y-%m-%d",
+        "%Y-%m",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S.%f",
+    ]
+    for fmt in candidates:
+        try:
+            parsed = datetime.strptime(text, fmt)
+            if fmt == "%Y-%m":
+                return parsed.replace(day=1)
+            return parsed
+        except ValueError:
+            continue
+    if len(text) >= 10:
+        try:
+            return datetime.strptime(text[:10], "%Y-%m-%d")
+        except ValueError:
+            return None
+    return None
+
+
+def is_recent(item: dict, today: datetime, days: int = 2) -> bool:
+    for key in ("fetched_at", "date"):
+        parsed = parse_date_like(item.get(key, ""))
+        if parsed is None:
+            continue
+        age = today.date() - parsed.date()
+        return timedelta(days=0) <= age <= timedelta(days=days)
+    return False
+
+
 def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
+    now = datetime.now()
     names = "、".join(company["name"] for company in companies)
-    top_events = events[:3]
-    top_candidates = official_candidates[:3]
+    fresh_events = [item for item in events if is_recent(item, now, days=2)]
+    fresh_candidates = [item for item in official_candidates if is_recent(item, now, days=2)]
+    top_events = fresh_events[:3]
+    top_candidates = fresh_candidates[:5]
 
     if top_events:
         key_changes = []
@@ -177,20 +218,21 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
    动作：{event["action"]}"""
             )
         changes_block = "\n\n".join(key_changes)
-        conclusion = f"当前事件库已整理出 {len(events)} 条已判断事件，今天最值得先看的是 {top_events[0]['company_name']}。"
-        no_action = "- 其余公司今天暂不新增高优先级动作，维持原判断。"
+        conclusion = f"今天在已判断事件里，最值得先看的是 {top_events[0]['company_name']}。"
+        no_action = "- 其余公司今天暂不新增高优先级已判断事件，维持观察。"
         validation_questions = derive_validation_questions(top_events[0])
         next_check = "\n".join(f"  {idx}. {question}" for idx, question in enumerate(validation_questions, start=1))
-        tomorrow_focus = f"- 继续补第一版真实来源抓取，让日报从样例事件过渡到官方实时事件\n- 优先增强 {top_events[0]['company_name']} 的后续验证链路"
+        tomorrow_focus = f"- 继续跟踪 {top_events[0]['company_name']} 后续是否有新增官方披露\n- 继续提升官方候选去噪与升级质量"
     else:
-        changes_block = f"""1. 公司：系统层
-   事实：当前已加载 {len(companies)} 家核心跟踪公司配置：{names}。
-   判断：公司池和官方来源入口已经具备云端执行所需的基础结构。
-   动作：维持原判断"""
-        conclusion = "当前云端版日报骨架已跑通，但事件库还没有生成出可用的已判断事件。"
-        no_action = "- 当前不生成伪研究结论，避免在无真实事件时制造噪音。"
-        next_check = "事件库生成、企业微信推送链路、GitHub Actions 定时运行"
-        tomorrow_focus = "- 先跑通事件库生成\n- 再接企业微信机器人"
+        changes_block = """1. 公司：系统层
+   事件：今日未发现新增可直接入库的已判断事件
+   核心内容：当前选定公司范围内，没有出现足够明确、足够重要、且已完成研判的当日/近期新事件。
+   为什么重要：日报应优先反映最新变化，而不是重复播报历史研究内容。
+   动作：维持观察"""
+        conclusion = "今天没有新增值得直接推送的已判断研究事件。"
+        no_action = "- 当前不重复播报旧研究内容，避免把存量结论伪装成今日新闻。"
+        next_check = "继续看下一轮官方披露、财报、电话会和管理层口径是否出现新增变化"
+        tomorrow_focus = "- 继续扫描官方来源中的新增线索\n- 只有出现当日/近期新变化时才升级为重点简报"
 
     if top_candidates:
         candidate_lines = []
@@ -203,7 +245,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
             )
         candidate_block = "\n\n".join(candidate_lines)
     else:
-        candidate_block = "- 今天没有新增可入库的官方候选事件。当前云端快照链路是通的，但还需要继续增强网页抓取和候选抽取质量。"
+        candidate_block = "- 今天没有新增可入库的官方候选事件；系统已完成扫描，但没有发现足够新的、足够清晰的官方线索。"
 
     return f"""# 竹鉴日报 | {today}
 
@@ -226,7 +268,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
 决策提示：
 
 - 研究动作：优先推进真实来源抓取、事件抽取与公司状态回写
-- 资金动作建议：继续观察
+- 资金动作建议：继续观察；若当天没有新变化，则不做额外动作
 - 下一次验证点：
 {next_check}
 

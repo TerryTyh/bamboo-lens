@@ -85,6 +85,7 @@ def parse_company_events(company_id: str) -> list[dict]:
             {
                 "title": clean(title),
                 "date": clean(date_text),
+                "fetched_at": "",
                 "type": clean(event_type),
                 "fact": clean(fact),
                 "judgment": clean(judgment),
