@@ -17,8 +17,7 @@
       "tier": "A",
       "theme": "Advanced foundry",
       "official_sources": [
-        "https://investor.tsmc.com/english/quarterly-results",
-        "https://pr.tsmc.com/english"
+        "https://investor.tsmc.com/japanese/quarterly-results"
       ]
     },
     {
@@ -70,8 +69,7 @@
       "tier": "A",
       "theme": "Complex manufacturing",
       "official_sources": [
-        "https://www.luxshare-ict.com/investors/financial-reports.html?tp=1",
-        "https://www.luxshare-ict.com/en/news/"
+        "https://www.luxshare-ict.com/en/investors/financial-reports.html"
       ]
     },
     {
@@ -82,7 +80,7 @@
       "theme": "Zero-carbon power platform",
       "official_sources": [
         "https://www.constellationenergy.com/newsroom.html",
-        "https://investors.constellationenergy.com/news-events/default.aspx"
+        "https://investors.constellationenergy.com/news-releases"
       ]
     }
   ]

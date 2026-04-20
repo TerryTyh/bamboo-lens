@@ -297,6 +297,34 @@ def extract_constellation_candidates(text_nodes: list[tuple[str, str]]) -> list[
     return dedupe_items(focused)
 
 
+def extract_luxshare_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=3)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("report", "annual", "quarter", "financial", "results", "summary")
+        )
+    ]
+    return dedupe_items(focused)
+
+
+def extract_inovance_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=3)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in ("inovance", "automation", "launch", "solution", "exhibition", "report", "results")
+        )
+    ]
+    return dedupe_items(focused)
+
+
 def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
     text_nodes = parse_text_nodes(html)
 
@@ -312,6 +340,10 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
         return extract_gevernova_candidates(text_nodes)
     if company_id == "constellation":
         return extract_constellation_candidates(text_nodes)
+    if company_id == "luxshare":
+        return extract_luxshare_candidates(text_nodes)
+    if company_id == "inovance":
+        return extract_inovance_candidates(text_nodes)
 
     return dedupe_items(build_items_from_nodes(text_nodes))
 
