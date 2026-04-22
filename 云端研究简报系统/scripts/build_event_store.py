@@ -98,6 +98,69 @@ def parse_company_events(company_id: str) -> list[dict]:
     return events
 
 
+def promote_tsmc_candidates(candidates: list[dict]) -> list[dict]:
+    promoted: list[dict] = []
+    for item in candidates:
+        title = clean(item.get("title", ""))
+        date_text = clean(item.get("date", ""))
+        fetched_at = clean(item.get("fetched_at", ""))
+        source_url = item.get("source_url", "")
+        source_file = item.get("source_file", "")
+        lower = title.lower()
+
+        event_type = ""
+        fact = ""
+        judgment = ""
+        action = ""
+        priority = ""
+
+        if "reports first quarter eps" in lower:
+            event_type = "财报"
+            fact = f"TSMC 在 {date_text} 发布 2026 年第一季度业绩，标题显示第一季度 EPS 为 NT$22.08。来源：{source_url}"
+            judgment = "这是 TSMC 最关键的季度经营更新之一，通常会直接影响市场对先进制程需求、盈利能力和资本开支回报的判断。"
+            action = "提升优先级"
+            priority = "P1"
+        elif "revenue report" in lower:
+            month_label = title.replace("TSMC ", "").replace(" Revenue Report", "")
+            event_type = "月度营收"
+            fact = f"TSMC 在 {date_text} 发布《{month_label} Revenue Report》，说明月度营收已有新增官方披露。来源：{source_url}"
+            judgment = "月度营收报告能帮助我们更快验证 AI、HPC 与先进制程需求是否仍在延续，是季度财报之间最有价值的高频跟踪点之一。"
+            action = "继续跟踪"
+            priority = "P2"
+        elif "board of directors meeting resolutions" in lower:
+            event_type = "资本配置"
+            fact = f"TSMC 在 {date_text} 披露董事会决议相关更新。来源：{source_url}"
+            judgment = "董事会决议往往涉及资本开支、股东回报或重要治理动作，对评估资本配置质量很有参考意义。"
+            action = "继续跟踪"
+            priority = "P2"
+        elif "annual report" in lower or "form 20-f" in lower:
+            event_type = "年报"
+            fact = f"TSMC 在 {date_text} 提交 2025 年 Form 20-F 年报文件。来源：{source_url}"
+            judgment = "年报文件更适合沉淀长期研究底稿，短期交易价值次于季度业绩和月度营收，但对补全风险、治理和资本配置细节很重要。"
+            action = "维持原判断"
+            priority = "P3"
+
+        if not event_type:
+            continue
+
+        promoted.append(
+            {
+                "title": title,
+                "date": date_text,
+                "fetched_at": fetched_at,
+                "type": event_type,
+                "fact": fact,
+                "judgment": judgment,
+                "action": action,
+                "priority": priority,
+                "sort_key": parse_sort_key(date_text) or item.get("sort_key", 0),
+                "source_doc": source_file or source_url,
+            }
+        )
+
+    return promoted
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     official_candidates = load_official_candidates()
@@ -108,13 +171,18 @@ def main() -> None:
 
     for company in load_companies():
         company_id = company["id"]
+        company_candidates = official_candidates.get("companies", {}).get(company_id, [])
+        events = parse_company_events(company_id)
+        if company_id == "tsmc":
+            events.extend(promote_tsmc_candidates(company_candidates))
+            events = sorted(events, key=lambda row: row.get("sort_key", 0), reverse=True)
         payload["companies"][company_id] = {
             "name": company["name"],
             "market": company["market"],
             "tier": company["tier"],
             "theme": company["theme"],
-            "events": parse_company_events(company_id),
-            "official_candidates": official_candidates.get("companies", {}).get(company_id, []),
+            "events": events,
+            "official_candidates": company_candidates,
         }
 
     EVENT_STORE_FILE.write_text(
