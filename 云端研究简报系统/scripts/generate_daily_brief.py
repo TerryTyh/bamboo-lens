@@ -189,7 +189,20 @@ def parse_date_like(value: str) -> datetime | None:
     return None
 
 
-def is_recent(item: dict, today: datetime, days: int = 2) -> bool:
+def is_recent_event(item: dict, today: datetime, days: int = 2) -> bool:
+    parsed = parse_date_like(item.get("date", ""))
+    if parsed is not None:
+        age = today.date() - parsed.date()
+        return timedelta(days=0) <= age <= timedelta(days=days)
+
+    parsed = parse_date_like(item.get("fetched_at", ""))
+    if parsed is not None:
+        age = today.date() - parsed.date()
+        return timedelta(days=0) <= age <= timedelta(days=days)
+    return False
+
+
+def is_recent_candidate(item: dict, today: datetime, days: int = 2) -> bool:
     for key in ("fetched_at", "date"):
         parsed = parse_date_like(item.get(key, ""))
         if parsed is None:
@@ -203,8 +216,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
     today = datetime.now().strftime("%Y-%m-%d")
     now = datetime.now()
     names = "、".join(company["name"] for company in companies)
-    fresh_events = [item for item in events if is_recent(item, now, days=2)]
-    fresh_candidates = [item for item in official_candidates if is_recent(item, now, days=2)]
+    fresh_events = [item for item in events if is_recent_event(item, now, days=2)]
+    fresh_candidates = [item for item in official_candidates if is_recent_candidate(item, now, days=2)]
     top_events = fresh_events[:3]
     top_candidates = fresh_candidates[:5]
 

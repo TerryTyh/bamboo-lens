@@ -103,7 +103,6 @@ def promote_tsmc_candidates(candidates: list[dict]) -> list[dict]:
     for item in candidates:
         title = clean(item.get("title", ""))
         date_text = clean(item.get("date", ""))
-        fetched_at = clean(item.get("fetched_at", ""))
         source_url = item.get("source_url", "")
         source_file = item.get("source_file", "")
         lower = title.lower()
@@ -147,7 +146,7 @@ def promote_tsmc_candidates(candidates: list[dict]) -> list[dict]:
             {
                 "title": title,
                 "date": date_text,
-                "fetched_at": fetched_at,
+                "fetched_at": "",
                 "type": event_type,
                 "fact": fact,
                 "judgment": judgment,
