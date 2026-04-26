@@ -16,6 +16,7 @@ MANIFEST_FILE = SNAPSHOT_DIR / "manifest.json"
 OUTPUT_FILE = ROOT / "outputs" / "official_candidates.json"
 
 DATE_REGEX = re.compile(r"(20\d{2}[-/年.]\d{1,2}(?:[-/月.]\d{1,2})?)")
+COMPACT_DATE_REGEX = re.compile(r"\b(20\d{2})(\d{2})(\d{2})T?\d*")
 EN_DATE_REGEX = re.compile(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+20\d{2})", re.IGNORECASE)
 NOISE_PATTERNS = (
     "cookie",
@@ -94,6 +95,15 @@ def clean_candidate(text: str) -> str:
 
 
 def parse_date(value: str) -> tuple[str, int]:
+    compact_match = COMPACT_DATE_REGEX.search(value or "")
+    if compact_match:
+        year, month, day = compact_match.groups()
+        try:
+            parsed = datetime.strptime(f"{year}-{month}-{day}", "%Y-%m-%d")
+            return parsed.strftime("%Y-%m-%d"), int(parsed.strftime("%Y%m%d"))
+        except ValueError:
+            pass
+
     match = DATE_REGEX.search(value or "")
     if match:
         raw = match.group(1)
@@ -404,7 +414,8 @@ def extract_constellation_investor_markdown(raw: str) -> list[dict]:
     calendar_pattern = re.compile(r"https://www\.google\.com/calendar/render\?([^\s)]+)")
     for query_string in calendar_pattern.findall(raw):
         params = urllib.parse.parse_qs(query_string)
-        title = clean_candidate(urllib.parse.unquote(params.get("text", [""])[0]))
+        title = normalize_text(urllib.parse.unquote(params.get("text", [""])[0]))
+        title = title.replace("Constellation Energy Corporation - ", "").strip()
         dates = urllib.parse.unquote(params.get("dates", [""])[0])
         lowered = title.lower()
         if lowered in seen or not title:
@@ -422,7 +433,7 @@ def extract_constellation_investor_markdown(raw: str) -> list[dict]:
         date_text, sort_key = parse_date(dates)
         items.append(
             {
-                "title": title.replace("Constellation Energy Corporation - ", "").strip(),
+                "title": title,
                 "date": date_text,
                 "sort_key": sort_key,
                 "tag": "markdown",
