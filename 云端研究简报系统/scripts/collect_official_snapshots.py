@@ -44,6 +44,14 @@ def fetch(url: str) -> str:
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
     }
+    if "inovance.com/portal-front/api/" in url:
+        headers.update(
+            {
+                "Accept": "application/json, text/plain, */*",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": "https://www.inovance.com/news/list?typeId=1",
+            }
+        )
     context = ssl.create_default_context()
 
     def _read(target_url: str) -> str:

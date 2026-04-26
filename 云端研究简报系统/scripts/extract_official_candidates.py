@@ -163,6 +163,14 @@ def parse_text_nodes(html: str) -> list[tuple[str, str]]:
     return parser.text_nodes
 
 
+def parse_json_payload(raw: str) -> dict | None:
+    try:
+        payload = json.loads(raw)
+    except json.JSONDecodeError:
+        return None
+    return payload if isinstance(payload, dict) else None
+
+
 def nearest_date(text_nodes: list[tuple[str, str]], index: int, window: int = 6) -> tuple[str, int]:
     left = max(0, index - window)
     right = min(len(text_nodes), index + window + 1)
@@ -369,6 +377,54 @@ def extract_inovance_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]
     return dedupe_items(focused)
 
 
+def extract_inovance_candidates_from_json(payload: dict, url: str) -> list[dict]:
+    items: list[dict] = []
+
+    if "/api/product/launch/listPage" in url:
+        for row in payload.get("rows", []) or []:
+            title = clean_candidate(row.get("name", ""))
+            date_text, sort_key = parse_date(str(row.get("launchDate", "")))
+            if not title or not sort_key:
+                continue
+            items.append(
+                {
+                    "title": title,
+                    "date": date_text,
+                    "sort_key": sort_key,
+                    "tag": "json",
+                    "score": 8,
+                }
+            )
+
+    if "/api/home/search" in url:
+        for row in ((payload.get("data") or {}).get("news") or []):
+            title = clean_candidate(row.get("newsTitle", ""))
+            if not title:
+                continue
+            lowered = title.lower()
+            if any(noise in lowered for noise in ("招标公示", "项目招标", "集采项目", "普通家具")):
+                continue
+            if not any(
+                keyword in title
+                for keyword in ("新品", "发布会", "机器人", "价格调整", "自动化", "央视", "战略合作")
+            ):
+                continue
+            date_text, sort_key = parse_date(str(row.get("createTime") or row.get("beginDate") or ""))
+            if not sort_key:
+                continue
+            items.append(
+                {
+                    "title": title,
+                    "date": date_text,
+                    "sort_key": sort_key,
+                    "tag": "json",
+                    "score": 7,
+                }
+            )
+
+    return dedupe_items(items)
+
+
 def extract_luxshare_candidates_from_html(html: str) -> list[dict]:
     items: list[dict] = []
     patterns = [
@@ -417,6 +473,10 @@ def extract_constellation_candidates_from_html(html: str) -> list[dict]:
 
 
 def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[dict]:
+    payload = parse_json_payload(html)
+    if payload and company_id == "inovance":
+        return extract_inovance_candidates_from_json(payload, url)
+
     if company_id == "tsmc" and "Markdown Content:" in html:
         return extract_tsmc_candidates_from_markdown(html)
 

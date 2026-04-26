@@ -49,7 +49,9 @@
       "tier": "A",
       "theme": "Industrial automation platform",
       "official_sources": [
-        "https://www.inovance.com/"
+        "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
+        "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
+        "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2"
       ]
     },
     {
