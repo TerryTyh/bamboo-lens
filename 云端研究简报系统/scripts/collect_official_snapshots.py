@@ -53,6 +53,7 @@ def fetch(url: str) -> str:
             }
         )
     context = ssl.create_default_context()
+    host = urlparse(url).netloc.lower()
 
     def _read(target_url: str) -> str:
         request = urllib.request.Request(target_url, headers=headers, method="GET")
@@ -63,13 +64,18 @@ def fetch(url: str) -> str:
                 raw = gzip.decompress(raw)
             return raw.decode("utf-8", errors="ignore")
 
+    def _proxy_url(target_url: str) -> str:
+        return f"https://r.jina.ai/http://{target_url.replace('https://', '').replace('http://', '')}"
+
     try:
         return _read(url)
     except HTTPError as error:
-        host = urlparse(url).netloc.lower()
         if error.code == 403 and ("tsmc.com" in host):
-            proxy_url = f"https://r.jina.ai/http://{url.replace('https://', '').replace('http://', '')}"
-            return _read(proxy_url)
+            return _read(_proxy_url(url))
+        raise
+    except Exception:
+        if host == "investors.constellationenergy.com":
+            return _read(_proxy_url(url))
         raise
 
 
