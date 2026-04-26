@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import urllib.parse
 from collections import defaultdict
 from datetime import datetime
 from html.parser import HTMLParser
@@ -374,6 +375,95 @@ def extract_constellation_investor_candidates(text_nodes: list[tuple[str, str]])
     return dedupe_items(focused)
 
 
+def extract_constellation_investor_markdown(raw: str) -> list[dict]:
+    items: list[dict] = []
+    seen: set[str] = set()
+    raw = raw.replace("\r\n", "\n")
+
+    event_pattern = re.compile(
+        r"\n([A-Z][^\n]{8,140}?(?:Earnings Conference Call|Annual Meeting of Shareholders|Business and Earnings Outlook Conference Call))\n\s*\n\s*([A-Z][a-z]{2,8}\s+\d{1,2},\s+20\d{2})",
+        re.MULTILINE,
+    )
+    for title, date_source in event_pattern.findall(raw):
+        title = clean_candidate(title)
+        lowered = title.lower()
+        if lowered in seen:
+            continue
+        seen.add(lowered)
+        date_text, sort_key = parse_date(date_source)
+        items.append(
+            {
+                "title": title,
+                "date": date_text,
+                "sort_key": sort_key,
+                "tag": "markdown",
+                "score": 9,
+            }
+        )
+
+    calendar_pattern = re.compile(r"https://www\.google\.com/calendar/render\?([^\s)]+)")
+    for query_string in calendar_pattern.findall(raw):
+        params = urllib.parse.parse_qs(query_string)
+        title = clean_candidate(urllib.parse.unquote(params.get("text", [""])[0]))
+        dates = urllib.parse.unquote(params.get("dates", [""])[0])
+        lowered = title.lower()
+        if lowered in seen or not title:
+            continue
+        if not any(
+            keyword in lowered
+            for keyword in (
+                "earnings conference call",
+                "annual meeting of shareholders",
+                "business and earnings outlook conference",
+            )
+        ):
+            continue
+        seen.add(lowered)
+        date_text, sort_key = parse_date(dates)
+        items.append(
+            {
+                "title": title.replace("Constellation Energy Corporation - ", "").strip(),
+                "date": date_text,
+                "sort_key": sort_key,
+                "tag": "markdown",
+                "score": 8,
+            }
+        )
+
+    link_pattern = re.compile(r"\*\s+\[([^\]]+)\]\((https?://[^)]+)\)")
+    for title, url in link_pattern.findall(raw):
+        title = clean_candidate(title)
+        lowered = title.lower()
+        if lowered in seen:
+            continue
+        if not any(
+            keyword in lowered
+            for keyword in (
+                "earnings release and tables",
+                "business and earnings outlook presentation",
+                "proxy statement",
+                "10k annual report",
+                "announcement presentation",
+                "investor presentation",
+            )
+        ):
+            continue
+        seen.add(lowered)
+        date_text, sort_key = parse_date(title)
+        items.append(
+            {
+                "title": title,
+                "date": date_text,
+                "sort_key": sort_key,
+                "tag": "markdown",
+                "score": 8,
+                "source_url": url,
+            }
+        )
+
+    return dedupe_items(items)
+
+
 def extract_luxshare_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
     items = build_items_from_nodes(text_nodes, min_score=3)
     focused = [
@@ -504,6 +594,8 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
 
     if company_id == "tsmc" and "Markdown Content:" in html:
         return extract_tsmc_candidates_from_markdown(html)
+    if company_id == "constellation" and "Markdown Content:" in html and "investors.constellationenergy.com" in url:
+        return extract_constellation_investor_markdown(html)
 
     text_nodes = parse_text_nodes(html)
 
