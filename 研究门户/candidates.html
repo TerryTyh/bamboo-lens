@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>官方候选池 | 竹鉴</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero dashboard-hero compact-hero">
+        <div class="hero-copy">
+          <a class="back-link" href="./index.html">← 返回研究门户</a>
+          <p class="eyebrow">Candidate Pool</p>
+          <h1>官方候选池</h1>
+          <p class="hero-text">这里收拢系统从官方来源抓到、但还没有升级为正式研究事件的线索。</p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-stat">
+            <span class="label">候选总数</span>
+            <span id="candidateTotal" class="value">-</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">覆盖公司</span>
+            <span id="candidateCompanyCount" class="value">-</span>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Review Queue</p>
+            <h2>待研判线索</h2>
+            <p class="muted">候选不是投资结论。它们先进入这里，后续再筛选、研判，并升级为正式研究事件。</p>
+          </div>
+          <div id="candidateFeed" class="event-grid masonry-grid"></div>
+        </section>
+      </main>
+    </div>
+    <script src="./candidate-data.js"></script>
+    <script src="./candidates.js"></script>
+  </body>
+</html>
