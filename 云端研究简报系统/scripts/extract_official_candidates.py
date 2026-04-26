@@ -349,6 +349,31 @@ def extract_constellation_candidates(text_nodes: list[tuple[str, str]]) -> list[
     return dedupe_items(focused)
 
 
+def extract_constellation_investor_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=2)
+    focused = [
+        item
+        for item in items
+        if item["sort_key"]
+        and any(
+            keyword in item["title"].lower()
+            for keyword in (
+                "earnings release",
+                "earnings webcast",
+                "earnings call",
+                "conference call",
+                "annual meeting",
+                "business and earnings outlook",
+                "results",
+                "quarter",
+                "financial",
+                "presentation",
+            )
+        )
+    ]
+    return dedupe_items(focused)
+
+
 def extract_luxshare_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
     items = build_items_from_nodes(text_nodes, min_score=3)
     focused = [
@@ -493,6 +518,8 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
     if company_id == "gevernova":
         return extract_gevernova_candidates(text_nodes)
     if company_id == "constellation":
+        if "investors.constellationenergy.com" in url:
+            return extract_constellation_investor_candidates(text_nodes)
         return extract_constellation_candidates_from_html(html) or extract_constellation_candidates(text_nodes)
     if company_id == "luxshare":
         return extract_luxshare_candidates_from_html(html) or extract_luxshare_candidates(text_nodes)
