@@ -9,6 +9,9 @@ jobs:
   daily-brief:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     defaults:
       run:
         working-directory: 云端研究简报系统
@@ -31,9 +34,27 @@ jobs:
           python3 scripts/generate_daily_brief.py
 
       - name: Send to WeCom
+        continue-on-error: true
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         run: python3 scripts/send_wecom.py outputs/daily_brief.md
+
+      - name: Persist outputs to repository
+        working-directory: .
+        run: |
+          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js; then
+            echo "No generated output changes to commit."
+            exit 0
+          fi
+
+          git config user.name "bamboo-lens-bot"
+          git config user.email "bamboo-lens-bot@users.noreply.github.com"
+          git add 云端研究简报系统/outputs/daily_brief.md
+          git add 云端研究简报系统/outputs/event_store.json
+          git add 云端研究简报系统/outputs/official_candidates.json
+          git add 研究门户/candidate-data.js
+          git commit -m "chore: update Bamboo Lens daily outputs"
+          git push
 
       - name: Upload brief artifacts
         if: ${{ always() }}
