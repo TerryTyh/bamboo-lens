@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>竹鉴 | Bamboo Lens</title>
-    <link rel="stylesheet" href="./styles.css?v=20260502-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260502-3" />
   </head>
   <body>
     <div class="page-shell">
@@ -18,6 +18,7 @@
           <div class="hero-actions">
             <a class="button primary" href="#workbench">下一步工作台</a>
             <a class="button primary" href="#cloudSync">云端同步</a>
+            <a class="button primary" href="#decisionSystem">决策队列</a>
             <a class="button primary" href="#updates">最近更新</a>
             <a class="button secondary" href="#companies">公司主页</a>
             <a class="button secondary" href="./candidates.html">官方候选池</a>
@@ -120,6 +121,20 @@
               </div>
             </article>
           </div>
+        </section>
+
+        <section id="decisionSystem" class="section decision-system-section">
+          <div class="section-heading decision-heading">
+            <div>
+              <p class="section-kicker">Decision Queue</p>
+              <h2>动态决策队列</h2>
+              <p class="muted">这里不是新闻列表，而是系统把“最新变化”转成“下一步该处理什么”。先读队列，再决定是否更新公司主页、估值或动作。</p>
+            </div>
+            <div id="decisionStats" class="decision-stats">
+              <span>读取中</span>
+            </div>
+          </div>
+          <div id="decisionQueueFeed" class="decision-queue-grid"></div>
         </section>
 
         <section id="valuation" class="section">
@@ -300,6 +315,7 @@
     </div>
     <script src="./company-event-data.js?v=20260426-3"></script>
     <script src="./candidate-data.js?v=20260502-2"></script>
-    <script src="./index.js?v=20260502-2"></script>
+    <script src="./decision-data.js?v=20260502-1"></script>
+    <script src="./index.js?v=20260502-3"></script>
   </body>
 </html>

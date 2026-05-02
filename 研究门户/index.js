@@ -117,6 +117,70 @@ function renderCloudSync() {
   renderCandidateStats();
 }
 
+function getDecisionLink(item) {
+  if (item.source_type === "formal_event" && Number.isInteger(item.event_index)) {
+    return `./event.html?company=${encodeURIComponent(item.company)}&event=${item.event_index}&return=company&v=20260412-24`;
+  }
+  if (item.source_url) return item.source_url;
+  return "./candidates.html";
+}
+
+function getDecisionLinkLabel(item) {
+  if (item.source_type === "formal_event") return "查看事件详情";
+  if (item.source_url) return "打开官方原文";
+  return "进入候选池";
+}
+
+function renderDecisionQueue() {
+  const feed = document.getElementById("decisionQueueFeed");
+  const stats = document.getElementById("decisionStats");
+  const payload = window.BAMBOO_LENS_DECISION_QUEUE;
+  if (!feed || !stats) return;
+
+  if (!payload?.items?.length) {
+    stats.innerHTML = "<span>暂无待处理</span>";
+    feed.innerHTML = '<p class="muted">当前没有进入决策队列的事件或候选。</p>';
+    return;
+  }
+
+  const items = payload.items.slice(0, 8);
+  const summary = payload.summary || {};
+  stats.innerHTML = `
+    <span>队列 ${summary.total || payload.items.length} 条</span>
+    <span>正式事件 ${summary.formal_events || 0}</span>
+    <span>候选 ${summary.official_candidates || 0}</span>
+  `;
+
+  feed.innerHTML = items.map((item) => {
+    const isCandidate = item.source_type === "official_candidate";
+    const link = getDecisionLink(item);
+    const externalAttrs = isCandidate && item.source_url ? ' target="_blank" rel="noreferrer"' : "";
+    return `
+      <article class="decision-card ${isCandidate ? "candidate" : "formal"}">
+        <div class="decision-card-top">
+          <span class="decision-stage">${escapeHtml(item.stage)}</span>
+          <span class="decision-score">Score ${item.score}</span>
+        </div>
+        <div class="event-meta">
+          <span>${escapeHtml(item.date || "日期待确认")}</span>
+          <span>${escapeHtml(item.company_name)}</span>
+        </div>
+        <h3>${escapeHtml(item.title)}</h3>
+        <div class="decision-action-row">
+          <span>${escapeHtml(item.priority || "待定")}</span>
+          <strong>${escapeHtml(item.decision_action)}</strong>
+        </div>
+        <p>${escapeHtml(item.why)}</p>
+        <div class="decision-next">
+          <strong>下一步</strong>
+          <p>${escapeHtml(item.read_next)}</p>
+        </div>
+        <a class="event-link" href="${link}"${externalAttrs}>${getDecisionLinkLabel(item)}</a>
+      </article>
+    `;
+  }).join("");
+}
+
 function renderTimelineFeed() {
   const feed = document.getElementById("timelineFeed");
   const count = document.getElementById("timelineCount");
@@ -141,4 +205,5 @@ function renderTimelineFeed() {
 }
 
 renderCloudSync();
+renderDecisionQueue();
 renderTimelineFeed();

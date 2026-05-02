@@ -639,6 +639,113 @@ a:hover {
   font-size: 22px;
 }
 
+.decision-system-section {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 243, 0.96), rgba(248, 242, 231, 0.9)),
+    var(--surface);
+}
+
+.decision-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.decision-heading h2 {
+  margin-bottom: 10px;
+}
+
+.decision-stats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.decision-stats span,
+.decision-stage,
+.decision-score {
+  display: inline-flex;
+  width: fit-content;
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.decision-queue-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.decision-card {
+  display: flex;
+  min-height: 360px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 24px;
+  background: #fffaf3;
+  border: 1px solid var(--border);
+}
+
+.decision-card.formal {
+  background: linear-gradient(180deg, #f4fbf3 0%, #fffaf3 100%);
+}
+
+.decision-card.candidate {
+  background: linear-gradient(180deg, #fff5e8 0%, #fffaf3 100%);
+}
+
+.decision-card-top,
+.decision-action-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.decision-score {
+  color: #7a421c;
+  background: #fff2df;
+}
+
+.decision-card h3 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.decision-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.decision-action-row span {
+  color: var(--muted);
+}
+
+.decision-action-row strong {
+  color: var(--accent);
+}
+
+.decision-next {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.decision-next strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
 .card p,
 .card li {
   color: var(--muted);
@@ -1538,6 +1645,7 @@ a:hover {
   .status-strip,
   .company-kpi-grid,
   .cloud-sync-grid,
+  .decision-queue-grid,
   .valuation-overview-grid,
   .impact-stack,
   .deep-grid,
@@ -1575,6 +1683,14 @@ a:hover {
     justify-content: flex-start;
   }
 
+  .decision-heading {
+    flex-direction: column;
+  }
+
+  .decision-stats {
+    justify-content: flex-start;
+  }
+
   .masonry-grid {
     column-count: 2;
   }
@@ -1608,6 +1724,7 @@ a:hover {
   .status-strip,
   .company-kpi-grid,
   .cloud-sync-grid,
+  .decision-queue-grid,
   .valuation-overview-grid,
   .impact-stack,
   .deep-grid,

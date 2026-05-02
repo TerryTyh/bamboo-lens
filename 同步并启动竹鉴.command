@@ -12,6 +12,7 @@ git pull --ff-only
 
 echo ""
 echo "2. 正在生成本周同步摘要..."
+python3 云端研究简报系统/scripts/build_decision_queue.py
 python3 云端研究简报系统/scripts/build_weekend_sync_summary.py
 echo "   摘要位置：$PROJECT_DIR/云端研究简报系统/outputs/weekend_sync_summary.md"
 
