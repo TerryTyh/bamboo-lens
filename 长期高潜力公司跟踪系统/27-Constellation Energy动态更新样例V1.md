@@ -14,7 +14,42 @@
 - 原因：
   近期官方披露已经很清楚，Constellation 的价值不再只是“稳定公用事业现金流”，而是在稳定零碳电力、数据中心长期供电和 Calpine 并购整合之后，逐步被市场重新理解为更强的成长型电力平台。当前真正要盯的，是长期合同和整合是否兑现，而不是只看能源主题情绪。
 
-## 二、本次纳入系统的 5 条动态
+## 二、本次纳入系统的 6 条动态
+
+### 动态 0：2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台
+
+- 日期：2026-03-31
+- 事件类型：管理层展望 / 财务指引
+- 原文链接：
+  - [Constellation 2026 Business and Earnings Outlook Conference Call](https://investors.constellationenergy.com/events/event-details/constellation-energy-corporation-2026-business-and-earnings-outlook-conference)
+  - [2026 Business and Earnings Outlook Presentation](https://investors.constellationenergy.com/static-files/2a1fcbce-ab5d-40fa-b349-5674d3287472)
+  - [Constellation Holds 2026 Business and Earnings Outlook Conference Call](https://www.constellationenergy.com/news/2026/03/constellation-holds-2026-business-and-earnings-outlook-conference-call.html)
+- 原文摘要：
+  这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。它真正重要的地方，是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。
+
+  第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。
+
+  第二组是资产稀缺性。合并 Calpine 后，公司拥有约 55GW 发电组合，并强调拥有美国最大的核电、天然气和地热发电资产组合之一。核电提供清洁、稳定、可调度电力；天然气和地热增强组合灵活性；商业平台则负责把电力能力卖给大型客户。
+
+  第三组是未计入的上行空间。公司明确说，增长展望尚未包括捕捉 147 million MWh 年度可用核电电量溢价、额外天然气合同和增厚型资本配置。这一点对估值很关键，因为它说明当前 Base EPS 目标之外还有合同重定价和大客户供电协议的可选上行。
+
+  第四组是资本配置。公司把总回购授权提升至 50 亿美元，同时计划 39 亿美元 growth capital，投向具备吸引力回报的项目。这说明管理层既想抓住电力成长周期，也在用回购表达对长期价值的信心。
+
+  第五组是研究结论。Constellation 的主线已经不是“核电是否稀缺”这么简单，而是：稀缺电力资产能否通过长期合同、数据中心负荷、Calpine 整合和资本配置转化为可持续 EPS 与自由现金流增长。
+- 事实：
+  Constellation 在 2026 Business and Earnings Outlook 中给出 2026 adjusted operating EPS 指引 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+ 的目标。公司强调，增长展望尚未纳入 147 million MWh 年度可用核电电量捕捉溢价、额外天然气合同和增厚型资本配置带来的潜在上行。公司同时把总回购授权提升至 50 亿美元，并计划投入 39 亿美元 growth capital，用于有吸引力回报的增长项目。合并 Calpine 后，公司拥有约 55GW 发电组合，是美国最大的核电、天然气和地热发电平台之一。
+- 判断：
+  这是 `P1` 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。
+- 动作：
+  `维持 A 池核心，并提升合同与资本回报验证优先级`
+- 优先级：
+  `P1`
+- 下一次验证：
+  1. 2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。
+  2. 147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。
+  3. Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。
+  4. 39 亿美元 growth capital 是否获得管理层承诺的双位数回报。
+  5. 50 亿美元回购是否在不伤害资产负债表和增长投入的前提下执行。
 
 ### 动态 1：2025 全年业绩继续超指引中枢，股东回报进一步上调
 
@@ -116,6 +151,7 @@
 
 | 日期 | 公司 | 事件类型 | 事实 | 判断 | 动作 | 优先级 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-03-31 | Constellation Energy | 管理层展望 / 财务指引 | 2026 adjusted operating EPS 指引 11.00-12.00 美元；2026-2029 Base EPS 增长目标 20%+；147 million MWh 年度可用核电电量溢价尚未纳入增长展望；总回购授权提升至 50 亿美元 | 公司定位从核电稀缺资产进一步推向成长型电力平台，但 EPS、合同溢价和 growth capex 回报必须持续验证 | 维持 A 池核心，并提升合同与资本回报验证优先级 | P1 |
 | 2026-02-24 | Constellation Energy | 财报 | 2025 全年 Adjusted Operating EPS 为 9.39 美元，连续第四年超过指引中点，并上调股息 | 经营质量和股东回报继续强化 | 维持原判断 | P1 |
 | 2026-01-07 | Constellation Energy | 并购 / 业务扩张 | 完成 Calpine 收购，合并后装机 55GW，成为美国最大私营发电平台 | 公司边界从核电资产持有者升级为更完整的电力平台 | 提升优先级 | P1 |
 | 2026-02-09 | Constellation Energy | 客户 / 合同 | 与 CyrusOne 签订新 380MW 协议，并保留额外 380MW 独家安排，累计相关合同超 1100MW | 数据中心长期供电逻辑从概念走向验证 | 提升优先级 | P1 |

@@ -1,8 +1,19 @@
 function getCandidateDateValue(item) {
+  if (Number.isFinite(item?.sort_key)) return item.sort_key;
+
   const text = item?.date || item?.fetched_at || "";
-  const match = String(text).match(/\d{4}-?\d{2}-?\d{2}/);
-  if (!match) return 0;
-  return Number(match[0].replace(/-/g, ""));
+  const matches = String(text).match(/\d{4}[-年]?\d{1,2}(?:[-月]?\d{1,2})?/g) || [];
+  if (!matches.length) return 0;
+
+  const values = matches.map((dateText) => {
+    const parts = dateText.match(/\d+/g) || [];
+    const year = parts[0] || "0";
+    const month = (parts[1] || "1").padStart(2, "0");
+    const day = (parts[2] || "1").padStart(2, "0");
+    return Number(`${year}${month}${day}`);
+  });
+
+  return Math.max(...values);
 }
 
 function flattenCandidates() {

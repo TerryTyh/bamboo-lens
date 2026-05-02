@@ -14,7 +14,43 @@
 - 原因：
   最近几个季度的官方披露已经非常清楚，微软不是“有 AI 概念”的公司，而是 AI 已经开始实质影响其云、企业软件和平台业务的盈利结构。现在最关键的问题不再是“AI 能不能讲故事”，而是“Azure、Copilot 和资本开支能否持续转化成高质量现金流和平台黏性”。
 
-## 二、本次纳入系统的 5 条动态
+## 二、本次纳入系统的 6 条动态
+
+### 动态 0：FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元
+
+- 日期：2026-04-29
+- 事件类型：财报深读
+- 原文链接：
+  - [FY26 Q3 Press Release & Webcast](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast)
+  - [FY26 Q3 Performance](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/performance)
+  - [FY26 Q3 Intelligent Cloud Performance](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/intelligent-cloud-performance)
+  - [FY26 Q3 Cash Flows](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/cash-flows)
+- 原文摘要：
+  这次读的是 Microsoft FY26 Q3 官方财报、Performance、Intelligent Cloud 分部说明和现金流表。对 Microsoft 来说，最重要的不是总收入有没有继续增长，而是云与 AI 的增长是否足够真实，能不能覆盖越来越重的 AI 基础设施投入。
+
+  第一组是整体经营结果。FY26 Q3 收入 828.86 亿美元，同比增长 18%；营业利润 383.98 亿美元，同比增长 20%；净利润 317.78 亿美元，同比增长 23%；摊薄 EPS 4.27 美元，同比增长 23%。这说明微软仍然保持高质量利润增长，并不是只靠 AI 叙事抬估值。
+
+  第二组是云和 AI 收入。Microsoft Cloud 收入 545 亿美元，同比增长 29%；Azure and other cloud services 收入增长 40%，constant currency 增长 39%；管理层披露 AI business annual revenue run rate 超过 370 亿美元，同比增长 123%。这组数据说明 AI 已经不只是产品发布，而是进入了可量化收入阶段。
+
+  第三组是订单可见性。commercial remaining performance obligation 达 6270 亿美元，同比增长 99%。这个指标很关键，因为它代表未来合同收入的可见性。如果 RPO 高增长能逐步转成 Azure、Microsoft 365 和 AI 服务收入，微软的企业平台现金流逻辑会更稳。
+
+  第四组是利润率压力。Performance 页面明确说，Microsoft Cloud gross margin percentage 下降到 66%，原因包括持续 AI 基础设施投资和 AI 产品使用增长，同时被 Azure 与 Microsoft 365 Commercial cloud 的效率提升部分抵消。这说明 AI 正在带来收入，也在消耗毛利率。
+
+  第五组是资本开支。现金流表显示 FY26 Q3 经营现金流 466.79 亿美元，但新增 property and equipment 为 308.76 亿美元；FY26 前三季度新增 property and equipment 达 801.46 亿美元。也就是说，微软的 AI 增长不是轻资产免费发生的，后续必须持续验证这些投入能否变成更高质量收入、利润和自由现金流。
+- 事实：
+  Microsoft FY26 Q3 收入 828.86 亿美元，同比增长 18%；营业利润 383.98 亿美元，同比增长 20%；净利润 317.78 亿美元，同比增长 23%；摊薄 EPS 4.27 美元，同比增长 23%。Microsoft Cloud 收入 545 亿美元，同比增长 29%；commercial remaining performance obligation 达 6270 亿美元，同比增长 99%；Intelligent Cloud 收入 346.81 亿美元，同比增长 30%；Azure and other cloud services 收入增长 40%。公司同时披露 AI business annual revenue run rate 超过 370 亿美元，同比增长 123%。现金流侧，FY26 Q3 经营现金流 466.79 亿美元，但新增 property and equipment 为 308.76 亿美元，说明 AI 基础设施投入仍然很重。
+- 判断：
+  这是 `P1` 级别的强化信息。Microsoft 的 AI 逻辑已经不能只看 Copilot 叙事，而要看云收入、Azure 增速、RPO、AI run-rate 和资本开支效率是否能同时站住。FY26 Q3 给出的信号是：收入端和订单可见性很强，但 Microsoft Cloud 毛利率已降至 66%，资本开支仍在快速上行，所以后续判断必须从“AI 有增长”升级为“AI 投入能否形成高质量回报”。
+- 动作：
+  `维持 A 池核心，并提升财务回报验证优先级`
+- 优先级：
+  `P1`
+- 下一次验证：
+  1. Azure and other cloud services 是否仍能保持高 30% 至 40% 左右增长。
+  2. Microsoft Cloud gross margin 是否继续低于 66%，还是能通过效率提升稳定下来。
+  3. commercial RPO 的 6270 亿美元能否逐步转为高质量云收入。
+  4. 新增 property and equipment 与经营现金流之间的差距是否扩大。
+  5. Copilot、GitHub Copilot 和企业 AI 是否出现更清晰的付费渗透率、ARPU 或客户留存数据。
 
 ### 动态 1：FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元
 
@@ -115,6 +151,7 @@
 
 | 日期 | 公司 | 事件类型 | 事实 | 判断 | 动作 | 优先级 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-04-29 | Microsoft | 财报深读 | FY26 Q3 收入 828.86 亿美元，同比增长 18%；Microsoft Cloud 收入 545 亿美元，同比增长 29%；Azure 增长 40%；AI 年化收入 run-rate 超 370 亿美元；commercial RPO 达 6270 亿美元 | 云、AI 收入、订单可见性同时强化，但 Cloud 毛利率降至 66%，capex 回报成为关键验证点 | 维持 A 池核心，并提升财务回报验证优先级 | P1 |
 | 2026-01-28 | Microsoft | 财报 | FY26 Q2 收入 812.73 亿美元，同比增长 17%，Microsoft Cloud 单季收入突破 500 亿美元 | AI 与云逻辑继续扩展整个平台收入基础 | 维持原判断 | P1 |
 | 2026-01-28 | Microsoft | 财报 | Intelligent Cloud 继续强势增长，管理层强调 AI 业务规模已超过过去部分大型业务线 | 企业 AI 平台逻辑进一步强化 | 提升优先级 | P1 |
 | 2025-10-29 / 2026-01-28 | Microsoft | 财报 / 管理层表述 | FY26 Q1、Q2 持续体现 Azure、Copilot 和平台协同扩张 | 微软进入更重视兑现质量的阶段 | 维持原判断 | P1 |
@@ -140,3 +177,7 @@
 - [Microsoft FY26 Q2 Press Release](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast)
 - [Microsoft FY26 Q1 Press Release](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/press-release-webcast)
 - [Microsoft FY25 Q4 Press Release](https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/press-release-webcast)
+- [Microsoft FY26 Q3 Press Release](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast)
+- [Microsoft FY26 Q3 Performance](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/performance)
+- [Microsoft FY26 Q3 Intelligent Cloud Performance](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/intelligent-cloud-performance)
+- [Microsoft FY26 Q3 Cash Flows](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/cash-flows)

@@ -79,6 +79,7 @@ def flatten_events(store: dict) -> list[dict]:
                     "action": event["action"],
                     "priority": event["priority"],
                     "sort_key": event.get("sort_key", 0),
+                    "source_doc": event.get("source_doc", ""),
                 }
             )
     return sorted(items, key=rank_event, reverse=True)
@@ -116,6 +117,65 @@ def compact(text: str, limit: int = 82) -> str:
 
 def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
+
+
+def has_specific_evidence(text: str) -> bool:
+    value = normalize(text)
+    evidence_markers = [
+        "%",
+        "亿元",
+        "亿美元",
+        "NT$",
+        "EPS",
+        "收入",
+        "利润",
+        "毛利率",
+        "现金流",
+        "应收",
+        "应付",
+        "存货",
+        "订单",
+        "backlog",
+        "capex",
+        "客户",
+        "指引",
+    ]
+    return any(marker in value for marker in evidence_markers)
+
+
+def is_publishable_event(event: dict) -> bool:
+    """Only fully-read events should appear as daily key changes."""
+    fact = normalize(event.get("fact", ""))
+    judgment = normalize(event.get("judgment", ""))
+    source_doc = normalize(event.get("source_doc", ""))
+    priority = normalize(event.get("priority", ""))
+
+    if priority == "候选":
+        return False
+    if len(fact) < 80 or len(judgment) < 40:
+        return False
+    if not source_doc:
+        return False
+    if not has_specific_evidence(fact):
+        return False
+
+    hollow_phrases = [
+        "这是云端从官方页面自动抓到的候选更新",
+        "需进一步研判后再升级",
+        "说明月度营收已有新增官方披露",
+        "通常会直接影响",
+    ]
+    return not any(phrase in fact or phrase in judgment for phrase in hollow_phrases)
+
+
+def extract_key_evidence(event: dict) -> str:
+    fact = normalize(event.get("fact", ""))
+    if not fact:
+        return "暂无可展示证据。"
+    sentences = [item.strip(" 。；;") for item in fact.replace("；", "。").split("。") if item.strip()]
+    evidence = [sentence for sentence in sentences if has_specific_evidence(sentence)]
+    selected = evidence[:3] or sentences[:2]
+    return "；".join(selected)
 
 
 def derive_validation_questions(event: dict) -> list[str]:
@@ -216,7 +276,10 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
     today = datetime.now().strftime("%Y-%m-%d")
     now = datetime.now()
     names = "、".join(company["name"] for company in companies)
-    fresh_events = [item for item in events if is_recent_event(item, now, days=2)]
+    fresh_events = [
+        item for item in events
+        if is_recent_event(item, now, days=2) and is_publishable_event(item)
+    ]
     fresh_candidates = [item for item in official_candidates if is_recent_candidate(item, now, days=2)]
     top_events = fresh_events[:3]
     top_candidates = fresh_candidates[:5]
@@ -228,6 +291,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
                 f"""{index}. 公司：{event["company_name"]}
    事件：{normalize(event["title"])}
    核心内容：{normalize(event["fact"])}
+   关键证据：{extract_key_evidence(event)}
    为什么重要：{normalize(event["judgment"])}
    动作：{event["action"]}"""
             )
