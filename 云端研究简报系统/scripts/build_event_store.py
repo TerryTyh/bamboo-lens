@@ -114,6 +114,7 @@ def normalize_reviewed_events(company_id: str, reviewed_payload: dict) -> list[d
         events.append(
             {
                 "title": clean(item.get("title", "")),
+                "source_candidate_title": clean(item.get("source_candidate_title", "")),
                 "date": date_text,
                 "fetched_at": clean(item.get("fetched_at", "")),
                 "type": clean(item.get("type", "已研判事件")),

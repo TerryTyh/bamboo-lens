@@ -164,15 +164,28 @@ def build_candidate_item(company_id: str, company: dict, candidate: dict) -> dic
     }
 
 
+def reviewed_candidate_titles(events: list[dict]) -> set[str]:
+    titles = set()
+    for event in events:
+        for field in ("title", "source_candidate_title"):
+            title = str(event.get(field, "")).strip()
+            if title:
+                titles.add(title)
+    return titles
+
+
 def build_queue(payload: dict) -> list[dict]:
     items: list[dict] = []
     for company_id, company in payload.get("companies", {}).items():
+        reviewed_titles = reviewed_candidate_titles(company.get("events", []))
         for index, event in enumerate(company.get("events", [])):
             item = build_formal_item(company_id, company, event, index)
             if item["score"] >= 8 or item["priority"] in {"P1", "P2"}:
                 items.append(item)
 
         for candidate in company.get("official_candidates", []):
+            if candidate.get("title", "").strip() in reviewed_titles:
+                continue
             item = build_candidate_item(company_id, company, candidate)
             if item["score"] >= 5:
                 items.append(item)

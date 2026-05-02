@@ -91,6 +91,7 @@ def normalize_event(draft: dict) -> dict:
     now = datetime.now().isoformat(timespec="seconds")
     event = {
         "title": draft["title"].strip(),
+        "source_candidate_title": str(draft.get("source_candidate_title", "")).strip(),
         "date": draft["date"].strip(),
         "type": draft["type"].strip(),
         "priority": draft["priority"].strip(),
