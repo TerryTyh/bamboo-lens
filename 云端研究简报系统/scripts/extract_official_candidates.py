@@ -87,6 +87,20 @@ def load_manifest() -> list[dict]:
     return json.loads(MANIFEST_FILE.read_text(encoding="utf-8"))
 
 
+def load_existing_payload() -> dict:
+    if not OUTPUT_FILE.exists():
+        return {"generated_at": "", "companies": {}}
+    try:
+        payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {"generated_at": "", "companies": {}}
+    return payload if isinstance(payload, dict) else {"generated_at": "", "companies": {}}
+
+
+def count_candidates(payload: dict) -> int:
+    return sum(len(items) for items in (payload.get("companies") or {}).values())
+
+
 def clean_candidate(text: str) -> str:
     value = normalize_text(text)
     value = re.sub(r"\s+[|｜-]\s+.*$", "", value)
@@ -690,9 +704,19 @@ def build_payload() -> dict:
 
 def main() -> None:
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    previous_payload = load_existing_payload()
     payload = build_payload()
+    total = count_candidates(payload)
+    previous_total = count_candidates(previous_payload)
+
+    if total == 0 and previous_total > 0:
+        print(
+            "Official candidate extraction produced 0 items; "
+            f"kept previous candidate file with {previous_total} items."
+        )
+        return
+
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    total = sum(len(items) for items in payload["companies"].values())
     print(f"Official candidates written to: {OUTPUT_FILE} ({total} items)")
 
 
