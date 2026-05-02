@@ -2,7 +2,7 @@
 set -e
 
 PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
-PORTAL_URL="http://127.0.0.1:8765/研究门户/index.html#valuation"
+PORTAL_URL="http://127.0.0.1:8765/研究门户/index.html#cloudSync"
 
 cd "$PROJECT_DIR"
 
@@ -25,11 +25,12 @@ else
 fi
 
 echo ""
-echo "4. 打开门户首页估值决策总览。"
+echo "4. 打开门户首页云端同步入口。"
 open "$PORTAL_URL"
 
 echo ""
 echo "同步完成。建议先看："
-echo "- 门户首页：估值决策总览"
+echo "- 门户首页：云端同步与周末复盘"
+echo "- 估值决策总览：当前价格与动作判断"
 echo "- 官方候选池：本周待研判线索"
 echo "- 周末同步摘要：云端研究简报系统/outputs/weekend_sync_summary.md"

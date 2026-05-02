@@ -253,6 +253,233 @@ a:hover {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.finance-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.75fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.finance-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 820px;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.finance-table th,
+.finance-table td {
+  padding: 14px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.finance-table thead th {
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(215, 234, 216, 0.28);
+}
+
+.finance-table tbody th {
+  width: 150px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.finance-table tbody tr:last-child th,
+.finance-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.finance-bridge {
+  display: grid;
+  gap: 12px;
+}
+
+.finance-bridge-item {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 12px;
+  padding: 14px;
+  border-radius: 18px;
+  background: #fff8ef;
+  border: 1px solid var(--border);
+}
+
+.finance-bridge-item > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 700;
+}
+
+.finance-bridge-item h4 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.finance-bridge-item p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.finance-note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.finance-note p {
+  color: var(--muted);
+}
+
+.business-map {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.business-map-intro {
+  padding: 20px 22px;
+  border-radius: 22px;
+  background: rgba(215, 234, 216, 0.34);
+  border: 1px solid rgba(18, 71, 52, 0.1);
+}
+
+.business-map-intro h3 {
+  margin: 0 0 8px;
+}
+
+.business-map-intro p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.business-segment-grid,
+.business-moat-grid,
+.valuation-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.business-segment-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.business-moat-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.valuation-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.valuation-model-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.valuation-model-summary {
+  background:
+    linear-gradient(135deg, rgba(18, 71, 52, 0.1), rgba(199, 106, 47, 0.08)),
+    var(--surface-strong);
+}
+
+.valuation-model-summary h3 {
+  font-size: clamp(26px, 3vw, 44px);
+  line-height: 1.15;
+}
+
+.valuation-snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.valuation-snapshot-item,
+.valuation-list-item {
+  padding: 14px;
+  border-radius: 18px;
+  background: #fff8ef;
+  border: 1px solid var(--border);
+}
+
+.valuation-snapshot-item span,
+.valuation-list-item span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.valuation-snapshot-item strong {
+  display: block;
+  color: var(--ink);
+  font-size: 20px;
+}
+
+.valuation-snapshot-item p,
+.valuation-list-item p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.valuation-model-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.valuation-model-grid > .card {
+  grid-column: span 3;
+}
+
+.valuation-wide-card {
+  grid-column: span 6;
+}
+
+.valuation-list {
+  display: grid;
+  gap: 12px;
+}
+
+.segment-scale {
+  display: inline-flex;
+  width: fit-content;
+  margin: 0 0 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.business-segment-card p:last-child,
+.valuation-card p {
+  color: var(--muted);
+}
+
 .three-up {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -271,6 +498,145 @@ a:hover {
 .card h3 {
   margin: 0 0 10px;
   font-size: 20px;
+}
+
+.priority-card {
+  min-height: 210px;
+}
+
+.quality-gate {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  margin-top: 16px;
+  padding: 18px 20px;
+  border-radius: 22px;
+  background:
+    linear-gradient(135deg, rgba(18, 71, 52, 0.08), rgba(199, 106, 47, 0.08)),
+    #fff8ef;
+  border: 1px solid var(--border);
+}
+
+.quality-gate h3 {
+  margin: 0 0 6px;
+}
+
+.quality-gate p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.cloud-sync-section {
+  background:
+    linear-gradient(135deg, rgba(215, 234, 216, 0.42), rgba(255, 248, 239, 0.92)),
+    var(--surface);
+}
+
+.cloud-sync-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.cloud-sync-heading h2 {
+  margin-bottom: 10px;
+}
+
+.cloud-sync-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.button.secondary.light {
+  color: var(--accent);
+  background: rgba(255, 250, 240, 0.78);
+  border: 1px solid var(--border);
+}
+
+.cloud-sync-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) minmax(260px, 0.72fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.cloud-preview-card {
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255, 250, 243, 0.88);
+  border: 1px solid var(--border);
+}
+
+.cloud-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cloud-card-head a {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.cloud-preview {
+  display: grid;
+  gap: 8px;
+}
+
+.cloud-preview h4 {
+  margin: 0 0 2px;
+  font-size: 20px;
+}
+
+.cloud-preview strong {
+  color: var(--accent);
+}
+
+.cloud-preview p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.cloud-preview.loading {
+  color: var(--muted);
+}
+
+.cloud-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.cloud-stat-box {
+  padding: 14px;
+  border-radius: 18px;
+  background: #fff8ef;
+  border: 1px solid var(--border);
+}
+
+.cloud-stat-box.wide {
+  grid-column: span 2;
+}
+
+.cloud-stat-box span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.cloud-stat-box strong {
+  color: var(--ink);
+  font-size: 22px;
 }
 
 .card p,
@@ -428,6 +794,74 @@ a:hover {
 .company-tag.tw {
   color: #5e4f16;
   background: #f6edcd;
+}
+
+.valuation-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.valuation-decision-card {
+  display: flex;
+  min-height: 280px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 24px;
+  background: #fffaf3;
+  border: 1px solid var(--border);
+}
+
+.valuation-decision-card.watch {
+  background: linear-gradient(180deg, #f4fbf3 0%, #fffaf3 100%);
+}
+
+.valuation-decision-card.neutral {
+  background: linear-gradient(180deg, #fff8ea 0%, #fffaf3 100%);
+}
+
+.valuation-decision-card.rich {
+  background: linear-gradient(180deg, #fff1e7 0%, #fffaf3 100%);
+}
+
+.valuation-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.valuation-status {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.valuation-decision-card h3 {
+  margin: 4px 0 0;
+  font-size: 24px;
+}
+
+.valuation-decision-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.valuation-decision-card strong {
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+.valuation-decision-card a {
+  margin-top: auto;
+  font-weight: 700;
 }
 
 .tip-box {
@@ -804,6 +1238,47 @@ a:hover {
   line-height: 1.8;
 }
 
+.event-raw-field p + p {
+  margin-top: 10px;
+}
+
+.source-link-stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.source-link,
+.quality-pill {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 11px;
+  border-radius: 999px;
+  background: #eef6ed;
+  color: var(--accent);
+  border: 1px solid rgba(18, 71, 52, 0.14);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.quality-pill {
+  margin-bottom: 12px;
+  background: #fff2df;
+  color: #7a421c;
+}
+
+.evidence-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.evidence-list li {
+  margin-bottom: 10px;
+  color: var(--ink);
+  line-height: 1.8;
+}
+
 .timeline-card ul {
   margin: 0;
   padding-left: 20px;
@@ -1062,17 +1537,42 @@ a:hover {
 
   .status-strip,
   .company-kpi-grid,
+  .cloud-sync-grid,
+  .valuation-overview-grid,
   .impact-stack,
   .deep-grid,
   .deep-grid.compact-grid,
   .event-grid,
-  .event-raw-grid {
+  .event-raw-grid,
+  .finance-layout,
+  .finance-note-grid,
+  .business-segment-grid,
+  .business-moat-grid,
+  .valuation-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .valuation-model-layout,
+  .valuation-model-grid,
+  .valuation-snapshot-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .valuation-wide-card {
+    grid-column: span 2;
   }
 
   .timeline-head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .cloud-sync-heading {
+    flex-direction: column;
+  }
+
+  .cloud-sync-actions {
+    justify-content: flex-start;
   }
 
   .masonry-grid {
@@ -1107,12 +1607,29 @@ a:hover {
   .company-grid,
   .status-strip,
   .company-kpi-grid,
+  .cloud-sync-grid,
+  .valuation-overview-grid,
   .impact-stack,
   .deep-grid,
   .deep-grid.compact-grid,
   .event-grid,
-  .event-raw-grid {
+  .event-raw-grid,
+  .finance-layout,
+  .finance-note-grid,
+  .business-segment-grid,
+  .business-moat-grid,
+  .valuation-grid {
     grid-template-columns: 1fr;
+  }
+
+  .valuation-model-layout,
+  .valuation-model-grid,
+  .valuation-snapshot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .valuation-wide-card {
+    grid-column: span 1;
   }
 
   .masonry-grid {
@@ -1124,6 +1641,11 @@ a:hover {
   }
 
   .event-source-head {
+    flex-direction: column;
+  }
+
+  .quality-gate {
+    align-items: flex-start;
     flex-direction: column;
   }
 

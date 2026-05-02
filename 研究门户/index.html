@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>竹鉴 | Bamboo Lens</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260502-2" />
   </head>
   <body>
     <div class="page-shell">
@@ -13,9 +13,11 @@
           <p class="eyebrow">Bamboo Lens</p>
           <h1>竹鉴</h1>
           <p class="hero-text">
-            先看最近更新，再进公司主页。这里是你的长期投资研究驾驶舱。
+            以长期高潜力公司研究为主线，用你的真实决策场景校准研究优先级。
           </p>
           <div class="hero-actions">
+            <a class="button primary" href="#workbench">下一步工作台</a>
+            <a class="button primary" href="#cloudSync">云端同步</a>
             <a class="button primary" href="#updates">最近更新</a>
             <a class="button secondary" href="#companies">公司主页</a>
             <a class="button secondary" href="./candidates.html">官方候选池</a>
@@ -23,25 +25,193 @@
         </div>
         <div class="hero-panel">
           <div class="hero-stat">
-            <span class="label">核心池</span>
+            <span class="label">研究层级</span>
+            <span class="value">3 层</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">当前核心池</span>
             <span class="value">8 家</span>
           </div>
           <div class="hero-stat">
-            <span class="label">提升优先级</span>
-            <span class="value">6 家</span>
+            <span class="label">优先校准</span>
+            <span class="value">持仓相关</span>
           </div>
           <div class="hero-stat">
-            <span class="label">需要二次验证</span>
-            <span class="value">立讯精密</span>
-          </div>
-          <div class="hero-stat">
-            <span class="label">最近新增样例</span>
-            <span class="value">NVIDIA</span>
+            <span class="label">质量门槛</span>
+            <span class="value">原文+证据</span>
           </div>
         </div>
       </header>
 
       <main>
+        <section id="workbench" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Workbench</p>
+            <h2>接下来先补这些</h2>
+            <p class="muted">不讲大原则，直接把下一步该推进的研究任务放在这里。</p>
+          </div>
+          <div class="grid three-up">
+            <article class="card priority-card">
+              <span class="status-label">Priority 1</span>
+              <h3>补持仓相关标的</h3>
+              <p>先从你组合里已经出现的公司和主题开始补档，比如阿里、立讯、半导体/AI/机器人相关标的。</p>
+            </article>
+            <article class="card priority-card">
+              <span class="status-label">Priority 2</span>
+              <h3>重做动态入库</h3>
+              <p>没有原文链接和正文摘要的内容，不再放进公司主页动态；日程类信息只做提醒，不写判断。</p>
+            </article>
+            <article class="card priority-card">
+              <span class="status-label">Priority 3</span>
+              <h3>把日报改得更有用</h3>
+              <p>日报优先讲“和当前研究重点相关的新变化”，没有实质新信息就少发，不凑内容。</p>
+            </article>
+          </div>
+          <div class="quality-gate">
+            <div>
+              <h3>当前最该动手的事</h3>
+              <p>下一轮先选 2-3 个与你组合相关的标的补公司页，同时把浅动态从正式事件里清出去。</p>
+            </div>
+            <a class="event-link" href="./reader.html?doc=../长期高潜力公司跟踪系统/31-研究池与真实组合衔接改造计划V1.md&title=研究池与真实组合衔接改造计划">查看改造计划</a>
+          </div>
+        </section>
+
+        <section id="cloudSync" class="section cloud-sync-section">
+          <div class="section-heading cloud-sync-heading">
+            <div>
+              <p class="section-kicker">Cloud Sync</p>
+              <h2>云端同步与周末复盘</h2>
+              <p class="muted">工作日看企业微信日报，周末回到这里看云端沉淀了什么、哪些候选值得继续研判。</p>
+            </div>
+            <div class="cloud-sync-actions">
+              <a class="button primary" href="./reader.html?doc=../云端研究简报系统/outputs/weekend_sync_summary.md&title=周末同步摘要">打开周末复盘</a>
+              <a class="button secondary light" href="./reader.html?doc=../云端研究简报系统/outputs/daily_brief.md&title=最新云端日报">打开最新日报</a>
+            </div>
+          </div>
+          <div class="cloud-sync-grid">
+            <article class="cloud-preview-card daily-card">
+              <div class="cloud-card-head">
+                <span class="status-label">Latest Daily Brief</span>
+                <a href="./reader.html?doc=../云端研究简报系统/outputs/daily_brief.md&title=最新云端日报">阅读全文</a>
+              </div>
+              <div id="dailyBriefPreview" class="cloud-preview loading">正在读取云端日报...</div>
+            </article>
+            <article class="cloud-preview-card">
+              <div class="cloud-card-head">
+                <span class="status-label">Weekend Sync</span>
+                <a href="./reader.html?doc=../云端研究简报系统/outputs/weekend_sync_summary.md&title=周末同步摘要">查看复盘</a>
+              </div>
+              <div id="weekendSyncPreview" class="cloud-preview loading">正在读取周末复盘...</div>
+            </article>
+            <article class="cloud-preview-card candidate-card">
+              <div class="cloud-card-head">
+                <span class="status-label">Official Candidates</span>
+                <a href="./candidates.html">进入候选池</a>
+              </div>
+              <div id="candidateStats" class="cloud-stat-grid">
+                <div class="cloud-stat-box">
+                  <span>候选线索</span>
+                  <strong>读取中</strong>
+                </div>
+                <div class="cloud-stat-box">
+                  <span>覆盖公司</span>
+                  <strong>读取中</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="valuation" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Valuation Dashboard</p>
+            <h2>估值决策总览</h2>
+            <p class="muted">先看价格与动作，再决定深入哪家公司。这里不放方法论，只放当前可执行判断。</p>
+          </div>
+          <div class="valuation-overview-grid">
+            <article class="valuation-decision-card watch">
+              <div class="valuation-card-head">
+                <span class="company-tag hk">港股 / 中概</span>
+                <span class="valuation-status">合理偏低</span>
+              </div>
+              <h3>阿里巴巴</h3>
+              <p>云和 AI 提供重估空间，但即时零售投入和自由现金流下滑仍需验证。</p>
+              <strong>动作：继续观察，等云 EBITA、自由现金流和回购质量。</strong>
+              <a href="./company.html?company=alibaba&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card watch">
+              <div class="valuation-card-head">
+                <span class="company-tag us">美股</span>
+                <span class="valuation-status">合理偏低</span>
+              </div>
+              <h3>Microsoft</h3>
+              <p>PE 不贵，但 AI capex 很重，真正要看 Cloud 毛利率和自由现金流回报。</p>
+              <strong>动作：维持核心，等 capex 回报验证。</strong>
+              <a href="./company.html?company=microsoft&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card neutral">
+              <div class="valuation-card-head">
+                <span class="company-tag cn">A 股</span>
+                <span class="valuation-status">接近合理</span>
+              </div>
+              <h3>立讯精密</h3>
+              <p>58-60 元附近接近合理中枢，68 元附近已经偏向乐观区间。</p>
+              <strong>动作：等 2026Q1 现金流、存货和应收验证。</strong>
+              <a href="./company.html?company=luxshare&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card neutral">
+              <div class="valuation-card-head">
+                <span class="company-tag tw">全球制造</span>
+                <span class="valuation-status">合理略偏高</span>
+              </div>
+              <h3>TSMC</h3>
+              <p>先进制程与 HPC 质量很强，但新高附近需要 Q2 毛利率和 capex 回报继续兑现。</p>
+              <strong>动作：核心跟踪，等 Q2 指引兑现。</strong>
+              <a href="./company.html?company=tsmc&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card neutral">
+              <div class="valuation-card-head">
+                <span class="company-tag cn">A 股</span>
+                <span class="valuation-status">合理略偏高</span>
+              </div>
+              <h3>汇川技术</h3>
+              <p>工业平台逻辑仍好，但现金流增速、存货和减值是估值能否继续抬升的闸门。</p>
+              <strong>动作：研究积极，资金克制。</strong>
+              <a href="./company.html?company=inovance&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card rich">
+              <div class="valuation-card-head">
+                <span class="company-tag us">美股</span>
+                <span class="valuation-status">合理偏高</span>
+              </div>
+              <h3>NVIDIA</h3>
+              <p>基本面极强，但 4.8 万亿美元市值要求 FY27 Q1 继续超预期。</p>
+              <strong>动作：不追价，等收入、毛利率和推理需求验证。</strong>
+              <a href="./company.html?company=nvidia&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card rich">
+              <div class="valuation-card-head">
+                <span class="company-tag us">美股</span>
+                <span class="valuation-status">偏高</span>
+              </div>
+              <h3>GE Vernova</h3>
+              <p>订单和现金流很强，但价格已充分反映电力系统升级预期。</p>
+              <strong>动作：等 Q2/Q3 连续兑现或价格回调。</strong>
+              <a href="./company.html?company=gevernova&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+            <article class="valuation-decision-card rich">
+              <div class="valuation-card-head">
+                <span class="company-tag us">美股</span>
+                <span class="valuation-status">合理偏高</span>
+              </div>
+              <h3>Constellation Energy</h3>
+              <p>核电和 AI 用电逻辑很好，但 P/FCF 很高，必须靠合同和现金流兑现。</p>
+              <strong>动作：等长期供电合同、EPS 和 FCF 验证。</strong>
+              <a href="./company.html?company=constellation&page=1&v=20260501-19#companyValuationModelSection">看估值模型</a>
+            </article>
+          </div>
+        </section>
+
         <section id="updates" class="section">
           <div class="section-heading">
             <p class="section-kicker">Recent Updates</p>
@@ -71,49 +241,49 @@
               <span class="company-tag us">美股</span>
               <h3>NVIDIA</h3>
               <p>AI 工厂平台。重点看推理需求、客户 capex、毛利率。</p>
-              <a href="./company.html?company=nvidia&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=nvidia&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag tw">全球制造</span>
               <h3>TSMC</h3>
               <p>先进制程底座。重点看 2nm、CoWoS、资本回报。</p>
-              <a href="./company.html?company=tsmc&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=tsmc&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag us">美股</span>
               <h3>Microsoft</h3>
               <p>企业 AI 平台。重点看 Azure、Copilot、利润率兑现。</p>
-              <a href="./company.html?company=microsoft&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=microsoft&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag hk">港股 / 中概</span>
               <h3>阿里巴巴</h3>
               <p>平台现金流 + 云 + AI。重点看估值中枢能否继续上移。</p>
-              <a href="./company.html?company=alibaba&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=alibaba&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag cn">A 股</span>
               <h3>汇川技术</h3>
               <p>工业平台。重点看平台化、双轮驱动和出海验证。</p>
-              <a href="./company.html?company=inovance&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=inovance&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag us">美股</span>
               <h3>GE Vernova</h3>
               <p>电力系统升级平台。重点看订单、利润率、自由现金流。</p>
-              <a href="./company.html?company=gevernova&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=gevernova&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag cn">A 股</span>
               <h3>立讯精密</h3>
               <p>复杂制造龙头。重点看现金流、资本效率和扩张质量。</p>
-              <a href="./company.html?company=luxshare&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=luxshare&v=20260501-19">进入公司主页</a>
             </article>
             <article class="company-card">
               <span class="company-tag us">美股</span>
               <h3>Constellation Energy</h3>
               <p>稳定零碳电力平台。重点看长期合同、整合、核电运行。</p>
-              <a href="./company.html?company=constellation&v=20260412-24">进入公司主页</a>
+              <a href="./company.html?company=constellation&v=20260501-19">进入公司主页</a>
             </article>
           </div>
         </section>
@@ -123,11 +293,13 @@
             <a href="./reader.html?doc=../长期高潜力公司跟踪系统/01-筛选规则.md&title=筛选规则">筛选规则</a>
             <a href="./reader.html?doc=../长期高潜力公司跟踪系统/02-公司分析框架.md&title=公司分析框架">分析框架</a>
             <a href="./reader.html?doc=../长期高潜力公司跟踪系统/21-研究结论到投资决策的落地规则V1.md&title=研究结论到投资决策的落地规则">决策规则</a>
+            <a href="./reader.html?doc=../长期高潜力公司跟踪系统/21-研究结论到投资决策的落地规则V1.md&title=估值模型规则">估值模型规则</a>
           </div>
         </section>
       </main>
     </div>
-    <script src="./company-event-data.js"></script>
-    <script src="./index.js"></script>
+    <script src="./company-event-data.js?v=20260426-3"></script>
+    <script src="./candidate-data.js?v=20260502-2"></script>
+    <script src="./index.js?v=20260502-2"></script>
   </body>
 </html>
