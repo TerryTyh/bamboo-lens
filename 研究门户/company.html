@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>公司主页</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260501-14" />
   </head>
   <body class="reader-body">
     <div class="reader-shell">
@@ -76,6 +76,37 @@
           </article>
         </section>
 
+        <section id="companyFinanceSection" class="section company-finance-section">
+          <div class="section-heading">
+            <p class="section-kicker">Finance Map</p>
+            <h2>财务数据地图</h2>
+            <p id="companyFinanceIntro" class="muted"></p>
+          </div>
+          <div class="finance-layout">
+            <article class="card finance-table-card">
+              <h3>核心数据表</h3>
+              <div class="table-wrap">
+                <table class="finance-table">
+                  <thead>
+                    <tr>
+                      <th>科目</th>
+                      <th>2025</th>
+                      <th>变化 / 结构</th>
+                      <th>怎么读</th>
+                    </tr>
+                  </thead>
+                  <tbody id="companyFinanceRows"></tbody>
+                </table>
+              </div>
+            </article>
+            <article class="card finance-bridge-card">
+              <h3>现金流桥：利润为什么没有完全变成现金</h3>
+              <div id="companyFinanceBridge" class="finance-bridge"></div>
+            </article>
+          </div>
+          <div id="companyFinanceNotes" class="finance-note-grid"></div>
+        </section>
+
         <section class="section">
           <div class="section-heading">
             <p class="section-kicker">Company Understanding</p>
@@ -100,6 +131,44 @@
               <p id="companyMoatDetail"></p>
             </article>
           </div>
+          <div id="companyBusinessMap" class="business-map"></div>
+        </section>
+
+        <section id="companyValuationModelSection" class="section">
+          <div class="section-heading">
+            <p class="section-kicker">Valuation Model</p>
+            <h2>估值模型层</h2>
+            <p id="companyValuationModelIntro" class="muted"></p>
+          </div>
+          <div class="valuation-model-layout">
+            <article class="card valuation-model-summary">
+              <p id="companyValuationModelDate" class="segment-scale"></p>
+              <h3 id="companyValuationModelConclusion"></h3>
+              <p id="companyValuationModelRead"></p>
+            </article>
+            <article class="card">
+              <h3>当前市场快照</h3>
+              <div id="companyValuationSnapshot" class="valuation-snapshot-grid"></div>
+            </article>
+          </div>
+          <div class="valuation-model-grid">
+            <article class="card valuation-wide-card">
+              <h3>合理估值分部拆解</h3>
+              <div id="companyValuationCurrentBreakdown" class="valuation-list"></div>
+            </article>
+            <article class="card">
+              <h3>三档估值情景</h3>
+              <div id="companyValuationScenarios" class="valuation-list"></div>
+            </article>
+            <article class="card">
+              <h3>市场隐含假设</h3>
+              <div id="companyValuationImplied" class="valuation-list"></div>
+            </article>
+            <article class="card">
+              <h3>动作触发条件</h3>
+              <div id="companyValuationTriggers" class="valuation-list"></div>
+            </article>
+          </div>
         </section>
 
         <section class="section">
@@ -122,7 +191,9 @@
       </main>
     </div>
 
-    <script src="./company-event-data.js"></script>
-    <script src="./company.js"></script>
+    <script src="./company-event-data.js?v=20260501-11"></script>
+    <script src="./event-store-data.js?v=20260502-1"></script>
+    <script src="./company-state-data.js?v=20260502-1"></script>
+    <script src="./company.js?v=20260502-1"></script>
   </body>
 </html>

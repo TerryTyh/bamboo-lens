@@ -1,5 +1,5 @@
 function getLatestEventsForEventPage(sectionData) {
-  return [
+  return sortEventsNewestFirst([
     ...(sectionData.events || []),
     {
       date: "待验证",
@@ -10,7 +10,26 @@ function getLatestEventsForEventPage(sectionData) {
       action: "等待验证",
       priority: "P1",
     },
-  ];
+  ]);
+}
+
+function getEventDateValue(record) {
+  const matches = String(record?.date || "").match(/\d{4}[-年]?\d{1,2}(?:[-月]?\d{1,2})?/g) || [];
+  if (!matches.length) return 0;
+
+  const values = matches.map((dateText) => {
+    const parts = dateText.match(/\d+/g) || [];
+    const year = parts[0] || "0";
+    const month = (parts[1] || "1").padStart(2, "0");
+    const day = (parts[2] || "1").padStart(2, "0");
+    return Number(`${year}${month}${day}`);
+  });
+
+  return Math.max(...values);
+}
+
+function sortEventsNewestFirst(records) {
+  return [...records].sort((a, b) => getEventDateValue(b) - getEventDateValue(a));
 }
 
 function cleanMarkdownValue(value) {
@@ -22,14 +41,67 @@ function cleanMarkdownValue(value) {
 
 function buildFallbackEventRecord(event, sectionData) {
   return {
+    ...event,
     title: event.title,
     date: event.date,
     type: event.type,
-    fact: event.note,
-    judgment: event.analysis || sectionData.businessImpact,
+    fact: event.fact || event.note,
+    judgment: event.judgment || event.analysis || sectionData.businessImpact,
     action: event.action || "维持跟踪",
     priority: event.priority || "P2",
   };
+}
+
+function normalizeEventStoreRecord(event) {
+  return {
+    title: event.title,
+    date: event.date,
+    type: event.type,
+    fact: event.fact,
+    judgment: event.judgment,
+    action: event.action,
+    priority: event.priority,
+    sourceSummary: event.source_summary,
+    evidence: event.evidence,
+    businessAnalysis: event.business_analysis,
+    valuationAnalysis: event.valuation_analysis,
+    verification: event.verification,
+    sourceLinks: event.source_url ? [{ label: "官方来源", href: event.source_url }] : [],
+    sortKey: event.sort_key,
+    note: event.fact,
+    analysis: event.judgment,
+  };
+}
+
+function getEventStoreRecords(company) {
+  const events = window.BAMBOO_LENS_EVENT_STORE?.companies?.[company]?.events || [];
+  return events.map(normalizeEventStoreRecord);
+}
+
+function renderSourceLinks(links) {
+  const node = document.getElementById("eventSourceLinks");
+  if (!node) return;
+
+  if (!links?.length) {
+    node.innerHTML = '<p class="muted">暂无可直接打开的原文链接。</p>';
+    return;
+  }
+
+  node.innerHTML = links.map((link) => `
+    <a class="source-link" href="${link.href}" target="_blank" rel="noreferrer">${link.label}</a>
+  `).join("");
+}
+
+function renderList(id, items) {
+  const node = document.getElementById(id);
+  if (!node) return;
+
+  if (!items?.length) {
+    node.innerHTML = "<li>暂无</li>";
+    return;
+  }
+
+  node.innerHTML = items.map((item) => `<li>${item}</li>`).join("");
 }
 
 async function parseEventRecordsFromMarkdown(sourceDoc) {
@@ -58,12 +130,25 @@ async function parseEventRecordsFromMarkdown(sourceDoc) {
     });
   }
 
-  return blocks;
+  return sortEventsNewestFirst(blocks);
 }
 
 function setText(id, value) {
   const node = document.getElementById(id);
   if (node) node.textContent = value || "暂无";
+}
+
+function renderParagraphs(id, paragraphs) {
+  const node = document.getElementById(id);
+  if (!node) return;
+
+  const items = Array.isArray(paragraphs) ? paragraphs : [paragraphs].filter(Boolean);
+  if (!items.length) {
+    node.innerHTML = "<p>暂无</p>";
+    return;
+  }
+
+  node.innerHTML = items.map((item) => `<p>${item}</p>`).join("");
 }
 
 async function initEventPage() {
@@ -78,7 +163,8 @@ async function initEventPage() {
   const companyData = sectionData;
   if (!companyData || !sectionData) return;
 
-  const events = getLatestEventsForEventPage(sectionData);
+  const storeEvents = getEventStoreRecords(company);
+  const events = storeEvents.length ? storeEvents : getLatestEventsForEventPage(sectionData);
   const event = events[eventIndex];
   if (!event) return;
 
@@ -90,7 +176,7 @@ async function initEventPage() {
   }
 
   const eventRecord =
-    parsedEvents[eventIndex] || buildFallbackEventRecord(event, sectionData);
+    storeEvents[eventIndex] || parsedEvents[eventIndex] || buildFallbackEventRecord(event, sectionData);
 
   document.title = `${window.getCompanyDisplayName(company)} | ${eventRecord.title}`;
   document.getElementById("eventCompanyTitle").textContent = window.getCompanyDisplayName(company);
@@ -102,10 +188,14 @@ async function initEventPage() {
   setText("eventJudgment", eventRecord.judgment);
   setText("eventAction", eventRecord.action);
   setText("eventPriority", eventRecord.priority);
-  setText("eventSummary", event.note);
-  setText("eventAnalysis", event.analysis || eventRecord.judgment);
-  setText("eventBusinessImpact", sectionData.businessImpact);
-  setText("eventValuationImpact", sectionData.valuationImpact);
+  renderParagraphs("eventSourceSummary", eventRecord.sourceSummary || "这条记录还没有补原文摘要，后续不应作为高质量样板。");
+  renderSourceLinks(eventRecord.sourceLinks || []);
+  renderList("eventEvidenceList", eventRecord.evidence || []);
+  renderList("eventVerificationList", eventRecord.verification || []);
+  setText("eventSummary", eventRecord.note || event.note);
+  setText("eventAnalysis", eventRecord.analysis || eventRecord.judgment);
+  setText("eventBusinessImpact", eventRecord.businessAnalysis || sectionData.businessImpact);
+  setText("eventValuationImpact", eventRecord.valuationAnalysis || sectionData.valuationImpact);
 
   const tag = document.getElementById("eventCompanyTag");
   tag.textContent = companyData.tag;

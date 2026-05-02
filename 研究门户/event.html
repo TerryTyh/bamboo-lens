@@ -51,18 +51,22 @@
           <article class="card event-source-card">
             <div class="event-source-head">
               <div>
-                <h3>原始记录</h3>
-                <p class="muted">先看这条动态究竟发生了什么，再看后续判断。</p>
+                <h3>原文与事实</h3>
+                <p class="muted">先看来源和原文到底说了什么，再看后续判断。</p>
               </div>
             </div>
             <div class="event-raw-stack">
               <div class="event-raw-field">
-                <h4>事实</h4>
-                <p id="eventFact"></p>
+                <h4>原文链接</h4>
+                <div id="eventSourceLinks" class="source-link-stack"></div>
               </div>
               <div class="event-raw-field">
-                <h4>判断</h4>
-                <p id="eventJudgment"></p>
+                <h4>原文摘要</h4>
+                <p id="eventSourceSummary"></p>
+              </div>
+              <div class="event-raw-field">
+                <h4>事实</h4>
+                <p id="eventFact"></p>
               </div>
               <div class="event-raw-grid">
                 <div class="event-raw-field compact">
@@ -77,14 +81,19 @@
             </div>
           </article>
 
+          <article class="card event-source-card">
+            <h3>关键证据</h3>
+            <ul id="eventEvidenceList" class="evidence-list"></ul>
+          </article>
+
           <div class="grid two-up">
             <article class="card">
               <h3>我的总结</h3>
               <p id="eventSummary"></p>
             </article>
             <article class="card">
-              <h3>延伸分析</h3>
-              <p id="eventAnalysis"></p>
+              <h3>判断</h3>
+              <p id="eventJudgment"></p>
             </article>
           </div>
           <div class="grid two-up">
@@ -97,11 +106,16 @@
               <p id="eventValuationImpact"></p>
             </article>
           </div>
+          <article class="card event-source-card">
+            <h3>下一步验证清单</h3>
+            <ul id="eventVerificationList" class="evidence-list"></ul>
+          </article>
         </section>
       </main>
     </div>
 
-    <script src="./company-event-data.js"></script>
-    <script src="./event.js"></script>
+    <script src="./company-event-data.js?v=20260501-11"></script>
+    <script src="./event-store-data.js?v=20260502-1"></script>
+    <script src="./event.js?v=20260502-1"></script>
   </body>
 </html>

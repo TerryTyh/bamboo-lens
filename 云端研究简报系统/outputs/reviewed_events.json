@@ -1,0 +1,5 @@
+{
+  "generated_at": "",
+  "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
+  "companies": {}
+}
