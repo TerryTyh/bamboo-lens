@@ -1,4 +1,4 @@
-window.BAMBOO_LENS_CANDIDATES = {
+{
   "generated_at": "2026-05-02T02:41:08",
   "companies": {
     "nvidia": [
@@ -573,4 +573,4 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ]
   }
-};
+}
