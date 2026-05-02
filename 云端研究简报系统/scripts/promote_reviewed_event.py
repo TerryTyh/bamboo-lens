@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from datetime import datetime
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = ROOT / "outputs"
+REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
+
+REQUIRED_TEXT_FIELDS = [
+    "company",
+    "title",
+    "date",
+    "type",
+    "fact",
+    "judgment",
+    "business_analysis",
+    "valuation_analysis",
+    "action",
+    "priority",
+]
+
+REQUIRED_LIST_FIELDS = {
+    "source_summary": 1,
+    "evidence": 3,
+    "verification": 2,
+}
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Promote a completed review draft into reviewed_events.json.")
+    parser.add_argument("draft", type=Path, help="Path to review draft JSON.")
+    parser.add_argument("--no-refresh", action="store_true", help="Do not regenerate event store / portal outputs.")
+    parser.add_argument("--allow-todo", action="store_true", help="Allow TODO placeholders. Not recommended.")
+    return parser.parse_args()
+
+
+def load_json(path: Path) -> dict:
+    if not path.exists():
+        raise FileNotFoundError(path)
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def contains_todo(value) -> bool:
+    if isinstance(value, str):
+        return "TODO" in value or "待补" in value
+    if isinstance(value, list):
+        return any(contains_todo(item) for item in value)
+    if isinstance(value, dict):
+        return any(contains_todo(item) for item in value.values())
+    return False
+
+
+def validate_draft(draft: dict, allow_todo: bool) -> list[str]:
+    errors = []
+    for field in REQUIRED_TEXT_FIELDS:
+        if not str(draft.get(field, "")).strip():
+            errors.append(f"Missing required field: {field}")
+
+    if not (draft.get("source_url") or draft.get("source_doc")):
+        errors.append("Missing source_url or source_doc.")
+
+    for field, min_count in REQUIRED_LIST_FIELDS.items():
+        value = draft.get(field)
+        if not isinstance(value, list):
+            errors.append(f"{field} must be a list.")
+            continue
+        filled = [item for item in value if str(item).strip()]
+        if len(filled) < min_count:
+            errors.append(f"{field} needs at least {min_count} filled item(s).")
+
+    if not allow_todo and contains_todo(draft):
+        errors.append("Draft still contains TODO / 待补 placeholders.")
+
+    return errors
+
+
+def load_reviewed_events() -> dict:
+    if not REVIEWED_EVENTS_FILE.exists():
+        return {"generated_at": "", "companies": {}}
+    return load_json(REVIEWED_EVENTS_FILE)
+
+
+def normalize_event(draft: dict) -> dict:
+    now = datetime.now().isoformat(timespec="seconds")
+    event = {
+        "title": draft["title"].strip(),
+        "date": draft["date"].strip(),
+        "type": draft["type"].strip(),
+        "priority": draft["priority"].strip(),
+        "action": draft["action"].strip(),
+        "sort_key": int(draft.get("sort_key") or 0),
+        "source_url": str(draft.get("source_url", "")).strip(),
+        "source_doc": str(draft.get("source_doc", "")).strip(),
+        "source_summary": draft.get("source_summary", []),
+        "fact": draft["fact"].strip(),
+        "evidence": draft.get("evidence", []),
+        "judgment": draft["judgment"].strip(),
+        "business_analysis": draft["business_analysis"].strip(),
+        "valuation_analysis": draft["valuation_analysis"].strip(),
+        "verification": draft.get("verification", []),
+        "reviewed_at": draft.get("reviewed_at") or now,
+    }
+    if not event["sort_key"]:
+        event["sort_key"] = int("".join(ch for ch in event["date"] if ch.isdigit())[:8] or 0)
+    return event
+
+
+def upsert_event(payload: dict, company: str, event: dict) -> None:
+    companies = payload.setdefault("companies", {})
+    events = companies.setdefault(company, [])
+    key = (event["title"], event["date"])
+    for idx, existing in enumerate(events):
+        if (existing.get("title"), existing.get("date")) == key:
+            events[idx] = event
+            return
+    events.append(event)
+    events.sort(key=lambda item: int(item.get("sort_key") or 0), reverse=True)
+
+
+def run_refresh_chain() -> None:
+    scripts = [
+        "build_event_store.py",
+        "export_portal_event_store_data.py",
+        "build_company_state.py",
+        "build_decision_queue.py",
+        "export_portal_candidate_data.py",
+    ]
+    for script in scripts:
+        subprocess.run([sys.executable, str(ROOT / "scripts" / script)], check=True)
+
+
+def main() -> None:
+    args = parse_args()
+    draft = load_json(args.draft)
+    errors = validate_draft(draft, args.allow_todo)
+    if errors:
+        print("Draft failed quality gate:", file=sys.stderr)
+        for error in errors:
+            print(f"- {error}", file=sys.stderr)
+        sys.exit(1)
+
+    payload = load_reviewed_events()
+    payload["generated_at"] = datetime.now().isoformat(timespec="seconds")
+    event = normalize_event(draft)
+    upsert_event(payload, draft["company"].strip(), event)
+    REVIEWED_EVENTS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Promoted reviewed event into: {REVIEWED_EVENTS_FILE}")
+    print(f"Company: {draft['company']}")
+    print(f"Title: {event['title']}")
+
+    if not args.no_refresh:
+        run_refresh_chain()
+        print("Refreshed event store, company state, decision queue and portal data.")
+
+
+if __name__ == "__main__":
+    main()
