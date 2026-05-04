@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-02T15:52:57",
+  "generated_at": "2026-05-04T13:27:49",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -17,7 +17,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -29,7 +29,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -41,7 +41,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -53,7 +53,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -65,7 +65,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -77,14 +77,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
           "date": "2026-04-30",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-30；标题：From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -92,12 +92,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260430,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
           "date": "2026-04-30",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-30；标题：It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -105,12 +105,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260430,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
           "date": "2026-04-23",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-23；标题：OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -118,12 +118,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260423,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
           "date": "2026-04-22",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-22；标题：NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -131,12 +131,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260422,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
           "date": "2026-03-20",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-20；标题：NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -144,12 +144,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260320,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter",
           "date": "2026-02-27",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-02-27；标题：NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -157,33 +157,33 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260227,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Sets Conference Call for First-Quarter Financial Results",
-          "date": "20260502-0",
-          "fetched_at": "20260502-063733",
+          "date": "20260504-1",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
-          "fact": "日期：20260502-0；标题：NVIDIA Sets Conference Call for First-Quarter Financial Results；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
+          "fact": "日期：20260504-1；标题：NVIDIA Sets Conference Call for First-Quarter Financial Results；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20260502,
+          "sort_key": 20260504,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
-          "date": "20260502-0",
-          "fetched_at": "20260502-063733",
+          "date": "20260504-1",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
-          "fact": "日期：20260502-0；标题：NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
+          "fact": "日期：20260504-1；标题：NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents；来源：https://investor.nvidia.com/news/press-releases/default.aspx",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20260502,
+          "sort_key": 20260504,
           "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260502-063733__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -239,7 +239,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -251,7 +251,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 1 月和 2 月营收继续保持较高同比增长，年初需求验证仍然稳健",
@@ -263,7 +263,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -275,7 +275,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -287,7 +287,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -299,14 +299,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
           "date": "2026-04-23",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-23；标题：TSMC Debuts A13 Technology at 2026 North America Technology Symposium；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -314,12 +314,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260423,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Files Annual Report on Form 20-F for 2025",
           "date": "2026-04-16",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -327,12 +327,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260416,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Reports First Quarter EPS of NT$22.08",
           "date": "2026-04-16",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -340,12 +340,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260416,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC March 2026 Revenue Report",
           "date": "2026-04-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-04-10；标题：TSMC March 2026 Revenue Report；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -353,12 +353,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260410,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC February 2026 Revenue Report",
           "date": "2026-03-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-10；标题：TSMC February 2026 Revenue Report；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -366,12 +366,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260310,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Board of Directors Meeting Resolutions",
           "date": "2026-02-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-02-10；标题：TSMC Board of Directors Meeting Resolutions；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -379,12 +379,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260210,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC January 2026 Revenue Report",
           "date": "2026-02-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-02-10；标题：TSMC January 2026 Revenue Report；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -392,12 +392,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260210,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Reports Fourth Quarter EPS of NT$19.50",
           "date": "2026-01-15",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-01-15；标题：TSMC Reports Fourth Quarter EPS of NT$19.50；来源：https://pr.tsmc.com/english/latest-news",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -405,7 +405,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260115,
           "source_url": "https://pr.tsmc.com/english/latest-news",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260502-063733__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
         }
       ]
     },
@@ -425,7 +425,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -437,7 +437,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -449,7 +449,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -461,7 +461,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -473,7 +473,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -485,7 +485,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -506,7 +506,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -518,7 +518,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -530,7 +530,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -542,7 +542,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -554,7 +554,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -566,7 +566,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -587,7 +587,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -599,7 +599,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -611,7 +611,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -623,7 +623,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -635,7 +635,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -647,14 +647,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "2026春季爆品发布会",
           "date": "2026-03-16",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-16；标题：2026春季爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -662,12 +662,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260316,
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "2025年度爆品发布会",
           "date": "2025-09-01",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-09-01；标题：2025年度爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -675,12 +675,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250901,
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会",
           "date": "2025-06-17",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-06-17；标题：邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -688,12 +688,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250617,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！",
           "date": "2022-11-21",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2022-11-21；标题：数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -701,12 +701,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20221121,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "关于汇川技术机器人产品价格调整的通知",
           "date": "2026-03-30",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-30；标题：关于汇川技术机器人产品价格调整的通知；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -714,12 +714,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260330,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”",
           "date": "2025-05-09",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-05-09；标题：汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -727,12 +727,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250509,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2024-10-10；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -740,12 +740,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20241010,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-08",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2024-10-08；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -753,7 +753,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20241008,
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260502-063733__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         }
       ]
     },
@@ -773,7 +773,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -785,7 +785,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -797,7 +797,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -809,7 +809,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -821,7 +821,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -833,14 +833,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "4th Quarter 2025 Earnings Webcast",
           "date": "2026-01-28",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-01-28；标题：4th Quarter 2025 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -848,7 +848,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260128,
           "source_url": "https://www.gevernova.com/investors/events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260502-063733__www.gevernova.com_investors_events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260504-132622__www.gevernova.com_investors_events.html"
         }
       ]
     },
@@ -868,7 +868,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -880,7 +880,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -892,7 +892,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -904,7 +904,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -916,7 +916,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -928,7 +928,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -940,14 +940,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility",
           "date": "2026-03-09",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-09；标题：Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -955,12 +955,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260309,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"",
           "date": "2026-01-19",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-01-19；标题：​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -968,12 +968,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260119,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification",
           "date": "2026-01-05",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-01-05；标题：World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -981,12 +981,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260105,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Named to Forbes' 2025 World's Best Employers List",
           "date": "2025-10-10",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-10-10；标题：Luxshare Precision Named to Forbes' 2025 World's Best Employers List；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -994,12 +994,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20251010,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!",
           "date": "2025-07-31",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-07-31；标题：Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1007,12 +1007,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250731,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations",
           "date": "2025-07-23",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-07-23；标题：Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1020,12 +1020,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250723,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "REACH and SVHC Statement",
           "date": "2025-07-22",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-07-22；标题：REACH and SVHC Statement；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1033,12 +1033,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250722,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay",
           "date": "2025-07-21",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-07-21；标题：Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay；来源：https://www.luxshare-ict.com/en/news/release.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1046,7 +1046,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250721,
           "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260502-063733__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -1066,7 +1066,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月 31 日业务与业绩展望会议，正式把公司重心拉向“长期成长型电力平台”",
@@ -1078,7 +1078,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "为满足监管要求出售部分 PJM 资产，提醒我们要把并购整合与监管成本一起看",
@@ -1090,7 +1090,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1102,7 +1102,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1114,7 +1114,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1126,14 +1126,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "Constellation CEO: &#39;We Produce Enough Energy to Power Mexico&#39;",
           "date": "2026-01-20",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-01-20；标题：Constellation CEO: &#39;We Produce Enough Energy to Power Mexico&#39;；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1141,12 +1141,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260120,
           "source_url": "https://www.constellationenergy.com/newsroom.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "ENERGY: Always On",
           "date": "2025-11-18",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-11-18；标题：ENERGY: Always On；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1154,12 +1154,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20251118,
           "source_url": "https://www.constellationenergy.com/newsroom.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Aspen Ideas Festival 2025",
           "date": "2025-07-21",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-07-21；标题：Aspen Ideas Festival 2025；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1167,12 +1167,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250721,
           "source_url": "https://www.constellationenergy.com/newsroom.html",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
           "date": "2026-05-11",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1180,12 +1180,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260511,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations.html"
         },
         {
           "title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",
           "date": "2026-03-31",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2026-03-31；标题：Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1193,12 +1193,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20260331,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-11-07",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-11-07；标题：Q3 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1206,12 +1206,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20251107,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-08-07",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-08-07；标题：Q2 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1219,12 +1219,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250807,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-05-06",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2025-05-06；标题：Q1 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1232,12 +1232,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20250506,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
           "date": "2024-11-04",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2024-11-04；标题：Q3 2024 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1245,12 +1245,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20241104,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q2 2024 Constellation Energy Corporation Earnings Conference Call",
           "date": "2024-08-06",
-          "fetched_at": "20260502-063733",
+          "fetched_at": "20260504-132622",
           "type": "官方候选",
           "fact": "日期：2024-08-06；标题：Q2 2024 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1258,7 +1258,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "priority": "候选",
           "sort_key": 20240806,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260502-063733__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
         }
       ]
     }
