@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-05-02T15:53:21",
+  "generated_at": "2026-05-04T10:56:33",
   "source_generated_at": "2026-05-02T15:52:57",
   "items": [
     {
@@ -217,6 +217,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 4,
       "sort_key": 20260128,
       "score": 19
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
+      "date": "2026-04-23",
+      "type": "技术路线 / 先进制程",
+      "priority": "P1",
+      "decision_action": "维持 A 池核心，并把 2028-2029 年先进制程与封装兑现列为长期验证主线",
+      "why": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
+      "source_doc": "",
+      "event_index": 0,
+      "sort_key": 20260423,
+      "score": 18
     },
     {
       "company": "gevernova",
@@ -847,24 +865,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 2,
       "sort_key": 20260416,
       "score": 10
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "formal_event",
-      "stage": "已入库事件",
-      "title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
-      "date": "2026-04-23",
-      "type": "技术路线 / 先进制程",
-      "priority": "P1",
-      "decision_action": "维持 A 池核心，并把 2028-2029 年先进制程与封装兑现列为长期验证主线",
-      "why": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
-      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
-      "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
-      "source_doc": "",
-      "event_index": 0,
-      "sort_key": 20260423,
-      "score": 9
     },
     {
       "company": "alibaba",

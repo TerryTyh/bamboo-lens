@@ -100,6 +100,10 @@ def build_formal_item(company_id: str, company: dict, event: dict, index: int) -
         + keyword_score(" ".join([event.get("title", ""), event.get("type", ""), event.get("fact", "")]))
         + 2
     )
+    if event.get("review_status") == "reviewed":
+        score += 6
+    if event.get("source_url") and event.get("evidence"):
+        score += 3
     decision_action = event.get("action") or "继续跟踪"
     if event.get("priority") == "P1" and decision_action == "维持原判断":
         decision_action = "保持核心跟踪"
