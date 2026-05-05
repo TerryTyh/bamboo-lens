@@ -2369,6 +2369,45 @@ function renderCompanyEventFeed(company, records, page) {
   renderCompanyEventPager(company, safePage, totalPages);
 }
 
+function renderCompanyDecisionImpact(company) {
+  const section = document.getElementById("companyDecisionImpactSection");
+  const feed = document.getElementById("companyDecisionImpactFeed");
+  if (!section || !feed) return;
+
+  const impacts = window.BAMBOO_LENS_DECISION_IMPACT?.companies?.[company] || [];
+  if (!impacts.length) {
+    section.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+  feed.innerHTML = impacts.slice(0, 5).map((item) => `
+    <article class="company-impact-card">
+      <div class="decision-card-top">
+        <span class="decision-stage">${item.direction}</span>
+        <span class="decision-score">${item.trigger_type}</span>
+      </div>
+      <div class="event-meta">
+        <span>${item.event_date}</span>
+        <span>${item.event_type}</span>
+      </div>
+      <h3>${item.event_title}</h3>
+      <div class="impact-chip-row">
+        ${(item.dimensions || []).map((dimension) => `<span>${dimension}</span>`).join("")}
+        ${item.valuation_update_needed ? "<strong>需更新估值视角</strong>" : ""}
+      </div>
+      <p><strong>判断变化：</strong>${item.decision_change}</p>
+      <p><strong>业务影响：</strong>${item.business_impact}</p>
+      <p><strong>估值 / 动作：</strong>${item.valuation_impact}</p>
+      <div class="decision-next">
+        <strong>下一次验证</strong>
+        <p>${(item.next_verification || []).join("；") || "等待下一次正式披露。"}</p>
+      </div>
+      <a class="event-link" href="${item.detail_link}">查看事件详情</a>
+    </article>
+  `).join("");
+}
+
 function renderTrackingList(items) {
   const list = document.getElementById("companyTrackingList");
   if (!list) return;
@@ -2582,6 +2621,7 @@ async function initCompanyPage() {
   const storeRecords = getEventStoreRecords(company);
   const safeRecords = storeRecords.length ? storeRecords : (records.length ? records : buildFallbackEventRecords(company));
   renderCompanyEventFeed(company, safeRecords, page);
+  renderCompanyDecisionImpact(company);
 }
 
 initCompanyPage();

@@ -746,6 +746,72 @@ a:hover {
   margin-bottom: 6px;
 }
 
+.decision-impact-section {
+  background:
+    radial-gradient(circle at top left, rgba(213, 232, 218, 0.72), transparent 34%),
+    linear-gradient(180deg, rgba(255, 250, 243, 0.98), rgba(247, 241, 230, 0.92)),
+    var(--surface);
+}
+
+.decision-impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.decision-impact-card,
+.company-impact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 24px;
+  background: #fffaf3;
+  border: 1px solid var(--border);
+}
+
+.decision-impact-card h3,
+.company-impact-card h3 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.35;
+}
+
+.decision-impact-card p,
+.company-impact-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.impact-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.impact-chip-row span,
+.impact-chip-row strong {
+  display: inline-flex;
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.impact-chip-row strong {
+  color: #7a421c;
+  background: #fff2df;
+}
+
+.company-impact-feed {
+  display: grid;
+  gap: 16px;
+}
+
 .candidate-filter-row {
   display: flex;
   flex-wrap: wrap;
@@ -1758,6 +1824,7 @@ a:hover {
   .company-kpi-grid,
   .cloud-sync-grid,
   .decision-queue-grid,
+  .decision-impact-grid,
   .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,
@@ -1838,6 +1905,7 @@ a:hover {
   .company-kpi-grid,
   .cloud-sync-grid,
   .decision-queue-grid,
+  .decision-impact-grid,
   .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,

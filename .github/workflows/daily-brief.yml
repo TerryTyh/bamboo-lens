@@ -34,6 +34,7 @@ jobs:
           python3 scripts/export_portal_event_store_data.py
           python3 scripts/build_company_state.py
           python3 scripts/build_decision_queue.py
+          python3 scripts/build_decision_impact.py
           python3 scripts/generate_daily_brief.py
 
       - name: Send to WeCom
@@ -45,7 +46,7 @@ jobs:
       - name: Persist outputs to repository
         working-directory: .
         run: |
-          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js; then
+          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/decision-impact-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js; then
             echo "No generated output changes to commit."
             exit 0
           fi
@@ -56,10 +57,12 @@ jobs:
           git add -f 云端研究简报系统/outputs/event_store.json
           git add -f 云端研究简报系统/outputs/official_candidates.json
           git add -f 云端研究简报系统/outputs/decision_queue.json
+          git add -f 云端研究简报系统/outputs/decision_impact.json
           git add -f 云端研究简报系统/outputs/company_state.json
           git add -f 云端研究简报系统/outputs/reviewed_events.json
           git add 研究门户/candidate-data.js
           git add 研究门户/decision-data.js
+          git add 研究门户/decision-impact-data.js
           git add 研究门户/event-store-data.js
           git add 研究门户/company-state-data.js
           git commit -m "chore: update Bamboo Lens daily outputs"
@@ -75,11 +78,13 @@ jobs:
             云端研究简报系统/outputs/event_store.json
             云端研究简报系统/outputs/official_candidates.json
             云端研究简报系统/outputs/decision_queue.json
+            云端研究简报系统/outputs/decision_impact.json
             云端研究简报系统/outputs/company_state.json
             云端研究简报系统/outputs/reviewed_events.json
             云端研究简报系统/outputs/snapshots/manifest.json
             研究门户/candidate-data.js
             研究门户/decision-data.js
+            研究门户/decision-impact-data.js
             研究门户/event-store-data.js
             研究门户/company-state-data.js
           if-no-files-found: warn

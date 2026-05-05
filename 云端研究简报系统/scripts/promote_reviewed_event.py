@@ -131,6 +131,7 @@ def run_refresh_chain() -> None:
         "export_portal_event_store_data.py",
         "build_company_state.py",
         "build_decision_queue.py",
+        "build_decision_impact.py",
         "export_portal_candidate_data.py",
     ]
     for script in scripts:

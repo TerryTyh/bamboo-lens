@@ -181,6 +181,51 @@ function renderDecisionQueue() {
   }).join("");
 }
 
+function renderDecisionImpact() {
+  const feed = document.getElementById("decisionImpactFeed");
+  const stats = document.getElementById("decisionImpactStats");
+  const payload = window.BAMBOO_LENS_DECISION_IMPACT;
+  if (!feed || !stats) return;
+
+  if (!payload?.items?.length) {
+    stats.innerHTML = "<span>暂无影响记录</span>";
+    feed.innerHTML = '<p class="muted">正式事件研判后，这里会显示业务、估值和动作影响。</p>';
+    return;
+  }
+
+  const summary = payload.summary || {};
+  stats.innerHTML = `
+    <span>影响 ${summary.total || payload.items.length} 条</span>
+    <span>需估值更新 ${summary.valuation_update_needed || 0}</span>
+    <span>正向强化 ${summary.positive || 0}</span>
+  `;
+
+  feed.innerHTML = payload.items.slice(0, 6).map((item) => `
+    <article class="decision-impact-card">
+      <div class="decision-card-top">
+        <span class="decision-stage">${escapeHtml(item.direction)}</span>
+        <span class="decision-score">${escapeHtml(item.trigger_type)}</span>
+      </div>
+      <div class="event-meta">
+        <span>${escapeHtml(item.event_date || "日期待确认")}</span>
+        <span>${escapeHtml(item.company_name)}</span>
+      </div>
+      <h3>${escapeHtml(item.event_title)}</h3>
+      <div class="impact-chip-row">
+        ${(item.dimensions || []).map((dimension) => `<span>${escapeHtml(dimension)}</span>`).join("")}
+        ${item.valuation_update_needed ? "<strong>需看估值</strong>" : ""}
+      </div>
+      <p><strong>判断变化：</strong>${escapeHtml(item.decision_change)}</p>
+      <p><strong>估值/动作：</strong>${escapeHtml(item.valuation_impact)}</p>
+      <div class="decision-next">
+        <strong>下一次验证</strong>
+        <p>${escapeHtml((item.next_verification || []).join("；") || "等待下一次正式披露。")}</p>
+      </div>
+      <a class="event-link" href="${escapeHtml(item.detail_link)}">查看事件详情</a>
+    </article>
+  `).join("");
+}
+
 function renderTimelineFeed() {
   const feed = document.getElementById("timelineFeed");
   const count = document.getElementById("timelineCount");
@@ -206,4 +251,5 @@ function renderTimelineFeed() {
 
 renderCloudSync();
 renderDecisionQueue();
+renderDecisionImpact();
 renderTimelineFeed();
