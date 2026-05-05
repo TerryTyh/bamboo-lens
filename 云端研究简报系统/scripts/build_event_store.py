@@ -27,6 +27,12 @@ SOURCE_DOC_MAP = {
     "constellation": "27-Constellation Energy动态更新样例V1.md",
 }
 
+OBSOLETE_PARSED_EVENT_TITLES = {
+    "constellation": {
+        "2026 年 3 月 31 日业务与业绩展望会议，正式把公司重心拉向“长期成长型电力平台”",
+    },
+}
+
 BLOCK_REGEX = re.compile(
     r"### 动态 \d+：([^\n]+)\n\n"
     r"- 日期：([^\n]+)\n"
@@ -89,9 +95,12 @@ def parse_company_events(company_id: str) -> list[dict]:
     events = []
     for match in BLOCK_REGEX.finditer(markdown):
         title, date_text, event_type, fact, judgment, action, priority = match.groups()
+        title = clean(title)
+        if title in OBSOLETE_PARSED_EVENT_TITLES.get(company_id, set()):
+            continue
         events.append(
             {
-                "title": clean(title),
+                "title": title,
                 "date": clean(date_text),
                 "fetched_at": "",
                 "type": clean(event_type),
@@ -148,6 +157,18 @@ def promote_tsmc_candidates(candidates: list[dict]) -> list[dict]:
     return []
 
 
+def dedupe_events(events: list[dict]) -> list[dict]:
+    deduped = []
+    seen = set()
+    for event in sorted(events, key=lambda row: row.get("review_status") == "reviewed", reverse=True):
+        key = (event.get("title", ""), event.get("date", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(event)
+    return deduped
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     official_candidates = load_official_candidates()
@@ -164,7 +185,7 @@ def main() -> None:
         events.extend(parse_company_events(company_id))
         if company_id == "tsmc":
             events.extend(promote_tsmc_candidates(company_candidates))
-        events = sorted(events, key=lambda row: row.get("sort_key", 0), reverse=True)
+        events = sorted(dedupe_events(events), key=lambda row: row.get("sort_key", 0), reverse=True)
         payload["companies"][company_id] = {
             "name": company["name"],
             "market": company["market"],

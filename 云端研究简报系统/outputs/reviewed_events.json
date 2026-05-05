@@ -1,42 +1,81 @@
 {
   "generated_at": "",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
-    "companies": {
-        "tsmc": [
-            {
-                "title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
-                "source_candidate_title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
-                "date": "2026-04-23",
-                "type": "技术路线 / 先进制程",
-                "priority": "P1",
-                "action": "维持 A 池核心，并把 2028-2029 年先进制程与封装兑现列为长期验证主线",
-                "sort_key": 20260423,
-                "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
-                "source_doc": "",
-                "source_summary": [
-                    "TSMC 在 2026 年北美技术论坛披露 A13 制程，并同时更新 A14、A12、N2U、CoWoS、SoIC、COUPE 光互连、N2A 车规制程等技术路线。原文重点不是单一节点名称，而是说明 TSMC 正在把先进逻辑、先进封装、光互连和车规/机器人应用连接成更长周期的制造平台。",
-                    "A13 被定位为 A14 之后的直接升级，预计在 A14 之后一年、即 2029 年进入生产；同时 A12 也预计于 2029 年进入生产，采用 Super Power Rail 背面供电，面向 AI 和高性能计算应用。",
-                    "先进封装部分披露更大尺寸 CoWoS、A14-to-A14 SoIC、COUPE on substrate CPO，以及 SoW-X 系统级晶圆技术，这说明 AI 芯片性能提升不再只靠前道制程微缩，也越来越依赖封装、互连和系统级集成。"
-                ],
-                "fact": "TSMC 于 2026-04-23 发布 2026 北美技术论坛内容，披露 A13 制程、A12 背面供电节点、N2U、CoWoS 扩容、A14-to-A14 SoIC、COUPE 光互连、N2A 车规制程等路线。A13 相比 A14 节省 6% 面积且设计规则向后兼容 A14，预计 2029 年进入生产；N2U 预计 2028 年生产；14 倍光罩尺寸 CoWoS 预计 2028 年生产；COUPE on substrate CPO 预计 2026 年生产。",
-                "evidence": [
-                    "A13 相较 A14 节省 6% 面积，设计规则与 A14 向后兼容，并通过设计与技术协同优化提升功耗效率和性能，预计 2029 年、A14 之后一年进入生产。",
-                    "A12 采用 Super Power Rail 背面供电，面向 AI 与高性能计算应用，预计 2029 年进入生产；N2U 相比 N2P 可实现 3-4% 速度提升或 8-10% 功耗降低，逻辑密度提升 2-3%，预计 2028 年开始生产。",
-                    "CoWoS 路线继续放大：当前生产 5.5 倍光罩尺寸版本，14 倍光罩尺寸 CoWoS 可整合约 10 个大型计算晶粒和 20 个 HBM 堆叠，预计 2028 年生产；2029 年还规划大于 14 倍光罩尺寸 CoWoS，并与 40 倍光罩尺寸 SoW-X 互补。",
-                    "A14-to-A14 SoIC 预计 2029 年生产，晶粒对晶粒 I/O 密度达到 N2-to-N2 SoIC 的 1.8 倍，强化堆叠芯片之间的数据传输带宽。",
-                    "COUPE on substrate 的共同封装光学方案预计 2026 年生产，相比电路板上的可插拔方案，功耗效率提升 2 倍、延迟减少 90%，并应用于 200Gbps 微环调制器。"
-                ],
-                "judgment": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
-                "business_analysis": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。",
-                "valuation_analysis": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
-                "verification": [
-                    "下一次财报继续看 HPC 占比、先进制程需求、毛利率和资本开支指引，判断技术路线是否正在转化为当期订单和盈利质量。",
-                    "跟踪 CoWoS 产能扩张、HBM 集成需求和大客户 AI 芯片路线，验证 14 倍光罩尺寸 CoWoS、SoIC 与 CPO 是否成为 AI 芯片平台的关键瓶颈资源。",
-                    "跟踪 2028-2029 年 A14/A13/A12 量产节奏、良率和主要客户采用情况，避免把路线图发布直接等同于商业成功。",
-                    "观察海外扩产、先进封装投入和高端节点 capex 是否压低自由现金流或毛利率，防止长期技术领先被高投入稀释回报。"
-                ],
-                "reviewed_at": "2026-05-02T15:10:00"
-            }
-        ]
-    }
+  "companies": {
+    "tsmc": [
+      {
+        "title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
+        "source_candidate_title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
+        "date": "2026-04-23",
+        "type": "技术路线 / 先进制程",
+        "priority": "P1",
+        "action": "维持 A 池核心，并把 2028-2029 年先进制程与封装兑现列为长期验证主线",
+        "sort_key": 20260423,
+        "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
+        "source_doc": "",
+        "source_summary": [
+          "TSMC 在 2026 年北美技术论坛披露 A13 制程，并同时更新 A14、A12、N2U、CoWoS、SoIC、COUPE 光互连、N2A 车规制程等技术路线。原文重点不是单一节点名称，而是说明 TSMC 正在把先进逻辑、先进封装、光互连和车规/机器人应用连接成更长周期的制造平台。",
+          "A13 被定位为 A14 之后的直接升级，预计在 A14 之后一年、即 2029 年进入生产；同时 A12 也预计于 2029 年进入生产，采用 Super Power Rail 背面供电，面向 AI 和高性能计算应用。",
+          "先进封装部分披露更大尺寸 CoWoS、A14-to-A14 SoIC、COUPE on substrate CPO，以及 SoW-X 系统级晶圆技术，这说明 AI 芯片性能提升不再只靠前道制程微缩，也越来越依赖封装、互连和系统级集成。"
+        ],
+        "fact": "TSMC 于 2026-04-23 发布 2026 北美技术论坛内容，披露 A13 制程、A12 背面供电节点、N2U、CoWoS 扩容、A14-to-A14 SoIC、COUPE 光互连、N2A 车规制程等路线。A13 相比 A14 节省 6% 面积且设计规则向后兼容 A14，预计 2029 年进入生产；N2U 预计 2028 年生产；14 倍光罩尺寸 CoWoS 预计 2028 年生产；COUPE on substrate CPO 预计 2026 年生产。",
+        "evidence": [
+          "A13 相较 A14 节省 6% 面积，设计规则与 A14 向后兼容，并通过设计与技术协同优化提升功耗效率和性能，预计 2029 年、A14 之后一年进入生产。",
+          "A12 采用 Super Power Rail 背面供电，面向 AI 与高性能计算应用，预计 2029 年进入生产；N2U 相比 N2P 可实现 3-4% 速度提升或 8-10% 功耗降低，逻辑密度提升 2-3%，预计 2028 年开始生产。",
+          "CoWoS 路线继续放大：当前生产 5.5 倍光罩尺寸版本，14 倍光罩尺寸 CoWoS 可整合约 10 个大型计算晶粒和 20 个 HBM 堆叠，预计 2028 年生产；2029 年还规划大于 14 倍光罩尺寸 CoWoS，并与 40 倍光罩尺寸 SoW-X 互补。",
+          "A14-to-A14 SoIC 预计 2029 年生产，晶粒对晶粒 I/O 密度达到 N2-to-N2 SoIC 的 1.8 倍，强化堆叠芯片之间的数据传输带宽。",
+          "COUPE on substrate 的共同封装光学方案预计 2026 年生产，相比电路板上的可插拔方案，功耗效率提升 2 倍、延迟减少 90%，并应用于 200Gbps 微环调制器。"
+        ],
+        "judgment": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
+        "business_analysis": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。",
+        "valuation_analysis": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
+        "verification": [
+          "下一次财报继续看 HPC 占比、先进制程需求、毛利率和资本开支指引，判断技术路线是否正在转化为当期订单和盈利质量。",
+          "跟踪 CoWoS 产能扩张、HBM 集成需求和大客户 AI 芯片路线，验证 14 倍光罩尺寸 CoWoS、SoIC 与 CPO 是否成为 AI 芯片平台的关键瓶颈资源。",
+          "跟踪 2028-2029 年 A14/A13/A12 量产节奏、良率和主要客户采用情况，避免把路线图发布直接等同于商业成功。",
+          "观察海外扩产、先进封装投入和高端节点 capex 是否压低自由现金流或毛利率，防止长期技术领先被高投入稀释回报。"
+        ],
+        "reviewed_at": "2026-05-02T15:10:00"
+      }
+    ],
+    "constellation": [
+      {
+        "title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+        "source_candidate_title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",
+        "date": "2026-03-31",
+        "type": "管理层展望 / 财务指引",
+        "priority": "P1",
+        "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
+        "sort_key": 20260331,
+        "source_url": "https://investors.constellationenergy.com/events/event-details/constellation-energy-corporation-2026-business-and-earnings-outlook-conference",
+        "source_doc": "https://investors.constellationenergy.com/static-files/2a1fcbce-ab5d-40fa-b349-5674d3287472",
+        "source_summary": [
+          "这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。核心是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。",
+          "第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。",
+          "第二组是资产稀缺性。合并 Calpine 后，公司拥有约 55GW 发电组合，并强调拥有美国最大的核电、天然气和地热发电资产组合之一。核电提供清洁、稳定、可调度电力；天然气和地热增强组合灵活性；商业平台则负责把电力能力卖给大型客户。",
+          "第三组是未计入的上行空间。公司明确说，增长展望尚未包括捕捉 147 million MWh 年度可用核电电量溢价、额外天然气合同和增厚型资本配置。这一点对估值很关键，因为它说明当前 Base EPS 目标之外还有合同重定价和大客户供电协议的可选上行。",
+          "第四组是资本配置。公司把总回购授权提升至 50 亿美元，同时计划 39 亿美元 growth capital，投向具备吸引力回报的项目。这说明管理层既想抓住电力成长周期，也在用回购表达对长期价值的信心。"
+        ],
+        "fact": "Constellation 在 2026 Business and Earnings Outlook 中给出 2026 adjusted operating EPS 指引 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+ 的目标。公司强调，增长展望尚未纳入 147 million MWh 年度可用核电电量捕捉溢价、额外天然气合同和增厚型资本配置带来的潜在上行。公司同时把总回购授权提升至 50 亿美元，并计划投入 39 亿美元 growth capital，用于有吸引力回报的增长项目。合并 Calpine 后，公司拥有约 55GW 发电组合，是美国最大的核电、天然气和地热发电平台之一。",
+        "evidence": [
+          "2026 指引：adjusted operating EPS 为 11.00-12.00 美元。",
+          "长期目标：2026-2029 Base EPS 增长 20%+，长期滚动三年 Base EPS 增长 10%+。",
+          "潜在上行：增长展望未纳入 147 million MWh 年度可用核电电量捕捉溢价、额外天然气合同和增厚型资本配置。",
+          "资产平台：合并 Calpine 后拥有约 55GW 发电组合，覆盖核电、天然气、地热等可调度与清洁电源。",
+          "资本配置：总回购授权提升至 50 亿美元，计划 39 亿美元 growth capital 投向具吸引力回报的项目。"
+        ],
+        "judgment": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。",
+        "business_analysis": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
+        "valuation_analysis": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
+        "verification": [
+          "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。",
+          "147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。",
+          "Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。",
+          "39 亿美元 growth capital 是否获得管理层承诺的双位数回报。",
+          "50 亿美元回购是否在不伤害资产负债表和增长投入的前提下执行。"
+        ],
+        "reviewed_at": "2026-05-05T10:30:00"
+      }
+    ]
+  }
 }
