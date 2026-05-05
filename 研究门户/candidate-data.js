@@ -13,7 +13,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260430,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "skipped",
+        "status_label": "暂不研判",
+        "review_lane": "低信号",
+        "review_score": 3,
+        "review_reason": "这类内容更偏品牌、生态或营销更新，暂时看不到足够直接的业务、财务或估值影响。",
+        "read_next": "保留存档；除非后续出现客户、金额、产品路线或财务影响，否则不升级。"
       },
       {
         "title": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
@@ -26,7 +34,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260430,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "skipped",
+        "status_label": "暂不研判",
+        "review_lane": "低信号",
+        "review_score": 3,
+        "review_reason": "这类内容更偏品牌、生态或营销更新，暂时看不到足够直接的业务、财务或估值影响。",
+        "read_next": "保留存档；除非后续出现客户、金额、产品路线或财务影响，否则不升级。"
       },
       {
         "title": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
@@ -39,7 +55,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260423,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
@@ -52,7 +76,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260422,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。"
       },
       {
         "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
@@ -65,7 +97,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260320,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter",
@@ -78,7 +118,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260227,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "NVIDIA Sets Conference Call for First-Quarter Financial Results",
@@ -91,7 +139,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260504,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 11,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
@@ -104,7 +160,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260504,
         "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       }
     ],
     "tsmc": [
@@ -119,7 +183,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260423,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 14,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "TSMC Files Annual Report on Form 20-F for 2025",
@@ -132,7 +204,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260416,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 7,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。"
       },
       {
         "title": "TSMC Reports First Quarter EPS of NT$22.08",
@@ -145,7 +225,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260416,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 5,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "TSMC March 2026 Revenue Report",
@@ -158,7 +246,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260410,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 5,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "TSMC February 2026 Revenue Report",
@@ -171,7 +267,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260310,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 5,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "TSMC Board of Directors Meeting Resolutions",
@@ -184,7 +288,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260210,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "TSMC January 2026 Revenue Report",
@@ -197,7 +309,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260210,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 5,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "TSMC Reports Fourth Quarter EPS of NT$19.50",
@@ -210,7 +330,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260115,
         "source_url": "https://pr.tsmc.com/english/latest-news",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260504-132622__pr.tsmc.com_english_latest-news.html",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 5,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       }
     ],
     "inovance": [
@@ -225,7 +353,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260316,
         "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "2025年度爆品发布会",
@@ -238,7 +374,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250901,
         "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会",
@@ -251,7 +395,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250617,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！",
@@ -264,7 +416,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20221121,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "关于汇川技术机器人产品价格调整的通知",
@@ -277,7 +437,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260330,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”",
@@ -290,7 +458,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250509,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
@@ -303,7 +479,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20241010,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
@@ -316,7 +500,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20241008,
         "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260504-132622__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html",
+        "company": "inovance",
+        "company_name": "汇川技术",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       }
     ],
     "gevernova": [
@@ -331,7 +523,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260128,
         "source_url": "https://www.gevernova.com/investors/events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260504-132622__www.gevernova.com_investors_events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260504-132622__www.gevernova.com_investors_events.html",
+        "company": "gevernova",
+        "company_name": "GE Vernova",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 6,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       }
     ],
     "luxshare": [
@@ -346,7 +546,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260309,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"",
@@ -359,7 +567,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260119,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification",
@@ -372,7 +588,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260105,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Luxshare Precision Named to Forbes' 2025 World's Best Employers List",
@@ -385,7 +609,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20251010,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!",
@@ -398,7 +630,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250731,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations",
@@ -411,7 +651,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250723,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "REACH and SVHC Statement",
@@ -424,7 +672,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250722,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay",
@@ -437,7 +693,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250721,
         "source_url": "https://www.luxshare-ict.com/en/news/release.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260504-132622__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       }
     ],
     "constellation": [
@@ -452,7 +716,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260120,
         "source_url": "https://www.constellationenergy.com/newsroom.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "ENERGY: Always On",
@@ -465,7 +737,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20251118,
         "source_url": "https://www.constellationenergy.com/newsroom.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Aspen Ideas Festival 2025",
@@ -478,7 +758,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250721,
         "source_url": "https://www.constellationenergy.com/newsroom.html",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__www.constellationenergy.com_newsroom.html.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 1,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
@@ -491,7 +779,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260511,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 11,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",
@@ -504,7 +800,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20260331,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 24,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
@@ -517,7 +821,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20251107,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 9,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
@@ -530,7 +842,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250807,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 9,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
@@ -543,7 +863,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20250506,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 9,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
@@ -556,7 +884,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20241104,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 9,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
       {
         "title": "Q2 2024 Constellation Energy Corporation Earnings Conference Call",
@@ -569,7 +905,15 @@ window.BAMBOO_LENS_CANDIDATES = {
         "priority": "候选",
         "sort_key": 20240806,
         "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260504-132622__investors.constellationenergy.com_events-and-presentations_past-events.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 9,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       }
     ]
   }

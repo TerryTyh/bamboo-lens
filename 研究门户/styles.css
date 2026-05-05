@@ -746,6 +746,118 @@ a:hover {
   margin-bottom: 6px;
 }
 
+.candidate-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.candidate-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 250, 243, 0.9);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.candidate-filter strong {
+  color: var(--accent);
+}
+
+.candidate-filter.active {
+  color: var(--ink);
+  background: var(--accent-soft);
+  border-color: rgba(21, 83, 61, 0.22);
+}
+
+.candidate-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.candidate-review-card {
+  display: flex;
+  min-height: 430px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 26px;
+  background: #fffaf3;
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 36px rgba(28, 66, 50, 0.05);
+}
+
+.candidate-review-card.status-pending {
+  background: linear-gradient(180deg, #fff4e5 0%, #fffaf3 100%);
+}
+
+.candidate-review-card.status-promoted {
+  background: linear-gradient(180deg, #f0f8ed 0%, #fffaf3 100%);
+}
+
+.candidate-review-card.status-waiting_material {
+  background: linear-gradient(180deg, #f4f1e8 0%, #fffaf3 100%);
+}
+
+.candidate-review-card.status-skipped,
+.candidate-review-card.status-archived {
+  background: linear-gradient(180deg, #f8f6ef 0%, #fffaf3 100%);
+}
+
+.candidate-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.candidate-status-pill,
+.candidate-score {
+  display: inline-flex;
+  width: fit-content;
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.candidate-score {
+  color: #7a421c;
+  background: #fff2df;
+}
+
+.candidate-review-card h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.candidate-fact,
+.candidate-review-block p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.candidate-review-block {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.candidate-review-block strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
 .card p,
 .card li {
   color: var(--muted);
@@ -1646,6 +1758,7 @@ a:hover {
   .company-kpi-grid,
   .cloud-sync-grid,
   .decision-queue-grid,
+  .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,
   .deep-grid,
@@ -1725,6 +1838,7 @@ a:hover {
   .company-kpi-grid,
   .cloud-sync-grid,
   .decision-queue-grid,
+  .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,
   .deep-grid,

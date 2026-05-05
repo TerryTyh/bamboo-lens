@@ -91,22 +91,22 @@ function renderCandidateStats() {
   if (!target || !payload?.companies) return;
 
   const companies = Object.entries(payload.companies);
-  const candidates = companies.reduce((total, [, items]) => total + (Array.isArray(items) ? items.length : 0), 0);
-  const latestDates = companies.flatMap(([, items]) => (items || []).map((item) => item.date).filter(Boolean));
-  const latestDate = latestDates.sort((a, b) => getLatestDateValue(b) - getLatestDateValue(a))[0] || "暂无";
+  const candidates = companies.flatMap(([, items]) => Array.isArray(items) ? items : []);
+  const pendingCount = candidates.filter((item) => item.candidate_status === "pending").length;
+  const promotedCount = candidates.filter((item) => item.candidate_status === "promoted").length;
 
   target.innerHTML = `
     <div class="cloud-stat-box">
-      <span>候选线索</span>
-      <strong>${candidates} 条</strong>
+      <span>待研判</span>
+      <strong>${pendingCount} 条</strong>
     </div>
     <div class="cloud-stat-box">
-      <span>覆盖公司</span>
-      <strong>${companies.length} 家</strong>
+      <span>已入库</span>
+      <strong>${promotedCount} 条</strong>
     </div>
     <div class="cloud-stat-box wide">
-      <span>最新候选日期</span>
-      <strong>${escapeHtml(latestDate)}</strong>
+      <span>覆盖公司</span>
+      <strong>${companies.length} 家</strong>
     </div>
   `;
 }

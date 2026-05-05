@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>官方候选池 | 竹鉴</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>候选事件研判台 | 竹鉴</title>
+    <link rel="stylesheet" href="./styles.css?v=20260505-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -12,8 +12,8 @@
         <div class="hero-copy">
           <a class="back-link" href="./index.html">← 返回研究门户</a>
           <p class="eyebrow">Candidate Pool</p>
-          <h1>官方候选池</h1>
-          <p class="hero-text">这里收拢系统从官方来源抓到、但还没有升级为正式研究事件的线索。</p>
+          <h1>候选事件研判台</h1>
+          <p class="hero-text">这里不是新闻列表，而是把官方来源候选按“待读、已入库、待材料、暂不研判”分流，避免标题级信息混进正式研究。</p>
         </div>
         <div class="hero-panel">
           <div class="hero-stat">
@@ -24,6 +24,14 @@
             <span class="label">覆盖公司</span>
             <span id="candidateCompanyCount" class="value">-</span>
           </div>
+          <div class="hero-stat">
+            <span class="label">待研判</span>
+            <span id="candidatePendingCount" class="value">-</span>
+          </div>
+          <div class="hero-stat">
+            <span class="label">已入库</span>
+            <span id="candidatePromotedCount" class="value">-</span>
+          </div>
         </div>
       </header>
 
@@ -31,14 +39,15 @@
         <section class="section">
           <div class="section-heading">
             <p class="section-kicker">Review Queue</p>
-            <h2>待研判线索</h2>
-            <p class="muted">候选不是投资结论。它们先进入这里，后续再筛选、研判，并升级为正式研究事件。</p>
+            <h2>研判队列</h2>
+            <p class="muted">优先看“待研判”。“已入库”说明已经沉淀到公司主页；“待材料”说明现在不能只凭日程写结论；“暂不研判”用于拦住低信号内容。</p>
           </div>
-          <div id="candidateFeed" class="event-grid masonry-grid"></div>
+          <div id="candidateFilters" class="candidate-filter-row"></div>
+          <div id="candidateFeed" class="candidate-review-grid"></div>
         </section>
       </main>
     </div>
-    <script src="./candidate-data.js"></script>
-    <script src="./candidates.js"></script>
+    <script src="./candidate-data.js?v=20260505-1"></script>
+    <script src="./candidates.js?v=20260505-1"></script>
   </body>
 </html>
