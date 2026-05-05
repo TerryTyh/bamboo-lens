@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-05T19:02:16",
+  "generated_at": "2026-05-05T20:26:33",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,48 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+          "source_candidate_title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+          "date": "2026-04-22",
+          "fetched_at": "",
+          "type": "云平台合作 / AI 工厂平台",
+          "fact": "NVIDIA 于 2026-04-22 披露与 Google Cloud 的新一轮全栈合作：Google Cloud 将推出 Vera Rubin NVL72 驱动的 A5X bare-metal instances，目标是在每 token 推理成本和每兆瓦 token 吞吐上较前代最高改善 10 倍；A5X 使用 ConnectX-9 SuperNICs 与 Google Virgo networking，单站点可扩展至 80,000 颗 Rubin GPU，多站点可扩展至 960,000 颗 Rubin GPU。合作还包括 Blackwell / Blackwell Ultra 支撑 Gemini on Google Distributed Cloud、Confidential G4 VMs with RTX PRO 6000 Blackwell GPUs、Nemotron 3 Super 进入 Gemini Enterprise Agent Platform、NeMo RL 支撑 managed RL API，以及 Omniverse、Isaac Sim、Cosmos Reason 2 NIM 在 Google Cloud 上服务工业与物理 AI。",
+          "judgment": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工具和客户生产场景组合成可规模化购买、部署和运维的基础设施。",
+          "action": "维持 A 池核心，并把云端 AI 工厂平台化验证优先级上调",
+          "priority": "P1",
+          "sort_key": 20260422,
+          "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+          "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260426-092522__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "NVIDIA 官方博客披露，NVIDIA 与 Google Cloud 在 Google Cloud Next 期间扩大合作，重点不是单一 GPU 上云，而是把 AI Hypercomputer、Vera Rubin A5X、Blackwell 机密计算、Gemini Enterprise、Nemotron、NeMo、Omniverse、Isaac Sim 和 Cosmos 等组件打包成面向 agentic AI 与 physical AI 的全栈云端平台。",
+            "基础设施层面，Google Cloud 将推出由 NVIDIA Vera Rubin NVL72 机架级系统驱动的 A5X bare-metal instances。原文称 A5X 在每 token 推理成本和每兆瓦 token 吞吐上，较前代可实现最高 10 倍改善，并可在单站点扩展到 8 万颗 Rubin GPU、多站点扩展到 96 万颗 Rubin GPU。",
+            "安全与主权 AI 层面，Gemini 模型将在 Google Distributed Cloud 上以 NVIDIA Blackwell 与 Blackwell Ultra GPU 预览运行；同时 Google Cloud 还预览 Confidential G4 VMs with NVIDIA RTX PRO 6000 Blackwell GPUs，使敏感 prompt、模型与数据在多租户云环境中获得机密计算保护。",
+            "模型与开发平台层面，NVIDIA Nemotron 3 Super 会进入 Gemini Enterprise Agent Platform，NeMo RL 支撑新的 managed reinforcement learning API，让企业和开发者更容易训练、定制和部署 agentic AI 系统。",
+            "物理 AI 层面，NVIDIA Omniverse libraries、Isaac Sim、Cosmos Reason 2 NIM microservices 等进入 Google Cloud Marketplace、Vertex AI 和 GKE，用于工业数字孪生、机器人仿真、视觉 AI agent、自动化数据标注和机器人规划推理。"
+          ],
+          "evidence": [
+            "A5X 基于 NVIDIA Vera Rubin NVL72 机架级系统，原文称较前代可实现最高 10 倍更低每 token 推理成本、最高 10 倍更高每兆瓦 token 吞吐。",
+            "A5X 将使用 NVIDIA ConnectX-9 SuperNICs 与 Google Virgo networking，单站点集群最高扩展到 80,000 颗 Rubin GPU，多站点集群最高扩展到 960,000 颗 Rubin GPU。",
+            "Google Cloud 的 Blackwell 产品组合覆盖 A4 VMs with HGX B200、A4X VMs with GB200 NVL72、A4X Max with GB300 NVL72，以及 fractional G4 VMs with RTX PRO 6000 Blackwell Server Edition GPUs。",
+            "Thinking Machines Lab 正在 A4X Max VMs with GB300 NVL72 上扩展 Tinker API，OpenAI 在 Google Cloud 上使用 GB300 与 GB200 NVL72 执行大规模推理工作负载，其中包括 ChatGPT。",
+            "Gemini 模型将在 Google Distributed Cloud 上以 Blackwell / Blackwell Ultra GPU 预览运行；Confidential G4 VMs with RTX PRO 6000 Blackwell GPUs 是 Google Cloud 云端 Blackwell GPU 机密计算能力的一部分。",
+            "NVIDIA Nemotron 3 Super 进入 Gemini Enterprise Agent Platform，Managed Training Clusters 新增基于 NVIDIA NeMo RL 的 managed reinforcement learning API。",
+            "Omniverse libraries、Isaac Sim 和 Cosmos Reason 2 NIM 将通过 Google Cloud Marketplace、Vertex AI 和 GKE 等路径进入工业数字孪生、机器人仿真、视觉 AI agent 与物理 AI 工作流。",
+            "Snap、Schrödinger、Salesforce、CrowdStrike、CodeRabbit、Factory、Aible、Mantis AI、Photoroom、Baseten 等被列为正在使用或受益于双方平台能力的客户/生态案例；双方开发者社区一年多已超过 90,000 名开发者。"
+          ],
+          "business_analysis": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客户买到的不只是单颗 GPU，而是一套从训练、推理、机密计算、强化学习、数字孪生到机器人仿真的云端 AI 工厂。这会提高 NVIDIA 在云厂商资本开支、企业 AI 生产部署和 physical AI 生态中的嵌入深度。",
+          "valuation_analysis": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、Rubin 量产节奏、Blackwell / GB300 供给、推理需求和毛利率。当前动作是维持 A 池核心并上调研究优先级，而不是因为合作新闻单独加仓。",
+          "verification": [
+            "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。",
+            "跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。",
+            "跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。",
+            "观察 Nemotron、NeMo RL、Omniverse、Isaac Sim、Cosmos NIM 在 Google Cloud 上的开发者使用和企业采购情况，判断软件/物理 AI 生态是否能增强 NVIDIA 平台溢价。",
+            "警惕 Google、OpenAI 等大客户自研 ASIC 与多供应商策略对 NVIDIA 单位经济和议价能力的长期压制。"
+          ],
+          "reviewed_at": "2026-05-05T18:20:00",
+          "review_status": "reviewed"
+        },
         {
           "title": "Rubin 平台、NVLink Fusion 和光互连合作，说明公司正在继续向更完整的 AI 工厂平台扩张",
           "date": "2026-01-05 / 2026-03-02 / 2026-03-16 / 2026-03-31",

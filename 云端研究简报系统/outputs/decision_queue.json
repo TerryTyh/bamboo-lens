@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-05T19:02:38",
-  "source_generated_at": "2026-05-05T19:02:16",
+  "generated_at": "2026-05-05T20:26:33",
+  "source_generated_at": "2026-05-05T20:26:33",
   "items": [
     {
       "company": "constellation",
@@ -147,6 +147,24 @@
       "score": 21
     },
     {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+      "date": "2026-04-22",
+      "type": "云平台合作 / AI 工厂平台",
+      "priority": "P1",
+      "decision_action": "维持 A 池核心，并把云端 AI 工厂平台化验证优先级上调",
+      "why": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工具和客户生产场景组合成可规模化购买、部署和运维的基础设施。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+      "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260426-092522__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": 0,
+      "sort_key": 20260422,
+      "score": 20
+    },
+    {
       "company": "gevernova",
       "company_name": "GE Vernova",
       "source_type": "formal_event",
@@ -178,7 +196,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 2,
+      "event_index": 3,
       "sort_key": 20260225,
       "score": 19
     },
@@ -268,7 +286,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 3,
+      "event_index": 4,
       "sort_key": 20260225,
       "score": 17
     },
@@ -358,7 +376,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 1,
+      "event_index": 2,
       "sort_key": 20260225,
       "score": 16
     },
@@ -502,7 +520,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 4,
+      "event_index": 5,
       "sort_key": 20260225,
       "score": 14
     },
@@ -520,7 +538,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 5,
+      "event_index": 6,
       "sort_key": 20260217,
       "score": 14
     },
@@ -772,7 +790,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 0,
+      "event_index": 1,
       "sort_key": 20260331,
       "score": 11
     },
@@ -972,24 +990,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260423,
-      "score": 8
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
-      "date": "2026-04-22",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
-      "source_url": "https://investor.nvidia.com/news/press-releases/default.aspx",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260504-132622__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260422,
       "score": 8
     },
     {
@@ -1211,8 +1211,8 @@
   ],
   "summary": {
     "total": 67,
-    "formal_events": 47,
-    "official_candidates": 20,
+    "formal_events": 48,
+    "official_candidates": 19,
     "companies": 8
   }
 }

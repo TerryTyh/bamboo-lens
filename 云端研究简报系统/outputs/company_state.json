@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-05T19:02:38",
-  "source_generated_at": "2026-05-05T19:02:16",
+  "generated_at": "2026-05-05T20:26:33",
+  "source_generated_at": "2026-05-05T20:26:33",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
-      "source_event_title": "Rubin 平台、NVLink Fusion 和光互连合作，说明公司正在继续向更完整的 AI 工厂平台扩张",
-      "source_event_date": "2026-01-05 / 2026-03-02 / 2026-03-16 / 2026-03-31",
-      "latestEvent": "2026-01-05 / 2026-03-02 / 2026-03-16 / 2026-03-31｜Rubin 平台、NVLink Fusion 和光互连合作，说明公司正在继续向更完整的 AI 工厂平台扩张",
-      "businessImpact": "这是一条 P1 级别的信息。它说明 NVIDIA 正在从“最强 AI 芯片公司”继续演进为“AI 工厂平台公司”，未来护城河越来越依赖系统级协同，而不是单点芯片领先。",
-      "valuationImpact": "这是一条 P1 级别的信息。它说明 NVIDIA 正在从“最强 AI 芯片公司”继续演进为“AI 工厂平台公司”，未来护城河越来越依赖系统级协同，而不是单点芯片领先。",
-      "nextCheck": "下一次重点验证：公司在 CES 和 GTC 期间连续披露 Rubin 平台、Vera Rubin 全生产、NVLink Fusion，以及与 Lumentum、Coherent、Marvell 的合作与投资安排，持续强化光互连、网络与半定制基础设施布局。",
-      "action": "维持原判断",
+      "source_event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+      "source_event_date": "2026-04-22",
+      "latestEvent": "2026-04-22｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+      "businessImpact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客...",
+      "valuationImpact": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、...",
+      "nextCheck": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。；跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。",
+      "action": "维持 A 池核心，并把云端 AI 工厂平台化验证优先级上调",
       "priority": "P1",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "source_event_date": "2026-04-23",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-05-05T19:02:38",
+      "updated_at": "2026-05-05T20:26:33",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
