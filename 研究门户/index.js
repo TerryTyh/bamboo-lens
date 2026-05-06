@@ -215,6 +215,11 @@ function renderDecisionImpact() {
         ${(item.dimensions || []).map((dimension) => `<span>${escapeHtml(dimension)}</span>`).join("")}
         ${item.valuation_update_needed ? "<strong>需看估值</strong>" : ""}
       </div>
+      <div class="decision-output-box">
+        <strong>${escapeHtml(item.decision_output?.confidence_change || "维持确信度")}</strong>
+        <p>${escapeHtml(item.decision_output?.portfolio_hint || "维持观察，等待下一次验证。")}</p>
+        <small>应更新：${escapeHtml((item.decision_output?.update_targets || []).join(" / ") || "当前结论")}</small>
+      </div>
       <p><strong>判断变化：</strong>${escapeHtml(item.decision_change)}</p>
       <p><strong>估值/动作：</strong>${escapeHtml(item.valuation_impact)}</p>
       <div class="decision-next">

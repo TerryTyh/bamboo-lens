@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-06T13:51:11",
+  "generated_at": "2026-05-06T22:04:32",
   "source_generated_at": "2026-05-06T13:51:10",
   "items": [
     {
@@ -18,6 +18,17 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "trigger_type": "维持核心并观察加仓条件",
       "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
       "decision_change": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
       "business_impact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，...",
       "valuation_impact": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
@@ -46,6 +57,17 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "trigger_type": "维持核心并观察加仓条件",
       "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
       "decision_change": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工...",
       "business_impact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作...",
       "valuation_impact": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、...",
@@ -75,6 +97,18 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "trigger_type": "上调研究优先级",
       "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
       "decision_change": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh...",
       "business_impact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuation_impact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
@@ -106,6 +140,17 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "trigger_type": "维持核心并观察加仓条件",
         "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
         "decision_change": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工...",
         "business_impact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作...",
         "valuation_impact": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、...",
@@ -136,6 +181,17 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "trigger_type": "维持核心并观察加仓条件",
         "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
         "decision_change": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
         "business_impact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，...",
         "valuation_impact": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
@@ -167,6 +223,18 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "trigger_type": "上调研究优先级",
         "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
         "decision_change": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh...",
         "business_impact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
         "valuation_impact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",

@@ -807,6 +807,24 @@ a:hover {
   background: #fff2df;
 }
 
+.decision-output-box {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(18, 82, 57, 0.06);
+  border: 1px solid rgba(18, 82, 57, 0.12);
+}
+
+.decision-output-box strong {
+  color: var(--accent);
+}
+
+.decision-output-box small {
+  color: #7a421c;
+  font-weight: 800;
+}
+
 .company-impact-feed {
   display: grid;
   gap: 16px;

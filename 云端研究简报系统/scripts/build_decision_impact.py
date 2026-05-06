@@ -22,6 +22,14 @@ VALUATION_WORDS = ["估值", "市值", "PE", "P/FCF", "倍数", "价值", "价�
 RISK_WORDS = ["风险", "警惕", "拖累", "压制", "放缓", "下滑", "不确定"]
 
 
+SECTION_LABELS = {
+    "业务": "公司理解",
+    "财务": "财务数据地图",
+    "估值": "估值模型",
+    "风险": "跟踪重点与风险",
+}
+
+
 def load_event_store() -> dict:
     if not EVENT_STORE_FILE.exists():
         return {"generated_at": "", "companies": {}}
@@ -104,6 +112,50 @@ def valuation_update_needed(event: dict, dimensions: list[str]) -> bool:
     return "估值" in dimensions or count_words(text, FINANCE_WORDS) >= 2
 
 
+def confidence_change(direction: str, event: dict) -> str:
+    action = str(event.get("action", ""))
+    if direction == "负向压制":
+        return "下调确信度"
+    if "提升" in action:
+        return "上调确信度"
+    if direction == "正向强化":
+        return "小幅上调确信度"
+    return "维持确信度"
+
+
+def portfolio_hint(direction: str, event: dict) -> str:
+    valuation = str(event.get("valuation_analysis", ""))
+    if direction == "负向压制":
+        return "暂停加仓，优先排查风险是否破坏原逻辑。"
+    if "不应该" in valuation or "不因" in valuation or "不是" in valuation:
+        return "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。"
+    if "加仓" in valuation or "更积极" in valuation:
+        return "可进入更积极分批候选，但仍需价格与估值安全边际配合。"
+    return "维持观察，只有验证点继续兑现时才考虑提高动作强度。"
+
+
+def update_targets(dimensions: list[str], valuation_needed: bool) -> list[str]:
+    targets = [SECTION_LABELS[dimension] for dimension in dimensions if dimension in SECTION_LABELS]
+    if valuation_needed and "估值模型" not in targets:
+        targets.append("估值模型")
+    if "当前结论" not in targets:
+        targets.insert(0, "当前结论")
+    return targets
+
+
+def decision_output(event: dict, direction: str, dimensions: list[str], valuation_needed: bool) -> dict:
+    return {
+        "confidence_change": confidence_change(direction, event),
+        "portfolio_hint": portfolio_hint(direction, event),
+        "update_targets": update_targets(dimensions, valuation_needed),
+        "next_work": (
+            "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+            if valuation_needed
+            else "先沉淀到事件流，等待更多证据再调整估值模型。"
+        ),
+    }
+
+
 def build_company_impacts(company_id: str, company: dict) -> list[dict]:
     impacts = []
     for index, event in enumerate(company.get("events", [])):
@@ -111,6 +163,7 @@ def build_company_impacts(company_id: str, company: dict) -> list[dict]:
             continue
         direction = impact_direction(event)
         dimensions = impact_dimensions(event)
+        valuation_needed = valuation_update_needed(event, dimensions)
         verification = [str(item).strip() for item in event.get("verification", []) if str(item).strip()]
         impacts.append(
             {
@@ -124,7 +177,8 @@ def build_company_impacts(company_id: str, company: dict) -> list[dict]:
                 "direction": direction,
                 "dimensions": dimensions,
                 "trigger_type": trigger_type(event, direction),
-                "valuation_update_needed": valuation_update_needed(event, dimensions),
+                "valuation_update_needed": valuation_needed,
+                "decision_output": decision_output(event, direction, dimensions, valuation_needed),
                 "decision_change": first_sentence(event.get("judgment", ""), 180),
                 "business_impact": first_sentence(event.get("business_analysis", ""), 220),
                 "valuation_impact": first_sentence(event.get("valuation_analysis", ""), 240),

@@ -2396,6 +2396,11 @@ function renderCompanyDecisionImpact(company) {
         ${(item.dimensions || []).map((dimension) => `<span>${dimension}</span>`).join("")}
         ${item.valuation_update_needed ? "<strong>需更新估值视角</strong>" : ""}
       </div>
+      <div class="decision-output-box">
+        <strong>${item.decision_output?.confidence_change || "维持确信度"}</strong>
+        <p>${item.decision_output?.portfolio_hint || "维持观察，等待下一次验证。"}</p>
+        <small>应更新：${(item.decision_output?.update_targets || ["当前结论"]).join(" / ")}</small>
+      </div>
       <p><strong>判断变化：</strong>${item.decision_change}</p>
       <p><strong>业务影响：</strong>${item.business_impact}</p>
       <p><strong>估值 / 动作：</strong>${item.valuation_impact}</p>
