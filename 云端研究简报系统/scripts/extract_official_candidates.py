@@ -51,6 +51,12 @@ NOISE_PATTERNS = (
     "nuclear preservation",
     "nuclear license renewal",
 )
+BAD_EXCERPT_PATTERNS = (
+    "PLATFORMS Autonomous Machines",
+    "View All Products GPU TECHNOLOGY CONFERENCE",
+    "NVIDIA in Brief Exec Bios",
+    "Skip to main content",
+)
 
 
 class CandidateHTMLParser(HTMLParser):
@@ -102,6 +108,13 @@ def trim_excerpt(text: str, limit: int = 420) -> str:
     return value[: limit - 1].rstrip(" ，,。;；") + "…"
 
 
+def is_readable_excerpt(text: str) -> bool:
+    value = normalize_text(text)
+    if len(value) < 60:
+        return False
+    return not any(pattern.lower() in value.lower() for pattern in BAD_EXCERPT_PATTERNS)
+
+
 def fetch_url_text(url: str) -> str:
     if not url.startswith(("http://", "https://")):
         return ""
@@ -134,10 +147,9 @@ def extract_meta_description(html: str) -> str:
     return ""
 
 
-def extract_article_excerpt(html: str) -> str:
+def extract_article_paragraphs(html: str) -> list[str]:
     if not html:
-        return ""
-    meta = extract_meta_description(html)
+        return []
     paragraphs = []
     for match in re.findall(r"<p[^>]*>([\s\S]*?)</p>", html, flags=re.IGNORECASE):
         text = clean_html_text(match)
@@ -147,10 +159,23 @@ def extract_article_excerpt(html: str) -> str:
         if any(noise in lowered for noise in ("cookie", "privacy", "forward-looking", "safe harbor", "subscribe")):
             continue
         paragraphs.append(text)
-        if len(paragraphs) >= 3:
+        if len(paragraphs) >= 12:
             break
-    excerpt = " ".join(paragraphs)
-    return trim_excerpt(excerpt or meta)
+    return paragraphs
+
+
+def extract_article_excerpt(html: str) -> str:
+    if not html:
+        return ""
+    meta = extract_meta_description(html)
+    paragraphs = extract_article_paragraphs(html)
+    excerpt = trim_excerpt(" ".join(paragraphs[:3]) or meta)
+    return excerpt if is_readable_excerpt(excerpt) else ""
+
+
+def extract_article_body(html: str) -> str:
+    body = normalize_text(" ".join(extract_article_paragraphs(html)))
+    return body if is_readable_excerpt(body) else ""
 
 
 def load_manifest() -> list[dict]:
@@ -413,8 +438,12 @@ def extract_nvidia_candidates_from_html(html: str, url: str) -> list[dict]:
             block,
         )
         excerpt = clean_html_text(description)
-        if not excerpt and source_url != url:
-            excerpt = extract_article_excerpt(fetch_url_text(source_url))
+        source_body = ""
+        if source_url != url:
+            detail_html = fetch_url_text(source_url)
+            if not excerpt:
+                excerpt = extract_article_excerpt(detail_html)
+            source_body = extract_article_body(detail_html)
 
         items.append(
             {
@@ -424,7 +453,8 @@ def extract_nvidia_candidates_from_html(html: str, url: str) -> list[dict]:
                 "tag": "html-card",
                 "score": score_candidate("a", title) + (2 if excerpt else 0),
                 "source_url": source_url,
-                "source_excerpt": trim_excerpt(excerpt),
+                "source_excerpt": trim_excerpt(excerpt) if is_readable_excerpt(excerpt) else "",
+                "source_body": source_body,
             }
         )
     return dedupe_items(items)
@@ -796,8 +826,13 @@ def build_payload() -> dict:
             fallback_key = re.sub(r"\D", "", row.get("fetched_at", "")[:8]) or "0"
             source_url = item.get("source_url") or row["url"]
             source_excerpt = item.get("source_excerpt", "")
+            source_body = item.get("source_body", "")
             if not source_excerpt and source_url != row["url"]:
-                source_excerpt = extract_article_excerpt(fetch_url_text(source_url))
+                detail_html = fetch_url_text(source_url)
+                source_excerpt = extract_article_excerpt(detail_html)
+                source_body = extract_article_body(detail_html)
+            if not is_readable_excerpt(source_excerpt):
+                source_excerpt = ""
             grouped[row["company_id"]].append(
                 {
                     "title": item["title"],
@@ -816,6 +851,7 @@ def build_payload() -> dict:
                     "sort_key": item["sort_key"] or int(fallback_key),
                     "source_url": source_url,
                     "source_excerpt": source_excerpt,
+                    "source_body": source_body,
                     "source_file": str(path),
                 }
             )

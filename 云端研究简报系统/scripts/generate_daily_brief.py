@@ -105,6 +105,7 @@ def flatten_official_candidates(store: dict) -> list[dict]:
                     "sort_key": event.get("sort_key", 0),
                     "source_url": event.get("source_url", ""),
                     "source_excerpt": event.get("source_excerpt", ""),
+                    "content_summary": event.get("content_summary", []),
                 }
             )
     return sorted(items, key=lambda item: item["sort_key"], reverse=True)
@@ -318,6 +319,10 @@ def candidate_signal_score(item: dict) -> int:
         score -= 6
     if item.get("sort_key", 0) >= 20260501:
         score += 2
+    if has_candidate_content(item):
+        score += 8
+    else:
+        score -= 8
     return score
 
 
@@ -346,15 +351,45 @@ def candidate_next_step(item: dict) -> str:
 
 
 def candidate_content(item: dict) -> str:
+    content_summary = item.get("content_summary") or []
+    if content_summary:
+        return "\n   ".join(f"- {normalize(line)}" for line in content_summary if normalize(line))
+
     excerpt = normalize(item.get("source_excerpt", ""))
-    if excerpt:
+    if is_readable_candidate_content(excerpt):
         return excerpt
 
     fact = normalize(item.get("fact", ""))
     marker = "原文内容："
     if marker in fact:
-        return fact.split(marker, 1)[1].split("；来源：", 1)[0].strip()
+        extracted = fact.split(marker, 1)[1].split("；来源：", 1)[0].strip()
+        if is_readable_candidate_content(extracted):
+            return extracted
     return "当前只抓到了标题和来源页，还没有读到正文内容；这类线索不应直接形成判断。"
+
+
+def is_readable_candidate_content(text: str) -> bool:
+    value = normalize(text)
+    if len(value) < 60:
+        return False
+    bad_patterns = [
+        "PLATFORMS Autonomous Machines",
+        "View All Products GPU TECHNOLOGY CONFERENCE",
+        "NVIDIA in Brief Exec Bios",
+        "Skip to main content",
+    ]
+    return not any(pattern.lower() in value.lower() for pattern in bad_patterns)
+
+
+def has_candidate_content(item: dict) -> bool:
+    if item.get("content_summary"):
+        return True
+    return is_readable_candidate_content(item.get("source_excerpt", "")) or (
+        "原文内容：" in normalize(item.get("fact", ""))
+        and is_readable_candidate_content(
+            normalize(item.get("fact", "")).split("原文内容：", 1)[1].split("；来源：", 1)[0]
+        )
+    )
 
 
 def rank_candidate(item: dict) -> tuple[int, int]:
@@ -401,7 +436,8 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         reverse=True,
     )
     top_events = fresh_events[:3]
-    top_candidates = fresh_candidates[:5]
+    readable_candidates = [item for item in fresh_candidates if has_candidate_content(item)]
+    top_candidates = (readable_candidates or fresh_candidates)[:5]
 
     if top_events:
         key_changes = []
