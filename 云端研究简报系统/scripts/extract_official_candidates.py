@@ -4,8 +4,10 @@ from __future__ import annotations
 import json
 import re
 import urllib.parse
+import urllib.request
 from collections import defaultdict
 from datetime import datetime
+import html as html_lib
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -79,6 +81,76 @@ class CandidateHTMLParser(HTMLParser):
 
 def normalize_text(text: str) -> str:
     return " ".join((text or "").replace("\xa0", " ").split()).strip()
+
+
+def clean_html_text(raw: str) -> str:
+    text = re.sub(r"<script[\s\S]*?</script>", " ", raw or "", flags=re.IGNORECASE)
+    text = re.sub(r"<style[\s\S]*?</style>", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return normalize_text(html_lib.unescape(text))
+
+
+def first_match(pattern: str, text: str, flags: int = re.IGNORECASE) -> str:
+    match = re.search(pattern, text or "", flags)
+    return match.group(1).strip() if match else ""
+
+
+def trim_excerpt(text: str, limit: int = 420) -> str:
+    value = normalize_text(text)
+    if len(value) <= limit:
+        return value
+    return value[: limit - 1].rstrip(" ，,。;；") + "…"
+
+
+def fetch_url_text(url: str) -> str:
+    if not url.startswith(("http://", "https://")):
+        return ""
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 BambooLensResearchBot/1.0",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=18) as response:
+            raw = response.read(1_000_000)
+            charset = response.headers.get_content_charset() or "utf-8"
+            return raw.decode(charset, errors="ignore")
+    except Exception:
+        return ""
+
+
+def extract_meta_description(html: str) -> str:
+    patterns = [
+        r'<meta\s+name=["\']description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta\s+property=["\']og:description["\'][^>]*content=["\']([^"\']+)["\']',
+        r'<meta\s+content=["\']([^"\']+)["\'][^>]*(?:name|property)=["\'](?:description|og:description)["\']',
+    ]
+    for pattern in patterns:
+        value = first_match(pattern, html)
+        if value:
+            return clean_html_text(value)
+    return ""
+
+
+def extract_article_excerpt(html: str) -> str:
+    if not html:
+        return ""
+    meta = extract_meta_description(html)
+    paragraphs = []
+    for match in re.findall(r"<p[^>]*>([\s\S]*?)</p>", html, flags=re.IGNORECASE):
+        text = clean_html_text(match)
+        lowered = text.lower()
+        if len(text) < 45:
+            continue
+        if any(noise in lowered for noise in ("cookie", "privacy", "forward-looking", "safe harbor", "subscribe")):
+            continue
+        paragraphs.append(text)
+        if len(paragraphs) >= 3:
+            break
+    excerpt = " ".join(paragraphs)
+    return trim_excerpt(excerpt or meta)
 
 
 def load_manifest() -> list[dict]:
@@ -277,7 +349,7 @@ def extract_tsmc_candidates_from_markdown(text: str) -> list[dict]:
     items: list[dict] = []
 
     list_pattern = re.compile(r"\*\s+\[(20\d{2}/\d{2}/\d{2})\s+##\s+([^\]]+)\]\(([^)]+)\)")
-    for date_text, title, _url in list_pattern.findall(text):
+    for date_text, title, source_url in list_pattern.findall(text):
         parsed_date, sort_key = parse_date(date_text)
         if not sort_key:
             continue
@@ -288,6 +360,7 @@ def extract_tsmc_candidates_from_markdown(text: str) -> list[dict]:
                 "sort_key": sort_key,
                 "tag": "markdown",
                 "score": 9,
+                "source_url": source_url,
             }
         )
 
@@ -316,6 +389,45 @@ def extract_nvidia_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
         if any(keyword in item["title"].lower() for keyword in ("financial", "results", "nvidia", "ai", "platform", "partner", "expands", "fusion"))
     ]
     return dedupe_items(focused or items)
+
+
+def extract_nvidia_candidates_from_html(html: str, url: str) -> list[dict]:
+    items: list[dict] = []
+    blocks = re.findall(r"<article\b[\s\S]*?</article>", html, flags=re.IGNORECASE)
+    for block in blocks:
+        title_html = first_match(r'<h[23][^>]*class=["\'][^"\']*(?:title)[^"\']*["\'][^>]*>([\s\S]*?)</h[23]>', block)
+        href = first_match(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>', title_html or block)
+        title = clean_candidate(clean_html_text(title_html))
+        if not title:
+            continue
+        lowered = title.lower()
+        if any(noise in lowered for noise in NOISE_PATTERNS):
+            continue
+
+        date_source = first_match(r'<div[^>]*class=["\'][^"\']*date[^"\']*["\'][^>]*>([\s\S]*?)</div>', block)
+        date_text, sort_key = parse_date(clean_html_text(date_source))
+        source_url = urllib.parse.urljoin(url, html_lib.unescape(href)) if href else url
+
+        description = first_match(
+            r'<div[^>]*class=["\'][^"\']*(?:description|summary|dek)[^"\']*["\'][^>]*>([\s\S]*?)</div>',
+            block,
+        )
+        excerpt = clean_html_text(description)
+        if not excerpt and source_url != url:
+            excerpt = extract_article_excerpt(fetch_url_text(source_url))
+
+        items.append(
+            {
+                "title": title,
+                "date": date_text,
+                "sort_key": sort_key,
+                "tag": "html-card",
+                "score": score_candidate("a", title) + (2 if excerpt else 0),
+                "source_url": source_url,
+                "source_excerpt": trim_excerpt(excerpt),
+            }
+        )
+    return dedupe_items(items)
 
 
 def extract_microsoft_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
@@ -627,7 +739,7 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
     if company_id == "tsmc":
         return extract_tsmc_candidates(text_nodes, url)
     if company_id == "nvidia":
-        return extract_nvidia_candidates(text_nodes)
+        return extract_nvidia_candidates_from_html(html, url) or extract_nvidia_candidates(text_nodes)
     if company_id == "microsoft":
         return extract_microsoft_candidates(text_nodes)
     if company_id == "alibaba":
@@ -653,11 +765,13 @@ def summarize_title(title: str, url: str) -> str:
     return f"官方来源抓到候选更新：{value}（来源：{url}）"
 
 
-def candidate_fact(title: str, date_text: str, url: str) -> str:
+def candidate_fact(title: str, date_text: str, url: str, excerpt: str = "") -> str:
     parts = []
     if date_text:
         parts.append(f"日期：{date_text}")
     parts.append(f"标题：{title}")
+    if excerpt:
+        parts.append(f"原文内容：{excerpt}")
     parts.append(f"来源：{url}")
     return "；".join(parts)
 
@@ -680,18 +794,28 @@ def build_payload() -> dict:
         candidates = extract_candidates_from_html(html, row["company_id"], row["url"])
         for item in candidates:
             fallback_key = re.sub(r"\D", "", row.get("fetched_at", "")[:8]) or "0"
+            source_url = item.get("source_url") or row["url"]
+            source_excerpt = item.get("source_excerpt", "")
+            if not source_excerpt and source_url != row["url"]:
+                source_excerpt = extract_article_excerpt(fetch_url_text(source_url))
             grouped[row["company_id"]].append(
                 {
                     "title": item["title"],
                     "date": item["date"] or row.get("fetched_at", "")[:10],
                     "fetched_at": row.get("fetched_at", ""),
                     "type": "官方候选",
-                    "fact": candidate_fact(item["title"], item["date"] or row.get("fetched_at", "")[:10], row["url"]),
+                    "fact": candidate_fact(
+                        item["title"],
+                        item["date"] or row.get("fetched_at", "")[:10],
+                        source_url,
+                        source_excerpt,
+                    ),
                     "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
                     "action": "加入待研判队列",
                     "priority": "候选",
                     "sort_key": item["sort_key"] or int(fallback_key),
-                    "source_url": row["url"],
+                    "source_url": source_url,
+                    "source_excerpt": source_excerpt,
                     "source_file": str(path),
                 }
             )

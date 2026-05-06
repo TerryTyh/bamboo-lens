@@ -104,6 +104,7 @@ def flatten_official_candidates(store: dict) -> list[dict]:
                     "priority": event["priority"],
                     "sort_key": event.get("sort_key", 0),
                     "source_url": event.get("source_url", ""),
+                    "source_excerpt": event.get("source_excerpt", ""),
                 }
             )
     return sorted(items, key=lambda item: item["sort_key"], reverse=True)
@@ -344,6 +345,18 @@ def candidate_next_step(item: dict) -> str:
     return "先读原文正文；如果只有营销标题或日程信息，就留在候选池不升级。"
 
 
+def candidate_content(item: dict) -> str:
+    excerpt = normalize(item.get("source_excerpt", ""))
+    if excerpt:
+        return excerpt
+
+    fact = normalize(item.get("fact", ""))
+    marker = "原文内容："
+    if marker in fact:
+        return fact.split(marker, 1)[1].split("；来源：", 1)[0].strip()
+    return "当前只抓到了标题和来源页，还没有读到正文内容；这类线索不应直接形成判断。"
+
+
 def rank_candidate(item: dict) -> tuple[int, int]:
     return candidate_signal_score(item), item.get("sort_key", 0)
 
@@ -357,9 +370,9 @@ def render_candidate_block(candidates: list[dict]) -> str:
         source = f"\n   来源：{event['source_url']}" if event.get("source_url") else ""
         lines.append(
             f"""{index}. 公司：{event["company_name"]}
-   候选：{normalize(event["title"])}
-   为什么值得看：{candidate_reason(event)}
-   下一步：{candidate_next_step(event)}{source}"""
+   标题：{normalize(event["title"])}
+   原文内容：{candidate_content(event)}
+   读完后的处理：{candidate_next_step(event)}{source}"""
         )
     return "\n\n".join(lines)
 
