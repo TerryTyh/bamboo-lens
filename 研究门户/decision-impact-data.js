@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-06T22:04:32",
-  "source_generated_at": "2026-05-06T13:51:10",
+  "generated_at": "2026-05-06T15:01:50",
+  "source_generated_at": "2026-05-06T15:01:50",
   "items": [
     {
       "company": "tsmc",
