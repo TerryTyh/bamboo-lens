@@ -80,6 +80,7 @@ def flatten_events(store: dict) -> list[dict]:
                     "priority": event["priority"],
                     "sort_key": event.get("sort_key", 0),
                     "source_doc": event.get("source_doc", ""),
+                    "source_candidate_title": event.get("source_candidate_title", ""),
                 }
             )
     return sorted(items, key=rank_event, reverse=True)
@@ -262,14 +263,105 @@ def is_recent_event(item: dict, today: datetime, days: int = 2) -> bool:
     return False
 
 
-def is_recent_candidate(item: dict, today: datetime, days: int = 2) -> bool:
-    for key in ("fetched_at", "date"):
-        parsed = parse_date_like(item.get(key, ""))
-        if parsed is None:
-            continue
-        age = today.date() - parsed.date()
+def is_recent_candidate(item: dict, today: datetime, days: int = 2, upcoming_days: int = 7) -> bool:
+    # If the source provides an event date, prefer it over fetched_at.
+    # Otherwise old conference pages re-fetched today will look like fresh news.
+    parsed_date = parse_date_like(item.get("date", ""))
+    if parsed_date is not None:
+        age = today.date() - parsed_date.date()
+        return -timedelta(days=upcoming_days) <= age <= timedelta(days=days)
+
+    parsed_fetched_at = parse_date_like(item.get("fetched_at", ""))
+    if parsed_fetched_at is not None:
+        age = today.date() - parsed_fetched_at.date()
         return timedelta(days=0) <= age <= timedelta(days=days)
     return False
+
+
+def candidate_signal_score(item: dict) -> int:
+    text = " ".join(
+        normalize(item.get(field, ""))
+        for field in ["title", "type", "fact"]
+    ).lower()
+    score = 0
+    keyword_weights = {
+        "earnings": 5,
+        "results": 5,
+        "revenue": 4,
+        "eps": 4,
+        "outlook": 4,
+        "guidance": 4,
+        "annual report": 3,
+        "20-f": 3,
+        "partnership": 3,
+        "collaborate": 3,
+        "long-term": 3,
+        "manufacturing": 2,
+        "ai infrastructure": 3,
+        "cloud": 2,
+        "ai": 2,
+        "conference call": 2,
+    }
+    low_signal = [
+        "games hit the cloud",
+        "protecting the planet",
+        "rainforests",
+        "recycling plants",
+        "golden responsibility award",
+        "esg",
+    ]
+    for keyword, weight in keyword_weights.items():
+        if keyword in text:
+            score += weight
+    if any(keyword in text for keyword in low_signal):
+        score -= 6
+    if item.get("sort_key", 0) >= 20260501:
+        score += 2
+    return score
+
+
+def candidate_reason(item: dict) -> str:
+    text = normalize(item.get("title", "")).lower()
+    if any(word in text for word in ["earnings", "results", "eps", "revenue", "outlook", "guidance"]):
+        return "这类信息可能直接影响收入、利润率、现金流或下一季验证点，值得优先读原文。"
+    if any(word in text for word in ["partnership", "collaborate", "long-term"]):
+        return "这类信息可能影响客户绑定、供应链位置或平台化能力，但必须读原文确认规模和商业路径。"
+    if any(word in text for word in ["annual report", "20-f"]):
+        return "这类信息适合周末深读，用来补风险、资本开支、业务结构和治理信息。"
+    if any(word in text for word in ["ai", "cloud", "infrastructure", "manufacturing"]):
+        return "这类信息可能影响长期业务边界，但不能只凭标题下判断，需要看客户、金额、部署路径。"
+    return "这是今日新增官方候选，先作为待读线索保留，不直接形成投资结论。"
+
+
+def candidate_next_step(item: dict) -> str:
+    text = normalize(item.get("title", "")).lower()
+    if any(word in text for word in ["earnings", "results", "conference call"]):
+        return "打开原文或会议材料，提取收入、利润率、指引、现金流和管理层口径。"
+    if any(word in text for word in ["partnership", "collaborate", "manufacturing"]):
+        return "重点确认合作对象、期限、产能/金额、收入路径和是否强化护城河。"
+    if any(word in text for word in ["annual report", "20-f"]):
+        return "放入周末深读，补公司风险、业务结构、资本开支和现金流质量。"
+    return "先读原文正文；如果只有营销标题或日程信息，就留在候选池不升级。"
+
+
+def rank_candidate(item: dict) -> tuple[int, int]:
+    return candidate_signal_score(item), item.get("sort_key", 0)
+
+
+def render_candidate_block(candidates: list[dict]) -> str:
+    if not candidates:
+        return "- 今天云端已扫描官方来源，但没有发现足够新的候选线索。"
+
+    lines = []
+    for index, event in enumerate(candidates, start=1):
+        source = f"\n   来源：{event['source_url']}" if event.get("source_url") else ""
+        lines.append(
+            f"""{index}. 公司：{event["company_name"]}
+   候选：{normalize(event["title"])}
+   为什么值得看：{candidate_reason(event)}
+   下一步：{candidate_next_step(event)}{source}"""
+        )
+    return "\n\n".join(lines)
 
 
 def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
@@ -280,7 +372,21 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         item for item in events
         if is_recent_event(item, now, days=2) and is_publishable_event(item)
     ]
-    fresh_candidates = [item for item in official_candidates if is_recent_candidate(item, now, days=2)]
+    reviewed_titles = {
+        normalize(title).lower()
+        for event in events
+        for title in [event.get("title", ""), event.get("source_candidate_title", "")]
+        if normalize(title)
+    }
+    fresh_candidates = sorted(
+        [
+            item for item in official_candidates
+            if is_recent_candidate(item, now, days=2)
+            and normalize(item.get("title", "")).lower() not in reviewed_titles
+        ],
+        key=rank_candidate,
+        reverse=True,
+    )
     top_events = fresh_events[:3]
     top_candidates = fresh_candidates[:5]
 
@@ -313,31 +419,33 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         tomorrow_focus = "- 继续扫描官方来源中的新增线索\n- 只有出现当日/近期新变化时才升级为重点简报"
 
     if top_candidates:
-        candidate_lines = []
-        for index, event in enumerate(top_candidates, start=1):
-            source = f" 来源：{event['source_url']}" if event.get("source_url") else ""
-            candidate_lines.append(
-                f"""{index}. 公司：{event["company_name"]}
-   候选：{normalize(event["title"])}
-   说明：{normalize(event["judgment"])}{source}"""
-            )
-        candidate_block = "\n\n".join(candidate_lines)
+        candidate_block = render_candidate_block(top_candidates)
     elif top_events:
         candidate_block = "- 今天没有新增可入库的官方候选事件；系统已完成扫描，但没有发现足够新的、足够清晰的官方线索。"
 
     if not top_events:
+        candidate_block = render_candidate_block(top_candidates)
+        if top_candidates:
+            tomorrow_focus = "\n".join(
+                f"- 优先研判：{event['company_name']}｜{normalize(event['title'])}"
+                for event in top_candidates[:3]
+            )
+        else:
+            tomorrow_focus = "- 继续扫描官方来源中的新增线索\n- 只有出现当日/近期新变化时，才恢复完整日报展开"
         return f"""# 竹鉴日报 | {today}
 
 一句话结论：
 
 今天没有新增值得直接推送的已判断研究事件。
 
+今日新增候选线索（未研判）：
+
+{candidate_block}
+
 明日重点：
 
 - 当前覆盖公司：{names}
-- 延续跟踪最近一轮官方候选里最值得研判的线索，优先看 NVIDIA 当天新增候选是否能升级为正式研究事件
-- 继续补强 TSMC、立讯精密、汇川技术、Constellation Energy 的官方来源抓取稳定性
-- 只有出现当日/近期新变化时，才恢复完整日报展开
+{tomorrow_focus}
 """
 
     return f"""# 竹鉴日报 | {today}
