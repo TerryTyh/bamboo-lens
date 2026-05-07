@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-07T13:44:18",
-  "source_generated_at": "2026-05-07T13:44:18",
+  "generated_at": "2026-05-07T13:50:14",
+  "source_generated_at": "2026-05-07T13:50:14",
   "items": [
     {
       "company": "constellation",
@@ -465,7 +465,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations.html",
       "event_index": null,
       "sort_key": 20260511,
       "score": 14
@@ -483,7 +483,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-first-quarter-financial-results-6919947",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260429,
       "score": 14
@@ -597,24 +597,6 @@
       "score": 14
     },
     {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "TSMC Board of Directors Meeting Resolutions",
-      "date": "2026-02-10",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "http://pr.tsmc.com/english/news/3287",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
-      "event_index": null,
-      "sort_key": 20260210,
-      "score": 13
-    },
-    {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
@@ -627,7 +609,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gaijin-sso/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260507,
       "score": 12
@@ -645,7 +627,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260506,
       "score": 12
@@ -735,7 +717,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20251107,
       "score": 12
@@ -771,7 +753,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20250807,
       "score": 12
@@ -789,7 +771,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20250506,
       "score": 12
@@ -807,7 +789,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20241104,
       "score": 12
@@ -825,7 +807,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134248__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260507-134657__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20240806,
       "score": 12
@@ -951,7 +933,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://www.gevernova.com/investors/events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260507-134248__www.gevernova.com_investors_events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260507-134657__www.gevernova.com_investors_events.html",
       "event_index": null,
       "sort_key": 20260128,
       "score": 9
@@ -987,7 +969,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
       "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260506,
       "score": 8
@@ -1005,7 +987,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260430,
       "score": 8
@@ -1023,7 +1005,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
       "source_url": "http://pr.tsmc.com/english/news/3300",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260416,
       "score": 8
@@ -1131,7 +1113,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260505,
       "score": 6
@@ -1149,7 +1131,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260430,
       "score": 6
@@ -1167,7 +1149,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134248__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260507-134657__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260428,
       "score": 6
@@ -1185,7 +1167,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "http://pr.tsmc.com/english/news/3297",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260416,
       "score": 6
@@ -1203,7 +1185,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "http://pr.tsmc.com/english/news/3294",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260410,
       "score": 6
@@ -1221,7 +1203,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "http://pr.tsmc.com/english/news/3290",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260310,
       "score": 6
@@ -1239,7 +1221,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "http://pr.tsmc.com/english/news/3284",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260210,
       "score": 6
@@ -1257,16 +1239,16 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "http://pr.tsmc.com/english/news/3281",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134248__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260507-134657__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260115,
       "score": 6
     }
   ],
   "summary": {
-    "total": 70,
+    "total": 69,
     "formal_events": 48,
-    "official_candidates": 22,
+    "official_candidates": 21,
     "companies": 8
   }
 }
