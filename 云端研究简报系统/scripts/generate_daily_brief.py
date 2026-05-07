@@ -363,9 +363,13 @@ def candidate_content(item: dict) -> str:
     marker = "原文内容："
     if marker in fact:
         extracted = fact.split(marker, 1)[1].split("；来源：", 1)[0].strip()
-        if is_readable_candidate_content(extracted):
+        if is_readable_candidate_content(extracted) and contains_chinese(extracted):
             return extracted
-    return "当前只抓到了标题和来源页，还没有读到正文内容；这类线索不应直接形成判断。"
+    return "已抓到原文链接，但云端日报不再直接搬运英文片段；等待夜间智能沉淀生成中文读后摘要。"
+
+
+def contains_chinese(text: str) -> bool:
+    return any("\u4e00" <= char <= "\u9fff" for char in text or "")
 
 
 def is_readable_candidate_content(text: str) -> bool:
@@ -384,11 +388,9 @@ def is_readable_candidate_content(text: str) -> bool:
 def has_candidate_content(item: dict) -> bool:
     if item.get("content_summary"):
         return True
-    return is_readable_candidate_content(item.get("source_excerpt", "")) or (
+    return (
         "原文内容：" in normalize(item.get("fact", ""))
-        and is_readable_candidate_content(
-            normalize(item.get("fact", "")).split("原文内容：", 1)[1].split("；来源：", 1)[0]
-        )
+        and contains_chinese(normalize(item.get("fact", "")).split("原文内容：", 1)[1].split("；来源：", 1)[0])
     )
 
 
@@ -406,8 +408,8 @@ def render_candidate_block(candidates: list[dict]) -> str:
         lines.append(
             f"""{index}. 公司：{event["company_name"]}
    标题：{normalize(event["title"])}
-   原文内容：{candidate_content(event)}
-   读完后的处理：{candidate_next_step(event)}{source}"""
+   中文摘要：{candidate_content(event)}
+   处理状态：待夜间智能沉淀{source}"""
         )
     return "\n\n".join(lines)
 
