@@ -90,6 +90,7 @@ def main() -> None:
     payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
     today = datetime.now()
     updated = 0
+    failed = 0
     for company in (payload.get("companies") or {}).values():
         for item in company:
             if item.get("content_summary") or not is_recent(item, today):
@@ -104,13 +105,15 @@ def main() -> None:
                     item.get("source_url", ""),
                     source_text,
                 )
+                item.pop("summary_error", None)
                 updated += 1
             except Exception as error:  # noqa: BLE001
                 item["summary_error"] = str(error)[:240]
+                failed += 1
 
-    if updated:
+    if updated or failed:
         OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Candidate summaries enriched: {updated}")
+    print(f"Candidate summaries enriched: {updated}, failed: {failed}")
 
 
 if __name__ == "__main__":
