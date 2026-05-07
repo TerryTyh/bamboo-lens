@@ -3,14 +3,14 @@ name: Daily Brief
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12 * * 1-5"
+    - cron: "30 0 * * 1-5"
 
 jobs:
   daily-brief:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: read
 
     defaults:
       run:
@@ -25,52 +25,21 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate daily brief
+      - name: Choose morning brief
         run: |
-          python3 scripts/collect_official_snapshots.py
-          python3 scripts/extract_official_candidates.py
-          python3 scripts/enrich_candidate_summaries.py
-          python3 scripts/build_event_store.py
-          python3 scripts/export_portal_candidate_data.py
-          python3 scripts/export_portal_event_store_data.py
-          python3 scripts/build_company_state.py
-          python3 scripts/build_decision_queue.py
-          python3 scripts/build_decision_impact.py
-          python3 scripts/generate_daily_brief.py
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_SUMMARY_MODEL: gpt-4.1-mini
+          if [ -s outputs/morning_brief.md ]; then
+            cp outputs/morning_brief.md outputs/brief_to_send.md
+            echo "Using nightly enriched morning brief."
+          else
+            cp outputs/daily_brief.md outputs/brief_to_send.md
+            echo "morning_brief.md not found; falling back to latest cloud brief."
+          fi
 
       - name: Send to WeCom
         continue-on-error: true
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
-        run: python3 scripts/send_wecom.py outputs/daily_brief.md
-
-      - name: Persist outputs to repository
-        working-directory: .
-        run: |
-          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/decision-impact-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js; then
-            echo "No generated output changes to commit."
-            exit 0
-          fi
-
-          git config user.name "bamboo-lens-bot"
-          git config user.email "bamboo-lens-bot@users.noreply.github.com"
-          git add -f 云端研究简报系统/outputs/daily_brief.md
-          git add -f 云端研究简报系统/outputs/event_store.json
-          git add -f 云端研究简报系统/outputs/official_candidates.json
-          git add -f 云端研究简报系统/outputs/decision_queue.json
-          git add -f 云端研究简报系统/outputs/decision_impact.json
-          git add -f 云端研究简报系统/outputs/company_state.json
-          git add -f 云端研究简报系统/outputs/reviewed_events.json
-          git add 研究门户/candidate-data.js
-          git add 研究门户/decision-data.js
-          git add 研究门户/decision-impact-data.js
-          git add 研究门户/event-store-data.js
-          git add 研究门户/company-state-data.js
-          git commit -m "chore: update Bamboo Lens daily outputs"
-          git push
+        run: python3 scripts/send_wecom.py outputs/brief_to_send.md
 
       - name: Upload brief artifacts
         if: ${{ always() }}
@@ -79,6 +48,8 @@ jobs:
           name: daily-brief-output
           path: |
             云端研究简报系统/outputs/daily_brief.md
+            云端研究简报系统/outputs/morning_brief.md
+            云端研究简报系统/outputs/brief_to_send.md
             云端研究简报系统/outputs/event_store.json
             云端研究简报系统/outputs/official_candidates.json
             云端研究简报系统/outputs/decision_queue.json

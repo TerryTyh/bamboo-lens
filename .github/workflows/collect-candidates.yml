@@ -1,0 +1,84 @@
+name: Collect Candidates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1-5"
+
+jobs:
+  collect-candidates:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    defaults:
+      run:
+        working-directory: 云端研究简报系统
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect official candidates
+        run: |
+          python3 scripts/collect_official_snapshots.py
+          python3 scripts/extract_official_candidates.py
+          python3 scripts/build_event_store.py
+          python3 scripts/export_portal_candidate_data.py
+          python3 scripts/export_portal_event_store_data.py
+          python3 scripts/build_company_state.py
+          python3 scripts/build_decision_queue.py
+          python3 scripts/build_decision_impact.py
+          python3 scripts/generate_daily_brief.py
+
+      - name: Persist outputs to repository
+        working-directory: .
+        run: |
+          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/decision-impact-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js; then
+            echo "No generated output changes to commit."
+            exit 0
+          fi
+
+          git config user.name "bamboo-lens-bot"
+          git config user.email "bamboo-lens-bot@users.noreply.github.com"
+          git add -f 云端研究简报系统/outputs/daily_brief.md
+          git add -f 云端研究简报系统/outputs/event_store.json
+          git add -f 云端研究简报系统/outputs/official_candidates.json
+          git add -f 云端研究简报系统/outputs/decision_queue.json
+          git add -f 云端研究简报系统/outputs/decision_impact.json
+          git add -f 云端研究简报系统/outputs/company_state.json
+          git add -f 云端研究简报系统/outputs/reviewed_events.json
+          git add 研究门户/candidate-data.js
+          git add 研究门户/decision-data.js
+          git add 研究门户/decision-impact-data.js
+          git add 研究门户/event-store-data.js
+          git add 研究门户/company-state-data.js
+          git commit -m "chore: collect Bamboo Lens candidates"
+          git push
+
+      - name: Upload collection artifacts
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-collection-output
+          path: |
+            云端研究简报系统/outputs/daily_brief.md
+            云端研究简报系统/outputs/event_store.json
+            云端研究简报系统/outputs/official_candidates.json
+            云端研究简报系统/outputs/decision_queue.json
+            云端研究简报系统/outputs/decision_impact.json
+            云端研究简报系统/outputs/company_state.json
+            云端研究简报系统/outputs/reviewed_events.json
+            云端研究简报系统/outputs/snapshots/manifest.json
+            研究门户/candidate-data.js
+            研究门户/decision-data.js
+            研究门户/decision-impact-data.js
+            研究门户/event-store-data.js
+            研究门户/company-state-data.js
+          if-no-files-found: warn
