@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-07T13:26:24",
-  "source_generated_at": "2026-05-07T13:26:24",
+  "generated_at": "2026-05-07T13:44:18",
+  "source_generated_at": "2026-05-07T13:44:18",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "source_event_date": "2026-04-22",
@@ -18,7 +18,7 @@
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "source_event_date": "2026-04-23",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-05-07T13:26:24",
+      "updated_at": "2026-05-07T13:44:18",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
