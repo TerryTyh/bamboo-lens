@@ -356,7 +356,7 @@ def candidate_content(item: dict) -> str:
         return "\n   ".join(f"- {normalize(line)}" for line in content_summary if normalize(line))
 
     excerpt = normalize(item.get("source_excerpt", ""))
-    if is_readable_candidate_content(excerpt):
+    if is_readable_candidate_content(excerpt) and contains_chinese(excerpt):
         return excerpt
 
     fact = normalize(item.get("fact", ""))
