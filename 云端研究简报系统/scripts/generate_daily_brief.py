@@ -404,12 +404,11 @@ def render_candidate_block(candidates: list[dict]) -> str:
 
     lines = []
     for index, event in enumerate(candidates, start=1):
-        source = f"\n   来源：{event['source_url']}" if event.get("source_url") else ""
+        source = f"\n   来源：[打开原文]({event['source_url']})" if event.get("source_url") else ""
         lines.append(
             f"""{index}. 公司：{event["company_name"]}
    标题：{normalize(event["title"])}
-   中文摘要：{candidate_content(event)}
-   处理状态：待夜间智能沉淀{source}"""
+   中文摘要：{candidate_content(event)}{source}"""
         )
     return "\n\n".join(lines)
 
@@ -437,9 +436,9 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         key=rank_candidate,
         reverse=True,
     )
-    top_events = fresh_events[:3]
     readable_candidates = [item for item in fresh_candidates if has_candidate_content(item)]
-    top_candidates = (readable_candidates or fresh_candidates)[:5]
+    top_events = fresh_events[:3]
+    top_candidates = readable_candidates[:5]
 
     if top_events:
         key_changes = []
@@ -472,24 +471,29 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
     if top_candidates:
         candidate_block = render_candidate_block(top_candidates)
     elif top_events:
-        candidate_block = "- 今天没有新增可入库的官方候选事件；系统已完成扫描，但没有发现足够新的、足够清晰的官方线索。"
+        candidate_block = "- 今天没有其他值得展开阅读的新内容。"
 
     if not top_events:
         candidate_block = render_candidate_block(top_candidates)
         if top_candidates:
             tomorrow_focus = "\n".join(
-                f"- 优先研判：{event['company_name']}｜{normalize(event['title'])}"
+                f"- 优先阅读：{event['company_name']}｜{normalize(event['title'])}"
                 for event in top_candidates[:3]
             )
         else:
-            tomorrow_focus = "- 继续扫描官方来源中的新增线索\n- 只有出现当日/近期新变化时，才恢复完整日报展开"
+            tomorrow_focus = "- 继续扫描官方来源中的新增内容\n- 只在读到正文并形成中文摘要后，才进入晨报主体"
+            return f"""# 竹鉴日报 | {today}
+
+今日没有新的可读内容。
+
+明日重点：
+
+- 当前覆盖公司：{names}
+{tomorrow_focus}
+"""
         return f"""# 竹鉴日报 | {today}
 
-一句话结论：
-
-今天没有新增值得直接推送的已判断研究事件。
-
-今日新增候选线索（未研判）：
+今日可读内容：
 
 {candidate_block}
 
@@ -501,27 +505,16 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
 
     return f"""# 竹鉴日报 | {today}
 
-一句话结论：
-
-{conclusion}
-
 今日关键变化：
 
 {changes_block}
 
-官方来源新候选：
+更多可读线索：
 
 {candidate_block}
 
-今日无需动作：
+下一次验证点：
 
-{no_action}
-
-决策提示：
-
-- 研究动作：优先推进真实来源抓取、事件抽取与公司状态回写
-- 资金动作建议：继续观察；若当天没有新变化，则不做额外动作
-- 下一次验证点：
 {next_check}
 
 明日重点：

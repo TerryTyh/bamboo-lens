@@ -1,9 +1,5 @@
 # 竹鉴晨报 | 2026-05-08
 
-一句话结论：
-
-昨晚沉淀后，今天最值得看的不是“新闻数量”，而是 NVIDIA 继续把 AI 基础设施从芯片扩展到网络与企业智能体运行环境。
-
 今日值得读的内容：
 
 1. NVIDIA｜Spectrum-X Ethernet 与 MRC
@@ -16,7 +12,7 @@ MRC 可以让一个 RDMA 连接把数据流量分散到多条网络路径上，�
 
 对 NVIDIA 的业务理解：这不是一条普通网络产品新闻，而是在强化“NVIDIA 不只是卖 GPU，而是在定义 AI 工厂系统架构”的逻辑。AI 训练规模越大，网络、交换机、SuperNIC、协议和遥测控制就越可能成为 GPU 利用率和训练成本的关键变量。
 
-来源：https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/
+来源：[NVIDIA Blog｜Spectrum-X Ethernet 与 MRC](https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/)
 
 2. NVIDIA｜与 ServiceNow 推进企业自主智能体
 
@@ -28,13 +24,7 @@ NVIDIA 在这里提供的是加速计算、开放模型、domain-specific skills
 
 对 NVIDIA 的业务理解：这条线索强化了“AI 工厂不仅服务大模型训练，也服务企业级推理和长期运行智能体”的方向。如果企业智能体真的规模化，推理 token 需求、企业安全运行时和专用基础设施会成为新的需求来源。
 
-来源：https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/
-
-今日跳过：
-
-- GeForce NOW 游戏账号登录与新游戏上线：更偏消费娱乐，不进入投资晨报主体。
-- NVIDIA 与 Corning 长期合作：已抓到标题和链接，但正文没有成功抓取，暂不做内容摘要。
-- Constellation Energy Q1 2026 电话会：目前是未来会议/事件页，尚无可读会议内容，等材料发布后再看。
+来源：[NVIDIA Blog｜ServiceNow 自主智能体合作](https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/)
 
 今日跟踪重点：
 

@@ -52,6 +52,84 @@ const COMPANY_EVENT_META = {
         ],
         qualityLabel: "正式事件：财报 + 数据中心 + 指引证据链"
       },
+      {
+        date: "2026-05-06",
+        type: "平台 / 网络",
+        title: "Spectrum-X Ethernet 与 MRC：NVIDIA 把 AI 工厂竞争从 GPU 扩展到网络协议和以太网基础设施",
+        note: "这条动态的核心不是发布一个网络名词，而是 NVIDIA 正在把 AI 工厂里的网络层、协议层和硬件层一起纳入平台化控制范围。",
+        fact: "NVIDIA 在官方文章中介绍 Spectrum-X Ethernet 与 MRC（Multipath Reliable Connection）。MRC 是一种 RDMA 传输协议，可以让单个 RDMA 连接把流量分散到多条网络路径上，用于提升大规模 AI 训练网络的吞吐、负载均衡和可用性。文章提到 OpenAI、Microsoft、Oracle 等 AI 工厂或云基础设施场景正在使用或依赖相关能力；OpenAI 表示 MRC 在 Blackwell 代际部署中帮助减少网络 slowdown 和 interruption，维持 frontier training runs 的效率。MRC 已在 Spectrum-X Ethernet 硬件上验证和优化，并通过 Open Compute Project 作为开放规范发布。",
+        judgment: "这是 P1 级别的平台化强化信息。它说明 NVIDIA 的护城河不只在 GPU 算力，而在 AI 工厂系统效率：当训练集群扩大到数万甚至更多 GPU 时，网络拥堵、路径故障、丢包恢复和可观测性都会直接影响 GPU 利用率。Spectrum-X + MRC 的意义，是让以太网具备更接近 AI 训练生产环境所需的可靠性、调度能力和规模扩展能力。",
+        action: "维持原判断",
+        priority: "P1",
+        sourceLinks: [
+          {
+            label: "NVIDIA Blog｜Spectrum-X Ethernet 与 MRC",
+            href: "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/"
+          }
+        ],
+        sourceSummary: [
+          "这篇官方文章讲的是 AI 工厂网络层的变化。NVIDIA 的判断是：要建设越来越大的 AI 训练集群，只靠 GPU 不够，网络也必须跟上 AI 训练对吞吐、延迟、可靠性和故障恢复的要求。",
+          "MRC 的全称是 Multipath Reliable Connection，可以理解为一种多路径 RDMA 连接协议。传统连接更像单一路径，MRC 则允许一个连接把数据分散到多条路径上；当某条路径拥堵或故障时，网络可以动态避让并在硬件层快速改道。",
+          "文章明确说，MRC 能提升吞吐、负载均衡和可用性，并在拥堵时维持高带宽；发生数据丢失时，它可以更精准地重传，减少长时间训练任务里的 GPU 空转。对 AI 训练来说，GPU 利用率就是钱，网络低效会直接变成训练成本。",
+          "客户侧信号也很关键。文章提到 OpenAI、Microsoft 和 Oracle，OpenAI 还表示 MRC 在 Blackwell 代际部署中效果成功，减少了网络相关 slowdown 和 interruption。Microsoft Fairwater 和 Oracle OCI Abilene 这类大型 AI 工厂也被放进同一语境里。",
+          "这不是单纯卖交换机，而是在强化 NVIDIA 对 AI 工厂系统架构的定义权：GPU、SuperNIC、Spectrum-X 交换机、协议、遥测和智能控制共同工作，才能把大规模 AI 训练从硬件堆料变成稳定生产系统。"
+        ],
+        evidence: [
+          "MRC 允许单个 RDMA 连接跨多条网络路径传输，改善吞吐、负载均衡和可用性。",
+          "OpenAI 表示 MRC 在 Blackwell 代际部署中减少了网络 slowdown 和 interruption，帮助维持大规模 frontier training runs 的效率。",
+          "Microsoft Fairwater 和 Oracle OCI Abilene 被文章作为依赖 MRC 性能、规模和效率能力的大型 AI 工厂案例。",
+          "MRC 已在 NVIDIA Spectrum-X Ethernet 硬件上优化，并通过 Open Compute Project 发布为开放规范。",
+          "Spectrum-X 相关能力包括专用硬件、深度遥测、智能 fabric 控制、ConnectX SuperNIC 与 Spectrum-X Ethernet switches。"
+        ],
+        businessAnalysis: "这条动态进一步解释了“AI 工厂平台公司”和“AI 芯片公司”的差别。芯片公司卖算力部件；AI 工厂平台公司要解决算力、网络、软件、协议、调度、故障恢复和可观测性如何协同，让 GPU 长时间高利用率运行。Spectrum-X 与 MRC 把 NVIDIA 的价值从 GPU 扩展到网络基础设施和协议标准，强化了系统级护城河。",
+        valuationAnalysis: "估值上，这是支撑高溢价的定性强化信息，但还不是直接加仓信号。它提高了 NVIDIA 平台化叙事的可信度：如果网络、SuperNIC、交换机和软件协议成为 AI 工厂标配，Data Center 收入的质量和黏性会更强。后续必须验证的是，这些能力能否体现在 Networking 收入、客户 attach rate、毛利率和超大客户 capex 口径里。",
+        verification: [
+          "后续财报或业绩会是否披露 Networking、Spectrum-X、SuperNIC 或以太网方案的收入增长和客户采用情况。",
+          "OpenAI、Microsoft、Oracle 等客户是否继续在公开材料中提到 Spectrum-X / MRC / AI Ethernet 的生产部署。",
+          "NVIDIA 是否能把网络产品与 GPU、整机系统和软件打包销售，提升 Data Center 的系统级 attach rate。",
+          "以太网路线是否与 InfiniBand、自研网络方案形成竞争，是否影响毛利率和平台控制力。"
+        ],
+        qualityLabel: "正式事件：官方技术原文 + 客户证据 + 平台化影响"
+      },
+      {
+        date: "2026-05-05",
+        type: "企业 AI / 智能体",
+        title: "ServiceNow 合作：NVIDIA 把 AI 工厂从训练基础设施延伸到企业自主智能体运行环境",
+        note: "这条动态的重点不是又多一个合作伙伴，而是 NVIDIA 试图进入企业智能体的运行时、安全沙箱、治理和推理算力链条。",
+        fact: "NVIDIA 与 ServiceNow 扩大合作，围绕企业自主智能体提供全栈能力。ServiceNow 发布 Project Arc，这是面向知识工作者的长期运行自主桌面智能体，可访问本地文件系统、终端和应用，处理传统自动化难以完成的复杂多步骤任务。Project Arc 接入 ServiceNow Action Fabric 和 AI Control Tower，并使用 NVIDIA OpenShell 作为开源安全运行时；NVIDIA 还提供加速计算、开放模型、domain-specific skills 和支撑高效 tokenomics 的 AI factories。",
+        judgment: "这是 P1 级别的推理需求与企业平台线索。它说明 NVIDIA 不只在卖训练集群，也在尝试进入企业智能体长期运行所需要的推理基础设施、安全执行环境和软件生态。如果企业智能体从演示走向规模化部署，持续运行、多步骤任务和治理要求会推高推理 token 需求，也会给 NVIDIA 的 AI factories 和软件栈带来新的需求入口。",
+        action: "需要二次验证",
+        priority: "P1",
+        sourceLinks: [
+          {
+            label: "NVIDIA Blog｜ServiceNow 自主智能体合作",
+            href: "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/"
+          }
+        ],
+        sourceSummary: [
+          "这篇文章讲的是企业 AI 从生成、推理走向执行。ServiceNow 与 NVIDIA 的合作重点，是让 AI agent 不只是回答问题，而是能在企业真实工作流里持续运行、调用工具、执行任务，同时受到权限、审计和安全边界约束。",
+          "Project Arc 是 ServiceNow 推出的长期运行自主桌面智能体，面向开发者、IT 团队、管理员等知识工作者。它可以访问本地文件系统、终端和应用，完成传统自动化难以处理的复杂多步骤任务。",
+          "这类 agent 最大的问题不是“能不能做事”，而是能不能安全地做事。文章提到 Project Arc 会连接 ServiceNow AI Platform，通过 Action Fabric 获得工作流上下文，通过 AI Control Tower 获得治理能力，并用 NVIDIA OpenShell 作为沙箱化、策略约束的安全运行时。",
+          "NVIDIA 在这里提供的不是单一芯片，而是加速计算、开放模型、domain-specific skills、OpenShell 安全运行时和 AI factories。文章的关键词是 efficient tokenomics，说明 NVIDIA 仍然把企业智能体的扩张和推理算力需求连接在一起。",
+          "这条线索对 NVIDIA 很重要，因为企业智能体如果规模化，不会只带来一次性训练需求，而可能带来长期、持续、可重复的推理需求。它也让 NVIDIA 更接近企业软件工作流，而不是只停留在云厂商训练集群。"
+        ],
+        evidence: [
+          "Project Arc 是长期运行、自我演进的自主桌面智能体，面向知识工作者、开发者、IT 团队和管理员。",
+          "Project Arc 可访问本地文件系统、终端和应用，用于处理复杂多步骤任务。",
+          "ServiceNow Action Fabric 提供工作流上下文，AI Control Tower 提供治理，NVIDIA OpenShell 提供安全运行时。",
+          "NVIDIA 提供加速计算、开放模型、domain-specific skills、安全 agent 执行软件和 AI factories。",
+          "文章强调企业自主智能体需要开放模型、可定制领域技能、安全执行和高效 tokenomics。"
+        ],
+        businessAnalysis: "这条动态强化 NVIDIA 的推理与企业 AI 平台边界。训练需求解释了第一阶段 AI 基础设施建设，企业智能体则可能解释第二阶段推理需求：agent 持续运行、调用工具、跨系统执行任务，会消耗大量推理 token，并要求安全运行时、治理和基础设施协同。NVIDIA 如果能嵌入这些企业 agent 平台，就不只是卖训练 GPU，而是参与企业 AI 执行层的标准建设。",
+        valuationAnalysis: "估值上，这是长期期权，不应直接当成收入确定性。正面是它补强了 NVIDIA 的推理需求故事和软件生态边界；约束是合作新闻本身没有披露金额、客户付费规模或收入路径。当前应把它作为“平台化能力增强”的证据，但仓位动作仍要等待企业 AI 收入、推理需求、客户部署和软件/服务商业化数据验证。",
+        verification: [
+          "ServiceNow 是否披露 Project Arc 的客户采用、付费模式、上线时间和真实工作流案例。",
+          "NVIDIA OpenShell、agent skills 或 AI factories 是否在更多企业软件平台中复用。",
+          "推理 token 需求是否在 NVIDIA 财报或客户 capex 口径中被明确提到，而不是停留在合作发布。",
+          "企业智能体是否带来可持续算力需求，还是主要由软件平台自己获取价值。"
+        ],
+        qualityLabel: "正式事件：官方合作原文 + 企业智能体链条 + 推理需求验证点"
+      },
       { date: "2026-02-25", type: "财报", title: "FY26 Q4 与全年业绩再创新高", note: "数据中心业务继续主导增长，验证 AI 基础设施主线仍处高景气区间。" },
       { date: "2026-02-25", type: "财报指引", title: "FY27 Q1 指引上修至 780 亿美元", note: "即使不假设来自中国的数据中心计算收入，指引依然强劲。" },
       { date: "2026-02-17", type: "客户 / 合作", title: "Meta 多代际合作继续扩大", note: "说明超大客户资本开支已经写进多年路线图，而不是短期采购。" },
