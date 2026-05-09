@@ -2575,12 +2575,47 @@ function renderValuationModel(model) {
   renderList("companyValuationTriggers", model.triggers);
 }
 
+function appendItems(baseItems, extraItems) {
+  return [
+    ...(Array.isArray(baseItems) ? baseItems : []),
+    ...(Array.isArray(extraItems) ? extraItems : []),
+  ];
+}
+
+function applySectionDeposits(data, override) {
+  const deposits = override?.sectionDeposits;
+  if (!deposits) return data;
+
+  return {
+    ...data,
+    financeMap: data.financeMap || deposits.financeMap ? {
+      ...(data.financeMap || {}),
+      rows: appendItems(data.financeMap?.rows, deposits.financeMap?.rows),
+      bridge: appendItems(data.financeMap?.bridge, deposits.financeMap?.bridge),
+      notes: appendItems(data.financeMap?.notes, deposits.financeMap?.notes),
+    } : data.financeMap,
+    businessMap: data.businessMap || deposits.businessMap ? {
+      ...(data.businessMap || {}),
+      segments: appendItems(data.businessMap?.segments, deposits.businessMap?.segments),
+      moat: appendItems(data.businessMap?.moat, deposits.businessMap?.moat),
+    } : data.businessMap,
+    valuationModel: data.valuationModel || deposits.valuationModel ? {
+      ...(data.valuationModel || {}),
+      snapshot: appendItems(data.valuationModel?.snapshot, deposits.valuationModel?.snapshot),
+      currentBreakdown: appendItems(data.valuationModel?.currentBreakdown, deposits.valuationModel?.currentBreakdown),
+      scenarios: appendItems(data.valuationModel?.scenarios, deposits.valuationModel?.scenarios),
+      implied: appendItems(data.valuationModel?.implied, deposits.valuationModel?.implied),
+      triggers: appendItems(data.valuationModel?.triggers, deposits.valuationModel?.triggers),
+    } : data.valuationModel,
+  };
+}
+
 function applyCompanyStateOverlay(company, data) {
   const state = window.BAMBOO_LENS_COMPANY_STATE?.companies?.[company];
   const override = window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES?.companies?.[company];
   if (!state && !override) return data;
 
-  return {
+  const overlaid = {
     ...data,
     action: override?.action || state?.action || data.action,
     nextCheck: override?.nextCheck || state?.nextCheck || data.nextCheck,
@@ -2588,6 +2623,7 @@ function applyCompanyStateOverlay(company, data) {
     businessImpact: override?.businessImpact || state?.businessImpact || data.businessImpact,
     valuationImpact: override?.valuationImpact || state?.valuationImpact || data.valuationImpact,
   };
+  return applySectionDeposits(overlaid, override);
 }
 
 async function initCompanyPage() {

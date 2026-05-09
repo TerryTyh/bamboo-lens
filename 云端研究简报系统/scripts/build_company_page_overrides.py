@@ -43,6 +43,57 @@ def verification_text(event: dict) -> str:
     return compact(event.get("judgment", ""), 220)
 
 
+def event_deposits(item: dict, event: dict) -> dict:
+    event_label = f"事件沉淀｜{item.get('event_title', '')}"
+    event_type = str(event.get("type") or "正式事件").strip()
+    date = str(item.get("event_date") or event.get("date") or "").strip()
+    business = str(event.get("business_analysis") or item.get("reason") or "").strip()
+    valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
+    judgment = str(event.get("judgment") or item.get("reason") or "").strip()
+    verification = [str(v).strip() for v in event.get("verification", []) if str(v).strip()]
+
+    finance_note_text = "；".join(verification[:3]) or valuation or judgment
+    return {
+        "financeMap": {
+            "notes": [
+                {
+                    "title": event_label,
+                    "text": finance_note_text,
+                }
+            ]
+        },
+        "businessMap": {
+            "segments": [
+                {
+                    "title": event_label,
+                    "scale": f"{date}｜{event_type}",
+                    "text": business,
+                }
+            ],
+            "moat": [
+                {
+                    "title": "这条事件改变了什么",
+                    "text": judgment,
+                }
+            ],
+        },
+        "valuationModel": {
+            "currentBreakdown": [
+                {
+                    "title": event_label,
+                    "text": valuation,
+                }
+            ],
+            "triggers": [
+                {
+                    "title": "后续验证：来自最新事件",
+                    "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
+                }
+            ],
+        },
+    }
+
+
 def build_override(item: dict, event: dict) -> dict:
     action = str(event.get("action") or "").strip()
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
@@ -60,6 +111,7 @@ def build_override(item: dict, event: dict) -> dict:
         "action": action or None,
         "depositionNotice": "已根据最新正式事件自动更新当前结论；完整公司档案仍可继续人工精修。",
         "updatedSections": item.get("update_targets", []),
+        "sectionDeposits": event_deposits(item, event),
     }
 
 
