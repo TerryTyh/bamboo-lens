@@ -133,6 +133,7 @@ def run_refresh_chain() -> None:
         "build_decision_queue.py",
         "build_decision_impact.py",
         "build_decision_deposition.py",
+        "build_company_page_overrides.py",
         "export_portal_candidate_data.py",
     ]
     for script in scripts:

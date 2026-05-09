@@ -2577,15 +2577,16 @@ function renderValuationModel(model) {
 
 function applyCompanyStateOverlay(company, data) {
   const state = window.BAMBOO_LENS_COMPANY_STATE?.companies?.[company];
-  if (!state) return data;
+  const override = window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES?.companies?.[company];
+  if (!state && !override) return data;
 
   return {
     ...data,
-    action: state.action || data.action,
-    nextCheck: state.nextCheck || data.nextCheck,
-    latestEvent: state.latestEvent || data.latestEvent,
-    businessImpact: state.businessImpact || data.businessImpact,
-    valuationImpact: state.valuationImpact || data.valuationImpact,
+    action: override?.action || state?.action || data.action,
+    nextCheck: override?.nextCheck || state?.nextCheck || data.nextCheck,
+    latestEvent: override?.latestEvent || state?.latestEvent || data.latestEvent,
+    businessImpact: override?.businessImpact || state?.businessImpact || data.businessImpact,
+    valuationImpact: override?.valuationImpact || state?.valuationImpact || data.valuationImpact,
   };
 }
 
