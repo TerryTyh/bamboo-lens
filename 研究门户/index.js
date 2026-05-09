@@ -231,6 +231,57 @@ function renderDecisionImpact() {
   `).join("");
 }
 
+function renderDecisionDeposition() {
+  const feed = document.getElementById("decisionDepositionFeed");
+  const stats = document.getElementById("decisionDepositionStats");
+  const payload = window.BAMBOO_LENS_DECISION_DEPOSITION;
+  if (!feed || !stats) return;
+
+  if (!payload?.items?.length) {
+    stats.innerHTML = "<span>暂无回写计划</span>";
+    feed.innerHTML = '<p class="muted">正式事件通过研判后，这里会显示公司主页应更新的板块。</p>';
+    return;
+  }
+
+  const summary = payload.summary || {};
+  stats.innerHTML = `
+    <span>计划 ${summary.total || payload.items.length} 条</span>
+    <span>可回写 ${summary.ready || 0}</span>
+    <span>需估值/财务更新 ${summary.needs_model_update || 0}</span>
+  `;
+
+  feed.innerHTML = payload.items.slice(0, 6).map((item) => {
+    const updates = item.recommended_updates || [];
+    return `
+      <article class="decision-deposition-card ${escapeHtml(item.status)}">
+        <div class="decision-card-top">
+          <span class="decision-stage">${escapeHtml(item.quality || "待确认")}</span>
+          <span class="decision-score">${escapeHtml(item.status || "ready")}</span>
+        </div>
+        <div class="event-meta">
+          <span>${escapeHtml(item.event_date || "日期待确认")}</span>
+          <span>${escapeHtml(item.company_name)}</span>
+        </div>
+        <h3>${escapeHtml(item.event_title)}</h3>
+        <div class="impact-chip-row">
+          ${(item.update_targets || []).map((target) => `<span>${escapeHtml(target)}</span>`).join("")}
+        </div>
+        <p><strong>为什么要沉淀：</strong>${escapeHtml(item.reason || "这条事件改变了公司当前判断。")}</p>
+        <div class="deposition-update-list">
+          ${updates.map((update) => `
+            <div class="deposition-update-item">
+              <strong>${escapeHtml(update.target)}</strong>
+              <small>${escapeHtml((update.fields || []).join(" / "))}</small>
+              <p>${escapeHtml(update.suggestion)}</p>
+            </div>
+          `).join("")}
+        </div>
+        <a class="event-link" href="${escapeHtml(item.detail_link)}">查看事件详情</a>
+      </article>
+    `;
+  }).join("");
+}
+
 function renderTimelineFeed() {
   const feed = document.getElementById("timelineFeed");
   const count = document.getElementById("timelineCount");
@@ -257,4 +308,5 @@ function renderTimelineFeed() {
 renderCloudSync();
 renderDecisionQueue();
 renderDecisionImpact();
+renderDecisionDeposition();
 renderTimelineFeed();

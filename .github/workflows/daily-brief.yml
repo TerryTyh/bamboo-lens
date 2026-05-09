@@ -54,12 +54,14 @@ jobs:
             云端研究简报系统/outputs/official_candidates.json
             云端研究简报系统/outputs/decision_queue.json
             云端研究简报系统/outputs/decision_impact.json
+            云端研究简报系统/outputs/decision_deposition.json
             云端研究简报系统/outputs/company_state.json
             云端研究简报系统/outputs/reviewed_events.json
             云端研究简报系统/outputs/snapshots/manifest.json
             研究门户/candidate-data.js
             研究门户/decision-data.js
             研究门户/decision-impact-data.js
+            研究门户/decision-deposition-data.js
             研究门户/event-store-data.js
             研究门户/company-state-data.js
           if-no-files-found: warn

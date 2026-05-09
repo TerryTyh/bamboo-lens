@@ -753,13 +753,27 @@ a:hover {
     var(--surface);
 }
 
+.decision-deposition-section {
+  background:
+    radial-gradient(circle at top right, rgba(246, 219, 182, 0.58), transparent 34%),
+    linear-gradient(180deg, rgba(255, 250, 243, 0.98), rgba(246, 242, 232, 0.95)),
+    var(--surface);
+}
+
 .decision-impact-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
+.decision-deposition-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
 .decision-impact-card,
+.decision-deposition-card,
 .company-impact-card {
   display: flex;
   flex-direction: column;
@@ -771,6 +785,7 @@ a:hover {
 }
 
 .decision-impact-card h3,
+.decision-deposition-card h3,
 .company-impact-card h3 {
   margin: 0;
   font-size: 21px;
@@ -778,10 +793,20 @@ a:hover {
 }
 
 .decision-impact-card p,
+.decision-deposition-card p,
 .company-impact-card p {
   margin: 0;
   color: var(--muted);
   line-height: 1.65;
+}
+
+.decision-deposition-card.needs_model_update {
+  border-color: rgba(122, 66, 28, 0.24);
+  box-shadow: inset 0 0 0 1px rgba(122, 66, 28, 0.08);
+}
+
+.decision-deposition-card.blocked {
+  opacity: 0.78;
 }
 
 .impact-chip-row {
@@ -821,6 +846,29 @@ a:hover {
 }
 
 .decision-output-box small {
+  color: #7a421c;
+  font-weight: 800;
+}
+
+.deposition-update-list {
+  display: grid;
+  gap: 10px;
+}
+
+.deposition-update-item {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(18, 82, 57, 0.055);
+  border: 1px solid rgba(18, 82, 57, 0.11);
+}
+
+.deposition-update-item strong {
+  color: var(--accent);
+}
+
+.deposition-update-item small {
   color: #7a421c;
   font-weight: 800;
 }
@@ -1843,6 +1891,7 @@ a:hover {
   .cloud-sync-grid,
   .decision-queue-grid,
   .decision-impact-grid,
+  .decision-deposition-grid,
   .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,
@@ -1924,6 +1973,7 @@ a:hover {
   .cloud-sync-grid,
   .decision-queue-grid,
   .decision-impact-grid,
+  .decision-deposition-grid,
   .candidate-review-grid,
   .valuation-overview-grid,
   .impact-stack,
