@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10T18:48:56",
+  "generated_at": "2026-05-10T20:35:59",
   "source_event_store_at": "2026-05-10T18:48:55",
-  "source_decision_impact_at": "2026-05-10T18:48:56",
+  "source_decision_impact_at": "2026-05-10T20:35:01",
   "items": [
     {
       "company": "tsmc",
@@ -16,6 +16,7 @@
       "quality": "可自动生成回写建议",
       "update_targets": [
         "当前结论",
+        "公司理解",
         "财务数据地图",
         "估值模型"
       ],
@@ -29,6 +30,15 @@
             "nextCheck"
           ],
           "suggestion": "把最新事件更新为「2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期」；业务影响写入：业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。；估值/动作写入：估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。"
         },
         {
           "target": "财务数据地图",
@@ -71,7 +81,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -93,14 +102,6 @@
             "moatDetail"
           ],
           "suggestion": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -135,7 +136,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -157,14 +157,6 @@
             "moatDetail"
           ],
           "suggestion": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -199,7 +191,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -221,14 +212,6 @@
             "moatDetail"
           ],
           "suggestion": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -263,7 +246,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -285,14 +267,6 @@
             "moatDetail"
           ],
           "suggestion": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离可量化收入贡献还有距离。"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -327,7 +301,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -349,14 +322,6 @@
             "moatDetail"
           ],
           "suggestion": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -391,7 +356,6 @@
       "update_targets": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
         "估值模型"
       ],
       "recommended_updates": [
@@ -413,14 +377,6 @@
             "moatDetail"
           ],
           "suggestion": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客户买到的不只是单颗 GPU，而是一套从训练、推理、机密计算、强化学习、数字孪生到机器人仿真的云端 AI 工厂。这会提高 NVIDIA 在云厂商资本开支、企业 A"
-        },
-        {
-          "target": "财务数据地图",
-          "fields": [
-            "financeMap",
-            "financials"
-          ],
-          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
         },
         {
           "target": "估值模型",
@@ -520,8 +476,7 @@
         "当前结论",
         "公司理解",
         "财务数据地图",
-        "估值模型",
-        "跟踪重点与风险"
+        "估值模型"
       ],
       "recommended_updates": [
         {
@@ -558,15 +513,6 @@
             "valuationFrame"
           ],
           "suggestion": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。"
-        },
-        {
-          "target": "跟踪重点与风险",
-          "fields": [
-            "focus",
-            "trackingGuide",
-            "risk"
-          ],
-          "suggestion": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
         }
       ],
       "reason": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh",

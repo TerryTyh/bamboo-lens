@@ -52,47 +52,53 @@ def event_deposits(item: dict, event: dict) -> dict:
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
     judgment = str(event.get("judgment") or item.get("reason") or "").strip()
     verification = [str(v).strip() for v in event.get("verification", []) if str(v).strip()]
+    targets = set(item.get("update_targets", []))
 
     finance_note_text = "；".join(verification[:3]) or valuation or judgment
-    return {
-        "financeMap": {
-            "notes": [
-                {
-                    "title": event_label,
-                    "text": finance_note_text,
-                }
-            ]
-        },
-        "businessMap": {
-            "segments": [
-                {
-                    "title": event_label,
-                    "scale": f"{date}｜{event_type}",
-                    "text": business,
-                }
-            ],
-            "moat": [
-                {
-                    "title": "这条事件改变了什么",
-                    "text": judgment,
-                }
-            ],
-        },
-        "valuationModel": {
-            "currentBreakdown": [
-                {
-                    "title": event_label,
-                    "text": valuation,
-                }
-            ],
-            "triggers": [
-                {
-                    "title": "后续验证：来自最新事件",
-                    "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
-                }
-            ],
-        },
+    deposit = {
+        "financeMap": {"notes": []},
+        "businessMap": {"segments": [], "moat": []},
+        "valuationModel": {"currentBreakdown": [], "triggers": []},
     }
+
+    if "财务数据地图" in targets:
+        deposit["financeMap"]["notes"].append(
+            {
+                "title": f"财务沉淀｜{item.get('event_title', '')}",
+                "text": finance_note_text,
+            }
+        )
+
+    if "公司理解" in targets:
+        deposit["businessMap"]["segments"].append(
+            {
+                "title": f"业务沉淀｜{item.get('event_title', '')}",
+                "scale": f"{date}｜{event_type}",
+                "text": business,
+            }
+        )
+        deposit["businessMap"]["moat"].append(
+            {
+                "title": "这条事件改变了什么",
+                "text": judgment,
+            }
+        )
+
+    if "估值模型" in targets:
+        deposit["valuationModel"]["currentBreakdown"].append(
+            {
+                "title": f"估值沉淀｜{item.get('event_title', '')}",
+                "text": valuation,
+            }
+        )
+        deposit["valuationModel"]["triggers"].append(
+            {
+                "title": "后续验证：来自最新事件",
+                "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
+            }
+        )
+
+    return deposit
 
 
 def merge_deposits(deposits: list[dict]) -> dict:

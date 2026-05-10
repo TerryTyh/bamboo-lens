@@ -17,6 +17,12 @@ PORTAL_DECISION_IMPACT_FILE = PROJECT_ROOT / "研究门户" / "decision-impact-d
 VALUATION_UP_WORDS = ["提升", "强化", "上调", "溢价", "增长", "兑现", "改善", "高质量", "支撑"]
 VALUATION_DOWN_WORDS = ["压制", "拖累", "下调", "恶化", "稀释", "放缓", "风险", "压力", "扣减"]
 FINANCE_WORDS = ["收入", "营收", "利润", "毛利率", "现金流", "EPS", "capex", "FCF", "回购"]
+FINANCE_METRIC_PATTERNS = [
+    r"\d+(?:\.\d+)?\s*(?:亿|万亿|billion|million|美元|新台币|元)",
+    r"\d+(?:\.\d+)?\s*%",
+    r"nt\$\s*\d+",
+    r"us\$\s*\d+",
+]
 BUSINESS_WORDS = ["业务", "客户", "平台", "产品", "订单", "backlog", "合作", "合同", "生态"]
 VALUATION_WORDS = ["估值", "市值", "PE", "P/FCF", "倍数", "价值", "价格", "合理"]
 RISK_WORDS = ["风险", "警惕", "拖累", "压制", "放缓", "下滑", "不确定"]
@@ -65,6 +71,22 @@ def count_words(text: str, words: list[str]) -> int:
     return sum(1 for word in words if word.lower() in lowered)
 
 
+def has_financial_metrics(event: dict) -> bool:
+    text = " ".join(
+        str(event.get(field, ""))
+        for field in ["type", "fact"]
+    )
+    evidence_text = " ".join(str(item) for item in event.get("evidence", []))
+    metric_text = f"{text} {evidence_text}".lower()
+    has_finance_word = count_words(metric_text, FINANCE_WORDS) > 0
+    has_metric = any(re.search(pattern, metric_text, flags=re.I) for pattern in FINANCE_METRIC_PATTERNS)
+    no_metric_disclaimer = any(
+        phrase in metric_text
+        for phrase in ["没有披露投资金额", "没有金额", "没有披露项目合同金额", "没有披露收入规模"]
+    )
+    return has_finance_word and has_metric and not no_metric_disclaimer
+
+
 def impact_direction(event: dict) -> str:
     text = " ".join(
         str(event.get(field, ""))
@@ -80,13 +102,13 @@ def impact_direction(event: dict) -> str:
 
 
 def impact_dimensions(event: dict) -> list[str]:
-    text = " ".join(str(event.get(field, "")) for field in ["type", "fact", "judgment", "valuation_analysis"])
+    text = " ".join(str(event.get(field, "")) for field in ["type", "fact", "judgment", "business_analysis"])
     dimensions = []
     if count_words(text, BUSINESS_WORDS):
         dimensions.append("业务")
-    if count_words(text, FINANCE_WORDS):
+    if has_financial_metrics(event):
         dimensions.append("财务")
-    if count_words(text, VALUATION_WORDS):
+    if count_words(str(event.get("valuation_analysis", "")), VALUATION_WORDS):
         dimensions.append("估值")
     if count_words(text, RISK_WORDS):
         dimensions.append("风险")
@@ -108,8 +130,10 @@ def trigger_type(event: dict, direction: str) -> str:
 
 
 def valuation_update_needed(event: dict, dimensions: list[str]) -> bool:
-    text = " ".join(str(event.get(field, "")) for field in ["type", "fact", "valuation_analysis"])
-    return "估值" in dimensions or count_words(text, FINANCE_WORDS) >= 2
+    valuation_text = str(event.get("valuation_analysis", ""))
+    if "不能直接上调估值" in valuation_text or "不因该新闻加仓" in valuation_text:
+        return False
+    return "估值" in dimensions and has_financial_metrics(event)
 
 
 def confidence_change(direction: str, event: dict) -> str:

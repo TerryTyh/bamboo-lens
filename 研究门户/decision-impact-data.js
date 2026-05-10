@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-10T18:48:56",
+  "generated_at": "2026-05-10T20:35:01",
   "source_generated_at": "2026-05-10T18:48:55",
   "items": [
     {
@@ -12,6 +12,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "priority": "P1",
       "direction": "正向强化",
       "dimensions": [
+        "业务",
         "财务",
         "估值"
       ],
@@ -22,6 +23,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
+          "公司理解",
           "财务数据地图",
           "估值模型"
         ],
@@ -50,21 +52,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "正向强化",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "维持观察",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "小幅上调确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
       "business_impact": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。",
@@ -89,21 +89,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "正向强化",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "上调研究优先级",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "上调确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。",
       "business_impact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解",
@@ -128,21 +126,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "正向强化",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "维持核心并观察加仓条件",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "小幅上调确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。",
       "business_impact": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。",
@@ -167,21 +163,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "中性验证",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "维持观察",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "维持确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定",
       "business_impact": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离",
@@ -206,21 +200,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "正向强化",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "维持核心并观察加仓条件",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "小幅上调确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
       "business_impact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，",
@@ -245,21 +237,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "direction": "正向强化",
       "dimensions": [
         "业务",
-        "财务",
         "估值"
       ],
       "trigger_type": "维持核心并观察加仓条件",
-      "valuation_update_needed": true,
+      "valuation_update_needed": false,
       "decision_output": {
         "confidence_change": "小幅上调确信度",
         "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
         "update_targets": [
           "当前结论",
           "公司理解",
-          "财务数据地图",
           "估值模型"
         ],
-        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
       "decision_change": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工",
       "business_impact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作",
@@ -324,8 +314,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "dimensions": [
         "业务",
         "财务",
-        "估值",
-        "风险"
+        "估值"
       ],
       "trigger_type": "上调研究优先级",
       "valuation_update_needed": true,
@@ -336,8 +325,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
           "当前结论",
           "公司理解",
           "财务数据地图",
-          "估值模型",
-          "跟踪重点与风险"
+          "估值模型"
         ],
         "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
       },
@@ -367,21 +355,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "正向强化",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "上调研究优先级",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "上调确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。",
         "business_impact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解",
@@ -406,21 +392,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "正向强化",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "维持核心并观察加仓条件",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "小幅上调确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。",
         "business_impact": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。",
@@ -445,21 +429,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "中性验证",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "维持观察",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "维持确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定",
         "business_impact": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离",
@@ -484,21 +466,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "正向强化",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "维持核心并观察加仓条件",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "小幅上调确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工",
         "business_impact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作",
@@ -524,6 +504,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "priority": "P1",
         "direction": "正向强化",
         "dimensions": [
+          "业务",
           "财务",
           "估值"
         ],
@@ -534,6 +515,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
+            "公司理解",
             "财务数据地图",
             "估值模型"
           ],
@@ -562,21 +544,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "正向强化",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "维持观察",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "小幅上调确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
         "business_impact": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。",
@@ -601,21 +581,19 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "direction": "正向强化",
         "dimensions": [
           "业务",
-          "财务",
           "估值"
         ],
         "trigger_type": "维持核心并观察加仓条件",
-        "valuation_update_needed": true,
+        "valuation_update_needed": false,
         "decision_output": {
           "confidence_change": "小幅上调确信度",
           "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
           "update_targets": [
             "当前结论",
             "公司理解",
-            "财务数据地图",
             "估值模型"
           ],
-          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
         "decision_change": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。",
         "business_impact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，",
@@ -682,8 +660,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "dimensions": [
           "业务",
           "财务",
-          "估值",
-          "风险"
+          "估值"
         ],
         "trigger_type": "上调研究优先级",
         "valuation_update_needed": true,
@@ -694,8 +671,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
             "当前结论",
             "公司理解",
             "财务数据地图",
-            "估值模型",
-            "跟踪重点与风险"
+            "估值模型"
           ],
           "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
         },
@@ -716,7 +692,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
   "summary": {
     "total": 9,
     "companies": 3,
-    "valuation_update_needed": 9,
+    "valuation_update_needed": 3,
     "positive": 8,
     "watch": 0
   }
