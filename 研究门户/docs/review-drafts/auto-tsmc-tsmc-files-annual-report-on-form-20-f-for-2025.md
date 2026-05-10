@@ -7,17 +7,17 @@
 - 类型：年报 / 深度材料
 - 候选分数：10
 - 当前动作：进入人工研判
-- 批处理建议：优先深读（readiness 20）
+- 批处理建议：待读原文件（readiness 12）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3300)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html
 
 ## 批处理建议
 
-已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。
+当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。
 
 ### 当前阻碍
 
-- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。
+- 年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容
 
 ## 原文与事实
 

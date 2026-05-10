@@ -1,63 +1,15 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-10T18:16:37",
+  "generated_at": "2026-05-10T18:38:06",
   "summary": {
-    "total": 8,
+    "total": 6,
     "companies": 3,
-    "with_source_body": 4,
+    "with_source_body": 2,
+    "suppressed_count": 3,
     "readiness_counts": {
-      "ready_for_deep_review": 3,
       "readable_needs_review": 1,
-      "needs_source": 4
+      "needs_source": 5
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Reports First Quarter EPS of NT$22.08",
-        "date": "2026-04-16",
-        "score": 8,
-        "readiness_score": 22,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3297",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 10,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC February 2026 Revenue Report",
-        "date": "2026-03-10",
-        "score": 8,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3290",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
-        "has_source_body": true
-      },
       {
         "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
         "company": "tsmc",
@@ -103,11 +55,13 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "TSMC Files Annual Report on Form 20-F for 2025",
       "date": "2026-04-16",
       "score": 10,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
+      "readiness_score": 12,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待读原文件",
+      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "promotion_blockers": [
+        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+      ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
       "has_source_body": true
@@ -149,38 +103,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
       "has_source_body": false
-    },
-    "tsmc::tsmc reports first quarter eps of nt$22.08": {
-      "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Reports First Quarter EPS of NT$22.08",
-      "date": "2026-04-16",
-      "score": 8,
-      "readiness_score": 22,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3297",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
-      "has_source_body": true
-    },
-    "tsmc::tsmc february 2026 revenue report": {
-      "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC February 2026 Revenue Report",
-      "date": "2026-03-10",
-      "score": 8,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3290",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
-      "has_source_body": true
     },
     "nvidia::nvidia names suzanne nora johnson to board of directors": {
       "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
@@ -243,54 +165,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ],
     "tsmc": [
       {
-        "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Reports First Quarter EPS of NT$22.08",
-        "date": "2026-04-16",
-        "score": 8,
-        "readiness_score": 22,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3297",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 10,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC February 2026 Revenue Report",
-        "date": "2026-03-10",
-        "score": 8,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3290",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
         "company": "tsmc",
         "company_name": "TSMC",
@@ -304,6 +178,24 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "promotion_blockers": [],
         "source_url": "http://pr.tsmc.com/english/news/3308",
         "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Files Annual Report on Form 20-F for 2025",
+        "date": "2026-04-16",
+        "score": 10,
+        "readiness_score": 12,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待读原文件",
+        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+        "promotion_blockers": [
+          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3300",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
         "has_source_body": true
       }
     ],
@@ -370,54 +262,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
   },
   "items": [
     {
-      "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Reports First Quarter EPS of NT$22.08",
-      "date": "2026-04-16",
-      "score": 8,
-      "readiness_score": 22,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3297",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
-      "has_source_body": true
-    },
-    {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true
-    },
-    {
-      "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC February 2026 Revenue Report",
-      "date": "2026-03-10",
-      "score": 8,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3290",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
-      "has_source_body": true
-    },
-    {
       "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
       "company": "tsmc",
       "company_name": "TSMC",
@@ -451,6 +295,24 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
+    },
+    {
+      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "score": 10,
+      "readiness_score": 12,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待读原文件",
+      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "promotion_blockers": [
+        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+      "has_source_body": true
     },
     {
       "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
@@ -509,6 +371,32 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
+    }
+  ],
+  "suppressed": [
+    {
+      "company": "gevernova",
+      "company_name": "GE Vernova",
+      "title": "4th Quarter 2025 Earnings Webcast",
+      "date": "2026-01-28",
+      "source_url": "https://www.gevernova.com/investors/events",
+      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Reports First Quarter EPS of NT$22.08",
+      "date": "2026-04-16",
+      "source_url": "http://pr.tsmc.com/english/news/3297",
+      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC February 2026 Revenue Report",
+      "date": "2026-03-10",
+      "source_url": "http://pr.tsmc.com/english/news/3290",
+      "reason": "较早月份营收已被更新月份营收事件覆盖"
     }
   ]
 };

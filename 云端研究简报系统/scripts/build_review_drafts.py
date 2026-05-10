@@ -12,6 +12,7 @@ PROJECT_ROOT = ROOT.parent
 OUTPUT_DIR = ROOT / "outputs"
 DECISION_QUEUE_FILE = OUTPUT_DIR / "decision_queue.json"
 EVENT_STORE_FILE = OUTPUT_DIR / "event_store.json"
+REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
 DRAFT_DIR = OUTPUT_DIR / "review_drafts"
 INDEX_FILE = OUTPUT_DIR / "review_draft_index.json"
 BATCH_PLAN_FILE = OUTPUT_DIR / "review_batch_plan.json"
@@ -22,6 +23,20 @@ MAX_DRAFTS = 16
 MIN_SCORE = 6
 SOURCE_PREVIEW_CHARS = 2600
 CURRENT_DATE_KEY = int(datetime.now().strftime("%Y%m%d"))
+MONTH_NAMES = {
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12,
+}
 
 LOW_SIGNAL_KEYWORDS = [
     "geforce now",
@@ -55,6 +70,12 @@ def candidate_key(company: str, title: str) -> str:
     return f"{company}::{normalized}"
 
 
+def normalize_url(url: str) -> str:
+    normalized = re.sub(r"#.*$", "", clean(url)).rstrip("/")
+    normalized = re.sub(r"^https?://", "", normalized, flags=re.I)
+    return normalized.lower()
+
+
 def source_lookup(event_store: dict) -> dict[str, dict]:
     lookup: dict[str, dict] = {}
     for company_id, company in event_store.get("companies", {}).items():
@@ -63,6 +84,118 @@ def source_lookup(event_store: dict) -> dict[str, dict]:
             if title:
                 lookup[candidate_key(company_id, title)] = candidate
     return lookup
+
+
+def reviewed_lookup(reviewed_events: dict) -> dict[str, dict[str, set[str]]]:
+    lookup: dict[str, dict[str, set[str]]] = {}
+    for company_id, events in reviewed_events.get("companies", {}).items():
+        company_lookup = {
+            "source_titles": set(),
+            "titles": set(),
+            "source_urls": set(),
+        }
+        for event in events:
+            source_title = clean(event.get("source_candidate_title"))
+            title = clean(event.get("title"))
+            source_url = normalize_url(event.get("source_url", ""))
+            if source_title:
+                company_lookup["source_titles"].add(source_title.lower())
+            if title:
+                company_lookup["titles"].add(title.lower())
+            if source_url:
+                company_lookup["source_urls"].add(source_url)
+        lookup[company_id] = company_lookup
+    return lookup
+
+
+def month_revenue_key(title: str) -> int:
+    lowered = clean(title).lower()
+    if "revenue report" not in lowered:
+        return 0
+    year_match = re.search(r"\b(20\d{2})\b", lowered)
+    if not year_match:
+        return 0
+    month = 0
+    for month_name, month_num in MONTH_NAMES.items():
+        if month_name in lowered:
+            month = month_num
+            break
+    if not month:
+        return 0
+    return int(year_match.group(1)) * 100 + month
+
+
+def formal_coverage_lookup(queue: dict, reviewed_events: dict) -> dict[str, dict[str, object]]:
+    lookup: dict[str, dict[str, object]] = {}
+
+    def ensure_company(company_id: str) -> dict[str, object]:
+        return lookup.setdefault(
+            company_id,
+            {
+                "formal_dates": {},
+                "latest_month_revenue": 0,
+            },
+        )
+
+    for item in queue.get("items", []):
+        if item.get("source_type") != "formal_event":
+            continue
+        company = item.get("company", "")
+        date = clean(item.get("date"))
+        event_type = clean(item.get("type") or item.get("title"))
+        if not company or not date:
+            continue
+        company_lookup = ensure_company(company)
+        formal_dates = company_lookup["formal_dates"]
+        formal_dates.setdefault(date, []).append(event_type)
+
+    for company, events in reviewed_events.get("companies", {}).items():
+        company_lookup = ensure_company(company)
+        formal_dates = company_lookup["formal_dates"]
+        for event in events:
+            date = clean(event.get("date"))
+            if date:
+                formal_dates.setdefault(date, []).append(clean(event.get("type") or event.get("title")))
+            monthly_key = month_revenue_key(event.get("source_candidate_title") or event.get("title") or "")
+            if monthly_key:
+                company_lookup["latest_month_revenue"] = max(int(company_lookup["latest_month_revenue"]), monthly_key)
+
+    return lookup
+
+
+def covered_by_existing_event(
+    candidate: dict,
+    event_candidate: dict,
+    reviewed: dict[str, dict[str, set[str]]],
+    formal_coverage: dict[str, dict[str, object]],
+) -> str:
+    company = candidate.get("company", "")
+    company_lookup = reviewed.get(company)
+
+    title = clean(candidate.get("title"))
+    source_title = clean(event_candidate.get("title") or candidate.get("title"))
+    source_url = normalize_url(candidate.get("source_url") or event_candidate.get("source_url", ""))
+
+    if company_lookup:
+        if source_title.lower() in company_lookup["source_titles"] or title.lower() in company_lookup["source_titles"]:
+            return "同一官方候选标题已经进入正式事件"
+        if title.lower() in company_lookup["titles"]:
+            return "同一事件标题已经进入正式事件"
+        if source_url and source_url in company_lookup["source_urls"]:
+            return "同一官方来源链接已经进入正式事件"
+
+    coverage = formal_coverage.get(company, {})
+    date = clean(candidate.get("date") or event_candidate.get("date"))
+    event_type = infer_event_type(title)
+    formal_types = coverage.get("formal_dates", {}).get(date, []) if coverage else []
+    if "财报" in event_type and any("财报" in item or "q1" in item.lower() or "q2" in item.lower() for item in formal_types):
+        return "同一日期的财报深读已经进入正式事件或公司主页"
+
+    candidate_month = month_revenue_key(title)
+    latest_month = int(coverage.get("latest_month_revenue", 0) or 0) if coverage else 0
+    if candidate_month and latest_month and candidate_month < latest_month:
+        return "较早月份营收已被更新月份营收事件覆盖"
+    return ""
 
 
 def select_candidates(queue: dict) -> list[dict]:
@@ -92,6 +225,30 @@ def should_build_draft(candidate: dict, event_candidate: dict) -> bool:
         return sort_key >= CURRENT_DATE_KEY - 14
 
     return score >= MIN_SCORE
+
+
+def is_low_substance_annual_notice(event_type: str, readable_source: str) -> bool:
+    if "年报" not in event_type:
+        return False
+    lowered = readable_source.lower()
+    notice_markers = [
+        "filed its 2025 annual report",
+        "filed annual report",
+        "form 20-f",
+        "report is available at",
+        "hard copies of the report",
+    ]
+    if not any(marker in lowered for marker in notice_markers):
+        return False
+    substantive_markers = [
+        "revenue increased",
+        "gross margin",
+        "operating margin",
+        "capital expenditures",
+        "cash flow",
+        "segment",
+    ]
+    return not any(marker in lowered for marker in substantive_markers)
 
 
 def source_text(candidate: dict, event_candidate: dict) -> str:
@@ -167,6 +324,7 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
     title = clean(candidate.get("title"))
     lowered = title.lower()
     blockers: list[str] = []
+    low_substance_annual_notice = is_low_substance_annual_notice(event_type, readable_source)
 
     if not has_body:
         blockers.append("还没有抓到足够正文")
@@ -176,6 +334,8 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         blockers.append("会议类候选需要等材料或 transcript")
     if any(keyword in lowered for keyword in ["board of directors", "appoint", "names "]):
         blockers.append("治理/人事类信息通常不是优先批处理对象")
+    if low_substance_annual_notice:
+        blockers.append("年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容")
 
     readiness_score = score
     if has_body:
@@ -185,8 +345,14 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         readiness_score += 2
     if "会议" in event_type and not has_body:
         readiness_score -= 4
+    if low_substance_annual_notice:
+        readiness_score -= 8
 
-    if has_body and source_chars >= 1200 and score >= 8:
+    if low_substance_annual_notice:
+        lane = "needs_source"
+        label = "待读原文件"
+        reason = "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。"
+    elif has_body and source_chars >= 1200 and score >= 8:
         lane = "ready_for_deep_review"
         label = "优先深读"
         reason = "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。"
@@ -357,7 +523,8 @@ def draft_to_markdown(draft: dict) -> str:
 """
 
 
-def write_outputs(drafts: list[dict], generated_at: str) -> None:
+def write_outputs(drafts: list[dict], generated_at: str, suppressed: list[dict] | None = None) -> None:
+    suppressed = suppressed or []
     DRAFT_DIR.mkdir(parents=True, exist_ok=True)
     PORTAL_DOC_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -412,6 +579,7 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
             "total": len(drafts),
             "companies": len(by_company),
             "with_source_body": sum(1 for item in portal_items if item["has_source_body"]),
+            "suppressed_count": len(suppressed),
             "readiness_counts": readiness_counts,
             "priority_batch": [
                 item
@@ -422,6 +590,7 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
         "by_key": by_key,
         "companies": by_company,
         "items": portal_items,
+        "suppressed": suppressed,
     }
     INDEX_FILE.write_text(json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8")
     BATCH_PLAN_FILE.write_text(
@@ -432,6 +601,7 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
                 "summary": index_payload["summary"],
                 "priority_batch": index_payload["summary"]["priority_batch"],
                 "items": portal_items,
+                "suppressed": suppressed,
             },
             ensure_ascii=False,
             indent=2,
@@ -449,17 +619,34 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
 def main() -> None:
     queue = load_json(DECISION_QUEUE_FILE, {"items": []})
     event_store = load_json(EVENT_STORE_FILE, {"companies": {}})
+    reviewed_events = load_json(REVIEWED_EVENTS_FILE, {"companies": {}})
     lookup = source_lookup(event_store)
+    reviewed = reviewed_lookup(reviewed_events)
+    formal_coverage = formal_coverage_lookup(queue, reviewed_events)
     generated_at = datetime.now().isoformat(timespec="seconds")
 
     drafts = []
+    suppressed = []
     for candidate in select_candidates(queue):
         key = candidate_key(candidate.get("company", ""), clean(candidate.get("title")))
         event_candidate = lookup.get(key, {})
+        covered_reason = covered_by_existing_event(candidate, event_candidate, reviewed, formal_coverage)
+        if covered_reason:
+            suppressed.append(
+                {
+                    "company": candidate.get("company", ""),
+                    "company_name": candidate.get("company_name", candidate.get("company", "")),
+                    "title": clean(candidate.get("title")),
+                    "date": candidate.get("date", "") or event_candidate.get("date", ""),
+                    "source_url": clean(candidate.get("source_url") or event_candidate.get("source_url")),
+                    "reason": covered_reason,
+                }
+            )
+            continue
         if should_build_draft(candidate, event_candidate):
             drafts.append(build_draft(candidate, event_candidate, generated_at))
 
-    write_outputs(drafts, generated_at)
+    write_outputs(drafts, generated_at, suppressed)
     print(f"Review draft index written to: {INDEX_FILE}")
     print(f"Portal review draft data written to: {PORTAL_DATA_FILE}")
     print(f"Drafts generated: {len(drafts)}")
