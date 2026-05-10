@@ -1,14 +1,14 @@
-# 正式事件草稿｜TSMC｜TSMC April 2026 Revenue Report
+# 正式事件草稿｜NVIDIA｜NVIDIA Names Suzanne Nora Johnson to Board of Directors
 
 ## 草稿状态
 
-- 公司：TSMC（tsmc）
+- 公司：NVIDIA（nvidia）
 - 日期：2026-05-08
-- 类型：财报 / 指引
-- 候选分数：8
+- 类型：官方候选
+- 候选分数：6
 - 当前动作：等待补证据
-- 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3305)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html
+- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 原文与事实
 
@@ -16,17 +16,17 @@
 
 ### 原文可读内容
 
-日期：2026-05-08；标题：TSMC April 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3305
+日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors
 
 ### 候选事实
 
-日期：2026-05-08；标题：TSMC April 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3305
+日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors
 
 ## 升级为正式事件前必须补齐
 
-- 收入、分部收入、利润率、EPS、现金流或指引中的具体数字
-- 管理层对需求、产能、价格、成本或资本开支的口径
-- 和上一期或市场预期相比，真正变化的指标
+- 原文里能支持判断的数字、日期、客户、产品或管理层表述
+- 这件事影响哪条业务线、财务科目或竞争位置
+- 下一次可以验证这件事是否真正有价值的指标
 
 ## 初步判断
 

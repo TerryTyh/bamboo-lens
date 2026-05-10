@@ -1,9 +1,9 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-10T11:18:33",
+  "generated_at": "2026-05-10T03:28:55",
   "summary": {
     "total": 8,
     "companies": 3,
-    "with_source_body": 3
+    "with_source_body": 2
   },
   "by_key": {
     "constellation::q1 2026 constellation energy corporation earnings conference call": {
@@ -83,16 +83,16 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
       "has_source_body": false
     },
-    "nvidia::nvidia and servicenow partner on new autonomous ai agents for enterprises": {
-      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+    "nvidia::nvidia names suzanne nora johnson to board of directors": {
+      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-      "date": "2026-05-05",
+      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+      "date": "2026-05-08",
       "score": 6,
-      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
-      "has_source_body": true
+      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
+      "has_source_body": false
     }
   },
   "companies": {
@@ -155,15 +155,15 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "has_source_body": false
       },
       {
-        "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+        "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-        "date": "2026-05-05",
+        "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+        "date": "2026-05-08",
         "score": 6,
-        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
-        "has_source_body": true
+        "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
+        "has_source_body": false
       }
     ],
     "tsmc": [
@@ -270,15 +270,15 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "has_source_body": false
     },
     {
-      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-      "date": "2026-05-05",
+      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+      "date": "2026-05-08",
       "score": 6,
-      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
-      "has_source_body": true
+      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
+      "has_source_body": false
     }
   ]
 };

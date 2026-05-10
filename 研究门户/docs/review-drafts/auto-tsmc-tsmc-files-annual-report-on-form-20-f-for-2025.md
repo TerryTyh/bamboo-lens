@@ -8,7 +8,7 @@
 - 候选分数：8
 - 当前动作：等待补证据
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3300)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260508-130818__pr.tsmc.com_english_latest-news.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html
 
 ## 原文与事实
 

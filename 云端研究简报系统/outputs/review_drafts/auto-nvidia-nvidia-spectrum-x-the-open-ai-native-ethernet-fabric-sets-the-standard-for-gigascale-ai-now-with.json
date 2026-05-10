@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T11:18:33",
+  "generated_at": "2026-05-10T03:28:55",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
@@ -13,7 +13,7 @@
   "score": 12,
   "sort_key": 20260506,
   "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260508-130818__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
   "source_summary": [
     "The race to build the world’s most powerful AI factories demands networking that keeps pace with the ambitions of AI itself. NVIDIA Spectrum-X Ethernet scale-out infrastructure stands at the forefront of that race as the most advanced AI networking technology available today, deployed by industry leaders who can’t afford to compromise on performance, resilience or scale. That includes OpenAI , Microsoft and Oracle . Companies including NVIDIA, Microsoft and OpenAI have demonstrated industry leadership by introducing Multipath Reliable Connection (MRC), an RDMA transport protocol. MRC enables a single RDMA connection to distribute traffic across multiple network paths, improving throughput, load balancing and availability for large-scale AI training fabrics. Think of it as replacing a single-lane road spanning a town with a cleverly laid-out street grid system paired with an on-the-fly traffic app, enabling drivers to reroute around slowdowns and road closures. “Deploying MRC in the Blackwell generation was very successful and was made possible by a strong collaboration with NVIDIA,” said Sachin Katti, head of industrial compute at OpenAI. “MRC’s end-to-end approach enabled us to avoid much of the typical network-related slowdowns and interruptions and maintain the efficiency of frontier training runs at scale.” In addition, Microsoft and NVIDIA have a longstanding collaboration focused on advancing the infrastructure required for the next generation of AI. Microsoft’s Fairwater an d Oracle Cloud Infrastructure (OCI’s) Abilene data center, two of the largest AI factories purpose- built for training and deploying leading-edge frontier LLMs, rely on MRC to deliver on performance, scale and efficiency requirements. NVIDIA Spectrum-X Ethernet is suited for this environment, helping provide the network foundation needed to run large-scale AI models and applications with confidence. Proven first in production with performance optimized on NVIDIA Spectrum-X Ethernet hardware and now released as an open specification through the Open Compute Project, MRC demonstrates the power of the Spectrum-X Ethernet platform: purpose-built hardware, deep telemetry and intelligent fabric control working together to take a new protocol — a set of rules that controls how data moves between two systems across a network — from concept to gigascale AI production. MRC delivers high levels of GPU utilization by load-balancing traffic across all available paths, enabling every GPU to get the bandwidth it needs throughout a training run. It sustains high bandwidth even under congestion\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
   ],
@@ -46,5 +46,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.json"
 }

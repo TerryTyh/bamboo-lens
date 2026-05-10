@@ -8,7 +8,7 @@
 - 候选分数：8
 - 当前动作：进入人工研判
 - 官方来源：[打开官方来源](https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260508-130818__investor.nvidia.com_news_press-releases_default.aspx.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 原文与事实
 

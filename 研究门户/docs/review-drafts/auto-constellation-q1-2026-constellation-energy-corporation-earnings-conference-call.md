@@ -8,7 +8,7 @@
 - 候选分数：14
 - 当前动作：等待补证据
 - 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260508-130818__investors.constellationenergy.com_events-and-presentations.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260510-032716__investors.constellationenergy.com_events-and-presentations.html
 
 ## 原文与事实
 

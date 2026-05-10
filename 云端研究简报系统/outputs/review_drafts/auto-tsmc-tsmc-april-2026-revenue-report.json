@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T11:18:33",
+  "generated_at": "2026-05-10T03:28:55",
   "company": "tsmc",
   "company_name": "TSMC",
   "source_candidate_title": "TSMC April 2026 Revenue Report",
@@ -13,7 +13,7 @@
   "score": 8,
   "sort_key": 20260508,
   "source_url": "http://pr.tsmc.com/english/news/3305",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260508-130818__pr.tsmc.com_english_latest-news.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html",
   "source_summary": [
     "日期：2026-05-08；标题：TSMC April 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3305"
   ],
@@ -46,5 +46,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-april-2026-revenue-report.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-april-2026-revenue-report.json"
 }

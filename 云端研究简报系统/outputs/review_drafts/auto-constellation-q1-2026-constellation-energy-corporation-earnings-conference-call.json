@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T11:18:33",
+  "generated_at": "2026-05-10T03:28:55",
   "company": "constellation",
   "company_name": "Constellation Energy",
   "source_candidate_title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
@@ -13,7 +13,7 @@
   "score": 14,
   "sort_key": 20260511,
   "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260508-130818__investors.constellationenergy.com_events-and-presentations.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260510-032716__investors.constellationenergy.com_events-and-presentations.html",
   "source_summary": [
     "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations"
   ],
@@ -46,5 +46,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.json"
 }
