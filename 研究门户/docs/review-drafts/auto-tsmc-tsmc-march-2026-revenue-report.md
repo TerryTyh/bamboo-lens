@@ -5,20 +5,19 @@
 - 公司：TSMC（tsmc）
 - 日期：2026-04-10
 - 类型：财报 / 指引
-- 候选分数：6
-- 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 8）
+- 候选分数：8
+- 当前动作：进入人工研判
+- 批处理建议：优先深读（readiness 20）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3294)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html
 
 ## 批处理建议
 
-当前主要是标题或短事实，不适合直接进入正式事件。
+已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。
 
 ### 当前阻碍
 
-- 还没有抓到足够正文
-- 可读内容偏短
+- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。
 
 ## 原文与事实
 
@@ -26,11 +25,11 @@
 
 ### 原文可读内容
 
-日期：2026-04-10；标题：TSMC March 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3294
+[](http://pr.tsmc.com/english/news/3294#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3294#)Search [](http://pr.tsmc.com/english/news/3294) *HSINCHU, Taiwan, R.O.C. – Apr. 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for March 2026: On a consolidated basis, revenue for March 2026 was approximately NT$415.19 billion, an increase of 30.7 percent from February 2026 and an increase of 45.2 percent from March 2025. Revenue for January through March 2026 totaled NT$1,134.10 billion, an increase of 35.1 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.
 
 ### 候选事实
 
-日期：2026-04-10；标题：TSMC March 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3294
+日期：2026-04-10；标题：TSMC March 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3294#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3294#)Search [](ht…；来源：http://pr.tsmc.com/english/news/3294
 
 ## 升级为正式事件前必须补齐
 
@@ -65,6 +64,6 @@
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：否
+- 有可读正文：是
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。

@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-tsmc-tsmc-march-2026-revenue-report",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T17:12:56",
+  "generated_at": "2026-05-10T10:05:17",
   "company": "tsmc",
   "company_name": "TSMC",
   "source_candidate_title": "TSMC March 2026 Revenue Report",
@@ -9,23 +9,20 @@
   "date": "2026-04-10",
   "type": "财报 / 指引",
   "priority": "草稿",
-  "action": "等待补证据",
-  "score": 6,
+  "action": "进入人工研判",
+  "score": 8,
   "sort_key": 20260410,
   "source_url": "http://pr.tsmc.com/english/news/3294",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html",
-  "readiness_lane": "needs_source",
-  "readiness_label": "待补正文",
-  "readiness_score": 8,
-  "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-  "promotion_blockers": [
-    "还没有抓到足够正文",
-    "可读内容偏短"
-  ],
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
+  "readiness_lane": "ready_for_deep_review",
+  "readiness_label": "优先深读",
+  "readiness_score": 20,
+  "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+  "promotion_blockers": [],
   "source_summary": [
-    "日期：2026-04-10；标题：TSMC March 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3294"
+    "[](http://pr.tsmc.com/english/news/3294#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3294#)Search [](http://pr.tsmc.com/english/news/3294) *HSINCHU, Taiwan, R.O.C. – Apr. 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for March 2026: On a consolidated basis, revenue for March 2026 was approximately NT$415.19 billion, an increase of 30.7 percent from February 2026 and an increase of 45.2 percent from March 2025. Revenue for January through March 2026 totaled NT$1,134.10 billion, an increase of 35.1 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site."
   ],
-  "fact": "日期：2026-04-10；标题：TSMC March 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3294",
+  "fact": "日期：2026-04-10；标题：TSMC March 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3294#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3294#)Search [](ht…；来源：http://pr.tsmc.com/english/news/3294",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -47,8 +44,8 @@
   "quality_check": {
     "has_source": true,
     "has_readable_source": true,
-    "has_source_body": false,
-    "source_chars": 87,
+    "has_source_body": true,
+    "source_chars": 2207,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -59,5 +56,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-march-2026-revenue-report.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-march-2026-revenue-report.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-march-2026-revenue-report.json"
 }

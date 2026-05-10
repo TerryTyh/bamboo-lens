@@ -5,20 +5,19 @@
 - 公司：TSMC（tsmc）
 - 日期：2026-04-16
 - 类型：财报 / 指引
-- 候选分数：6
-- 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 8）
+- 候选分数：8
+- 当前动作：进入人工研判
+- 批处理建议：优先深读（readiness 22）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3297)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html
 
 ## 批处理建议
 
-当前主要是标题或短事实，不适合直接进入正式事件。
+已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。
 
 ### 当前阻碍
 
-- 还没有抓到足够正文
-- 可读内容偏短
+- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。
 
 ## 原文与事实
 
@@ -26,11 +25,13 @@
 
 ### 原文可读内容
 
-日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；来源：http://pr.tsmc.com/english/news/3297
+TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3297#)Search 5. TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297) TSMC Reports First Quarter EPS of NT$22.08 TSMC Reports First Quarter EPS of NT$22.08 *HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, first quarter results represented an 8.4% increase in revenue and a 13.2% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, first quarter revenue was $35.90 billion, which increased 40.6% year-over-year and increased 6.4% from the previous quarter. Gross margin for the quarter was 66.2%, operating margin was 58.1%, and net profit margin was 50.5%. In the first quarter, shipments of 3-nanometer accounted for 25% of total wafer revenue; 5-nanometer accounted for 36%; 7-nanometer accounted for 13%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 74% of total wafer revenue. “Our business in the first quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into second quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies.” Based on the Company’s current business outlook, management expects the overall performance for second quarter 2026 to be as follows: • Revenue is expected to be between US$39.0 billion and US$40.2 billion; And, based on the exchange rate assumption of 1 US dollar to 31.7 NT dollars, • Gross profit margin is expected to be between 65.5% and 67.5%; • Operating profit margin is expected to be between 56.5% and 58.5%. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Educ
+
+（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）
 
 ### 候选事实
 
-日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；来源：http://pr.tsmc.com/english/news/3297
+日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；原文内容：TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…；来源：http://pr.tsmc.com/english/news/3297
 
 ## 升级为正式事件前必须补齐
 
@@ -65,6 +66,6 @@
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：否
+- 有可读正文：是
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。
