@@ -38,6 +38,15 @@ function getCandidateDateValue(item) {
   return Math.max(...values);
 }
 
+function candidateDraftKey(item) {
+  return `${item.company || ""}::${String(item.title || "").replace(/\s+/g, " ").trim().toLowerCase()}`;
+}
+
+function getReviewDraft(item) {
+  const payload = window.BAMBOO_LENS_REVIEW_DRAFTS || { by_key: {} };
+  return payload.by_key?.[candidateDraftKey(item)] || null;
+}
+
 function flattenCandidates() {
   const payload = window.BAMBOO_LENS_CANDIDATES || { companies: {} };
   return Object.entries(payload.companies || {}).flatMap(([company, items]) =>
@@ -115,9 +124,28 @@ function buildTargetLabel(item) {
   return "";
 }
 
-function renderCandidateCard(item) {
+function renderCardActions(item) {
   const targetLink = buildTargetLink(item);
   const targetLabel = buildTargetLabel(item);
+  const draft = getReviewDraft(item);
+  const draftLink = draft?.portal_doc
+    ? `./reader.html?doc=${encodeURIComponent(draft.portal_doc)}&title=${encodeURIComponent(`正式事件草稿｜${draft.company_name || item.company_name || item.company}`)}`
+    : "";
+  const links = [];
+
+  if (draftLink) {
+    links.push(`<a class="event-link primary-link" href="${escapeHtml(draftLink)}">打开正式事件草稿</a>`);
+  }
+  if (targetLink) {
+    links.push(`<a class="event-link" href="${escapeHtml(targetLink)}" ${item.candidate_status === "promoted" ? "" : "target=\"_blank\" rel=\"noreferrer\""}>${escapeHtml(targetLabel)}</a>`);
+  }
+
+  if (!links.length) return "";
+  return `<div class="candidate-card-actions">${links.join("")}</div>`;
+}
+
+function renderCandidateCard(item) {
+  const draft = getReviewDraft(item);
   return `
     <article class="candidate-review-card status-${escapeHtml(item.candidate_status)}">
       <div class="candidate-card-top">
@@ -136,9 +164,10 @@ function renderCandidateCard(item) {
       </div>
       <div class="candidate-review-block">
         <strong>下一步</strong>
-        <p>${escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
+        <p>${draft ? "已生成正式事件草稿。先读草稿里的原文可读内容和缺口清单，再决定是否升级。" : escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
       </div>
-      ${targetLink ? `<a class="event-link" href="${escapeHtml(targetLink)}" ${item.candidate_status === "promoted" ? "" : "target=\"_blank\" rel=\"noreferrer\""}>${escapeHtml(targetLabel)}</a>` : ""}
+      ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${draft.has_source_body ? "已有可读正文，可进入人工研判。" : "当前正文不足，先补来源材料。"}</p></div>` : ""}
+      ${renderCardActions(item)}
     </article>
   `;
 }

@@ -1,0 +1,50 @@
+{
+  "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-05-10T11:18:33",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+  "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+  "date": "2026-05-07",
+  "type": "合作 / 客户 / 供应链",
+  "priority": "草稿",
+  "action": "等待补证据",
+  "score": 8,
+  "sort_key": 20260507,
+  "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260508-130818__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_summary": [
+    "日期：2026-05-07；标题：NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure；来源：https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure"
+  ],
+  "fact": "日期：2026-05-07；标题：NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure；来源：https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+  "evidence_needed": [
+    "合作对象、期限、投入规模、产能或金额",
+    "收入路径：一次性收入、长期供应、平台绑定还是生态合作",
+    "对客户粘性、供应链地位、成本或毛利率的影响"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": false,
+    "source_chars": 280,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
+  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.json"
+}

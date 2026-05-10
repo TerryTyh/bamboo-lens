@@ -1040,6 +1040,32 @@ a:hover {
   color: var(--accent);
 }
 
+.candidate-review-block.draft-status {
+  background: rgba(225, 245, 232, 0.52);
+  border: 1px solid rgba(21, 83, 61, 0.12);
+  border-radius: 18px;
+  padding: 12px;
+}
+
+.candidate-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.candidate-card-actions .event-link {
+  margin-top: 0;
+}
+
+.primary-link {
+  color: #fff;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 9px 13px;
+}
+
 .card p,
 .card li {
   color: var(--muted);
