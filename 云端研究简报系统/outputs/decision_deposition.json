@@ -1,12 +1,76 @@
 {
-  "generated_at": "2026-05-10T12:30:08",
-  "source_event_store_at": "2026-05-10T12:30:08",
-  "source_decision_impact_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T17:12:56",
+  "source_event_store_at": "2026-05-10T17:12:56",
+  "source_decision_impact_at": "2026-05-10T17:12:56",
   "items": [
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "event_index": 0,
+      "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+      "event_date": "2026-05-07",
+      "priority": "P1",
+      "direction": "正向强化",
+      "trigger_type": "上调研究优先级",
+      "status": "needs_model_update",
+      "quality": "可自动生成回写建议",
+      "update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型"
+      ],
+      "recommended_updates": [
+        {
+          "target": "当前结论",
+          "fields": [
+            "latestEvent",
+            "businessImpact",
+            "valuationImpact",
+            "nextCheck"
+          ],
+          "suggestion": "把最新事件更新为「DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位」；业务影响写入：业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。"
+        },
+        {
+          "target": "财务数据地图",
+          "fields": [
+            "financeMap",
+            "financials"
+          ],
+          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
+        },
+        {
+          "target": "估值模型",
+          "fields": [
+            "valuationModel",
+            "valuationFrame"
+          ],
+          "suggestion": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。"
+        }
+      ],
+      "reason": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。",
+      "valuation_impact": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
+      "next_verification": [
+        "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。",
+        "跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
+        "观察 Vera Rubin 平台在 100,000 GPU 级别科学计算场景中的部署是否顺利，是否成为下一代平台需求验证样板。"
+      ],
+      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "sort_key": 20260507
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 1,
       "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
       "event_date": "2026-05-06",
       "priority": "P1",
@@ -64,8 +128,72 @@
         "跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。",
         "观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1",
       "sort_key": 20260506
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 2,
+      "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
+      "event_date": "2026-05-05",
+      "priority": "P2",
+      "direction": "中性验证",
+      "trigger_type": "维持观察",
+      "status": "needs_model_update",
+      "quality": "可自动生成回写建议",
+      "update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型"
+      ],
+      "recommended_updates": [
+        {
+          "target": "当前结论",
+          "fields": [
+            "latestEvent",
+            "businessImpact",
+            "valuationImpact",
+            "nextCheck"
+          ],
+          "suggestion": "把最新事件更新为「ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层」；业务影响写入：业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离可量化收入贡献还有距离。；估值"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离可量化收入贡献还有距离。"
+        },
+        {
+          "target": "财务数据地图",
+          "fields": [
+            "financeMap",
+            "financials"
+          ],
+          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
+        },
+        {
+          "target": "估值模型",
+          "fields": [
+            "valuationModel",
+            "valuationFrame"
+          ],
+          "suggestion": "估值上，这条事件支持 NVIDIA 的软件/生态可选项，但权重应低于数据中心 GPU、网络和主权 AI 超算这类更直接的收入驱动。它对估值的贡献主要是提高长期平台想象力，而不是立即改变盈利预测。动作上不作为单独买入触发，维持观察；只有当 ServiceNow 或更多企业软件平台把 NVIDIA runtime、skills、blueprints 纳入生产部署，并带来可见推理需求或软件收入时，才上调其在估值模型中的权重。"
+        }
+      ],
+      "reason": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定",
+      "valuation_impact": "估值上，这条事件支持 NVIDIA 的软件/生态可选项，但权重应低于数据中心 GPU、网络和主权 AI 超算这类更直接的收入驱动。它对估值的贡献主要是提高长期平台想象力，而不是立即改变盈利预测。动作上不作为单独买入触发，维持观察；只有当 ServiceNow 或更多企业软件平台把 NVIDIA runtime、skills、blueprints 纳入生产部署，并带来可见推理需求或软件收入时，才上调其在估值模型中的权重。",
+      "next_verification": [
+        "跟踪 ServiceNow Project Arc 是否从发布进入实际客户部署，尤其是付费客户数量、使用场景和运行规模。",
+        "观察 OpenShell 是否被更多企业软件厂商或开发者采用，是否成为 enterprise agent execution 的通用基础。",
+        "下一次 NVIDIA 财报中关注软件、推理、enterprise AI 或 agent 相关口径是否更具体。"
+      ],
+      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1",
+      "sort_key": 20260505
     },
     {
       "company": "tsmc",
@@ -134,7 +262,7 @@
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 1,
+      "event_index": 3,
       "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "event_date": "2026-04-22",
       "priority": "P1",
@@ -192,7 +320,7 @@
         "跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。",
         "跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1",
       "sort_key": 20260422
     },
     {
@@ -271,9 +399,9 @@
     }
   ],
   "summary": {
-    "total": 4,
+    "total": 6,
     "ready": 0,
-    "needs_model_update": 4,
+    "needs_model_update": 6,
     "blocked": 0,
     "companies": 3
   }

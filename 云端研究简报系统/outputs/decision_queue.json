@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T12:30:08",
-  "source_generated_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T17:12:56",
+  "source_generated_at": "2026-05-10T17:12:56",
   "items": [
     {
       "company": "constellation",
@@ -160,7 +160,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260426-092522__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 1,
+      "event_index": 3,
       "sort_key": 20260422,
       "score": 20
     },
@@ -196,7 +196,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 4,
+      "event_index": 6,
       "sort_key": 20260225,
       "score": 19
     },
@@ -223,6 +223,24 @@
       "company_name": "NVIDIA",
       "source_type": "formal_event",
       "stage": "已入库事件",
+      "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+      "date": "2026-05-07",
+      "type": "国家级 AI 基础设施 / 科学计算 / 能源",
+      "priority": "P1",
+      "decision_action": "维持 A 池核心，提升“主权 AI + 科学计算基础设施”跟踪权重",
+      "why": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": 0,
+      "sort_key": 20260507,
+      "score": 18
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
       "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
       "date": "2026-05-06",
       "type": "产品 / 网络平台 / AI 工厂基础设施",
@@ -232,7 +250,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 0,
+      "event_index": 1,
       "sort_key": 20260506,
       "score": 18
     },
@@ -304,7 +322,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 5,
+      "event_index": 7,
       "sort_key": 20260225,
       "score": 17
     },
@@ -343,6 +361,24 @@
       "event_index": 5,
       "sort_key": 20250826,
       "score": 17
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
+      "date": "2026-05-05",
+      "type": "企业 AI / Agent 平台 / 软件生态",
+      "priority": "P2",
+      "decision_action": "继续跟踪，作为企业 AI 商业化与软件生态渗透的观察点",
+      "why": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": 2,
+      "sort_key": 20260505,
+      "score": 16
     },
     {
       "company": "luxshare",
@@ -394,7 +430,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 3,
+      "event_index": 5,
       "sort_key": 20260225,
       "score": 16
     },
@@ -520,7 +556,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 6,
+      "event_index": 8,
       "sort_key": 20260225,
       "score": 14
     },
@@ -538,7 +574,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 7,
+      "event_index": 9,
       "sort_key": 20260217,
       "score": 14
     },
@@ -808,7 +844,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 2,
+      "event_index": 4,
       "sort_key": 20260331,
       "score": 11
     },
@@ -979,24 +1015,6 @@
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
-      "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
-      "date": "2026-05-07",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260507,
-      "score": 8
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
       "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
       "date": "2026-05-06",
       "type": "官方候选",
@@ -1155,24 +1173,6 @@
       "score": 6
     },
     {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-      "date": "2026-05-05",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260505,
-      "score": 6
-    },
-    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "official_candidate",
@@ -1229,8 +1229,8 @@
   ],
   "summary": {
     "total": 68,
-    "formal_events": 49,
-    "official_candidates": 19,
+    "formal_events": 51,
+    "official_candidates": 17,
     "companies": 8
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T17:12:56",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -79,6 +79,45 @@
     ],
     "nvidia": [
       {
+        "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+        "source_candidate_title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
+        "date": "2026-05-07",
+        "type": "国家级 AI 基础设施 / 科学计算 / 能源",
+        "priority": "P1",
+        "action": "维持 A 池核心，提升“主权 AI + 科学计算基础设施”跟踪权重",
+        "sort_key": 20260507,
+        "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "这篇 NVIDIA Blog 记录了美国能源部长 Chris Wright 与 NVIDIA 高性能计算负责人 Ian Buck 在 SCSP AI+ Expo 上的对谈。文章的核心不是普通宣传，而是把 AI、能源、电力和国家科研基础设施联系在一起：美国 AI 领导力需要能源领导力支撑，而 DOE 的 Genesis Mission 是把 AI 用于科学发现的执行抓手。",
+          "Genesis Mission 是美国能源部推动 AI 科学发现的项目，NVIDIA 是合作伙伴之一。文章强调 NVIDIA 与美国国家实验室已有约 20 年超算合作历史，Buck 表示 NVIDIA 对 Genesis “100% committed and invested”。这说明 NVIDIA 在国家级科学计算体系中不是一次性供应商，而是长期全栈技术伙伴。",
+          "文章给出两个关键项目：NVIDIA 与 DOE 正在 Argonne National Laboratory 建设两台 AI 超算。第一台 Equinox 正在部署，使用 10,000 颗 NVIDIA Grace Blackwell GPUs；第二台 Solstice 将使用 100,000 颗 NVIDIA Vera Rubin GPUs。Buck 称 Solstice 对应 5,000 exaflops，约为整个 TOP500 超算榜算力的 5 倍。",
+          "Buck 还强调，给科学界使用的是与全球主要 AI labs 相同的硬件、软件和技术构件。文章举例：NVIDIA 有一个开源 AI 模型，先用 150 万篇物理论文训练，再用 10 万篇聚变领域论文微调，形成 DOE 科研人员可以交互使用的专业 AI agent。",
+          "文章最后把能源约束拉回 AI 基础设施：Wright 提到美国过去 20 年石油产量翻三倍、天然气产量翻倍，但电力产出几乎没有增长；而 AI 最重要的能源形式是电力。这让 NVIDIA 的 AI 工厂逻辑进一步延伸到电力、能源和国家基础设施层面。"
+        ],
+        "fact": "2026-05-07，NVIDIA 发布文章披露其参与 DOE Genesis Mission，并与美国能源部在 Argonne National Laboratory 建设两台 AI 超算：Equinox 使用 10,000 颗 NVIDIA Grace Blackwell GPUs，Solstice 将使用 100,000 颗 NVIDIA Vera Rubin GPUs。文章还提到 Solstice 对应 5,000 exaflops，约为整个 TOP500 超算榜总算力的 5 倍；NVIDIA 同时强调其为科学界提供与主要 AI labs 相同的硬件、软件和技术构件。",
+        "evidence": [
+          "DOE 的 Genesis Mission 目标是把 AI 应用于科学发现，NVIDIA 是 DOE 合作伙伴之一。",
+          "NVIDIA 与美国国家实验室已有约 20 年建设超算的合作历史，Ian Buck 表示 NVIDIA 对 Genesis “100% committed and invested”。",
+          "Equinox 正在 Argonne National Laboratory 部署，使用 10,000 颗 NVIDIA Grace Blackwell GPUs。",
+          "Solstice 将使用 100,000 颗 NVIDIA Vera Rubin GPUs；Buck 称其为 5,000 exaflops，约为整个 TOP500 超算榜总和的 5 倍。",
+          "Buck 表示科学界将获得与全球主要 AI labs 相同的硬件、软件和技术构件。",
+          "文章举例 NVIDIA AI 模型先训练于 150 万篇物理论文，再用 10 万篇聚变论文微调，形成可供 DOE 研究人员使用的专业 AI agent。",
+          "Chris Wright 指出 AI 最重要的能源形式是电力，而美国电力产出增长不足，使 AI 基础设施与能源供给直接绑定。"
+        ],
+        "judgment": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。",
+        "business_analysis": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。",
+        "valuation_analysis": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
+        "verification": [
+          "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。",
+          "跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
+          "观察 Vera Rubin 平台在 100,000 GPU 级别科学计算场景中的部署是否顺利，是否成为下一代平台需求验证样板。",
+          "关注美国 DOE、国家实验室和其他国家主权 AI 项目是否扩大采用 NVIDIA 全栈方案。",
+          "持续跟踪电力约束是否成为 AI 数据中心扩张瓶颈，以及 NVIDIA 是否通过能源合作、电网资产或 AI 工厂方案强化平台位置。"
+        ],
+        "reviewed_at": "2026-05-10T17:12:56"
+      },
+      {
         "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
         "source_candidate_title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
         "date": "2026-05-06",
@@ -115,6 +154,44 @@
           "如果未来财报能看到网络产品收入占比提升、客户采用扩大且毛利率稳定，这条事件才会从“平台叙事强化”升级为“估值中枢上修证据”。"
         ],
         "reviewed_at": "2026-05-10T12:30:08"
+      },
+      {
+        "title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
+        "source_candidate_title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+        "date": "2026-05-05",
+        "type": "企业 AI / Agent 平台 / 软件生态",
+        "priority": "P2",
+        "action": "继续跟踪，作为企业 AI 商业化与软件生态渗透的观察点",
+        "sort_key": 20260505,
+        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "这篇 NVIDIA Blog 发布于 ServiceNow Knowledge 2026，核心是 NVIDIA 与 ServiceNow 扩大合作，把企业 AI 从“生成和推理”推向“能在真实工作流中执行动作”的 autonomous agent 阶段。文章强调企业场景里的 agent 不能只会回答问题，还必须具备上下文、控制、审计和一致性。",
+          "ServiceNow 推出 Project Arc，这是一个长期运行、自我演进的 autonomous desktop agent，面向知识工作者，包括开发者、IT 团队和管理员。它可以访问本地文件系统、终端和机器上的应用，完成传统自动化难以处理的复杂多步骤任务。",
+          "Project Arc 的关键不是“更聪明的聊天机器人”，而是接入 ServiceNow AI Platform，并通过 ServiceNow Action Fabric 获得工作流上下文，通过 ServiceNow AI Control Tower 获得治理和控制。这意味着企业 agent 的落地重点在安全、审计、权限和流程，而不是单纯模型能力。",
+          "NVIDIA 在合作中的角色包括 accelerated computing、open models、domain-specific skills 和 secure agent execution software。文章特别提到 NVIDIA OpenShell，这是一个开源安全运行时，用于在 sandboxed、policy-governed 环境中开发和部署 autonomous agents。",
+          "文章还提到 NVIDIA agent skills 和 NVIDIA AI-Q Blueprint，可帮助构建专门的 deep research agents，并让 ServiceNow AI Specialists 在企业工作流里进行上下文收集、信息综合和复杂决策支持。"
+        ],
+        "fact": "2026-05-05，NVIDIA 与 ServiceNow 在 Knowledge 2026 上扩大合作。ServiceNow 推出 Project Arc，一个面向知识工作者的长期运行 autonomous desktop agent；该 agent 通过 Action Fabric 接入 ServiceNow AI Platform，结合 AI Control Tower 做治理，并使用 NVIDIA OpenShell 作为沙盒化、策略治理的安全运行时。NVIDIA 的贡献包括加速计算、开放模型、领域技能、AI-Q Blueprint 和安全 agent 执行软件。",
+        "evidence": [
+          "ServiceNow 推出 Project Arc，定位为 long-running、self-evolving autonomous desktop agent，面向 developers、IT teams 和 administrators。",
+          "Project Arc 可访问本地文件系统、终端和已安装应用，以完成复杂多步骤任务。",
+          "Project Arc 通过 ServiceNow Action Fabric 连接 ServiceNow AI Platform，并通过 ServiceNow AI Control Tower 获得治理、审计和工作流智能。",
+          "NVIDIA OpenShell 是开源安全运行时，用于在 sandboxed、policy-governed 环境中开发和部署 autonomous agents。",
+          "OpenShell 允许企业定义 agent 可以看到什么、使用哪些工具，以及每个动作如何被限制。",
+          "NVIDIA agent skills 和 AI-Q Blueprint 支持构建专门的 deep research agents，用于上下文收集、信息综合和复杂决策支持。"
+        ],
+        "judgment": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定。",
+        "business_analysis": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离可量化收入贡献还有距离。",
+        "valuation_analysis": "估值上，这条事件支持 NVIDIA 的软件/生态可选项，但权重应低于数据中心 GPU、网络和主权 AI 超算这类更直接的收入驱动。它对估值的贡献主要是提高长期平台想象力，而不是立即改变盈利预测。动作上不作为单独买入触发，维持观察；只有当 ServiceNow 或更多企业软件平台把 NVIDIA runtime、skills、blueprints 纳入生产部署，并带来可见推理需求或软件收入时，才上调其在估值模型中的权重。",
+        "verification": [
+          "跟踪 ServiceNow Project Arc 是否从发布进入实际客户部署，尤其是付费客户数量、使用场景和运行规模。",
+          "观察 OpenShell 是否被更多企业软件厂商或开发者采用，是否成为 enterprise agent execution 的通用基础。",
+          "下一次 NVIDIA 财报中关注软件、推理、enterprise AI 或 agent 相关口径是否更具体。",
+          "跟踪 ServiceNow 是否在财报或产品材料中披露 Project Arc、Action Fabric、AI Control Tower 对收入、续约或客户扩张的影响。",
+          "评估企业 agent 使用是否真的拉动 GPU 推理需求，而不是停留在生态营销层面。"
+        ],
+        "reviewed_at": "2026-05-10T17:12:56"
       },
       {
         "title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",

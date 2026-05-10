@@ -1,31 +1,31 @@
 {
-  "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
+  "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
   "draft_status": "auto_draft",
   "generated_at": "2026-05-10T17:12:56",
   "company": "tsmc",
   "company_name": "TSMC",
-  "source_candidate_title": "TSMC April 2026 Revenue Report",
-  "title": "TSMC April 2026 Revenue Report",
-  "date": "2026-05-08",
+  "source_candidate_title": "TSMC Reports First Quarter EPS of NT$22.08",
+  "title": "TSMC Reports First Quarter EPS of NT$22.08",
+  "date": "2026-04-16",
   "type": "财报 / 指引",
   "priority": "草稿",
   "action": "等待补证据",
-  "score": 8,
-  "sort_key": 20260508,
-  "source_url": "http://pr.tsmc.com/english/news/3305",
+  "score": 6,
+  "sort_key": 20260416,
+  "source_url": "http://pr.tsmc.com/english/news/3297",
   "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
-  "readiness_score": 10,
+  "readiness_score": 8,
   "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
   "promotion_blockers": [
     "还没有抓到足够正文",
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-05-08；标题：TSMC April 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3305"
+    "日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；来源：http://pr.tsmc.com/english/news/3297"
   ],
-  "fact": "日期：2026-05-08；标题：TSMC April 2026 Revenue Report；来源：http://pr.tsmc.com/english/news/3305",
+  "fact": "日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；来源：http://pr.tsmc.com/english/news/3297",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -48,7 +48,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 87,
+    "source_chars": 99,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -58,6 +58,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-april-2026-revenue-report.json"
+  "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
+  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.json"
 }
