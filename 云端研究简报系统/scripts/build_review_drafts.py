@@ -189,6 +189,7 @@ def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> di
             clip_source(readable_source) if readable_source else "当前只抓到了标题或日程，还没有足够正文，不能升级为正式事件。",
         ],
         "fact": clean(event_candidate.get("fact")) or f"{candidate.get('company_name', company)} 出现官方候选：{title}。",
+        "evidence": [f"证据缺口：{item}" for item in evidence_prompts(event_type)],
         "evidence_needed": evidence_prompts(event_type),
         "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
         "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
@@ -274,6 +275,12 @@ def draft_to_markdown(draft: dict) -> str:
 ## 下一步验证
 
 {verification}
+
+## 入库方式
+
+当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
+
+`{draft['draft_id']}`
 
 ## 质量闸门
 

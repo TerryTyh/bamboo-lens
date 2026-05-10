@@ -1047,6 +1047,18 @@ a:hover {
   padding: 12px;
 }
 
+.candidate-review-block.draft-status code {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 8px;
+  padding: 6px 8px;
+  overflow-wrap: anywhere;
+  border-radius: 10px;
+  background: rgba(255, 250, 243, 0.9);
+  color: var(--accent);
+  font-size: 12px;
+}
+
 .candidate-card-actions {
   display: flex;
   flex-wrap: wrap;

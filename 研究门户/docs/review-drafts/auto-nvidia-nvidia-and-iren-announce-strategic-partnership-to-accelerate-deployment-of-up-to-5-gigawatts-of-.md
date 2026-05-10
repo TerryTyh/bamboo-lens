@@ -46,6 +46,12 @@
 - 补齐至少三条具体证据，再写业务影响和估值/动作影响。
 - 如果只有标题、日程或营销口号，保留候选，不进入正式事件。
 
+## 入库方式
+
+当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
+
+`auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-`
+
 ## 质量闸门
 
 - 有来源：是

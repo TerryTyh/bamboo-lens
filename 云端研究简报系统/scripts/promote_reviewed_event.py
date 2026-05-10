@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "outputs"
 REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
+REVIEW_DRAFT_DIR = OUTPUT_DIR / "review_drafts"
 
 REQUIRED_TEXT_FIELDS = [
     "company",
@@ -35,7 +36,8 @@ REQUIRED_LIST_FIELDS = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Promote a completed review draft into reviewed_events.json.")
-    parser.add_argument("draft", type=Path, help="Path to review draft JSON.")
+    parser.add_argument("draft", type=Path, nargs="?", help="Path to review draft JSON.")
+    parser.add_argument("--draft-id", help="Draft id under outputs/review_drafts, without .json.")
     parser.add_argument("--no-refresh", action="store_true", help="Do not regenerate event store / portal outputs.")
     parser.add_argument("--allow-todo", action="store_true", help="Allow TODO placeholders. Not recommended.")
     return parser.parse_args()
@@ -47,9 +49,21 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def resolve_draft_path(args: argparse.Namespace) -> Path:
+    if args.draft and args.draft_id:
+        raise ValueError("Use either a draft path or --draft-id, not both.")
+    if args.draft:
+        return args.draft
+    if args.draft_id:
+        draft_id = args.draft_id.removesuffix(".json")
+        return REVIEW_DRAFT_DIR / f"{draft_id}.json"
+    raise ValueError("Missing draft path or --draft-id.")
+
+
 def contains_todo(value) -> bool:
     if isinstance(value, str):
-        return "TODO" in value or "待补" in value
+        placeholders = ["TODO", "待补", "证据缺口", "等待补证据", "这只是正式事件草稿"]
+        return any(placeholder in value for placeholder in placeholders)
     if isinstance(value, list):
         return any(contains_todo(item) for item in value)
     if isinstance(value, dict):
@@ -76,7 +90,7 @@ def validate_draft(draft: dict, allow_todo: bool) -> list[str]:
             errors.append(f"{field} needs at least {min_count} filled item(s).")
 
     if not allow_todo and contains_todo(draft):
-        errors.append("Draft still contains TODO / 待补 placeholders.")
+        errors.append("Draft still contains placeholder text and is not ready for promotion.")
 
     return errors
 
@@ -131,10 +145,12 @@ def run_refresh_chain() -> None:
         "export_portal_event_store_data.py",
         "build_company_state.py",
         "build_decision_queue.py",
+        "build_review_drafts.py",
         "build_decision_impact.py",
         "build_decision_deposition.py",
         "build_company_page_overrides.py",
         "export_portal_candidate_data.py",
+        "export_portal_docs.py",
     ]
     for script in scripts:
         subprocess.run([sys.executable, str(ROOT / "scripts" / script)], check=True)
@@ -142,7 +158,8 @@ def run_refresh_chain() -> None:
 
 def main() -> None:
     args = parse_args()
-    draft = load_json(args.draft)
+    draft_path = resolve_draft_path(args)
+    draft = load_json(draft_path)
     errors = validate_draft(draft, args.allow_todo)
     if errors:
         print("Draft failed quality gate:", file=sys.stderr)
@@ -158,6 +175,7 @@ def main() -> None:
     print(f"Promoted reviewed event into: {REVIEWED_EVENTS_FILE}")
     print(f"Company: {draft['company']}")
     print(f"Title: {event['title']}")
+    print(f"Draft: {draft_path}")
 
     if not args.no_refresh:
         run_refresh_chain()

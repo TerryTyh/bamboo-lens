@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T03:28:55",
+  "generated_at": "2026-05-10T12:01:09",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
@@ -18,6 +18,11 @@
     "日期：2026-05-07；标题：NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure；来源：https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure"
   ],
   "fact": "日期：2026-05-07；标题：NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure；来源：https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+  "evidence": [
+    "证据缺口：合作对象、期限、投入规模、产能或金额",
+    "证据缺口：收入路径：一次性收入、长期供应、平台绑定还是生态合作",
+    "证据缺口：对客户粘性、供应链地位、成本或毛利率的影响"
+  ],
   "evidence_needed": [
     "合作对象、期限、投入规模、产能或金额",
     "收入路径：一次性收入、长期供应、平台绑定还是生态合作",
@@ -46,5 +51,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.json"
+  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.json"
 }

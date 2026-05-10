@@ -9,6 +9,8 @@ const STATUS_LABELS = {
   archived: "先存档",
 };
 
+const PROMOTE_WORKFLOW_URL = "https://github.com/TerryTyh/bamboo-lens/actions/workflows/promote-review-draft.yml";
+
 let activeStatus = "all";
 
 function escapeHtml(value) {
@@ -135,6 +137,7 @@ function renderCardActions(item) {
 
   if (draftLink) {
     links.push(`<a class="event-link primary-link" href="${escapeHtml(draftLink)}">打开正式事件草稿</a>`);
+    links.push(`<a class="event-link" href="${PROMOTE_WORKFLOW_URL}" target="_blank" rel="noreferrer">云端入库工作流</a>`);
   }
   if (targetLink) {
     links.push(`<a class="event-link" href="${escapeHtml(targetLink)}" ${item.candidate_status === "promoted" ? "" : "target=\"_blank\" rel=\"noreferrer\""}>${escapeHtml(targetLabel)}</a>`);
@@ -166,7 +169,7 @@ function renderCandidateCard(item) {
         <strong>下一步</strong>
         <p>${draft ? "已生成正式事件草稿。先读草稿里的原文可读内容和缺口清单，再决定是否升级。" : escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
       </div>
-      ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${draft.has_source_body ? "已有可读正文，可进入人工研判。" : "当前正文不足，先补来源材料。"}</p></div>` : ""}
+      ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${draft.has_source_body ? "已有可读正文，可进入人工研判。" : "当前正文不足，先补来源材料。"}</p><code>${escapeHtml(draft.draft_id)}</code></div>` : ""}
       ${renderCardActions(item)}
     </article>
   `;
