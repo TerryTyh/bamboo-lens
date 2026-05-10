@@ -32,9 +32,9 @@ def load_json(path: Path, fallback: dict) -> dict:
 
 def compact(text: str, limit: int = 220) -> str:
     cleaned = " ".join(str(text or "").split())
-    if len(cleaned) <= limit:
+    if limit <= 0 or len(cleaned) <= limit:
         return cleaned
-    return cleaned[:limit].rstrip() + "..."
+    return cleaned[:limit].rstrip()
 
 
 def event_lookup(event_store: dict) -> dict[tuple[str, int], dict]:

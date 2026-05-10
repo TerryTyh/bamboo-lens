@@ -38,9 +38,9 @@ def load_event_store() -> dict:
 
 def first_sentence(text: str, limit: int = 220) -> str:
     cleaned = " ".join(str(text or "").split())
-    if len(cleaned) <= limit:
+    if limit <= 0 or len(cleaned) <= limit:
         return cleaned
-    return cleaned[:limit].rstrip() + "..."
+    return cleaned[:limit].rstrip()
 
 
 def parse_sort_key(value: str | int | None) -> int:

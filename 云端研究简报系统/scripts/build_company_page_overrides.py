@@ -13,6 +13,7 @@ EVENT_STORE_FILE = OUTPUT_DIR / "event_store.json"
 DEPOSITION_FILE = OUTPUT_DIR / "decision_deposition.json"
 OVERRIDES_FILE = OUTPUT_DIR / "company_page_overrides.json"
 PORTAL_OVERRIDES_FILE = PROJECT_ROOT / "研究门户" / "company-page-overrides-data.js"
+MAX_DEPOSITS_PER_COMPANY = 3
 
 
 def load_json(path: Path, fallback: dict) -> dict:
@@ -94,9 +95,27 @@ def event_deposits(item: dict, event: dict) -> dict:
     }
 
 
-def build_override(item: dict, event: dict) -> dict:
+def merge_deposits(deposits: list[dict]) -> dict:
+    merged = {
+        "financeMap": {"notes": []},
+        "businessMap": {"segments": [], "moat": []},
+        "valuationModel": {"currentBreakdown": [], "triggers": []},
+    }
+    for deposit in deposits:
+        merged["financeMap"]["notes"].extend(deposit.get("financeMap", {}).get("notes", []))
+        merged["businessMap"]["segments"].extend(deposit.get("businessMap", {}).get("segments", []))
+        merged["businessMap"]["moat"].extend(deposit.get("businessMap", {}).get("moat", []))
+        merged["valuationModel"]["currentBreakdown"].extend(
+            deposit.get("valuationModel", {}).get("currentBreakdown", [])
+        )
+        merged["valuationModel"]["triggers"].extend(deposit.get("valuationModel", {}).get("triggers", []))
+    return merged
+
+
+def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) -> dict:
     action = str(event.get("action") or "").strip()
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
+    deposits = [event_deposits(deposit_item, deposit_event) for deposit_item, deposit_event in all_items]
     return {
         "source": "decision_deposition",
         "sourceEventIndex": item.get("event_index", 0),
@@ -109,25 +128,43 @@ def build_override(item: dict, event: dict) -> dict:
         "valuationImpact": compact(valuation, 680),
         "nextCheck": verification_text(event),
         "action": action or None,
-        "depositionNotice": "已根据最新正式事件自动更新当前结论；完整公司档案仍可继续人工精修。",
+        "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
         "updatedSections": item.get("update_targets", []),
-        "sectionDeposits": event_deposits(item, event),
+        "sectionDeposits": merge_deposits(deposits),
+        "depositEvents": [
+            {
+                "eventIndex": deposit_item.get("event_index", 0),
+                "title": deposit_item.get("event_title", ""),
+                "date": deposit_item.get("event_date", ""),
+                "priority": deposit_item.get("priority", ""),
+                "detailLink": deposit_item.get("detail_link", ""),
+            }
+            for deposit_item, _ in all_items
+        ],
     }
 
 
 def build_payload(event_store: dict, deposition: dict) -> dict:
     lookup = event_lookup(event_store)
-    companies = {}
+    grouped: dict[str, list[tuple[dict, dict]]] = {}
     for item in deposition.get("items", []):
         company_id = item.get("company", "")
-        if company_id in companies:
-            continue
         if item.get("status") == "blocked":
             continue
         event = lookup.get((company_id, int(item.get("event_index", 0))))
         if not event:
             continue
-        companies[company_id] = build_override(item, event)
+        grouped.setdefault(company_id, []).append((item, event))
+
+    companies = {}
+    for company_id, items in grouped.items():
+        items.sort(key=lambda row: int(row[0].get("sort_key") or 0), reverse=True)
+        current_item, current_event = items[0]
+        companies[company_id] = build_override(
+            current_item,
+            current_event,
+            items[:MAX_DEPOSITS_PER_COMPANY],
+        )
 
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
@@ -136,7 +173,7 @@ def build_payload(event_store: dict, deposition: dict) -> dict:
         "companies": companies,
         "summary": {
             "companies": len(companies),
-            "events_applied": len(companies),
+            "events_applied": sum(len(company.get("depositEvents", [])) for company in companies.values()),
         },
     }
 
