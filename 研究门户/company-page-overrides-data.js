@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-05-10T20:36:00",
+  "generated_at": "2026-05-10T21:00:44",
   "source_event_store_at": "2026-05-10T18:48:55",
   "source_deposition_at": "2026-05-10T20:35:59",
   "companies": {
@@ -9,13 +9,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "sourceEventDate": "2026-05-08",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T20:36:00",
+      "updatedAt": "2026-05-10T21:00:44",
       "latestEvent": "2026-05-08｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "businessImpact": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。",
       "valuationImpact": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。",
       "nextCheck": "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。；Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。",
       "action": "维持 A 池核心，但从“强劲确认”转入“Q2 连续性验证”",
-      "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
+      "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
       "updatedSections": [
         "当前结论",
         "公司理解",
@@ -26,40 +26,40 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "financeMap": {
           "notes": [
             {
-              "title": "财务沉淀｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
-              "text": "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。；Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。；继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。"
+              "title": "关键财务事实｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+              "text": "TSMC 2026 年 4 月合并营收约 NT$410.73 billion，较 2026 年 3 月下降 1.1%，较 2025 年 4 月增长 17.5%。2026 年 1-4 月累计营收 NT$1,544.83 billion，同比增长 29.9%。 证据：2026 年 4 月合并营收约 NT$410.73 billion。；4 月营收环比 3 月下降 1.1%，但仍维持在 NT$410 billion 以上。；4 月营收同比 2025 年 4 月增长 17.5%。。读法：这是一条 P1 级延续验证事件。4 月同比增速低于 3 月，但绝对收入维持高位，1-4 月累计同比仍达 29.9%。对 TSMC 来说，现在最重要的问题从“需求是否强”转向“强需求能否在 Q2 继续兑现，并维持高毛利率”。 后续验证：5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。；Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。；继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。"
             }
           ]
         },
         "businessMap": {
           "segments": [
             {
-              "title": "业务沉淀｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+              "title": "业务变化｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
               "scale": "2026-05-08｜月度营收 / Q2 需求验证",
               "text": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。"
             },
             {
-              "title": "业务沉淀｜Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+              "title": "业务变化｜Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
               "scale": "2026-05-08｜合作 / 图像传感器 / 物理 AI",
               "text": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。"
             },
             {
-              "title": "业务沉淀｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
+              "title": "业务变化｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
               "scale": "2026-04-23｜技术路线 / 先进制程",
               "text": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。"
             }
           ],
           "moat": [
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜月度营收 / Q2 需求验证",
               "text": "这是一条 P1 级延续验证事件。4 月同比增速低于 3 月，但绝对收入维持高位，1-4 月累计同比仍达 29.9%。对 TSMC 来说，现在最重要的问题从“需求是否强”转向“强需求能否在 Q2 继续兑现，并维持高毛利率”。"
             },
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜合作 / 图像传感器 / 物理 AI",
               "text": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。"
             },
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜技术路线 / 先进制程",
               "text": "这条事件强化了 TSMC 的长期核心逻辑：AI/HPC 对制程、封装、互连和系统集成的要求越来越高，TSMC 的竞争位置不只是“谁能做更小节点”，而是能否持续提供从先进逻辑到 CoWoS/SoIC/CPO 的完整制造平台。短期它不直接改变下一季收入，但它提高了对 2028-2029 年高端制程和先进封装景气延续的可见度。"
             }
           ]
@@ -67,29 +67,29 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "valuationModel": {
           "currentBreakdown": [
             {
-              "title": "估值沉淀｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+              "title": "估值/动作影响｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
               "text": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。"
             },
             {
-              "title": "估值沉淀｜Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+              "title": "估值/动作影响｜Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
               "text": "估值上，这条事件对 TSMC 是轻度正面，但权重应低于 HPC/AI 和先进制程主线。正面在于：它验证 TSMC 的先进制造能力可从 AI 计算芯片外溢到物理 AI 感知层，并强化与 Sony 这种长期高价值客户的绑定。限制在于：没有金额、产能和盈利指标，且 JV 控制权在 Sony，短期难以转化为明确盈利预测。动作上维持 A 池核心和原有估值中枢，不因该新闻加仓；后续若披露明确投资额、量产节点、产能规模和客户应用，再考虑把它纳入 TSMC 特殊制程/物理 AI 可选项。"
             },
             {
-              "title": "估值沉淀｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
+              "title": "估值/动作影响｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
               "text": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。"
             }
           ],
           "triggers": [
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜月度营收 / Q2 需求验证",
               "text": "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。；Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。；继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。"
             },
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜合作 / 图像传感器 / 物理 AI",
               "text": "确认双方是否签署最终 legally binding agreement，以及 JV 是否正式成立。；跟踪 JV 和 Sony 长崎工厂的投资金额、产能规划、量产时间和日本政府支持条件。；观察下一代图像传感器是否明确用于汽车、机器人、机器视觉等 physical AI 场景，而不是只停留在泛化表述。"
             },
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜技术路线 / 先进制程",
               "text": "下一次财报继续看 HPC 占比、先进制程需求、毛利率和资本开支指引，判断技术路线是否正在转化为当期订单和盈利质量。；跟踪 CoWoS 产能扩张、HBM 集成需求和大客户 AI 芯片路线，验证 14 倍光罩尺寸 CoWoS、SoIC 与 CPO 是否成为 AI 芯片平台的关键瓶颈资源。；跟踪 2028-2029 年 A14/A13/A12 量产节奏、良率和主要客户采用情况，避免把路线图发布直接等同于商业成功。"
             }
           ]
@@ -125,13 +125,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "sourceEventDate": "2026-05-07",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T20:36:00",
+      "updatedAt": "2026-05-10T21:00:44",
       "latestEvent": "2026-05-07｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "businessImpact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。",
       "valuationImpact": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
       "nextCheck": "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。；跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
       "action": "维持 A 池核心，提升“主权 AI + 科学计算基础设施”跟踪权重",
-      "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
+      "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
       "updatedSections": [
         "当前结论",
         "公司理解",
@@ -144,32 +144,32 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "businessMap": {
           "segments": [
             {
-              "title": "业务沉淀｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+              "title": "业务变化｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
               "scale": "2026-05-07｜国家级 AI 基础设施 / 科学计算 / 能源",
               "text": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。"
             },
             {
-              "title": "业务沉淀｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+              "title": "业务变化｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
               "scale": "2026-05-06｜产品 / 网络平台 / AI 工厂基础设施",
               "text": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。"
             },
             {
-              "title": "业务沉淀｜ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
+              "title": "业务变化｜ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
               "scale": "2026-05-05｜企业 AI / Agent 平台 / 软件生态",
               "text": "业务影响主要落在企业 AI 软件生态、推理需求和 AI 工厂运行时。ServiceNow 本身拥有大量企业 IT 和 workflow 场景，Project Arc 如果能进入真实工作流，会把 agent 从“演示级应用”推进到“受治理的企业执行系统”。NVIDIA 通过 OpenShell、agent skills 和 AI-Q Blueprint 进入这一层，有助于把底层加速计算与上层企业应用连接起来。不过当前仍偏生态和产品合作，离可量化收入贡献还有距离。"
             }
           ],
           "moat": [
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜国家级 AI 基础设施 / 科学计算 / 能源",
               "text": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。"
             },
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜产品 / 网络平台 / AI 工厂基础设施",
               "text": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。"
             },
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜企业 AI / Agent 平台 / 软件生态",
               "text": "这是一条 P2 级生态验证事件。它没有披露收入金额或客户规模，所以不能直接推升短期估值；但它说明 NVIDIA 的企业 AI 布局正在从算力和模型，延伸到 agent 安全执行、运行时、技能库和企业工作流集成。这对 NVIDIA 的长期意义在于：如果企业 agent 真正进入生产环境，GPU 消耗、推理 tokenomics、软件栈和开发者生态会形成更深绑定。"
             }
           ]
@@ -177,29 +177,29 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "valuationModel": {
           "currentBreakdown": [
             {
-              "title": "估值沉淀｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+              "title": "估值/动作影响｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
               "text": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。"
             },
             {
-              "title": "估值沉淀｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+              "title": "估值/动作影响｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
               "text": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。"
             },
             {
-              "title": "估值沉淀｜ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
+              "title": "估值/动作影响｜ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
               "text": "估值上，这条事件支持 NVIDIA 的软件/生态可选项，但权重应低于数据中心 GPU、网络和主权 AI 超算这类更直接的收入驱动。它对估值的贡献主要是提高长期平台想象力，而不是立即改变盈利预测。动作上不作为单独买入触发，维持观察；只有当 ServiceNow 或更多企业软件平台把 NVIDIA runtime、skills、blueprints 纳入生产部署，并带来可见推理需求或软件收入时，才上调其在估值模型中的权重。"
             }
           ],
           "triggers": [
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜国家级 AI 基础设施 / 科学计算 / 能源",
               "text": "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。；跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。；观察 Vera Rubin 平台在 100,000 GPU 级别科学计算场景中的部署是否顺利，是否成为下一代平台需求验证样板。"
             },
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜产品 / 网络平台 / AI 工厂基础设施",
               "text": "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。；跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。；观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
             },
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜企业 AI / Agent 平台 / 软件生态",
               "text": "跟踪 ServiceNow Project Arc 是否从发布进入实际客户部署，尤其是付费客户数量、使用场景和运行规模。；观察 OpenShell 是否被更多企业软件厂商或开发者采用，是否成为 enterprise agent execution 的通用基础。；下一次 NVIDIA 财报中关注软件、推理、enterprise AI 或 agent 相关口径是否更具体。"
             }
           ]
@@ -235,13 +235,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T20:36:00",
+      "updatedAt": "2026-05-10T21:00:44",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
       "nextCheck": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。",
       "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
-      "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
+      "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
       "updatedSections": [
         "当前结论",
         "公司理解",
@@ -252,22 +252,22 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "financeMap": {
           "notes": [
             {
-              "title": "财务沉淀｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-              "text": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
+              "title": "关键财务事实｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+              "text": "Constellation 在 2026 Business and Earnings Outlook 中给出 2026 adjusted operating EPS 指引 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+ 的目标。公司强调，增长展望尚未纳入 147 million MWh 年度可用核电电量捕捉溢价、额外天然气合同和增厚型资本配置带来的潜在上行。公司同时把总回购授权提升至 50 亿美元，并计划投入 39 亿美元 growth capital，用于有吸引力回报的增长项目。合并 Calpine 后，公司拥有约 55GW 发电组合，是美国最大的核电、天然气和地热发电平台之一。 证据：2026 指引：adjusted operating EPS 为 11.00-12.00 美元。；长期目标：2026-2029 Base EPS 增长 20%+，长期滚动三年 Base EPS 增长 10%+。；潜在上行：增长展望未纳入 147 million MWh 年度可用核电电量捕捉溢价、额外天然气合同和增厚型资本配置。。读法：这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。 后续验证：2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
             }
           ]
         },
         "businessMap": {
           "segments": [
             {
-              "title": "业务沉淀｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+              "title": "业务变化｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
               "scale": "2026-03-31｜管理层展望 / 财务指引",
               "text": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。"
             }
           ],
           "moat": [
             {
-              "title": "这条事件改变了什么",
+              "title": "判断变化｜管理层展望 / 财务指引",
               "text": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。"
             }
           ]
@@ -275,13 +275,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         "valuationModel": {
           "currentBreakdown": [
             {
-              "title": "估值沉淀｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+              "title": "估值/动作影响｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
               "text": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。"
             }
           ],
           "triggers": [
             {
-              "title": "后续验证：来自最新事件",
+              "title": "下一步验证｜管理层展望 / 财务指引",
               "text": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
             }
           ]

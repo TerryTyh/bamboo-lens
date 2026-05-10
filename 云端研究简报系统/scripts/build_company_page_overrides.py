@@ -44,13 +44,20 @@ def verification_text(event: dict) -> str:
     return compact(event.get("judgment", ""), 220)
 
 
+def join_items(items: list[str], limit: int = 3) -> str:
+    cleaned = [str(item).strip() for item in items if str(item).strip()]
+    return "；".join(cleaned[:limit])
+
+
 def event_deposits(item: dict, event: dict) -> dict:
-    event_label = f"事件沉淀｜{item.get('event_title', '')}"
     event_type = str(event.get("type") or "正式事件").strip()
     date = str(item.get("event_date") or event.get("date") or "").strip()
+    title = str(item.get("event_title") or event.get("title") or "").strip()
+    fact = str(event.get("fact") or "").strip()
     business = str(event.get("business_analysis") or item.get("reason") or "").strip()
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
     judgment = str(event.get("judgment") or item.get("reason") or "").strip()
+    evidence = [str(v).strip() for v in event.get("evidence", []) if str(v).strip()]
     verification = [str(v).strip() for v in event.get("verification", []) if str(v).strip()]
     targets = set(item.get("update_targets", []))
 
@@ -64,22 +71,25 @@ def event_deposits(item: dict, event: dict) -> dict:
     if "财务数据地图" in targets:
         deposit["financeMap"]["notes"].append(
             {
-                "title": f"财务沉淀｜{item.get('event_title', '')}",
-                "text": finance_note_text,
+                "title": f"关键财务事实｜{title}",
+                "text": compact(
+                    f"{fact} 证据：{join_items(evidence, 3)}。读法：{judgment} 后续验证：{finance_note_text}",
+                    900,
+                ),
             }
         )
 
     if "公司理解" in targets:
         deposit["businessMap"]["segments"].append(
             {
-                "title": f"业务沉淀｜{item.get('event_title', '')}",
+                "title": f"业务变化｜{title}",
                 "scale": f"{date}｜{event_type}",
                 "text": business,
             }
         )
         deposit["businessMap"]["moat"].append(
             {
-                "title": "这条事件改变了什么",
+                "title": f"判断变化｜{event_type}",
                 "text": judgment,
             }
         )
@@ -87,13 +97,13 @@ def event_deposits(item: dict, event: dict) -> dict:
     if "估值模型" in targets:
         deposit["valuationModel"]["currentBreakdown"].append(
             {
-                "title": f"估值沉淀｜{item.get('event_title', '')}",
+                "title": f"估值/动作影响｜{title}",
                 "text": valuation,
             }
         )
         deposit["valuationModel"]["triggers"].append(
             {
-                "title": "后续验证：来自最新事件",
+                "title": f"下一步验证｜{event_type}",
                 "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
             }
         )
@@ -134,7 +144,7 @@ def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) 
         "valuationImpact": compact(valuation, 680),
         "nextCheck": verification_text(event),
         "action": action or None,
-        "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
+        "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
         "updatedSections": item.get("update_targets", []),
         "sectionDeposits": merge_deposits(deposits),
         "depositEvents": [
