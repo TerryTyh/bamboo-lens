@@ -1428,6 +1428,99 @@ a:hover {
   gap: 16px;
 }
 
+.company-decision-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.75fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.company-current-main {
+  display: grid;
+  gap: 18px;
+  background:
+    radial-gradient(circle at 90% 12%, rgba(224, 245, 216, 0.7), transparent 30%),
+    linear-gradient(145deg, #fffaf3 0%, #f5f1e7 100%);
+}
+
+.decision-label {
+  margin: 0;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.decision-thesis {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(22px, 2vw, 34px);
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.decision-split {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.decision-split > div {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  min-height: 160px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: rgba(255, 250, 243, 0.82);
+}
+
+.decision-split h3,
+.company-action-stack h3 {
+  margin: 0;
+  color: var(--accent);
+  font-size: 17px;
+}
+
+.decision-split p,
+.company-action-stack p {
+  margin: 0;
+}
+
+.company-action-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.action-card {
+  min-height: auto;
+  padding: 20px;
+}
+
+.company-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.company-page-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(21, 83, 61, 0.16);
+  border-radius: 999px;
+  color: var(--accent);
+  background: rgba(255, 250, 243, 0.72);
+  font-weight: 900;
+}
+
+.company-page-nav a:hover {
+  background: var(--accent-soft);
+}
+
 .impact-stack {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1976,6 +2069,7 @@ a:hover {
 
   .status-strip,
   .company-kpi-grid,
+  .company-decision-board,
   .cloud-sync-grid,
   .decision-queue-grid,
   .decision-impact-grid,
@@ -2003,6 +2097,10 @@ a:hover {
 
   .valuation-wide-card {
     grid-column: span 2;
+  }
+
+  .decision-split {
+    grid-template-columns: 1fr;
   }
 
   .timeline-head {
@@ -2058,6 +2156,7 @@ a:hover {
   .company-grid,
   .status-strip,
   .company-kpi-grid,
+  .company-decision-board,
   .cloud-sync-grid,
   .decision-queue-grid,
   .decision-impact-grid,
@@ -2085,6 +2184,14 @@ a:hover {
 
   .valuation-wide-card {
     grid-column: span 1;
+  }
+
+  .company-decision-board {
+    grid-template-columns: 1fr;
+  }
+
+  .decision-thesis {
+    font-size: 22px;
   }
 
   .masonry-grid {

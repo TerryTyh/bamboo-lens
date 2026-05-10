@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>公司主页</title>
-    <link rel="stylesheet" href="./styles.css?v=20260501-14" />
+    <link rel="stylesheet" href="./styles.css?v=20260510-1" />
   </head>
   <body class="reader-body">
     <div class="reader-shell">
@@ -26,36 +26,47 @@
             <p class="section-kicker">Investment View</p>
             <h2>当前结论</h2>
           </div>
-          <div class="company-kpi-grid">
-            <article class="card">
-              <h3>一句话逻辑</h3>
-              <p id="companyThesis"></p>
+          <div class="company-decision-board">
+            <article class="card company-current-main">
+              <p class="decision-label">核心逻辑</p>
+              <p id="companyThesis" class="decision-thesis"></p>
+              <div class="decision-split">
+                <div>
+                  <h3>最新判断变化</h3>
+                  <p id="latestEvent"></p>
+                </div>
+                <div>
+                  <h3>业务影响</h3>
+                  <p id="businessImpact"></p>
+                </div>
+                <div>
+                  <h3>估值 / 动作影响</h3>
+                  <p id="valuationImpact"></p>
+                </div>
+              </div>
             </article>
-            <article class="card">
-              <h3>研究动作</h3>
-              <p id="companyAction"></p>
-            </article>
-            <article class="card">
-              <h3>资金动作建议</h3>
-              <p id="companyPortfolioAction"></p>
-            </article>
-            <article class="card">
-              <h3>下一次验证点</h3>
-              <p id="companyNextCheck"></p>
-            </article>
-            <article class="card">
-              <h3>最新判断变化</h3>
-              <p id="latestEvent"></p>
-            </article>
-            <article class="card">
-              <h3>对业务的整体影响</h3>
-              <p id="businessImpact"></p>
-            </article>
-            <article class="card">
-              <h3>对估值 / 动作的整体影响</h3>
-              <p id="valuationImpact"></p>
-            </article>
+            <aside class="company-action-stack">
+              <article class="card action-card">
+                <h3>研究动作</h3>
+                <p id="companyAction"></p>
+              </article>
+              <article class="card action-card">
+                <h3>资金动作建议</h3>
+                <p id="companyPortfolioAction"></p>
+              </article>
+              <article class="card action-card">
+                <h3>下一次验证点</h3>
+                <p id="companyNextCheck"></p>
+              </article>
+            </aside>
           </div>
+          <nav class="company-page-nav" aria-label="公司主页导航">
+            <a href="#companyUpdates">最新动态</a>
+            <a href="#companyFinanceSection">财务地图</a>
+            <a href="#companyUnderstandingSection">公司理解</a>
+            <a href="#companyValuationModelSection">估值模型</a>
+            <a href="#companyTrackingSection">跟踪重点</a>
+          </nav>
         </section>
 
         <section id="companyUpdates" class="section">
@@ -74,15 +85,6 @@
             <div id="companyEventFeed" class="event-feed-stack"></div>
             <div id="companyEventPager" class="event-pager"></div>
           </article>
-        </section>
-
-        <section id="companyDecisionImpactSection" class="section decision-impact-section">
-          <div class="section-heading">
-            <p class="section-kicker">Decision Impact</p>
-            <h2>决策影响与动作触发</h2>
-            <p class="muted">这里把已研判事件转成“改变了什么、影响哪里、下一步看什么”。</p>
-          </div>
-          <div id="companyDecisionImpactFeed" class="company-impact-feed"></div>
         </section>
 
         <section id="companyFinanceSection" class="section company-finance-section">
@@ -116,7 +118,7 @@
           <div id="companyFinanceNotes" class="finance-note-grid"></div>
         </section>
 
-        <section class="section">
+        <section id="companyUnderstandingSection" class="section">
           <div class="section-heading">
             <p class="section-kicker">Company Understanding</p>
             <h2>公司理解</h2>
@@ -180,7 +182,16 @@
           </div>
         </section>
 
-        <section class="section">
+        <section id="companyDecisionImpactSection" class="section decision-impact-section">
+          <div class="section-heading">
+            <p class="section-kicker">Decision Impact</p>
+            <h2>动作触发</h2>
+            <p class="muted">当正式事件改变研究动作、资金动作或验证点时，会沉淀在这里。</p>
+          </div>
+          <div id="companyDecisionImpactFeed" class="company-impact-feed"></div>
+        </section>
+
+        <section id="companyTrackingSection" class="section">
           <div class="section-heading">
             <p class="section-kicker">How To Track</p>
             <h2>怎么继续跟踪</h2>
@@ -200,11 +211,11 @@
       </main>
     </div>
 
-    <script src="./company-event-data.js?v=20260501-11"></script>
-    <script src="./event-store-data.js?v=20260504-1"></script>
-    <script src="./company-state-data.js?v=20260504-1"></script>
-    <script src="./decision-impact-data.js?v=20260505-1"></script>
-    <script src="./company-page-overrides-data.js?v=20260509-1"></script>
-    <script src="./company.js?v=20260504-1"></script>
+    <script src="./company-event-data.js?v=20260510-1"></script>
+    <script src="./event-store-data.js?v=20260510-1"></script>
+    <script src="./company-state-data.js?v=20260510-1"></script>
+    <script src="./decision-impact-data.js?v=20260510-1"></script>
+    <script src="./company-page-overrides-data.js?v=20260510-1"></script>
+    <script src="./company.js?v=20260510-1"></script>
   </body>
 </html>
