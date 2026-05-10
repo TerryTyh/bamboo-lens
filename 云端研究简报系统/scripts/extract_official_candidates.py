@@ -96,6 +96,42 @@ def clean_html_text(raw: str) -> str:
     return normalize_text(html_lib.unescape(text))
 
 
+def clean_markdown_text(raw: str) -> str:
+    text = raw or ""
+    if "Markdown Content:" in text:
+        text = text.split("Markdown Content:", 1)[1]
+    text = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"^#+\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*[*-]\s*", "", text, flags=re.MULTILINE)
+    text = re.sub(r"\|", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text)
+    lines = []
+    for line in text.splitlines():
+        value = normalize_text(line)
+        lowered = value.lower()
+        if len(value) < 35:
+            continue
+        if any(
+            noise in lowered
+            for noise in (
+                "skip to main content",
+                "dedicated ic foundry",
+                "contact public relations",
+                "related information",
+                "cookie",
+                "privacy",
+                "document center",
+                "tsmc-online",
+            )
+        ):
+            continue
+        lines.append(value)
+        if len(" ".join(lines)) >= 5000:
+            break
+    return normalize_text(" ".join(lines))
+
+
 def first_match(pattern: str, text: str, flags: int = re.IGNORECASE) -> str:
     match = re.search(pattern, text or "", flags)
     return match.group(1).strip() if match else ""
@@ -125,13 +161,27 @@ def fetch_url_text(url: str) -> str:
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         },
     )
-    try:
-        with urllib.request.urlopen(request, timeout=18) as response:
+    def _read(target_url: str) -> str:
+        req = urllib.request.Request(target_url, headers=dict(request.header_items()))
+        with urllib.request.urlopen(req, timeout=18) as response:
             raw = response.read(1_000_000)
             charset = response.headers.get_content_charset() or "utf-8"
             return raw.decode(charset, errors="ignore")
+
+    def _proxy_url(target_url: str) -> str:
+        return f"https://r.jina.ai/http://{target_url.replace('https://', '').replace('http://', '')}"
+
+    try:
+        direct = _read(url)
+        if direct and len(clean_html_text(direct)) > 120:
+            return direct
     except Exception:
-        return ""
+        direct = ""
+
+    try:
+        return _read(_proxy_url(url))
+    except Exception:
+        return direct or ""
 
 
 def extract_meta_description(html: str) -> str:
@@ -167,6 +217,9 @@ def extract_article_paragraphs(html: str) -> list[str]:
 def extract_article_excerpt(html: str) -> str:
     if not html:
         return ""
+    if "Markdown Content:" in html or not re.search(r"<p[\s>]", html, flags=re.IGNORECASE):
+        excerpt = trim_excerpt(clean_markdown_text(html))
+        return excerpt if is_readable_excerpt(excerpt) else ""
     meta = extract_meta_description(html)
     paragraphs = extract_article_paragraphs(html)
     excerpt = trim_excerpt(" ".join(paragraphs[:3]) or meta)
@@ -174,6 +227,9 @@ def extract_article_excerpt(html: str) -> str:
 
 
 def extract_article_body(html: str) -> str:
+    if "Markdown Content:" in html or not re.search(r"<p[\s>]", html or "", flags=re.IGNORECASE):
+        body = clean_markdown_text(html)
+        return body if is_readable_excerpt(body) else ""
     body = normalize_text(" ".join(extract_article_paragraphs(html)))
     return body if is_readable_excerpt(body) else ""
 
@@ -709,46 +765,48 @@ def extract_inovance_candidates_from_json(payload: dict, url: str) -> list[dict]
 
 def extract_luxshare_candidates_from_html(html: str) -> list[dict]:
     items: list[dict] = []
-    patterns = [
-        re.compile(
-            r"<p>\s*(20\d{2}-\d{2}-\d{2})\s*</p>[\s\S]{0,300}?<p class=\"mod_tit(?:24|36)\">([^<]+)</p>",
-            re.IGNORECASE,
-        ),
-    ]
-    for pattern in patterns:
-        for date_text, title in pattern.findall(html):
-            parsed_date, sort_key = parse_date(date_text)
-            if not sort_key:
-                continue
-            items.append(
-                {
-                    "title": clean_candidate(title),
-                    "date": parsed_date,
-                    "sort_key": sort_key,
-                    "tag": "html",
-                    "score": 8,
-                }
-            )
+    block_pattern = re.compile(r"<li\b[\s\S]*?</li>", re.IGNORECASE)
+    for block in block_pattern.findall(html):
+        href = first_match(r'<a[^>]+href=["\']([^"\']+)["\']', block)
+        date_text = first_match(r"<p>\s*(20\d{2}-\d{2}-\d{2})\s*</p>", block)
+        title = first_match(r'<p class=["\']mod_tit(?:24|36)["\']>([^<]+)</p>', block)
+        parsed_date, sort_key = parse_date(date_text)
+        title = clean_candidate(title)
+        if not title or not sort_key:
+            continue
+        source_url = urllib.parse.urljoin("https://www.luxshare-ict.com/en/news/release.html", html_lib.unescape(href)) if href else ""
+        items.append(
+            {
+                "title": title,
+                "date": parsed_date,
+                "sort_key": sort_key,
+                "tag": "html",
+                "score": 8,
+                "source_url": source_url,
+            }
+        )
     return dedupe_items(items)
 
 
 def extract_constellation_candidates_from_html(html: str) -> list[dict]:
     items: list[dict] = []
-    pattern = re.compile(
-        r"<p class=\"mb-2 ce-label text-disabled\">([^<]+)</p>[\s\S]{0,260}?<p class=\"mb-(?:0|3) [^\"]*?ce-header-1[^\"]*?\">([^<]+)</p>",
-        re.IGNORECASE,
-    )
-    for date_text, title in pattern.findall(html):
+    block_pattern = re.compile(r'<div class=["\']ce-spotlight__card[\s\S]*?</div>\s*</div>', re.IGNORECASE)
+    for block in block_pattern.findall(html):
+        date_text = first_match(r'<p class=["\']mb-2 ce-label text-disabled["\']>([^<]+)</p>', block)
+        title = first_match(r'<p class=["\']mb-(?:0|3) [^"\']*?ce-header-1[^"\']*?["\']>([^<]+)</p>', block)
+        excerpt = first_match(r'<p class=["\']mb-0[^"\']*["\']>([\s\S]*?)</p>', block)
         parsed_date, sort_key = parse_date(date_text)
+        title = clean_candidate(clean_html_text(title))
         if not sort_key:
             continue
         items.append(
             {
-                "title": clean_candidate(title),
+                "title": title,
                 "date": parsed_date,
                 "sort_key": sort_key,
                 "tag": "html",
-                "score": 7,
+                "score": 7 + (2 if excerpt else 0),
+                "source_excerpt": trim_excerpt(clean_html_text(excerpt)),
             }
         )
     return dedupe_items(items)
