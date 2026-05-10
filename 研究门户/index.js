@@ -15,9 +15,30 @@ function getLatestDateValue(dateText) {
 }
 
 function buildTimelineEvents() {
-  return Object.entries(window.COMPANY_EVENT_META || {}).flatMap(([company, latest]) => {
-    if (!latest?.events) return [];
+  const eventStoreCompanies = window.BAMBOO_LENS_EVENT_STORE?.companies || {};
+  const metaCompanies = window.COMPANY_EVENT_META || {};
 
+  if (Object.keys(eventStoreCompanies).length) {
+    return Object.entries(eventStoreCompanies).flatMap(([company, companyData]) => {
+      const meta = metaCompanies[company] || {};
+      const events = companyData?.events || [];
+      return events.map((event, index) => ({
+        company,
+        companyName: meta.displayName || companyData.name || company,
+        tag: meta.tag || companyData.market || "公司",
+        tagClass: meta.tagClass || "",
+        index,
+        date: event.date,
+        type: event.type,
+        title: event.title,
+        note: event.fact || event.judgment || "",
+        sortKey: Number(event.sort_key) || getLatestDateValue(event.date),
+      }));
+    }).sort((a, b) => b.sortKey - a.sortKey);
+  }
+
+  return Object.entries(metaCompanies).flatMap(([company, latest]) => {
+    if (!latest?.events) return [];
     return [...latest.events]
       .sort((a, b) => getLatestDateValue(b.date) - getLatestDateValue(a.date))
       .map((event, index) => ({
@@ -285,7 +306,7 @@ function renderDecisionDeposition() {
 function renderTimelineFeed() {
   const feed = document.getElementById("timelineFeed");
   const count = document.getElementById("timelineCount");
-  if (!feed || !count || !window.COMPANY_EVENT_META) return;
+  if (!feed || !count) return;
 
   const events = buildTimelineEvents();
   const visibleEvents = events.slice(0, 12);
