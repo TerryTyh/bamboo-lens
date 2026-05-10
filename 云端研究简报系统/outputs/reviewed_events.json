@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T18:16:37",
+  "generated_at": "2026-05-10T18:48:55",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -37,6 +37,45 @@
           "如果 Q2 月度营收高位但毛利率明显下滑，需要检查海外扩产、折旧、汇率或客户结构是否开始稀释盈利质量。"
         ],
         "reviewed_at": "2026-05-10T18:16:37"
+      },
+      {
+        "title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+        "source_candidate_title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+        "date": "2026-05-08",
+        "type": "合作 / 图像传感器 / 物理 AI",
+        "priority": "P2",
+        "action": "继续跟踪，并把图像传感器与物理 AI 作为先进制程外溢观察点",
+        "sort_key": 20260508,
+        "source_url": "http://pr.tsmc.com/english/news/3308",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
+        "source_summary": [
+          "TSMC 与 Sony Semiconductor Solutions 于 2026-05-08 联合宣布，双方已签署一份不具约束力的 MOU，计划围绕下一代图像传感器的开发和制造建立战略合作。这不是普通客户采购新闻，而是试图把 Sony 的传感器设计能力与 TSMC 的制程技术、制造能力结合起来。",
+          "拟议合作的核心形式是设立一家 JV。公告明确写到，Sony 将是 majority and controlling shareholder；JV 计划在 Sony 位于日本熊本县合志市新建的晶圆厂中设置开发和生产线。换句话说，这不是 TSMC 独立扩产，而是以 Sony 主导的日本本地制造平台承接下一代图像传感器研发和生产。",
+          "投资安排还没有最终确定。公告称，双方正在讨论 JV 的潜在投资；这些投资以及 Sony 对其长崎现有工厂的新资本投入，将以市场需求为前提分阶段实施，并且以获得日本政府支持为前提之一。因此它目前更像战略合作和产能选项，而不是已经明确金额、产能和收入确认节奏的订单。",
+          "应用方向上，公告特别提到 physical AI 机会，包括 automotive 和 robotics。这一点值得关注：图像传感器是机器理解现实世界的入口之一，如果物理 AI、机器人和汽车智能化发展，先进图像传感器可能从传统手机/相机链条，逐步延伸到更广泛的机器感知基础设施。",
+          "公告同时强调，该 JV 的成立仍取决于最终具有法律约束力的协议签署以及惯常交割条件满足。因此当前结论不能写成确定性扩产或确定性收入，只能作为 TSMC 在特殊制程、图像传感器和物理 AI 感知入口上的合作线索。"
+        ],
+        "fact": "2026-05-08，Sony Semiconductor Solutions 与 TSMC 宣布签署不具约束力的 MOU，拟围绕下一代图像传感器开发和制造建立战略合作。双方计划设立 JV，由 Sony 持有多数并控制，地点位于 Sony 在日本熊本县合志市新建的晶圆厂；投资将根据市场需求分阶段推进，并以日本政府支持为前提之一。公告还提到合作将探索 automotive、robotics 等 physical AI 应用机会。",
+        "evidence": [
+          "合作对象是 Sony Semiconductor Solutions 与 TSMC，合作文件性质是不具约束力的 MOU，尚非最终协议。",
+          "合作目标是下一代图像传感器的 development and manufacturing，而不是普通晶圆代工订单标题。",
+          "拟议 JV 中 Sony 将是 majority and controlling shareholder，说明商业主导权在 Sony，TSMC 更像提供制程与制造能力的战略合作方。",
+          "JV 计划在 Sony 位于日本熊本县合志市新建的 fab 中设置开发和生产线，相关投资还包括 Sony 长崎现有工厂的新资本投入。",
+          "投资安排以市场需求为前提分阶段实施，并以日本政府支持为前提之一，说明当前仍存在落地节奏、规模和补贴条件的不确定性。",
+          "公告点名 physical AI 应用机会，包括 automotive 和 robotics，表明合作不只面向传统消费影像，也试图覆盖机器视觉和智能设备感知入口。",
+          "TSMC 管理层表述 Sony 是 CMOS image sensor 长期合作伙伴，并称这一步是推动 AI 时代 sensing technology 的关键进展。"
+        ],
+        "judgment": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
+        "business_analysis": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。",
+        "valuation_analysis": "估值上，这条事件对 TSMC 是轻度正面，但权重应低于 HPC/AI 和先进制程主线。正面在于：它验证 TSMC 的先进制造能力可从 AI 计算芯片外溢到物理 AI 感知层，并强化与 Sony 这种长期高价值客户的绑定。限制在于：没有金额、产能和盈利指标，且 JV 控制权在 Sony，短期难以转化为明确盈利预测。动作上维持 A 池核心和原有估值中枢，不因该新闻加仓；后续若披露明确投资额、量产节点、产能规模和客户应用，再考虑把它纳入 TSMC 特殊制程/物理 AI 可选项。",
+        "verification": [
+          "确认双方是否签署最终 legally binding agreement，以及 JV 是否正式成立。",
+          "跟踪 JV 和 Sony 长崎工厂的投资金额、产能规划、量产时间和日本政府支持条件。",
+          "观察下一代图像传感器是否明确用于汽车、机器人、机器视觉等 physical AI 场景，而不是只停留在泛化表述。",
+          "关注 TSMC 是否在后续法说会中提到 image sensor、specialty technology、Japan expansion 或 Sony partnership 对收入结构的影响。",
+          "如果未来披露毛利率、订单或长期合作规模，再判断它是否能从“业务边界扩展”升级为“可计入估值的新增增长曲线”。"
+        ],
+        "reviewed_at": "2026-05-10T18:52:00"
       },
       {
         "title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",

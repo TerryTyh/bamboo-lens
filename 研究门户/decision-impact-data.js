@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-10T18:16:37",
-  "source_generated_at": "2026-05-10T18:16:37",
+  "generated_at": "2026-05-10T18:48:56",
+  "source_generated_at": "2026-05-10T18:48:55",
   "items": [
     {
       "company": "tsmc",
@@ -38,6 +38,45 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "sort_key": 20260508,
       "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 1,
+      "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+      "event_date": "2026-05-08",
+      "event_type": "合作 / 图像传感器 / 物理 AI",
+      "priority": "P2",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
+      "business_impact": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。",
+      "valuation_impact": "估值上，这条事件对 TSMC 是轻度正面，但权重应低于 HPC/AI 和先进制程主线。正面在于：它验证 TSMC 的先进制造能力可从 AI 计算芯片外溢到物理 AI 感知层，并强化与 Sony 这种长期高价值客户的绑定。限制在于：没有金额、产能和盈利指标，且 JV 控制权在 Sony，短期难以转化为明确盈利预测。动作上维持 A 池核心和原有估值中枢，不因该新闻加仓；后续若披露明确投资额、量产节点、产能规模和客户应用，再考虑把它纳入 TSMC 特殊制程/物理 AI 可选项。",
+      "next_verification": [
+        "确认双方是否签署最终 legally binding agreement，以及 JV 是否正式成立。",
+        "跟踪 JV 和 Sony 长崎工厂的投资金额、产能规划、量产时间和日本政府支持条件。",
+        "观察下一代图像传感器是否明确用于汽车、机器人、机器视觉等 physical AI 场景，而不是只停留在泛化表述。"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3308",
+      "sort_key": 20260508,
+      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -159,7 +198,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "event_date": "2026-04-23",
       "event_type": "技术路线 / 先进制程",
@@ -193,7 +232,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
       "sort_key": 20260423,
-      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -237,7 +276,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 4,
+      "event_index": 5,
       "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
       "event_date": "2026-04-10",
       "event_type": "月度营收 / 需求验证",
@@ -271,7 +310,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3294",
       "sort_key": 20260410,
-      "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
     },
     {
       "company": "constellation",
@@ -516,6 +555,45 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "tsmc",
         "company_name": "TSMC",
         "event_index": 1,
+        "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+        "event_date": "2026-05-08",
+        "event_type": "合作 / 图像传感器 / 物理 AI",
+        "priority": "P2",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
+        "business_impact": "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 Sony 控制，且产线设在 Sony 新厂，因此它更像“高价值客户绑定 + 制程能力外溢”的信号，而不是 TSMC 自己新增一条可独立估值的大业务线。",
+        "valuation_impact": "估值上，这条事件对 TSMC 是轻度正面，但权重应低于 HPC/AI 和先进制程主线。正面在于：它验证 TSMC 的先进制造能力可从 AI 计算芯片外溢到物理 AI 感知层，并强化与 Sony 这种长期高价值客户的绑定。限制在于：没有金额、产能和盈利指标，且 JV 控制权在 Sony，短期难以转化为明确盈利预测。动作上维持 A 池核心和原有估值中枢，不因该新闻加仓；后续若披露明确投资额、量产节点、产能规模和客户应用，再考虑把它纳入 TSMC 特殊制程/物理 AI 可选项。",
+        "next_verification": [
+          "确认双方是否签署最终 legally binding agreement，以及 JV 是否正式成立。",
+          "跟踪 JV 和 Sony 长崎工厂的投资金额、产能规划、量产时间和日本政府支持条件。",
+          "观察下一代图像传感器是否明确用于汽车、机器人、机器视觉等 physical AI 场景，而不是只停留在泛化表述。"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3308",
+        "sort_key": 20260508,
+        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+      },
+      {
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "event_index": 2,
         "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
         "event_date": "2026-04-23",
         "event_type": "技术路线 / 先进制程",
@@ -549,12 +627,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
         "sort_key": 20260423,
-        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 4,
+        "event_index": 5,
         "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
         "event_date": "2026-04-10",
         "event_type": "月度营收 / 需求验证",
@@ -588,7 +666,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3294",
         "sort_key": 20260410,
-        "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
       }
     ],
     "constellation": [
@@ -636,10 +714,10 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 8,
+    "total": 9,
     "companies": 3,
-    "valuation_update_needed": 8,
-    "positive": 7,
+    "valuation_update_needed": 9,
+    "positive": 8,
     "watch": 0
   }
 };

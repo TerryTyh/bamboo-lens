@@ -1,69 +1,18 @@
 {
-  "generated_at": "2026-05-10T18:38:06",
+  "generated_at": "2026-05-10T18:48:55",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
-    "total": 6,
+    "total": 5,
     "companies": 3,
-    "with_source_body": 2,
+    "with_source_body": 1,
     "suppressed_count": 3,
     "readiness_counts": {
-      "readable_needs_review": 1,
       "needs_source": 5
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
-        "date": "2026-05-08",
-        "score": 6,
-        "readiness_score": 20,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3308",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
-        "has_source_body": true
-      }
-    ]
+    "priority_batch": []
   },
-  "priority_batch": [
-    {
-      "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
-      "date": "2026-05-08",
-      "score": 6,
-      "readiness_score": 20,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3308",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
-      "has_source_body": true
-    }
-  ],
+  "priority_batch": [],
   "items": [
-    {
-      "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
-      "date": "2026-05-08",
-      "score": 6,
-      "readiness_score": 20,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3308",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
-      "has_source_body": true
-    },
     {
       "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
       "company": "constellation",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T18:16:37",
-  "source_generated_at": "2026-05-10T18:16:37",
+  "generated_at": "2026-05-10T18:48:55",
+  "source_generated_at": "2026-05-10T18:48:55",
   "items": [
     {
       "company": "constellation",
@@ -70,7 +70,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 2,
+      "event_index": 3,
       "sort_key": 20260416,
       "score": 23
     },
@@ -268,7 +268,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
       "source_doc": "",
-      "event_index": 1,
+      "event_index": 2,
       "sort_key": 20260423,
       "score": 18
     },
@@ -304,7 +304,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 7,
+      "event_index": 8,
       "sort_key": 20260115,
       "score": 18
     },
@@ -340,7 +340,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 8,
+      "event_index": 9,
       "sort_key": 20260115,
       "score": 17
     },
@@ -377,6 +377,24 @@
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
       "event_index": 0,
+      "sort_key": 20260508,
+      "score": 16
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
+      "date": "2026-05-08",
+      "type": "合作 / 图像传感器 / 物理 AI",
+      "priority": "P2",
+      "decision_action": "继续跟踪，并把图像传感器与物理 AI 作为先进制程外溢观察点",
+      "why": "这是一条 P2 级业务边界扩展事件。它不改变 TSMC 当前最核心的投资主线，核心仍是 HPC/AI、先进制程、先进封装、毛利率和资本回报；但它说明 TSMC 的先进制造能力正在继续渗透到图像传感器和物理 AI 感知入口。由于公告没有披露投资金额、产能、量产时间、收入确认和毛利率，所以不能直接上调估值或仓位动作。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "http://pr.tsmc.com/english/news/3308",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
+      "event_index": 1,
       "sort_key": 20260508,
       "score": 16
     },
@@ -430,7 +448,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "http://pr.tsmc.com/english/news/3294",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
-      "event_index": 4,
+      "event_index": 5,
       "sort_key": 20260410,
       "score": 16
     },
@@ -916,7 +934,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 3,
+      "event_index": 4,
       "sort_key": 20260416,
       "score": 10
     },
@@ -970,7 +988,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 5,
+      "event_index": 6,
       "sort_key": 20260310,
       "score": 9
     },
@@ -988,7 +1006,7 @@
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
-      "event_index": 6,
+      "event_index": 7,
       "sort_key": 20260210,
       "score": 9
     },
@@ -1225,30 +1243,12 @@
       "event_index": null,
       "sort_key": 20260508,
       "score": 6
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
-      "date": "2026-05-08",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
-      "source_url": "http://pr.tsmc.com/english/news/3308",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
-      "event_index": null,
-      "sort_key": 20260508,
-      "score": 6
     }
   ],
   "summary": {
     "total": 69,
-    "formal_events": 53,
-    "official_candidates": 16,
+    "formal_events": 54,
+    "official_candidates": 15,
     "companies": 8
   }
 }
