@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T16:48:16",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
@@ -14,6 +14,15 @@
   "sort_key": 20260508,
   "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
   "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "readiness_lane": "needs_source",
+  "readiness_label": "待补正文",
+  "readiness_score": 6,
+  "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+  "promotion_blockers": [
+    "还没有抓到足够正文",
+    "可读内容偏短",
+    "治理/人事类信息通常不是优先批处理对象"
+  ],
   "source_summary": [
     "日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors"
   ],

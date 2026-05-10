@@ -7,8 +7,19 @@
 - 类型：官方候选
 - 候选分数：6
 - 当前动作：等待补证据
+- 批处理建议：待补正文（readiness 6）
 - 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html
+
+## 批处理建议
+
+当前主要是标题或短事实，不适合直接进入正式事件。
+
+### 当前阻碍
+
+- 还没有抓到足够正文
+- 可读内容偏短
+- 治理/人事类信息通常不是优先批处理对象
 
 ## 原文与事实
 

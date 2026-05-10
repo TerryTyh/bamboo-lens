@@ -10,6 +10,12 @@ const STATUS_LABELS = {
 };
 
 const PROMOTE_WORKFLOW_URL = "https://github.com/TerryTyh/bamboo-lens/actions/workflows/promote-review-draft.yml";
+const READINESS_LABELS = {
+  ready_for_deep_review: "优先深读",
+  readable_needs_review: "可读待研判",
+  waiting_material: "待会议材料",
+  needs_source: "待补正文",
+};
 
 let activeStatus = "all";
 
@@ -91,6 +97,13 @@ function renderStats(candidates) {
   promoted.textContent = String(counts.promoted || 0);
 }
 
+function getDraftReadinessText(draft) {
+  if (!draft) return "";
+  const label = draft.readiness_label || READINESS_LABELS[draft.readiness_lane] || "待研判";
+  const score = Number.isFinite(draft.readiness_score) ? `｜readiness ${draft.readiness_score}` : "";
+  return `${label}${score}`;
+}
+
 function renderFilters(candidates) {
   const node = document.getElementById("candidateFilters");
   if (!node) return;
@@ -167,9 +180,9 @@ function renderCandidateCard(item) {
       </div>
       <div class="candidate-review-block">
         <strong>下一步</strong>
-        <p>${draft ? "已生成正式事件草稿。先读草稿里的原文可读内容和缺口清单，再决定是否升级。" : escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
+        <p>${draft ? escapeHtml(draft.review_batch_reason || "已生成正式事件草稿。先读草稿里的原文可读内容和缺口清单，再决定是否升级。") : escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
       </div>
-      ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${draft.has_source_body ? "已有可读正文，可进入人工研判。" : "当前正文不足，先补来源材料。"}</p><code>${escapeHtml(draft.draft_id)}</code></div>` : ""}
+      ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${escapeHtml(getDraftReadinessText(draft))}</p><p>${escapeHtml((draft.promotion_blockers || []).join("；") || "无系统识别的硬性阻碍，但仍需补齐正式事件字段。")}</p><code>${escapeHtml(draft.draft_id)}</code></div>` : ""}
       ${renderCardActions(item)}
     </article>
   `;

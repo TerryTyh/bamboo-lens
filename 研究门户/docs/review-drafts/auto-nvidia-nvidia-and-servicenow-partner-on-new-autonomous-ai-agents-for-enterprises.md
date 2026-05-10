@@ -7,8 +7,17 @@
 - 类型：官方候选
 - 候选分数：6
 - 当前动作：进入人工研判
+- 批处理建议：可读待研判（readiness 18）
 - 官方来源：[打开官方来源](https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html
+
+## 批处理建议
+
+已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。
+
+### 当前阻碍
+
+- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。
 
 ## 原文与事实
 

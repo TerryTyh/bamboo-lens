@@ -14,6 +14,7 @@ DECISION_QUEUE_FILE = OUTPUT_DIR / "decision_queue.json"
 EVENT_STORE_FILE = OUTPUT_DIR / "event_store.json"
 DRAFT_DIR = OUTPUT_DIR / "review_drafts"
 INDEX_FILE = OUTPUT_DIR / "review_draft_index.json"
+BATCH_PLAN_FILE = OUTPUT_DIR / "review_batch_plan.json"
 PORTAL_DOC_DIR = PROJECT_ROOT / "研究门户" / "docs" / "review-drafts"
 PORTAL_DATA_FILE = PROJECT_ROOT / "研究门户" / "review-draft-data.js"
 
@@ -159,6 +160,58 @@ def evidence_prompts(event_type: str) -> list[str]:
     ]
 
 
+def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, readable_source: str) -> dict:
+    score = int(candidate.get("score") or 0)
+    source_chars = len(readable_source)
+    has_body = bool(clean(event_candidate.get("source_body") or event_candidate.get("source_excerpt")))
+    title = clean(candidate.get("title"))
+    lowered = title.lower()
+    blockers: list[str] = []
+
+    if not has_body:
+        blockers.append("还没有抓到足够正文")
+    if source_chars < 600:
+        blockers.append("可读内容偏短")
+    if "会议" in event_type and not has_body:
+        blockers.append("会议类候选需要等材料或 transcript")
+    if any(keyword in lowered for keyword in ["board of directors", "appoint", "names "]):
+        blockers.append("治理/人事类信息通常不是优先批处理对象")
+
+    readiness_score = score
+    if has_body:
+        readiness_score += 6
+    readiness_score += min(source_chars // 500, 6)
+    if "财报" in event_type or "合作" in event_type or "产品" in event_type:
+        readiness_score += 2
+    if "会议" in event_type and not has_body:
+        readiness_score -= 4
+
+    if has_body and source_chars >= 1200 and score >= 8:
+        lane = "ready_for_deep_review"
+        label = "优先深读"
+        reason = "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。"
+    elif has_body and source_chars >= 600:
+        lane = "readable_needs_review"
+        label = "可读待研判"
+        reason = "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。"
+    elif "会议" in event_type:
+        lane = "waiting_material"
+        label = "待会议材料"
+        reason = "更像会议日程或材料入口，需要等 transcript、presentation 或财报材料出来后再升级。"
+    else:
+        lane = "needs_source"
+        label = "待补正文"
+        reason = "当前主要是标题或短事实，不适合直接进入正式事件。"
+
+    return {
+        "readiness_lane": lane,
+        "readiness_label": label,
+        "readiness_score": readiness_score,
+        "review_batch_reason": reason,
+        "promotion_blockers": blockers,
+    }
+
+
 def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> dict:
     company = candidate.get("company", "")
     title = clean(candidate.get("title"))
@@ -168,6 +221,7 @@ def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> di
     has_body = bool(clean(event_candidate.get("source_body") or event_candidate.get("source_excerpt")))
     source_url = clean(candidate.get("source_url") or event_candidate.get("source_url"))
     source_doc = clean(candidate.get("source_doc") or event_candidate.get("source_file"))
+    readiness = readiness_profile(candidate, event_candidate, event_type, readable_source)
 
     return {
         "draft_id": draft_id,
@@ -185,6 +239,7 @@ def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> di
         "sort_key": int(candidate.get("sort_key") or 0),
         "source_url": source_url,
         "source_doc": source_doc,
+        **readiness,
         "source_summary": [
             clip_source(readable_source) if readable_source else "当前只抓到了标题或日程，还没有足够正文，不能升级为正式事件。",
         ],
@@ -231,6 +286,8 @@ def draft_to_markdown(draft: dict) -> str:
     quality = draft["quality_check"]
     source_url = md_link("打开官方来源", draft.get("source_url", ""))
     source_doc = draft.get("source_doc") or "暂无"
+    blockers = draft.get("promotion_blockers") or []
+    blockers_text = "\n".join(f"- {item}" for item in blockers) if blockers else "- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。"
 
     return f"""# 正式事件草稿｜{draft['company_name']}｜{draft['title']}
 
@@ -241,8 +298,17 @@ def draft_to_markdown(draft: dict) -> str:
 - 类型：{draft['type']}
 - 候选分数：{draft['score']}
 - 当前动作：{draft['action']}
+- 批处理建议：{draft.get('readiness_label', '待研判')}（readiness {draft.get('readiness_score', draft['score'])}）
 - 官方来源：{source_url}
 - 来源快照：{source_doc}
+
+## 批处理建议
+
+{draft.get('review_batch_reason', '先确认原文质量，再决定是否进入正式事件。')}
+
+### 当前阻碍
+
+{blockers_text}
 
 ## 原文与事实
 
@@ -317,6 +383,11 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
             "title": draft["title"],
             "date": draft.get("date", ""),
             "score": draft["score"],
+            "readiness_score": draft.get("readiness_score", draft["score"]),
+            "readiness_lane": draft.get("readiness_lane", ""),
+            "readiness_label": draft.get("readiness_label", ""),
+            "review_batch_reason": draft.get("review_batch_reason", ""),
+            "promotion_blockers": draft.get("promotion_blockers", []),
             "source_url": draft.get("source_url", ""),
             "portal_doc": draft["portal_doc"],
             "has_source_body": draft["quality_check"]["has_source_body"],
@@ -326,18 +397,47 @@ def write_outputs(drafts: list[dict], generated_at: str) -> None:
         by_company.setdefault(draft["company"], []).append(item)
         portal_items.append(item)
 
+    portal_items.sort(key=lambda item: (item.get("readiness_score") or 0, item.get("score") or 0), reverse=True)
+    for items in by_company.values():
+        items.sort(key=lambda item: (item.get("readiness_score") or 0, item.get("score") or 0), reverse=True)
+
+    readiness_counts: dict[str, int] = {}
+    for item in portal_items:
+        lane = item.get("readiness_lane") or "unknown"
+        readiness_counts[lane] = readiness_counts.get(lane, 0) + 1
+
     index_payload = {
         "generated_at": generated_at,
         "summary": {
             "total": len(drafts),
             "companies": len(by_company),
             "with_source_body": sum(1 for item in portal_items if item["has_source_body"]),
+            "readiness_counts": readiness_counts,
+            "priority_batch": [
+                item
+                for item in portal_items
+                if item.get("readiness_lane") in {"ready_for_deep_review", "readable_needs_review"}
+            ][:5],
         },
         "by_key": by_key,
         "companies": by_company,
         "items": portal_items,
     }
     INDEX_FILE.write_text(json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    BATCH_PLAN_FILE.write_text(
+        json.dumps(
+            {
+                "generated_at": generated_at,
+                "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
+                "summary": index_payload["summary"],
+                "priority_batch": index_payload["summary"]["priority_batch"],
+                "items": portal_items,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
     PORTAL_DATA_FILE.write_text(
         "window.BAMBOO_LENS_REVIEW_DRAFTS = "
         + json.dumps(index_payload, ensure_ascii=False, indent=2)

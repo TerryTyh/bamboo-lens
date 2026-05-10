@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T16:48:16",
   "company": "tsmc",
   "company_name": "TSMC",
   "source_candidate_title": "TSMC Files Annual Report on Form 20-F for 2025",
@@ -14,6 +14,14 @@
   "sort_key": 20260416,
   "source_url": "http://pr.tsmc.com/english/news/3300",
   "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html",
+  "readiness_lane": "needs_source",
+  "readiness_label": "待补正文",
+  "readiness_score": 8,
+  "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+  "promotion_blockers": [
+    "还没有抓到足够正文",
+    "可读内容偏短"
+  ],
   "source_summary": [
     "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；来源：http://pr.tsmc.com/english/news/3300"
   ],

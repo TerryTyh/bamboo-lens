@@ -7,8 +7,18 @@
 - 类型：财报 / 指引
 - 候选分数：14
 - 当前动作：等待补证据
+- 批处理建议：待补正文（readiness 16）
 - 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260510-032716__investors.constellationenergy.com_events-and-presentations.html
+
+## 批处理建议
+
+当前主要是标题或短事实，不适合直接进入正式事件。
+
+### 当前阻碍
+
+- 还没有抓到足够正文
+- 可读内容偏短
 
 ## 原文与事实
 

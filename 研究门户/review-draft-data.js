@@ -1,9 +1,48 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-10T12:30:08",
+  "generated_at": "2026-05-10T16:48:16",
   "summary": {
     "total": 8,
     "companies": 3,
-    "with_source_body": 2
+    "with_source_body": 2,
+    "readiness_counts": {
+      "ready_for_deep_review": 1,
+      "readable_needs_review": 1,
+      "needs_source": 6
+    },
+    "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
+        "date": "2026-05-07",
+        "score": 8,
+        "readiness_score": 20,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+        "date": "2026-05-05",
+        "score": 6,
+        "readiness_score": 18,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+        "has_source_body": true
+      }
+    ]
   },
   "by_key": {
     "constellation::q1 2026 constellation energy corporation earnings conference call": {
@@ -13,6 +52,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
       "date": "2026-05-11",
       "score": 14,
+      "readiness_score": 16,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
@@ -24,6 +71,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "TSMC April 2026 Revenue Report",
       "date": "2026-05-08",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
       "has_source_body": false
@@ -35,6 +90,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
       "date": "2026-05-07",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
       "has_source_body": false
@@ -46,6 +109,11 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
       "date": "2026-05-07",
       "score": 8,
+      "readiness_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the.md",
       "has_source_body": true
@@ -57,6 +125,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
       "date": "2026-05-06",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
       "has_source_body": false
@@ -68,6 +144,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "TSMC Files Annual Report on Form 20-F for 2025",
       "date": "2026-04-16",
       "score": 8,
+      "readiness_score": 8,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
       "has_source_body": false
@@ -79,6 +163,15 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
       "date": "2026-05-08",
       "score": 6,
+      "readiness_score": 6,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短",
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
@@ -90,6 +183,11 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
       "date": "2026-05-05",
       "score": 6,
+      "readiness_score": 18,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
       "has_source_body": true
@@ -104,6 +202,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
         "date": "2026-05-11",
         "score": 14,
+        "readiness_score": 16,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
         "source_url": "https://investors.constellationenergy.com/events-and-presentations",
         "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
         "has_source_body": false
@@ -117,6 +223,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "title": "TSMC April 2026 Revenue Report",
         "date": "2026-05-08",
         "score": 8,
+        "readiness_score": 10,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
         "source_url": "http://pr.tsmc.com/english/news/3305",
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
         "has_source_body": false
@@ -128,6 +242,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "title": "TSMC Files Annual Report on Form 20-F for 2025",
         "date": "2026-04-16",
         "score": 8,
+        "readiness_score": 8,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
         "source_url": "http://pr.tsmc.com/english/news/3300",
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
         "has_source_body": false
@@ -135,26 +257,55 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ],
     "nvidia": [
       {
-        "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-        "date": "2026-05-07",
-        "score": 8,
-        "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
-        "has_source_body": false
-      },
-      {
         "draft_id": "auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the",
         "company": "nvidia",
         "company_name": "NVIDIA",
         "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
         "date": "2026-05-07",
         "score": 8,
+        "readiness_score": 20,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the.md",
         "has_source_body": true
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+        "date": "2026-05-05",
+        "score": 6,
+        "readiness_score": 18,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+        "date": "2026-05-07",
+        "score": 8,
+        "readiness_score": 10,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
+        "has_source_body": false
       },
       {
         "draft_id": "auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr",
@@ -163,6 +314,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
         "date": "2026-05-06",
         "score": 8,
+        "readiness_score": 10,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
         "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
         "has_source_body": false
@@ -174,24 +333,54 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
         "date": "2026-05-08",
         "score": 6,
+        "readiness_score": 6,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短",
+          "治理/人事类信息通常不是优先批处理对象"
+        ],
         "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
         "has_source_body": false
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-        "date": "2026-05-05",
-        "score": 6,
-        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
-        "has_source_body": true
       }
     ]
   },
   "items": [
+    {
+      "draft_id": "auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
+      "date": "2026-05-07",
+      "score": 8,
+      "readiness_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the.md",
+      "has_source_body": true
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "date": "2026-05-05",
+      "score": 6,
+      "readiness_score": 18,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+      "has_source_body": true
+    },
     {
       "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
       "company": "constellation",
@@ -199,6 +388,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
       "date": "2026-05-11",
       "score": 14,
+      "readiness_score": 16,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
@@ -210,6 +407,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "TSMC April 2026 Revenue Report",
       "date": "2026-05-08",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
       "has_source_body": false
@@ -221,20 +426,17 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
       "date": "2026-05-07",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
       "has_source_body": false
-    },
-    {
-      "draft_id": "auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
-      "date": "2026-05-07",
-      "score": 8,
-      "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-powering-the-next-american-century-us-energy-secretary-chris-wright-and-nvidia-s-ian-buck-on-the.md",
-      "has_source_body": true
     },
     {
       "draft_id": "auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr",
@@ -243,6 +445,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
       "date": "2026-05-06",
       "score": 8,
+      "readiness_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
       "has_source_body": false
@@ -254,6 +464,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "TSMC Files Annual Report on Form 20-F for 2025",
       "date": "2026-04-16",
       "score": 8,
+      "readiness_score": 8,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
       "has_source_body": false
@@ -265,20 +483,18 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
       "date": "2026-05-08",
       "score": 6,
+      "readiness_score": 6,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短",
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
       "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-      "date": "2026-05-05",
-      "score": 6,
-      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
-      "has_source_body": true
     }
   ]
 };

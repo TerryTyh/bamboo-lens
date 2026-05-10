@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       draft_id:
-        description: "outputs/review_drafts 下的草稿 ID，不含 .json"
+        description: "outputs/review_drafts 下的草稿 ID；支持用逗号、空格或换行提交多个 ID"
         required: true
         type: string
       allow_todo:
@@ -39,9 +39,9 @@ jobs:
           ALLOW_TODO: ${{ inputs.allow_todo }}
         run: |
           if [ "$ALLOW_TODO" = "true" ]; then
-            python3 scripts/promote_reviewed_event.py --draft-id "$DRAFT_ID" --allow-todo
+            python3 scripts/promote_review_batch.py --draft-ids "$DRAFT_ID" --allow-todo
           else
-            python3 scripts/promote_reviewed_event.py --draft-id "$DRAFT_ID"
+            python3 scripts/promote_review_batch.py --draft-ids "$DRAFT_ID"
           fi
 
       - name: Persist promoted event
@@ -58,6 +58,7 @@ jobs:
           git add -f 云端研究简报系统/outputs/event_store.json
           git add -f 云端研究简报系统/outputs/decision_queue.json
           git add -f 云端研究简报系统/outputs/review_draft_index.json
+          git add -f 云端研究简报系统/outputs/review_batch_plan.json
           git add -f 云端研究简报系统/outputs/review_drafts
           git add -f 云端研究简报系统/outputs/decision_impact.json
           git add -f 云端研究简报系统/outputs/decision_deposition.json
@@ -84,6 +85,7 @@ jobs:
             云端研究简报系统/outputs/reviewed_events.json
             云端研究简报系统/outputs/event_store.json
             云端研究简报系统/outputs/review_draft_index.json
+            云端研究简报系统/outputs/review_batch_plan.json
             云端研究简报系统/outputs/review_drafts
             研究门户/candidate-data.js
             研究门户/event-store-data.js

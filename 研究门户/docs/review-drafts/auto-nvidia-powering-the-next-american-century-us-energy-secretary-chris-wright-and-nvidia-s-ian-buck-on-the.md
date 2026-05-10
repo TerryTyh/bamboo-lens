@@ -7,8 +7,17 @@
 - 类型：官方候选
 - 候选分数：8
 - 当前动作：进入人工研判
+- 批处理建议：优先深读（readiness 20）
 - 官方来源：[打开官方来源](https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html
+
+## 批处理建议
+
+已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。
+
+### 当前阻碍
+
+- 暂无系统识别的硬性阻碍，但仍必须补齐正式事件字段。
 
 ## 原文与事实
 

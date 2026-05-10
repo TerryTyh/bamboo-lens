@@ -7,8 +7,18 @@
 - 类型：年报 / 深度材料
 - 候选分数：8
 - 当前动作：等待补证据
+- 批处理建议：待补正文（readiness 8）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3300)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-032716__pr.tsmc.com_english_latest-news.html
+
+## 批处理建议
+
+当前主要是标题或短事实，不适合直接进入正式事件。
+
+### 当前阻碍
+
+- 还没有抓到足够正文
+- 可读内容偏短
 
 ## 原文与事实
 
