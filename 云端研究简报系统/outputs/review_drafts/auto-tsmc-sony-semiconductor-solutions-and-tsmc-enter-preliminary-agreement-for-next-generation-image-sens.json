@@ -1,0 +1,60 @@
+{
+  "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-05-10T18:16:37",
+  "company": "tsmc",
+  "company_name": "TSMC",
+  "source_candidate_title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+  "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+  "date": "2026-05-08",
+  "type": "合作 / 客户 / 供应链",
+  "priority": "草稿",
+  "action": "进入人工研判",
+  "score": 6,
+  "sort_key": 20260508,
+  "source_url": "http://pr.tsmc.com/english/news/3308",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260510-100253__pr.tsmc.com_english_latest-news.html",
+  "readiness_lane": "readable_needs_review",
+  "readiness_label": "可读待研判",
+  "readiness_score": 20,
+  "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+  "promotion_blockers": [],
+  "source_summary": [
+    "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3308#)Search 5. Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308) Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership Issued by: Sony Semiconductor Solutions Corporation and TSMC Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership *Hsinchu, Taiwan, R.O.C., May 8, 2026 -**Sony Semiconductor Solutions Corporation (“Sony”)and TSMC (TWSE: 2330, NYSE: TSM) today announced the signing of a non-binding memorandum of understanding (“MOU”) to form a strategic partnership for the development and manufacturing of next-generation image sensors. Under the proposed partnership, Sony and TSMC intend to establish a joint venture (“JV”), with Sony being the majority and controlling shareholder,to set up development and production lines in Sony’s newly constructed fab in Koshi City, Kumamoto Prefecture. Through the JV, both companies expect to leverage Sony's expertise in sensor design alongside TSMC’s strengths in process technology and manufacturing excellence as part of a broader collaboration aimed at enhancing image sensor performance. With the MOU signed, Sony and TSMC are discussing potential investments by the JV. These investments, along with new capital investment by Sony in its existing plant in Nagasaki, are being considered on the premise that they would be implemented in phases based on market demand, and that they would receive support from the Japanese government. This partnership also seeks to explore and address emerging opportunities in physical AI applications, such as automotive and robotics, paving the way for future innovations and expanded technological advancements. The establishment of the JV remains subject to the execution of a definitive legally binding agreement regarding the partnership and the satisfaction of customary closing conditions. “Building on the trust cultivated through\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
+  ],
+  "fact": "日期：2026-05-08；标题：Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership；原文内容：Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education an…；来源：http://pr.tsmc.com/english/news/3308",
+  "evidence": [
+    "证据缺口：合作对象、期限、投入规模、产能或金额",
+    "证据缺口：收入路径：一次性收入、长期供应、平台绑定还是生态合作",
+    "证据缺口：对客户粘性、供应链地位、成本或毛利率的影响"
+  ],
+  "evidence_needed": [
+    "合作对象、期限、投入规模、产能或金额",
+    "收入路径：一次性收入、长期供应、平台绑定还是生态合作",
+    "对客户粘性、供应链地位、成本或毛利率的影响"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": true,
+    "source_chars": 5256,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
+  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.json"
+}

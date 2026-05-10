@@ -1,7 +1,44 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-10T10:05:17",
-  "source_generated_at": "2026-05-10T10:05:17",
+  "generated_at": "2026-05-10T18:16:37",
+  "source_generated_at": "2026-05-10T18:16:37",
   "items": [
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 0,
+      "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+      "event_date": "2026-05-08",
+      "event_type": "月度营收 / Q2 需求验证",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P1 级延续验证事件。4 月同比增速低于 3 月，但绝对收入维持高位，1-4 月累计同比仍达 29.9%。对 TSMC 来说，现在最重要的问题从“需求是否强”转向“强需求能否在 Q2 继续兑现，并维持高毛利率”。",
+      "business_impact": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。",
+      "valuation_impact": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。",
+      "next_verification": [
+        "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。",
+        "Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。",
+        "继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3305",
+      "sort_key": 20260508,
+      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -122,7 +159,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "event_date": "2026-04-23",
       "event_type": "技术路线 / 先进制程",
@@ -156,7 +193,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
       "sort_key": 20260423,
-      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -196,6 +233,45 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "sort_key": 20260422,
       "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 4,
+      "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
+      "event_date": "2026-04-10",
+      "event_type": "月度营收 / 需求验证",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P1 级强化事件。3 月数据说明 TSMC 的高增长不是只靠某个单月，2 月季节性回落后 3 月迅速修复，Q1 累计同比达到 35.1%。对长期跟踪而言，月度营收继续支持 AI/HPC 和先进制程需求处于高景气。",
+      "business_impact": "业务影响主要落在先进制程、高性能计算和 AI 相关晶圆需求。月度营收无法拆分 3nm/5nm/HPC，但 Q1 财报已显示先进制程占晶圆收入 74%、HPC 占净收入 61%。因此 3 月营收的强劲反弹更像是对领先制程需求强度的高频验证，而不是独立的新业务线变化。",
+      "valuation_impact": "估值上，这条事件支持维持 TSMC 的高质量制造平台溢价：收入增长仍强，且与 Q1 高毛利率、高先进制程占比相互验证。但它不是单独加仓触发器，因为月度营收只验证收入端，不验证毛利率、capex 回报和海外扩产成本。动作上维持 A 池核心，继续等待 Q2 指引和后续月度营收确认高增长能否延续。",
+      "next_verification": [
+        "继续跟踪 4 月、5 月、6 月营收，判断 Q2 是否能沿着管理层 US$39.0-40.2 billion 指引运行。",
+        "结合 Q2 财报验证高营收是否转化为 65.5%-67.5% 毛利率区间，而不是被海外扩产或折旧稀释。",
+        "观察 HPC/AI 需求是否继续支撑先进制程占比，尤其是 3nm、5nm 和 CoWoS 供需。"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3294",
+      "sort_key": 20260410,
+      "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
     },
     {
       "company": "constellation",
@@ -403,6 +479,43 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "tsmc",
         "company_name": "TSMC",
         "event_index": 0,
+        "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+        "event_date": "2026-05-08",
+        "event_type": "月度营收 / Q2 需求验证",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P1 级延续验证事件。4 月同比增速低于 3 月，但绝对收入维持高位，1-4 月累计同比仍达 29.9%。对 TSMC 来说，现在最重要的问题从“需求是否强”转向“强需求能否在 Q2 继续兑现，并维持高毛利率”。",
+        "business_impact": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。",
+        "valuation_impact": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。",
+        "next_verification": [
+          "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。",
+          "Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。",
+          "继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3305",
+        "sort_key": 20260508,
+        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "event_index": 1,
         "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
         "event_date": "2026-04-23",
         "event_type": "技术路线 / 先进制程",
@@ -436,7 +549,46 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
         "sort_key": 20260423,
-        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+      },
+      {
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "event_index": 4,
+        "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
+        "event_date": "2026-04-10",
+        "event_type": "月度营收 / 需求验证",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P1 级强化事件。3 月数据说明 TSMC 的高增长不是只靠某个单月，2 月季节性回落后 3 月迅速修复，Q1 累计同比达到 35.1%。对长期跟踪而言，月度营收继续支持 AI/HPC 和先进制程需求处于高景气。",
+        "business_impact": "业务影响主要落在先进制程、高性能计算和 AI 相关晶圆需求。月度营收无法拆分 3nm/5nm/HPC，但 Q1 财报已显示先进制程占晶圆收入 74%、HPC 占净收入 61%。因此 3 月营收的强劲反弹更像是对领先制程需求强度的高频验证，而不是独立的新业务线变化。",
+        "valuation_impact": "估值上，这条事件支持维持 TSMC 的高质量制造平台溢价：收入增长仍强，且与 Q1 高毛利率、高先进制程占比相互验证。但它不是单独加仓触发器，因为月度营收只验证收入端，不验证毛利率、capex 回报和海外扩产成本。动作上维持 A 池核心，继续等待 Q2 指引和后续月度营收确认高增长能否延续。",
+        "next_verification": [
+          "继续跟踪 4 月、5 月、6 月营收，判断 Q2 是否能沿着管理层 US$39.0-40.2 billion 指引运行。",
+          "结合 Q2 财报验证高营收是否转化为 65.5%-67.5% 毛利率区间，而不是被海外扩产或折旧稀释。",
+          "观察 HPC/AI 需求是否继续支撑先进制程占比，尤其是 3nm、5nm 和 CoWoS 供需。"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3294",
+        "sort_key": 20260410,
+        "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
       }
     ],
     "constellation": [
@@ -484,10 +636,10 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 6,
+    "total": 8,
     "companies": 3,
-    "valuation_update_needed": 6,
-    "positive": 5,
+    "valuation_update_needed": 8,
+    "positive": 7,
     "watch": 0
   }
 };

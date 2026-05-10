@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-10T10:05:17",
-  "source_generated_at": "2026-05-10T10:05:17",
+  "generated_at": "2026-05-10T18:16:37",
+  "source_generated_at": "2026-05-10T18:16:37",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "source_event_date": "2026-05-07",
@@ -18,21 +18,21 @@
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
-      "source_event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
-      "source_event_date": "2026-04-23",
-      "latestEvent": "2026-04-23｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
-      "businessImpact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。",
-      "valuationImpact": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
-      "nextCheck": "下一次财报继续看 HPC 占比、先进制程需求、毛利率和资本开支指引，判断技术路线是否正在转化为当期订单和盈利质量。；跟踪 CoWoS 产能扩张、HBM 集成需求和大客户 AI 芯片路线，验证 14 倍光罩尺寸 CoWoS、SoIC 与 CPO 是否成为 AI 芯片平台的关键瓶颈资源。；跟踪 2028-2029 年 A14/A13/A12 量产节奏、良率和主要客户采用情况，避免把路线图发布直接等同于商业成功。",
-      "action": "维持 A 池核心，并把 2028-2029 年先进制程与封装兑现列为长期验证主线",
+      "source_event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+      "source_event_date": "2026-05-08",
+      "latestEvent": "2026-05-08｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
+      "businessImpact": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。",
+      "valuationImpact": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。",
+      "nextCheck": "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。；Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。；继续关注 3nm、5nm、CoWoS 和 2nm 需求口径，判断先进制程供需是否仍偏紧。",
+      "action": "维持 A 池核心，但从“强劲确认”转入“Q2 连续性验证”",
       "priority": "P1",
       "sourceLink": "./event.html?company=tsmc&event=0&return=company&v=20260412-24"
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-05-10T10:05:17",
+      "updated_at": "2026-05-10T18:16:37",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",

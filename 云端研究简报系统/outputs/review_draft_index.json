@@ -1,30 +1,15 @@
 {
-  "generated_at": "2026-05-10T10:05:17",
+  "generated_at": "2026-05-10T18:16:37",
   "summary": {
     "total": 8,
     "companies": 3,
-    "with_source_body": 5,
+    "with_source_body": 4,
     "readiness_counts": {
-      "ready_for_deep_review": 5,
-      "needs_source": 3
+      "ready_for_deep_review": 3,
+      "readable_needs_review": 1,
+      "needs_source": 4
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC April 2026 Revenue Report",
-        "date": "2026-05-08",
-        "score": 10,
-        "readiness_score": 22,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3305",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-        "has_source_body": true
-      },
       {
         "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
         "company": "tsmc",
@@ -58,22 +43,6 @@
         "has_source_body": true
       },
       {
-        "draft_id": "auto-tsmc-tsmc-march-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC March 2026 Revenue Report",
-        "date": "2026-04-10",
-        "score": 8,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3294",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-march-2026-revenue-report.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
         "company": "tsmc",
         "company_name": "TSMC",
@@ -87,6 +56,22 @@
         "promotion_blockers": [],
         "source_url": "http://pr.tsmc.com/english/news/3290",
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+        "date": "2026-05-08",
+        "score": 6,
+        "readiness_score": 20,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "http://pr.tsmc.com/english/news/3308",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
         "has_source_body": true
       }
     ]
@@ -110,22 +95,6 @@
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
-    },
-    "tsmc::tsmc april 2026 revenue report": {
-      "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC April 2026 Revenue Report",
-      "date": "2026-05-08",
-      "score": 10,
-      "readiness_score": 22,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3305",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-      "has_source_body": true
     },
     "tsmc::tsmc files annual report on form 20-f for 2025": {
       "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
@@ -197,22 +166,6 @@
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08.md",
       "has_source_body": true
     },
-    "tsmc::tsmc march 2026 revenue report": {
-      "draft_id": "auto-tsmc-tsmc-march-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC March 2026 Revenue Report",
-      "date": "2026-04-10",
-      "score": 8,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3294",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-march-2026-revenue-report.md",
-      "has_source_body": true
-    },
     "tsmc::tsmc february 2026 revenue report": {
       "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
       "company": "tsmc",
@@ -227,6 +180,42 @@
       "promotion_blockers": [],
       "source_url": "http://pr.tsmc.com/english/news/3290",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
+      "has_source_body": true
+    },
+    "nvidia::nvidia names suzanne nora johnson to board of directors": {
+      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+      "date": "2026-05-08",
+      "score": 6,
+      "readiness_score": 6,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短",
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
+      "has_source_body": false
+    },
+    "tsmc::sony semiconductor solutions and tsmc enter preliminary agreement for next-generation image sensor strategic partnership": {
+      "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+      "date": "2026-05-08",
+      "score": 6,
+      "readiness_score": 20,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "http://pr.tsmc.com/english/news/3308",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
       "has_source_body": true
     }
   },
@@ -253,22 +242,6 @@
       }
     ],
     "tsmc": [
-      {
-        "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC April 2026 Revenue Report",
-        "date": "2026-05-08",
-        "score": 10,
-        "readiness_score": 22,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3305",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-        "has_source_body": true
-      },
       {
         "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
         "company": "tsmc",
@@ -302,22 +275,6 @@
         "has_source_body": true
       },
       {
-        "draft_id": "auto-tsmc-tsmc-march-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC March 2026 Revenue Report",
-        "date": "2026-04-10",
-        "score": 8,
-        "readiness_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3294",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-march-2026-revenue-report.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
         "company": "tsmc",
         "company_name": "TSMC",
@@ -331,6 +288,22 @@
         "promotion_blockers": [],
         "source_url": "http://pr.tsmc.com/english/news/3290",
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+        "date": "2026-05-08",
+        "score": 6,
+        "readiness_score": 20,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "http://pr.tsmc.com/english/news/3308",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
         "has_source_body": true
       }
     ],
@@ -372,26 +345,30 @@
         "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
         "has_source_body": false
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+        "date": "2026-05-08",
+        "score": 6,
+        "readiness_score": 6,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短",
+          "治理/人事类信息通常不是优先批处理对象"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
+        "has_source_body": false
       }
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC April 2026 Revenue Report",
-      "date": "2026-05-08",
-      "score": 10,
-      "readiness_score": 22,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3305",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-      "has_source_body": true
-    },
     {
       "draft_id": "auto-tsmc-tsmc-reports-first-quarter-eps-of-nt-22-08",
       "company": "tsmc",
@@ -425,22 +402,6 @@
       "has_source_body": true
     },
     {
-      "draft_id": "auto-tsmc-tsmc-march-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC March 2026 Revenue Report",
-      "date": "2026-04-10",
-      "score": 8,
-      "readiness_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3294",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-march-2026-revenue-report.md",
-      "has_source_body": true
-    },
-    {
       "draft_id": "auto-tsmc-tsmc-february-2026-revenue-report",
       "company": "tsmc",
       "company_name": "TSMC",
@@ -454,6 +415,22 @@
       "promotion_blockers": [],
       "source_url": "http://pr.tsmc.com/english/news/3290",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-february-2026-revenue-report.md",
+      "has_source_body": true
+    },
+    {
+      "draft_id": "auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
+      "date": "2026-05-08",
+      "score": 6,
+      "readiness_score": 20,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "http://pr.tsmc.com/english/news/3308",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-sony-semiconductor-solutions-and-tsmc-enter-preliminary-agreement-for-next-generation-image-sens.md",
       "has_source_body": true
     },
     {
@@ -511,6 +488,26 @@
       ],
       "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
+      "has_source_body": false
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+      "date": "2026-05-08",
+      "score": 6,
+      "readiness_score": 6,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短",
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
     }
   ]
