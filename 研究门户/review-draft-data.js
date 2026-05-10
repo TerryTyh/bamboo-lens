@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-10T12:01:09",
+  "generated_at": "2026-05-10T12:30:08",
   "summary": {
     "total": 8,
     "companies": 3,
@@ -16,17 +16,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
-    },
-    "nvidia::nvidia spectrum-x — the open, ai-native ethernet fabric — sets the standard for gigascale ai, now with mrc": {
-      "draft_id": "auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-      "date": "2026-05-06",
-      "score": 12,
-      "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.md",
-      "has_source_body": true
     },
     "tsmc::tsmc april 2026 revenue report": {
       "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
@@ -93,6 +82,17 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
+    },
+    "nvidia::nvidia and servicenow partner on new autonomous ai agents for enterprises": {
+      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "date": "2026-05-05",
+      "score": 6,
+      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+      "has_source_body": true
     }
   },
   "companies": {
@@ -109,18 +109,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "has_source_body": false
       }
     ],
-    "nvidia": [
+    "tsmc": [
       {
-        "draft_id": "auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-        "date": "2026-05-06",
-        "score": 12,
-        "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.md",
-        "has_source_body": true
+        "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC April 2026 Revenue Report",
+        "date": "2026-05-08",
+        "score": 8,
+        "source_url": "http://pr.tsmc.com/english/news/3305",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
+        "has_source_body": false
       },
+      {
+        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Files Annual Report on Form 20-F for 2025",
+        "date": "2026-04-16",
+        "score": 8,
+        "source_url": "http://pr.tsmc.com/english/news/3300",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+        "has_source_body": false
+      }
+    ],
+    "nvidia": [
       {
         "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
         "company": "nvidia",
@@ -164,30 +177,17 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
         "has_source_body": false
-      }
-    ],
-    "tsmc": [
-      {
-        "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC April 2026 Revenue Report",
-        "date": "2026-05-08",
-        "score": 8,
-        "source_url": "http://pr.tsmc.com/english/news/3305",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-april-2026-revenue-report.md",
-        "has_source_body": false
       },
       {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 8,
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": false
+        "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+        "date": "2026-05-05",
+        "score": 6,
+        "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+        "has_source_body": true
       }
     ]
   },
@@ -202,17 +202,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-      "date": "2026-05-06",
-      "score": 12,
-      "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-spectrum-x-the-open-ai-native-ethernet-fabric-sets-the-standard-for-gigascale-ai-now-with.md",
-      "has_source_body": true
     },
     {
       "draft_id": "auto-tsmc-tsmc-april-2026-revenue-report",
@@ -279,6 +268,17 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": false
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "date": "2026-05-05",
+      "score": 6,
+      "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-servicenow-partner-on-new-autonomous-ai-agents-for-enterprises.md",
+      "has_source_body": true
     }
   ]
 };

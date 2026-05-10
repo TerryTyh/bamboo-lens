@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-05-10T03:28:55",
-  "source_generated_at": "2026-05-10T03:28:54",
+  "generated_at": "2026-05-10T12:30:08",
+  "source_generated_at": "2026-05-10T12:30:08",
   "items": [
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 0,
+      "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+      "event_date": "2026-05-06",
+      "event_type": "产品 / 网络平台 / AI 工厂基础设施",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。",
+      "business_impact": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。",
+      "valuation_impact": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。",
+      "next_verification": [
+        "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。",
+        "跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。",
+        "观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
+      ],
+      "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+      "sort_key": 20260506,
+      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "tsmc",
       "company_name": "TSMC",
@@ -44,7 +83,7 @@
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "event_date": "2026-04-22",
       "event_type": "云平台合作 / AI 工厂平台",
@@ -78,7 +117,7 @@
       ],
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "sort_key": 20260422,
-      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
     },
     {
       "company": "constellation",
@@ -128,6 +167,45 @@
         "company": "nvidia",
         "company_name": "NVIDIA",
         "event_index": 0,
+        "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+        "event_date": "2026-05-06",
+        "event_type": "产品 / 网络平台 / AI 工厂基础设施",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。",
+        "business_impact": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。",
+        "valuation_impact": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。",
+        "next_verification": [
+          "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。",
+          "跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。",
+          "观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
+        ],
+        "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+        "sort_key": 20260506,
+        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "event_index": 1,
         "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
         "event_date": "2026-04-22",
         "event_type": "云平台合作 / AI 工厂平台",
@@ -161,7 +239,7 @@
         ],
         "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
         "sort_key": 20260422,
-        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
       }
     ],
     "tsmc": [
@@ -250,10 +328,10 @@
     ]
   },
   "summary": {
-    "total": 3,
+    "total": 4,
     "companies": 3,
-    "valuation_update_needed": 3,
-    "positive": 3,
+    "valuation_update_needed": 4,
+    "positive": 4,
     "watch": 0
   }
 }

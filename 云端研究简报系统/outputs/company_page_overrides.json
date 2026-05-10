@@ -1,15 +1,111 @@
 {
-  "generated_at": "2026-05-10T03:28:55",
-  "source_event_store_at": "2026-05-10T03:28:54",
-  "source_deposition_at": "2026-05-10T03:28:55",
+  "generated_at": "2026-05-10T12:30:08",
+  "source_event_store_at": "2026-05-10T12:30:08",
+  "source_deposition_at": "2026-05-10T12:30:08",
   "companies": {
+    "nvidia": {
+      "source": "decision_deposition",
+      "sourceEventIndex": 0,
+      "sourceEventTitle": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+      "sourceEventDate": "2026-05-06",
+      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "updatedAt": "2026-05-10T12:30:08",
+      "latestEvent": "2026-05-06｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+      "businessImpact": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。",
+      "valuationImpact": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。",
+      "nextCheck": "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。；跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。",
+      "action": "维持 A 池核心，并上调 AI 网络平台化验证优先级",
+      "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型"
+      ],
+      "sectionDeposits": {
+        "financeMap": {
+          "notes": [
+            {
+              "title": "事件沉淀｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+              "text": "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。；跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。；观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
+            },
+            {
+              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+              "text": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。；跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
+            }
+          ]
+        },
+        "businessMap": {
+          "segments": [
+            {
+              "title": "事件沉淀｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+              "scale": "2026-05-06｜产品 / 网络平台 / AI 工厂基础设施",
+              "text": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。"
+            },
+            {
+              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+              "scale": "2026-04-22｜云平台合作 / AI 工厂平台",
+              "text": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客户买到的不只是单颗 GPU，而是一套从训练、推理、机密计算、强化学习、数字孪生到机器人仿真的云端 AI 工厂。这会提高 NVIDIA 在云厂商资本开支、企业 AI 生产部署和 physical AI 生态中的嵌入深度。"
+            }
+          ],
+          "moat": [
+            {
+              "title": "这条事件改变了什么",
+              "text": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。"
+            },
+            {
+              "title": "这条事件改变了什么",
+              "text": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工具和客户生产场景组合成可规模化购买、部署和运维的基础设施。"
+            }
+          ]
+        },
+        "valuationModel": {
+          "currentBreakdown": [
+            {
+              "title": "事件沉淀｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+              "text": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。"
+            },
+            {
+              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+              "text": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、Rubin 量产节奏、Blackwell / GB300 供给、推理需求和毛利率。当前动作是维持 A 池核心并上调研究优先级，而不是因为合作新闻单独加仓。"
+            }
+          ],
+          "triggers": [
+            {
+              "title": "后续验证：来自最新事件",
+              "text": "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。；跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。；观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
+            },
+            {
+              "title": "后续验证：来自最新事件",
+              "text": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。；跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
+            }
+          ]
+        }
+      },
+      "depositEvents": [
+        {
+          "eventIndex": 0,
+          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+          "date": "2026-05-06",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 1,
+          "title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
+          "date": "2026-04-22",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+        }
+      ]
+    },
     "tsmc": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "sourceEventDate": "2026-04-23",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T03:28:55",
+      "updatedAt": "2026-05-10T12:30:08",
       "latestEvent": "2026-04-23｜A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "businessImpact": "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM 集成、封装面积、芯片间互连和机架间传输效率，TSMC 同时覆盖这些环节，有助于提高客户迁移成本和平台黏性。车规 N2A/N3A 说明先进节点也在向 ADAS、自动驾驶和 Physical AI 扩散，但这部分更偏中长期，不能立刻折算成收入。",
       "valuationImpact": "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场景。但由于核心生产时间多在 2028-2029 年，当前动作应是维持核心跟踪，不因技术路线发布直接加仓；后续需要用 capex、客户采用、CoWoS 产能、HPC 收入占比和毛利率来验证这些路线是否兑现为利润。",
@@ -71,81 +167,13 @@
         }
       ]
     },
-    "nvidia": {
-      "source": "decision_deposition",
-      "sourceEventIndex": 0,
-      "sourceEventTitle": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-      "sourceEventDate": "2026-04-22",
-      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T03:28:55",
-      "latestEvent": "2026-04-22｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-      "businessImpact": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客户买到的不只是单颗 GPU，而是一套从训练、推理、机密计算、强化学习、数字孪生到机器人仿真的云端 AI 工厂。这会提高 NVIDIA 在云厂商资本开支、企业 AI 生产部署和 physical AI 生态中的嵌入深度。",
-      "valuationImpact": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、Rubin 量产节奏、Blackwell / GB300 供给、推理需求和毛利率。当前动作是维持 A 池核心并上调研究优先级，而不是因为合作新闻单独加仓。",
-      "nextCheck": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。",
-      "action": "维持 A 池核心，并把云端 AI 工厂平台化验证优先级上调",
-      "depositionNotice": "已根据最新正式事件自动更新当前结论，并把近期高质量事件追加沉淀到业务、财务和估值板块。",
-      "updatedSections": [
-        "当前结论",
-        "公司理解",
-        "财务数据地图",
-        "估值模型"
-      ],
-      "sectionDeposits": {
-        "financeMap": {
-          "notes": [
-            {
-              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-              "text": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。；跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
-            }
-          ]
-        },
-        "businessMap": {
-          "segments": [
-            {
-              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-              "scale": "2026-04-22｜云平台合作 / AI 工厂平台",
-              "text": "对业务层面，这条合作强化了 NVIDIA Data Center 的系统级粘性。Rubin / Blackwell 是算力底座，ConnectX / NVLink / Virgo networking 是集群扩展路径，Nemotron / NeMo / Gemini Enterprise 是 agentic AI 的开发入口，Omniverse / Isaac / Cosmos 是物理 AI 和工业场景入口。Google Cloud 作为超大云平台，把这些能力产品化后，企业客户买到的不只是单颗 GPU，而是一套从训练、推理、机密计算、强化学习、数字孪生到机器人仿真的云端 AI 工厂。这会提高 NVIDIA 在云厂商资本开支、企业 AI 生产部署和 physical AI 生态中的嵌入深度。"
-            }
-          ],
-          "moat": [
-            {
-              "title": "这条事件改变了什么",
-              "text": "这是 P1 级别的平台化强化事件。它不直接改变下一季收入指引，但非常清楚地说明 NVIDIA 的竞争边界正在从“卖 GPU 给云厂商”扩大到“和云厂商共同定义 AI 工厂的算力、网络、机密计算、模型工具链和物理 AI 开发环境”。这也回应了我们此前的问题：AI 芯片公司与 AI 工厂平台公司的差别，不是有没有更强芯片，而是能否把芯片、网络、系统、软件、模型工具和客户生产场景组合成可规模化购买、部署和运维的基础设施。"
-            }
-          ]
-        },
-        "valuationModel": {
-          "currentBreakdown": [
-            {
-              "title": "事件沉淀｜Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-              "text": "估值上，这条事件支持 NVIDIA 高估值中的“平台溢价”部分，但不应该被当成短期追买触发。正面是：Rubin A5X 给出 10 倍成本/能效指标、最大 96 万 GPU 多站点扩展、OpenAI 与 Thinking Machines 等真实工作负载案例，说明 NVIDIA 的平台价值正在从训练延伸到推理、agentic AI 和 physical AI。限制是：这些多数是平台发布、预览或合作扩展，短期收入兑现仍要回到 Google Cloud 与其他云厂商 capex、Rubin 量产节奏、Blackwell / GB300 供给、推理需求和毛利率。当前动作是维持 A 池核心并上调研究优先级，而不是因为合作新闻单独加仓。"
-            }
-          ],
-          "triggers": [
-            {
-              "title": "后续验证：来自最新事件",
-              "text": "下一次 NVIDIA 财报继续看 Data Center 收入、毛利率、推理需求口径，以及 Rubin / Blackwell / GB300 供给节奏是否支撑平台化兑现。；跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。；跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
-            }
-          ]
-        }
-      },
-      "depositEvents": [
-        {
-          "eventIndex": 0,
-          "title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
-          "date": "2026-04-22",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
-        }
-      ]
-    },
     "constellation": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T03:28:55",
+      "updatedAt": "2026-05-10T12:30:08",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
@@ -211,6 +239,6 @@
   },
   "summary": {
     "companies": 3,
-    "events_applied": 3
+    "events_applied": 4
   }
 }
