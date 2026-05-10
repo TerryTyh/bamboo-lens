@@ -112,8 +112,8 @@ function renderCandidateStats() {
 }
 
 function renderCloudSync() {
-  renderMarkdownPreview("dailyBriefPreview", "../云端研究简报系统/outputs/daily_brief.md", 10);
-  renderMarkdownPreview("weekendSyncPreview", "../云端研究简报系统/outputs/weekend_sync_summary.md", 9);
+  renderMarkdownPreview("dailyBriefPreview", "./docs/briefs/daily_brief.md", 10);
+  renderMarkdownPreview("weekendSyncPreview", "./docs/briefs/weekend_sync_summary.md", 9);
   renderCandidateStats();
 }
 
