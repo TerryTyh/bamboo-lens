@@ -25,15 +25,20 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Regenerate fallback daily brief
+        run: python3 scripts/generate_daily_brief.py
+
       - name: Choose morning brief
         run: |
-          if [ -s outputs/morning_brief.md ]; then
+          TODAY="$(TZ=Asia/Shanghai date +%F)"
+          if [ -s outputs/morning_brief.md ] && head -5 outputs/morning_brief.md | grep -q "$TODAY"; then
             cp outputs/morning_brief.md outputs/brief_to_send.md
-            echo "Using nightly enriched morning brief."
+            echo "Using same-day enriched morning brief: $TODAY"
           else
             cp outputs/daily_brief.md outputs/brief_to_send.md
-            echo "morning_brief.md not found; falling back to latest cloud brief."
+            echo "Same-day morning_brief.md not found; using regenerated daily brief: $TODAY"
           fi
+          head -20 outputs/brief_to_send.md
 
       - name: Send to WeCom
         continue-on-error: true
