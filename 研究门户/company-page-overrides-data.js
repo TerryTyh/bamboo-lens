@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-05-10T21:00:44",
-  "source_event_store_at": "2026-05-10T18:48:55",
-  "source_deposition_at": "2026-05-10T20:35:59",
+  "generated_at": "2026-05-11T14:30:11",
+  "source_event_store_at": "2026-05-11T14:30:11",
+  "source_deposition_at": "2026-05-11T14:30:11",
   "companies": {
     "tsmc": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "sourceEventDate": "2026-05-08",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T21:00:44",
+      "updatedAt": "2026-05-11T14:30:11",
       "latestEvent": "2026-05-08｜2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "businessImpact": "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，4 月只是进入 Q2 的第一块拼图。",
       "valuationImpact": "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因 4 月环比 -1.1% 下调判断，也不因累计同比 29.9% 直接追高。",
@@ -125,7 +125,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "sourceEventDate": "2026-05-07",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T21:00:44",
+      "updatedAt": "2026-05-11T14:30:11",
       "latestEvent": "2026-05-07｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "businessImpact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。",
       "valuationImpact": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
@@ -235,7 +235,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-10T21:00:44",
+      "updatedAt": "2026-05-11T14:30:11",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
