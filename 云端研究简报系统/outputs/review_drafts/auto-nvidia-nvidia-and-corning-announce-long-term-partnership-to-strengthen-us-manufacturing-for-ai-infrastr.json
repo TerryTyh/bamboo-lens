@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-12T22:45:34",
+  "generated_at": "2026-05-12T15:26:23",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
@@ -13,7 +13,7 @@
   "score": 8,
   "sort_key": 20260506,
   "source_url": "https://investor.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-152355__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 10,
@@ -59,5 +59,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
-  "draft_file": "/Users/tianyuehua/.codex/worktrees/1bee/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.json"
 }

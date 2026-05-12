@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-12T22:45:34",
+  "generated_at": "2026-05-12T15:26:23",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
@@ -13,7 +13,7 @@
   "score": 8,
   "sort_key": 20260510,
   "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-152355__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "ready_for_deep_review",
   "readiness_label": "优先深读",
   "readiness_score": 19,
@@ -56,5 +56,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
-  "draft_file": "/Users/tianyuehua/.codex/worktrees/1bee/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.json"
 }

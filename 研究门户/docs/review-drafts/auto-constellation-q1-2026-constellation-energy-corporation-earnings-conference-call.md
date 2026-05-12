@@ -9,7 +9,7 @@
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 16）
 - 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations/past-events)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260512-135439__investors.constellationenergy.com_events-and-presentations_past-events.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260512-152355__investors.constellationenergy.com_events-and-presentations_past-events.html
 
 ## 批处理建议
 
