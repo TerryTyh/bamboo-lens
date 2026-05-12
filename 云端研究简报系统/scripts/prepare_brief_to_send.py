@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import sys
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = ROOT / "outputs"
+MORNING_BRIEF = OUTPUT_DIR / "morning_brief.md"
+DAILY_BRIEF = OUTPUT_DIR / "daily_brief.md"
+BRIEF_TO_SEND = OUTPUT_DIR / "brief_to_send.md"
+
+
+EMPTY_DAILY_MARKERS = (
+    "今日没有新的可读内容",
+    "今天没有新增值得直接推送的已判断研究事件",
+)
+
+
+def today_cn() -> str:
+    return datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
+
+
+def read_text(path: Path) -> str:
+    if not path.exists():
+        return ""
+    return path.read_text(encoding="utf-8")
+
+
+def has_same_day_header(text: str, today: str) -> bool:
+    return today in "\n".join(text.splitlines()[:8])
+
+
+def is_empty_daily(text: str) -> bool:
+    return any(marker in text for marker in EMPTY_DAILY_MARKERS)
+
+
+def write_choice(source: str, text: str) -> None:
+    BRIEF_TO_SEND.write_text(text, encoding="utf-8")
+    print(f"Brief selected: {source}")
+    print("--- brief preview ---")
+    print("\n".join(text.splitlines()[:24]))
+
+
+def fail(message: str) -> int:
+    print(f"::error::{message}", file=sys.stderr)
+    return 1
+
+
+def main() -> int:
+    today = today_cn()
+    morning = read_text(MORNING_BRIEF)
+    daily = read_text(DAILY_BRIEF)
+
+    if morning and has_same_day_header(morning, today):
+        write_choice("same-day morning_brief.md", morning)
+        return 0
+
+    if daily and not is_empty_daily(daily):
+        write_choice("non-empty daily_brief.md", daily)
+        return 0
+
+    if morning and not has_same_day_header(morning, today):
+        return fail(
+            "晨报文件存在但不是当天版本，同时 fallback 日报为空。"
+            "为避免误发'没有新消息'，已阻断发送；请先生成并提交当天 morning_brief.md。"
+        )
+
+    if daily:
+        write_choice("empty daily_brief.md", daily)
+        return 0
+
+    return fail("没有找到可发送的日报文件：daily_brief.md / morning_brief.md 均不可用。")
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
