@@ -1,11 +1,89 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-12T13:57:25",
-  "source_generated_at": "2026-05-12T13:57:25",
+  "generated_at": "2026-05-12T22:45:34",
+  "source_generated_at": "2026-05-12T22:45:34",
   "items": [
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 0,
+      "event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
+      "event_date": "2026-05-12",
+      "event_type": "生态合作/企业软件",
+      "priority": "P3",
+      "direction": "中性验证",
+      "dimensions": [
+        "业务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": false,
+      "decision_output": {
+        "confidence_change": "维持确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "估值模型"
+        ],
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+      },
+      "decision_change": "这条合作更像 NVIDIA “企业 AI/agent 栈向上延伸到应用与治理层”的一块拼图：如果 SAP 作为企业系统核心入口，把 OpenShell 作为默认运行时安全层落地在大量客户的生产工作流中，会提高 NVIDIA 在企业 agent 生态里的存在感与标准话语权；但短期内文章未给出订单、收费模式与部署规模，更多是“工程与生态协作”性质，估值影响应低于",
+      "business_impact": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否",
+      "valuation_impact": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。",
+      "next_verification": [
+        "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。",
+        "NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。",
+        "OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。"
+      ],
+      "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+      "sort_key": 20260512,
+      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "tsmc",
       "company_name": "TSMC",
       "event_index": 0,
+      "event_title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
+      "event_date": "2026-05-12",
+      "event_type": "董事会/资本配置",
+      "priority": "P2",
+      "direction": "负向压制",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "下调或风控观察",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "下调确信度",
+        "portfolio_hint": "暂停加仓，优先排查风险是否破坏原逻辑。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这条决议的增量不在“Q1 业绩”本身（已在季度法说与财报中被市场定价），而在资本配置与股东回报的组合：持续的高强度资本支出拨款 + 对 Arizona 的新增注资上限，意味着公司仍按“长期高需求 + 技术路线前推”的假设推进产能与全球布局；同时维持季度现金股利节奏，体现其在高投入周期中仍希望稳定回馈股东。投资上更适合用作对“高景气是否支撑高资本开支、以及海外",
+      "business_impact": "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-2 年的供给与交付能力更依赖这些投资节奏能否顺利落地（良率、爬坡、供应链与人力），而不是仅靠需求端叙事。",
+      "valuation_impact": "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材料：维持跟踪，等待后续季度指引、毛利率与现金流表现来决定是否需要下调对资本回报的信心或调整仓位节奏。",
+      "next_verification": [
+        "后续季度中资本开支与折旧/现金流口径是否与“持续高强度投入”一致，尤其是自由现金流的波动与原因拆解。",
+        "TSMC Arizona 的建设/量产进度、良率爬坡与补贴条件是否兑现，是否带来结构性成本抬升或对毛利率形成拖累。",
+        "先进制程与先进封装产能扩张是否仍处于高利用率区间，验证高资本开支是否能转化为高质量利润。"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3311",
+      "sort_key": 20260512,
+      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 1,
       "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "event_date": "2026-05-08",
       "event_type": "月度营收 / Q2 需求验证",
@@ -39,12 +117,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "sort_key": 20260508,
-      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
       "event_date": "2026-05-08",
       "event_type": "合作 / 图像传感器 / 物理 AI",
@@ -76,12 +154,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3308",
       "sort_key": 20260508,
-      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "event_date": "2026-05-07",
       "event_type": "国家级 AI 基础设施 / 科学计算 / 能源",
@@ -113,12 +191,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
       "sort_key": 20260507,
-      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
       "event_date": "2026-05-06",
       "event_type": "产品 / 网络平台 / AI 工厂基础设施",
@@ -150,12 +228,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
       "sort_key": 20260506,
-      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 2,
+      "event_index": 3,
       "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
       "event_date": "2026-05-05",
       "event_type": "企业 AI / Agent 平台 / 软件生态",
@@ -187,12 +265,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "sort_key": 20260505,
-      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 2,
+      "event_index": 3,
       "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "event_date": "2026-04-23",
       "event_type": "技术路线 / 先进制程",
@@ -224,12 +302,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
       "sort_key": 20260423,
-      "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 3,
+      "event_index": 4,
       "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "event_date": "2026-04-22",
       "event_type": "云平台合作 / AI 工厂平台",
@@ -261,12 +339,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "sort_key": 20260422,
-      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 5,
+      "event_index": 6,
       "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
       "event_date": "2026-04-10",
       "event_type": "月度营收 / 需求验证",
@@ -300,7 +378,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3294",
       "sort_key": 20260410,
-      "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=6&return=company&v=20260505-1"
     },
     {
       "company": "constellation",
@@ -348,6 +426,43 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "nvidia",
         "company_name": "NVIDIA",
         "event_index": 0,
+        "event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
+        "event_date": "2026-05-12",
+        "event_type": "生态合作/企业软件",
+        "priority": "P3",
+        "direction": "中性验证",
+        "dimensions": [
+          "业务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": false,
+        "decision_output": {
+          "confidence_change": "维持确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "估值模型"
+          ],
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+        },
+        "decision_change": "这条合作更像 NVIDIA “企业 AI/agent 栈向上延伸到应用与治理层”的一块拼图：如果 SAP 作为企业系统核心入口，把 OpenShell 作为默认运行时安全层落地在大量客户的生产工作流中，会提高 NVIDIA 在企业 agent 生态里的存在感与标准话语权；但短期内文章未给出订单、收费模式与部署规模，更多是“工程与生态协作”性质，估值影响应低于",
+        "business_impact": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否",
+        "valuation_impact": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。",
+        "next_verification": [
+          "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。",
+          "NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。",
+          "OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。"
+        ],
+        "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+        "sort_key": 20260512,
+        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "event_index": 1,
         "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
         "event_date": "2026-05-07",
         "event_type": "国家级 AI 基础设施 / 科学计算 / 能源",
@@ -379,12 +494,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
         "sort_key": 20260507,
-        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 1,
+        "event_index": 2,
         "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
         "event_date": "2026-05-06",
         "event_type": "产品 / 网络平台 / AI 工厂基础设施",
@@ -416,12 +531,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
         "sort_key": 20260506,
-        "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 2,
+        "event_index": 3,
         "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
         "event_date": "2026-05-05",
         "event_type": "企业 AI / Agent 平台 / 软件生态",
@@ -453,12 +568,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
         "sort_key": 20260505,
-        "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 3,
+        "event_index": 4,
         "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
         "event_date": "2026-04-22",
         "event_type": "云平台合作 / AI 工厂平台",
@@ -490,7 +605,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
         "sort_key": 20260422,
-        "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
       }
     ],
     "tsmc": [
@@ -498,6 +613,47 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "tsmc",
         "company_name": "TSMC",
         "event_index": 0,
+        "event_title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
+        "event_date": "2026-05-12",
+        "event_type": "董事会/资本配置",
+        "priority": "P2",
+        "direction": "负向压制",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "下调或风控观察",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "下调确信度",
+          "portfolio_hint": "暂停加仓，优先排查风险是否破坏原逻辑。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这条决议的增量不在“Q1 业绩”本身（已在季度法说与财报中被市场定价），而在资本配置与股东回报的组合：持续的高强度资本支出拨款 + 对 Arizona 的新增注资上限，意味着公司仍按“长期高需求 + 技术路线前推”的假设推进产能与全球布局；同时维持季度现金股利节奏，体现其在高投入周期中仍希望稳定回馈股东。投资上更适合用作对“高景气是否支撑高资本开支、以及海外",
+        "business_impact": "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-2 年的供给与交付能力更依赖这些投资节奏能否顺利落地（良率、爬坡、供应链与人力），而不是仅靠需求端叙事。",
+        "valuation_impact": "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材料：维持跟踪，等待后续季度指引、毛利率与现金流表现来决定是否需要下调对资本回报的信心或调整仓位节奏。",
+        "next_verification": [
+          "后续季度中资本开支与折旧/现金流口径是否与“持续高强度投入”一致，尤其是自由现金流的波动与原因拆解。",
+          "TSMC Arizona 的建设/量产进度、良率爬坡与补贴条件是否兑现，是否带来结构性成本抬升或对毛利率形成拖累。",
+          "先进制程与先进封装产能扩张是否仍处于高利用率区间，验证高资本开支是否能转化为高质量利润。"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3311",
+        "sort_key": 20260512,
+        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "event_index": 1,
         "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
         "event_date": "2026-05-08",
         "event_type": "月度营收 / Q2 需求验证",
@@ -531,12 +687,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3305",
         "sort_key": 20260508,
-        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 1,
+        "event_index": 2,
         "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
         "event_date": "2026-05-08",
         "event_type": "合作 / 图像传感器 / 物理 AI",
@@ -568,12 +724,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3308",
         "sort_key": 20260508,
-        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 2,
+        "event_index": 3,
         "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
         "event_date": "2026-04-23",
         "event_type": "技术路线 / 先进制程",
@@ -605,12 +761,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
         "sort_key": 20260423,
-        "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 5,
+        "event_index": 6,
         "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
         "event_date": "2026-04-10",
         "event_type": "月度营收 / 需求验证",
@@ -644,7 +800,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3294",
         "sort_key": 20260410,
-        "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=6&return=company&v=20260505-1"
       }
     ],
     "constellation": [
@@ -690,9 +846,9 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 9,
+    "total": 11,
     "companies": 3,
-    "valuation_update_needed": 3,
+    "valuation_update_needed": 4,
     "positive": 8,
     "watch": 0
   }

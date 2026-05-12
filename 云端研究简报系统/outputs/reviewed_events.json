@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-10T18:48:55",
+  "generated_at": "2026-05-12T22:45:34",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
+      {
+        "title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
+        "source_candidate_title": "TSMC Board of Directors Meeting Resolutions",
+        "date": "2026-05-12",
+        "type": "董事会/资本配置",
+        "priority": "P2",
+        "action": "维持跟踪；重点盯资本开支强度与海外扩产回报",
+        "sort_key": 20260512,
+        "source_url": "http://pr.tsmc.com/english/news/3311",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260512-135439__pr.tsmc.com_english_latest-news.html",
+        "source_summary": [
+          "公告列出董事会通过的决议事项，核心包括：确认 2026Q1 财报数字、决定季度现金股利、核准新增资本支出与对 Arizona 子公司注资上限。",
+          "财报层面披露：2026Q1 合并营收 NT$1,134.10 billion、净利润 NT$572.48 billion、稀释 EPS NT$22.08。",
+          "股东回报层面：核准 2026Q1 每股现金股利 NT$7.0，并披露普通股与 ADS 的除息/登记/发放日期安排。",
+          "资本配置层面：核准约 US$31,284.30 million 的资本支出拨款（先进制程产能 + 厂房建设与厂务系统），并核准对 TSMC Arizona 注资上限 US$20 billion。"
+        ],
+        "fact": "TSMC 董事会在 2026-05-12 通过多项决议：确认 2026Q1 合并营收 NT$1,134.10 billion、净利润 NT$572.48 billion、稀释 EPS NT$22.08；通过 2026Q1 每股现金股利 NT$7.0（普通股除息日 2026-09-16、股权登记日 2026-09-22，预计 2026-10-08 发放；ADS 同步以 2026-09-16 为除息/登记日）；为长期产能与技术路线，核准资本支出拨款约 US$31,284.30 million（主要用于先进制程产能与厂房/厂务系统等）；并核准对全资子公司 TSMC Arizona 注资不超过 US$20 billion，同时包含多项关键岗位晋升。",
+        "evidence": [
+          "2026Q1 合并营收 NT$1,134.10 billion、净利润 NT$572.48 billion、稀释 EPS NT$22.08。",
+          "核准 2026Q1 每股现金股利 NT$7.0，并披露普通股除息日 2026-09-16、登记日 2026-09-22、发放日 2026-10-08（ADS 同步 2026-09-16）。",
+          "核准资本支出拨款约 US$31,284.30 million，用途指向先进技术产能与厂房/厂务系统。",
+          "核准对全资子公司 TSMC Arizona 注资不超过 US$20 billion。"
+        ],
+        "judgment": "这条决议的增量不在“Q1 业绩”本身（已在季度法说与财报中被市场定价），而在资本配置与股东回报的组合：持续的高强度资本支出拨款 + 对 Arizona 的新增注资上限，意味着公司仍按“长期高需求 + 技术路线前推”的假设推进产能与全球布局；同时维持季度现金股利节奏，体现其在高投入周期中仍希望稳定回馈股东。投资上更适合用作对“高景气是否支撑高资本开支、以及海外扩产是否抬升资本回报不确定性”的跟踪节点，而不是单独触发结论反转。",
+        "business_analysis": "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-2 年的供给与交付能力更依赖这些投资节奏能否顺利落地（良率、爬坡、供应链与人力），而不是仅靠需求端叙事。",
+        "valuation_analysis": "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材料：维持跟踪，等待后续季度指引、毛利率与现金流表现来决定是否需要下调对资本回报的信心或调整仓位节奏。",
+        "verification": [
+          "后续季度中资本开支与折旧/现金流口径是否与“持续高强度投入”一致，尤其是自由现金流的波动与原因拆解。",
+          "TSMC Arizona 的建设/量产进度、良率爬坡与补贴条件是否兑现，是否带来结构性成本抬升或对毛利率形成拖累。",
+          "先进制程与先进封装产能扩张是否仍处于高利用率区间，验证高资本开支是否能转化为高质量利润。"
+        ],
+        "reviewed_at": "2026-05-12T22:43:26"
+      },
       {
         "title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
         "source_candidate_title": "TSMC April 2026 Revenue Report",
@@ -187,6 +220,38 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
+        "source_candidate_title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+        "date": "2026-05-12",
+        "type": "生态合作/企业软件",
+        "priority": "P3",
+        "action": "维持跟踪；重点等客户落地与商业化口径出现",
+        "sort_key": 20260512,
+        "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "文章聚焦“企业级 agent 进入系统-of-record 后的信任问题”，认为从助手走向自治 agent 会放大安全、权限与审计要求。",
+          "SAP 表示在 SAP Business AI Platform 中集成 NVIDIA OpenShell，并把它作为 SAP AI agents 的运行时安全层（包括 Joule Studio 构建的自定义 agents）。",
+          "OpenShell 被描述为提供隔离执行、文件/网络策略控制与基础设施级隔离，目的是在 agent 失效时限制影响范围，并提供治理与审计能力。",
+          "SAP 与 NVIDIA 将共同开发并回馈开源代码，关注运行时加固、策略建模、企业身份集成与审计治理等企业落地要素。"
+        ],
+        "fact": "在 SAP Sapphire 2026，SAP 与 NVIDIA 扩大合作，SAP 宣布在 SAP Business AI Platform 中嵌入 NVIDIA OpenShell（开源的 agent 运行时），作为 SAP AI agents（含 Joule Studio 自定义 agents）的运行时安全层。文中强调 OpenShell 的能力包括：隔离执行环境、文件系统与网络层策略控制、基础设施级隔离以降低 agent 逻辑失效带来的破坏，并为跨系统、可自治执行的 agent 提供边界、审计与治理钩子；同时 SAP 工程团队将与 NVIDIA 共同设计并向开源项目回馈代码，聚焦运行时加固、策略建模、企业身份集成与审计治理。",
+        "evidence": [
+          "SAP 宣布在 SAP Business AI Platform 中嵌入 NVIDIA OpenShell，并作为 SAP AI agents 的运行时安全层（含 Joule Studio 自定义 agents）。",
+          "OpenShell 的定位是“安全开发与部署自治 agent 的开源运行时”，强调隔离执行环境、文件系统/网络层策略控制与基础设施级隔离。",
+          "合作方向包含：SAP 与 NVIDIA 共同设计 OpenShell 并向开源项目贡献代码，重点在运行时加固、策略建模、企业身份集成与审计治理。"
+        ],
+        "judgment": "这条合作更像 NVIDIA “企业 AI/agent 栈向上延伸到应用与治理层”的一块拼图：如果 SAP 作为企业系统核心入口，把 OpenShell 作为默认运行时安全层落地在大量客户的生产工作流中，会提高 NVIDIA 在企业 agent 生态里的存在感与标准话语权；但短期内文章未给出订单、收费模式与部署规模，更多是“工程与生态协作”性质，估值影响应低于硬件供给与云厂商规模化采购等主线。",
+        "business_analysis": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否与 NVIDIA 企业软件栈形成捆绑或增量服务收入。",
+        "valuation_analysis": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。",
+        "verification": [
+          "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。",
+          "NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。",
+          "OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。"
+        ],
+        "reviewed_at": "2026-05-12T22:45:21"
+      },
       {
         "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
         "source_candidate_title": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",

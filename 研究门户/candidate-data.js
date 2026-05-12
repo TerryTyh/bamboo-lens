@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-05-12T13:57:25",
+  "generated_at": "2026-05-12T22:43:26",
   "companies": {
     "nvidia": [
       {
@@ -16,14 +16,21 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_excerpt": "From finance and procurement to supply chain and manufacturing, specialized AI agents are moving into the enterprise systems where business decisions are made, data is accessed and workflows run at scale. Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with…",
         "source_body": "From finance and procurement to supply chain and manufacturing, specialized AI agents are moving into the enterprise systems where business decisions are made, data is accessed and workflows run at scale. Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with security and governance controls. SAP embeds NVIDIA OpenShell — an open source runtime for securely developing and deploying autonomous AI agents — into SAP Business AI Platform. In addition, SAP engineers are codesigning OpenShell alongside NVIDIA, contributing back to the open source project. OpenShell provides isolated execution environments, policy enforcement at the filesystem and network layers, and infrastructure-level containment that guards against damage when agent logic fails. Within SAP Business AI Platform, OpenShell is the runtime security layer for all SAP AI agents, including custom agents built in Joule Studio — SAP’s environment for building and managing end-to-end enterprise agents. For enterprises, the shift from AI assistants to autonomous agents changes the trust equation. An agent that can touch systems of record, cross application boundaries and operate without review at every step needs boundaries, policy enforcement and an audit trail before it can become part of production work. That’s what SAP and NVIDIA are collaborating to address. Huang has described AI as a five-layer cake : energy, chips, infrastructure, models and applications. Applications sit at the top, where AI creates economic value and drives productivity for knowledge workers. As a global leader in enterprise applications and business AI, SAP is an important catalyst in the application layer, running finance, procurement, supply chain and manufacturing workflows where agents must operate within policy, identity and process controls. That makes SAP’s position at the core of enterprise operations a key driver for enterprise adoption of agentic AI. Business agents need to understand roles, processes, permissions and data boundaries. They also need an execution environment that limits what an agent sees, what it can do and where inference runs. NVIDIA brings its own perspective as a longstanding SAP customer — running finance, supply chain and logistics on SAP, giving both companies shared context for what enterprise-grade governance requires in practice. SAP engineers are working alongside NVIDIA’s to further develop OpenShell’s open source codebase, focusing contributions on what enterprises need to run agentic AI in production: runtime hardening, policy modeling, enterprise identity integration, and auditing and governance hooks.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "content_summary": [
+          "SAP 宣布在 SAP Business AI Platform 中集成 NVIDIA OpenShell，并作为 SAP AI agents（含 Joule Studio 自定义 agents）的运行时安全层。",
+          "OpenShell 被描述为开源 agent 运行时：提供隔离执行环境、文件系统/网络层策略控制与基础设施级隔离，降低 agent 失效造成的破坏。",
+          "合作重点围绕企业落地所需的治理能力：策略建模、企业身份集成、审计与治理钩子，以及运行时加固。",
+          "文章把“从助手到自治 agent”带来的信任与合规要求视为企业 adoption 的关键门槛，试图用运行时治理来解决。",
+          "商业化与收入影响尚未量化，更像生态与工程协作信号，需等待客户落地与收费模式披露。"
+        ],
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "candidate_status": "archived",
-        "status_label": "先存档",
-        "review_lane": "低优先级",
-        "review_score": 3,
-        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
-        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 13,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
@@ -202,14 +209,21 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_excerpt": "TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](ht…",
         "source_body": "TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3311#)Search 5. TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311) TSMC Board of Directors Meeting Resolutions TSMC Board of Directors Meeting Resolutions *HSINCHU, Taiwan, R.O.C.,May 12, 2026 –**The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: 1. Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. 2. Approved the distribution of a NT$7.0 per share cash dividend for the first quarter of 2026, and set September 22, 2026 as the record date for common stock shareholders entitled to participate in this cash dividend distribution, and the ex-dividend date for the common shares shall be September 16, 2026. As required by Article 165 of Taiwan’s Company Law, the shareholders’ register shall be closed for five days prior to the record date (September 18 through September 22, 2026) for registration transfer, and the dividend will be paid on October 8, 2026. In addition, the ex-dividend date and the record date for entitlement to participate in this cash dividend distribution for TSMC American Depositary Shares (ADSs) will be September 16, 2026. 1. To meet long-term capacity plans based on market demand forecasts and TSMC’s technology development roadmap, the Board approved capital appropriations of approximately US$31,284.30 million for purposes mainly including: 1) Installation of advanced technology capacity; 2) Fab construction, and installation of fab facility systems. 1. Approved the capital injection of not more than US$20 billion to TSMC Arizona, a wholly-owned subsidiary of TSMC. 2. Approved the following personnel promotion: Promoted Vice President, Corporate Planning Mr. Jonathan Lee to Senior Vice President Promoted Senior Director, Quality & Reliability Mr. Y.H. Wu to Vice President Promoted Senior Director, Research and Development / Nano Patterning Technology Dr. Y.C. Ku to Vice President Promoted Senior Director, Operations / Intelligent Manufacturing Center Mr. Span Lu to Vice President Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260512-135439__pr.tsmc.com_english_latest-news.html",
+        "content_summary": [
+          "董事会确认 2026Q1 财报：合并营收 NT$1,134.10 billion，净利润 NT$572.48 billion，稀释 EPS NT$22.08。",
+          "核准 2026Q1 每股现金股利 NT$7.0，并披露普通股与 ADS 的除息/登记/发放日期安排。",
+          "为长期产能与技术路线，核准资本支出拨款约 US$31,284.30 million，主要用于先进技术产能与厂房/厂务系统。",
+          "核准对全资子公司 TSMC Arizona 注资不超过 US$20 billion，延续美国本地制造的资金承诺口径。",
+          "整体信号是：公司仍按“长期需求 + 技术路线推进”假设推进扩产，同时维持季度分红节奏。"
+        ],
         "company": "tsmc",
         "company_name": "TSMC",
-        "candidate_status": "archived",
-        "status_label": "先存档",
-        "review_lane": "低优先级",
-        "review_score": 3,
-        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
-        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 13,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
