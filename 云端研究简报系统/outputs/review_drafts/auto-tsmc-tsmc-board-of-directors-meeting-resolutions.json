@@ -1,0 +1,62 @@
+{
+  "draft_id": "auto-tsmc-tsmc-board-of-directors-meeting-resolutions",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-05-12T13:57:25",
+  "company": "tsmc",
+  "company_name": "TSMC",
+  "source_candidate_title": "TSMC Board of Directors Meeting Resolutions",
+  "title": "TSMC Board of Directors Meeting Resolutions",
+  "date": "2026-05-12",
+  "type": "官方候选",
+  "priority": "草稿",
+  "action": "进入人工研判",
+  "score": 6,
+  "sort_key": 20260512,
+  "source_url": "http://pr.tsmc.com/english/news/3311",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260512-135439__pr.tsmc.com_english_latest-news.html",
+  "readiness_lane": "readable_needs_review",
+  "readiness_label": "可读待研判",
+  "readiness_score": 18,
+  "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+  "promotion_blockers": [
+    "治理/人事类信息通常不是优先批处理对象"
+  ],
+  "source_summary": [
+    "TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3311#)Search 5. TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311) TSMC Board of Directors Meeting Resolutions TSMC Board of Directors Meeting Resolutions *HSINCHU, Taiwan, R.O.C.,May 12, 2026 –**The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: 1. Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. 2. Approved the distribution of a NT$7.0 per share cash dividend for the first quarter of 2026, and set September 22, 2026 as the record date for common stock shareholders entitled to participate in this cash dividend distribution, and the ex-dividend date for the common shares shall be September 16, 2026. As required by Article 165 of Taiwan’s Company Law, the shareholders’ register shall be closed for five days prior to the record date (September 18 through September 22, 2026) for registration transfer, and the dividend will be paid on October 8, 2026. In addition, the ex-dividend date and the record date for entitlement to participate in this cash dividend distribution for TSMC American Depositary Shares (ADSs) will be September 16, 2026. 1. To meet long-term capacity plans based on market demand forecasts and TSMC’s technology development roadmap, the Board approved capital appropriations of approximately US$31,284.30 million for purposes mainly including: 1) Installation of advanced technology capacity; 2) Fab construction, and installation of fab facility systems. 1. Approved the capital injection of not more than US$20 billion to TSMC Arizona, a wholly-owned subsidiary of TSMC. 2. Approved the following personnel promotion: Promoted Vice President, Corporate Planning Mr. Jonathan Lee to Senior Vice President Promoted Senior Director, Quality & Reliability Mr. Y.H. Wu to Vice President Promoted Senior Director, Research and Development / Nano Patterning Technology Dr. Y.C. Ku to Vice President Promoted Senior Director, Operations / Intelligent Manufacturin\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
+  ],
+  "fact": "日期：2026-05-12；标题：TSMC Board of Directors Meeting Resolutions；原文内容：TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](ht…；来源：http://pr.tsmc.com/english/news/3311",
+  "evidence": [
+    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
+    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "evidence_needed": [
+    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "这件事影响哪条业务线、财务科目或竞争位置",
+    "下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": true,
+    "source_chars": 3955,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.json"
+}

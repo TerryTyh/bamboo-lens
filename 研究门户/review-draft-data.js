@@ -1,14 +1,67 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-11T23:15:04",
+  "generated_at": "2026-05-12T13:57:25",
   "summary": {
-    "total": 5,
+    "total": 8,
     "companies": 3,
-    "with_source_body": 1,
+    "with_source_body": 4,
     "suppressed_count": 3,
     "readiness_counts": {
+      "ready_for_deep_review": 1,
+      "readable_needs_review": 2,
       "needs_source": 5
     },
-    "priority_batch": []
+    "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+        "date": "2026-05-10",
+        "score": 8,
+        "readiness_score": 19,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-tsmc-tsmc-board-of-directors-meeting-resolutions",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Board of Directors Meeting Resolutions",
+        "date": "2026-05-12",
+        "score": 6,
+        "readiness_score": 18,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [
+          "治理/人事类信息通常不是优先批处理对象"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3311",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+        "date": "2026-05-12",
+        "score": 6,
+        "readiness_score": 17,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents.md",
+        "has_source_body": true
+      }
+    ]
   },
   "by_key": {
     "constellation::q1 2026 constellation energy corporation earnings conference call": {
@@ -26,7 +79,7 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
     },
@@ -46,6 +99,22 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+      "has_source_body": true
+    },
+    "nvidia::‘your career starts at the beginning of the ai revolution,’ nvidia ceo tells graduates": {
+      "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+      "date": "2026-05-10",
+      "score": 8,
+      "readiness_score": 19,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
       "has_source_body": true
     },
     "nvidia::nvidia and iren announce strategic partnership to accelerate deployment of up to 5 gigawatts of ai infrastructure": {
@@ -86,6 +155,40 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastr.md",
       "has_source_body": false
     },
+    "nvidia::nvidia and sap bring trust to specialized agents": {
+      "draft_id": "auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+      "date": "2026-05-12",
+      "score": 6,
+      "readiness_score": 17,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents.md",
+      "has_source_body": true
+    },
+    "tsmc::tsmc board of directors meeting resolutions": {
+      "draft_id": "auto-tsmc-tsmc-board-of-directors-meeting-resolutions",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Board of Directors Meeting Resolutions",
+      "date": "2026-05-12",
+      "score": 6,
+      "readiness_score": 18,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3311",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.md",
+      "has_source_body": true
+    },
     "nvidia::nvidia names suzanne nora johnson to board of directors": {
       "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
       "company": "nvidia",
@@ -124,12 +227,30 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "还没有抓到足够正文",
           "可读内容偏短"
         ],
-        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+        "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
         "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
         "has_source_body": false
       }
     ],
     "tsmc": [
+      {
+        "draft_id": "auto-tsmc-tsmc-board-of-directors-meeting-resolutions",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Board of Directors Meeting Resolutions",
+        "date": "2026-05-12",
+        "score": 6,
+        "readiness_score": 18,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [
+          "治理/人事类信息通常不是优先批处理对象"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3311",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.md",
+        "has_source_body": true
+      },
       {
         "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
         "company": "tsmc",
@@ -150,6 +271,38 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     ],
     "nvidia": [
+      {
+        "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+        "date": "2026-05-10",
+        "score": 8,
+        "readiness_score": 19,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
+        "has_source_body": true
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+        "date": "2026-05-12",
+        "score": 6,
+        "readiness_score": 17,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents.md",
+        "has_source_body": true
+      },
       {
         "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
         "company": "nvidia",
@@ -212,6 +365,56 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
   },
   "items": [
     {
+      "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+      "date": "2026-05-10",
+      "score": 8,
+      "readiness_score": 19,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
+      "has_source_body": true
+    },
+    {
+      "draft_id": "auto-tsmc-tsmc-board-of-directors-meeting-resolutions",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Board of Directors Meeting Resolutions",
+      "date": "2026-05-12",
+      "score": 6,
+      "readiness_score": 18,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [
+        "治理/人事类信息通常不是优先批处理对象"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3311",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-board-of-directors-meeting-resolutions.md",
+      "has_source_body": true
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+      "date": "2026-05-12",
+      "score": 6,
+      "readiness_score": 17,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-sap-bring-trust-to-specialized-agents.md",
+      "has_source_body": true
+    },
+    {
       "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
       "company": "constellation",
       "company_name": "Constellation Energy",
@@ -226,7 +429,7 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
       "has_source_body": false
     },

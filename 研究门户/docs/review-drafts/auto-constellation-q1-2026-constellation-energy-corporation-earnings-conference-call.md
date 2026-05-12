@@ -8,8 +8,8 @@
 - 候选分数：14
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 16）
-- 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260511-142722__investors.constellationenergy.com_events-and-presentations.html
+- 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations/past-events)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260512-135439__investors.constellationenergy.com_events-and-presentations_past-events.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations
+日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
 
 ### 候选事实
 
-日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations
+日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
 
 ## 升级为正式事件前必须补齐
 

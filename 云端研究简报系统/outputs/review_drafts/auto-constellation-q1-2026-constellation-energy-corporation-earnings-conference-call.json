@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-11T23:15:04",
+  "generated_at": "2026-05-12T13:57:25",
   "company": "constellation",
   "company_name": "Constellation Energy",
   "source_candidate_title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
@@ -12,8 +12,8 @@
   "action": "等待补证据",
   "score": 14,
   "sort_key": 20260511,
-  "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260510-100253__investors.constellationenergy.com_events-and-presentations.html",
+  "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260512-135439__investors.constellationenergy.com_events-and-presentations_past-events.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 16,
@@ -23,9 +23,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations"
+    "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events"
   ],
-  "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations",
+  "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -48,7 +48,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 152,
+    "source_chars": 164,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -59,5 +59,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-  "draft_file": "/Users/tianyuehua/.codex/worktrees/642a/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.json"
 }
