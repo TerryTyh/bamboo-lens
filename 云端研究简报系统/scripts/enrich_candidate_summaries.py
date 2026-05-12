@@ -6,6 +6,7 @@ import os
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -88,7 +89,7 @@ def main() -> None:
         return
 
     payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
-    today = datetime.now()
+    today = datetime.now(ZoneInfo("Asia/Shanghai"))
     updated = 0
     failed = 0
     for company in (payload.get("companies") or {}).values():
