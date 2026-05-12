@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-11T14:30:11",
+  "generated_at": "2026-05-11T23:15:04",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
@@ -13,7 +13,7 @@
   "score": 6,
   "sort_key": 20260508,
   "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260511-142722__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-100253__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 6,
@@ -60,5 +60,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.json"
+  "draft_file": "/Users/tianyuehua/.codex/worktrees/642a/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.json"
 }

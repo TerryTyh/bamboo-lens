@@ -1,32 +1,14 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-11T14:30:11",
+  "generated_at": "2026-05-11T23:15:04",
   "summary": {
-    "total": 6,
+    "total": 5,
     "companies": 3,
-    "with_source_body": 2,
+    "with_source_body": 1,
     "suppressed_count": 3,
     "readiness_counts": {
-      "ready_for_deep_review": 1,
       "needs_source": 5
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
-        "date": "2026-05-10",
-        "score": 8,
-        "readiness_score": 19,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
-        "has_source_body": true
-      }
-    ]
+    "priority_batch": []
   },
   "by_key": {
     "constellation::q1 2026 constellation energy corporation earnings conference call": {
@@ -64,22 +46,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true
-    },
-    "nvidia::‘your career starts at the beginning of the ai revolution,’ nvidia ceo tells graduates": {
-      "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
-      "date": "2026-05-10",
-      "score": 8,
-      "readiness_score": 19,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
       "has_source_body": true
     },
     "nvidia::nvidia and iren announce strategic partnership to accelerate deployment of up to 5 gigawatts of ai infrastructure": {
@@ -185,22 +151,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ],
     "nvidia": [
       {
-        "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
-        "date": "2026-05-10",
-        "score": 8,
-        "readiness_score": 19,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -261,22 +211,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
-      "date": "2026-05-10",
-      "score": 8,
-      "readiness_score": 19,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates.md",
-      "has_source_body": true
-    },
     {
       "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
       "company": "constellation",
