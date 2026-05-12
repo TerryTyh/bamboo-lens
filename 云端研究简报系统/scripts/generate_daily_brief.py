@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -414,8 +415,8 @@ def render_candidate_block(candidates: list[dict]) -> str:
 
 
 def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
-    today = datetime.now().strftime("%Y-%m-%d")
-    now = datetime.now()
+    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    today = now.strftime("%Y-%m-%d")
     names = "、".join(company["name"] for company in companies)
     fresh_events = [
         item for item in events
