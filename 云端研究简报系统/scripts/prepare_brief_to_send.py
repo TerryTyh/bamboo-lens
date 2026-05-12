@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import sys
+import os
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -69,9 +70,15 @@ def main() -> int:
             "为避免误发'没有新消息'，已阻断发送；请先生成并提交当天 morning_brief.md。"
         )
 
-    if daily:
+    if daily and os.environ.get("ALLOW_EMPTY_BRIEF", "").strip().lower() == "true":
         write_choice("empty daily_brief.md", daily)
         return 0
+
+    if daily and is_empty_daily(daily):
+        return fail(
+            "fallback 日报为空。为避免继续推送低价值'无新消息'日报，已阻断发送；"
+            "请先生成当天高质量 morning_brief.md，或显式设置 ALLOW_EMPTY_BRIEF=true。"
+        )
 
     return fail("没有找到可发送的日报文件：daily_brief.md / morning_brief.md 均不可用。")
 
