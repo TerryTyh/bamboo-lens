@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 
@@ -51,6 +51,9 @@ LOW_SIGNAL_KEYWORDS = [
     "gaming",
     "games hit the cloud",
     "national robotics week",
+    "board of directors",
+    "names ",
+    "appoint",
 ]
 
 LOW_SIGNAL_PENALTY = 8
@@ -93,6 +96,22 @@ def parse_sort_key(value: str | int | None) -> int:
         day = (parts[2] if len(parts) > 2 else "1").zfill(2)
         keys.append(int(f"{year}{month}{day}"))
     return max(keys) if keys else 0
+
+
+def sort_key_to_date(sort_key: int) -> datetime | None:
+    if not sort_key:
+        return None
+    try:
+        return datetime.strptime(str(sort_key)[:8], "%Y%m%d")
+    except ValueError:
+        return None
+
+
+def is_stale_candidate(sort_key: int, max_age_days: int = 60) -> bool:
+    parsed = sort_key_to_date(sort_key)
+    if not parsed:
+        return False
+    return parsed.date() < (datetime.now().date() - timedelta(days=max_age_days))
 
 
 def keyword_score(text: str) -> int:
@@ -162,9 +181,12 @@ def candidate_read_next(candidate: dict) -> str:
 def build_candidate_item(company_id: str, company: dict, candidate: dict) -> dict:
     title = candidate.get("title", "")
     text = " ".join([title, candidate.get("type", ""), candidate.get("fact", "")])
+    sort_key = parse_sort_key(candidate.get("sort_key") or candidate.get("date"))
     score = keyword_score(text) + priority_score(candidate.get("priority", "")) + 1
-    if parse_sort_key(candidate.get("sort_key") or candidate.get("date")) >= 20260425:
+    if sort_key >= 20260425:
         score += 2
+    if is_stale_candidate(sort_key):
+        score -= 8
     score = max(score, 0)
 
     return {
@@ -182,7 +204,7 @@ def build_candidate_item(company_id: str, company: dict, candidate: dict) -> dic
         "source_url": candidate.get("source_url", ""),
         "source_doc": candidate.get("source_file", ""),
         "event_index": None,
-        "sort_key": parse_sort_key(candidate.get("sort_key") or candidate.get("date")),
+        "sort_key": sort_key,
         "score": score,
     }
 

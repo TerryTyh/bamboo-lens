@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:05:16",
+  "generated_at": "2026-05-13T23:14:52",
   "source_generated_at": "2026-05-13T15:05:16",
   "items": [
     {
@@ -813,24 +813,6 @@
       "score": 12
     },
     {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2025-11-07",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260513-150040__investors.constellationenergy.com_events-and-presentations_past-events.html",
-      "event_index": null,
-      "sort_key": 20251107,
-      "score": 12
-    },
-    {
       "company": "inovance",
       "company_name": "汇川技术",
       "source_type": "formal_event",
@@ -846,60 +828,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20251024,
-      "score": 12
-    },
-    {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2025-08-07",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260513-150040__investors.constellationenergy.com_events-and-presentations_past-events.html",
-      "event_index": null,
-      "sort_key": 20250807,
-      "score": 12
-    },
-    {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2025-05-06",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260513-150040__investors.constellationenergy.com_events-and-presentations_past-events.html",
-      "event_index": null,
-      "sort_key": 20250506,
-      "score": 12
-    },
-    {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2024-11-04",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260513-150040__investors.constellationenergy.com_events-and-presentations_past-events.html",
-      "event_index": null,
-      "sort_key": 20241104,
       "score": 12
     },
     {
@@ -1029,24 +957,6 @@
       "score": 9
     },
     {
-      "company": "gevernova",
-      "company_name": "GE Vernova",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "4th Quarter 2025 Earnings Webcast",
-      "date": "2026-01-28",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://www.gevernova.com/investors/events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260513-150040__www.gevernova.com_investors_events.html",
-      "event_index": null,
-      "sort_key": 20260128,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -1080,42 +990,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260513-150040__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260513,
-      "score": 8
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-      "date": "2026-05-07",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260513-150040__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260507,
-      "score": 8
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "TSMC February 2026 Revenue Report",
-      "date": "2026-03-10",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "http://pr.tsmc.com/english/news/3290",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260513-150040__pr.tsmc.com_english_latest-news.html",
-      "event_index": null,
-      "sort_key": 20260310,
       "score": 8
     },
     {
@@ -1225,30 +1099,12 @@
       "event_index": null,
       "sort_key": 20260513,
       "score": 6
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
-      "date": "2026-05-08",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260513-150040__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260508,
-      "score": 6
     }
   ],
   "summary": {
-    "total": 69,
+    "total": 61,
     "formal_events": 57,
-    "official_candidates": 12,
+    "official_candidates": 4,
     "companies": 8
   }
 }

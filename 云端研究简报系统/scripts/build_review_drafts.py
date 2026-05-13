@@ -53,6 +53,13 @@ LOW_SIGNAL_KEYWORDS = [
     "recycling plants",
 ]
 
+GOVERNANCE_LOW_PRIORITY_KEYWORDS = [
+    "board of directors",
+    "names ",
+    "appoint",
+    "director",
+]
+
 INVESTMENT_SIGNAL_KEYWORDS = {
     "earnings": 5,
     "results": 5,
@@ -260,7 +267,7 @@ def should_build_draft(candidate: dict, event_candidate: dict) -> bool:
 def investment_signal_score(title: str, readable_source: str) -> int:
     text = f"{title} {readable_source}".lower()
     score = sum(weight for keyword, weight in INVESTMENT_SIGNAL_KEYWORDS.items() if keyword in text)
-    if any(keyword in text for keyword in LOW_SIGNAL_KEYWORDS):
+    if any(keyword in text for keyword in LOW_SIGNAL_KEYWORDS + GOVERNANCE_LOW_PRIORITY_KEYWORDS):
         score -= 10
     return score
 
@@ -362,6 +369,7 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
     title = clean(candidate.get("title"))
     lowered = title.lower()
     signal_score = investment_signal_score(title, readable_source)
+    is_governance_low_priority = any(keyword in lowered for keyword in GOVERNANCE_LOW_PRIORITY_KEYWORDS)
     blockers: list[str] = []
     low_substance_annual_notice = is_low_substance_annual_notice(event_type, readable_source)
 
@@ -373,7 +381,7 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         blockers.append("可读内容偏短")
     if "会议" in event_type and not has_body:
         blockers.append("会议类候选需要等材料或 transcript")
-    if any(keyword in lowered for keyword in ["board of directors", "appoint", "names "]):
+    if is_governance_low_priority:
         blockers.append("治理/人事类信息通常不是优先批处理对象")
     if low_substance_annual_notice:
         blockers.append("年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容")
@@ -389,6 +397,8 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         readiness_score -= 4
     if low_substance_annual_notice:
         readiness_score -= 8
+    if is_governance_low_priority:
+        readiness_score -= 8
     if signal_score < 2:
         readiness_score -= 6
 
@@ -396,6 +406,10 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         lane = "needs_source"
         label = "待读原文件"
         reason = "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。"
+    elif is_governance_low_priority:
+        lane = "low_investment_signal"
+        label = "治理人事低优先级"
+        reason = "这是治理或人事类信息，除非影响战略、资本配置或重大风险，否则不应排在正式事件深读前列。"
     elif signal_score < 2 and has_body:
         lane = "low_investment_signal"
         label = "低投资信息密度"

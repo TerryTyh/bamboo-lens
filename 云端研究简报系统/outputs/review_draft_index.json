@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-13T15:05:16",
+  "generated_at": "2026-05-13T23:14:52",
   "summary": {
-    "total": 6,
+    "total": 4,
     "companies": 3,
-    "with_source_body": 5,
-    "suppressed_count": 2,
+    "with_source_body": 3,
+    "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 1,
-      "readable_needs_review": 3,
+      "readable_needs_review": 1,
       "needs_source": 2
     },
     "priority_batch": [
@@ -29,23 +29,6 @@
         "has_source_body": true
       },
       {
-        "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-        "date": "2026-05-07",
-        "score": 8,
-        "readiness_score": 24,
-        "investment_signal_score": 2,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -60,25 +43,6 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
-        "date": "2026-05-08",
-        "score": 6,
-        "readiness_score": 19,
-        "investment_signal_score": 2,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [
-          "治理/人事类信息通常不是优先批处理对象"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
         "has_source_body": true
       }
     ]
@@ -140,23 +104,6 @@
       "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
       "has_source_body": true
     },
-    "nvidia::nvidia and iren announce strategic partnership to accelerate deployment of up to 5 gigawatts of ai infrastructure": {
-      "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-      "date": "2026-05-07",
-      "score": 8,
-      "readiness_score": 24,
-      "investment_signal_score": 2,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
-      "has_source_body": true
-    },
     "nvidia::nvidia, ineffable intelligence team up to build the future of reinforcement learning infrastructure": {
       "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
       "company": "nvidia",
@@ -172,25 +119,6 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-      "has_source_body": true
-    },
-    "nvidia::nvidia names suzanne nora johnson to board of directors": {
-      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
-      "date": "2026-05-08",
-      "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 2,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [
-        "治理/人事类信息通常不是优先批处理对象"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
       "has_source_body": true
     }
   },
@@ -257,23 +185,6 @@
         "has_source_body": true
       },
       {
-        "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-        "date": "2026-05-07",
-        "score": 8,
-        "readiness_score": 24,
-        "investment_signal_score": 2,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
-        "has_source_body": true
-      },
-      {
         "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -288,25 +199,6 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
-        "date": "2026-05-08",
-        "score": 6,
-        "readiness_score": 19,
-        "investment_signal_score": 2,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [
-          "治理/人事类信息通常不是优先批处理对象"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
         "has_source_body": true
       }
     ]
@@ -327,23 +219,6 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
-      "has_source_body": true
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
-      "date": "2026-05-07",
-      "score": 8,
-      "readiness_score": 24,
-      "investment_signal_score": 2,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-.md",
       "has_source_body": true
     },
     {
@@ -401,43 +276,7 @@
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
       "has_source_body": true
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
-      "date": "2026-05-08",
-      "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 2,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [
-        "治理/人事类信息通常不是优先批处理对象"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-names-suzanne-nora-johnson-to-board-of-directors.md",
-      "has_source_body": true
     }
   ],
-  "suppressed": [
-    {
-      "company": "gevernova",
-      "company_name": "GE Vernova",
-      "title": "4th Quarter 2025 Earnings Webcast",
-      "date": "2026-01-28",
-      "source_url": "https://www.gevernova.com/investors/events",
-      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC February 2026 Revenue Report",
-      "date": "2026-03-10",
-      "source_url": "http://pr.tsmc.com/english/news/3290",
-      "reason": "较早月份营收已被更新月份营收事件覆盖"
-    }
-  ]
+  "suppressed": []
 }
