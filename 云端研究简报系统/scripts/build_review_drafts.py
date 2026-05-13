@@ -39,6 +39,10 @@ MONTH_NAMES = {
 }
 
 LOW_SIGNAL_KEYWORDS = [
+    "career starts",
+    "graduates",
+    "ceo tells graduates",
+    "keynote",
     "geforce now",
     "games hit the cloud",
     "gaijin",
@@ -48,6 +52,32 @@ LOW_SIGNAL_KEYWORDS = [
     "rainforests",
     "recycling plants",
 ]
+
+INVESTMENT_SIGNAL_KEYWORDS = {
+    "earnings": 5,
+    "results": 5,
+    "revenue": 5,
+    "eps": 4,
+    "guidance": 4,
+    "outlook": 4,
+    "margin": 4,
+    "cash flow": 4,
+    "capital expenditure": 4,
+    "capex": 4,
+    "annual report": 3,
+    "20-f": 3,
+    "acquisition": 4,
+    "contract": 4,
+    "customer": 3,
+    "partnership": 3,
+    "collaboration": 3,
+    "manufacturing": 3,
+    "infrastructure": 3,
+    "deployment": 3,
+    "backlog": 4,
+    "order": 3,
+    "capacity": 3,
+}
 
 
 def load_json(path: Path, fallback: dict) -> dict:
@@ -227,6 +257,14 @@ def should_build_draft(candidate: dict, event_candidate: dict) -> bool:
     return score >= MIN_SCORE
 
 
+def investment_signal_score(title: str, readable_source: str) -> int:
+    text = f"{title} {readable_source}".lower()
+    score = sum(weight for keyword, weight in INVESTMENT_SIGNAL_KEYWORDS.items() if keyword in text)
+    if any(keyword in text for keyword in LOW_SIGNAL_KEYWORDS):
+        score -= 10
+    return score
+
+
 def is_low_substance_annual_notice(event_type: str, readable_source: str) -> bool:
     if "年报" not in event_type:
         return False
@@ -323,9 +361,12 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
     has_body = bool(clean(event_candidate.get("source_body") or event_candidate.get("source_excerpt")))
     title = clean(candidate.get("title"))
     lowered = title.lower()
+    signal_score = investment_signal_score(title, readable_source)
     blockers: list[str] = []
     low_substance_annual_notice = is_low_substance_annual_notice(event_type, readable_source)
 
+    if any(keyword in lowered for keyword in LOW_SIGNAL_KEYWORDS):
+        blockers.append("正文虽长，但更像品牌/演讲/营销内容，投资信息密度偏低")
     if not has_body:
         blockers.append("还没有抓到足够正文")
     if source_chars < 600:
@@ -343,20 +384,27 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
     readiness_score += min(source_chars // 500, 6)
     if "财报" in event_type or "合作" in event_type or "产品" in event_type:
         readiness_score += 2
+    readiness_score += min(max(signal_score, 0), 8)
     if "会议" in event_type and not has_body:
         readiness_score -= 4
     if low_substance_annual_notice:
         readiness_score -= 8
+    if signal_score < 2:
+        readiness_score -= 6
 
     if low_substance_annual_notice:
         lane = "needs_source"
         label = "待读原文件"
         reason = "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。"
-    elif has_body and source_chars >= 1200 and score >= 8:
+    elif signal_score < 2 and has_body:
+        lane = "low_investment_signal"
+        label = "低投资信息密度"
+        reason = "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。"
+    elif has_body and source_chars >= 1200 and score >= 8 and signal_score >= 3:
         lane = "ready_for_deep_review"
         label = "优先深读"
         reason = "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。"
-    elif has_body and source_chars >= 600:
+    elif has_body and source_chars >= 600 and signal_score >= 2:
         lane = "readable_needs_review"
         label = "可读待研判"
         reason = "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。"
@@ -373,6 +421,7 @@ def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, r
         "readiness_lane": lane,
         "readiness_label": label,
         "readiness_score": readiness_score,
+        "investment_signal_score": signal_score,
         "review_batch_reason": reason,
         "promotion_blockers": blockers,
     }
@@ -551,6 +600,7 @@ def write_outputs(drafts: list[dict], generated_at: str, suppressed: list[dict] 
             "date": draft.get("date", ""),
             "score": draft["score"],
             "readiness_score": draft.get("readiness_score", draft["score"]),
+            "investment_signal_score": draft.get("investment_signal_score", 0),
             "readiness_lane": draft.get("readiness_lane", ""),
             "readiness_label": draft.get("readiness_label", ""),
             "review_batch_reason": draft.get("review_batch_reason", ""),

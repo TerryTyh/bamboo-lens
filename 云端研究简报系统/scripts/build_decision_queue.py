@@ -40,6 +40,21 @@ IMPORTANT_KEYWORDS = {
     "capex": 4,
 }
 
+LOW_SIGNAL_KEYWORDS = [
+    "career starts",
+    "graduates",
+    "keynote",
+    "protecting the planet",
+    "rainforests",
+    "recycling plants",
+    "geforce now",
+    "gaming",
+    "games hit the cloud",
+    "national robotics week",
+]
+
+LOW_SIGNAL_PENALTY = 8
+
 ACTION_WEIGHT = {
     "提升优先级": 5,
     "需要二次验证": 4,
@@ -82,7 +97,10 @@ def parse_sort_key(value: str | int | None) -> int:
 
 def keyword_score(text: str) -> int:
     lowered = text.lower()
-    return sum(weight for keyword, weight in IMPORTANT_KEYWORDS.items() if keyword in lowered)
+    score = sum(weight for keyword, weight in IMPORTANT_KEYWORDS.items() if keyword in lowered)
+    if any(keyword in lowered for keyword in LOW_SIGNAL_KEYWORDS):
+        score -= LOW_SIGNAL_PENALTY
+    return score
 
 
 def action_score(action: str) -> int:
@@ -147,6 +165,7 @@ def build_candidate_item(company_id: str, company: dict, candidate: dict) -> dic
     score = keyword_score(text) + priority_score(candidate.get("priority", "")) + 1
     if parse_sort_key(candidate.get("sort_key") or candidate.get("date")) >= 20260425:
         score += 2
+    score = max(score, 0)
 
     return {
         "company": company_id,

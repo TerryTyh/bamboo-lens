@@ -171,9 +171,22 @@ def fetch_url_text(url: str) -> str:
     def _proxy_url(target_url: str) -> str:
         return f"https://r.jina.ai/http://{target_url.replace('https://', '').replace('http://', '')}"
 
+    def _looks_like_article(raw_html: str) -> bool:
+        if not raw_html:
+            return False
+        if "Markdown Content:" in raw_html:
+            return len(clean_markdown_text(raw_html)) >= 180
+        paragraphs = extract_article_paragraphs(raw_html)
+        if len(paragraphs) >= 2:
+            return True
+        cleaned = clean_html_text(raw_html)
+        if any(pattern.lower() in cleaned.lower() for pattern in BAD_EXCERPT_PATTERNS):
+            return False
+        return len(cleaned) >= 600 and bool(re.search(r"\b(revenue|earnings|announc|partnership|customer|ai|data center|capital|margin)\b", cleaned, re.I))
+
     try:
         direct = _read(url)
-        if direct and len(clean_html_text(direct)) > 120:
+        if _looks_like_article(direct):
             return direct
     except Exception:
         direct = ""

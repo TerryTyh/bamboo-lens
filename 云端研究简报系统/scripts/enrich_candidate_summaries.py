@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import json
 import os
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -69,8 +71,20 @@ def call_openai(api_key: str, title: str, source_url: str, source_text: str) -> 
         },
         method="POST",
     )
-    with urllib.request.urlopen(request, timeout=45) as response:
-        result = json.loads(response.read().decode("utf-8"))
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                result = json.loads(response.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as error:
+            last_error = error
+            if error.code != 429 or attempt == 3:
+                raise
+            time.sleep(attempt * 8)
+    else:
+        assert last_error is not None
+        raise last_error
     content = normalize(result["choices"][0]["message"]["content"])
     lines = []
     for raw in content.replace("；", "\n").splitlines():

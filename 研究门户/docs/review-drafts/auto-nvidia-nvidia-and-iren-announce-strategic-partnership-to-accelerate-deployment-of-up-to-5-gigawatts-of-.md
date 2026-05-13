@@ -7,7 +7,7 @@
 - 类型：合作 / 客户 / 供应链
 - 候选分数：8
 - 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 10）
+- 批处理建议：待补正文（readiness 18）
 - 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure)
 - 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-152355__investor.nvidia.com_news_press-releases_default.aspx.html
 
