@@ -6,19 +6,17 @@
 - 日期：2026-05-08
 - 类型：官方候选
 - 候选分数：6
-- 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 0）
+- 当前动作：进入人工研判
+- 批处理建议：可读待研判（readiness 19）
 - 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-152355__investor.nvidia.com_news_press-releases_default.aspx.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260513-150040__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 
-当前主要是标题或短事实，不适合直接进入正式事件。
+已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。
 
 ### 当前阻碍
 
-- 还没有抓到足够正文
-- 可读内容偏短
 - 治理/人事类信息通常不是优先批处理对象
 
 ## 原文与事实
@@ -27,11 +25,13 @@
 
 ### 原文可读内容
 
-日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors
+[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# "Menu") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear commercial and technology partnership to dramatically expand ... NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark NVIDIA and SAP Bring Trust to Specialized Agents ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins NVIDIA CEO: We Have the Most Energy Efficient Architecture in the World An Interview with NVIDIA CEO Jensen Huang About Accelerated Computing February 27, 2026 Wall Street Journal NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#instagram) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#twitter) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#facebook) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#youtube) > [](http://twitter.com/nvidia/status/2054548468761313596) Cultivating Healthier Crops Through AI Carbon Robotics eliminates weeds with AI-guided lasers to ensure healthier, chemical-free harvests. ... Global contacts for media inquiries. Newsroom updates delivered to your
+
+（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）
 
 ### 候选事实
 
-日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors
+日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；原文内容：[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# "Menu") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective J…；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors
 
 ## 升级为正式事件前必须补齐
 
@@ -66,6 +66,6 @@
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：否
+- 有可读正文：是
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。
