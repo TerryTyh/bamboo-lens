@@ -32,7 +32,6 @@ jobs:
         run: python3 scripts/prepare_brief_to_send.py
 
       - name: Send to WeCom
-        continue-on-error: true
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         run: python3 scripts/send_wecom.py outputs/brief_to_send.md
