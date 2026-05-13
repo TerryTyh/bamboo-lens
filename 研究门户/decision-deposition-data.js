@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-05-12T15:26:23",
-  "source_event_store_at": "2026-05-12T15:26:22",
-  "source_decision_impact_at": "2026-05-12T15:26:23",
+  "generated_at": "2026-05-13T22:39:59",
+  "source_event_store_at": "2026-05-13T22:39:59",
+  "source_decision_impact_at": "2026-05-13T22:39:59",
   "items": [
     {
       "company": "nvidia",
@@ -529,7 +529,81 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 6,
+      "event_index": 4,
+      "event_title": "2026Q1：营收 NT$1,134.10b，同比增长 35.1%，毛利率 66.2%；Q2 指引 US$39.0-40.2b",
+      "event_date": "2026-04-16",
+      "priority": "P1",
+      "direction": "正向强化",
+      "trigger_type": "维持核心并观察加仓条件",
+      "status": "needs_model_update",
+      "quality": "可自动生成回写建议",
+      "update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "recommended_updates": [
+        {
+          "target": "当前结论",
+          "fields": [
+            "latestEvent",
+            "businessImpact",
+            "valuationImpact",
+            "nextCheck"
+          ],
+          "suggestion": "把最新事件更新为「2026Q1：营收 NT$1,134.10b，同比增长 35.1%，毛利率 66.2%；Q2 指引 US$39.0-40.2b」；业务影响写入：业务层面，Q1 的制程结构与利润率共同指向：领先制程仍是收入与盈利质量的主引擎。3nm 占晶圆收入 25%、5nm 仍占 36%，意味着先进节点在“渗透 + 规模化”阶段并存；先进制程合计 74% 使得公司对先进节点供需与良率爬坡更敏感。对投资理解上，这条财报的价值在于把“先进制程需求强”落实到可量化的节点占比与利润率区间，同时给出 Q2 的收入/利润率边界，便于后续用月度营收与季度财报做连续性验证。；估值/动作写入：估值/动作层面，高利润率区间与 Q2 指引强化了市场对"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务层面，Q1 的制程结构与利润率共同指向：领先制程仍是收入与盈利质量的主引擎。3nm 占晶圆收入 25%、5nm 仍占 36%，意味着先进节点在“渗透 + 规模化”阶段并存；先进制程合计 74% 使得公司对先进节点供需与良率爬坡更敏感。对投资理解上，这条财报的价值在于把“先进制程需求强”落实到可量化的节点占比与利润率区间，同时给出 Q2 的收入/利润率边界，便于后续用月度营收与季度财报做连续性验证。"
+        },
+        {
+          "target": "财务数据地图",
+          "fields": [
+            "financeMap",
+            "financials"
+          ],
+          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
+        },
+        {
+          "target": "估值模型",
+          "fields": [
+            "valuationModel",
+            "valuationFrame"
+          ],
+          "suggestion": "估值/动作层面，高利润率区间与 Q2 指引强化了市场对 TSMC 作为 AI/HPC 时代“高质量制造平台”的定价基础，短期更支持维持核心配置而非因单季数字追涨。更关键的估值变量仍是资本回报：在董事会核准高强度资本开支与海外扩产推进的背景下，需要持续跟踪毛利率能否维持、以及现金流/折旧口径是否开始对估值中枢形成压力。动作上更适合把它作为“Q2 兑现基准线”，用后续月度营收与 Q2 财报验证指引与盈利质量。"
+        },
+        {
+          "target": "跟踪重点与风险",
+          "fields": [
+            "focus",
+            "trackingGuide",
+            "risk"
+          ],
+          "suggestion": "用 5 月、6 月月度营收验证 Q2 指引 US$39.0-40.2 billion 的兑现路径，关注是否出现连续性走弱。；Q2 财报中毛利率是否仍落在 65.5%-67.5% 区间，若明显下滑需要拆解原因（海外扩产、汇率、产品组合、良率）。；继续跟踪 3nm/5nm/先进制程占比变化，判断先进节点需求是否仍在加速渗透或开始边际走弱。"
+        }
+      ],
+      "reason": "这是一条 P1 级“财报 + 指引”确认事件。Q1 在高增长的同时把毛利率维持在 66% 以上，并且 3nm 占比提升到 25%、先进制程占比 74%，说明领先制程需求处在高位且结构继续向先进节点倾斜；Q2 指引延续高收入与高利润率区间，进一步把“景气延续”从叙事推进到管理层口径。但它并不自动消除两类核心不确定：高资本开支/海外扩产对自由现金流与资本回报的拖",
+      "valuation_impact": "估值/动作层面，高利润率区间与 Q2 指引强化了市场对 TSMC 作为 AI/HPC 时代“高质量制造平台”的定价基础，短期更支持维持核心配置而非因单季数字追涨。更关键的估值变量仍是资本回报：在董事会核准高强度资本开支与海外扩产推进的背景下，需要持续跟踪毛利率能否维持、以及现金流/折旧口径是否开始对估值中枢形成压力。动作上更适合把它作为“Q2 兑现基准线”，用后续月度营收与 Q2 财报验证指引与盈利质量。",
+      "next_verification": [
+        "用 5 月、6 月月度营收验证 Q2 指引 US$39.0-40.2 billion 的兑现路径，关注是否出现连续性走弱。",
+        "Q2 财报中毛利率是否仍落在 65.5%-67.5% 区间，若明显下滑需要拆解原因（海外扩产、汇率、产品组合、良率）。",
+        "继续跟踪 3nm/5nm/先进制程占比变化，判断先进节点需求是否仍在加速渗透或开始边际走弱。"
+      ],
+      "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1",
+      "sort_key": 20260416
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 7,
       "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
       "event_date": "2026-04-10",
       "priority": "P1",
@@ -587,7 +661,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "结合 Q2 财报验证高营收是否转化为 65.5%-67.5% 毛利率区间，而不是被海外扩产或折旧稀释。",
         "观察 HPC/AI 需求是否继续支撑先进制程占比，尤其是 3nm、5nm 和 CoWoS 供需。"
       ],
-      "detail_link": "./event.html?company=tsmc&event=6&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=tsmc&event=7&return=company&v=20260505-1",
       "sort_key": 20260410
     },
     {
@@ -656,9 +730,9 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     }
   ],
   "summary": {
-    "total": 11,
+    "total": 12,
     "ready": 0,
-    "needs_model_update": 11,
+    "needs_model_update": 12,
     "blocked": 0,
     "companies": 3
   }

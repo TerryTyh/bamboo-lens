@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-12T15:26:23",
+  "generated_at": "2026-05-13T22:39:59",
   "summary": {
     "total": 6,
     "companies": 3,
     "with_source_body": 2,
-    "suppressed_count": 3,
+    "suppressed_count": 2,
     "readiness_counts": {
       "ready_for_deep_review": 1,
       "needs_source": 5
@@ -380,14 +380,6 @@
       "title": "4th Quarter 2025 Earnings Webcast",
       "date": "2026-01-28",
       "source_url": "https://www.gevernova.com/investors/events",
-      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Reports First Quarter EPS of NT$22.08",
-      "date": "2026-04-16",
-      "source_url": "http://pr.tsmc.com/english/news/3297",
       "reason": "同一日期的财报深读已经进入正式事件或公司主页"
     },
     {
