@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T15:27:46Z",
+  "generated_at": "2026-05-14T15:41:22Z",
   "source": "https://query1.finance.yahoo.com/v7/finance/quote / https://query1.finance.yahoo.com/v8/finance/chart / https://hq.sinajs.cn/list=",
   "warnings": [
     "Yahoo quote fetch failed, falling back to chart API: HTTP Error 401: Unauthorized"
@@ -15,15 +15,15 @@
         "shortName": "NVIDIA Corporation",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 234.96,
+        "price": 236.05,
         "previousClose": 211.5,
-        "change": 23.460000000000008,
-        "changePercent": 11.092198581560288,
+        "change": 24.55000000000001,
+        "changePercent": 11.607565011820336,
         "marketCap": null,
-        "marketTime": 1778772463,
+        "marketTime": 1778773280,
         "display": {
-          "price": "US$234.96",
-          "changePercent": "+11.09%",
+          "price": "US$236.05",
+          "changePercent": "+11.61%",
           "marketCap": "暂无"
         }
       },
@@ -33,20 +33,20 @@
           "shortName": "NVIDIA Corporation",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 234.96,
+          "price": 236.05,
           "previousClose": 211.5,
-          "change": 23.460000000000008,
-          "changePercent": 11.092198581560288,
+          "change": 24.55000000000001,
+          "changePercent": 11.607565011820336,
           "marketCap": null,
-          "marketTime": 1778772463,
+          "marketTime": 1778773280,
           "display": {
-            "price": "US$234.96",
-            "changePercent": "+11.09%",
+            "price": "US$236.05",
+            "changePercent": "+11.61%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -94,20 +94,20 @@
           "shortName": "Taiwan Semiconductor Manufactur",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 418.22,
+          "price": 419.396,
           "previousClose": 414.15,
-          "change": 4.07000000000005,
-          "changePercent": 0.9827357237715926,
+          "change": 5.246000000000038,
+          "changePercent": 1.2666908125075549,
           "marketCap": null,
-          "marketTime": 1778772464,
+          "marketTime": 1778773281,
           "display": {
-            "price": "US$418.22",
-            "changePercent": "+0.98%",
+            "price": "US$419.40",
+            "changePercent": "+1.27%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -120,15 +120,15 @@
         "shortName": "Microsoft Corporation",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 411.135,
+        "price": 409.24,
         "previousClose": 420.77,
-        "change": -9.634999999999991,
-        "changePercent": -2.289849561518167,
+        "change": -11.529999999999973,
+        "changePercent": -2.740214368895115,
         "marketCap": null,
-        "marketTime": 1778772461,
+        "marketTime": 1778773279,
         "display": {
-          "price": "US$411.13",
-          "changePercent": "-2.29%",
+          "price": "US$409.24",
+          "changePercent": "-2.74%",
           "marketCap": "暂无"
         }
       },
@@ -138,20 +138,20 @@
           "shortName": "Microsoft Corporation",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 411.135,
+          "price": 409.24,
           "previousClose": 420.77,
-          "change": -9.634999999999991,
-          "changePercent": -2.289849561518167,
+          "change": -11.529999999999973,
+          "changePercent": -2.740214368895115,
           "marketCap": null,
-          "marketTime": 1778772461,
+          "marketTime": 1778773279,
           "display": {
-            "price": "US$411.13",
-            "changePercent": "-2.29%",
+            "price": "US$409.24",
+            "changePercent": "-2.74%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -199,20 +199,20 @@
           "shortName": "Alibaba Group Holding Limited",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 143.295,
+          "price": 143.14,
           "previousClose": 141.0,
-          "change": 2.2949999999999875,
-          "changePercent": 1.6276595744680762,
+          "change": 2.1399999999999864,
+          "changePercent": 1.517730496453891,
           "marketCap": null,
-          "marketTime": 1778772448,
+          "marketTime": 1778773266,
           "display": {
-            "price": "US$143.29",
-            "changePercent": "+1.63%",
+            "price": "US$143.14",
+            "changePercent": "+1.52%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -256,7 +256,7 @@
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -269,15 +269,15 @@
         "shortName": "GE Vernova Inc.",
         "exchange": "NYSE",
         "currency": "USD",
-        "price": 1063.715,
+        "price": 1062.06,
         "previousClose": 1045.63,
-        "change": 18.08499999999981,
-        "changePercent": 1.7295792966919281,
+        "change": 16.429999999999836,
+        "changePercent": 1.5713015120070994,
         "marketCap": null,
-        "marketTime": 1778772435,
+        "marketTime": 1778773276,
         "display": {
-          "price": "US$1,063.71",
-          "changePercent": "+1.73%",
+          "price": "US$1,062.06",
+          "changePercent": "+1.57%",
           "marketCap": "暂无"
         }
       },
@@ -287,20 +287,20 @@
           "shortName": "GE Vernova Inc.",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 1063.715,
+          "price": 1062.06,
           "previousClose": 1045.63,
-          "change": 18.08499999999981,
-          "changePercent": 1.7295792966919281,
+          "change": 16.429999999999836,
+          "changePercent": 1.5713015120070994,
           "marketCap": null,
-          "marketTime": 1778772435,
+          "marketTime": 1778773276,
           "display": {
-            "price": "US$1,063.71",
-            "changePercent": "+1.73%",
+            "price": "US$1,062.06",
+            "changePercent": "+1.57%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -344,7 +344,7 @@
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -357,15 +357,15 @@
         "shortName": "Constellation Energy Corporatio",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 276.6,
+        "price": 276.7,
         "previousClose": 311.28,
-        "change": -34.67999999999995,
-        "changePercent": -11.14109483423283,
+        "change": -34.579999999999984,
+        "changePercent": -11.108969416602411,
         "marketCap": null,
-        "marketTime": 1778772458,
+        "marketTime": 1778773274,
         "display": {
-          "price": "US$276.60",
-          "changePercent": "-11.14%",
+          "price": "US$276.70",
+          "changePercent": "-11.11%",
           "marketCap": "暂无"
         }
       },
@@ -375,20 +375,20 @@
           "shortName": "Constellation Energy Corporatio",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 276.6,
+          "price": 276.7,
           "previousClose": 311.28,
-          "change": -34.67999999999995,
-          "changePercent": -11.14109483423283,
+          "change": -34.579999999999984,
+          "changePercent": -11.108969416602411,
           "marketCap": null,
-          "marketTime": 1778772458,
+          "marketTime": 1778773274,
           "display": {
-            "price": "US$276.60",
-            "changePercent": "-11.14%",
+            "price": "US$276.70",
+            "changePercent": "-11.11%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-05-14T15:27:46Z",
+      "updatedAt": "2026-05-14T15:41:22Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     }

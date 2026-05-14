@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-14T22:39:49",
-  "source_event_store_at": "2026-05-14T22:39:49",
-  "source_deposition_at": "2026-05-14T22:39:49",
+  "generated_at": "2026-05-14T15:41:18",
+  "source_event_store_at": "2026-05-14T15:41:18",
+  "source_deposition_at": "2026-05-14T15:41:18",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@
       "sourceEventTitle": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
       "sourceEventDate": "2026-05-13",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T22:39:49",
+      "updatedAt": "2026-05-14T15:41:18",
       "latestEvent": "2026-05-13｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
       "businessImpact": "对 NVIDIA 来说，核心影响在端侧与小型机生态而非数据中心训练：一是 RTX PC/RTX PRO 工作站可被定义为“全天候本地 agent 机器”，潜在带动高端 GPU 与整机升级；二是 DGX Spark 等小型机把 agent 负载从云端外溢到企业/开发者本地，增加软件栈与硬件耦合。整体属于“新增使用场景 + 生态绑定”的布局，需观察是否从叙事走向规模交付。",
       "valuationImpact": "估值/动作层面，这类生态文章本身不会立刻改变盈利预测，但会影响市场对“端侧 AI + agent 工作流”可持续性的想象空间：若后续出现可验证的采用数据（出货、活跃、企业部署案例），可能抬升对 RTX 相关增长与毛利结构的信心；反之若仅停留在宣传与社区热度，则对估值贡献有限。当前动作以维持跟踪为主，不据此单独加仓。",
@@ -119,7 +119,7 @@
       "sourceEventTitle": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "sourceEventDate": "2026-05-12",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T22:39:49",
+      "updatedAt": "2026-05-14T15:41:18",
       "latestEvent": "2026-05-12｜董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "businessImpact": "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-2 年的供给与交付能力更依赖这些投资节奏能否顺利落地（良率、爬坡、供应链与人力），而不是仅靠需求端叙事。",
       "valuationImpact": "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材料：维持跟踪，等待后续季度指引、毛利率与现金流表现来决定是否需要下调对资本回报的信心或调整仓位节奏。",
@@ -240,7 +240,7 @@
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T22:39:49",
+      "updatedAt": "2026-05-14T15:41:18",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
