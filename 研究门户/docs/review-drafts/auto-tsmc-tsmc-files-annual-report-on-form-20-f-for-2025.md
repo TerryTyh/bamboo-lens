@@ -9,7 +9,7 @@
 - 当前动作：进入人工研判
 - 批处理建议：待读原文件（readiness 20）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3300)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260513-150040__pr.tsmc.com_english_latest-news.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-133033__pr.tsmc.com_english_latest-news.html
 
 ## 批处理建议
 
