@@ -1,0 +1,52 @@
+{
+  "companies": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "primary_symbol": "NVDA",
+      "symbols": ["NVDA"]
+    },
+    {
+      "id": "tsmc",
+      "name": "TSMC",
+      "primary_symbol": "2330.TW",
+      "symbols": ["2330.TW", "TSM"]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "primary_symbol": "MSFT",
+      "symbols": ["MSFT"]
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴",
+      "primary_symbol": "9988.HK",
+      "symbols": ["9988.HK", "BABA"]
+    },
+    {
+      "id": "inovance",
+      "name": "汇川技术",
+      "primary_symbol": "300124.SZ",
+      "symbols": ["300124.SZ"]
+    },
+    {
+      "id": "gevernova",
+      "name": "GE Vernova",
+      "primary_symbol": "GEV",
+      "symbols": ["GEV"]
+    },
+    {
+      "id": "luxshare",
+      "name": "立讯精密",
+      "primary_symbol": "002475.SZ",
+      "symbols": ["002475.SZ"]
+    },
+    {
+      "id": "constellation",
+      "name": "Constellation Energy",
+      "primary_symbol": "CEG",
+      "symbols": ["CEG"]
+    }
+  ]
+}

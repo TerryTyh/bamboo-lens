@@ -39,6 +39,7 @@ jobs:
           python3 scripts/build_decision_impact.py
           python3 scripts/build_decision_deposition.py
           python3 scripts/build_company_page_overrides.py
+          python3 scripts/collect_market_snapshots.py
           python3 scripts/generate_daily_brief.py
           python3 scripts/build_morning_brief.py
           python3 scripts/export_portal_docs.py
@@ -49,7 +50,7 @@ jobs:
       - name: Persist outputs to repository
         working-directory: .
         run: |
-          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/review-draft-data.js 研究门户/decision-impact-data.js 研究门户/decision-deposition-data.js 研究门户/company-page-overrides-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js 研究门户/docs; then
+          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/review-draft-data.js 研究门户/decision-impact-data.js 研究门户/decision-deposition-data.js 研究门户/company-page-overrides-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js 研究门户/market-snapshot-data.js 研究门户/docs; then
             echo "No generated output changes to commit."
             exit 0
           fi
@@ -67,6 +68,7 @@ jobs:
           git add -f 云端研究简报系统/outputs/decision_deposition.json
           git add -f 云端研究简报系统/outputs/company_page_overrides.json
           git add -f 云端研究简报系统/outputs/company_state.json
+          git add -f 云端研究简报系统/outputs/market_snapshot.json
           git add -f 云端研究简报系统/outputs/reviewed_events.json
           git add 研究门户/candidate-data.js
           git add 研究门户/decision-data.js
@@ -76,6 +78,7 @@ jobs:
           git add 研究门户/company-page-overrides-data.js
           git add 研究门户/event-store-data.js
           git add 研究门户/company-state-data.js
+          git add 研究门户/market-snapshot-data.js
           git add 研究门户/docs
           git commit -m "chore: collect Bamboo Lens candidates"
           git push
@@ -97,6 +100,7 @@ jobs:
             云端研究简报系统/outputs/decision_deposition.json
             云端研究简报系统/outputs/company_page_overrides.json
             云端研究简报系统/outputs/company_state.json
+            云端研究简报系统/outputs/market_snapshot.json
             云端研究简报系统/outputs/reviewed_events.json
             云端研究简报系统/outputs/snapshots/manifest.json
             研究门户/candidate-data.js
@@ -107,5 +111,6 @@ jobs:
             研究门户/company-page-overrides-data.js
             研究门户/event-store-data.js
             研究门户/company-state-data.js
+            研究门户/market-snapshot-data.js
             研究门户/docs
           if-no-files-found: warn

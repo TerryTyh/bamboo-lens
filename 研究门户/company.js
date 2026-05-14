@@ -2532,7 +2532,60 @@ function renderValuationFrame(valuationFrame) {
   `).join("");
 }
 
-function renderValuationModel(model) {
+function formatMarketTime(timestamp) {
+  if (!timestamp) return "暂无交易时间";
+  const time = new Date(Number(timestamp) * 1000);
+  if (Number.isNaN(time.getTime())) return "暂无交易时间";
+  return time.toLocaleString("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function buildMarketSnapshotItems(company) {
+  const market = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company];
+  const primary = market?.primary;
+  if (!primary) return [];
+
+  const stalePrefix = market.stale ? "上次可得行情，需刷新：" : "自动行情：";
+  const quoteItems = [
+    {
+      label: `${primary.symbol} 最新价`,
+      value: primary.display?.price || "暂无",
+      note: `${stalePrefix}${primary.exchange || "交易所"}，北京时间 ${formatMarketTime(primary.marketTime)}。`,
+    },
+    {
+      label: "当日涨跌幅",
+      value: primary.display?.changePercent || "暂无",
+      note: "用于判断静态估值结论是否可能已经过期；不直接等同于买卖建议。",
+    },
+  ];
+
+  if (primary.display?.marketCap && primary.display.marketCap !== "暂无") {
+    quoteItems.push({
+      label: "当前市值",
+      value: primary.display.marketCap,
+      note: "来自行情源的最新可得市值，口径可能与分部估值模型中的折算口径不同。",
+    });
+  }
+
+  const secondary = (market.quotes || []).filter((quote) => quote.symbol !== primary.symbol);
+  if (secondary.length) {
+    quoteItems.push({
+      label: "其他交易口径",
+      value: secondary.map((quote) => `${quote.symbol} ${quote.display?.price || "暂无"}`).join(" / "),
+      note: "用于对照 ADR、港股、台股或 A 股等不同交易口径。",
+    });
+  }
+
+  return quoteItems;
+}
+
+function renderValuationModel(company, model) {
   const section = document.getElementById("companyValuationModelSection");
   if (!section) return;
 
@@ -2549,7 +2602,10 @@ function renderValuationModel(model) {
 
   const snapshot = document.getElementById("companyValuationSnapshot");
   if (snapshot) {
-    snapshot.innerHTML = (model.snapshot || []).map((item) => `
+    const marketItems = buildMarketSnapshotItems(company);
+    const modelItems = model.snapshot || [];
+    const items = marketItems.length ? [...marketItems, ...modelItems] : modelItems;
+    snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
         <strong>${item.value}</strong>
@@ -2657,7 +2713,7 @@ async function initCompanyPage() {
   renderTrackingList(data.trackingGuide || []);
   renderFinanceMap(data.financeMap);
   renderBusinessMap(data.businessMap);
-  renderValuationModel(data.valuationModel);
+  renderValuationModel(company, data.valuationModel);
 
   let records = [];
   try {
