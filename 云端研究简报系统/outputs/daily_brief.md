@@ -11,7 +11,15 @@
 
 更多可读线索：
 
-- 今天没有其他值得展开阅读的新内容。
+1. 公司：NVIDIA
+   标题：Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW
+   中文摘要：- 文章宣布《Subnautica 2》在发售时点（day-and-date）同步上线 GeForce NOW，主打“几乎任意设备即开即玩”，无需预装与下载。
+   - 本周 GeForce NOW 增加 11 款新游戏，以“每周上新”的形式持续补充内容供给。
+   - 文中提到《HITMAN World of Assassination》限时奖励活动：通过 GeForce NOW 账号门户的 rewards 入口领取，活动窗口按文中描述持续到 6 月中旬。
+   - 同时提到《HITMAN》与 007 相关的联动奖励（Le Chiffre / 007 First Light），并给出免费游玩/领取的时间窗口。
+   - 文章以“不用最新硬件也能获得流畅画质/性能”的叙述强化 GeForce NOW 的产品定位（云端把 PC 游戏库变成跨设备体验）。
+   - 对业务理解的增量主要是内容运营节奏与用户留存叙事：更像订阅/活跃度的持续经营材料，而非单条新闻即可量化的收入/利润变化。
+   来源：[打开原文](https://blogs.nvidia.com/blog/geforce-now-thursday-subnautica-2/)
 
 下一次验证点：
 

@@ -1,24 +1,24 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-05-14T13:35:32",
-  "source_generated_at": "2026-05-14T13:35:32",
+  "generated_at": "2026-05-14T22:39:49",
+  "source_generated_at": "2026-05-14T22:39:49",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
-      "source_event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
-      "source_event_date": "2026-05-12",
-      "latestEvent": "2026-05-12｜SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
-      "businessImpact": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否与 NVIDIA 企业软件栈形成捆绑或增...",
-      "valuationImpact": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。",
-      "nextCheck": "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。；NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。；OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。",
-      "action": "维持跟踪；重点等客户落地与商业化口径出现",
+      "source_event_title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+      "source_event_date": "2026-05-13",
+      "latestEvent": "2026-05-13｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+      "businessImpact": "对 NVIDIA 来说，核心影响在端侧与小型机生态而非数据中心训练：一是 RTX PC/RTX PRO 工作站可被定义为“全天候本地 agent 机器”，潜在带动高端 GPU 与整机升级；二是 DGX Spark 等小型机把 agent 负载从云端外溢到企业/开发者本地，增加软件栈与硬件耦合。整体属于“新增使用场景 + 生态绑定”的布局，需观察是否从叙事走向规模交付。",
+      "valuationImpact": "估值/动作层面，这类生态文章本身不会立刻改变盈利预测，但会影响市场对“端侧 AI + agent 工作流”可持续性的想象空间：若后续出现可验证的采用数据（出货、活跃、企业部署案例），可能抬升对 RTX 相关增长与毛利结构的信心；反之若仅停留在宣传与社区热度，则对估值贡献有限。当前动作以维持跟踪为主，不据此单独加仓。",
+      "nextCheck": "跟踪后续是否出现可核验的采用证据：Hermes/类似本地 agent 在企业/开发者侧的部署案例、活跃度或官方生态数据披露。；观察 RTX AI PC 与工作站出货/ASP/渠道反馈是否出现“agent 本地运行”驱动的结构性变化。；若 DGX Spark 被持续提及，关注其目标客户、交付节奏与是否形成可复用的软件/运行时绑定（而不是一次性硬件宣传）。",
+      "action": "维持跟踪；重点观察“本地 agent + RTX AI PC/DGX Spark”是否出现可见采用与交付规模",
       "priority": "P3",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "source_event_date": "2026-05-12",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-05-14T13:35:32",
+      "updated_at": "2026-05-14T22:39:49",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-14T13:35:32",
-  "source_event_store_at": "2026-05-14T13:35:32",
-  "source_deposition_at": "2026-05-14T13:35:32",
+  "generated_at": "2026-05-14T22:39:49",
+  "source_event_store_at": "2026-05-14T22:39:49",
+  "source_deposition_at": "2026-05-14T22:39:49",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
-      "sourceEventTitle": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
-      "sourceEventDate": "2026-05-12",
+      "sourceEventTitle": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+      "sourceEventDate": "2026-05-13",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T13:35:32",
-      "latestEvent": "2026-05-12｜SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
-      "businessImpact": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否与 NVIDIA 企业软件栈形成捆绑或增量服务收入。",
-      "valuationImpact": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。",
-      "nextCheck": "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。；NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。",
-      "action": "维持跟踪；重点等客户落地与商业化口径出现",
+      "updatedAt": "2026-05-14T22:39:49",
+      "latestEvent": "2026-05-13｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+      "businessImpact": "对 NVIDIA 来说，核心影响在端侧与小型机生态而非数据中心训练：一是 RTX PC/RTX PRO 工作站可被定义为“全天候本地 agent 机器”，潜在带动高端 GPU 与整机升级；二是 DGX Spark 等小型机把 agent 负载从云端外溢到企业/开发者本地，增加软件栈与硬件耦合。整体属于“新增使用场景 + 生态绑定”的布局，需观察是否从叙事走向规模交付。",
+      "valuationImpact": "估值/动作层面，这类生态文章本身不会立刻改变盈利预测，但会影响市场对“端侧 AI + agent 工作流”可持续性的想象空间：若后续出现可验证的采用数据（出货、活跃、企业部署案例），可能抬升对 RTX 相关增长与毛利结构的信心；反之若仅停留在宣传与社区热度，则对估值贡献有限。当前动作以维持跟踪为主，不据此单独加仓。",
+      "nextCheck": "跟踪后续是否出现可核验的采用证据：Hermes/类似本地 agent 在企业/开发者侧的部署案例、活跃度或官方生态数据披露。；观察 RTX AI PC 与工作站出货/ASP/渠道反馈是否出现“agent 本地运行”驱动的结构性变化。",
+      "action": "维持跟踪；重点观察“本地 agent + RTX AI PC/DGX Spark”是否出现可见采用与交付规模",
       "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
       "updatedSections": [
         "当前结论",
@@ -28,63 +28,63 @@
         "businessMap": {
           "segments": [
             {
+              "title": "业务变化｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+              "scale": "2026-05-13｜生态/本地 Agent",
+              "text": "对 NVIDIA 来说，核心影响在端侧与小型机生态而非数据中心训练：一是 RTX PC/RTX PRO 工作站可被定义为“全天候本地 agent 机器”，潜在带动高端 GPU 与整机升级；二是 DGX Spark 等小型机把 agent 负载从云端外溢到企业/开发者本地，增加软件栈与硬件耦合。整体属于“新增使用场景 + 生态绑定”的布局，需观察是否从叙事走向规模交付。"
+            },
+            {
+              "title": "业务变化｜NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+              "scale": "2026-05-13｜生态/训练基础设施（强化学习）",
+              "text": "从业务上看，RL/后训练工作负载若走向规模化，会把算力需求从“单次大训练”扩展到“持续生成数据与训练更新”的闭环，对 GPU、互联与系统软件的要求更系统化。NVIDIA 通过与前沿实验室共设基础设施，有助于在平台迭代时把新负载的关键瓶颈（互联、带宽、服务链路）纳入产品路线，从而巩固其系统级平台地位。"
+            },
+            {
               "title": "业务变化｜SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
               "scale": "2026-05-12｜生态合作/企业软件",
               "text": "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉，可能降低企业采用 agentic AI 的安全顾虑，并使 NVIDIA 的软件与运行时能力在企业应用链条中更可见。真正的业务影响取决于：OpenShell 是否成为 SAP 客户的默认选择、以及是否与 NVIDIA 企业软件栈形成捆绑或增量服务收入。"
-            },
-            {
-              "title": "业务变化｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-              "scale": "2026-05-07｜国家级 AI 基础设施 / 科学计算 / 能源",
-              "text": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。"
-            },
-            {
-              "title": "业务变化｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-              "scale": "2026-05-06｜产品 / 网络平台 / AI 工厂基础设施",
-              "text": "对业务的影响主要落在 Data Center 平台化与网络产品线。AI 训练集群越大，瓶颈越容易从单颗 GPU 转向网络、互连、调度和系统可靠性。Spectrum-X + MRC 的价值在于把网络从普通数据中心配套，变成大模型训练效率的一部分。如果客户认可这套能力，NVIDIA 在 AI 数据中心 capex 中的可服务范围会从 GPU 扩展到网络 fabric、系统软件和整机方案，提升平台粘性与交叉销售空间。"
             }
           ],
           "moat": [
             {
+              "title": "判断变化｜生态/本地 Agent",
+              "text": "这条信息更像“生态与需求叙事”的强化：NVIDIA 正把本地 agent 作为 RTX AI PC/小型工作站的新工作负载来推动，并通过开源 agent + 开源权重模型的组合把用户体验与 GPU/整机能力绑定。它提高了我们对“端侧 AI 叠加 agent 工作流”的中期想象空间，但短期仍缺少可量化的采用与收入验证，暂按 P3 处理。"
+            },
+            {
+              "title": "判断变化｜生态/训练基础设施（强化学习）",
+              "text": "这条合作更偏“前瞻研发/生态信号”：NVIDIA 正尝试在预训练之外，提前为强化学习与模拟环境学习等后训练范式打造可扩展的软硬件流水线，并把该方向与 Grace Blackwell、Vera Rubin 等新平台绑定。它增加了我们对“新训练范式驱动持续算力需求”的中期信心，但短期仍缺少客户规模、订单与可量化商业化节奏，因此按 P3 处理。"
+            },
+            {
               "title": "判断变化｜生态合作/企业软件",
               "text": "这条合作更像 NVIDIA “企业 AI/agent 栈向上延伸到应用与治理层”的一块拼图：如果 SAP 作为企业系统核心入口，把 OpenShell 作为默认运行时安全层落地在大量客户的生产工作流中，会提高 NVIDIA 在企业 agent 生态里的存在感与标准话语权；但短期内文章未给出订单、收费模式与部署规模，更多是“工程与生态协作”性质，估值影响应低于硬件供给与云厂商规模化采购等主线。"
-            },
-            {
-              "title": "判断变化｜国家级 AI 基础设施 / 科学计算 / 能源",
-              "text": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。"
-            },
-            {
-              "title": "判断变化｜产品 / 网络平台 / AI 工厂基础设施",
-              "text": "这是一条 P1 级平台化强化事件。它没有直接改变下一季收入指引，但强化了一个更重要的判断：NVIDIA 的竞争力正在从 GPU 芯片龙头，继续外溢到 AI 工厂的网络、系统协同和训练效率层。也就是说，NVIDIA 在争夺的不只是芯片预算，而是超大规模 AI 基础设施的系统控制点。"
             }
           ]
         },
         "valuationModel": {
           "currentBreakdown": [
             {
+              "title": "估值/动作影响｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+              "text": "估值/动作层面，这类生态文章本身不会立刻改变盈利预测，但会影响市场对“端侧 AI + agent 工作流”可持续性的想象空间：若后续出现可验证的采用数据（出货、活跃、企业部署案例），可能抬升对 RTX 相关增长与毛利结构的信心；反之若仅停留在宣传与社区热度，则对估值贡献有限。当前动作以维持跟踪为主，不据此单独加仓。"
+            },
+            {
+              "title": "估值/动作影响｜NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+              "text": "估值/动作层面，该类合作更像“未来需求曲线”的证据点：若 RL/后训练成为主流，将延长高端算力与系统平台的景气周期，支持估值中枢维持；但在缺少可验证客户采用与预算分配前，不应据此上调短期盈利假设。当前动作以维持跟踪为主，等待后续平台发布/客户案例/产品化披露来验证方向是否从研究走向规模化部署。"
+            },
+            {
               "title": "估值/动作影响｜SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
               "text": "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修。动作上维持跟踪，等待公司在电话会/投资者材料中对 enterprise agent、AI software attach rate 或相关收入口径的量化。"
-            },
-            {
-              "title": "估值/动作影响｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-              "text": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。"
-            },
-            {
-              "title": "估值/动作影响｜Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-              "text": "估值上，这条事件支持 NVIDIA 享有系统级平台溢价，而不只是芯片周期股估值。它能强化“AI 工厂平台公司”的中长期叙事，尤其是当 OpenAI、Microsoft、Oracle 这类客户把训练效率和网络可靠性视为刚需时。不过它还不是单独加仓触发器，因为文章没有披露 Spectrum-X 收入规模、毛利率、客户采购金额或独立订单。动作上维持 A 池核心，研究优先级上调到“AI 网络平台化验证”，仓位动作仍等待财报和客户部署数据验证。"
             }
           ],
           "triggers": [
             {
+              "title": "下一步验证｜生态/本地 Agent",
+              "text": "跟踪后续是否出现可核验的采用证据：Hermes/类似本地 agent 在企业/开发者侧的部署案例、活跃度或官方生态数据披露。；观察 RTX AI PC 与工作站出货/ASP/渠道反馈是否出现“agent 本地运行”驱动的结构性变化。；若 DGX Spark 被持续提及，关注其目标客户、交付节奏与是否形成可复用的软件/运行时绑定（而不是一次性硬件宣传）。"
+            },
+            {
+              "title": "下一步验证｜生态/训练基础设施（强化学习）",
+              "text": "关注 NVIDIA 后续在产品/平台发布中对 RL/后训练基础设施的明确支持（软件栈、互联/带宽优化、参考架构）。；观察是否出现可核验的客户采用：Ineffable 或类似团队在公开材料中披露使用规模、集群形态或性能指标。；跟踪 Vera Rubin 平台相关披露中，是否把 RL/模拟训练作为关键用例之一，而不仅是单一的预训练/推理叙事。"
+            },
+            {
               "title": "下一步验证｜生态合作/企业软件",
               "text": "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。；NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。；OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。"
-            },
-            {
-              "title": "下一步验证｜国家级 AI 基础设施 / 科学计算 / 能源",
-              "text": "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。；跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。；观察 Vera Rubin 平台在 100,000 GPU 级别科学计算场景中的部署是否顺利，是否成为下一代平台需求验证样板。"
-            },
-            {
-              "title": "下一步验证｜产品 / 网络平台 / AI 工厂基础设施",
-              "text": "下一次 NVIDIA 财报和电话会中，重点看 Data Center 收入、网络产品相关表述、毛利率，以及管理层是否单独强调 Spectrum-X / networking adoption。；跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。；观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
             }
           ]
         }
@@ -92,23 +92,23 @@
       "depositEvents": [
         {
           "eventIndex": 0,
-          "title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
-          "date": "2026-05-12",
+          "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+          "date": "2026-05-13",
           "priority": "P3",
           "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
         },
         {
           "eventIndex": 1,
-          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-          "date": "2026-05-07",
-          "priority": "P1",
+          "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+          "date": "2026-05-13",
+          "priority": "P3",
           "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
         },
         {
           "eventIndex": 2,
-          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-          "date": "2026-05-06",
-          "priority": "P1",
+          "title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
+          "date": "2026-05-12",
+          "priority": "P3",
           "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
         }
       ]
@@ -119,7 +119,7 @@
       "sourceEventTitle": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "sourceEventDate": "2026-05-12",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T13:35:32",
+      "updatedAt": "2026-05-14T22:39:49",
       "latestEvent": "2026-05-12｜董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "businessImpact": "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-2 年的供给与交付能力更依赖这些投资节奏能否顺利落地（良率、爬坡、供应链与人力），而不是仅靠需求端叙事。",
       "valuationImpact": "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材料：维持跟踪，等待后续季度指引、毛利率与现金流表现来决定是否需要下调对资本回报的信心或调整仓位节奏。",
@@ -240,7 +240,7 @@
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-14T13:35:32",
+      "updatedAt": "2026-05-14T22:39:49",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",

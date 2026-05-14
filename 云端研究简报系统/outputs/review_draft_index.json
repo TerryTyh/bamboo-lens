@@ -1,51 +1,14 @@
 {
-  "generated_at": "2026-05-14T13:35:32",
+  "generated_at": "2026-05-14T22:39:49",
   "summary": {
-    "total": 4,
-    "companies": 3,
-    "with_source_body": 3,
+    "total": 2,
+    "companies": 2,
+    "with_source_body": 1,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 1,
-      "readable_needs_review": 1,
       "needs_source": 2
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-        "date": "2026-05-13",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 9,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-        "date": "2026-05-13",
-        "score": 6,
-        "readiness_score": 23,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-        "has_source_body": true
-      }
-    ]
+    "priority_batch": []
   },
   "by_key": {
     "constellation::q1 2026 constellation energy corporation earnings conference call": {
@@ -85,40 +48,6 @@
       ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true
-    },
-    "nvidia::hermes unlocks self-improving ai agents, powered by nvidia rtx pcs and dgx spark": {
-      "draft_id": "auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-      "date": "2026-05-13",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 9,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
-      "has_source_body": true
-    },
-    "nvidia::nvidia, ineffable intelligence team up to build the future of reinforcement learning infrastructure": {
-      "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-      "date": "2026-05-13",
-      "score": 6,
-      "readiness_score": 23,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
       "has_source_body": true
     }
   },
@@ -165,79 +94,9 @@
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
         "has_source_body": true
       }
-    ],
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-        "date": "2026-05-13",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 9,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
-        "has_source_body": true
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-        "date": "2026-05-13",
-        "score": 6,
-        "readiness_score": 23,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-        "has_source_body": true
-      }
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-      "date": "2026-05-13",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 9,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-hermes-unlocks-self-improving-ai-agents-powered-by-nvidia-rtx-pcs-and-dgx-spark.md",
-      "has_source_body": true
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-      "date": "2026-05-13",
-      "score": 6,
-      "readiness_score": 23,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ineffable-intelligence-team-up-to-build-the-future-of-reinforcement-learning-infrastructu.md",
-      "has_source_body": true
-    },
     {
       "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
       "company": "constellation",
