@@ -1016,7 +1016,7 @@ const COMPANY_DATA = {
       snapshotDate: "估值快照：2026-04-15 可得市场数据",
       intro: "这是第一版估值模型样板，目标不是给一个精确目标价，而是把当前市场估值、合理估值区间和分部贡献拆开看清楚。",
       conclusion: "合理偏低，但不是无脑低估",
-      read: "按 9988.HK 约 HK$128.6、BABA 约 US$132.6、总市值约 US$297B / HK$2.30T 的快照看，折合人民币约 2.15 万亿元。第一版分部估值给出的合理市值区间约 RMB 2.3-2.9 万亿元，中枢约 RMB 2.6 万亿元。当前市值低于中枢但没有低到保守区间以下，所以更像“合理偏低”，不是“明显低估到闭眼买”。",
+      read: "第一版分部估值给出的合理市值区间约 RMB 2.3-2.9 万亿元，中枢约 RMB 2.6 万亿元。当前结论的核心不是某一个旧股价点位，而是看最新市场价格折算后的市值是否仍低于合理区间中枢、是否已经接近保守区间或乐观区间。最新股价请以右侧自动行情为准；估值结论仍需结合云 AI、即时零售投入、自由现金流和回购执行情况一起判断。",
       snapshot: [
         {
           label: "9988.HK 股价",
@@ -2596,7 +2596,11 @@ function renderValuationModel(company, model) {
 
   section.hidden = false;
   setText("companyValuationModelIntro", model.intro);
-  setText("companyValuationModelDate", model.snapshotDate);
+  const hasMarketSnapshot = Boolean(window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company]?.primary);
+  setText(
+    "companyValuationModelDate",
+    hasMarketSnapshot ? `${model.snapshotDate}；右侧为最新自动行情` : model.snapshotDate,
+  );
   setText("companyValuationModelConclusion", model.conclusion);
   setText("companyValuationModelRead", model.read);
 
@@ -2604,7 +2608,7 @@ function renderValuationModel(company, model) {
   if (snapshot) {
     const marketItems = buildMarketSnapshotItems(company);
     const modelItems = model.snapshot || [];
-    const items = marketItems.length ? [...marketItems, ...modelItems] : modelItems;
+    const items = marketItems.length ? marketItems : modelItems;
     snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
