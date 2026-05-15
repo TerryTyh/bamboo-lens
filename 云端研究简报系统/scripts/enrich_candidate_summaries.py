@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_FILE = ROOT / "outputs" / "official_candidates.json"
+REVIEWED_EVENTS_FILE = ROOT / "outputs" / "reviewed_events.json"
 
 
 def normalize(text: str) -> str:
@@ -93,16 +94,79 @@ def call_openai(api_key: str, title: str, source_url: str, source_text: str) -> 
             lines.append(line)
     return lines[:8]
 
+def backfill_from_reviewed_events(payload: dict) -> int:
+    if not REVIEWED_EVENTS_FILE.exists():
+        return 0
+
+    reviewed = json.loads(REVIEWED_EVENTS_FILE.read_text(encoding="utf-8"))
+    by_candidate_title: dict[str, dict] = {}
+    by_source_url: dict[str, dict] = {}
+    for records in (reviewed.get("companies") or {}).values():
+        for event in records:
+            candidate_title = normalize(event.get("source_candidate_title", ""))
+            source_url = normalize(event.get("source_url", ""))
+            if candidate_title:
+                by_candidate_title[candidate_title] = event
+            if source_url:
+                by_source_url[source_url] = event
+
+    def to_lines(event: dict) -> list[str]:
+        lines: list[str] = []
+        for raw in (event.get("source_summary") or [])[:6]:
+            line = normalize(raw)
+            if line:
+                lines.append(line)
+        for raw in [event.get("business_analysis", ""), event.get("valuation_analysis", "")]:
+            text = normalize(raw)
+            if not text:
+                continue
+            # Keep it short and punchy for candidate summaries.
+            lines.append(text[:120])
+        for raw in (event.get("verification") or [])[:2]:
+            line = normalize(raw)
+            if line:
+                lines.append(line)
+        deduped = []
+        seen = set()
+        for line in lines:
+            if line in seen:
+                continue
+            seen.add(line)
+            deduped.append(line)
+        return deduped[:8]
+
+    updated = 0
+    for company in (payload.get("companies") or {}).values():
+        for item in company:
+            if item.get("content_summary"):
+                continue
+            source_url = normalize(item.get("source_url", ""))
+            title = normalize(item.get("title", ""))
+            matched = by_source_url.get(source_url) or by_candidate_title.get(title)
+            if not matched:
+                continue
+            lines = to_lines(matched)
+            if not lines:
+                continue
+            item["content_summary"] = lines
+            item.pop("summary_error", None)
+            updated += 1
+    return updated
+
 
 def main() -> None:
     if not OUTPUT_FILE.exists():
         return
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not api_key:
-        print("Missing OPENAI_API_KEY; skipped candidate summary enrichment.")
-        return
 
     payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    if not api_key:
+        updated = backfill_from_reviewed_events(payload)
+        if updated:
+            OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Missing OPENAI_API_KEY; backfilled from reviewed events: {updated}")
+        return
+
     today = datetime.now(ZoneInfo("Asia/Shanghai"))
     updated = 0
     failed = 0

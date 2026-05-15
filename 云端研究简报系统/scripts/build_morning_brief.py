@@ -95,10 +95,13 @@ def render_item(index: int, item: dict) -> str:
 
 def main() -> None:
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
-    today = (now + timedelta(days=1)).strftime("%Y-%m-%d")
+    # Nightly runs can happen shortly after midnight; in that case the "morning brief"
+    # should still be for the same calendar day (this morning), not +1 day.
+    brief_date = now if now.hour < 6 else (now + timedelta(days=1))
+    today = brief_date.strftime("%Y-%m-%d")
     events = load_reviewed_events()
-    # Select: reviewed within the last ~36 hours.
-    window_start = now - timedelta(hours=36)
+    # Select: reviewed within the last 24 hours to avoid repeating older items.
+    window_start = now - timedelta(hours=24)
     selected = [
         item
         for item in events
