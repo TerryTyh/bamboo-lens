@@ -5,11 +5,11 @@
 - 公司：TSMC（tsmc）
 - 日期：2026-04-16
 - 类型：年报 / 深度材料
-- 候选分数：12
+- 候选分数：10
 - 当前动作：进入人工研判
-- 批处理建议：待读原文件（readiness 21）
+- 批处理建议：待读原文件（readiness 20）
 - 官方来源：[打开官方来源](http://pr.tsmc.com/english/news/3300)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260515-133040__pr.tsmc.com_english_latest-news.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html
 
 ## 批处理建议
 
@@ -25,11 +25,11 @@
 
 ### 原文可读内容
 
-HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available at https://investor.tsmc.com/english/sec-filings . Hard copies of the report are also available, free of charge, upon email request to p_sec_service@tsmc.com . Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.
+TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3300#)Search 5. TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300) TSMC Files Annual Report on Form 20-F for 2025 TSMC Files Annual Report on Form 20-F for 2025 *HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 -**TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available athttps://investor.tsmc.com/english/sec-filings.Hard copies of the report are also available, free of charge, upon email request top_sec_service@tsmc.com. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.
 
 ### 候选事实
 
-日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available at https://investor.tsmc.com/english/sec-filings . Hard copies of the report are also available, free of charge, upon email request to p_sec_service@tsmc.com . Copyright © Taiwan Semiconductor Manufacturing Company Limited 201…；来源：http://pr.tsmc.com/english/news/3300
+日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…；来源：http://pr.tsmc.com/english/news/3300
 
 ## 升级为正式事件前必须补齐
 
@@ -54,6 +54,17 @@ HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today f
 - 打开原始来源，确认正文是否足够支撑正式事件。
 - 补齐至少三条具体证据，再写业务影响和估值/动作影响。
 - 如果只有标题、日程或营销口号，保留候选，不进入正式事件。
+
+## 公司主页回写建议
+
+建议回写位置：
+
+- 最新动态
+- 财务地图
+- 业务地图
+- 风险与跟踪重点
+
+回写原则：若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。
 
 ## 入库方式
 

@@ -9,7 +9,7 @@
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 21）
 - 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations/past-events)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260515-133040__investors.constellationenergy.com_events-and-presentations_past-events.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html
 
 ## 批处理建议
 
@@ -55,6 +55,17 @@
 - 打开原始来源，确认正文是否足够支撑正式事件。
 - 补齐至少三条具体证据，再写业务影响和估值/动作影响。
 - 如果只有标题、日程或营销口号，保留候选，不进入正式事件。
+
+## 公司主页回写建议
+
+建议回写位置：
+
+- 最新动态
+- 财务地图
+- 当前结论
+- 估值模型
+
+回写原则：若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。
 
 ## 入库方式
 

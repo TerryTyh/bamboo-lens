@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T22:39:49",
+  "generated_at": "2026-05-16T01:30:46",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
     "total": 2,
@@ -31,7 +31,16 @@
       ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
       "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-      "has_source_body": false
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
     },
     {
       "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
@@ -50,7 +59,16 @@
       ],
       "source_url": "http://pr.tsmc.com/english/news/3300",
       "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "业务地图",
+          "风险与跟踪重点"
+        ],
+        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+      }
     }
   ],
   "suppressed": []

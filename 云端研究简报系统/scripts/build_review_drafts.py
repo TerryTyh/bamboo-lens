@@ -362,6 +362,33 @@ def evidence_prompts(event_type: str) -> list[str]:
     ]
 
 
+def company_page_writeback_targets(event_type: str) -> list[str]:
+    targets = ["最新动态"]
+    if "财报" in event_type:
+        targets.extend(["财务地图", "当前结论", "估值模型"])
+    elif "年报" in event_type:
+        targets.extend(["财务地图", "业务地图", "风险与跟踪重点"])
+    elif "合作" in event_type or "产品" in event_type:
+        targets.extend(["业务地图", "护城河与风险", "当前结论"])
+    elif "会议" in event_type:
+        targets.extend(["跟踪重点", "下一次验证点"])
+    else:
+        targets.extend(["当前结论", "跟踪重点"])
+    return targets
+
+
+def writeback_guidance(event_type: str) -> str:
+    if "财报" in event_type:
+        return "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+    if "年报" in event_type:
+        return "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+    if "合作" in event_type or "产品" in event_type:
+        return "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+    if "会议" in event_type:
+        return "会议日程本身不回写主页；只有 transcript、presentation 或管理层口径出来后，才更新验证点和相关页面内容。"
+    return "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+
+
 def readiness_profile(candidate: dict, event_candidate: dict, event_type: str, readable_source: str) -> dict:
     score = int(candidate.get("score") or 0)
     source_chars = len(readable_source)
@@ -483,6 +510,10 @@ def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> di
             "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
             "如果只有标题、日程或营销口号，保留候选，不进入正式事件。",
         ],
+        "company_page_writeback": {
+            "targets": company_page_writeback_targets(event_type),
+            "guidance": writeback_guidance(event_type),
+        },
         "quality_check": {
             "has_source": bool(source_url or source_doc),
             "has_readable_source": bool(readable_source),
@@ -511,6 +542,8 @@ def md_link(label: str, url: str) -> str:
 def draft_to_markdown(draft: dict) -> str:
     evidence = "\n".join(f"- {item}" for item in draft["evidence_needed"])
     verification = "\n".join(f"- {item}" for item in draft["verification"])
+    writeback_targets = "\n".join(f"- {item}" for item in draft.get("company_page_writeback", {}).get("targets", []))
+    writeback_guidance_text = draft.get("company_page_writeback", {}).get("guidance", "")
     source_summary = "\n\n".join(draft["source_summary"])
     quality = draft["quality_check"]
     source_url = md_link("打开官方来源", draft.get("source_url", ""))
@@ -571,6 +604,14 @@ def draft_to_markdown(draft: dict) -> str:
 
 {verification}
 
+## 公司主页回写建议
+
+建议回写位置：
+
+{writeback_targets}
+
+回写原则：{writeback_guidance_text}
+
 ## 入库方式
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
@@ -622,6 +663,7 @@ def write_outputs(drafts: list[dict], generated_at: str, suppressed: list[dict] 
             "source_url": draft.get("source_url", ""),
             "portal_doc": draft["portal_doc"],
             "has_source_body": draft["quality_check"]["has_source_body"],
+            "company_page_writeback": draft.get("company_page_writeback", {}),
         }
         key = candidate_key(draft["company"], draft["title"])
         by_key[key] = item

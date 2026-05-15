@@ -162,6 +162,15 @@ function renderCardActions(item) {
 
 function renderCandidateCard(item) {
   const draft = getReviewDraft(item);
+  const writeback = draft?.company_page_writeback || {};
+  const writebackTargets = writeback.targets || [];
+  const writebackBlock = draft ? `
+      <div class="candidate-review-block">
+        <strong>公司主页回写</strong>
+        <p>${escapeHtml(writeback.guidance || "正式事件入库后，继续判断是否需要回写公司主页。")}</p>
+        ${writebackTargets.length ? `<p>${escapeHtml(`建议位置：${writebackTargets.join(" / ")}`)}</p>` : ""}
+      </div>
+    ` : "";
   return `
     <article class="candidate-review-card status-${escapeHtml(item.candidate_status)}">
       <div class="candidate-card-top">
@@ -182,6 +191,7 @@ function renderCandidateCard(item) {
         <strong>下一步</strong>
         <p>${draft ? escapeHtml(draft.review_batch_reason || "已生成正式事件草稿。先读草稿里的原文可读内容和缺口清单，再决定是否升级。") : escapeHtml(item.read_next || "打开来源，确认是否具备正式事件质量。")}</p>
       </div>
+      ${writebackBlock}
       ${draft ? `<div class="candidate-review-block draft-status"><strong>草稿状态</strong><p>${escapeHtml(getDraftReadinessText(draft))}</p><p>${escapeHtml((draft.promotion_blockers || []).join("；") || "无系统识别的硬性阻碍，但仍需补齐正式事件字段。")}</p><code>${escapeHtml(draft.draft_id)}</code></div>` : ""}
       ${renderCardActions(item)}
     </article>

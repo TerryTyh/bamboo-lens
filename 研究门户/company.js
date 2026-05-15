@@ -1041,6 +1041,14 @@ const COMPANY_DATA = {
       intro: "这是第一版估值模型样板，目标不是给一个精确目标价，而是把当前市场估值、合理估值区间和分部贡献拆开看清楚。",
       conclusion: "合理偏低，但不是无脑低估",
       read: "第一版分部估值给出的合理市值区间约 RMB 2.3-2.9 万亿元，中枢约 RMB 2.6 万亿元。当前结论的核心不是某一个旧股价点位，而是看最新市场价格折算后的市值是否仍低于合理区间中枢、是否已经接近保守区间或乐观区间。最新股价请以右侧自动行情为准；估值结论仍需结合云 AI、即时零售投入、自由现金流和回购执行情况一起判断。",
+      actionPolicy: {
+        fundamentalState: "云 AI 强化，但利润和自由现金流仍在投入验证期",
+        low: "价格低于保守区间时，优先复核是否只是港股/中概折价或情绪波动；若云 EBITA、自由现金流和回购没有恶化，可列入更积极分批候选。",
+        belowMid: "价格低于中枢时，适合复核机会，但动作前必须确认云 AI 增长没有被即时零售投入和自由现金流下滑抵消。",
+        nearMid: "价格接近中枢时，以继续观察为主，重点等下一季云收入、云 EBITA、自由现金流和回购执行。",
+        nearHigh: "价格接近上沿时，不适合因 AI 叙事追价；除非云 AI 商业化和现金流同步改善，否则等待验证更稳。",
+        expensive: "价格高于乐观区间时，控制追价，只有在云 AI 明确上修估值中枢、即时零售亏损收窄且自由现金流修复后才考虑提高动作。",
+      },
       priceRange: {
         symbol: "9988.HK",
         currency: "HKD",
@@ -1902,6 +1910,14 @@ const COMPANY_DATA = {
       intro: "立讯这一版估值模型不再只问“公司好不好”，而是问：当前价格已经预支了多少新业务和现金流修复？如果没有现金流验证，哪些价格属于合理、偏贵或值得等待。",
       conclusion: "58-60 元附近接近合理中枢；68 元附近偏向乐观区间，不适合无验证追价",
       read: "按 2026-04-15 可得快照，立讯股价约 58.78 元、市值约 4283 亿元、TTM PE 约 26 倍、Forward PE 约 20.8 倍。若按你观察到的 68 元附近估算，市值约 4950 亿元，已经接近第一版乐观区间下沿。第一版合理市值区间约 4000-4700 亿元，中枢约 4350 亿元；因此现阶段更像“好公司，但价格已经要求 2026Q1 现金流和新业务继续兑现”。",
+      actionPolicy: {
+        fundamentalState: "复杂制造平台逻辑仍在，但现金流、存货和应收处于强验证期",
+        low: "价格低于保守区间时，先复核是否出现客户、现金流或新业务质量恶化；若没有恶化且经营现金流修复，可进入分批复核。",
+        belowMid: "价格低于中枢时，可以优先复核机会，但必须等应付、存货、应收三项没有同步恶化。",
+        nearMid: "价格接近中枢时，继续观察更合适，重点等下一季现金流质量和汽车/数据中心业务盈利质量。",
+        nearHigh: "价格接近上沿时，不要因为上涨追价；如果 Q1 没有证明现金流修复，就以等待验证为主。",
+        expensive: "价格高于乐观区间时，控制追价。除非现金流明显修复、新业务利润率清晰、客户集中风险没有扩大，否则不提高动作。",
+      },
       priceRange: {
         symbol: "002475.SZ",
         currency: "CNY",
@@ -2630,7 +2646,7 @@ function getQuoteForRange(market, range) {
   return quotes.find((quote) => quote.symbol === range.symbol) || market.primary || null;
 }
 
-function buildValuationPositionItem(company, model) {
+function getValuationPosition(company, model) {
   const market = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company];
   const range = model?.priceRange;
   const quote = getQuoteForRange(market, range);
@@ -2657,9 +2673,53 @@ function buildValuationPositionItem(company, model) {
   }
 
   return {
+    status,
+    notePrefix,
+    range,
+    quote,
+    price,
+  };
+}
+
+function buildValuationPositionItem(company, model) {
+  const position = getValuationPosition(company, model);
+  if (!position) return null;
+  const { status, notePrefix, range, quote, price } = position;
+
+  return {
     label: "估值位置",
     value: status,
     note: `${notePrefix} 当前 ${quote.symbol} 为 ${quote.display?.price || formatRangePrice(price, range.currency)}；参考区间约 ${formatRangePrice(range.low, range.currency)}-${formatRangePrice(range.high, range.currency)}，中枢约 ${formatRangePrice(range.mid, range.currency)}。`,
+  };
+}
+
+function actionPolicyKey(status) {
+  if (status === "低于合理区间") return "low";
+  if (status === "低于中枢") return "belowMid";
+  if (status === "接近中枢") return "nearMid";
+  if (status === "接近上沿") return "nearHigh";
+  if (status === "偏贵") return "expensive";
+  return "nearMid";
+}
+
+function buildValuationActionItem(company, model) {
+  const position = getValuationPosition(company, model);
+  if (!position) return null;
+  const policy = model?.actionPolicy || {};
+  const key = actionPolicyKey(position.status);
+  const fallback = {
+    low: "价格低于合理区间时，先复核基本面是否恶化；若没有恶化，再考虑提高研究和分批优先级。",
+    belowMid: "价格低于中枢时，适合复核机会，但必须确认公司当前业务和现金流没有破坏原估值假设。",
+    nearMid: "价格接近中枢时，以继续观察为主，等待下一轮财报或关键事件验证。",
+    nearHigh: "价格接近上沿时，等待验证比追价更重要，除非基本面继续明显上修。",
+    expensive: "价格偏贵时，控制追价；只有基本面明显上修估值中枢时才重新评估动作。",
+  };
+
+  const fundamentalState = policy.fundamentalState ? `基本面状态：${policy.fundamentalState}。` : "";
+  return {
+    label: "动作提示",
+    value: policy.label || "研究辅助，不是自动买卖",
+    note: `${fundamentalState}${policy[key] || fallback[key]}`,
   };
 }
 
@@ -2725,8 +2785,9 @@ function renderValuationModel(company, model) {
   if (snapshot) {
     const marketItems = buildMarketSnapshotItems(company);
     const positionItem = buildValuationPositionItem(company, model);
+    const actionItem = buildValuationActionItem(company, model);
     const modelItems = model.snapshot || [];
-    const items = marketItems.length ? [positionItem, ...marketItems].filter(Boolean) : modelItems;
+    const items = marketItems.length ? [positionItem, actionItem, ...marketItems].filter(Boolean) : modelItems;
     snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
