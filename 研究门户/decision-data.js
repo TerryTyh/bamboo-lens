@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-05-14T15:41:18",
-  "source_generated_at": "2026-05-14T15:41:18",
+  "generated_at": "2026-05-15T13:34:57",
+  "source_generated_at": "2026-05-15T13:34:57",
   "items": [
     {
       "company": "constellation",
@@ -663,7 +663,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260515-133040__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20260511,
       "score": 14
@@ -775,6 +775,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 5,
       "sort_key": 20250426,
       "score": 14
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260515-133040__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20260416,
+      "score": 12
     },
     {
       "company": "gevernova",
@@ -917,24 +935,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "source_url": "",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 6,
-      "sort_key": 20260416,
-      "score": 10
-    },
-    {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-      "event_index": null,
       "sort_key": 20260416,
       "score": 10
     },
@@ -1099,12 +1099,30 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+      "date": "2026-05-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "http://pr.tsmc.com/english/news/3314",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260515-133040__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20260515,
+      "score": 6
     }
   ],
   "summary": {
-    "total": 61,
+    "total": 62,
     "formal_events": 59,
-    "official_candidates": 2,
+    "official_candidates": 3,
     "companies": 8
   }
 };
