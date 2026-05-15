@@ -185,6 +185,14 @@ const COMPANY_DATA = {
       intro: "NVIDIA 的估值模型不能只用“AI 龙头”四个字解释。它现在的市值是在同时买 Data Center 现金流、CUDA / 网络 / 系统级护城河、AI 工厂平台化，以及未来推理需求能否接棒训练需求。",
       conclusion: "合理偏高；只有继续超预期兑现才支撑更积极动作",
       read: "按 2026-04-15 至 2026-04-23 快照，NVIDIA 股价约 US$197.8-199.6、市值约 US$4.81-4.85T、PE 约 40-41x、Forward PE 约 23.6-24.3x、P/FCF 约 49.7x。第一版合理市值区间约 US$4.2-5.2T，中枢约 US$4.7T。当前价格接近合理区间中上部，不是无法解释的泡沫，但已经要求 FY27 Q1 继续验证收入、毛利率、推理需求和客户 capex。",
+      priceRange: {
+        symbol: "NVDA",
+        currency: "USD",
+        low: 172.8,
+        mid: 193.3,
+        high: 214.0,
+        basis: "由第一版合理市值区间 US$4.2-5.2T 按 4 月中旬股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -457,6 +465,14 @@ const COMPANY_DATA = {
       intro: "TSMC 估值的核心不是单纯给半导体公司一个 PE，而是判断市场给出的高市值，究竟是在买先进制程垄断、HPC / AI 需求、CoWoS / 2nm 期权，还是已经过度预支了高毛利和高资本回报。",
       conclusion: "合理略偏高，但仍属于高质量公司可解释的估值",
       read: "按 2026-04-15 台股快照，TSMC 股价约 NT$2,080、市值约 NT$53.29T、PE 约 31x、Forward PE 约 22.4x；4 月下旬股价一度冲至 NT$2,185，市值进一步上移。第一版合理市值区间约 NT$48-60T，中枢约 NT$54T。也就是说，4 月中旬价格大致贴近合理中枢，4 月下旬新高附近已经偏向区间上半部，需要后续 Q2 毛利率、HPC 占比和 capex 回报继续兑现。",
+      priceRange: {
+        symbol: "2330.TW",
+        currency: "TWD",
+        low: 1874,
+        mid: 2108,
+        high: 2342,
+        basis: "由第一版合理市值区间 NT$48-60T 按 2026-04-15 台股股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "台股股价",
@@ -740,6 +756,14 @@ const COMPANY_DATA = {
       intro: "Microsoft 的估值模型要同时看两件事：一边是 Office / Azure / RPO / AI run-rate 这套企业平台现金流，另一边是 AI 数据中心投入对自由现金流和 Cloud 毛利率的压力。",
       conclusion: "合理偏低，但不是无脑低估；关键取决于 AI capex 回报能否兑现",
       read: "按 2026-04-15 快照，Microsoft 股价约 US$407.7、市值约 US$3.03T、PE 约 24.6x、Forward PE 约 22.4x；4 月下旬市值约 US$3.13T，PE 约 26x、Forward PE 约 23.7x。第一版合理市值区间约 US$3.1-3.8T，中枢约 US$3.45T。当前价格低于中枢，但 P/FCF 约 40x，说明市场仍在等待 AI capex 转成更高质量现金流。",
+      priceRange: {
+        symbol: "MSFT",
+        currency: "USD",
+        low: 417.1,
+        mid: 464.2,
+        high: 511.4,
+        basis: "由第一版合理市值区间 US$3.1-3.8T 按 2026-04-15 股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -1017,6 +1041,14 @@ const COMPANY_DATA = {
       intro: "这是第一版估值模型样板，目标不是给一个精确目标价，而是把当前市场估值、合理估值区间和分部贡献拆开看清楚。",
       conclusion: "合理偏低，但不是无脑低估",
       read: "第一版分部估值给出的合理市值区间约 RMB 2.3-2.9 万亿元，中枢约 RMB 2.6 万亿元。当前结论的核心不是某一个旧股价点位，而是看最新市场价格折算后的市值是否仍低于合理区间中枢、是否已经接近保守区间或乐观区间。最新股价请以右侧自动行情为准；估值结论仍需结合云 AI、即时零售投入、自由现金流和回购执行情况一起判断。",
+      priceRange: {
+        symbol: "9988.HK",
+        currency: "HKD",
+        low: 137.6,
+        mid: 155.5,
+        high: 173.5,
+        basis: "由第一版合理市值区间 RMB 2.3-2.9 万亿元按 2026-04-15 港股股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "9988.HK 股价",
@@ -1316,6 +1348,14 @@ const COMPANY_DATA = {
       intro: "汇川的估值模型不能只按 A 股工业龙头给一个高 PE。它要同时看通用自动化周期、新能源汽车电驱利润质量、平台化产品矩阵、现金流、存货和资产减值。",
       conclusion: "合理略偏高；好公司但需要现金流和库存继续验证",
       read: "按 2026-04-30 快照，汇川股价约 68.6 元、市值约 1857 亿元、PE 约 39.6x、Forward PE 约 28.3x。第一版合理市值区间约 1550-1950 亿元，中枢约 1750 亿元。当前市值接近区间上半部，不算离谱，但已经要求通用自动化、新能源汽车和现金流质量继续兑现。",
+      priceRange: {
+        symbol: "300124.SZ",
+        currency: "CNY",
+        low: 57.2,
+        mid: 64.6,
+        high: 72.0,
+        basis: "由第一版合理市值区间 1550-1950 亿元按 2026-04-30 股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -1588,6 +1628,14 @@ const COMPANY_DATA = {
       intro: "GE Vernova 的估值模型要把“电力系统升级叙事”翻译成订单、backlog、利润率和自由现金流。它现在已经不是便宜的周期设备股，市场在提前买电网升级、燃气发电排产、数据中心电力需求和 Prolec 并表后的平台价值。",
       conclusion: "偏高但有基本面支撑；不适合只因电力主题追价",
       read: "按 2026-04-15 快照，GEV 股价约 US$975-980、市值约 US$262-263B、PE 约 55.8x、Forward PE 约 69.0x、P/FCF 约 71.8x；4 月 30 日收盘约 US$1,083.5，市值粗略上移到约 US$291B。第一版合理市值区间约 US$220-280B，中枢约 US$250B。当前价格已经在区间上沿甚至略上方，需要 Q2/Q3 连续证明订单、利润率和自由现金流，而不是只靠电力景气叙事。",
+      priceRange: {
+        symbol: "GEV",
+        currency: "USD",
+        low: 819.0,
+        mid: 930.8,
+        high: 1042.5,
+        basis: "由第一版合理市值区间 US$220-280B 按 2026-04-30 股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -1854,6 +1902,14 @@ const COMPANY_DATA = {
       intro: "立讯这一版估值模型不再只问“公司好不好”，而是问：当前价格已经预支了多少新业务和现金流修复？如果没有现金流验证，哪些价格属于合理、偏贵或值得等待。",
       conclusion: "58-60 元附近接近合理中枢；68 元附近偏向乐观区间，不适合无验证追价",
       read: "按 2026-04-15 可得快照，立讯股价约 58.78 元、市值约 4283 亿元、TTM PE 约 26 倍、Forward PE 约 20.8 倍。若按你观察到的 68 元附近估算，市值约 4950 亿元，已经接近第一版乐观区间下沿。第一版合理市值区间约 4000-4700 亿元，中枢约 4350 亿元；因此现阶段更像“好公司，但价格已经要求 2026Q1 现金流和新业务继续兑现”。",
+      priceRange: {
+        symbol: "002475.SZ",
+        currency: "CNY",
+        low: 54.9,
+        mid: 59.7,
+        high: 64.5,
+        basis: "由第一版合理市值区间 4000-4700 亿元按 2026-04-15 股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -2125,6 +2181,14 @@ const COMPANY_DATA = {
       intro: "Constellation 的估值不能按普通公用事业看。市场现在买的不是单纯发电资产，而是核电稀缺性、AI 数据中心用电、长期合同溢价、Calpine 整合和未来 EPS 增长能否一起兑现。",
       conclusion: "合理偏高；必须靠合同、EPS 和自由现金流继续兑现",
       read: "按 2026-04-15 快照，CEG 股价约 US$294.6、市值约 US$106.7B、EV 约 US$114.0B、PE 约 39.8x、Forward PE 约 25.4x；4 月 29 日收盘约 US$297.0，仍低于 52 周高点 US$412.7。第一版合理市值区间约 US$90-120B，中枢约 US$105B。当前价格大致贴近中枢偏上，但 P/FCF 接近 85x，说明市场已经预支了核电重定价和数据中心电力需求，后续必须看现金流兑现。",
+      priceRange: {
+        symbol: "CEG",
+        currency: "USD",
+        low: 248.5,
+        mid: 289.9,
+        high: 331.2,
+        basis: "由第一版合理市值区间 US$90-120B 按 2026-04-15 股价/市值关系粗略折算。",
+      },
       snapshot: [
         {
           label: "股价快照",
@@ -2546,6 +2610,59 @@ function formatMarketTime(timestamp) {
   });
 }
 
+function formatRangePrice(value, currency) {
+  if (typeof value !== "number" || Number.isNaN(value)) return "暂无";
+  const prefix = {
+    USD: "US$",
+    HKD: "HK$",
+    TWD: "NT$",
+    CNY: "¥",
+  }[currency] || "";
+  return `${prefix}${value.toLocaleString("zh-CN", {
+    minimumFractionDigits: value >= 100 ? 0 : 1,
+    maximumFractionDigits: value >= 100 ? 0 : 1,
+  })}`;
+}
+
+function getQuoteForRange(market, range) {
+  if (!market || !range) return null;
+  const quotes = market.quotes || [];
+  return quotes.find((quote) => quote.symbol === range.symbol) || market.primary || null;
+}
+
+function buildValuationPositionItem(company, model) {
+  const market = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company];
+  const range = model?.priceRange;
+  const quote = getQuoteForRange(market, range);
+  const price = quote?.price;
+  if (!range || typeof price !== "number") return null;
+
+  let status = "接近中枢";
+  let notePrefix = "当前价格大致贴近第一版合理估值中枢。";
+  if (price < range.low) {
+    status = "低于合理区间";
+    notePrefix = "当前价格低于第一版保守区间，值得优先复核是否有基本面恶化。";
+  } else if (price < range.mid * 0.95) {
+    status = "低于中枢";
+    notePrefix = "当前价格低于第一版合理估值中枢，但还要看基本面是否仍支撑原估值区间。";
+  } else if (price <= range.mid * 1.05) {
+    status = "接近中枢";
+    notePrefix = "当前价格接近第一版合理估值中枢，重点看后续业绩兑现。";
+  } else if (price <= range.high) {
+    status = "接近上沿";
+    notePrefix = "当前价格已经靠近第一版乐观区间，继续上行更依赖强兑现。";
+  } else {
+    status = "偏贵";
+    notePrefix = "当前价格已经高于第一版乐观区间，除非基本面明显上修，否则追价容错率偏低。";
+  }
+
+  return {
+    label: "估值位置",
+    value: status,
+    note: `${notePrefix} 当前 ${quote.symbol} 为 ${quote.display?.price || formatRangePrice(price, range.currency)}；参考区间约 ${formatRangePrice(range.low, range.currency)}-${formatRangePrice(range.high, range.currency)}，中枢约 ${formatRangePrice(range.mid, range.currency)}。`,
+  };
+}
+
 function buildMarketSnapshotItems(company) {
   const market = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company];
   const primary = market?.primary;
@@ -2607,8 +2724,9 @@ function renderValuationModel(company, model) {
   const snapshot = document.getElementById("companyValuationSnapshot");
   if (snapshot) {
     const marketItems = buildMarketSnapshotItems(company);
+    const positionItem = buildValuationPositionItem(company, model);
     const modelItems = model.snapshot || [];
-    const items = marketItems.length ? marketItems : modelItems;
+    const items = marketItems.length ? [positionItem, ...marketItems].filter(Boolean) : modelItems;
     snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
