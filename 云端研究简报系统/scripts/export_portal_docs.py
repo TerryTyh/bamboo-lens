@@ -34,6 +34,10 @@ DOCS = [
         ROOT / "outputs" / "weekend_sync_summary.md",
         PORTAL_DOCS / "briefs" / "weekend_sync_summary.md",
     ),
+    (
+        ROOT / "outputs" / "company_page_readability_audit.md",
+        PORTAL_DOCS / "research" / "company_page_readability_audit.md",
+    ),
 ]
 
 

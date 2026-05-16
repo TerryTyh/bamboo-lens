@@ -22,8 +22,8 @@ SECTION_LIMITS = {
     ("businessMap", "segments"): 2,
     ("businessMap", "moat"): 2,
     ("valuationModel", "currentBreakdown"): 2,
-    ("valuationModel", "scenarios"): 2,
-    ("valuationModel", "triggers"): 2,
+    ("valuationModel", "scenarios"): 1,
+    ("valuationModel", "triggers"): 1,
 }
 
 
@@ -263,7 +263,7 @@ def valuation_scenario(event: dict, verification: list[str]) -> list[dict]:
         },
         {
             "key": stable_key("valuation-scenario", "watch"),
-            "title": "维持观察条件",
+            "title": "暂不调整估值中枢的条件",
             "text": compact(valuation, 320),
         },
     ]

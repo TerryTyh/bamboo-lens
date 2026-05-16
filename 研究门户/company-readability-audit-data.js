@@ -1,0 +1,84 @@
+window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
+  "generated_at": "2026-05-17T00:26:41",
+  "source_overrides_at": "2026-05-17T00:26:41",
+  "items": [
+    {
+      "company": "constellation",
+      "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+      "sourceEventDate": "2026-03-31",
+      "status": "review",
+      "counts": {
+        "finance_rows": 2,
+        "finance_bridge": 3,
+        "finance_notes": 1,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
+      },
+      "totalAutoItems": 11,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
+      "warnings": [
+        "有 1 条文本接近过长阈值"
+      ],
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
+    },
+    {
+      "company": "nvidia",
+      "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+      "sourceEventDate": "2026-05-07",
+      "status": "review",
+      "counts": {
+        "finance_rows": 0,
+        "finance_bridge": 0,
+        "finance_notes": 0,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 0,
+        "valuation_scenarios": 0,
+        "valuation_triggers": 0
+      },
+      "totalAutoItems": 2,
+      "omitted": {},
+      "warnings": [
+        "有 1 条文本接近过长阈值"
+      ],
+      "suggestions": []
+    },
+    {
+      "company": "tsmc",
+      "sourceEventTitle": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
+      "sourceEventDate": "2026-05-12",
+      "status": "healthy",
+      "counts": {
+        "finance_rows": 3,
+        "finance_bridge": 3,
+        "finance_notes": 1,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
+      },
+      "totalAutoItems": 12,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
+      "warnings": [],
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
+    }
+  ],
+  "summary": {
+    "companies": 3,
+    "healthy": 1,
+    "review": 2,
+    "at_risk": 0
+  }
+};
