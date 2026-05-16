@@ -15,6 +15,17 @@ OVERRIDES_FILE = OUTPUT_DIR / "company_page_overrides.json"
 PORTAL_OVERRIDES_FILE = PROJECT_ROOT / "研究门户" / "company-page-overrides-data.js"
 MAX_DEPOSITS_PER_COMPANY = 3
 
+SECTION_LIMITS = {
+    ("financeMap", "rows"): 3,
+    ("financeMap", "bridge"): 3,
+    ("financeMap", "notes"): 2,
+    ("businessMap", "segments"): 2,
+    ("businessMap", "moat"): 2,
+    ("valuationModel", "currentBreakdown"): 2,
+    ("valuationModel", "scenarios"): 2,
+    ("valuationModel", "triggers"): 2,
+}
+
 
 FINANCE_TERMS = [
     "收入",
@@ -108,6 +119,12 @@ def merge_keyed_items(items: list[dict]) -> list[dict]:
             seen.add(key)
         merged.append(item)
     return merged
+
+
+def limit_items(items: list[dict], limit: int) -> tuple[list[dict], int]:
+    if limit <= 0 or len(items) <= limit:
+        return items, 0
+    return items[:limit], len(items) - limit
 
 
 def contains_any(text: str, terms: list[str]) -> bool:
@@ -349,13 +366,22 @@ def merge_deposits(deposits: list[dict]) -> dict:
     merged["valuationModel"]["currentBreakdown"] = merge_keyed_items(merged["valuationModel"]["currentBreakdown"])
     merged["valuationModel"]["scenarios"] = merge_keyed_items(merged["valuationModel"]["scenarios"])
     merged["valuationModel"]["triggers"] = merge_keyed_items(merged["valuationModel"]["triggers"])
-    return merged
+
+    omitted = {}
+    for (section, field), limit in SECTION_LIMITS.items():
+        limited, omitted_count = limit_items(merged[section][field], limit)
+        merged[section][field] = limited
+        if omitted_count:
+            omitted[f"{section}.{field}"] = omitted_count
+
+    return {"sections": merged, "omitted": omitted}
 
 
 def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) -> dict:
     action = str(event.get("action") or "").strip()
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
     deposits = [event_deposits(deposit_item, deposit_event) for deposit_item, deposit_event in all_items]
+    merged_deposits = merge_deposits(deposits)
     return {
         "source": "decision_deposition",
         "sourceEventIndex": item.get("event_index", 0),
@@ -376,7 +402,12 @@ def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) 
             "blockers": item.get("writeback_blockers", []),
         },
         "updatedSections": item.get("update_targets", []),
-        "sectionDeposits": merge_deposits(deposits),
+        "sectionDeposits": merged_deposits["sections"],
+        "depositPolicy": {
+            "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
+            "limits": {f"{section}.{field}": limit for (section, field), limit in SECTION_LIMITS.items()},
+            "omitted": merged_deposits["omitted"],
+        },
         "depositEvents": [
             {
                 "eventIndex": deposit_item.get("event_index", 0),
