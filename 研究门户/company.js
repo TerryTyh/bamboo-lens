@@ -1918,11 +1918,6 @@ const COMPANY_DATA = {
         nearHigh: "价格接近上沿时，不要因为上涨追价；如果 Q1 没有证明现金流修复，就以等待验证为主。",
         expensive: "价格高于乐观区间时，控制追价。除非现金流明显修复、新业务利润率清晰、客户集中风险没有扩大，否则不提高动作。",
       },
-      portfolioPolicy: {
-        label: "组合集中度",
-        value: "仓位决定是否止盈",
-        note: "若总资产占比仍低于 5%，通常不需要因为组合整体风险强制减仓；若风险资产占比超过 5%-6%，可开始考虑是否止盈一小部分；若超过 8% 或单一 A 股持仓接近/超过 25%，即使公司仍好，也应优先降低集中度而不是继续加仓。",
-      },
       priceRange: {
         symbol: "002475.SZ",
         currency: "CNY",
@@ -2728,17 +2723,6 @@ function buildValuationActionItem(company, model) {
   };
 }
 
-function buildValuationPortfolioItem(model) {
-  const policy = model?.portfolioPolicy;
-  if (!policy) return null;
-
-  return {
-    label: policy.label || "组合集中度",
-    value: policy.value || "结合仓位判断",
-    note: policy.note,
-  };
-}
-
 function buildMarketSnapshotItems(company) {
   const market = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[company];
   const primary = market?.primary;
@@ -2802,9 +2786,8 @@ function renderValuationModel(company, model) {
     const marketItems = buildMarketSnapshotItems(company);
     const positionItem = buildValuationPositionItem(company, model);
     const actionItem = buildValuationActionItem(company, model);
-    const portfolioItem = buildValuationPortfolioItem(model);
     const modelItems = model.snapshot || [];
-    const items = marketItems.length ? [positionItem, actionItem, portfolioItem, ...marketItems].filter(Boolean) : modelItems;
+    const items = marketItems.length ? [positionItem, actionItem, ...marketItems].filter(Boolean) : modelItems;
     snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
