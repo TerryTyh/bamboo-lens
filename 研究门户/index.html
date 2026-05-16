@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>竹鉴 | Bamboo Lens</title>
-    <link rel="stylesheet" href="./styles.css?v=20260502-3" />
+    <link rel="stylesheet" href="./styles.css?v=20260516-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -45,35 +45,38 @@
       </header>
 
       <main class="home-main">
-        <section id="workbench" class="section">
+        <section id="workbench" class="section cockpit-section">
           <div class="section-heading">
-            <p class="section-kicker">Workbench</p>
-            <h2>接下来先补这些</h2>
-            <p class="muted">不讲大原则，直接把下一步该推进的研究任务放在这里。</p>
+            <p class="section-kicker">Decision Cockpit</p>
+            <h2>当前决策驾驶舱</h2>
+            <p class="muted">首页先回答三个问题：最近发生了什么、当前最该看谁、有没有动作触发。</p>
           </div>
-          <div class="grid three-up">
-            <article class="card priority-card">
-              <span class="status-label">Priority 1</span>
-              <h3>补持仓相关标的</h3>
-              <p>先从你组合里已经出现的公司和主题开始补档，比如阿里、立讯、半导体/AI/机器人相关标的。</p>
+          <div class="cockpit-grid">
+            <article id="cockpitLatestChange" class="card cockpit-card">
+              <span class="status-label">Latest Change</span>
+              <h3>读取最近事件...</h3>
+              <p>正在从正式事件库里读取最新变化。</p>
             </article>
-            <article class="card priority-card">
-              <span class="status-label">Priority 2</span>
-              <h3>重做动态入库</h3>
-              <p>没有原文链接和正文摘要的内容，不再放进公司主页动态；日程类信息只做提醒，不写判断。</p>
+            <article id="cockpitFocusCompany" class="card cockpit-card">
+              <span class="status-label">Focus</span>
+              <h3>读取当前重点...</h3>
+              <p>正在从动态决策队列里读取下一步优先项。</p>
             </article>
-            <article class="card priority-card">
-              <span class="status-label">Priority 3</span>
-              <h3>把日报改得更有用</h3>
-              <p>日报优先讲“和当前研究重点相关的新变化”，没有实质新信息就少发，不凑内容。</p>
+            <article id="cockpitActionTrigger" class="card cockpit-card action-card">
+              <span class="status-label">Action Trigger</span>
+              <h3>读取估值动作...</h3>
+              <p>正在结合阿里和立讯样板闭环，检查最新价格位置。</p>
             </article>
           </div>
           <div class="quality-gate">
             <div>
-              <h3>当前最该动手的事</h3>
-              <p>下一轮先选 2-3 个与你组合相关的标的补公司页，同时把浅动态从正式事件里清出去。</p>
+              <h3>当前样板闭环</h3>
+              <p>先把阿里与立讯打磨成样板：事件进入门户，沉淀到公司主页，再由最新价格和基本面状态触发动作提示。</p>
             </div>
-            <a class="event-link" href="./reader.html?doc=./docs/research/31-研究池与真实组合衔接改造计划V1.md&title=研究池与真实组合衔接改造计划">查看改造计划</a>
+            <div class="quality-link-row">
+              <a class="event-link" href="./company.html?company=alibaba&v=20260516-1#companyValuationModelSection">看阿里样板</a>
+              <a class="event-link" href="./company.html?company=luxshare&v=20260516-1#companyValuationModelSection">看立讯样板</a>
+            </div>
           </div>
         </section>
 
@@ -354,6 +357,7 @@
     <script src="./decision-data.js?v=20260502-1"></script>
     <script src="./decision-impact-data.js?v=20260505-1"></script>
     <script src="./decision-deposition-data.js?v=20260509-1"></script>
-    <script src="./index.js?v=20260510-1"></script>
+    <script src="./market-snapshot-data.js?v=20260515-1"></script>
+    <script src="./index.js?v=20260516-1"></script>
   </body>
 </html>

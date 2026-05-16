@@ -65,6 +65,152 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
+const COCKPIT_VALUATION_WATCH = {
+  alibaba: {
+    name: "阿里巴巴",
+    symbol: "9988.HK",
+    range: { low: 137.6, mid: 155.5, high: 173.5 },
+    currency: "HK$",
+    fundamentalState: "云 AI 强化，但即时零售投入、自由现金流和回购质量仍要验证。",
+    action: {
+      low: "复核机会，但不能只因便宜行动；先看云 EBITA、自由现金流和回购是否继续支撑估值中枢。",
+      belowMid: "低于中枢，适合复核机会；动作前确认云增长没有被即时零售投入抵消。",
+      nearMid: "接近中枢，继续观察，等下一季云收入、云 EBITA、自由现金流和回购执行。",
+      nearHigh: "接近上沿，控制追价；除非云 AI 商业化和现金流同步改善。",
+      expensive: "偏贵，等待验证；只有估值中枢被云 AI 和现金流共同上修后再提高动作。",
+    },
+  },
+  luxshare: {
+    name: "立讯精密",
+    symbol: "002475.SZ",
+    range: { low: 54.9, mid: 59.7, high: 64.5 },
+    currency: "¥",
+    fundamentalState: "复杂制造平台逻辑仍在，但现金流、存货、应收和新业务利润质量处于强验证期。",
+    action: {
+      low: "复核机会，但先确认客户、现金流和新业务质量没有恶化。",
+      belowMid: "低于中枢，可优先复核；必须等应付、存货、应收三项没有同步恶化。",
+      nearMid: "接近中枢，继续观察；重点等下一季现金流质量和汽车/数据中心业务盈利质量。",
+      nearHigh: "接近上沿，不要因为上涨追价；若 Q1 没证明现金流修复，以等待验证为主。",
+      expensive: "偏贵，控制追价；除非现金流明显修复、新业务利润率清晰、客户集中风险没有扩大。",
+    },
+  },
+};
+
+function getMarketSnapshotCompany(companyId) {
+  return window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies?.[companyId] || null;
+}
+
+function getPrimaryPrice(companyId) {
+  const company = getMarketSnapshotCompany(companyId);
+  const primary = company?.primary || null;
+  if (!primary || typeof primary.price !== "number") return null;
+  return {
+    price: primary.price,
+    displayPrice: primary.display?.price || `${primary.currency || ""}${primary.price}`,
+    changePercent: primary.display?.changePercent || "",
+    marketTime: primary.marketTime,
+  };
+}
+
+function classifyPricePosition(price, range) {
+  if (typeof price !== "number" || !range) {
+    return { status: "待更新", key: "nearMid", severity: 0 };
+  }
+  if (price < range.low) return { status: "低于合理区间", key: "low", severity: 2 };
+  if (price < range.mid) return { status: "低于中枢", key: "belowMid", severity: 1 };
+  if (price <= range.high) {
+    const progress = (price - range.mid) / (range.high - range.mid || 1);
+    return progress >= 0.6
+      ? { status: "接近上沿", key: "nearHigh", severity: 3 }
+      : { status: "接近中枢", key: "nearMid", severity: 1 };
+  }
+  return { status: "偏贵", key: "expensive", severity: 4 };
+}
+
+function formatRange(range, currency) {
+  return `${currency}${range.low}-${range.high}，中枢 ${currency}${range.mid}`;
+}
+
+function buildCockpitActionItems() {
+  return Object.entries(COCKPIT_VALUATION_WATCH).map(([companyId, config]) => {
+    const quote = getPrimaryPrice(companyId);
+    const position = classifyPricePosition(quote?.price, config.range);
+    return {
+      companyId,
+      ...config,
+      quote,
+      position,
+      actionText: config.action[position.key] || config.action.nearMid,
+    };
+  }).sort((a, b) => b.position.severity - a.position.severity);
+}
+
+function renderDecisionCockpit() {
+  const latestTarget = document.getElementById("cockpitLatestChange");
+  const focusTarget = document.getElementById("cockpitFocusCompany");
+  const actionTarget = document.getElementById("cockpitActionTrigger");
+
+  if (latestTarget) {
+    const latest = buildTimelineEvents()[0];
+    if (latest) {
+      latestTarget.innerHTML = `
+        <span class="status-label">最近发生了什么</span>
+        <div class="event-meta">
+          <span>${escapeHtml(latest.date || "日期待确认")}</span>
+          <span>${escapeHtml(latest.companyName)}</span>
+        </div>
+        <h3>${escapeHtml(latest.title)}</h3>
+        <p>${escapeHtml(latest.note || "这条事件已进入正式事件库，建议打开详情看原文摘要和分析。")}</p>
+        <a class="event-link" href="./event.html?company=${encodeURIComponent(latest.company)}&event=${latest.index}&return=company&v=20260516-1">查看事件详情</a>
+      `;
+    }
+  }
+
+  if (focusTarget) {
+    const queueItems = window.BAMBOO_LENS_DECISION_QUEUE?.items || [];
+    const formalItem = queueItems.find((item) => item.source_type === "formal_event") || queueItems[0];
+    if (formalItem) {
+      const link = getDecisionLink(formalItem);
+      const externalAttrs = formalItem.source_type === "official_candidate" && formalItem.source_url
+        ? ' target="_blank" rel="noreferrer"'
+        : "";
+      focusTarget.innerHTML = `
+        <span class="status-label">当前最该看谁</span>
+        <div class="event-meta">
+          <span>${escapeHtml(formalItem.date || "日期待确认")}</span>
+          <span>${escapeHtml(formalItem.company_name || formalItem.company)}</span>
+        </div>
+        <h3>${escapeHtml(formalItem.title)}</h3>
+        <p><strong>${escapeHtml(formalItem.decision_action || "先读原文")}</strong>：${escapeHtml(formalItem.why || "这条内容在当前决策队列里优先级较高。")}</p>
+        <a class="event-link" href="${escapeHtml(link)}"${externalAttrs}>${getDecisionLinkLabel(formalItem)}</a>
+      `;
+    }
+  }
+
+  if (actionTarget) {
+    const items = buildCockpitActionItems();
+    const primary = items[0];
+    if (primary) {
+      actionTarget.innerHTML = `
+        <span class="status-label">有没有动作触发</span>
+        <h3>${escapeHtml(primary.name)}：${escapeHtml(primary.position.status)}</h3>
+        <p>${escapeHtml(primary.quote?.displayPrice || "暂无最新价格")}；第一版合理区间约 ${escapeHtml(formatRange(primary.range, primary.currency))}。</p>
+        <p><strong>动作提示：</strong>${escapeHtml(primary.actionText)}</p>
+        <div class="cockpit-price-row">
+          ${items.map((item) => `
+            <div>
+              <small>${escapeHtml(item.name)}</small>
+              <b>${escapeHtml(item.position.status)}</b>
+              <span>${escapeHtml(item.quote?.displayPrice || "暂无价格")}</span>
+            </div>
+          `).join("")}
+        </div>
+        <a class="event-link" href="./company.html?company=${encodeURIComponent(primary.companyId)}&v=20260516-1#companyValuationModelSection">查看估值动作</a>
+      `;
+    }
+  }
+}
+
 function compactMarkdown(markdown, maxLines = 9) {
   const lines = String(markdown || "")
     .split(/\r?\n/)
@@ -326,6 +472,7 @@ function renderTimelineFeed() {
   `).join("");
 }
 
+renderDecisionCockpit();
 renderCloudSync();
 renderDecisionQueue();
 renderDecisionImpact();
