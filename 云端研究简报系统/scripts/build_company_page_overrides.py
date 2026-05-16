@@ -16,6 +16,52 @@ PORTAL_OVERRIDES_FILE = PROJECT_ROOT / "研究门户" / "company-page-overrides-
 MAX_DEPOSITS_PER_COMPANY = 3
 
 
+FINANCE_TERMS = [
+    "收入",
+    "营收",
+    "利润",
+    "毛利",
+    "利润率",
+    "现金流",
+    "EPS",
+    "capex",
+    "资本开支",
+    "订单",
+    "backlog",
+    "应收",
+    "存货",
+    "指引",
+    "月度营收",
+]
+
+BUSINESS_TERMS = [
+    "客户",
+    "合作",
+    "产品",
+    "平台",
+    "技术",
+    "生态",
+    "AI",
+    "agent",
+    "网络",
+    "供应链",
+    "产能",
+]
+
+VALUATION_TERMS = [
+    "估值",
+    "回购",
+    "分红",
+    "收购",
+    "并购",
+    "资本配置",
+    "PPA",
+    "长期合同",
+    "股价",
+    "中枢",
+]
+
+
 def load_json(path: Path, fallback: dict) -> dict:
     if not path.exists():
         return fallback
@@ -27,6 +73,65 @@ def compact(text: str, limit: int = 1200) -> str:
     if limit <= 0 or len(cleaned) <= limit:
         return cleaned
     return cleaned[:limit].rstrip()
+
+
+def contains_any(text: str, terms: list[str]) -> bool:
+    return any(term in text for term in terms)
+
+
+def event_blob(event: dict) -> str:
+    parts = [
+        event.get("title", ""),
+        event.get("type", ""),
+        event.get("fact", ""),
+        event.get("judgment", ""),
+        event.get("business_analysis", ""),
+        event.get("valuation_analysis", ""),
+    ]
+    for field in ["source_summary", "evidence", "verification"]:
+        value = event.get(field)
+        if isinstance(value, list):
+            parts.extend(str(item) for item in value if str(item).strip())
+    return " ".join(str(part) for part in parts if str(part).strip())
+
+
+def event_theme(event: dict) -> str:
+    blob = event_blob(event)
+    event_type = str(event.get("type") or "").strip()
+    if contains_any(blob, ["财报", "EPS", "收入", "营收", "毛利", "现金流", "月度营收", "指引"]):
+        return "财报/经营验证"
+    if contains_any(blob, ["收购", "并购", "回购", "分红", "资本配置", "PPA", "长期合同"]):
+        return "资本配置/合同验证"
+    if contains_any(blob, ["客户", "合作", "订单", "backlog"]):
+        return "客户/订单验证"
+    if contains_any(blob, ["产品", "平台", "技术", "AI", "agent", "网络", "生态"]):
+        return "产品/平台验证"
+    return event_type or "正式事件"
+
+
+def evidence_blob(event: dict) -> str:
+    parts = [
+        event.get("title", ""),
+        event.get("type", ""),
+        event.get("fact", ""),
+    ]
+    for field in ["source_summary", "evidence"]:
+        value = event.get(field)
+        if isinstance(value, list):
+            parts.extend(str(item) for item in value if str(item).strip())
+    return " ".join(str(part) for part in parts if str(part).strip())
+
+
+def has_finance_signal(event: dict) -> bool:
+    return contains_any(evidence_blob(event), FINANCE_TERMS)
+
+
+def has_business_signal(event: dict) -> bool:
+    return contains_any(evidence_blob(event), BUSINESS_TERMS)
+
+
+def has_valuation_signal(event: dict) -> bool:
+    return contains_any(evidence_blob(event), VALUATION_TERMS + FINANCE_TERMS)
 
 
 def event_lookup(event_store: dict) -> dict[tuple[str, int], dict]:
@@ -56,8 +161,57 @@ def source_summary_text(event: dict, limit: int = 3) -> str:
     return str(event.get("fact") or "").strip()
 
 
+def selected_evidence(event: dict, terms: list[str], limit: int = 3) -> list[str]:
+    evidence = [str(v).strip() for v in event.get("evidence", []) if str(v).strip()]
+    matched = [item for item in evidence if contains_any(item, terms)]
+    return (matched or evidence)[:limit]
+
+
 def event_can_writeback(item: dict) -> bool:
     return bool(item.get("writeback_ready")) or item.get("status") in {"ready", "needs_model_update"}
+
+
+def finance_rows(event: dict, date: str, event_type: str) -> list[dict]:
+    rows = []
+    for index, evidence in enumerate(selected_evidence(event, FINANCE_TERMS, 3), start=1):
+        rows.append(
+            {
+                "metric": f"事件证据 {index}",
+                "value": compact(evidence, 180),
+                "change": f"{date}｜{event_type}",
+                "read": compact(event.get("judgment", ""), 260),
+            }
+        )
+    return rows
+
+
+def finance_bridge(event: dict, theme: str) -> list[dict]:
+    summary = [str(v).strip() for v in event.get("source_summary", []) if str(v).strip()]
+    judgment = str(event.get("judgment") or "").strip()
+    steps = []
+    if summary:
+        steps.append({"label": f"第一层：原文发生了什么｜{theme}", "text": compact(summary[0], 300)})
+    if len(summary) > 1:
+        steps.append({"label": "第二层：哪些事实最关键", "text": compact(summary[1], 300)})
+    if judgment:
+        steps.append({"label": "第三层：它改变了什么判断", "text": compact(judgment, 320)})
+    return steps[:3]
+
+
+def valuation_scenario(event: dict, verification: list[str]) -> list[dict]:
+    valuation = str(event.get("valuation_analysis") or "").strip()
+    if not valuation:
+        return []
+    return [
+        {
+            "title": "估值中枢上修条件",
+            "text": compact(verification[0] if verification else "后续正式披露继续验证收入、利润率、现金流或合同质量。", 260),
+        },
+        {
+            "title": "维持观察条件",
+            "text": compact(valuation, 320),
+        },
+    ]
 
 
 def event_deposits(item: dict, event: dict) -> dict:
@@ -72,50 +226,54 @@ def event_deposits(item: dict, event: dict) -> dict:
     verification = [str(v).strip() for v in event.get("verification", []) if str(v).strip()]
     targets = set(item.get("update_targets", []))
     source_text = source_summary_text(event)
+    theme = event_theme(event)
 
     finance_note_text = "；".join(verification[:3]) or valuation or judgment
     deposit = {
-        "financeMap": {"notes": []},
+        "financeMap": {"rows": [], "bridge": [], "notes": []},
         "businessMap": {"segments": [], "moat": []},
-        "valuationModel": {"currentBreakdown": [], "triggers": []},
+        "valuationModel": {"currentBreakdown": [], "scenarios": [], "triggers": []},
     }
 
-    if "财务数据地图" in targets:
+    if "财务数据地图" in targets and has_finance_signal(event):
+        deposit["financeMap"]["rows"].extend(finance_rows(event, date, event_type))
+        deposit["financeMap"]["bridge"].extend(finance_bridge(event, theme))
         deposit["financeMap"]["notes"].append(
             {
-                "title": f"财务增量｜{title}",
+                "title": f"{theme}｜财务读法",
                 "text": compact(
-                    f"原文事实：{source_text} 证据：{join_items(evidence, 3)}。读法：{judgment} 后续验证：{finance_note_text}",
+                    f"原文事实：{source_text} 证据：{join_items(selected_evidence(event, FINANCE_TERMS, 3), 3)}。读法：{judgment} 后续验证：{finance_note_text}",
                     900,
                 ),
             }
         )
 
-    if "公司理解" in targets:
+    if "公司理解" in targets and has_business_signal(event):
         deposit["businessMap"]["segments"].append(
             {
-                "title": f"业务变化｜{title}",
+                "title": f"{theme}｜{title}",
                 "scale": f"{date}｜{event_type}",
                 "text": compact(f"{business} 原文要点：{source_text}", 900),
             }
         )
         deposit["businessMap"]["moat"].append(
             {
-                "title": f"判断变化｜{event_type}",
-                "text": judgment,
+                "title": f"护城河/业务主线是否变化｜{theme}",
+                "text": compact(judgment, 520),
             }
         )
 
-    if "估值模型" in targets:
+    if "估值模型" in targets and has_valuation_signal(event):
         deposit["valuationModel"]["currentBreakdown"].append(
             {
-                "title": f"估值/动作影响｜{title}",
+                "title": f"{theme}｜估值/动作影响",
                 "text": compact(valuation, 900),
             }
         )
+        deposit["valuationModel"]["scenarios"].extend(valuation_scenario(event, verification))
         deposit["valuationModel"]["triggers"].append(
             {
-                "title": f"下一步验证｜{event_type}",
+                "title": f"下一步验证｜{theme}",
                 "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
             }
         )
@@ -125,17 +283,20 @@ def event_deposits(item: dict, event: dict) -> dict:
 
 def merge_deposits(deposits: list[dict]) -> dict:
     merged = {
-        "financeMap": {"notes": []},
+        "financeMap": {"rows": [], "bridge": [], "notes": []},
         "businessMap": {"segments": [], "moat": []},
-        "valuationModel": {"currentBreakdown": [], "triggers": []},
+        "valuationModel": {"currentBreakdown": [], "scenarios": [], "triggers": []},
     }
     for deposit in deposits:
+        merged["financeMap"]["rows"].extend(deposit.get("financeMap", {}).get("rows", []))
+        merged["financeMap"]["bridge"].extend(deposit.get("financeMap", {}).get("bridge", []))
         merged["financeMap"]["notes"].extend(deposit.get("financeMap", {}).get("notes", []))
         merged["businessMap"]["segments"].extend(deposit.get("businessMap", {}).get("segments", []))
         merged["businessMap"]["moat"].extend(deposit.get("businessMap", {}).get("moat", []))
         merged["valuationModel"]["currentBreakdown"].extend(
             deposit.get("valuationModel", {}).get("currentBreakdown", [])
         )
+        merged["valuationModel"]["scenarios"].extend(deposit.get("valuationModel", {}).get("scenarios", []))
         merged["valuationModel"]["triggers"].extend(deposit.get("valuationModel", {}).get("triggers", []))
     return merged
 
