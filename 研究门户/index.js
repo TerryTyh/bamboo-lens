@@ -415,15 +415,17 @@ function renderDecisionDeposition() {
     <span>计划 ${summary.total || payload.items.length} 条</span>
     <span>可回写 ${summary.ready || 0}</span>
     <span>需估值/财务更新 ${summary.needs_model_update || 0}</span>
+    <span>仅事件流 ${summary.watch_only || 0}</span>
   `;
 
   feed.innerHTML = payload.items.slice(0, 6).map((item) => {
     const updates = item.recommended_updates || [];
+    const blockers = item.writeback_blockers || [];
     return `
       <article class="decision-deposition-card ${escapeHtml(item.status)}">
         <div class="decision-card-top">
           <span class="decision-stage">${escapeHtml(item.quality || "待确认")}</span>
-          <span class="decision-score">${escapeHtml(item.status || "ready")}</span>
+          <span class="decision-score">${escapeHtml(item.status_label || item.status || "ready")}${item.writeback_quality_score ? ` · ${escapeHtml(item.writeback_quality_score)}` : ""}</span>
         </div>
         <div class="event-meta">
           <span>${escapeHtml(item.event_date || "日期待确认")}</span>
@@ -443,6 +445,7 @@ function renderDecisionDeposition() {
             </div>
           `).join("")}
         </div>
+        ${blockers.length ? `<p><strong>暂不回写原因：</strong>${escapeHtml(blockers.join("；"))}</p>` : ""}
         <a class="event-link" href="${escapeHtml(item.detail_link)}">查看事件详情</a>
       </article>
     `;

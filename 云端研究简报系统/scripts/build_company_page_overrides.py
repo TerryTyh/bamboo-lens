@@ -49,6 +49,17 @@ def join_items(items: list[str], limit: int = 3) -> str:
     return "；".join(cleaned[:limit])
 
 
+def source_summary_text(event: dict, limit: int = 3) -> str:
+    summaries = [str(item).strip() for item in event.get("source_summary", []) if str(item).strip()]
+    if summaries:
+        return "；".join(summaries[:limit])
+    return str(event.get("fact") or "").strip()
+
+
+def event_can_writeback(item: dict) -> bool:
+    return bool(item.get("writeback_ready")) or item.get("status") in {"ready", "needs_model_update"}
+
+
 def event_deposits(item: dict, event: dict) -> dict:
     event_type = str(event.get("type") or "正式事件").strip()
     date = str(item.get("event_date") or event.get("date") or "").strip()
@@ -60,6 +71,7 @@ def event_deposits(item: dict, event: dict) -> dict:
     evidence = [str(v).strip() for v in event.get("evidence", []) if str(v).strip()]
     verification = [str(v).strip() for v in event.get("verification", []) if str(v).strip()]
     targets = set(item.get("update_targets", []))
+    source_text = source_summary_text(event)
 
     finance_note_text = "；".join(verification[:3]) or valuation or judgment
     deposit = {
@@ -71,9 +83,9 @@ def event_deposits(item: dict, event: dict) -> dict:
     if "财务数据地图" in targets:
         deposit["financeMap"]["notes"].append(
             {
-                "title": f"关键财务事实｜{title}",
+                "title": f"财务增量｜{title}",
                 "text": compact(
-                    f"{fact} 证据：{join_items(evidence, 3)}。读法：{judgment} 后续验证：{finance_note_text}",
+                    f"原文事实：{source_text} 证据：{join_items(evidence, 3)}。读法：{judgment} 后续验证：{finance_note_text}",
                     900,
                 ),
             }
@@ -84,7 +96,7 @@ def event_deposits(item: dict, event: dict) -> dict:
             {
                 "title": f"业务变化｜{title}",
                 "scale": f"{date}｜{event_type}",
-                "text": business,
+                "text": compact(f"{business} 原文要点：{source_text}", 900),
             }
         )
         deposit["businessMap"]["moat"].append(
@@ -98,7 +110,7 @@ def event_deposits(item: dict, event: dict) -> dict:
         deposit["valuationModel"]["currentBreakdown"].append(
             {
                 "title": f"估值/动作影响｜{title}",
-                "text": valuation,
+                "text": compact(valuation, 900),
             }
         )
         deposit["valuationModel"]["triggers"].append(
@@ -144,7 +156,13 @@ def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) 
         "valuationImpact": compact(valuation, 680),
         "nextCheck": verification_text(event),
         "action": action or None,
-        "depositionNotice": "已根据最新正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务、估值或跟踪板块。",
+        "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
+        "writebackQuality": {
+            "status": item.get("status", ""),
+            "statusLabel": item.get("status_label", ""),
+            "score": item.get("writeback_quality_score", 0),
+            "blockers": item.get("writeback_blockers", []),
+        },
         "updatedSections": item.get("update_targets", []),
         "sectionDeposits": merge_deposits(deposits),
         "depositEvents": [
@@ -165,7 +183,7 @@ def build_payload(event_store: dict, deposition: dict) -> dict:
     grouped: dict[str, list[tuple[dict, dict]]] = {}
     for item in deposition.get("items", []):
         company_id = item.get("company", "")
-        if item.get("status") == "blocked":
+        if not event_can_writeback(item):
             continue
         event = lookup.get((company_id, int(item.get("event_index", 0))))
         if not event:
