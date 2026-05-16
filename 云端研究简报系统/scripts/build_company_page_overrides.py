@@ -75,6 +75,41 @@ def compact(text: str, limit: int = 1200) -> str:
     return cleaned[:limit].rstrip()
 
 
+def stable_key(*parts: str) -> str:
+    raw = ":".join(str(part or "").strip().lower() for part in parts if str(part or "").strip())
+    return (
+        raw.replace(" ", "-")
+        .replace("/", "-")
+        .replace("｜", "-")
+        .replace("：", "-")
+        .replace(":", "-")
+    )
+
+
+def item_key(item: dict) -> str:
+    if item.get("key"):
+        return str(item["key"])
+    return stable_key(
+        item.get("title", ""),
+        item.get("metric", ""),
+        item.get("label", ""),
+        item.get("scale", ""),
+    )
+
+
+def merge_keyed_items(items: list[dict]) -> list[dict]:
+    merged = []
+    seen = set()
+    for item in items:
+        key = item_key(item)
+        if key and key in seen:
+            continue
+        if key:
+            seen.add(key)
+        merged.append(item)
+    return merged
+
+
 def contains_any(text: str, terms: list[str]) -> bool:
     return any(term in text for term in terms)
 
@@ -171,11 +206,12 @@ def event_can_writeback(item: dict) -> bool:
     return bool(item.get("writeback_ready")) or item.get("status") in {"ready", "needs_model_update"}
 
 
-def finance_rows(event: dict, date: str, event_type: str) -> list[dict]:
+def finance_rows(event: dict, date: str, event_type: str, theme: str) -> list[dict]:
     rows = []
     for index, evidence in enumerate(selected_evidence(event, FINANCE_TERMS, 3), start=1):
         rows.append(
             {
+                "key": stable_key("finance-row", theme, index),
                 "metric": f"事件证据 {index}",
                 "value": compact(evidence, 180),
                 "change": f"{date}｜{event_type}",
@@ -190,11 +226,11 @@ def finance_bridge(event: dict, theme: str) -> list[dict]:
     judgment = str(event.get("judgment") or "").strip()
     steps = []
     if summary:
-        steps.append({"label": f"第一层：原文发生了什么｜{theme}", "text": compact(summary[0], 300)})
+        steps.append({"key": stable_key("finance-bridge", theme, "source"), "label": f"第一层：原文发生了什么｜{theme}", "text": compact(summary[0], 300)})
     if len(summary) > 1:
-        steps.append({"label": "第二层：哪些事实最关键", "text": compact(summary[1], 300)})
+        steps.append({"key": stable_key("finance-bridge", theme, "evidence"), "label": "第二层：哪些事实最关键", "text": compact(summary[1], 300)})
     if judgment:
-        steps.append({"label": "第三层：它改变了什么判断", "text": compact(judgment, 320)})
+        steps.append({"key": stable_key("finance-bridge", theme, "judgment"), "label": "第三层：它改变了什么判断", "text": compact(judgment, 320)})
     return steps[:3]
 
 
@@ -204,10 +240,12 @@ def valuation_scenario(event: dict, verification: list[str]) -> list[dict]:
         return []
     return [
         {
+            "key": stable_key("valuation-scenario", "upside"),
             "title": "估值中枢上修条件",
             "text": compact(verification[0] if verification else "后续正式披露继续验证收入、利润率、现金流或合同质量。", 260),
         },
         {
+            "key": stable_key("valuation-scenario", "watch"),
             "title": "维持观察条件",
             "text": compact(valuation, 320),
         },
@@ -236,10 +274,11 @@ def event_deposits(item: dict, event: dict) -> dict:
     }
 
     if "财务数据地图" in targets and has_finance_signal(event):
-        deposit["financeMap"]["rows"].extend(finance_rows(event, date, event_type))
+        deposit["financeMap"]["rows"].extend(finance_rows(event, date, event_type, theme))
         deposit["financeMap"]["bridge"].extend(finance_bridge(event, theme))
         deposit["financeMap"]["notes"].append(
             {
+                "key": stable_key("finance-note", theme),
                 "title": f"{theme}｜财务读法",
                 "text": compact(
                     f"原文事实：{source_text} 证据：{join_items(selected_evidence(event, FINANCE_TERMS, 3), 3)}。读法：{judgment} 后续验证：{finance_note_text}",
@@ -251,6 +290,7 @@ def event_deposits(item: dict, event: dict) -> dict:
     if "公司理解" in targets and has_business_signal(event):
         deposit["businessMap"]["segments"].append(
             {
+                "key": stable_key("business-segment", theme),
                 "title": f"{theme}｜{title}",
                 "scale": f"{date}｜{event_type}",
                 "text": compact(f"{business} 原文要点：{source_text}", 900),
@@ -258,6 +298,7 @@ def event_deposits(item: dict, event: dict) -> dict:
         )
         deposit["businessMap"]["moat"].append(
             {
+                "key": stable_key("business-moat", theme),
                 "title": f"护城河/业务主线是否变化｜{theme}",
                 "text": compact(judgment, 520),
             }
@@ -266,6 +307,7 @@ def event_deposits(item: dict, event: dict) -> dict:
     if "估值模型" in targets and has_valuation_signal(event):
         deposit["valuationModel"]["currentBreakdown"].append(
             {
+                "key": stable_key("valuation-current", theme),
                 "title": f"{theme}｜估值/动作影响",
                 "text": compact(valuation, 900),
             }
@@ -273,6 +315,7 @@ def event_deposits(item: dict, event: dict) -> dict:
         deposit["valuationModel"]["scenarios"].extend(valuation_scenario(event, verification))
         deposit["valuationModel"]["triggers"].append(
             {
+                "key": stable_key("valuation-trigger", theme),
                 "title": f"下一步验证｜{theme}",
                 "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
             }
@@ -298,6 +341,14 @@ def merge_deposits(deposits: list[dict]) -> dict:
         )
         merged["valuationModel"]["scenarios"].extend(deposit.get("valuationModel", {}).get("scenarios", []))
         merged["valuationModel"]["triggers"].extend(deposit.get("valuationModel", {}).get("triggers", []))
+    merged["financeMap"]["rows"] = merge_keyed_items(merged["financeMap"]["rows"])
+    merged["financeMap"]["bridge"] = merge_keyed_items(merged["financeMap"]["bridge"])
+    merged["financeMap"]["notes"] = merge_keyed_items(merged["financeMap"]["notes"])
+    merged["businessMap"]["segments"] = merge_keyed_items(merged["businessMap"]["segments"])
+    merged["businessMap"]["moat"] = merge_keyed_items(merged["businessMap"]["moat"])
+    merged["valuationModel"]["currentBreakdown"] = merge_keyed_items(merged["valuationModel"]["currentBreakdown"])
+    merged["valuationModel"]["scenarios"] = merge_keyed_items(merged["valuationModel"]["scenarios"])
+    merged["valuationModel"]["triggers"] = merge_keyed_items(merged["valuationModel"]["triggers"])
     return merged
 
 

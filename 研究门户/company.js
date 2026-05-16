@@ -2857,11 +2857,29 @@ function renderValuationModel(company, model) {
   renderList("companyValuationTriggers", model.triggers);
 }
 
+function itemMergeKey(item) {
+  if (!item) return "";
+  return item.key || item.title || item.metric || item.label || "";
+}
+
 function appendItems(baseItems, extraItems) {
-  return [
-    ...(Array.isArray(baseItems) ? baseItems : []),
-    ...(Array.isArray(extraItems) ? extraItems : []),
-  ];
+  const merged = Array.isArray(baseItems) ? [...baseItems] : [];
+  const indexByKey = new Map();
+  merged.forEach((item, index) => {
+    const key = itemMergeKey(item);
+    if (key) indexByKey.set(key, index);
+  });
+
+  (Array.isArray(extraItems) ? extraItems : []).forEach((item) => {
+    const key = itemMergeKey(item);
+    if (key && indexByKey.has(key)) {
+      merged[indexByKey.get(key)] = item;
+      return;
+    }
+    if (key) indexByKey.set(key, merged.length);
+    merged.push(item);
+  });
+  return merged;
 }
 
 function applySectionDeposits(data, override) {
