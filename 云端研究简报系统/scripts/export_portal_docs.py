@@ -27,6 +27,10 @@ DOCS = [
         PORTAL_DOCS / "rules" / "21-研究结论到投资决策的落地规则V1.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "37-新增公司准入标准V1.md",
+        PORTAL_DOCS / "rules" / "37-新增公司准入标准V1.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),
