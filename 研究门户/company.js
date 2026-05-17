@@ -2745,6 +2745,50 @@ function actionPolicyKey(status) {
   return "nearMid";
 }
 
+function inferStaticValuationTone(conclusion) {
+  const text = conclusion || "";
+  if (/明显低估|无脑低估|低于保守|合理偏低|低估/.test(text)) return "low";
+  if (/明显高估|偏贵|偏高|合理偏高|合理略偏高|乐观区间|上沿/.test(text)) return "high";
+  if (/合理|接近中枢|中枢/.test(text)) return "neutral";
+  return "unknown";
+}
+
+function buildValuationReviewItem(company, model) {
+  const position = getValuationPosition(company, model);
+  if (!position) return null;
+
+  const tone = inferStaticValuationTone(model?.conclusion);
+  const { status, range, quote, price } = position;
+  const priceText = quote?.display?.price || formatRangePrice(price, range.currency);
+  const rangeText = `${formatRangePrice(range.low, range.currency)}-${formatRangePrice(range.high, range.currency)}`;
+
+  if (status === "偏贵") {
+    return {
+      label: "估值结论复核",
+      value: "需要复核",
+      note: `最新 ${quote.symbol} 为 ${priceText}，已经高于第一版合理区间 ${rangeText}。除非基本面足以抬升估值中枢，否则原结论需要下调动作强度。`,
+    };
+  }
+
+  if (status === "低于合理区间") {
+    return {
+      label: "估值结论复核",
+      value: "需要复核",
+      note: `最新 ${quote.symbol} 为 ${priceText}，已经低于第一版合理区间 ${rangeText}。先确认是否有基本面恶化；若没有，才可能构成更值得研究的机会。`,
+    };
+  }
+
+  if ((status === "接近上沿" && tone === "low") || (status === "低于中枢" && tone === "high")) {
+    return {
+      label: "估值结论复核",
+      value: "结论可能过期",
+      note: `静态结论与最新价格位置不完全一致：原结论偏${tone === "low" ? "低估" : "高估"}，但最新价格显示为“${status}”。需要重新核对合理区间和基本面假设。`,
+    };
+  }
+
+  return null;
+}
+
 function buildValuationActionItem(company, model) {
   const position = getValuationPosition(company, model);
   if (!position) return null;
@@ -2828,9 +2872,10 @@ function renderValuationModel(company, model) {
   if (snapshot) {
     const marketItems = buildMarketSnapshotItems(company);
     const positionItem = buildValuationPositionItem(company, model);
+    const reviewItem = buildValuationReviewItem(company, model);
     const actionItem = buildValuationActionItem(company, model);
     const modelItems = model.snapshot || [];
-    const items = marketItems.length ? [positionItem, actionItem, ...marketItems].filter(Boolean) : modelItems;
+    const items = marketItems.length ? [positionItem, reviewItem, actionItem, ...marketItems].filter(Boolean) : modelItems;
     snapshot.innerHTML = items.map((item) => `
       <article class="valuation-snapshot-item">
         <span>${item.label}</span>
