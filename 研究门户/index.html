@@ -19,7 +19,6 @@
             <a class="button primary" href="#valuation">估值总览</a>
             <a class="button primary" href="#updates">最近更新</a>
             <a class="button primary" href="#companies">公司主页</a>
-            <a class="button secondary" href="#decisionImpact">决策影响</a>
             <a class="button secondary" href="#resources">规则与资料</a>
             <a class="button secondary" href="./candidates.html">候选研判台</a>
           </div>
@@ -70,13 +69,13 @@
           </div>
           <div class="quality-gate">
             <div>
-              <h3>当前样板闭环</h3>
-              <p>先把阿里与立讯打磨成样板：事件进入门户，沉淀到公司主页，再由最新价格和基本面状态触发动作提示。</p>
+              <h3>推荐阅读路径</h3>
+              <p>碎片时间先看最近事件和估值总览；整块时间进入公司主页；需要处理新线索时再去候选研判台。</p>
             </div>
             <div class="quality-link-row">
-              <a class="event-link" href="./company.html?company=alibaba&v=20260516-1#companyValuationModelSection">看阿里样板</a>
-              <a class="event-link" href="./company.html?company=luxshare&v=20260516-1#companyValuationModelSection">看立讯样板</a>
-              <a class="event-link" href="./reader.html?doc=./docs/research/竹鉴推进状态与下一步.md&title=竹鉴推进状态与下一步">看推进状态</a>
+              <a class="event-link" href="#updates">看最近更新</a>
+              <a class="event-link" href="#valuation">看估值总览</a>
+              <a class="event-link" href="./candidates.html">处理候选线索</a>
             </div>
           </div>
         </section>
@@ -125,48 +124,6 @@
               </div>
             </article>
           </div>
-        </section>
-
-        <section id="decisionSystem" class="section decision-system-section">
-          <div class="section-heading decision-heading">
-            <div>
-              <p class="section-kicker">Decision Queue</p>
-              <h2>动态决策队列</h2>
-              <p class="muted">这里不是新闻列表，而是系统把“最新变化”转成“下一步该处理什么”。先读队列，再决定是否更新公司主页、估值或动作。</p>
-            </div>
-            <div id="decisionStats" class="decision-stats">
-              <span>读取中</span>
-            </div>
-          </div>
-          <div id="decisionQueueFeed" class="decision-queue-grid"></div>
-        </section>
-
-        <section id="decisionImpact" class="section decision-impact-section">
-          <div class="section-heading decision-heading">
-            <div>
-              <p class="section-kicker">Decision Impact</p>
-              <h2>决策影响层</h2>
-              <p class="muted">正式事件通过研判后，会在这里转成业务、估值、动作和验证点，避免只是堆动态。</p>
-            </div>
-            <div id="decisionImpactStats" class="decision-stats">
-              <span>读取中</span>
-            </div>
-          </div>
-          <div id="decisionImpactFeed" class="decision-impact-grid"></div>
-        </section>
-
-        <section id="decisionDeposition" class="section decision-deposition-section">
-          <div class="section-heading decision-heading">
-            <div>
-              <p class="section-kicker">Decision Deposition</p>
-              <h2>主页沉淀计划</h2>
-              <p class="muted">V2 的关键闭环：正式事件不只进动态页，还要明确沉淀到公司主页的当前结论、公司理解、财务、估值或风险板块。</p>
-            </div>
-            <div id="decisionDepositionStats" class="decision-stats">
-              <span>读取中</span>
-            </div>
-          </div>
-          <div id="decisionDepositionFeed" class="decision-deposition-grid"></div>
         </section>
 
         <section id="valuation" class="section">
@@ -339,16 +296,24 @@
           <div class="section-heading compact-heading">
             <p class="section-kicker">Resources</p>
             <h2>规则与资料入口</h2>
-            <p class="muted">方法论、日报、周末复盘和系统过程类内容都收在这里，不占用首页主视线。</p>
+            <p class="muted">方法论、系统过程、审计报告和复盘内容都收在这里，不占用首页主视线。</p>
           </div>
+          <p class="resource-group-label">研究规则</p>
           <div class="framework-links">
             <a href="./reader.html?doc=./docs/rules/01-筛选规则.md&title=筛选规则">筛选规则</a>
             <a href="./reader.html?doc=./docs/rules/02-公司分析框架.md&title=公司分析框架">分析框架</a>
             <a href="./reader.html?doc=./docs/rules/21-研究结论到投资决策的落地规则V1.md&title=研究结论到投资决策的落地规则">决策规则</a>
             <a href="./reader.html?doc=./docs/rules/21-研究结论到投资决策的落地规则V1.md&title=估值模型规则">估值模型规则</a>
+          </div>
+          <p class="resource-group-label">系统过程</p>
+          <div class="framework-links">
             <a href="./reader.html?doc=./docs/research/竹鉴推进状态与下一步.md&title=竹鉴推进状态与下一步">推进状态</a>
             <a href="./reader.html?doc=./docs/research/company_page_readability_audit.md&title=公司页可读性审计">公司页可读性审计</a>
             <a href="./reader.html?doc=./docs/research/company_page_mainline_audit.md&title=公司页主线复核">公司页主线复核</a>
+            <a href="./reader.html?doc=./docs/research/31-研究池与真实组合衔接改造计划V1.md&title=研究池与真实组合衔接">研究池衔接计划</a>
+          </div>
+          <p class="resource-group-label">日报与复盘</p>
+          <div class="framework-links">
             <a href="./reader.html?doc=./docs/briefs/daily_brief.md&title=最新云端日报">最新日报</a>
             <a href="./reader.html?doc=./docs/briefs/weekend_sync_summary.md&title=周末同步摘要">周末复盘</a>
           </div>
