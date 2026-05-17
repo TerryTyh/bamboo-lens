@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T00:26:41",
-  "source_overrides_at": "2026-05-17T00:26:41",
+  "generated_at": "2026-05-17T11:40:58",
+  "source_overrides_at": "2026-05-17T11:40:19",
   "items": [
     {
       "company": "constellation",
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
-      "status": "review",
+      "status": "healthy",
       "counts": {
         "finance_rows": 2,
         "finance_bridge": 3,
@@ -21,9 +21,8 @@
       "omitted": {
         "valuationModel.scenarios": 1
       },
-      "warnings": [
-        "有 1 条文本接近过长阈值"
-      ],
+      "longTextSamples": [],
+      "warnings": [],
       "suggestions": [
         "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
       ]
@@ -32,7 +31,7 @@
       "company": "nvidia",
       "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "sourceEventDate": "2026-05-07",
-      "status": "review",
+      "status": "healthy",
       "counts": {
         "finance_rows": 0,
         "finance_bridge": 0,
@@ -45,9 +44,8 @@
       },
       "totalAutoItems": 2,
       "omitted": {},
-      "warnings": [
-        "有 1 条文本接近过长阈值"
-      ],
+      "longTextSamples": [],
+      "warnings": [],
       "suggestions": []
     },
     {
@@ -69,6 +67,7 @@
       "omitted": {
         "valuationModel.scenarios": 1
       },
+      "longTextSamples": [],
       "warnings": [],
       "suggestions": [
         "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
@@ -77,8 +76,8 @@
   ],
   "summary": {
     "companies": 3,
-    "healthy": 1,
-    "review": 2,
+    "healthy": 3,
+    "review": 0,
     "at_risk": 0
   }
 }

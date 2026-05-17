@@ -17,6 +17,7 @@ PORTAL_AUDIT_FILE = PROJECT_ROOT / "研究门户" / "company-readability-audit-d
 MAX_AUTO_ITEMS_PER_COMPANY = 12
 MAX_TEXT_LENGTH = 920
 WARN_TEXT_LENGTH = 720
+MAX_TEXT_SAMPLES = 5
 
 WEAK_PHRASES = [
     "值得关注",
@@ -46,6 +47,27 @@ def text_values(value) -> list[str]:
     return values
 
 
+def text_entries(value, path: str = "") -> list[dict]:
+    entries = []
+    if isinstance(value, str):
+        entries.append({"path": path, "length": len(value), "text": value})
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            entries.extend(text_entries(item, f"{path}[{index}]"))
+    elif isinstance(value, dict):
+        for key, item in value.items():
+            next_path = f"{path}.{key}" if path else str(key)
+            entries.extend(text_entries(item, next_path))
+    return entries
+
+
+def text_preview(text: str, limit: int = 90) -> str:
+    cleaned = " ".join(str(text or "").split())
+    if len(cleaned) <= limit:
+        return cleaned
+    return cleaned[: limit - 1].rstrip() + "…"
+
+
 def section_counts(company: dict) -> dict[str, int]:
     deposits = company.get("sectionDeposits", {})
     finance = deposits.get("financeMap", {})
@@ -67,11 +89,14 @@ def audit_company(company_id: str, company: dict) -> dict:
     counts = section_counts(company)
     total_auto_items = sum(counts.values())
     texts = text_values(company.get("sectionDeposits", {}))
+    entries = text_entries(company.get("sectionDeposits", {}))
     warnings: list[str] = []
     suggestions: list[str] = []
 
-    long_count = sum(1 for text in texts if len(text) > MAX_TEXT_LENGTH)
-    warn_long_count = sum(1 for text in texts if WARN_TEXT_LENGTH < len(text) <= MAX_TEXT_LENGTH)
+    long_entries = [entry for entry in entries if entry["length"] > MAX_TEXT_LENGTH]
+    warn_long_entries = [entry for entry in entries if WARN_TEXT_LENGTH < entry["length"] <= MAX_TEXT_LENGTH]
+    long_count = len(long_entries)
+    warn_long_count = len(warn_long_entries)
     weak_hits = sorted({phrase for phrase in WEAK_PHRASES for text in texts if phrase in text})
     omitted = company.get("depositPolicy", {}).get("omitted", {})
 
@@ -112,6 +137,12 @@ def audit_company(company_id: str, company: dict) -> dict:
         "counts": counts,
         "totalAutoItems": total_auto_items,
         "omitted": omitted,
+        "longTextSamples": [
+            {"path": item["path"], "length": item["length"], "preview": text_preview(item["text"])}
+            for item in sorted(long_entries + warn_long_entries, key=lambda row: row["length"], reverse=True)[
+                :MAX_TEXT_SAMPLES
+            ]
+        ],
         "warnings": warnings,
         "suggestions": suggestions,
     }
@@ -158,6 +189,12 @@ def build_markdown(payload: dict) -> str:
         )
         if item.get("omitted"):
             lines.append(f"- 已压缩内容：{json.dumps(item['omitted'], ensure_ascii=False)}")
+        if item.get("longTextSamples"):
+            lines.append("- 长文本定位：")
+            for sample in item["longTextSamples"]:
+                lines.append(
+                    f"  - {sample['path']}｜{sample['length']} 字｜{sample['preview']}"
+                )
         if item.get("warnings"):
             lines.append(f"- 警示：{'；'.join(item['warnings'])}")
         if item.get("suggestions"):

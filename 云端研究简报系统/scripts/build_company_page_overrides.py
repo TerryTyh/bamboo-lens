@@ -14,6 +14,12 @@ DEPOSITION_FILE = OUTPUT_DIR / "decision_deposition.json"
 OVERRIDES_FILE = OUTPUT_DIR / "company_page_overrides.json"
 PORTAL_OVERRIDES_FILE = PROJECT_ROOT / "研究门户" / "company-page-overrides-data.js"
 MAX_DEPOSITS_PER_COMPANY = 3
+FINANCE_NOTE_LIMIT = 720
+BUSINESS_SEGMENT_LIMIT = 680
+BUSINESS_MOAT_LIMIT = 420
+VALUATION_IMPACT_LIMIT = 620
+VALUATION_SCENARIO_LIMIT = 260
+VALUATION_TRIGGER_LIMIT = 360
 
 SECTION_LIMITS = {
     ("financeMap", "rows"): 3,
@@ -84,6 +90,13 @@ def compact(text: str, limit: int = 1200) -> str:
     if limit <= 0 or len(cleaned) <= limit:
         return cleaned
     return cleaned[:limit].rstrip()
+
+
+def compact_with_ellipsis(text: str, limit: int) -> str:
+    cleaned = compact(text, 0)
+    if limit <= 0 or len(cleaned) <= limit:
+        return cleaned
+    return cleaned[: max(0, limit - 1)].rstrip(" ，。；、") + "…"
 
 
 def stable_key(*parts: str) -> str:
@@ -256,17 +269,20 @@ def valuation_scenario(event: dict, verification: list[str]) -> list[dict]:
     if not valuation:
         return []
     return [
-        {
-            "key": stable_key("valuation-scenario", "upside"),
-            "title": "估值中枢上修条件",
-            "text": compact(verification[0] if verification else "后续正式披露继续验证收入、利润率、现金流或合同质量。", 260),
-        },
-        {
-            "key": stable_key("valuation-scenario", "watch"),
-            "title": "暂不调整估值中枢的条件",
-            "text": compact(valuation, 320),
-        },
-    ]
+            {
+                "key": stable_key("valuation-scenario", "upside"),
+                "title": "估值中枢上修条件",
+                "text": compact_with_ellipsis(
+                    verification[0] if verification else "后续正式披露继续验证收入、利润率、现金流或合同质量。",
+                    VALUATION_SCENARIO_LIMIT,
+                ),
+            },
+            {
+                "key": stable_key("valuation-scenario", "watch"),
+                "title": "暂不调整估值中枢的条件",
+                "text": compact_with_ellipsis(valuation, VALUATION_SCENARIO_LIMIT),
+            },
+        ]
 
 
 def event_deposits(item: dict, event: dict) -> dict:
@@ -297,9 +313,9 @@ def event_deposits(item: dict, event: dict) -> dict:
             {
                 "key": stable_key("finance-note", theme),
                 "title": f"{theme}｜财务读法",
-                "text": compact(
+                "text": compact_with_ellipsis(
                     f"原文事实：{source_text} 证据：{join_items(selected_evidence(event, FINANCE_TERMS, 3), 3)}。读法：{judgment} 后续验证：{finance_note_text}",
-                    900,
+                    FINANCE_NOTE_LIMIT,
                 ),
             }
         )
@@ -310,14 +326,14 @@ def event_deposits(item: dict, event: dict) -> dict:
                 "key": stable_key("business-segment", theme),
                 "title": f"{theme}｜{title}",
                 "scale": f"{date}｜{event_type}",
-                "text": compact(f"{business} 原文要点：{source_text}", 900),
+                "text": compact_with_ellipsis(f"{business} 原文要点：{source_text}", BUSINESS_SEGMENT_LIMIT),
             }
         )
         deposit["businessMap"]["moat"].append(
             {
                 "key": stable_key("business-moat", theme),
                 "title": f"护城河/业务主线是否变化｜{theme}",
-                "text": compact(judgment, 520),
+                "text": compact_with_ellipsis(judgment, BUSINESS_MOAT_LIMIT),
             }
         )
 
@@ -326,7 +342,7 @@ def event_deposits(item: dict, event: dict) -> dict:
             {
                 "key": stable_key("valuation-current", theme),
                 "title": f"{theme}｜估值/动作影响",
-                "text": compact(valuation, 900),
+                "text": compact_with_ellipsis(valuation, VALUATION_IMPACT_LIMIT),
             }
         )
         deposit["valuationModel"]["scenarios"].extend(valuation_scenario(event, verification))
@@ -334,7 +350,10 @@ def event_deposits(item: dict, event: dict) -> dict:
             {
                 "key": stable_key("valuation-trigger", theme),
                 "title": f"下一步验证｜{theme}",
-                "text": "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
+                "text": compact_with_ellipsis(
+                    "；".join(verification[:3]) or "等待下一轮正式披露验证这条事件能否进入收入、利润率、现金流或估值中枢。",
+                    VALUATION_TRIGGER_LIMIT,
+                ),
             }
         )
 
