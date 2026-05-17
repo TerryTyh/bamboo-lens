@@ -152,6 +152,7 @@ def run_refresh_chain() -> None:
         "audit_company_page_readability.py",
         "audit_company_page_mainlines.py",
         "export_portal_candidate_data.py",
+        "check_automation_health.py",
         "export_portal_docs.py",
     ]
     for script in scripts:

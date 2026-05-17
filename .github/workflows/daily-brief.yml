@@ -31,6 +31,11 @@ jobs:
       - name: Choose brief with freshness guard
         run: python3 scripts/prepare_brief_to_send.py
 
+      - name: Check automation health
+        if: ${{ always() }}
+        continue-on-error: true
+        run: python3 scripts/check_automation_health.py
+
       - name: Send to WeCom
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
@@ -52,6 +57,8 @@ jobs:
             云端研究简报系统/outputs/decision_deposition.json
             云端研究简报系统/outputs/company_page_overrides.json
             云端研究简报系统/outputs/company_state.json
+            云端研究简报系统/outputs/automation_health.json
+            云端研究简报系统/outputs/automation_health.md
             云端研究简报系统/outputs/reviewed_events.json
             云端研究简报系统/outputs/snapshots/manifest.json
             研究门户/candidate-data.js
@@ -61,4 +68,5 @@ jobs:
             研究门户/company-page-overrides-data.js
             研究门户/event-store-data.js
             研究门户/company-state-data.js
+            研究门户/automation-health-data.js
           if-no-files-found: warn
