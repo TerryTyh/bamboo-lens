@@ -396,11 +396,30 @@ def merge_deposits(deposits: list[dict]) -> dict:
     return {"sections": merged, "omitted": omitted}
 
 
+def actual_updated_sections(sections: dict, item: dict, event: dict) -> list[str]:
+    updated = ["当前结论"]
+    if section_count(sections, "businessMap", ["segments", "moat"]):
+        updated.append("公司理解")
+    if section_count(sections, "financeMap", ["rows", "bridge", "notes"]):
+        updated.append("财务数据地图")
+    if section_count(sections, "valuationModel", ["currentBreakdown", "scenarios", "triggers"]):
+        updated.append("估值模型")
+    if item.get("next_verification") or event.get("verification"):
+        updated.append("跟踪重点与风险")
+    return updated
+
+
+def section_count(sections: dict, section: str, fields: list[str]) -> int:
+    section_data = sections.get(section, {})
+    return sum(len(section_data.get(field, []) or []) for field in fields)
+
+
 def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) -> dict:
     action = str(event.get("action") or "").strip()
     valuation = str(event.get("valuation_analysis") or item.get("valuation_impact") or "").strip()
     deposits = [event_deposits(deposit_item, deposit_event) for deposit_item, deposit_event in all_items]
     merged_deposits = merge_deposits(deposits)
+    updated_sections = actual_updated_sections(merged_deposits["sections"], item, event)
     return {
         "source": "decision_deposition",
         "sourceEventIndex": item.get("event_index", 0),
@@ -420,7 +439,7 @@ def build_override(item: dict, event: dict, all_items: list[tuple[dict, dict]]) 
             "score": item.get("writeback_quality_score", 0),
             "blockers": item.get("writeback_blockers", []),
         },
-        "updatedSections": item.get("update_targets", []),
+        "updatedSections": updated_sections,
         "sectionDeposits": merged_deposits["sections"],
         "depositPolicy": {
             "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",

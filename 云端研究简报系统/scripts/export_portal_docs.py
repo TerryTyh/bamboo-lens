@@ -38,6 +38,10 @@ DOCS = [
         ROOT / "outputs" / "company_page_readability_audit.md",
         PORTAL_DOCS / "research" / "company_page_readability_audit.md",
     ),
+    (
+        ROOT / "outputs" / "company_page_mainline_audit.md",
+        PORTAL_DOCS / "research" / "company_page_mainline_audit.md",
+    ),
 ]
 
 

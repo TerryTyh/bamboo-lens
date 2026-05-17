@@ -150,6 +150,7 @@ def run_refresh_chain() -> None:
         "build_decision_deposition.py",
         "build_company_page_overrides.py",
         "audit_company_page_readability.py",
+        "audit_company_page_mainlines.py",
         "export_portal_candidate_data.py",
         "export_portal_docs.py",
     ]

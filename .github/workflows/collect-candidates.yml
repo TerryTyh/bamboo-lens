@@ -40,6 +40,7 @@ jobs:
           python3 scripts/build_decision_deposition.py
           python3 scripts/build_company_page_overrides.py
           python3 scripts/audit_company_page_readability.py
+          python3 scripts/audit_company_page_mainlines.py
           python3 scripts/collect_market_snapshots.py
           python3 scripts/generate_daily_brief.py
           python3 scripts/build_morning_brief.py
@@ -51,7 +52,7 @@ jobs:
       - name: Persist outputs to repository
         working-directory: .
         run: |
-          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/review-draft-data.js 研究门户/decision-impact-data.js 研究门户/decision-deposition-data.js 研究门户/company-page-overrides-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js 研究门户/market-snapshot-data.js 研究门户/docs; then
+          if git diff --quiet -- 云端研究简报系统/outputs 研究门户/candidate-data.js 研究门户/decision-data.js 研究门户/review-draft-data.js 研究门户/decision-impact-data.js 研究门户/decision-deposition-data.js 研究门户/company-page-overrides-data.js 研究门户/company-readability-audit-data.js 研究门户/company-mainline-audit-data.js 研究门户/event-store-data.js 研究门户/company-state-data.js 研究门户/market-snapshot-data.js 研究门户/docs; then
             echo "No generated output changes to commit."
             exit 0
           fi
@@ -70,6 +71,8 @@ jobs:
           git add -f 云端研究简报系统/outputs/company_page_overrides.json
           git add -f 云端研究简报系统/outputs/company_page_readability_audit.json
           git add -f 云端研究简报系统/outputs/company_page_readability_audit.md
+          git add -f 云端研究简报系统/outputs/company_page_mainline_audit.json
+          git add -f 云端研究简报系统/outputs/company_page_mainline_audit.md
           git add -f 云端研究简报系统/outputs/company_state.json
           git add -f 云端研究简报系统/outputs/market_snapshot.json
           git add -f 云端研究简报系统/outputs/reviewed_events.json
@@ -80,6 +83,7 @@ jobs:
           git add 研究门户/decision-deposition-data.js
           git add 研究门户/company-page-overrides-data.js
           git add 研究门户/company-readability-audit-data.js
+          git add 研究门户/company-mainline-audit-data.js
           git add 研究门户/event-store-data.js
           git add 研究门户/company-state-data.js
           git add 研究门户/market-snapshot-data.js
@@ -105,6 +109,8 @@ jobs:
             云端研究简报系统/outputs/company_page_overrides.json
             云端研究简报系统/outputs/company_page_readability_audit.json
             云端研究简报系统/outputs/company_page_readability_audit.md
+            云端研究简报系统/outputs/company_page_mainline_audit.json
+            云端研究简报系统/outputs/company_page_mainline_audit.md
             云端研究简报系统/outputs/company_state.json
             云端研究简报系统/outputs/market_snapshot.json
             云端研究简报系统/outputs/reviewed_events.json
@@ -115,6 +121,7 @@ jobs:
             研究门户/decision-impact-data.js
             研究门户/decision-deposition-data.js
             研究门户/company-readability-audit-data.js
+            研究门户/company-mainline-audit-data.js
             研究门户/company-page-overrides-data.js
             研究门户/event-store-data.js
             研究门户/company-state-data.js
