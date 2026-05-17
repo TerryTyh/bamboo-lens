@@ -13,6 +13,7 @@ PROJECT_ROOT = ROOT.parent
 OUTPUT_DIR = ROOT / "outputs"
 PORTAL_DATA_DIR = PROJECT_ROOT / "研究门户"
 WORKFLOW_DIR = PROJECT_ROOT / ".github" / "workflows"
+MARKET_WATCHLIST = ROOT / "config" / "market_watchlist.json"
 HEALTH_JSON = OUTPUT_DIR / "automation_health.json"
 HEALTH_MD = OUTPUT_DIR / "automation_health.md"
 PORTAL_HEALTH_JS = PORTAL_DATA_DIR / "automation-health-data.js"
@@ -274,6 +275,48 @@ def check_audits() -> dict:
     }
 
 
+def check_market_snapshot_quality() -> dict:
+    config = load_json(MARKET_WATCHLIST)
+    snapshot = load_json(OUTPUT_DIR / "market_snapshot.json")
+    expected = config.get("companies") or []
+    companies = snapshot.get("companies") or {}
+    issues = []
+    warnings = snapshot.get("warnings") or []
+    errors = snapshot.get("errors") or []
+
+    for item in expected:
+        company_id = item.get("id")
+        primary_symbol = item.get("primary_symbol")
+        company = companies.get(company_id or "")
+        if not company:
+            issues.append(f"{company_id}: 缺少行情快照")
+            continue
+        primary = company.get("primary")
+        quotes = company.get("quotes") or []
+        symbols = {quote.get("symbol") for quote in quotes}
+        if company.get("stale"):
+            issues.append(f"{company_id}: 使用 stale 行情")
+        if not primary or not isinstance(primary.get("price"), (int, float)):
+            issues.append(f"{company_id}: 缺少可用价格")
+        if primary_symbol and primary_symbol not in symbols:
+            issues.append(f"{company_id}: 缺少主交易口径 {primary_symbol}")
+
+    status = "healthy"
+    if issues:
+        status = "risk"
+    elif errors:
+        status = "watch"
+
+    return {
+        "status": status,
+        "expected": len(expected),
+        "covered": len([item for item in expected if item.get("id") in companies]),
+        "issues": issues,
+        "warnings": warnings,
+        "errors": errors,
+    }
+
+
 def summarize_status(sections: list[dict]) -> str:
     if any(section.get("status") == "risk" for section in sections):
         return "risk"
@@ -310,6 +353,15 @@ def build_markdown(payload: dict) -> str:
     lines.extend(["", "## 公司页质量审计", ""])
     lines.append(f"- 可读性审计：{json.dumps(payload['audits']['readability'], ensure_ascii=False)}")
     lines.append(f"- 主线复核：{json.dumps(payload['audits']['mainline'], ensure_ascii=False)}")
+    lines.extend(["", "## 行情与估值动态化", ""])
+    market_quality = payload["market_snapshot_quality"]
+    lines.append(f"- 覆盖公司：{market_quality['covered']}/{market_quality['expected']}，状态 {market_quality['status']}")
+    if market_quality["issues"]:
+        for issue in market_quality["issues"]:
+            lines.append(f"- 问题：{issue}")
+    if market_quality["errors"]:
+        for error in market_quality["errors"]:
+            lines.append(f"- 抓取错误：{error}")
     if payload["workflow_coverage"]["missing"]:
         lines.extend(["", "## Workflow 缺口", ""])
         for workflow, snippets in payload["workflow_coverage"]["missing"].items():
@@ -329,7 +381,8 @@ def main() -> None:
     freshness = check_output_freshness(now)
     brief_guard = check_brief_guard(now)
     audits = check_audits()
-    sections = [*file_groups, workflow_coverage, freshness, brief_guard, audits]
+    market_snapshot_quality = check_market_snapshot_quality()
+    sections = [*file_groups, workflow_coverage, freshness, brief_guard, audits, market_snapshot_quality]
     status = summarize_status(sections)
     status_label = {"healthy": "健康", "watch": "需观察", "risk": "有风险"}[status]
     summary_notes = [
@@ -338,6 +391,7 @@ def main() -> None:
         f"门户数据文件：{file_groups[2]['present']}/{file_groups[2]['total']} 已存在。",
         f"日报保护状态：{brief_guard['status']}。",
         f"公司页审计状态：{audits['status']}。",
+        f"行情覆盖状态：{market_snapshot_quality['status']}。",
     ]
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
@@ -349,6 +403,7 @@ def main() -> None:
         "freshness": freshness,
         "brief_guard": brief_guard,
         "audits": audits,
+        "market_snapshot_quality": market_snapshot_quality,
     }
     HEALTH_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     HEALTH_MD.write_text(build_markdown(payload), encoding="utf-8")
