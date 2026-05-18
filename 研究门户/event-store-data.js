@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-16T00:25:04",
+  "generated_at": "2026-05-18T14:56:45",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -282,7 +282,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -294,7 +294,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -306,7 +306,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -318,7 +318,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -330,7 +330,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -342,14 +342,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW",
           "date": "2026-05-14",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-14；标题：Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW；原文内容：Dive masks on — Subnautica 2 is making a splash on GeForce NOW day-and-date with launch, so members can plunge into the title’s brand-new alien ocean from almost any device. It leads 11 new games joining the cloud this week. A limited-time HITMAN World of Assassination reward event brings signature tools of the trade — equal parts precision and unpredictability. At the same time Le Chiffre from CASINO ROYALE , playe…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-subnautica-2/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -359,20 +359,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-subnautica-2/",
           "source_excerpt": "Dive masks on — Subnautica 2 is making a splash on GeForce NOW day-and-date with launch, so members can plunge into the title’s brand-new alien ocean from almost any device. It leads 11 new games joining the cloud this week. A limited-time HITMAN World of Assassination reward event brings signature tools of the trade — equal parts precision and unpredictability. At the same time Le Chiffre from CASINO ROYALE , playe…",
           "source_body": "Dive masks on — Subnautica 2 is making a splash on GeForce NOW day-and-date with launch, so members can plunge into the title’s brand-new alien ocean from almost any device. It leads 11 new games joining the cloud this week. A limited-time HITMAN World of Assassination reward event brings signature tools of the trade — equal parts precision and unpredictability. At the same time Le Chiffre from CASINO ROYALE , played by the legendary actor Mads Mikkelsen, returns to HITMAN World of Assassination . Play for free through May 25 and earn a unique reward for 007 First Light . Meanwhile, engines are already revving — the highly anticipated Forza Horizon 6 races onto the scene with early access, starting today for players who preordered the Premium Edition on Steam or purchased the Premium Upgrade Bundle for PC Game Pass. GeForce NOW members can jump in once early access becomes available on the service — no preinstalls or downloads needed. It all highlights what GeForce NOW does best: turning PC gaming collections into play-anywhere experiences across devices, with no install, updates or the latest hardware required. Jump into a shared-world ocean frontier in Subnautica 2 — where survival, exploration and creativity rise to the surface together. Every reef, trench and stormy horizon is crafted to be swum through, studied and slowly tamed as players chart their own course beneath alien waves. Descend into a living seascape of dynamic ecosystems, mysterious ruins and creatures that range from curious to colossal. Take on story-driven missions, dive into resource-rich biomes and construct bases above and below the surface to turn hostile waters into a home. Whether playing solo or with a crew, the ocean stays vast and unpredictable. On GeForce NOW, every current, glow and shadow streams with crisp detail and fluid performance straight from the cloud. Members can plunge into the depths in moments, skipping downloads and hardware upgrades. Suit up, agent — things are getting a little explosive. A new HITMAN World of Assassination reward event lands on GeForce NOW, giving members a stylish (and slightly unhinged) way to make an impression. Each item leans into HITMAN ’s signature tone — equal parts precision, chaos and dark humor. Here’s what’s waiting: Starting today, all members get access to the rewards, which will remain available through Sunday, June 14, first come, first served. To claim, log in to a GeForce NOW account, head to the rewards section in the account portal and redeem.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "文章宣布《Subnautica 2》Early Access 将与上线同步登陆 GeForce NOW，会员可在多设备端直接从云端游玩，无需本地安装与更新。",
-            "本周共有 11 款新游戏加入云端库，并搭配限时《HITMAN World of Assassination》奖励活动，强化会员运营与留存。",
-            "文中提到《HITMAN》新增来自《Casino Royale》的角色 Le Chiffre（由 Mads Mikkelsen 饰演），可在 5 月 25 日前免费体验，并获得与 “007 First Light” 相关的独特奖励。",
-            "文章同时提到《Forza Horizon 6》开启早期访问，强调 GeForce NOW 可以在服务端开放后直接开玩，降低“预载/硬件门槛”。",
-            "对 NVIDIA 业务的增量主要在 GeForce NOW 订阅与生态粘性：通过 day-and-date 与活动化运营，持续强化“跨设备即点即玩”的产品定位。",
-            "观察点是更多 AAA/热门新品能否持续 day-and-date 上线，以及会员规模/付费层级（Ultimate 等）是否出现可验证的结构性改善。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
           "date": "2026-05-13",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-13；标题：Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark；原文内容：Agentic AI is changing the way users get work done. Following the success of OpenClaw , the community is embracing new open source agentic frameworks. The latest is Hermes Agent , which crossed 140,000 GitHub stars in under three months and, as of last week, is the most used agent in the world according to OpenRouter . Developed by Nous Research, Hermes is designed for reliability and self-improvement — two qualitie…；来源：https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -382,21 +374,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
           "source_excerpt": "Agentic AI is changing the way users get work done. Following the success of OpenClaw , the community is embracing new open source agentic frameworks. The latest is Hermes Agent , which crossed 140,000 GitHub stars in under three months and, as of last week, is the most used agent in the world according to OpenRouter . Developed by Nous Research, Hermes is designed for reliability and self-improvement — two qualitie…",
           "source_body": "Agentic AI is changing the way users get work done. Following the success of OpenClaw , the community is embracing new open source agentic frameworks. The latest is Hermes Agent , which crossed 140,000 GitHub stars in under three months and, as of last week, is the most used agent in the world according to OpenRouter . Developed by Nous Research, Hermes is designed for reliability and self-improvement — two qualities that have historically been hard to achieve with agents. It’s provider- and model-agnostic by design, and optimized for always-on local use, making NVIDIA RTX PCs , NVIDIA RTX PRO workstations and NVIDIA DGX Spark the ideal hardware to run it at full speed, around the clock. Qwen 3.6, a new series of high-performance, open weight large language models (LLMs) from Alibaba, are ideal for running local agents like Hermes. The Qwen 3.6 27B and 35B parameter models are outperforming their previous-generation 120B and 400B parameter model counterparts and run on NVIDIA RTX and DGX Spark for accelerated agentic AI. Like other popular agents, Hermes integrates with messaging apps, can access local files and applications, and runs 24/7. But four standout capabilities set it apart: Both the Hermes agent and the underlying LLM are built to run locally — which means the quality of hardware directly determines the quality of a user’s experience. NVIDIA RTX GPUs are purpose-built for this kind of workload. The latest Qwen 3.6 models build on the acclaimed Qwen 3.5 series to deliver another leap forward for local AI agents. The new Qwen 3.6 35B model runs on roughly 20GB of memory while surpassing 120 billion-parameter models, which require 70GB+ of memory. In addition, Qwen 3.6 27B is a new, dense model with more active parameters — matching the accuracy of 400 billion-parameter models like Qwen 3.5 397B while being one-sixteenth the size. Running on high-end RTX GPUs provides the model the computing power it needs for a speedy experience. These models are ideal for local agents like Hermes, and NVIDIA GPUs and DGX Spark are the fastest way to run them. NVIDIA Tensor Cores accelerate AI inference to deliver higher throughput and lower latency — so Hermes can work through a multistep task or refine one of its own skills in seconds rather than minutes. Agents like Hermes are built to run continuously — responding to requests, planning multistep tasks, executing autonomously and self-improving. NVIDIA DGX Spark is the ideal companion — a compact, efficient standalone machine built for sustained, all-day agentic workflows. With 128GB of unified memory and 1 petaflop of AI performance, NVIDIA DGX Spark can run 120 billion-parameter mixture-of-experts models all day. And the new Qwen 3.6 35B model delivers equivalent intelligence in a leaner footprint — running faster and giving users the capacity to run concurrent workloads. To maximize performance and ease of use, read the Hermes DGX Spark playbook . Plus, register for upcoming hands-on sessions in NVIDIA’s “Build It Yourself” agentic AI series to learn how to build autonomous AI agents with NemoClaw and OpenShell. NVIDIA DGX Spark is available to order from NVIDIA’s manufacturing partners — visit the marketplace .",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "原文以 Nous Research 开源的 Hermes Agent 为例，描述 agentic AI 正从“演示工具”走向可持续运行的工作方式：Hermes 被描述为更可靠、可自我改进，且可在本地 24/7 运行并集成消息应用、访问本地文件/应用。",
-            "文章把 Qwen 3.6 27B/35B 等开源权重模型与 Hermes 组合为“本地 agent 套件”，并强调硬件会直接决定体验，因此把 NVIDIA RTX PC/RTX PRO 与 DGX Spark 作为该类工作负载的推荐运行平台。",
-            "文中还用具体参数说明其硬件叙事（例如 35B 约 20GB 内存运行、DGX Spark 128GB unified memory/1 petaflop AI performance），意在把“本地 agent”绑定到 NVIDIA 端侧与小型机生态。",
-            "对 NVIDIA 来说，核心影响在端侧与小型机生态而非数据中心训练：一是 RTX PC/RTX PRO 工作站可被定义为“全天候本地 agent 机器”，潜在带动高端 GPU 与整机升级；二是 DGX Spark 等小型机把 agent 负",
-            "估值/动作层面，这类生态文章本身不会立刻改变盈利预测，但会影响市场对“端侧 AI + agent 工作流”可持续性的想象空间：若后续出现可验证的采用数据（出货、活跃、企业部署案例），可能抬升对 RTX 相关增长与毛利结构的信心；反之若仅停留",
-            "跟踪后续是否出现可核验的采用证据：Hermes/类似本地 agent 在企业/开发者侧的部署案例、活跃度或官方生态数据披露。",
-            "观察 RTX AI PC 与工作站出货/ASP/渠道反馈是否出现“agent 本地运行”驱动的结构性变化。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
           "date": "2026-05-13",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-13；标题：NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure；原文内容：Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The next frontier of AI is superlearners — systems that learn continuou…；来源：https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -406,21 +389,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
           "source_excerpt": "Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The next frontier of AI is superlearners — systems that learn continuou…",
           "source_body": "Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The next frontier of AI is superlearners — systems that learn continuously from experience,” said Jensen Huang, founder and CEO of NVIDIA. “We are thrilled to partner with Ineffable Intelligence to codesign the infrastructure for large-scale reinforcement learning as they push the frontier of AI and pioneer a new generation of intelligent systems.” Silver is one of the pioneers of reinforcement learning, an approach that has transformed AI research. He’s focused on further developing this approach into a new paradigm. “Researchers have largely solved the easier problem of AI: how to build systems that know all the things humans already know,” Silver said. “But now we need to solve the harder problem of AI: how to build systems that discover new knowledge for themselves. That requires a very different approach — systems that learn from experience.” That kind of learning needs a powerful and highly optimized pipeline to support it. U nlike pretraining, where a fixed dataset of human data flows through the system, reinforcement learning workloads generate their data on the fly. The system has to act, observe, score and update continuously in tight loops, which puts pressure on interconnect, memory bandwidth and serving in ways that pretraining doesn’t. Furthermore, the system will train on rich forms of experience that are quite distinct from human language and other human data, and may require novel model architectures and training algorithms. That’s where NVIDIA and Ineffable are focusing their technical work: building a pipeline that can feed reinforcement learning systems at scale. Engineers from both companies have teamed up to explore the best way to create this training pipeline. This work is starting on NVIDIA Grace Blackwell, and will be among the first to explore the upcoming NVIDIA Vera Rubin platform. The goal is to understand the next generation of hardware and software that will be required as the AI world shifts beyond human data toward models that learn through simulation and experience. Getting this infrastructure right will unlock an unprecedented scale of reinforcement learning in highly complex and rich environments, allowing agents to discover breakthroughs across all fields of knowledge.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "原文宣布 NVIDIA 与 Ineffable Intelligence（由 AlphaGo 架构师 David Silver 创立的 AI 实验室）开展工程层面的合作，目标是共同设计可在大规模上支撑强化学习（RL）的训练流水线与基础设施。",
-            "文章强调 RL 与预训练在系统层面的差异：RL 数据在线生成且需要在紧密循环中持续“行动-观察-评分-更新”，因此对互联、内存带宽与 serving 链路提出不同压力。",
-            "文中称合作工作从 NVIDIA Grace Blackwell 平台起步，并将成为较早探索未来 NVIDIA Vera Rubin 平台的项目之一，意在把下一代训练范式与其新平台提前绑定。",
-            "从业务上看，RL/后训练工作负载若走向规模化，会把算力需求从“单次大训练”扩展到“持续生成数据与训练更新”的闭环，对 GPU、互联与系统软件的要求更系统化。NVIDIA 通过与前沿实验室共设基础设施，有助于在平台迭代时把新负载的关键瓶颈（互",
-            "估值/动作层面，该类合作更像“未来需求曲线”的证据点：若 RL/后训练成为主流，将延长高端算力与系统平台的景气周期，支持估值中枢维持；但在缺少可验证客户采用与预算分配前，不应据此上调短期盈利假设。当前动作以维持跟踪为主，等待后续平台发布/客",
-            "关注 NVIDIA 后续在产品/平台发布中对 RL/后训练基础设施的明确支持（软件栈、互联/带宽优化、参考架构）。",
-            "观察是否出现可核验的客户采用：Ineffable 或类似团队在公开材料中披露使用规模、集群形态或性能指标。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
           "date": "2026-05-12",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-12；标题：NVIDIA and SAP Bring Trust to Specialized Agents；原文内容：From finance and procurement to supply chain and manufacturing, specialized AI agents are moving into the enterprise systems where business decisions are made, data is accessed and workflows run at scale. Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with…；来源：https://blogs.nvidia.com/blog/sap-specialized-agents/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -430,22 +404,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
           "source_excerpt": "From finance and procurement to supply chain and manufacturing, specialized AI agents are moving into the enterprise systems where business decisions are made, data is accessed and workflows run at scale. Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with…",
           "source_body": "From finance and procurement to supply chain and manufacturing, specialized AI agents are moving into the enterprise systems where business decisions are made, data is accessed and workflows run at scale. Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with security and governance controls. SAP embeds NVIDIA OpenShell — an open source runtime for securely developing and deploying autonomous AI agents — into SAP Business AI Platform. In addition, SAP engineers are codesigning OpenShell alongside NVIDIA, contributing back to the open source project. OpenShell provides isolated execution environments, policy enforcement at the filesystem and network layers, and infrastructure-level containment that guards against damage when agent logic fails. Within SAP Business AI Platform, OpenShell is the runtime security layer for all SAP AI agents, including custom agents built in Joule Studio — SAP’s environment for building and managing end-to-end enterprise agents. For enterprises, the shift from AI assistants to autonomous agents changes the trust equation. An agent that can touch systems of record, cross application boundaries and operate without review at every step needs boundaries, policy enforcement and an audit trail before it can become part of production work. That’s what SAP and NVIDIA are collaborating to address. Huang has described AI as a five-layer cake : energy, chips, infrastructure, models and applications. Applications sit at the top, where AI creates economic value and drives productivity for knowledge workers. As a global leader in enterprise applications and business AI, SAP is an important catalyst in the application layer, running finance, procurement, supply chain and manufacturing workflows where agents must operate within policy, identity and process controls. That makes SAP’s position at the core of enterprise operations a key driver for enterprise adoption of agentic AI. Business agents need to understand roles, processes, permissions and data boundaries. They also need an execution environment that limits what an agent sees, what it can do and where inference runs. NVIDIA brings its own perspective as a longstanding SAP customer — running finance, supply chain and logistics on SAP, giving both companies shared context for what enterprise-grade governance requires in practice. SAP engineers are working alongside NVIDIA’s to further develop OpenShell’s open source codebase, focusing contributions on what enterprises need to run agentic AI in production: runtime hardening, policy modeling, enterprise identity integration, and auditing and governance hooks.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "文章聚焦“企业级 agent 进入系统-of-record 后的信任问题”，认为从助手走向自治 agent 会放大安全、权限与审计要求。",
-            "SAP 表示在 SAP Business AI Platform 中集成 NVIDIA OpenShell，并把它作为 SAP AI agents 的运行时安全层（包括 Joule Studio 构建的自定义 agents）。",
-            "OpenShell 被描述为提供隔离执行、文件/网络策略控制与基础设施级隔离，目的是在 agent 失效时限制影响范围，并提供治理与审计能力。",
-            "SAP 与 NVIDIA 将共同开发并回馈开源代码，关注运行时加固、策略建模、企业身份集成与审计治理等企业落地要素。",
-            "企业 agent 真正进入财务、采购、供应链与制造等系统-of-record 后，权限边界、策略执行与审计追踪会成为落地的硬门槛。SAP 把 OpenShell 嵌入平台并用于其 agent 体系，等于把“运行时治理/隔离”作为平台能力下沉",
-            "对估值与动作的直接影响当前有限：缺少可量化的商业化口径（付费、席位、订阅、部署规模）。更合理的跟踪方式是把它当作“企业软件渠道与平台绑定”的信号：若后续出现 SAP 客户案例、部署规模与收费模式披露，才可能转化为对软件/服务收入可见度的上修",
-            "是否出现可核验的客户落地案例（行业、业务流程、部署范围），以及 OpenShell 在 SAP 客户中的默认覆盖范围。",
-            "NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
           "date": "2026-05-10",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-10；标题：‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates；原文内容：“You are entering the world at an extraordinary moment,” NVIDIA founder and CEO Jensen Huang told graduates as he delivered the keynote address at Carnegie Mellon University’s 128th commencement ceremony on Sunday. “A new industry is being born. A new era of science and discovery is beginning.” “No generation has entered the world with more powerful tools — or greater opportunities — than you,” said Huang, addressin…；来源：https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -455,20 +419,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
           "source_excerpt": "“You are entering the world at an extraordinary moment,” NVIDIA founder and CEO Jensen Huang told graduates as he delivered the keynote address at Carnegie Mellon University’s 128th commencement ceremony on Sunday. “A new industry is being born. A new era of science and discovery is beginning.” “No generation has entered the world with more powerful tools — or greater opportunities — than you,” said Huang, addressin…",
           "source_body": "“You are entering the world at an extraordinary moment,” NVIDIA founder and CEO Jensen Huang told graduates as he delivered the keynote address at Carnegie Mellon University’s 128th commencement ceremony on Sunday. “A new industry is being born. A new era of science and discovery is beginning.” “No generation has entered the world with more powerful tools — or greater opportunities — than you,” said Huang, addressing the assembled thousands on a rainy morning at Gesling Stadium on the university’s main campus in Pittsburgh, Pennsylvania. “We are all standing at the same starting line. This is your moment to help shape what comes next.” After encouraging graduates to turn to their mothers and wish them a happy Mother’s Day, Huang drew a direct parallel between starting his career at the beginning of the PC revolution and graduates starting theirs at the beginning of the AI revolution, emphasizing that every major computing platform shift — PCs, the internet, mobile and cloud — had led to this shared moment. “But what is about to happen now is bigger than anything before,” he said. “Because intelligence is foundational to every industry, every industry will change.” As a result, no graduating class is better primed than the present one to press the advantage. “For the first time, the power of computing and intelligence can truly reach everyone and close the technology divide,” Huang said. “Now it’s your time to realize your dreams — and the timing could not be more perfect.” Huang described AI as driving the largest technology infrastructure buildout in human history, and a “once-in-a-generation opportunity to reindustrialize America and restore the nation’s capacity to build.” The American dream of opportunity — and promise of reinvention — underpins the AI revolution and its far-reaching impacts on American industry and society. Huang underscored that AI is making intelligence more broadly accessible — reaffirming the imperative for AI to reach everyone, not just a select few. Its opportunity extends across many industries and jobs including electricians, plumbers, ironworkers, technicians and all kinds of builders. “This is your time,” Huang said. “AI is not just creating a new computing industry. It is creating a new industrial era.” Massive industrial and economic shifts always bring with them uncertainty, the AI revolution is no different. “Every major technological revolution in history created fear alongside opportunity,” Huang said. “When society engages technology openly, responsibly and optimistically, we expand human potential far more than we diminish it.”",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "文章记录 NVIDIA CEO 黄仁勋在卡内基梅隆大学第 128 届毕业典礼的演讲要点，强调毕业生正站在“AI 革命的起点”。",
-            "他将 AI 视为一次更大规模的平台迁移，类比 PC、互联网、移动与云的演进，认为“智能”将渗透并改变几乎所有行业。",
-            "文中称 AI 正驱动“人类历史上最大规模的技术基础设施建设”，并把它描述为一次“再工业化美国、恢复制造能力”的机会窗口。",
-            "他强调 AI 带来的机会不只属于少数技术岗位，也会扩展到电工、管道工、钢结构工、技术员等各类建设与制造相关岗位。",
-            "对投资理解的意义在于：这是 NVIDIA 延续“AI=基础设施/工业化浪潮”的叙事表达，强调需求侧的长期性与社会层面的扩散路径。",
-            "后续可结合数据中心资本开支、算力供给扩张与产业就业/制造投资等外部指标，验证该“基础设施建设周期”叙事的持续性。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
           "date": "2026-05-08",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-08；标题：NVIDIA Names Suzanne Nora Johnson to Board of Directors；原文内容：[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective J…；来源：https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -477,14 +433,13 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "sort_key": 20260508,
           "source_url": "https://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
           "source_excerpt": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective J…",
-          "source_body": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear commercial and technology partnership to dramatically expand ... Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark NVIDIA and SAP Bring Trust to Specialized Agents ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins NVIDIA CEO: We Have the Most Energy Efficient Architecture in the World An Interview with NVIDIA CEO Jensen Huang About Accelerated Computing February 27, 2026 Wall Street Journal NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#instagram) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#twitter) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#facebook) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#youtube) > [](http://twitter.com/nvidia/status/2054694556466094321) Snap’s GPU-Accelerated Secret to Processing 10 Petabytes a Day NVIDIA AI Podcast Ep. 298 \"Snap processes more than 10 petabytes of experimentation data every single morning—and with NVIDIA ... Global contacts for media inquiries. Newsroom updates delivered to your inbox. Professional Services for Data Science [](https://www.facebook.com/NVIDIA)[](https://twitter.com/nvidia)[](https://www.linkedin.com/company/nvidia)[](https://www.instagram.com/nvidia/?hl=en)[](https://www.youtube.com/user/nvidia) Copyright © 2026 NVIDIA Corporation",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "正文抓取为列表页/缺少公告正文；本次不生成中文摘要。"
+          "source_body": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear commercial and technology partnership to dramatically expand ... Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark NVIDIA and SAP Bring Trust to Specialized Agents ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins NVIDIA CEO: We Have the Most Energy Efficient Architecture in the World An Interview with NVIDIA CEO Jensen Huang About Accelerated Computing February 27, 2026 Wall Street Journal NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#instagram) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#twitter) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#facebook) [](http://investor.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors#youtube) > [](http://twitter.com/nvidia/status/2055362584329572654) Understanding the AI Tokenomics Equation Delivering agentic inference at scale requires balancing three pillars: 1) Model and algorithm ... Global contacts for media inquiries. Newsroom updates delivered to your inbox. Professional Services for Data Science [](https://www.facebook.com/NVIDIA)[](https://twitter.com/nvidia)[](https://www.linkedin.com/company/nvidia)[](https://www.instagram.com/nvidia/?hl=en)[](https://www.youtube.com/user/nvidia) Copyright © 2026 NVIDIA Corporation",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
           "date": "2026-05-07",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-07；标题：NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure；原文内容：[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Boa…；来源：https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -493,14 +448,13 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "sort_key": 20260507,
           "source_url": "https://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
           "source_excerpt": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Boa…",
-          "source_body": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear commercial and technology partnership to dramatically expand ... Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark NVIDIA and SAP Bring Trust to Specialized Agents ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins NVIDIA CEO: We Have the Most Energy Efficient Architecture in the World An Interview with NVIDIA CEO Jensen Huang About Accelerated Computing February 27, 2026 Wall Street Journal NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#instagram) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#twitter) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#facebook) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#youtube) > [](http://twitter.com/nvidia/status/2054694556466094321) Snap’s GPU-Accelerated Secret to Processing 10 Petabytes a Day NVIDIA AI Podcast Ep. 298 \"Snap processes more than 10 petabytes of experimentation data every single morning—and with NVIDIA ... Global contacts for media inquiries. Newsroom updates delivered to your inbox. Professional Services for Data Science [](https://www.facebook.com/NVIDIA)[](https://twitter.com/nvidia)[](https://www.linkedin.com/company/nvidia)[](https://www.instagram.com/nvidia/?hl=en)[](https://www.youtube.com/user/nvidia) Copyright © 2026 NVIDIA Corporation",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "正文抓取为列表页/缺少公告正文；本次不生成中文摘要。"
+          "source_body": "[](https://www.nvidia.com/en-us)[](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#) [](http://investor.nvidia.com/search) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure# \"Menu\") NVIDIA Names Suzanne Nora Johnson to Board of Directors NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA today announced that it has named to its board of directors Suzanne Nora Johnson, effective July 13, 2026. NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear commercial and technology partnership to dramatically expand ... Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark NVIDIA and SAP Bring Trust to Specialized Agents ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins NVIDIA CEO: We Have the Most Energy Efficient Architecture in the World An Interview with NVIDIA CEO Jensen Huang About Accelerated Computing February 27, 2026 Wall Street Journal NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#instagram) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#twitter) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#facebook) [](http://investor.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure#youtube) > [](http://twitter.com/nvidia/status/2055362584329572654) Understanding the AI Tokenomics Equation Delivering agentic inference at scale requires balancing three pillars: 1) Model and algorithm ... Global contacts for media inquiries. Newsroom updates delivered to your inbox. Professional Services for Data Science [](https://www.facebook.com/NVIDIA)[](https://twitter.com/nvidia)[](https://www.linkedin.com/company/nvidia)[](https://www.instagram.com/nvidia/?hl=en)[](https://www.youtube.com/user/nvidia) Copyright © 2026 NVIDIA Corporation",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW",
           "date": "2026-05-07",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-07；标题：Linked and Loaded: Gaijin Single Sign-On Now Available on GeForce NOW；原文内容：Faster logins mean more time in the gaming action — and this week provides GeForce NOW members with a smoother path straight into the battlefield. Cloud gaming is all about instant access to titles across devices, and the latest GeForce NOW update removes another layer for members jumping into their Gaijin libraries from anywhere. With seven games joining the cloud this week, the action keeps growing — now backed by…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-gaijin-sso/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -510,15 +464,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gaijin-sso/",
           "source_excerpt": "Faster logins mean more time in the gaming action — and this week provides GeForce NOW members with a smoother path straight into the battlefield. Cloud gaming is all about instant access to titles across devices, and the latest GeForce NOW update removes another layer for members jumping into their Gaijin libraries from anywhere. With seven games joining the cloud this week, the action keeps growing — now backed by…",
           "source_body": "Faster logins mean more time in the gaming action — and this week provides GeForce NOW members with a smoother path straight into the battlefield. Cloud gaming is all about instant access to titles across devices, and the latest GeForce NOW update removes another layer for members jumping into their Gaijin libraries from anywhere. With seven games joining the cloud this week, the action keeps growing — now backed by NVIDIA GeForce RTX 5080 performance for Ultimate members across nearly the full GeForce NOW library , spanning both Ready-to-Play and Install-to-Play titles. Gaijin account linking is now cleared for takeoff on GeForce NOW, making it easier to jump straight into battle without extra logins. With Gaijin single sign-on, one quick sign-in connects a Gaijin.net account to the cloud, so supported titles are ready to launch with fewer clicks and no password juggling. Just head to the GeForce NOW app on PC or Mac, dive into the settings and log in under “Connections.” Once linked, supported Gaijin games on GeForce NOW — like the combined-arms chaos of War Thunder — are ready to stream without logging in each time. It’s the same library-first, platform-linking magic members already enjoy with Xbox, Ubisoft Connect and more, now extended to Gaijin so existing PC accounts work seamlessly across devices. Dead as Disco from Brain Jar Game s drops players into a neon-soaked fever dream where every punch, dodge and takedown hits on the beat. This rhythm-infused brawler blends stylish combat with pulsing tracks, turning each fight into a dance floor showdown. Chain combos, stay in sync and keep the groove alive as the chaos escalates. Now available to stream on GeForce NOW, it’s all about timing, flair and fighting like the music never stops In addition, members can look for the following games, all ready to play on GeForce RTX 5080-power for Ultimate members: What are you planning to play this weekend? Let us know on X or in the comments below. What has been your most-played game so far this year? — 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN) May 5, 2026",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-153618__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "content_summary": [
-            "文章宣布 GeForce NOW 新增 Gaijin.net 单点登录（SSO）与账号绑定能力，降低玩家在云端启动 Gaijin 游戏的重复登录成本。",
-            "绑定方式是通过 PC/Mac 端 GeForce NOW 设置中的 “Connections” 登录 Gaijin 账号；完成后支持游戏（如《War Thunder》）可更少步骤直接启动。",
-            "文中称本周有 7 款新游戏加入云端库，并强调 Ultimate 会员可在接近全库的 Ready-to-Play 与 Install-to-Play 标题上获得 GeForce RTX 5080 级别性能。",
-            "这条更新的核心是“平台级账号互通”能力扩展：从 Xbox、Ubisoft Connect 等延伸到 Gaijin，强化“云端=继承既有 PC 库”的使用路径。",
-            "对 NVIDIA 来说属于 GeForce NOW 产品体验与生态联接的边际改进，更多影响订阅粘性与活跃，而非短期财务模型的大幅变化。",
-            "后续需要观察类似账号体系（发行商/平台）接入是否持续扩张、以及是否伴随会员端的转化率与留存指标改善。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260518-145403__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -724,7 +670,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -736,7 +682,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -785,7 +731,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -797,7 +743,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -809,7 +755,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -821,161 +767,119 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
+          "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+          "date": "2026-05-15",
+          "fetched_at": "20260518-145403",
+          "type": "官方候选",
+          "fact": "日期：2026-05-15；标题：TSMC to Sell 8.1% of Vanguard International Semiconductor；原文内容：HSINCHU, Taiwan, R.O.C., May 15, 2026 – TSMC (TWSE: 2330, NYSE: TSM) plans to execute the sale of up to 152.0 million common shares of Vanguard International Semiconductor Corporation (“VIS”), or approximately 8.1% of VIS’ fully-diluted paid-in-capital through a block trade to financial institutional investors. The proposed share sale will not affect TSMC’s strategic relations with VIS, including outsourcing of inte…；来源：http://pr.tsmc.com/english/news/3314",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260515,
+          "source_url": "http://pr.tsmc.com/english/news/3314",
+          "source_excerpt": "HSINCHU, Taiwan, R.O.C., May 15, 2026 – TSMC (TWSE: 2330, NYSE: TSM) plans to execute the sale of up to 152.0 million common shares of Vanguard International Semiconductor Corporation (“VIS”), or approximately 8.1% of VIS’ fully-diluted paid-in-capital through a block trade to financial institutional investors. The proposed share sale will not affect TSMC’s strategic relations with VIS, including outsourcing of inte…",
+          "source_body": "HSINCHU, Taiwan, R.O.C., May 15, 2026 – TSMC (TWSE: 2330, NYSE: TSM) plans to execute the sale of up to 152.0 million common shares of Vanguard International Semiconductor Corporation (“VIS”), or approximately 8.1% of VIS’ fully-diluted paid-in-capital through a block trade to financial institutional investors. The proposed share sale will not affect TSMC’s strategic relations with VIS, including outsourcing of interposer production and licensing of GaN technology to VIS. The proposed share sale is part of TSMC’s plan to focus its resources on core business activities. In June 2024, TSMC ceased to have representation on VIS’ board of directors. TSMC currently holds approximately 27.1% of VIS shares on a fully diluted basis. Upon the completion of this share sale, TSMC expects to reduce its shareholding in VIS to approximately 19%. TSMC has no plan to sell more VIS shares in the foreseeable future. Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
+        },
+        {
           "title": "TSMC Board of Directors Meeting Resolutions",
           "date": "2026-05-12",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-05-12；标题：TSMC Board of Directors Meeting Resolutions；原文内容：TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http:/…；来源：http://pr.tsmc.com/english/news/3311",
+          "fact": "日期：2026-05-12；标题：TSMC Board of Directors Meeting Resolutions；原文内容：HSINCHU, Taiwan, R.O.C., May 12, 2026 – The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. Approved the capital injection of not more than U…；来源：http://pr.tsmc.com/english/news/3311",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260512,
           "source_url": "http://pr.tsmc.com/english/news/3311",
-          "source_excerpt": "TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http:/…",
-          "source_body": "TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3311#)Search 5. TSMC Board of Directors Meeting Resolutions [](http://pr.tsmc.com/english/news/3311) TSMC Board of Directors Meeting Resolutions TSMC Board of Directors Meeting Resolutions *HSINCHU, Taiwan, R.O.C.,May 12, 2026 –**The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: 1. Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. 2. Approved the distribution of a NT$7.0 per share cash dividend for the first quarter of 2026, and set September 22, 2026 as the record date for common stock shareholders entitled to participate in this cash dividend distribution, and the ex-dividend date for the common shares shall be September 16, 2026. As required by Article 165 of Taiwan’s Company Law, the shareholders’ register shall be closed for five days prior to the record date (September 18 through September 22, 2026) for registration transfer, and the dividend will be paid on October 8, 2026. In addition, the ex-dividend date and the record date for entitlement to participate in this cash dividend distribution for TSMC American Depositary Shares (ADSs) will be September 16, 2026. 1. To meet long-term capacity plans based on market demand forecasts and TSMC’s technology development roadmap, the Board approved capital appropriations of approximately US$31,284.30 million for purposes mainly including: 1) Installation of advanced technology capacity; 2) Fab construction, and installation of fab facility systems. 1. Approved the capital injection of not more than US$20 billion to TSMC Arizona, a wholly-owned subsidiary of TSMC. 2. Approved the following personnel promotion: Promoted Vice President, Corporate Planning Mr. Jonathan Lee to Senior Vice President Promoted Senior Director, Quality & Reliability Mr. Y.H. Wu to Vice President Promoted Senior Director, Research and Development / Nano Patterning Technology Dr. Y.C. Ku to Vice President Promoted Senior Director, Operations / Intelligent Manufacturing Center Mr. Span Lu to Vice President Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "公告列出董事会通过的决议事项，核心包括：确认 2026Q1 财报数字、决定季度现金股利、核准新增资本支出与对 Arizona 子公司注资上限。",
-            "财报层面披露：2026Q1 合并营收 NT$1,134.10 billion、净利润 NT$572.48 billion、稀释 EPS NT$22.08。",
-            "股东回报层面：核准 2026Q1 每股现金股利 NT$7.0，并披露普通股与 ADS 的除息/登记/发放日期安排。",
-            "资本配置层面：核准约 US$31,284.30 million 的资本支出拨款（先进制程产能 + 厂房建设与厂务系统），并核准对 TSMC Arizona 注资上限 US$20 billion。",
-            "资本支出拨款明确指向先进技术产能与厂房/厂务系统建设，说明公司对先进制程/先进封装相关产能扩张仍在按计划推进；对 Arizona 子公司的注资上限进一步把“美国本地制造”从项目进度推向更清晰的资金承诺口径。对业务理解的关键影响是：未来 1-",
-            "估值/动作层面，核心变量是资本开支强度与海外扩产的回报质量：高投入若能继续对应高毛利/高利用率，将支撑估值中枢；若海外建厂导致成本抬升、爬坡拉长或补贴不确定，则会提高对利润率与自由现金流的折现压力。本条决议更偏“验证/校准资本开支假设”的材",
-            "后续季度中资本开支与折旧/现金流口径是否与“持续高强度投入”一致，尤其是自由现金流的波动与原因拆解。",
-            "TSMC Arizona 的建设/量产进度、良率爬坡与补贴条件是否兑现，是否带来结构性成本抬升或对毛利率形成拖累。"
-          ]
+          "source_excerpt": "HSINCHU, Taiwan, R.O.C., May 12, 2026 – The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. Approved the capital injection of not more than U…",
+          "source_body": "HSINCHU, Taiwan, R.O.C., May 12, 2026 – The TSMC (TWSE: 2330, NYSE: TSM) Board of Directors today held a meeting, which passed the following resolutions: Approved the 2026 first quarter Business Report and Financial Statements. First quarter consolidated revenue was NT$1,134.10 billion and net income was NT$572.48 billion, with diluted earnings per share of NT$22.08. Approved the capital injection of not more than US$20 billion to TSMC Arizona, a wholly-owned subsidiary of TSMC. Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership",
           "date": "2026-05-08",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-05-08；标题：Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership；原文内容：Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education an…；来源：http://pr.tsmc.com/english/news/3308",
+          "fact": "日期：2026-05-08；标题：Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership；原文内容：Hsinchu, Taiwan, R.O.C., May 8, 2026 - Sony Semiconductor Solutions Corporation (“Sony”) and TSMC (TWSE: 2330, NYSE: TSM) today announced the signing of a non-binding memorandum of understanding (“MOU”) to form a strategic partnership for the development and manufacturing of next-generation image sensors. Under the proposed partnership, Sony and TSMC intend to establish a joint venture (“JV”), with Sony being the ma…；来源：http://pr.tsmc.com/english/news/3308",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260508,
           "source_url": "http://pr.tsmc.com/english/news/3308",
-          "source_excerpt": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education an…",
-          "source_body": "Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3308#)Search 5. Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership [](http://pr.tsmc.com/english/news/3308) Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership Issued by: Sony Semiconductor Solutions Corporation and TSMC Sony Semiconductor Solutions and TSMC Enter Preliminary Agreement for Next-Generation Image Sensor Strategic Partnership *Hsinchu, Taiwan, R.O.C., May 8, 2026 -**Sony Semiconductor Solutions Corporation (“Sony”)and TSMC (TWSE: 2330, NYSE: TSM) today announced the signing of a non-binding memorandum of understanding (“MOU”) to form a strategic partnership for the development and manufacturing of next-generation image sensors. Under the proposed partnership, Sony and TSMC intend to establish a joint venture (“JV”), with Sony being the majority and controlling shareholder,to set up development and production lines in Sony’s newly constructed fab in Koshi City, Kumamoto Prefecture. Through the JV, both companies expect to leverage Sony's expertise in sensor design alongside TSMC’s strengths in process technology and manufacturing excellence as part of a broader collaboration aimed at enhancing image sensor performance. With the MOU signed, Sony and TSMC are discussing potential investments by the JV. These investments, along with new capital investment by Sony in its existing plant in Nagasaki, are being considered on the premise that they would be implemented in phases based on market demand, and that they would receive support from the Japanese government. This partnership also seeks to explore and address emerging opportunities in physical AI applications, such as automotive and robotics, paving the way for future innovations and expanded technological advancements. The establishment of the JV remains subject to the execution of a definitive legally binding agreement regarding the partnership and the satisfaction of customary closing conditions. “Building on the trust cultivated through our long-standing collaboration with TSMC, I am delighted that we have reached an agreement to advance our partnership to a new stage,” said Shinji Sashida, President and CEO of Sony Semiconductor Solutions Corporation.“This JV is a significant initiative that brings together the strengths of both companies and aims to drive further advancement in technology and business within the next-generation image sensor field. Building on this JV, Sony intends to further strengthen its business operations with a focus on creating high added value. Rooted in the Sony Spirit that has guided us since our founding, we intend to continue to take on the challenge of creating new markets through unprecedented ideas and distinctive technologies.” “Sony has been our long-time partner in the CMOS image sensor business. We are excited to elevate our collaboration to the next level, which represents a key step forward in driving future sensing technology in the AI era,” said TSMC Senior Vice President and Deputy Co-COO, Dr. Kevin Zhang. “This partnership underscores our shared commitment and mutual vision of leveraging cutting-edge technologies and innovative solutions to deliver leading sensing technology and products. We look forward to working closely together to achieve impactful results and create lasting value for all stakeholders.” Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 与 Sony Semiconductor Solutions 于 2026-05-08 联合宣布，双方已签署一份不具约束力的 MOU，计划围绕下一代图像传感器的开发和制造建立战略合作。这不是普通客户采购新闻，而是试图把 Sony 的传感器设计能力与 TSMC 的制程技术、制造能力结合起来。",
-            "拟议合作的核心形式是设立一家 JV。公告明确写到，Sony 将是 majority and controlling shareholder；JV 计划在 Sony 位于日本熊本县合志市新建的晶圆厂中设置开发和生产线。换句话说，这不是 TSMC 独立扩产，而是以 Sony 主导的日本本地制造平台承接下一代图像传感器研发和生产。",
-            "投资安排还没有最终确定。公告称，双方正在讨论 JV 的潜在投资；这些投资以及 Sony 对其长崎现有工厂的新资本投入，将以市场需求为前提分阶段实施，并且以获得日本政府支持为前提之一。因此它目前更像战略合作和产能选项，而不是已经明确金额、产能和收入确认节奏的订单。",
-            "应用方向上，公告特别提到 physical AI 机会，包括 automotive 和 robotics。这一点值得关注：图像传感器是机器理解现实世界的入口之一，如果物理 AI、机器人和汽车智能化发展，先进图像传感器可能从传统手机/相机链条，逐步延伸到更广泛的机器感知基础设施。",
-            "公告同时强调，该 JV 的成立仍取决于最终具有法律约束力的协议签署以及惯常交割条件满足。因此当前结论不能写成确定性扩产或确定性收入，只能作为 TSMC 在特殊制程、图像传感器和物理 AI 感知入口上的合作线索。",
-            "业务上，这条事件落在特殊制程、图像传感器和日本本地制造合作。Sony 拥有强传感器设计和客户基础，TSMC 提供制程技术与制造能力；如果合作落地，TSMC 有机会在手机以外的汽车、机器人、机器视觉等感知场景中获得更深参与。不过 JV 由 S",
-            "估值上，这条事件对 TSMC 是轻度正面，但权重应低于 HPC/AI 和先进制程主线。正面在于：它验证 TSMC 的先进制造能力可从 AI 计算芯片外溢到物理 AI 感知层，并强化与 Sony 这种长期高价值客户的绑定。限制在于：没有金额、",
-            "确认双方是否签署最终 legally binding agreement，以及 JV 是否正式成立。"
-          ]
+          "source_excerpt": "Hsinchu, Taiwan, R.O.C., May 8, 2026 - Sony Semiconductor Solutions Corporation (“Sony”) and TSMC (TWSE: 2330, NYSE: TSM) today announced the signing of a non-binding memorandum of understanding (“MOU”) to form a strategic partnership for the development and manufacturing of next-generation image sensors. Under the proposed partnership, Sony and TSMC intend to establish a joint venture (“JV”), with Sony being the ma…",
+          "source_body": "Hsinchu, Taiwan, R.O.C., May 8, 2026 - Sony Semiconductor Solutions Corporation (“Sony”) and TSMC (TWSE: 2330, NYSE: TSM) today announced the signing of a non-binding memorandum of understanding (“MOU”) to form a strategic partnership for the development and manufacturing of next-generation image sensors. Under the proposed partnership, Sony and TSMC intend to establish a joint venture (“JV”), with Sony being the majority and controlling shareholder, to set up development and production lines in Sony’s newly constructed fab in Koshi City, Kumamoto Prefecture. Through the JV, both companies expect to leverage Sony's expertise in sensor design alongside TSMC’s strengths in process technology and manufacturing excellence as part of a broader collaboration aimed at enhancing image sensor performance. With the MOU signed, Sony and TSMC are discussing potential investments by the JV. These investments, along with new capital investment by Sony in its existing plant in Nagasaki, are being considered on the premise that they would be implemented in phases based on market demand, and that they would receive support from the Japanese government. This partnership also seeks to explore and address emerging opportunities in physical AI applications, such as automotive and robotics, paving the way for future innovations and expanded technological advancements. The establishment of the JV remains subject to the execution of a definitive legally binding agreement regarding the partnership and the satisfaction of customary closing conditions. “Building on the trust cultivated through our long-standing collaboration with TSMC, I am delighted that we have reached an agreement to advance our partnership to a new stage,” said Shinji Sashida, President and CEO of Sony Semiconductor Solutions Corporation. “This JV is a significant initiative that brings together the strengths of both companies and aims to drive further advancement in technology and business within the next-generation image sensor field. Building on this JV, Sony intends to further strengthen its business operations with a focus on creating high added value. Rooted in the Sony Spirit that has guided us since our founding, we intend to continue to take on the challenge of creating new markets through unprecedented ideas and distinctive technologies.” “Sony has been our long-time partner in the CMOS image sensor business. We are excited to elevate our collaboration to the next level, which represents a key step forward in driving future sensing technology in the AI era,” said TSMC Senior Vice President and Deputy Co-COO, Dr. Kevin Zhang. “This partnership underscores our shared commitment and mutual vision of leveraging cutting-edge technologies and innovative solutions to deliver leading sensing technology and products. We look forward to working closely together to achieve impactful results and create lasting value for all stakeholders.” Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC April 2026 Revenue Report",
           "date": "2026-05-08",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-05-08；标题：TSMC April 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3305#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3305#)Search […；来源：http://pr.tsmc.com/english/news/3305",
+          "fact": "日期：2026-05-08；标题：TSMC April 2026 Revenue Report；原文内容：HSINCHU, Taiwan, R.O.C. – May 8, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for April 2026: On a consolidated basis, revenue for April 2026 was approximately NT$410.73 billion, a decrease of 1.1 percent from March 2026 and an increase of 17.5 percent from April 2025. Revenue for January through April 2026 totaled NT$1,544.83 billion, an increase of 29.9 percent compared to the same period in…；来源：http://pr.tsmc.com/english/news/3305",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260508,
           "source_url": "http://pr.tsmc.com/english/news/3305",
-          "source_excerpt": "[](http://pr.tsmc.com/english/news/3305#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3305#)Search […",
-          "source_body": "[](http://pr.tsmc.com/english/news/3305#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3305#)Search [](http://pr.tsmc.com/english/news/3305) *HSINCHU, Taiwan, R.O.C. – May 8, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for April 2026: On a consolidated basis, revenue for April 2026 was approximately NT$410.73 billion, a decrease of 1.1 percent from March 2026 and an increase of 17.5 percent from April 2025. Revenue for January through April 2026 totaled NT$1,544.83 billion, an increase of 29.9 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 在 2026-05-08 发布 2026 年 4 月营收。公告披露：4 月合并营收约 NT$410.73 billion，较 3 月下降 1.1%，较 2025 年 4 月增长 17.5%。",
-            "4 月数据的重点不是“环比下降 1.1%”，而是它仍然维持在 NT$410 billion 以上的高位。和 3 月 NT$415.19 billion 相比，4 月只是小幅回落，并没有出现需求快速降温。",
-            "2026 年 1-4 月累计营收为 NT$1,544.83 billion，较 2025 年同期增长 29.9%。这说明即使 4 月同比增速低于 3 月，年初以来累计增长仍维持接近 30%。",
-            "把 2-4 月串起来看：2 月 NT$317.66 billion，3 月 NT$415.19 billion，4 月 NT$410.73 billion。TSMC 的月度营收从 2 月低点修复后，在 3-4 月维持高台阶，进入 Q2 指引兑现的连续性验证阶段。",
-            "业务上，4 月营收说明领先制程需求仍然稳健，但月度营收本身不能拆分 HPC、智能手机、IoT 或汽车。结合 Q1 财报中 HPC 占净收入 61%、先进制程占晶圆收入 74%，更合理的理解是：AI/HPC 与先进制程仍是收入高位的主要支撑，",
-            "估值上，4 月数据支持 TSMC 维持合理偏高质量溢价，但不支持无脑上调估值。原因是收入端仍强，但市场真正关心的是 Q2 指引能否兑现、毛利率能否保持 65.5%-67.5%、高 capex 后自由现金流是否稳健。动作上继续持有/观察，不因",
-            "5 月和 6 月营收是否继续维持高台阶，是验证 Q2 指引 US$39.0-40.2 billion 的核心。",
-            "Q2 财报中毛利率是否落在 65.5%-67.5%，决定高收入是否转化为高质量利润。"
-          ]
+          "source_excerpt": "HSINCHU, Taiwan, R.O.C. – May 8, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for April 2026: On a consolidated basis, revenue for April 2026 was approximately NT$410.73 billion, a decrease of 1.1 percent from March 2026 and an increase of 17.5 percent from April 2025. Revenue for January through April 2026 totaled NT$1,544.83 billion, an increase of 29.9 percent compared to the same period in…",
+          "source_body": "HSINCHU, Taiwan, R.O.C. – May 8, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for April 2026: On a consolidated basis, revenue for April 2026 was approximately NT$410.73 billion, a decrease of 1.1 percent from March 2026 and an increase of 17.5 percent from April 2025. Revenue for January through April 2026 totaled NT$1,544.83 billion, an increase of 29.9 percent compared to the same period in 2025. Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium",
           "date": "2026-04-23",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-04-23；标题：TSMC Debuts A13 Technology at 2026 North America Technology Symposium；原文内容：TSMC Debuts A13 Technology at 2026 North America Technology Symposium [](http://pr.tsmc.com/english/news/3302#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Rel…；来源：http://pr.tsmc.com/english/news/3302",
+          "fact": "日期：2026-04-23；标题：TSMC Debuts A13 Technology at 2026 North America Technology Symposium；原文内容：SANTA CLARA, CA, Apr. 22, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today debuted its latest innovation in its most advanced process technology at the Company’s 2026 North America Technology Symposium. TSMC’s new A13 process is a direct shrink of its industry-leading A14 node announced in 2025, enabling even more compact and efficient designs to address insatiable customer demand in computational requirements for next-ge…；来源：http://pr.tsmc.com/english/news/3302",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260423,
           "source_url": "http://pr.tsmc.com/english/news/3302",
-          "source_excerpt": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium [](http://pr.tsmc.com/english/news/3302#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Rel…",
-          "source_body": "TSMC Debuts A13 Technology at 2026 North America Technology Symposium [](http://pr.tsmc.com/english/news/3302#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3302#)Search 5. TSMC Debuts A13 Technology at 2026 North America Technology Symposium [](http://pr.tsmc.com/english/news/3302) TSMC Debuts A13 Technology at 2026 North America Technology Symposium Newest Node Pushes Density Scaling and Energy Efficiency to New Heights to Address Industry’s Most Demanding Applications TSMC Debuts A13 Technology at 2026 North America Technology Symposium *SANTA CLARA, CA, Apr. 22, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today debuted its latest innovation in its most advanced process technology at the Company’s 2026 North America Technology Symposium. TSMC’s new A13 process is a direct shrink of its industry-leading A14 node announced in 2025, enabling even more compact and efficient designs to address insatiable customer demand in computational requirements for next-generation artificial intelligence, high performance computing (HPC), and mobile applications. Representing TSMC’s commitment to continuous improvement, A13 provides 6% area savings from A14. Design rules are fully backward compatible with A14, enabling customers to quickly migrate their designs to TSMC’s latest nanosheet transistor technology. In addition, A13 delivers increased power efficiency and performance gains through design-technology co-optimization, and is scheduled to enter production in 2029, one year after A14. A13 was one of many technology innovations highlighted at TSMC’s North America Technology Symposium in Santa Clara, California, which kicks off the event series around the world in the coming months.With the theme of “Expanding AI with Leadership Silicon,” the technology symposiums are TSMC’s largest annual customer events, showcasing the Company’s breakthroughs in technology development and manufacturing service. “At TSMC, we understand our customers are always looking ahead to their next innovation and they come to us for a reliable stream of new silicon technologies, like A13, meticulously engineered to be ready for high-volume production right when their visionary new designs demand them,”said TSMC Chairman and CEO Dr. C.C. Wei. “TSMC’s advanced process technologies lead the industry in density, performance and power efficiency, and we continually strive to make them even better for our customers’ future products, ensuring customers’ success as their most reliable technological partner.\" Other new technologies unveiled at the North America Technology Symposium include: At the event, TSMC is also previewing its A14 platform enhancement **A12**, which features Super Power Rail technology to provide backside power delivery for AI and HPC applications. A12 is also scheduled to enter production in 2029. TSMC continues to advance its 2nm platform with the introduction of **N2U**, which employs design-technology co-optimization to reach speed gains of 3-4% or power reduction of 8-10% and a 1.02-1.03X logic density improvement from N2P. A balanced option for AI, HPC, and mobile applications leveraging the process maturity and strong yield performance of the 2nm technology platform, N2U is scheduled for production in 2028. *TSMC 3DFabric® Advanced Packaging and 3D Silicon Stacking** To support AI demand for more computing power and memory in a single package, TSMC continues to expand its Chip on Wafer on Substrate (CoWoS®) technology to integrate more silicon. The Company is now producing 5.5-reticle size CoWoS and planning for even larger versions. A **14-reticle size CoWoS**, capable of integrating approximately 10 large compute dies and 20 HBM stacks, is slated for production in 2028. This will be followed by an expansion to beyond 14 reticles in 2029. These new offerings provide customers with more options for AI compute scaling and complement TSMC’s 40-reticle size SoW-X System-on-Wafer technology also expected in 2029. TSMC is also offering its TSMC-SoIC® 3D chip stacking technology on its most advanced technology platform, with **A14-to-A14 SoIC** set to be available for production in 2029. It will provide 1.8X higher die-to-die I/O density compared with N2-on-N2 SoIC, supporting higher bandwidth of data transfer between stacked chips. TSMC’s Compact Universal Photonic Engine (TSMC-COUPE™) is set to reach a key milestone with a true co-packaged optics solution using **COUPE on substrate** beginning production in 2026. By integrating the COUPE optical engine directly inside the package, TSMC achieves 2X power efficiency and 10X latency reduction versus a pluggable version on the circuit board. The technology is featured in a 200Gbps micro-ring modulator, a highly compact and energy-efficient solution to move data between racks in data centers.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 在 2026 年北美技术论坛披露 A13 制程，并同时更新 A14、A12、N2U、CoWoS、SoIC、COUPE 光互连、N2A 车规制程等技术路线。原文重点不是单一节点名称，而是说明 TSMC 正在把先进逻辑、先进封装、光互连和车规/机器人应用连接成更长周期的制造平台。",
-            "A13 被定位为 A14 之后的直接升级，预计在 A14 之后一年、即 2029 年进入生产；同时 A12 也预计于 2029 年进入生产，采用 Super Power Rail 背面供电，面向 AI 和高性能计算应用。",
-            "先进封装部分披露更大尺寸 CoWoS、A14-to-A14 SoIC、COUPE on substrate CPO，以及 SoW-X 系统级晶圆技术，这说明 AI 芯片性能提升不再只靠前道制程微缩，也越来越依赖封装、互连和系统级集成。",
-            "对业务层面，A13/A12/N2U 继续支撑先进逻辑节点升级，CoWoS/SoIC/SoW-X 和 COUPE 则把 TSMC 从单纯晶圆代工进一步推向 AI 系统级制造基础设施。对客户而言，AI 芯片未来瓶颈会同时出现在算力晶粒、HBM ",
-            "估值上，这条事件不应该被理解为短期买入触发，而是提高 TSMC 长期估值中枢的质量证据。它支持给先进制程和先进封装更高的持续性权重，因为增长来源从 N2/A14 单一节点扩展到 A13/A12、CoWoS、SoIC、CPO 和车规/机器人场",
-            "下一次财报继续看 HPC 占比、先进制程需求、毛利率和资本开支指引，判断技术路线是否正在转化为当期订单和盈利质量。",
-            "跟踪 CoWoS 产能扩张、HBM 集成需求和大客户 AI 芯片路线，验证 14 倍光罩尺寸 CoWoS、SoIC 与 CPO 是否成为 AI 芯片平台的关键瓶颈资源。"
-          ]
+          "source_excerpt": "SANTA CLARA, CA, Apr. 22, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today debuted its latest innovation in its most advanced process technology at the Company’s 2026 North America Technology Symposium. TSMC’s new A13 process is a direct shrink of its industry-leading A14 node announced in 2025, enabling even more compact and efficient designs to address insatiable customer demand in computational requirements for next-ge…",
+          "source_body": "SANTA CLARA, CA, Apr. 22, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today debuted its latest innovation in its most advanced process technology at the Company’s 2026 North America Technology Symposium. TSMC’s new A13 process is a direct shrink of its industry-leading A14 node announced in 2025, enabling even more compact and efficient designs to address insatiable customer demand in computational requirements for next-generation artificial intelligence, high performance computing (HPC), and mobile applications. Representing TSMC’s commitment to continuous improvement, A13 provides 6% area savings from A14. Design rules are fully backward compatible with A14, enabling customers to quickly migrate their designs to TSMC’s latest nanosheet transistor technology. In addition, A13 delivers increased power efficiency and performance gains through design-technology co-optimization, and is scheduled to enter production in 2029, one year after A14. A13 was one of many technology innovations highlighted at TSMC’s North America Technology Symposium in Santa Clara, California, which kicks off the event series around the world in the coming months. With the theme of “Expanding AI with Leadership Silicon,” the technology symposiums are TSMC’s largest annual customer events, showcasing the Company’s breakthroughs in technology development and manufacturing service. “At TSMC, we understand our customers are always looking ahead to their next innovation and they come to us for a reliable stream of new silicon technologies, like A13, meticulously engineered to be ready for high-volume production right when their visionary new designs demand them,” said TSMC Chairman and CEO Dr. C.C. Wei. “TSMC’s advanced process technologies lead the industry in density, performance and power efficiency, and we continually strive to make them even better for our customers’ future products, ensuring customers’ success as their most reliable technological partner.\" Other new technologies unveiled at the North America Technology Symposium include: TSMC 3DFabric ® Advanced Packaging and 3D Silicon Stacking Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Files Annual Report on Form 20-F for 2025",
           "date": "2026-04-16",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…；来源：http://pr.tsmc.com/english/news/3300",
+          "fact": "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts []…；来源：http://pr.tsmc.com/english/news/3300",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260416,
           "source_url": "http://pr.tsmc.com/english/news/3300",
-          "source_excerpt": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…",
-          "source_body": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3300#)Search 5. TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300) TSMC Files Annual Report on Form 20-F for 2025 TSMC Files Annual Report on Form 20-F for 2025 *HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 -**TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available athttps://investor.tsmc.com/english/sec-filings.Hard copies of the report are also available, free of charge, upon email request top_sec_service@tsmc.com. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 公告称已向美国 SEC 提交 2025 年度 Form 20-F 年报（TWSE:2330 / NYSE:TSM）。",
-            "公告提供了获取渠道：年报可在公司投资者关系网站的 SEC filings 页面下载。",
-            "公司表示也可通过邮件申请免费纸质版（披露了联系邮箱）。",
-            "这类披露属于合规信息更新，本身不改变经营假设，但为年度风险因素、会计口径、股东结构等信息提供权威来源入口。",
-            "对研究工作更有价值的部分通常在年报正文：客户/市场结构、资本开支与折旧、供应链与地缘风险、以及重大诉讼/合规事项等。",
-            "观察点是后续对年报中新增或变化的风险披露与资本配置口径做对比（与季度法说、董事会决议的口径一致性）。"
-          ]
+          "source_excerpt": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts []…",
+          "source_body": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3300#)Search 5. TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300) TSMC Files Annual Report on Form 20-F for 2025 TSMC Files Annual Report on Form 20-F for 2025 *HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 -**TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available athttps://investor.tsmc.com/english/sec-filings.Hard copies of the report are also available, free of charge, upon email request top_sec_service@tsmc.com. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC Reports First Quarter EPS of NT$22.08",
           "date": "2026-04-16",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
-          "fact": "日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；原文内容：TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://…；来源：http://pr.tsmc.com/english/news/3297",
+          "fact": "日期：2026-04-16；标题：TSMC Reports First Quarter EPS of NT$22.08；原文内容：HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, f…；来源：http://pr.tsmc.com/english/news/3297",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260416,
           "source_url": "http://pr.tsmc.com/english/news/3297",
-          "source_excerpt": "TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://…",
-          "source_body": "TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3297#)Search 5. TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297) TSMC Reports First Quarter EPS of NT$22.08 TSMC Reports First Quarter EPS of NT$22.08 *HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, first quarter results represented an 8.4% increase in revenue and a 13.2% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, first quarter revenue was $35.90 billion, which increased 40.6% year-over-year and increased 6.4% from the previous quarter. Gross margin for the quarter was 66.2%, operating margin was 58.1%, and net profit margin was 50.5%. In the first quarter, shipments of 3-nanometer accounted for 25% of total wafer revenue; 5-nanometer accounted for 36%; 7-nanometer accounted for 13%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 74% of total wafer revenue. “Our business in the first quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into second quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies.” Based on the Company’s current business outlook, management expects the overall performance for second quarter 2026 to be as follows: • Revenue is expected to be between US$39.0 billion and US$40.2 billion; And, based on the exchange rate assumption of 1 US dollar to 31.7 NT dollars, • Gross profit margin is expected to be between 65.5% and 67.5%; • Operating profit margin is expected to be between 56.5% and 58.5%. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 在 2026-04-16 发布 2026Q1 财报新闻稿，披露合并营收 NT$1,134.10 billion、净利润 NT$572.48 billion、稀释 EPS NT$22.08（每 ADS US$3.49）。同比口径：营收 +35.1%，净利润与稀释 EPS 均 +58.3%；环比口径：营收 +8.4%，净利润 +13.2%。",
-            "公司同时给出美元口径数据：2026Q1 营收 US$35.90 billion，同比 +40.6%，环比 +6.4%。盈利能力方面，Q1 毛利率 66.2%，营业利润率 58.1%，净利率 50.5%。",
-            "制程结构方面：3nm 占晶圆收入 25%，5nm 占 36%，7nm 占 13%；先进制程（7nm 及更先进）合计占晶圆收入 74%。",
-            "对 2026Q2，公司在 1 美元兑 31.7 新台币的假设下给出指引：营收 US$39.0-40.2 billion；毛利率 65.5%-67.5%；营业利润率 56.5%-58.5%。",
-            "业务层面，Q1 的制程结构与利润率共同指向：领先制程仍是收入与盈利质量的主引擎。3nm 占晶圆收入 25%、5nm 仍占 36%，意味着先进节点在“渗透 + 规模化”阶段并存；先进制程合计 74% 使得公司对先进节点供需与良率爬坡更敏感。对",
-            "估值/动作层面，高利润率区间与 Q2 指引强化了市场对 TSMC 作为 AI/HPC 时代“高质量制造平台”的定价基础，短期更支持维持核心配置而非因单季数字追涨。更关键的估值变量仍是资本回报：在董事会核准高强度资本开支与海外扩产推进的背景下",
-            "用 5 月、6 月月度营收验证 Q2 指引 US$39.0-40.2 billion 的兑现路径，关注是否出现连续性走弱。",
-            "Q2 财报中毛利率是否仍落在 65.5%-67.5% 区间，若明显下滑需要拆解原因（海外扩产、汇率、产品组合、良率）。"
-          ]
+          "source_excerpt": "HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, f…",
+          "source_body": "HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 -- TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, first quarter results represented an 8.4% increase in revenue and a 13.2% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, first quarter revenue was $35.90 billion, which increased 40.6% year-over-year and increased 6.4% from the previous quarter. Gross margin for the quarter was 66.2%, operating margin was 58.1%, and net profit margin was 50.5%. In the first quarter, shipments of 3-nanometer accounted for 25% of total wafer revenue; 5-nanometer accounted for 36%; 7-nanometer accounted for 13%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 74% of total wafer revenue. “ Our business in the first quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into second quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies.” Based on the Company’s current business outlook, management expects the overall performance for second quarter 2026 to be as follows: • Revenue is expected to be between US$39.0 billion and US$40.2 billion; And, based on the exchange rate assumption of 1 US dollar to 31.7 NT dollars, • Gross profit margin is expected to be between 65.5% and 67.5%; • Operating profit margin is expected to be between 56.5% and 58.5%. Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         },
         {
           "title": "TSMC March 2026 Revenue Report",
           "date": "2026-04-10",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-04-10；标题：TSMC March 2026 Revenue Report；原文内容：HSINCHU, Taiwan, R.O.C. – Apr. 10, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for March 2026: On a consolidated basis, revenue for March 2026 was approximately NT$415.19 billion, an increase of 30.7 percent from February 2026 and an increase of 45.2 percent from March 2025. Revenue for January through March 2026 totaled NT$1,134.10 billion, an increase of 35.1 percent compared to the same pe…；来源：http://pr.tsmc.com/english/news/3294",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -985,40 +889,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "http://pr.tsmc.com/english/news/3294",
           "source_excerpt": "HSINCHU, Taiwan, R.O.C. – Apr. 10, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for March 2026: On a consolidated basis, revenue for March 2026 was approximately NT$415.19 billion, an increase of 30.7 percent from February 2026 and an increase of 45.2 percent from March 2025. Revenue for January through March 2026 totaled NT$1,134.10 billion, an increase of 35.1 percent compared to the same pe…",
           "source_body": "HSINCHU, Taiwan, R.O.C. – Apr. 10, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for March 2026: On a consolidated basis, revenue for March 2026 was approximately NT$415.19 billion, an increase of 30.7 percent from February 2026 and an increase of 45.2 percent from March 2025. Revenue for January through March 2026 totaled NT$1,134.10 billion, an increase of 35.1 percent compared to the same period in 2025. Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 在 2026-04-10 发布 2026 年 3 月营收。公告内容很短，但对投资判断很有价值：它给出了单月营收、环比、同比，以及 1-3 月累计营收同比，正好可以作为季度财报之前的高频需求验证。",
-            "3 月单月合并营收约 NT$415.19 billion，较 2026 年 2 月增长 30.7%，较 2025 年 3 月增长 45.2%。这说明 2 月的环比回落更像春节/季节性扰动，而不是需求断崖。",
-            "2026 年 1-3 月累计营收为 NT$1,134.10 billion，较 2025 年同期增长 35.1%。这个数字随后也与 Q1 财报披露的季度收入一致，说明月度营收已经提前验证了 Q1 的强劲增长。",
-            "从连续数据看，2 月营收 NT$317.66 billion，环比 -20.8%、同比 +22.2%；3 月营收直接反弹到 NT$415.19 billion，同比升至 +45.2%。这条曲线支持 AI/HPC 与先进制程需求仍在高位，而不是单月波动改变主线。",
-            "业务影响主要落在先进制程、高性能计算和 AI 相关晶圆需求。月度营收无法拆分 3nm/5nm/HPC，但 Q1 财报已显示先进制程占晶圆收入 74%、HPC 占净收入 61%。因此 3 月营收的强劲反弹更像是对领先制程需求强度的高频验证，而",
-            "估值上，这条事件支持维持 TSMC 的高质量制造平台溢价：收入增长仍强，且与 Q1 高毛利率、高先进制程占比相互验证。但它不是单独加仓触发器，因为月度营收只验证收入端，不验证毛利率、capex 回报和海外扩产成本。动作上维持 A 池核心，继",
-            "继续跟踪 4 月、5 月、6 月营收，判断 Q2 是否能沿着管理层 US$39.0-40.2 billion 指引运行。",
-            "结合 Q2 财报验证高营收是否转化为 65.5%-67.5% 毛利率区间，而不是被海外扩产或折旧稀释。"
-          ]
-        },
-        {
-          "title": "TSMC February 2026 Revenue Report",
-          "date": "2026-03-10",
-          "fetched_at": "20260514-153618",
-          "type": "官方候选",
-          "fact": "日期：2026-03-10；标题：TSMC February 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3290#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3290#)Search 5…；来源：http://pr.tsmc.com/english/news/3290",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260310,
-          "source_url": "http://pr.tsmc.com/english/news/3290",
-          "source_excerpt": "[](http://pr.tsmc.com/english/news/3290#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3290#)Search 5…",
-          "source_body": "[](http://pr.tsmc.com/english/news/3290#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3290#)Search 5. TSMC February 2026 Revenue Report [](http://pr.tsmc.com/english/news/3290) *HSINCHU, Taiwan, R.O.C. – Mar. 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for February 2026: On a consolidated basis, revenue for February 2026 was approximately NT$317.66 billion, a decrease of 20.8 percent from January 2026 and an increase of 22.2 percent from February 2025. Revenue for January through February 2026 totaled NT$718.91 billion, an increase of 29.9 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260514-153618__pr.tsmc.com_english_latest-news.html",
-          "content_summary": [
-            "TSMC 公布 2026 年 2 月合并营收约 NT$317.66 billion。",
-            "公告称 2 月营收较 2026 年 1 月下降 20.8%，较 2025 年 2 月增长 22.2%。",
-            "公司同时披露 2026 年 1-2 月累计营收 NT$718.91 billion，同比增加 29.9%。",
-            "这条月度营收用于追踪季度指引兑现路径：需要与后续 3 月数据合并，观察 Q1 订单与出货的连续性。",
-            "从节奏上看，环比回落更可能反映工作日/季节性与排产结构变化；同比仍保持两位数增长，说明需求景气仍在高位区间。",
-            "后续观察点是：3 月是否出现环比修复、先进制程占比/ASP 的结构性变化是否支撑同比增速延续。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html"
         }
       ]
     },
@@ -1038,7 +909,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1050,7 +921,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -1062,7 +933,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1074,7 +945,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -1086,7 +957,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1098,7 +969,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1119,7 +990,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1131,7 +1002,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1143,7 +1014,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1155,7 +1026,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1167,7 +1038,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1179,7 +1050,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1200,7 +1071,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1212,7 +1083,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1224,7 +1095,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1236,7 +1107,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1248,7 +1119,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1260,14 +1131,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "2026春季爆品发布会",
           "date": "2026-03-16",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-16；标题：2026春季爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1277,12 +1148,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "2025年度爆品发布会",
           "date": "2025-09-01",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-09-01；标题：2025年度爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1292,12 +1163,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会",
           "date": "2025-06-17",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-06-17；标题：邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1307,12 +1178,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！",
           "date": "2022-11-21",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2022-11-21；标题：数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1322,12 +1193,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "关于汇川技术机器人产品价格调整的通知",
           "date": "2026-03-30",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-30；标题：关于汇川技术机器人产品价格调整的通知；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1337,12 +1208,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”",
           "date": "2025-05-09",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-05-09；标题：汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1352,12 +1223,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-10",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2024-10-10；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1367,12 +1238,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-08",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2024-10-08；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1382,7 +1253,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260514-153618__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260518-145403__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         }
       ]
     },
@@ -1402,7 +1273,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1414,7 +1285,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1426,7 +1297,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1438,7 +1309,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1450,7 +1321,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1462,14 +1333,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "4th Quarter 2025 Earnings Webcast",
           "date": "2026-01-28",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-01-28；标题：4th Quarter 2025 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1479,7 +1350,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.gevernova.com/investors/events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260514-153618__www.gevernova.com_investors_events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260518-145403__www.gevernova.com_investors_events.html"
         }
       ]
     },
@@ -1499,7 +1370,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1511,7 +1382,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1523,7 +1394,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1535,7 +1406,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1547,7 +1418,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1559,7 +1430,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1571,14 +1442,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility",
           "date": "2026-03-09",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-09；标题：Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility；原文内容：Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…；来源：https://www.luxshare-ict.com/en/news/release/177.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1588,20 +1459,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/177.html",
           "source_excerpt": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…",
           "source_body": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a comprehensive look at its advanced capabilities in automotive intelligence and connectivity. The showcase featured a coordinated presentation of Luxshare’s brand ecosystem—including Luxvision intelligent vision systems, Leoni wiring systems, and BCS intelligent human-machine interface products. This collective display highlighted Luxshare’s robust system integration capabilities and underscored its evolution into a full-stack solution provider, capable of delivering integrated in-vehicle intelligent platforms—from underlying hardware to upper-level algorithms—to global OEMs with enhanced efficiency and security. The Techday opened with a VIP tour attended by over 30 senior leaders from Renault, including Sandra Beck, Vice President of Purchasing. Accompanied by Ms. Lidya Li, Executive Vice President of Luxshare-ICT and President of the Luxshare Automotive Business Group, the Renault leadership team explored the core exhibits across multiple business units, gaining hands-on insights into five key technological domains: Connection Systems, ADAS, Intelligent Cockpit, Power Systems, and Intelligent Chassis. Through live demonstrations and in-depth technical discussions, Renault representatives gained a strong appreciation for Luxshare’s system-level design capabilities, global delivery capacity, and synergistic approach within the automotive components sector. To ensure alignment across global teams, Luxshare organized a series of online training sessions tailored specifically for Renault’s worldwide procurement organization. Leveraging digital platforms, these sessions showcased Luxshare’s core product lines and long-term technology roadmap, while fostering extensive discussions with procurement experts across regions. This initiative helped global teams stay informed on Luxshare’s latest innovations and delivery capabilities, strengthening mutual strategic trust and laying a solid foundation for future multi-regional, multi-project collaboration. A key highlight of the Techday was a focused workshop centered on Luxshare’s core product portfolio. Technical experts from both companies engaged in deep-dive discussions on cutting-edge domains such as Intelligent Cockpits, ADAS, and UWB technology. Through these intensive exchanges, Luxshare not only demonstrated its technological depth but also reaffirmed its dedication to deep customization and collaborative development with OEM partners. The success of this Techday marks a significant milestone in Luxshare Group’s journey toward fully integrated, synergistic collaboration with global automotive leaders. As the industry accelerates toward an intelligent future, Luxshare is poised to drive innovation and shape the next generation of mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章回顾立讯集团在法国雷诺 Guyancourt 技术中心举办 “Shape the Future Together” Techday（1 月 15 日），面向主机厂展示汽车智能化与连接能力。",
-            "展出以集团品牌协同为核心，提到 Luxvision 视觉系统、Leoni 线束系统、BCS 人机交互产品等组合，强调从硬件到算法的系统集成能力。",
-            "文中称雷诺有 30+ 位高管参与参观（含采购副总裁），并围绕连接系统、ADAS、智能座舱、动力系统、智能底盘等 5 个技术域进行演示与讨论。",
-            "这类 Techday 更偏“能力与协同展示”，用于强化客户认知与项目导入效率，本身不直接披露订单金额或定点信息。",
-            "对业务理解的增量在于：立讯尝试从零部件供应商向系统级解决方案提供者延伸，且通过并购整合（如线束/座舱等）形成组合呈现。",
-            "后续观察点是是否出现可核验的客户项目落地：定点公告、量产车型导入、以及汽车业务收入/毛利结构随之改善。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"",
           "date": "2026-01-19",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-01-19；标题：​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"；原文内容：After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…；来源：https://www.luxshare-ict.com/en/news/release/179.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1611,20 +1474,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/179.html",
           "source_excerpt": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…",
           "source_body": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the belief that \"responsibility is as precious and weighty as gold,\" and as China's ESG development moves comprehensively from \"setting standards\" to \"strengthening compliance\" – with sustainability becoming an ever more critical part of corporate competitiveness – the \"Golden Responsibility Award\" recognizes companies that have made outstanding contributions to China's ESG cause. This is the fifth consecutive year that Luxshare Precision has received the \"Golden Responsibility Award,\" reflecting the company's long‑term dedication to ESG, particularly in the environmental dimension. We regard green and low‑carbon development as a solid foundation for high‑quality growth. We proactively identify and manage climate risks and opportunities, set science‑based carbon targets aligned with the 1.5°C pathway, establish a carbon reduction roadmap across our value chain, and continuously deepen green operations. The company systematically advances water risk identification and assessment, sets sustainable water management goals and actions, and strictly complies with laws and regulations in wastewater and exhaust gas management. Aiming for a waste conversion rate of 90% by 2025, we actively promote the concept of zero waste to landfill and explore new models of waste recycling. In addition, leveraging the Azure EcoChain platform, we continuously push our suppliers to disclose emissions and pollutant release and transfer register information, helping them improve their environmental performance. As a result, we have been ranked No. 3 in the industry in the Green Supply Chain Index (CITI) and No. 2 in the Corporate Climate Action Index (CATI). Painting the manufacturing landscape with green, and translating responsibility into the language of precision, Luxshare Precision will continue to build long‑term competitiveness and work with its value chain partners to write a new chapter of high‑quality, sustainable development. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章称立讯精密在新浪财经 2025 中国企业 ESG “金责奖”评选中获 “最佳环境（E）责任奖”，并提到此前入选 “2025 中国企业 ESG Top 100”。",
-            "文中称评选覆盖 5000+ 公司，通过绩效评估、线上投票与专家评审等环节筛选。",
-            "文章强调公司连续第 5 年获得该类 ESG 相关奖项，侧重环境维度的长期投入。",
-            "披露的举措包括：以 1.5°C 路径为参考设定科学碳目标（SBT），制定价值链减排路线图，并识别与管理气候风险与机会。",
-            "文中还提到水风险识别评估、可持续用水目标，以及废水/废气合规管理；并提出 2025 年废弃物转化率 90% 的目标。",
-            "对投资影响主要体现在合规与客户准入：ESG 体系建设可降低供应链审计/合规风险，但仍需结合客户结构与成本投入评估其对盈利的净影响。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification",
           "date": "2026-01-05",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-01-05；标题：World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification；原文内容：On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…；来源：https://www.luxshare-ict.com/en/news/release/178.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1634,20 +1489,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/178.html",
           "source_excerpt": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…",
           "source_body": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-end transmission solutions market. With forward looking innovation, Luxshare Precision has consecutively set world leading certification records in DisplayPort, HDMI and USB technologies. Strategic Focus: Deeply committed to high speed and high frequency interconnect technologies. Cross Industry Layout: Expanding across consumer electronics, automotive electronics, communications equipment and intelligent manufacturing. Industry Leadership: As the world's first to achieve DP80LL certification, and continuously building competitive barriers with HDMI 2.2 connectors and USB4 technology. Three Major Breakthroughs, Redefining High-Performance Cables Long-Distance Transmission: Integrated LRD technology to overcome limitations and achieve stable transmission up to 3 meters. Extreme Performance: Delivers 40Gbps ultra-high bandwidth and 240W top-tier power delivery. Perfect Compatibility: Supports 8K video and is compatible with Thunderbolt™ 3/4 on specific systems, enabling seamless multi-protocol connectivity. As an active promoter of global interconnect technology, Luxshare Precision always stands at the forefront of international standard development. This certification represents not just a breakthrough in product technology but also a powerful testament to the company's role as a \"standard-setter,\" driving the upgrade of connectivity experiences within the industry. Looking ahead, Luxshare Precision will continue to deepen its R&D and innovation in cutting-edge technologies like USB4 and Thunderbolt, collaborating with global partners to jointly define a new standard for efficient, reliable, and intelligent connectivity. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章称立讯精密研发的 USB Type-C 主动线缆（3 米，40Gbps 带宽、240W 供电）获得 USB-IF 官方认证，并自称为“全球首条获得该认证的主动线”。",
-            "公司将其定位为高端高速互连与系统集成能力的体现，并称此前已在 DisplayPort、HDMI、USB 等标准/认证上持续取得领先记录。",
-            "文中给出 3 个技术卖点：集成 LRD 技术实现 3 米稳定传输、40Gbps 高带宽 + 240W 高功率、支持 8K 视频并兼容 Thunderbolt 3/4（特定系统）。",
-            "文章强调战略方向是深耕高频高速互连，并向消费电子、汽车电子、通信设备与智能制造等多行业扩展。",
-            "对业务理解的增量在于：认证与标准能力有助于进入高端线缆/连接器市场，提升产品议价与客户覆盖，但仍需看量产规模与客户结构。",
-            "后续观察点是该类高端互连产品在大客户导入、出货规模与毛利率上的可验证变化，以及与汽车/通信等增量场景的渗透速度。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Named to Forbes' 2025 World's Best Employers List",
           "date": "2025-10-10",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-10-10；标题：Luxshare Precision Named to Forbes' 2025 World's Best Employers List；原文内容：Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…；来源：https://www.luxshare-ict.com/en/news/release/174.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1657,20 +1504,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/174.html",
           "source_excerpt": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…",
           "source_body": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment. This recognition underscores the company's strong reputation as an employer among professionals worldwide. At Luxshare, we are committed to fostering our employees' growth and integrating sustainable practices into our talent strategy. We provide comprehensive support, safeguard employees' rights, and offer clear career advancement paths to help every individual succeed. We view this not only as an honor but as a responsibility. Going forward, we will continue to enhance our employee development programs and strengthen our culture of mutual growth and success. Our goal is to empower every Luxshare employee to achieve their professional aspirations and fulfill their potential. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章称立讯精密入选《福布斯》发布的 2025 “World's Best Employers” 榜单。",
-            "文中说明榜单基于 50+ 国家与地区、30 万+ 员工的调查反馈，从职业发展、薪酬福利与工作环境等维度评估雇主吸引力。",
-            "公司将该入选解读为雇主品牌与人才战略的外部认可，并强调支持员工成长与可持续实践。",
-            "这类荣誉披露更多是企业形象与人才治理叙事，本身不提供业务订单或财务增量信息。",
-            "对长期竞争力的相关点在于：在制造与研发密集型行业，人才供给与组织效率会影响交付能力与质量管理，但需要用经营指标验证。",
-            "后续可结合员工规模、人员结构、费用率与产能扩张节奏，观察人才投入是否与业务扩张形成更高的确定性匹配。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!",
           "date": "2025-07-31",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-07-31；标题：Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!；原文内容：BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…；来源：https://www.luxshare-ict.com/en/news/release/173.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1680,20 +1519,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/173.html",
           "source_excerpt": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…",
           "source_body": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects the latest dynamics shaping the global industrial landscape. Luxshare Precision's inclusion for the third consecutive year signifies international recognition of the company's comprehensive capabilities and vividly illustrates the rise of \"Intelligent Manufacturing in China\" to the top of the global value chain. Looking forward, Luxshare Precision will continue to drive its dual-engine strategy of \"Technology + Manufacturing,\" delivering smarter and more efficient products and solutions to global customers, advancing high-quality development within the industry. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章称立讯精密（002475）在 2025 年《财富》世界 500 强排名第 423 位，相比上一年上升 65 位，并称为公司入榜以来最高排名。",
-            "文中强调这是连续第 3 年进入该榜单，并将其解读为公司综合实力与国际认可度提升。",
-            "文章把这一变化与全球产业格局、以及“中国智能制造”向价值链上游攀升的叙事相联系。",
-            "同时提到公司将继续推进 “Technology + Manufacturing” 双引擎战略（强调技术与制造协同）。",
-            "该类信息对投资的直接增量有限，更适合用于跟踪公司规模扩张与全球化进展的外部标签。",
-            "后续仍需回到可验证指标：核心客户份额、产品结构升级、利润率与现金流质量能否随规模扩张同步改善。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations",
           "date": "2025-07-23",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-07-23；标题：Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations；原文内容：July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…；来源：https://www.luxshare-ict.com/en/news/release/176.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1703,20 +1534,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/176.html",
           "source_excerpt": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…",
           "source_body": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassis. The event served as a platform to demonstrate Luxshare-ICT's integrated approach to developing solutions from critical components to full systems. The exhibition featured a powerful demonstration of group synergies, presenting products from across the Luxshare portfolio, including the Luxvisions intelligent vision system, Leoni HV/LV wiring harness, BCS smart interaction systems. The event also marked the first joint participation since Leoni's official integration into the Luxshare Group in 2025, signifying a substantial step forward in technological synergy and market expansion. This progress further strengthens Luxshare's capabilities in providing system-level solutions for next-generation vehicle E/E architectures. During the event, Executive Vice President of Luxshare-ICT and President of the Automotive Business Group, Ms. Lidya Li, met with Mr. Tobias Moch, Chief Procurement Officer of JLR. The meeting featured productive discussions centered on the shared vision for next-generation automotive technology and manufacturing excellence. The Tech Day was not only a successful demonstration of Luxshare's technological strength and collaborative achievements, but also a powerful testament to its commitment to driving innovation in the automotive industry. Moving forward, Luxshare-ICT will continue to deepen the collaboration with global partners to jointly advance towards a safer, more efficient, and more connected future of intelligent mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章回顾立讯在英国 JLR（Gaydon）举办 Tech Day，展示车辆电动化与智能化相关的系统级能力。",
-            "展出覆盖高压/低压连接系统、汽车线束、ADAS、智能座舱、智能底盘等，并强调从关键部件到整车系统的集成式方案。",
-            "文章提到集团内多个品牌产品协同展示（如 Luxvision 视觉系统、Leoni HV/LV 线束、BCS 交互系统），并强调 Leoni 在 2025 年并入后首次联合参展。",
-            "文中称公司高管与 JLR 采购负责人会面沟通下一代汽车技术与制造合作方向，但未披露具体定点/订单金额。",
-            "对业务理解的增量在于：通过并购整合与系统方案呈现，立讯试图在新一代车载 E/E 架构升级中提升参与度与价值量。",
-            "后续观察点是是否出现可核验的客户项目落地（定点、量产导入、单车价值量提升）以及汽车业务收入/盈利结构的连续改善。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "REACH and SVHC Statement",
           "date": "2025-07-22",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-07-22；标题：REACH and SVHC Statement；原文内容：As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…；来源：https://www.luxshare-ict.com/en/news/release/172.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1726,20 +1549,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/172.html",
           "source_excerpt": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…",
           "source_body": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an article contains more than 0.1% (by weight per article) of any substance on the SVHC candidate list published by the European Chemicals Agency (ECHA). Our company, Luxshare Precision Limited, manufactures the products TMRV085G/TMRV08P5G, which are in compliance with Article 33 of the REACH Regulation (EC No. 1907/2006 – Registration, Evaluation, Authorization and Restriction of Chemicals). In accordance with Article 33 of the REACH Regulation, we commit to providing relevant information and disclosing the required details. The status regarding the presence of Substances of Very High Concern (SVHC) in these products and their packaging materials is detailed below: Batteries from products may potentially contain 1,3-propanesultone above 0.1% by weight. C opper alloy nuts Parts from products may potentially contain Lead above 0.1% by weight. The SVHC used in these products do not pose a safety risk to customers under normal use conditions. Regarding the products of the T-Mobile brand phones, T-Mobile USA, Inc. offers recycling programs for customers to help ensure these products are recycled appropriately. For more information about the recycling programs, please visit: https://www.t-mobile.com/responsibility/planet/waste-recycling-circularity Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章为 REACH（欧盟化学品法规）与 SVHC（高度关注物质）信息沟通声明，解释 REACH 第 33 条对供应商的披露义务。",
-            "公司称其生产的相关产品（文中列出具体型号）符合 REACH 1907/2006 的第 33 条要求，并就 SVHC 候选清单的 0.1%（重量比）阈值进行说明。",
-            "该类披露属于供应链合规与客户沟通文件，核心价值在于降低客户审计与贸易合规风险。",
-            "从经营角度，它更多反映制造企业在全球市场的合规管理能力，而非直接的收入/利润驱动因素。",
-            "对投资研究的相关点在于：在消费电子与汽车供应链中，合规能力与材料管理会影响交付与客户准入，但通常以“风险降低”形式体现。",
-            "后续观察点可放在公司对全球法规变化的响应速度、以及合规成本是否对毛利率/费用率形成持续压力。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay",
           "date": "2025-07-21",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-07-21；标题：Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay；原文内容：On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…；来源：https://www.luxshare-ict.com/en/news/release/171.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1749,15 +1564,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/171.html",
           "source_excerpt": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…",
           "source_body": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. This philosophy was recently embodied in the successful conclusion of the sixth annual Luxshare Cup, a signature internal sporting and cultural event. Established in 2017, the Luxshare Cup has grown to represent much more than a sporting competition. It is a celebration of unity, collaboration, and the shared values that define Luxshare Precision’s corporate culture. The event brings together employees from diverse regions and job roles, fostering a dynamic platform for team building and mutual recognition. Through sport, participants experience firsthand the power of cooperation and a sense of collective purpose that transcends daily work. Each year, the Luxshare Cup evolves to reinforce cultural relevance and deepen employee connection. Beyond enhancing morale and wellness, the event serves as a powerful channel for embedding core values such as progress, inclusiveness, and collaboration. Cultural exchanges—ranging from traditional performances to regional displays—highlight the diversity within Luxshare Precision’s global workforce and create meaningful dialogue across borders. The centerpiece of this year’s event was the innovative “Luxshare Cup\" Global Relay,ss a nine-month journey that began on June 24, 2024. This symbolic relay connected 28 company locations across China, Vietnam, Japan, the United States, Singapore, and India. Employees from different backgrounds and regions actively participated, each proudly contributing to the Cup’s journey from one site to another. More than a physical handover, the event fostered a sense of global emotional connectivity and unity. Each stop in the relay featured unique cultural interpretations of welcome. At the Bac Giang facility in Vietnam, the Cup’s arrival sparked heartfelt celebrations. Employees donned traditional Ao Dai attire and performed a choreographed Vietnamese dance, prepared over weeks of rehearsal. “When I read the note inside the box that said, ‘Please deliver this safely to the next stop’—written in a language I don’t fully understand—I still felt its weight,” said Luong Thi Phuong, an HR representative in Vietnam. “It was a shared responsibility, a dream we were carrying together.” That same spirit echoed across the globe. In the United States, Mandy Yang from the Overseas Management Department recalled witnessing colleagues in India create intricate floral motifs and perform traditional dances. “It completely reshaped my view of cultural fusion,” Yang shared. “Every site greeted the Cup with genuine care and collective effort. These moments conveyed a warmth and unity no manual could ever express. That’s what ‘One Luxshare’ truly means.” At a time when the world faces growing complexity and uncertainty, Luxshare Precision continues to advance its technology-driven capabilities—while also investing in the cultural alignment and internal cohesion that define its global identity. By strengthening both operational excellence and human connection, the company is well-positioned to navigate global challenges with clarity and confidence, anchoring its international development strategy in unity, understanding, and trust. For more information about Luxshare Precision, please visit http://www.luxshare-ict.com/en/ . Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260514-153618__www.luxshare-ict.com_en_news_release.html.html",
-          "content_summary": [
-            "文章以 “International Friendship Day” 为背景，介绍立讯精密举办第六届内部活动 “Luxshare Cup” 的情况，强调跨文化交流与员工凝聚力。",
-            "文中称该活动自 2017 年设立，已从体育赛事扩展为体现公司企业文化与全球协作的综合性活动。",
-            "文章强调公司作为跨国企业在日常运营中推动“信任与友谊”的组织文化建设，并将其与企业发展相联系。",
-            "该类内容属于企业文化与雇主品牌叙事，不提供订单、客户或财务数据。",
-            "对投资理解的相关点在于：在全球化制造企业中，组织文化与跨区域协作能力会影响执行效率与人才稳定性，但需要经营指标支撑。",
-            "后续可结合员工结构、生产交付质量与海外基地运营稳定性等指标，观察文化治理是否转化为可量化的运营表现。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260518-145403__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -1816,7 +1623,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1828,7 +1635,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1840,7 +1647,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1852,14 +1659,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/e5fe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "CERAWeek Highlights 2026",
           "date": "2026-03-27",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-27；标题：CERAWeek Highlights 2026；原文内容：Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1869,12 +1676,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Axios DC + AI Summit",
           "date": "2026-03-25",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-25；标题：Axios DC + AI Summit；原文内容：Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1884,12 +1691,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Constellation CEO: 'We Produce Enough Energy to Power Mexico'",
           "date": "2026-01-20",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-01-20；标题：Constellation CEO: 'We Produce Enough Energy to Power Mexico'；原文内容：Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1899,12 +1706,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "ENERGY: Always On",
           "date": "2025-11-18",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-11-18；标题：ENERGY: Always On；原文内容：Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1914,12 +1721,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
           "date": "2026-05-11",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1929,12 +1736,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",
           "date": "2026-03-31",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2026-03-31；标题：Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1944,22 +1751,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html",
-          "content_summary": [
-            "这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。核心是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。",
-            "第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。",
-            "第二组是资产稀缺性。合并 Calpine 后，公司拥有约 55GW 发电组合，并强调拥有美国最大的核电、天然气和地热发电资产组合之一。核电提供清洁、稳定、可调度电力；天然气和地热增强组合灵活性；商业平台则负责把电力能力卖给大型客户。",
-            "第三组是未计入的上行空间。公司明确说，增长展望尚未包括捕捉 147 million MWh 年度可用核电电量溢价、额外天然气合同和增厚型资本配置。这一点对估值很关键，因为它说明当前 Base EPS 目标之外还有合同重定价和大客户供电协议的可选上行。",
-            "第四组是资本配置。公司把总回购授权提升至 50 亿美元，同时计划 39 亿美元 growth capital，投向具备吸引力回报的项目。这说明管理层既想抓住电力成长周期，也在用回购表达对长期价值的信心。",
-            "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企",
-            "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted ",
-            "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。"
-          ]
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-11-07",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-11-07；标题：Q3 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1969,12 +1766,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-08-07",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-08-07；标题：Q2 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1984,12 +1781,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-05-06",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2025-05-06；标题：Q1 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1999,12 +1796,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
           "date": "2024-11-04",
-          "fetched_at": "20260514-153618",
+          "fetched_at": "20260518-145403",
           "type": "官方候选",
           "fact": "日期：2024-11-04；标题：Q3 2024 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2014,7 +1811,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260514-153618__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html"
         }
       ]
     }
