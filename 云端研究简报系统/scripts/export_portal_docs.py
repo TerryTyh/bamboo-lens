@@ -31,6 +31,10 @@ DOCS = [
         PORTAL_DOCS / "rules" / "37-新增公司准入标准V1.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "38-长电科技新增公司准入评估V1.md",
+        PORTAL_DOCS / "research" / "38-长电科技新增公司准入评估V1.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),
