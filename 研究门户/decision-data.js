@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-05-18T14:56:45",
-  "source_generated_at": "2026-05-18T14:56:45",
+  "generated_at": "2026-05-19T14:39:59",
+  "source_generated_at": "2026-05-19T14:39:59",
   "items": [
     {
       "company": "constellation",
@@ -663,7 +663,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260518-145403__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260519-143627__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20260511,
       "score": 14
@@ -933,7 +933,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
       "source_url": "http://pr.tsmc.com/english/news/3300",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260519-143627__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260416,
       "score": 10
@@ -1011,21 +1011,21 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 9
     },
     {
-      "company": "tsmc",
-      "company_name": "TSMC",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
-      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
-      "date": "2026-05-15",
+      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
+      "date": "2026-05-18",
       "type": "官方候选",
       "priority": "候选",
       "decision_action": "进入研判队列",
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "http://pr.tsmc.com/english/news/3314",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html",
+      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260519-143627__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
-      "sort_key": 20260515,
+      "sort_key": 20260518,
       "score": 8
     },
     {
@@ -1117,12 +1117,48 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
+      "date": "2026-05-18",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260519-143627__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260518,
+      "score": 6
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+      "date": "2026-05-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "http://pr.tsmc.com/english/news/3314",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260519-143627__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20260515,
+      "score": 6
     }
   ],
   "summary": {
-    "total": 62,
+    "total": 64,
     "formal_events": 59,
-    "official_candidates": 3,
+    "official_candidates": 5,
     "companies": 8
   }
 };
