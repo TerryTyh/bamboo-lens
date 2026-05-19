@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-14T22:39:40",
+  "generated_at": "2026-05-19T22:36:43",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
+      {
+        "title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
+        "source_candidate_title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+        "date": "2026-05-15",
+        "type": "资本配置 / 股权处置",
+        "priority": "P3",
+        "action": "维持跟踪；关注出售定价/会计影响与后续是否继续减持，但不视为主业趋势拐点",
+        "sort_key": 20260515,
+        "source_url": "http://pr.tsmc.com/english/news/3314",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html",
+        "source_summary": [
+          "公告披露，TSMC 计划通过向金融机构投资者的大宗交易（block trade）出售至多 1.52 亿股世界先进（VIS）普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%。",
+          "TSMC 表示该交易不会影响其与 VIS 的战略合作关系，包括将 interposer 生产外包给 VIS，以及向 VIS 授权 GaN 技术。",
+          "出售计划属于“聚焦核心业务资源”的资本配置安排；TSMC 说明其在 2024 年 6 月已不再派任 VIS 董事。",
+          "TSMC 当前对 VIS 的 fully-diluted 持股约 27.1%，交易完成后预计降至约 19%，并称短期内无进一步出售计划。"
+        ],
+        "fact": "2026-05-15，TSMC 公告拟通过 block trade 向金融机构投资者出售至多 1.52 亿股 VIS 普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%。TSMC 当前 fully-diluted 持股约 27.1%，若交易完成预计降至约 19%。公司强调该出售不会影响双方战略合作（interposer 外包与 GaN 技术授权），并表示该安排属于聚焦核心业务资源，同时公司已于 2024 年 6 月停止在 VIS 董事会的代表席位，且短期内无进一步出售计划。",
+        "evidence": [
+          "拟出售至多 152.0 million 股 VIS 普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%，方式为向金融机构投资者的大宗交易（block trade）。",
+          "TSMC 当前对 VIS 的 fully-diluted 持股约 27.1%，完成本次出售后预计降至约 19%。",
+          "TSMC 明确表示出售不影响双方战略关系：包括 interposer 生产外包给 VIS，以及向 VIS 授权 GaN 技术。",
+          "公司披露其在 2024 年 6 月已不再派任 VIS 董事，并称短期内无进一步出售 VIS 股份计划。"
+        ],
+        "judgment": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
+        "business_analysis": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
+        "valuation_analysis": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+        "verification": [
+          "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
+          "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
+          "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+        ],
+        "reviewed_at": "2026-05-19T22:36:11"
+      },
       {
         "title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
         "source_candidate_title": "TSMC Board of Directors Meeting Resolutions",
