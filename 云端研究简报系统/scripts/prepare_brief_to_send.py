@@ -39,6 +39,17 @@ def is_empty_daily(text: str) -> bool:
     return any(marker in text for marker in EMPTY_DAILY_MARKERS)
 
 
+def is_meaningful_morning(text: str) -> bool:
+    """Avoid sending a same-day morning brief that only contains the title."""
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if len(lines) <= 1:
+        return False
+    body = "\n".join(lines[1:]).strip()
+    if len(body) < 80:
+        return False
+    return "## " in body or "**原文讲了什么**" in body
+
+
 def write_choice(source: str, text: str) -> None:
     BRIEF_TO_SEND.write_text(text, encoding="utf-8")
     print(f"Brief selected: {source}")
@@ -56,9 +67,15 @@ def main() -> int:
     morning = read_text(MORNING_BRIEF)
     daily = read_text(DAILY_BRIEF)
 
-    if morning and has_same_day_header(morning, today):
+    if morning and has_same_day_header(morning, today) and is_meaningful_morning(morning):
         write_choice("same-day morning_brief.md", morning)
         return 0
+
+    if morning and has_same_day_header(morning, today):
+        print(
+            "Same-day morning_brief.md exists but has no meaningful body; "
+            "falling back to daily_brief.md.",
+        )
 
     if daily and not is_empty_daily(daily):
         write_choice("non-empty daily_brief.md", daily)
