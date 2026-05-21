@@ -29,6 +29,7 @@ jobs:
         run: python3 scripts/generate_daily_brief.py
 
       - name: Choose brief with freshness guard
+        id: choose
         run: python3 scripts/prepare_brief_to_send.py
 
       - name: Check automation health
@@ -37,6 +38,7 @@ jobs:
         run: python3 scripts/check_automation_health.py
 
       - name: Send to WeCom
+        if: ${{ steps.choose.outputs.send == 'true' }}
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         run: python3 scripts/send_wecom.py outputs/brief_to_send.md

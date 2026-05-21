@@ -50,16 +50,29 @@ def is_meaningful_morning(text: str) -> bool:
     return "## " in body or "**原文讲了什么**" in body
 
 
+def set_send_output(value: bool) -> None:
+    output_file = os.environ.get("GITHUB_OUTPUT", "").strip()
+    if output_file:
+        with open(output_file, "a", encoding="utf-8") as handle:
+            handle.write(f"send={'true' if value else 'false'}\n")
+
+
 def write_choice(source: str, text: str) -> None:
     BRIEF_TO_SEND.write_text(text, encoding="utf-8")
+    set_send_output(True)
     print(f"Brief selected: {source}")
     print("--- brief preview ---")
     print("\n".join(text.splitlines()[:24]))
 
 
-def fail(message: str) -> int:
-    print(f"::error::{message}", file=sys.stderr)
-    return 1
+def skip_send(message: str) -> int:
+    set_send_output(False)
+    BRIEF_TO_SEND.write_text(
+        f"# 竹鉴晨报跳过发送\n\n{message}\n",
+        encoding="utf-8",
+    )
+    print(f"Brief send skipped: {message}")
+    return 0
 
 
 def main() -> int:
@@ -82,9 +95,9 @@ def main() -> int:
         return 0
 
     if morning and not has_same_day_header(morning, today):
-        return fail(
+        return skip_send(
             "晨报文件存在但不是当天版本，同时 fallback 日报为空。"
-            "为避免误发'没有新消息'，已阻断发送；请先生成并提交当天 morning_brief.md。"
+            "为避免误发'没有新消息'或旧内容，今天不向企业微信发送。"
         )
 
     if daily and os.environ.get("ALLOW_EMPTY_BRIEF", "").strip().lower() == "true":
@@ -92,12 +105,12 @@ def main() -> int:
         return 0
 
     if daily and is_empty_daily(daily):
-        return fail(
+        return skip_send(
             "fallback 日报为空。为避免继续推送低价值'无新消息'日报，已阻断发送；"
             "请先生成当天高质量 morning_brief.md，或显式设置 ALLOW_EMPTY_BRIEF=true。"
         )
 
-    return fail("没有找到可发送的日报文件：daily_brief.md / morning_brief.md 均不可用。")
+    return skip_send("没有找到可发送的日报文件：daily_brief.md / morning_brief.md 均不可用。")
 
 
 if __name__ == "__main__":
