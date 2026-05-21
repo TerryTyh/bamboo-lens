@@ -1,22 +1,22 @@
 {
-  "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
+  "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
   "draft_status": "auto_draft",
   "generated_at": "2026-05-21T14:44:35",
-  "company": "constellation",
-  "company_name": "Constellation Energy",
-  "source_candidate_title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
-  "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
-  "date": "2026-05-11",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+  "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+  "date": "2026-05-20",
   "type": "财报 / 指引",
   "priority": "草稿",
   "action": "等待补证据",
-  "score": 14,
-  "sort_key": 20260511,
-  "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260521-144113__investors.constellationenergy.com_events-and-presentations_past-events.html",
+  "score": 11,
+  "sort_key": 20260520,
+  "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260521-144113__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
-  "readiness_score": 21,
+  "readiness_score": 18,
   "investment_signal_score": 5,
   "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
   "promotion_blockers": [
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events"
+    "日期：2026-05-20；标题：NVIDIA Announces Financial Results for First Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027"
   ],
-  "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
+  "fact": "日期：2026-05-20；标题：NVIDIA Announces Financial Results for First Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -58,7 +58,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 164,
+    "source_chars": 182,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -68,6 +68,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.json"
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.json"
 }

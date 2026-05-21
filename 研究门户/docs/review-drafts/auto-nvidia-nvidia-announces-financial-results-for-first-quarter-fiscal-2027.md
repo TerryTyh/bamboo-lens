@@ -1,15 +1,15 @@
-# 正式事件草稿｜Constellation Energy｜Q1 2026 Constellation Energy Corporation Earnings Conference Call
+# 正式事件草稿｜NVIDIA｜NVIDIA Announces Financial Results for First Quarter Fiscal 2027
 
 ## 草稿状态
 
-- 公司：Constellation Energy（constellation）
-- 日期：2026-05-11
+- 公司：NVIDIA（nvidia）
+- 日期：2026-05-20
 - 类型：财报 / 指引
-- 候选分数：14
+- 候选分数：11
 - 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 21）
-- 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations/past-events)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260521-144113__investors.constellationenergy.com_events-and-presentations_past-events.html
+- 批处理建议：待补正文（readiness 18）
+- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260521-144113__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
+日期：2026-05-20；标题：NVIDIA Announces Financial Results for First Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027
 
 ### 候选事实
 
-日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
+日期：2026-05-20；标题：NVIDIA Announces Financial Results for First Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027
 
 ## 升级为正式事件前必须补齐
 
@@ -71,7 +71,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call`
+`auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027`
 
 ## 质量闸门
 
