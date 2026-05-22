@@ -1,0 +1,72 @@
+{
+  "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-05-22T14:19:09",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA Announces Upcoming Events for Financial Community",
+  "title": "NVIDIA Announces Upcoming Events for Financial Community",
+  "date": "2026-05-21",
+  "type": "官方候选",
+  "priority": "草稿",
+  "action": "等待补证据",
+  "score": 6,
+  "sort_key": 20260521,
+  "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260522-141537__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "readiness_lane": "needs_source",
+  "readiness_label": "待补正文",
+  "readiness_score": 0,
+  "investment_signal_score": 0,
+  "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+  "promotion_blockers": [
+    "还没有抓到足够正文",
+    "可读内容偏短"
+  ],
+  "source_summary": [
+    "日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679"
+  ],
+  "fact": "日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
+  "evidence": [
+    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
+    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "evidence_needed": [
+    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "这件事影响哪条业务线、财务科目或竞争位置",
+    "下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "company_page_writeback": {
+    "targets": [
+      "最新动态",
+      "当前结论",
+      "跟踪重点"
+    ],
+    "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+  },
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": false,
+    "source_chars": 174,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.json"
+}
