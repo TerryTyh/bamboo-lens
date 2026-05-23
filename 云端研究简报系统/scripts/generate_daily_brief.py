@@ -305,6 +305,13 @@ def candidate_signal_base_score(item: dict) -> int:
         "cloud": 2,
         "ai": 2,
         "conference call": 2,
+        "sell": 4,
+        "share sale": 4,
+        "shareholding": 4,
+        "block trade": 4,
+        "vanguard": 3,
+        "vis": 2,
+        "gan": 2,
     }
     low_signal = [
         "games hit the cloud",
@@ -490,6 +497,14 @@ def simple_zh_sentence(sentence: str) -> str:
         return "Vera CPU 的性能口径包括：智能体沙盒运行速度提升约 50%，企业数据查询最高提升约 3 倍；这些数字仍需要后续真实客户案例验证。"
     if "tsmc" in lowered and "consolidated revenue" in lowered:
         return "原文披露了 TSMC 的核心财务数据，包括合并营收、净利润、EPS 等，用于判断先进制程需求是否仍在兑现为收入和利润。"
+    if "tsmc" in lowered and "152.0 million common shares" in lowered:
+        return "TSMC 计划通过大宗交易出售最多 1.52 亿股 Vanguard International Semiconductor（VIS）普通股，约占 VIS 完全摊薄后股本的 8.1%。"
+    if "reduce its shareholding in vis" in lowered:
+        return "交易完成后，TSMC 对 VIS 的持股预计从约 27.1% 降至约 19%；公司同时表示近期没有继续出售更多 VIS 股份的计划。"
+    if "strategic relations with vis" in lowered:
+        return "TSMC 表示出售股份不会影响与 VIS 的战略关系，包括中介层生产外包以及向 VIS 授权 GaN 技术。"
+    if "focus its resources on core business activities" in lowered:
+        return "公司把这次出售解释为集中资源于核心业务的一部分；这更像是资本配置和资源聚焦动作，而不是业务关系切断。"
     if "gross margin" in lowered and "operating margin" in lowered:
         return "原文给出毛利率、营业利润率和净利率等盈利质量指标，这比单纯收入增长更能说明公司是否仍具备高质量定价能力。"
     if "revenue is expected to be between" in lowered:
@@ -637,6 +652,44 @@ def rank_candidate(item: dict) -> tuple[int, int]:
     return candidate_signal_score(item), item.get("sort_key", 0)
 
 
+def select_diverse_candidates(candidates: list[dict], limit: int = 5, per_company: int = 2) -> list[dict]:
+    picked: list[dict] = []
+    company_counts: dict[str, int] = {}
+    seen_titles: set[tuple[str, str]] = set()
+
+    for item in candidates:
+        company_id = normalize(item.get("company_id", ""))
+        title = normalize(item.get("title", "")).lower()
+        key = (company_id, title)
+        if key in seen_titles:
+            continue
+        if company_counts.get(company_id, 0) >= per_company:
+            continue
+        picked.append(item)
+        seen_titles.add(key)
+        company_counts[company_id] = company_counts.get(company_id, 0) + 1
+        if len(picked) >= limit:
+            break
+
+    if len(picked) < limit:
+        for item in candidates:
+            company_id = normalize(item.get("company_id", ""))
+            title = normalize(item.get("title", "")).lower()
+            key = (company_id, title)
+            if key in seen_titles:
+                continue
+            picked.append(item)
+            seen_titles.add(key)
+            if len(picked) >= limit:
+                break
+
+    return picked
+
+
+def distinct_company_count(items: list[dict]) -> int:
+    return len({normalize(item.get("company_id", "")) for item in items if normalize(item.get("company_id", ""))})
+
+
 def render_candidate_block(candidates: list[dict]) -> str:
     if not candidates:
         return "- 今天云端已扫描官方来源，但没有发现足够新的候选线索。"
@@ -677,9 +730,21 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
         key=rank_candidate,
         reverse=True,
     )
+    wider_candidates = sorted(
+        [
+            item for item in official_candidates
+            if is_recent_candidate(item, now, days=10)
+            and normalize(item.get("title", "")).lower() not in reviewed_titles
+        ],
+        key=rank_candidate,
+        reverse=True,
+    )
     readable_candidates = [item for item in fresh_candidates if has_candidate_content(item)]
+    wider_readable_candidates = [item for item in wider_candidates if has_candidate_content(item)]
     top_events = fresh_events[:3]
-    top_candidates = readable_candidates[:5]
+    top_candidates = select_diverse_candidates(readable_candidates, limit=5, per_company=2)
+    if distinct_company_count(top_candidates) < 2 and distinct_company_count(wider_readable_candidates) >= 2:
+        top_candidates = select_diverse_candidates(wider_readable_candidates, limit=5, per_company=2)
 
     if top_events:
         key_changes = []
