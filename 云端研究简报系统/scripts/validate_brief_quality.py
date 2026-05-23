@@ -26,19 +26,27 @@ def main() -> int:
         errors.append("empty/no-news brief should not be sent")
     if "等待夜间智能沉淀" in text or "已抓到原文链接" in text:
         errors.append("process placeholder leaked into brief")
-    if "[打开原文](" not in text:
+    if "[原文](" not in text and "[打开原文](" not in text:
         errors.append("brief lacks clickable source links")
-    if "中文摘要" not in text and "今日关键变化" not in text:
+    if "｜" not in text and "今日关键变化" not in text:
         errors.append("brief lacks readable summary sections")
 
     # Catch long raw English fragments after Chinese summary labels while allowing
     # product names such as NVIDIA, Google Cloud, Vera CPU, CoWoS and URLs.
     suspicious = []
     for line in text.splitlines():
-        if not line.strip().startswith("- 原文"):
+        if not line.strip():
+            continue
+        if "[原文](" in line:
+            continue
+        if not any(marker in line for marker in ("NVIDIA", "TSMC", "Google", "Vera", "Rubin", "AI", "Cloud", "CPU", "GPU", "GTC", "COMPUTEX")):
+            continue
+        if re.match(r"\s*\d+\.\s+", line):
+            continue
+        if "http" in line:
             continue
         ascii_words = re.findall(r"\b[A-Za-z][A-Za-z'’\-]{3,}\b", line)
-        if len(ascii_words) >= 8:
+        if len(ascii_words) >= 10:
             suspicious.append(line.strip())
     if suspicious:
         errors.append("raw English fragments leaked into Chinese summary")

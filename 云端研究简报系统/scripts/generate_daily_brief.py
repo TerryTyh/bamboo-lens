@@ -365,12 +365,12 @@ def candidate_next_step(item: dict) -> str:
 def candidate_content(item: dict) -> str:
     content_summary = item.get("content_summary") or []
     if content_summary:
-        return "\n   ".join(f"- {normalize(line)}" for line in content_summary if normalize(line))
+        return "\n   ".join(f"{normalize(line)}" for line in content_summary if normalize(line))
 
     source_text = normalize(item.get("source_body") or item.get("source_excerpt") or "")
     fallback = fallback_chinese_summary(item, source_text)
     if fallback:
-        return "\n   ".join(f"- {line}" for line in fallback)
+        return "\n   ".join(f"{line}" for line in fallback)
 
     excerpt = normalize(item.get("source_excerpt", ""))
     if is_readable_candidate_content(excerpt) and contains_chinese(excerpt):
@@ -459,29 +459,35 @@ def simple_zh_sentence(sentence: str) -> str:
     value = normalize(sentence)
     lowered = value.lower()
     if "at nvidia gtc taipei at computex" in lowered:
-        return "原文称，NVIDIA 在台北 GTC/COMPUTEX 把主题集中在 AI 工厂、扩展型基础设施、智能体 AI 和物理 AI，说明公司仍在强调自己不是单一芯片供应商，而是在推完整 AI 基础设施平台。"
+        return "NVIDIA 在台北 GTC/COMPUTEX 把主题集中在 AI 工厂、扩展型基础设施、智能体 AI 和物理 AI，继续强调自己要做完整 AI 基础设施平台，而不只是 GPU 供应商。"
     if "jensen huang" in lowered and "taipei" in lowered:
-        return "原文提到，黄仁勋将在台北音乐中心发表主题演讲；这类会议本身不是财务事件，但通常会集中释放 NVIDIA 下一阶段平台、客户和产品路线信息。"
+        return "黄仁勋将在台北音乐中心发表主题演讲；这类会议本身不是财务事件，但通常会集中释放 NVIDIA 下一阶段平台、客户和产品路线信息。"
     if "vera rubin nvl72" in lowered and "connect" in lowered:
-        return "原文介绍 Vera Rubin NVL72 是机架级 AI 超级计算机，组合 Vera CPU、Rubin GPU、NVLink、ConnectX、Spectrum-X 和 BlueField 等组件，核心卖点是把计算、网络和数据处理做成整机/整架平台。"
+        return "Vera Rubin NVL72 是机架级 AI 超级计算机，组合 Vera CPU、Rubin GPU、NVLink、ConnectX、Spectrum-X 和 BlueField 等组件，核心卖点是把计算、网络和数据处理做成整机/整架平台。"
     if "vera rubin nvl72" in lowered and ("10x" in lowered or "35x" in lowered):
-        return "原文声称 Vera Rubin NVL72 可实现最高 10 倍的每瓦推理性能、10 倍更低的 token 成本，并在特定组合下实现最高 35 倍每瓦吞吐量；这些数字需要后续客户部署验证。"
+        return "Vera Rubin NVL72 被描述为可实现最高 10 倍每瓦推理性能、10 倍更低 token 成本，并在特定组合下实现最高 35 倍每瓦吞吐量；这些数字需要后续客户部署验证。"
     if "nvidia and google cloud" in lowered and "100,000" in lowered:
-        return "原文称 NVIDIA 与 Google Cloud 的联合开发者社区已服务超过 10 万名开发者，重点是把 NVIDIA AI 平台与 Google Cloud 的学习路径、实验室和部署工具结合。"
+        return "NVIDIA 与 Google Cloud 的联合开发者社区已服务超过 10 万名开发者，说明双方不只是在卖算力实例，也在把开发者、教程、实验环境和部署工具绑定到 NVIDIA 全栈 AI 平台上。"
     if "launched at google i/o" in lowered and "developers" in lowered:
-        return "原文说明，这个开发者社区从上一届 Google I/O 开始推进，目标人群包括开发者、数据科学家和机器学习工程师，核心是让他们更容易在 Google Cloud 上使用 NVIDIA 全栈 AI 平台。"
+        return "这个社区从上一届 Google I/O 开始推进，目标人群包括开发者、数据科学家和机器学习工程师，核心是降低他们在 Google Cloud 上使用 NVIDIA GPU、模型和工具链的门槛。"
     if "jax" in lowered and "nvidia gpus" in lowered:
-        return "原文提到双方新增 JAX on NVIDIA GPUs 学习路径和 NVIDIA Dynamo 推理优化实验，重点是帮助开发者在 Google Cloud 上训练和部署 AI 工作负载。"
+        return "双方新增 JAX on NVIDIA GPUs 学习路径和 NVIDIA Dynamo 推理优化实验，重点是帮助开发者在 Google Cloud 上训练和部署 AI 工作负载。"
+    if "retrieval-augmented generation" in lowered or "rag" in lowered:
+        return "文章还提到开发者已经在 Google Kubernetes Engine 上构建 RAG 应用，并开始做智能体工作负载的可观测性，这说明合作不只是培训入口，也延伸到真实生产部署场景。"
+    if "google cloud ai hypercomputer" in lowered or "maxtext" in lowered:
+        return "NVIDIA 与 Google Cloud 也在 JAX、MaxText 和 AI Hypercomputer 等框架/基础设施上协作，目标是让从单 GPU 实验到多机架训练的体验更一致。"
+    if "nvidia dynamo on gke" in lowered:
+        return "NVIDIA Dynamo on GKE 被用于优化大规模推理，尤其是混合专家模型等复杂模型服务，指向推理成本和部署效率，而不只是训练算力。"
     if "first nvidia vera cpus arrived" in lowered:
-        return "原文称首批 NVIDIA Vera CPU 已交付给 Anthropic、OpenAI 等头部 AI 实验室，这意味着 Vera 从发布路线图进入客户试用/部署阶段。"
+        return "首批 NVIDIA Vera CPU 已交付给 Anthropic、OpenAI 等头部 AI 实验室，这意味着 Vera 从发布路线图进入客户试用/部署阶段。"
     if "standalone vera cpu" in lowered and "multibillion" in lowered:
-        return "原文把独立 Vera CPU 描述为 NVIDIA 下一项数十亿美元级业务，说明公司希望把 CPU 也纳入 AI 工厂平台，而不只是销售 GPU。"
+        return "独立 Vera CPU 被描述为 NVIDIA 下一项数十亿美元级业务，说明公司希望把 CPU 也纳入 AI 工厂平台，而不只是销售 GPU。"
     if "agentic ai inference" in lowered and "cost per token" in lowered:
-        return "原文提到 Vera Rubin NVL72 面向智能体 AI 推理，目标是把每 token 成本降到更低水平；这对应的是推理侧商业化效率，而不只是训练算力扩张。"
+        return "Vera Rubin NVL72 面向智能体 AI 推理，目标是把每 token 成本降到更低水平；这对应的是推理侧商业化效率，而不只是训练算力扩张。"
     if "5,000 enterprises" in lowered and "dell ai factories" in lowered:
-        return "原文称已有约 5000 家企业在 Dell AI Factory with NVIDIA 上运行 AI 工作负载，用来证明 NVIDIA 的企业 AI 基础设施正在从概念走向规模部署。"
+        return "已有约 5000 家企业在 Dell AI Factory with NVIDIA 上运行 AI 工作负载，用来证明 NVIDIA 的企业 AI 基础设施正在从概念走向规模部署。"
     if "50% faster" in lowered and "3x faster" in lowered and "vera cpu" in lowered:
-        return "原文给出 Vera CPU 的性能口径：智能体沙盒运行速度提升约 50%，企业数据查询最高提升约 3 倍；这些数字仍需要后续真实客户案例验证。"
+        return "Vera CPU 的性能口径包括：智能体沙盒运行速度提升约 50%，企业数据查询最高提升约 3 倍；这些数字仍需要后续真实客户案例验证。"
     if "tsmc" in lowered and "consolidated revenue" in lowered:
         return "原文披露了 TSMC 的核心财务数据，包括合并营收、净利润、EPS 等，用于判断先进制程需求是否仍在兑现为收入和利润。"
     if "gross margin" in lowered and "operating margin" in lowered:
@@ -595,7 +601,7 @@ def fallback_chinese_summary(item: dict, source_text: str) -> list[str]:
             break
     if len(picked) < 2:
         return []
-    return [title_brief(item), *picked]
+    return picked
 
 
 def contains_chinese(text: str) -> bool:
@@ -637,11 +643,13 @@ def render_candidate_block(candidates: list[dict]) -> str:
 
     lines = []
     for index, event in enumerate(candidates, start=1):
-        source = f"\n   来源：[打开原文]({event['source_url']})" if event.get("source_url") else ""
+        source = f"\n   [原文]({event['source_url']})" if event.get("source_url") else ""
+        date = normalize(event.get("date", ""))
+        date_prefix = f"{date}。" if date else ""
+        content = candidate_content(event)
         lines.append(
-            f"""{index}. 公司：{event["company_name"]}
-   标题：{normalize(event["title"])}
-   中文摘要：{candidate_content(event)}{source}"""
+            f"""{index}. {event["company_name"]}｜{normalize(event["title"])}
+   {date_prefix}{content}{source}"""
         )
     return "\n\n".join(lines)
 
@@ -726,34 +734,20 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
 """
         return f"""# 竹鉴日报 | {today}
 
-今日可读内容：
-
 {candidate_block}
-
-明日重点：
-
-- 当前覆盖公司：{names}
-{tomorrow_focus}
 """
 
     return f"""# 竹鉴日报 | {today}
 
-今日关键变化：
-
 {changes_block}
 
-更多可读线索：
+其他可读线索：
 
 {candidate_block}
 
-下一次验证点：
+后续观察：
 
 {next_check}
-
-明日重点：
-
-- 当前覆盖公司：{names}
-{tomorrow_focus}
 """
 
 
