@@ -32,6 +32,10 @@ jobs:
         id: choose
         run: python3 scripts/prepare_brief_to_send.py
 
+      - name: Validate sendable brief quality
+        if: ${{ steps.choose.outputs.send == 'true' }}
+        run: python3 scripts/validate_brief_quality.py outputs/brief_to_send.md
+
       - name: Check automation health
         if: ${{ always() }}
         continue-on-error: true

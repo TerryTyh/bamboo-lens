@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -281,7 +282,7 @@ def is_recent_candidate(item: dict, today: datetime, days: int = 2, upcoming_day
     return False
 
 
-def candidate_signal_score(item: dict) -> int:
+def candidate_signal_base_score(item: dict) -> int:
     text = " ".join(
         normalize(item.get(field, ""))
         for field in ["title", "type", "fact"]
@@ -307,6 +308,11 @@ def candidate_signal_score(item: dict) -> int:
     }
     low_signal = [
         "games hit the cloud",
+        "geforce now",
+        "gaming",
+        "007 first light",
+        "game ",
+        "games ",
         "protecting the planet",
         "rainforests",
         "recycling plants",
@@ -320,6 +326,11 @@ def candidate_signal_score(item: dict) -> int:
         score -= 6
     if item.get("sort_key", 0) >= 20260501:
         score += 2
+    return score
+
+
+def candidate_signal_score(item: dict) -> int:
+    score = candidate_signal_base_score(item)
     if has_candidate_content(item):
         score += 8
     else:
@@ -356,6 +367,11 @@ def candidate_content(item: dict) -> str:
     if content_summary:
         return "\n   ".join(f"- {normalize(line)}" for line in content_summary if normalize(line))
 
+    source_text = normalize(item.get("source_body") or item.get("source_excerpt") or "")
+    fallback = fallback_chinese_summary(item, source_text)
+    if fallback:
+        return "\n   ".join(f"- {line}" for line in fallback)
+
     excerpt = normalize(item.get("source_excerpt", ""))
     if is_readable_candidate_content(excerpt) and contains_chinese(excerpt):
         return excerpt
@@ -367,6 +383,219 @@ def candidate_content(item: dict) -> str:
         if is_readable_candidate_content(extracted) and contains_chinese(extracted):
             return extracted
     return "已抓到原文链接，但云端日报不再直接搬运英文片段；等待夜间智能沉淀生成中文读后摘要。"
+
+
+def split_sentences(text: str) -> list[str]:
+    value = normalize(text)
+    if not value:
+        return []
+    pieces = re.split(r"(?<=[.!?。！？])\s+", value)
+    return [piece.strip() for piece in pieces if len(piece.strip()) >= 45]
+
+
+def score_sentence(sentence: str) -> int:
+    lowered = sentence.lower()
+    score = 0
+    high_signal = {
+        "revenue": 8,
+        "net income": 7,
+        "eps": 7,
+        "gross margin": 7,
+        "operating margin": 6,
+        "guidance": 6,
+        "expects": 5,
+        "data center": 6,
+        "ai factory": 6,
+        "ai factories": 6,
+        "nvl72": 6,
+        "rubin": 6,
+        "spectrum-x": 6,
+        "nvlink": 6,
+        "cowos": 6,
+        "2nm": 6,
+        "a13": 5,
+        "partnership": 5,
+        "customer": 4,
+        "openai": 4,
+        "microsoft": 4,
+        "oracle": 4,
+        "backlog": 6,
+        "free cash flow": 6,
+        "capital": 4,
+        "manufacturing": 4,
+    }
+    low_signal = (
+        "cookie",
+        "privacy",
+        "forward-looking",
+        "safe harbor",
+        "subscribe",
+        "view all products",
+        "gpu technology conference",
+        "nvidia in brief",
+        "copyright",
+        "you are now leaving",
+    )
+    if any(marker in lowered for marker in low_signal):
+        return -20
+    for keyword, weight in high_signal.items():
+        if keyword in lowered:
+            score += weight
+    if re.search(r"\d", sentence):
+        score += 4
+    if 70 <= len(sentence) <= 260:
+        score += 2
+    if len(sentence) > 420:
+        score -= 3
+    return score
+
+
+def simple_zh_sentence(sentence: str) -> str:
+    """Deterministic fallback when API summaries are unavailable.
+
+    It is intentionally conservative: keep product/customer names intact,
+    translate recurring IR language, and avoid inventing facts.
+    """
+    value = normalize(sentence)
+    lowered = value.lower()
+    if "at nvidia gtc taipei at computex" in lowered:
+        return "原文称，NVIDIA 在台北 GTC/COMPUTEX 把主题集中在 AI 工厂、扩展型基础设施、智能体 AI 和物理 AI，说明公司仍在强调自己不是单一芯片供应商，而是在推完整 AI 基础设施平台。"
+    if "jensen huang" in lowered and "taipei" in lowered:
+        return "原文提到，黄仁勋将在台北音乐中心发表主题演讲；这类会议本身不是财务事件，但通常会集中释放 NVIDIA 下一阶段平台、客户和产品路线信息。"
+    if "vera rubin nvl72" in lowered and "connect" in lowered:
+        return "原文介绍 Vera Rubin NVL72 是机架级 AI 超级计算机，组合 Vera CPU、Rubin GPU、NVLink、ConnectX、Spectrum-X 和 BlueField 等组件，核心卖点是把计算、网络和数据处理做成整机/整架平台。"
+    if "vera rubin nvl72" in lowered and ("10x" in lowered or "35x" in lowered):
+        return "原文声称 Vera Rubin NVL72 可实现最高 10 倍的每瓦推理性能、10 倍更低的 token 成本，并在特定组合下实现最高 35 倍每瓦吞吐量；这些数字需要后续客户部署验证。"
+    if "nvidia and google cloud" in lowered and "100,000" in lowered:
+        return "原文称 NVIDIA 与 Google Cloud 的联合开发者社区已服务超过 10 万名开发者，重点是把 NVIDIA AI 平台与 Google Cloud 的学习路径、实验室和部署工具结合。"
+    if "launched at google i/o" in lowered and "developers" in lowered:
+        return "原文说明，这个开发者社区从上一届 Google I/O 开始推进，目标人群包括开发者、数据科学家和机器学习工程师，核心是让他们更容易在 Google Cloud 上使用 NVIDIA 全栈 AI 平台。"
+    if "jax" in lowered and "nvidia gpus" in lowered:
+        return "原文提到双方新增 JAX on NVIDIA GPUs 学习路径和 NVIDIA Dynamo 推理优化实验，重点是帮助开发者在 Google Cloud 上训练和部署 AI 工作负载。"
+    if "first nvidia vera cpus arrived" in lowered:
+        return "原文称首批 NVIDIA Vera CPU 已交付给 Anthropic、OpenAI 等头部 AI 实验室，这意味着 Vera 从发布路线图进入客户试用/部署阶段。"
+    if "standalone vera cpu" in lowered and "multibillion" in lowered:
+        return "原文把独立 Vera CPU 描述为 NVIDIA 下一项数十亿美元级业务，说明公司希望把 CPU 也纳入 AI 工厂平台，而不只是销售 GPU。"
+    if "agentic ai inference" in lowered and "cost per token" in lowered:
+        return "原文提到 Vera Rubin NVL72 面向智能体 AI 推理，目标是把每 token 成本降到更低水平；这对应的是推理侧商业化效率，而不只是训练算力扩张。"
+    if "5,000 enterprises" in lowered and "dell ai factories" in lowered:
+        return "原文称已有约 5000 家企业在 Dell AI Factory with NVIDIA 上运行 AI 工作负载，用来证明 NVIDIA 的企业 AI 基础设施正在从概念走向规模部署。"
+    if "50% faster" in lowered and "3x faster" in lowered and "vera cpu" in lowered:
+        return "原文给出 Vera CPU 的性能口径：智能体沙盒运行速度提升约 50%，企业数据查询最高提升约 3 倍；这些数字仍需要后续真实客户案例验证。"
+    if "tsmc" in lowered and "consolidated revenue" in lowered:
+        return "原文披露了 TSMC 的核心财务数据，包括合并营收、净利润、EPS 等，用于判断先进制程需求是否仍在兑现为收入和利润。"
+    if "gross margin" in lowered and "operating margin" in lowered:
+        return "原文给出毛利率、营业利润率和净利率等盈利质量指标，这比单纯收入增长更能说明公司是否仍具备高质量定价能力。"
+    if "revenue is expected to be between" in lowered:
+        return "原文给出下一季度收入指引区间，这是后续判断需求是否延续的直接验证线。"
+    if "shipments of 3-nanometer" in lowered or "advanced technologies" in lowered:
+        return "原文拆分了先进制程收入占比，能帮助判断增长是否来自高价值节点，而不是低毛利成熟制程。"
+    if "cowos" in lowered and "reticle" in lowered:
+        return "原文提到 CoWoS 封装尺寸和产能路线继续扩展，说明 AI 计算扩张的瓶颈不只在晶圆制程，也在先进封装和 HBM 集成能力。"
+    if "a13" in lowered and "production" in lowered:
+        return "原文介绍 A13 等后续先进制程路线，重点是 2028-2029 年以后的技术储备，而不是短期收入。"
+
+    replacements = [
+        ("NVIDIA founder and CEO Jensen Huang", "NVIDIA 创始人兼 CEO 黄仁勋"),
+        ("founder and CEO Jensen Huang", "创始人兼 CEO 黄仁勋"),
+        ("the company", "公司"),
+        ("announced", "宣布"),
+        ("today announced", "今日宣布"),
+        ("reported", "披露"),
+        ("expects", "预计"),
+        ("is expected to", "预计将"),
+        ("revenue", "收入"),
+        ("net income", "净利润"),
+        ("diluted earnings per share", "摊薄每股收益"),
+        ("earnings per share", "每股收益"),
+        ("gross margin", "毛利率"),
+        ("operating margin", "营业利润率"),
+        ("net profit margin", "净利率"),
+        ("year-over-year", "同比"),
+        ("from the previous quarter", "环比上一季度"),
+        ("increased", "增长"),
+        ("decreased", "下降"),
+        ("partnership", "合作"),
+        ("long-term partnership", "长期合作"),
+        ("AI factories", "AI 工厂"),
+        ("AI factory", "AI 工厂"),
+        ("data centers", "数据中心"),
+        ("data center", "数据中心"),
+        ("cloud", "云"),
+        ("customers", "客户"),
+        ("customer", "客户"),
+        ("advanced process technologies", "先进制程技术"),
+        ("advanced technologies", "先进技术"),
+        ("capital expenditures", "资本开支"),
+        ("capital expenditure", "资本开支"),
+        ("free cash flow", "自由现金流"),
+        ("shipments", "出货"),
+        ("accounted for", "占比"),
+        ("guidance", "指引"),
+        ("management expects", "管理层预计"),
+        ("production", "量产/生产"),
+        ("manufacturing", "制造"),
+        ("power efficiency", "能效"),
+        ("latency", "延迟"),
+        ("throughput", "吞吐量"),
+        ("performance", "性能"),
+        ("available", "可用/发布"),
+        ("will", "将"),
+        ("can", "可以"),
+    ]
+    for source, target in replacements:
+        value = re.sub(re.escape(source), target, value, flags=re.IGNORECASE)
+    value = value.strip(" .")
+    # If the deterministic fallback cannot confidently paraphrase the sentence,
+    # do not leak raw English fragments into the Chinese brief.
+    if re.search(r"[A-Za-z]{4,}", value):
+        return ""
+    if not value.endswith(("。", "！", "？")):
+        value += "。"
+    return f"原文提到，{value}"
+
+
+def title_brief(item: dict) -> str:
+    title = normalize(item.get("title", ""))
+    company = normalize(item.get("company_name", ""))
+    lowered = title.lower()
+    if "financial results" in lowered or "earnings" in lowered or "eps" in lowered:
+        return f"{company} 这条是财报/业绩类更新，优先看收入、利润率、指引和现金流，而不是只看标题。"
+    if "revenue report" in lowered:
+        return f"{company} 这条是月度营收更新，适合用来验证最近一个季度需求是否连续。"
+    if "partnership" in lowered or "collaborat" in lowered:
+        return f"{company} 这条是合作/客户绑定类更新，重点看合作对象、持续时间、落地场景和是否带来收入路径。"
+    if any(word in lowered for word in ("ai", "rubin", "spectrum-x", "nvlink", "gtc", "computex")):
+        return f"{company} 这条和 AI 基础设施/平台能力有关，重点看它是否强化公司从单点产品走向系统平台的逻辑。"
+    return f"{company} 这条是官方新增内容，下面按原文中更有信息量的句子做中文摘读。"
+
+
+def fallback_chinese_summary(item: dict, source_text: str) -> list[str]:
+    if not is_readable_candidate_content(source_text):
+        return []
+    if candidate_signal_base_score(item) < 3:
+        return []
+    sentences = split_sentences(source_text)
+    ranked = sorted(sentences, key=score_sentence, reverse=True)
+    picked: list[str] = []
+    seen = set()
+    for sentence in ranked:
+        if score_sentence(sentence) <= 0:
+            continue
+        normalized = normalize(sentence)
+        key = normalized[:90].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        paraphrased = simple_zh_sentence(normalized)
+        if not paraphrased:
+            continue
+        picked.append(paraphrased)
+        if len(picked) >= 5:
+            break
+    if len(picked) < 2:
+        return []
+    return [title_brief(item), *picked]
 
 
 def contains_chinese(text: str) -> bool:
@@ -388,6 +617,9 @@ def is_readable_candidate_content(text: str) -> bool:
 
 def has_candidate_content(item: dict) -> bool:
     if item.get("content_summary"):
+        return True
+    source_text = normalize(item.get("source_body") or item.get("source_excerpt") or "")
+    if fallback_chinese_summary(item, source_text):
         return True
     return (
         "原文内容：" in normalize(item.get("fact", ""))
@@ -431,7 +663,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
     fresh_candidates = sorted(
         [
             item for item in official_candidates
-            if is_recent_candidate(item, now, days=2)
+            if is_recent_candidate(item, now, days=5)
             and normalize(item.get("title", "")).lower() not in reviewed_titles
         ],
         key=rank_candidate,
