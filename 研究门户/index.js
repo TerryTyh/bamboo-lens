@@ -488,7 +488,7 @@ function renderResearchPool() {
         <b>${escapeHtml(company.level_label || company.level || "待评估")}</b>
         <small>下次复评：${escapeHtml(company.next_review || "待定")}</small>
       </div>
-      <p>${escapeHtml(company.review_focus || "")}</p>
+      <p>${escapeHtml(company.review_result ? `本轮复评：${company.review_result}。${company.review_note || ""}` : company.review_focus || "")}</p>
     </article>
   `).join("");
 

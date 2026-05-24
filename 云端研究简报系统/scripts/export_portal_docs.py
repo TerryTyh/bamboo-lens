@@ -39,6 +39,14 @@ DOCS = [
         PORTAL_DOCS / "research" / "39-长电科技最小研究包V1.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "40-研究池生命周期管理V1.md",
+        PORTAL_DOCS / "rules" / "40-研究池生命周期管理V1.md",
+    ),
+    (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "41-研究池首轮复评_2026-05-24.md",
+        PORTAL_DOCS / "research" / "41-研究池首轮复评_2026-05-24.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),

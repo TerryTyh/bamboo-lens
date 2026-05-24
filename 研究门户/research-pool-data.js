@@ -1,6 +1,12 @@
 window.BAMBOO_LENS_RESEARCH_POOL = {
-  generated_at: "2026-05-23",
+  generated_at: "2026-05-24",
   lifecycle_stage: "V1 研究池生命周期",
+  latest_review: {
+    date: "2026-05-24",
+    result: "8 家 A 层维持核心，长电科技维持强 B 层重点观察；本轮不升级、不降级、不移出。",
+    next_review: "2026-06",
+    report: "./reader.html?doc=./docs/research/41-研究池首轮复评_2026-05-24.md&title=研究池首轮复评",
+  },
   completion_standard: {
     weekly: "每周新增 3-10 个候选线索，只做初筛，不直接建主页。",
     monthly: "每月复评 A/B 层公司，输出维持、升级、降级或暂停结论。",
@@ -11,7 +17,7 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
     b_watch: 1,
     c_radar: 0,
     paused: 0,
-    next_focus: "先稳定 V2 闭环，再用长电科技验证 B 层最小研究包是否值得建主页。",
+    next_focus: "首轮复评先维持 8A+1B 结构；6 月重点看 A 层估值容错率、现金流质量，以及长电科技先进封装兑现度。",
   },
   cadence: [
     {
@@ -41,6 +47,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "不用升级，重点是维持 A 层质量。",
       downgrade_trigger: "数据中心增长、毛利率或客户 capex 明显走弱，且估值仍处高位。",
+      review_result: "维持 A 层核心",
+      review_note: "已有 AI 工厂平台与数据中心现金流主线，近期事件多为生态扩展，暂不因高估值降级；但下一轮必须看财报、毛利率和客户 capex 是否继续兑现。",
       action: "维持核心，继续高频跟踪正式事件。",
     },
     {
@@ -53,6 +61,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "不用升级，重点是确认资本回报和先进制程需求持续性。",
       downgrade_trigger: "先进制程需求放缓、海外扩产持续稀释利润率、自由现金流明显承压。",
+      review_result: "维持 A 层核心",
+      review_note: "4 月营收、Q1 董事会资本开支、VIS 股权处置共同支持先进制程/封装底座和资本配置主线；下轮重点看高 capex 后的毛利率和自由现金流。",
       action: "维持核心，关注财报和月度营收。",
     },
     {
@@ -65,6 +75,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "不用升级，重点是验证 AI 投入是否持续转成高质量现金流。",
       downgrade_trigger: "AI capex 持续拉低自由现金流，Azure 增速或云毛利率明显失速。",
+      review_result: "维持 A 层核心",
+      review_note: "FY26 Q3 云与 Azure 仍是核心支撑，AI run-rate 已能解释 A 层地位；但 capex 回报和云毛利率仍是 6 月复评硬指标。",
       action: "维持核心，复评 capex 回报。",
     },
     {
@@ -77,6 +89,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "云增长和云 EBITA 同时改善，自由现金流修复，回购继续有效。",
       downgrade_trigger: "即时零售投入持续吞噬现金流，云利润率不改善，回购无法抵消稀释或折价。",
+      review_result: "维持 A 层核心但列为重点复核",
+      review_note: "云 AI 和平台现金流仍有研究价值，但即时零售投入、利润和自由现金流压力使它成为 A 层中最需要月度验证的对象之一。",
       action: "维持核心，但现金流和投入回报是月度复评重点。",
     },
     {
@@ -89,6 +103,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "出海和新业务持续兑现，现金流质量同步改善。",
       downgrade_trigger: "资产减值扩大、库存/应收恶化，平台化增长无法抵消周期下行。",
+      review_result: "维持 A 层核心但降低叙事权重",
+      review_note: "工业自动化平台和出海仍成立，但存货、减值、应收和工业景气必须比概念叙事优先；下一轮若财务质量继续走弱，应考虑降为 A-观察。",
       action: "维持核心，降低模板化结论，重点看财务质量。",
     },
     {
@@ -101,6 +117,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "订单和自由现金流连续兑现，并且估值回到更舒服位置。",
       downgrade_trigger: "订单质量走弱、利润率回落或高估值无法被现金流继续支撑。",
+      review_result: "维持 A 层核心",
+      review_note: "Q1 订单和 backlog 继续验证电力系统升级主线；但估值容错率不高，下一轮必须同时看利润率、自由现金流和订单质量。",
       action: "维持核心，但不因电力主题热度提高层级。",
     },
     {
@@ -113,6 +131,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "新业务利润质量和现金流同步改善，客户集中风险没有扩大。",
       downgrade_trigger: "股价高位但现金流、存货、应收或新业务质量无法验证。",
+      review_result: "维持 A 层核心但重点看现金流",
+      review_note: "2025 年报现金流与营运资本拆解已形成验证清单，复杂制造平台逻辑仍在；下一轮重点看汽车电子、通信/数据中心增长是否转化为利润和现金流。",
       action: "维持核心，不把个人仓位纳入公司页判断。",
     },
     {
@@ -125,6 +145,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "PPA/数据中心合同体现溢价，EPS 与 FCF 同步兑现。",
       downgrade_trigger: "Calpine 整合拖累现金流，长期合同无法体现溢价，估值过度透支。",
+      review_result: "维持 A 层核心",
+      review_note: "核电稀缺、长期合同和 2026 Outlook 支撑 A 层；下一轮核心不是主题热度，而是 Calpine 整合、EPS 与自由现金流能否兑现。",
       action: "维持核心，重点验证合同和资本回报。",
     },
     {
@@ -137,6 +159,8 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       next_review: "2026-06",
       upgrade_trigger: "长电微亏损收窄，先进封装带来毛利率改善，现金流跟上利润改善。",
       downgrade_trigger: "先进封装只停留在收入叙事，利润率和现金流无法兑现。",
+      review_result: "维持强 B 层重点观察",
+      review_note: "最小研究包已完成，但先进封装、长电微亏损、毛利率和现金流仍未达到建正式主页标准；下轮只看关键验证点，不因持仓或主题热度升 A。",
       action: "保留最小研究包，暂不建正式主页。",
     },
   ],
