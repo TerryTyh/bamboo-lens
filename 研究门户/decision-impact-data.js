@@ -1,7 +1,44 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-22T14:19:09",
-  "source_generated_at": "2026-05-22T14:19:08",
+  "generated_at": "2026-05-24T15:00:34",
+  "source_generated_at": "2026-05-24T15:00:23",
   "items": [
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "event_index": 0,
+      "event_title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
+      "event_date": "2026-05-15",
+      "event_type": "资本配置 / 股权处置",
+      "priority": "P3",
+      "direction": "中性验证",
+      "dimensions": [
+        "业务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": false,
+      "decision_output": {
+        "confidence_change": "维持确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "估值模型"
+        ],
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+      },
+      "decision_change": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
+      "business_impact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
+      "valuation_impact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+      "next_verification": [
+        "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
+        "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
+        "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3314",
+      "sort_key": 20260515,
+      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -116,7 +153,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
       "event_date": "2026-05-12",
       "event_type": "董事会/资本配置",
@@ -152,12 +189,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3311",
       "sort_key": 20260512,
-      "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
       "event_date": "2026-05-08",
       "event_type": "月度营收 / Q2 需求验证",
@@ -191,12 +228,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3305",
       "sort_key": 20260508,
-      "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 2,
+      "event_index": 3,
       "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
       "event_date": "2026-05-08",
       "event_type": "合作 / 图像传感器 / 物理 AI",
@@ -228,7 +265,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3308",
       "sort_key": 20260508,
-      "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -344,7 +381,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 3,
+      "event_index": 4,
       "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
       "event_date": "2026-04-23",
       "event_type": "技术路线 / 先进制程",
@@ -376,7 +413,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
       "sort_key": 20260423,
-      "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -418,7 +455,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 4,
+      "event_index": 5,
       "event_title": "2026Q1：营收 NT$1,134.10b，同比增长 35.1%，毛利率 66.2%；Q2 指引 US$39.0-40.2b",
       "event_date": "2026-04-16",
       "event_type": "季度财报 / 指引",
@@ -454,12 +491,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3297",
       "sort_key": 20260416,
-      "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
       "company_name": "TSMC",
-      "event_index": 7,
+      "event_index": 8,
       "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
       "event_date": "2026-04-10",
       "event_type": "月度营收 / 需求验证",
@@ -493,7 +530,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "http://pr.tsmc.com/english/news/3294",
       "sort_key": 20260410,
-      "detail_link": "./event.html?company=tsmc&event=7&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=tsmc&event=8&return=company&v=20260505-1"
     },
     {
       "company": "constellation",
@@ -802,6 +839,43 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "tsmc",
         "company_name": "TSMC",
         "event_index": 0,
+        "event_title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
+        "event_date": "2026-05-15",
+        "event_type": "资本配置 / 股权处置",
+        "priority": "P3",
+        "direction": "中性验证",
+        "dimensions": [
+          "业务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": false,
+        "decision_output": {
+          "confidence_change": "维持确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "估值模型"
+          ],
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+        },
+        "decision_change": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
+        "business_impact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
+        "valuation_impact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+        "next_verification": [
+          "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
+          "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
+          "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3314",
+        "sort_key": 20260515,
+        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "event_index": 1,
         "event_title": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
         "event_date": "2026-05-12",
         "event_type": "董事会/资本配置",
@@ -837,12 +911,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3311",
         "sort_key": 20260512,
-        "detail_link": "./event.html?company=tsmc&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 1,
+        "event_index": 2,
         "event_title": "2026 年 4 月营收 NT$4107.3 亿，环比小降但同比仍增 17.5%，高位需求进入延续验证期",
         "event_date": "2026-05-08",
         "event_type": "月度营收 / Q2 需求验证",
@@ -876,12 +950,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3305",
         "sort_key": 20260508,
-        "detail_link": "./event.html?company=tsmc&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 2,
+        "event_index": 3,
         "event_title": "Sony 与 TSMC 拟建日本图像传感器 JV，先进制程合作延伸到物理 AI 感知入口",
         "event_date": "2026-05-08",
         "event_type": "合作 / 图像传感器 / 物理 AI",
@@ -913,12 +987,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3308",
         "sort_key": 20260508,
-        "detail_link": "./event.html?company=tsmc&event=2&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 3,
+        "event_index": 4,
         "event_title": "A13、A12、N2U 与先进封装路线同步披露，TSMC 把 2028-2029 年 AI/HPC 制程平台继续前推",
         "event_date": "2026-04-23",
         "event_type": "技术路线 / 先进制程",
@@ -950,12 +1024,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://pr.tsmc.com/system/files/newspdf/attachment/36a83a1c01678afe9df8e589f352fdfb6b11bc1d/2026%20Tech%20Symposium%20%28C%29_final_wmn.pdf",
         "sort_key": 20260423,
-        "detail_link": "./event.html?company=tsmc&event=3&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 4,
+        "event_index": 5,
         "event_title": "2026Q1：营收 NT$1,134.10b，同比增长 35.1%，毛利率 66.2%；Q2 指引 US$39.0-40.2b",
         "event_date": "2026-04-16",
         "event_type": "季度财报 / 指引",
@@ -991,12 +1065,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3297",
         "sort_key": 20260416,
-        "detail_link": "./event.html?company=tsmc&event=4&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=5&return=company&v=20260505-1"
       },
       {
         "company": "tsmc",
         "company_name": "TSMC",
-        "event_index": 7,
+        "event_index": 8,
         "event_title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
         "event_date": "2026-04-10",
         "event_type": "月度营收 / 需求验证",
@@ -1030,7 +1104,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "http://pr.tsmc.com/english/news/3294",
         "sort_key": 20260410,
-        "detail_link": "./event.html?company=tsmc&event=7&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=tsmc&event=8&return=company&v=20260505-1"
       }
     ],
     "constellation": [
@@ -1076,7 +1150,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 14,
+    "total": 15,
     "companies": 3,
     "valuation_update_needed": 5,
     "positive": 11,

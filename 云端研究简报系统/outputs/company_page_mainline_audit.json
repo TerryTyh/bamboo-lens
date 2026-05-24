@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T14:19:09",
-  "source_overrides_at": "2026-05-22T14:19:09",
+  "generated_at": "2026-05-24T15:00:39",
+  "source_overrides_at": "2026-05-24T15:00:39",
   "items": [
     {
       "company": "constellation",
@@ -70,8 +70,8 @@
     },
     {
       "company": "tsmc",
-      "sourceEventTitle": "董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿",
-      "sourceEventDate": "2026-05-12",
+      "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
+      "sourceEventDate": "2026-05-15",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

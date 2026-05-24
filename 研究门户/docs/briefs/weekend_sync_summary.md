@@ -1,6 +1,6 @@
 # 竹鉴周末同步摘要
 
-生成时间：2026-05-02 13:12
+生成时间：2026-05-19 22:05
 
 ## 本次同步后先看什么
 
@@ -10,7 +10,10 @@
 
 ## 过去 7 天正式事件
 
-- 过去 7 天暂无新的正式事件入库；优先查看候选池与最新日报。
+- 2026-05-13｜NVIDIA｜Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark（P3，生态/本地 Agent）
+- 2026-05-13｜NVIDIA｜NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure（P3，生态/训练基础设施（强化学习））
+- 2026-05-12｜NVIDIA｜SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制（P3，生态合作/企业软件）
+- 2026-05-12｜TSMC｜董事会决议：2026Q1 EPS NT$22.08，核准约 US$312.84 亿资本支出并对 Arizona 注资上限 US$200 亿（P2，董事会/资本配置）
 
 ## 官方候选池
 
@@ -20,11 +23,9 @@
 
 ## 最新云端日报摘录
 
-# 竹鉴日报 | 2026-05-02
-一句话结论：
-今天没有新增值得直接推送的已判断研究事件。
+# 竹鉴日报 | 2026-05-18
+今日没有新的可读内容。
 明日重点：
 - 当前覆盖公司：NVIDIA、TSMC、Microsoft、阿里巴巴、汇川技术、GE Vernova、立讯精密、Constellation Energy
-- 延续跟踪最近一轮官方候选里最值得研判的线索，优先看 NVIDIA 当天新增候选是否能升级为正式研究事件
-- 继续补强 TSMC、立讯精密、汇川技术、Constellation Energy 的官方来源抓取稳定性
-- 只有出现当日/近期新变化时，才恢复完整日报展开
+- 继续扫描官方来源中的新增内容
+- 只在读到正文并形成中文摘要后，才进入晨报主体

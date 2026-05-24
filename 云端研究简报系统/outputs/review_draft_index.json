@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-22T14:19:09",
+  "generated_at": "2026-05-24T15:00:34",
   "summary": {
-    "total": 9,
+    "total": 8,
     "companies": 3,
-    "with_source_body": 6,
+    "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 2,
       "needs_source": 4,
-      "low_investment_signal": 3
+      "low_investment_signal": 2
     },
     "priority_batch": [
       {
@@ -277,31 +277,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "tsmc::tsmc to sell 8.1% of vanguard international semiconductor": {
-      "draft_id": "auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
-      "date": "2026-05-15",
-      "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -7,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3314",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -523,31 +498,6 @@
           ],
           "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
         }
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
-        "date": "2026-05-15",
-        "score": 6,
-        "readiness_score": 11,
-        "investment_signal_score": -7,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3314",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ]
   },
@@ -728,31 +678,6 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
-      "date": "2026-05-15",
-      "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -7,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3314",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-to-sell-8-1-of-vanguard-international-semiconductor.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [

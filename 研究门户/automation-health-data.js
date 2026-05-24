@@ -1,12 +1,12 @@
 window.BAMBOO_LENS_AUTOMATION_HEALTH = {
-  "generated_at": "2026-05-22T22:19:12+08:00",
-  "status": "watch",
-  "status_label": "需观察",
+  "generated_at": "2026-05-24T15:00:46+08:00",
+  "status": "healthy",
+  "status_label": "健康",
   "summary_notes": [
     "工作流文件：4/4 已存在。",
     "关键云端产物：12/12 已存在。",
     "门户数据文件：10/10 已存在。",
-    "日报保护状态：watch。",
+    "日报保护状态：healthy。",
     "公司页审计状态：healthy。",
     "行情覆盖状态：healthy。"
   ],
@@ -39,69 +39,69 @@ window.BAMBOO_LENS_AUTOMATION_HEALTH = {
   },
   "freshness": {
     "status": "healthy",
-    "thresholdHours": 42,
+    "thresholdHours": 90,
     "items": [
       {
         "name": "official_candidates",
         "path": "云端研究简报系统/outputs/official_candidates.json",
         "timestamp": "2026-05-22T14:18:17+08:00",
-        "ageHours": 8.0,
+        "ageHours": 48.7,
         "status": "healthy"
       },
       {
         "name": "event_store",
         "path": "云端研究简报系统/outputs/event_store.json",
-        "timestamp": "2026-05-22T14:19:08+08:00",
-        "ageHours": 8.0,
+        "timestamp": "2026-05-24T15:00:23+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "decision_queue",
         "path": "云端研究简报系统/outputs/decision_queue.json",
-        "timestamp": "2026-05-22T14:19:09+08:00",
-        "ageHours": 8.0,
+        "timestamp": "2026-05-24T15:00:29+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "company_page_overrides",
         "path": "云端研究简报系统/outputs/company_page_overrides.json",
-        "timestamp": "2026-05-22T14:19:09+08:00",
-        "ageHours": 8.0,
+        "timestamp": "2026-05-24T15:00:39+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "readability_audit",
         "path": "云端研究简报系统/outputs/company_page_readability_audit.json",
-        "timestamp": "2026-05-22T14:19:09+08:00",
-        "ageHours": 8.0,
+        "timestamp": "2026-05-24T15:00:39+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "mainline_audit",
         "path": "云端研究简报系统/outputs/company_page_mainline_audit.json",
-        "timestamp": "2026-05-22T14:19:09+08:00",
-        "ageHours": 8.0,
+        "timestamp": "2026-05-24T15:00:39+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "market_snapshot",
         "path": "云端研究简报系统/outputs/market_snapshot.json",
         "timestamp": "2026-05-22T22:19:12+08:00",
-        "ageHours": 0.0,
+        "ageHours": 40.7,
         "status": "healthy"
       },
       {
         "name": "daily_brief",
         "path": "云端研究简报系统/outputs/daily_brief.md",
         "timestamp": "2026-05-22T00:00:00+08:00",
-        "ageHours": 22.3,
+        "ageHours": 63.0,
         "status": "healthy"
       },
       {
         "name": "morning_brief",
         "path": "云端研究简报系统/outputs/morning_brief.md",
         "timestamp": "2026-05-23T00:00:00+08:00",
-        "ageHours": 0.0,
+        "ageHours": 39.0,
         "status": "healthy"
       }
     ],
@@ -109,13 +109,14 @@ window.BAMBOO_LENS_AUTOMATION_HEALTH = {
     "missingTimestamp": []
   },
   "brief_guard": {
-    "status": "watch",
-    "today": "2026-05-22",
+    "status": "healthy",
+    "today": "2026-05-24",
     "morningSameDay": false,
-    "dailySameDay": true,
+    "dailySameDay": false,
     "dailyEmpty": true,
     "notes": [
-      "fallback 日报为空且没有当天晨报，prepare_brief_to_send.py 会阻断发送。"
+      "今天是周末，晨报默认非发送日；没有当天标题不视为异常。",
+      "fallback 日报为空，但周末不发送，暂不视为异常。"
     ]
   },
   "audits": {

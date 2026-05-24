@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-05-22T14:19:09",
+  "generated_at": "2026-05-24T15:00:39",
   "source_overrides_at": "2026-05-22T14:19:09",
   "items": [
     {
