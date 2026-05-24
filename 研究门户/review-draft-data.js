@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-24T15:00:34",
+  "generated_at": "2026-05-24T07:09:20",
   "summary": {
     "total": 8,
     "companies": 3,
@@ -8,7 +8,8 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     "readiness_counts": {
       "ready_for_deep_review": 2,
       "needs_source": 4,
-      "low_investment_signal": 2
+      "readable_needs_review": 1,
+      "low_investment_signal": 1
     },
     "priority_batch": [
       {
@@ -60,6 +61,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+        "date": "2026-05-21",
+        "score": 6,
+        "readiness_score": 20,
+        "investment_signal_score": 3,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ]
   },
@@ -91,6 +117,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "估值模型"
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    "tsmc::tsmc files annual report on form 20-f for 2025": {
+      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "score": 12,
+      "readiness_score": 21,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待读原文件",
+      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "promotion_blockers": [
+        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "业务地图",
+          "风险与跟踪重点"
+        ],
+        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
     "nvidia::nvidia announces financial results for first quarter fiscal 2027": {
@@ -147,34 +201,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "tsmc::tsmc files annual report on form 20-f for 2025": {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-      "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-      ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
-        ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
-      }
-    },
     "nvidia::vera arrives: nvidia’s first cpu built for agents lands at top ai labs": {
       "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
       "company": "nvidia",
@@ -207,11 +233,11 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
       "date": "2026-05-21",
       "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "readiness_score": 20,
+      "investment_signal_score": 3,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
@@ -311,6 +337,36 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       }
     ],
+    "tsmc": [
+      {
+        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Files Annual Report on Form 20-F for 2025",
+        "date": "2026-04-16",
+        "score": 12,
+        "readiness_score": 21,
+        "investment_signal_score": 9,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待读原文件",
+        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+        "promotion_blockers": [
+          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3300",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "业务地图",
+            "风险与跟踪重点"
+          ],
+          "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+        }
+      }
+    ],
     "nvidia": [
       {
         "draft_id": "auto-nvidia-nvidia-and-google-cloud-empower-the-next-wave-of-ai-builders",
@@ -352,6 +408,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+        "date": "2026-05-21",
+        "score": 6,
+        "readiness_score": 20,
+        "investment_signal_score": 3,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -417,31 +498,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-        "date": "2026-05-21",
-        "score": 6,
-        "readiness_score": 11,
-        "investment_signal_score": -4,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
         "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -467,36 +523,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
-    "tsmc": [
-      {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 10,
-        "readiness_score": 20,
-        "investment_signal_score": 9,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待读原文件",
-        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-        "promotion_blockers": [
-          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-        ],
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "业务地图",
-            "风险与跟踪重点"
-          ],
-          "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
         }
       }
     ]
@@ -587,8 +613,8 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "company_name": "TSMC",
       "title": "TSMC Files Annual Report on Form 20-F for 2025",
       "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
+      "score": 12,
+      "readiness_score": 21,
       "investment_signal_score": 9,
       "readiness_lane": "needs_source",
       "readiness_label": "待读原文件",
@@ -607,6 +633,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "风险与跟踪重点"
         ],
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+      "date": "2026-05-21",
+      "score": 6,
+      "readiness_score": 20,
+      "investment_signal_score": 3,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
@@ -653,31 +704,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-      "date": "2026-05-21",
-      "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [

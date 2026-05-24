@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-24T15:00:34",
+  "generated_at": "2026-05-24T07:09:20",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
@@ -13,7 +13,7 @@
   "score": 11,
   "sort_key": 20260520,
   "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260522-141537__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 18,
@@ -69,5 +69,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.json"
 }
