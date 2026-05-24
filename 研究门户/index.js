@@ -456,6 +456,7 @@ function renderResearchPool() {
   const summaryTarget = document.getElementById("researchPoolSummary");
   const companyTarget = document.getElementById("researchPoolCompanies");
   const cadenceTarget = document.getElementById("researchPoolCadence");
+  const discoveryTarget = document.getElementById("weeklyDiscoveryList");
   const payload = window.BAMBOO_LENS_RESEARCH_POOL;
   if (!summaryTarget || !companyTarget || !cadenceTarget || !payload) return;
 
@@ -499,6 +500,22 @@ function renderResearchPool() {
       <small>${escapeHtml(item.output)}</small>
     </article>
   `).join("");
+
+  if (discoveryTarget) {
+    discoveryTarget.innerHTML = (payload.weekly_discovery || []).map((item) => `
+      <article class="weekly-discovery-row level-${escapeHtml(String(item.initial_level || "").toLowerCase())}">
+        <div>
+          <strong>${escapeHtml(item.company)}</strong>
+          <span>${escapeHtml(item.theme)}</span>
+        </div>
+        <p>${escapeHtml(item.trigger)}</p>
+        <div>
+          <b>${escapeHtml(item.initial_level_label || item.initial_level || "初筛")}</b>
+          <small>${escapeHtml(item.next_step || "等待下一步材料")}</small>
+        </div>
+      </article>
+    `).join("");
+  }
 }
 
 function renderTimelineFeed() {

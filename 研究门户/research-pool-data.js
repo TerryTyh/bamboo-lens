@@ -36,6 +36,32 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       output: "新进 A 层、从 A 层降级、进入暂不入池、下季度重点主题",
     },
   ],
+  weekly_discovery: [
+    {
+      company: "ASMPT",
+      theme: "先进封装设备与半导体后道设备",
+      trigger: "补 TSMC、长电科技之外的先进封装设备侧拼图；先看先进封装需求是否真正传导到设备订单和利润。",
+      initial_level: "B",
+      initial_level_label: "B 层候选",
+      next_step: "读最近年报/中报、先进封装设备订单、客户结构和周期波动。",
+    },
+    {
+      company: "Vertiv",
+      theme: "数据中心供电与热管理基础设施",
+      trigger: "补 NVIDIA、Microsoft、GE Vernova、Constellation 之外的数据中心电力/散热环节，验证 AI capex 是否外溢到基础设施供应链。",
+      initial_level: "C",
+      initial_level_label: "C 层雷达",
+      next_step: "读最新 10-K、订单/backlog、利润率和估值位置。",
+    },
+    {
+      company: "Cadence Design Systems",
+      theme: "EDA、芯片设计软件与 AI 设计工具",
+      trigger: "补 TSMC/NVIDIA 上游设计工具拼图，观察 AI 芯片复杂度提升是否持续强化 EDA 定价权。",
+      initial_level: "C",
+      initial_level_label: "C 层雷达",
+      next_step: "读最新 10-K、收入结构、续费率、AI 设计工具进展和估值。",
+    },
+  ],
   companies: [
     {
       id: "nvidia",

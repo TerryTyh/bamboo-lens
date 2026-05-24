@@ -47,6 +47,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "41-研究池首轮复评_2026-05-24.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "42-每周候选发现_2026-05-24.md",
+        PORTAL_DOCS / "research" / "42-每周候选发现_2026-05-24.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),

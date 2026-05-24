@@ -759,7 +759,8 @@ a:hover {
 .research-pool-card,
 .pool-panel,
 .pool-company-row,
-.pool-cadence-row {
+.pool-cadence-row,
+.weekly-discovery-row {
   border: 1px solid var(--border);
   background: rgba(255, 250, 243, 0.88);
 }
@@ -772,7 +773,8 @@ a:hover {
 
 .research-pool-card span,
 .pool-company-row small,
-.pool-cadence-row small {
+.pool-cadence-row small,
+.weekly-discovery-row small {
   color: var(--muted);
   font-size: 13px;
 }
@@ -785,7 +787,8 @@ a:hover {
 
 .research-pool-card p,
 .pool-company-row p,
-.pool-cadence-row p {
+.pool-cadence-row p,
+.weekly-discovery-row p {
   margin: 0;
   color: var(--muted);
   line-height: 1.65;
@@ -803,7 +806,8 @@ a:hover {
 }
 
 .pool-company-list,
-.pool-cadence-list {
+.pool-cadence-list,
+.weekly-discovery-list {
   display: grid;
   gap: 10px;
 }
@@ -824,11 +828,14 @@ a:hover {
 
 .pool-company-row strong,
 .pool-company-row b,
-.pool-cadence-row strong {
+.pool-cadence-row strong,
+.weekly-discovery-row strong,
+.weekly-discovery-row b {
   color: var(--ink);
 }
 
-.pool-company-row span {
+.pool-company-row span,
+.weekly-discovery-row span {
   color: var(--muted);
   line-height: 1.5;
 }
@@ -849,6 +856,32 @@ a:hover {
 .pool-cadence-row strong {
   display: block;
   margin-bottom: 6px;
+}
+
+.weekly-discovery-panel {
+  margin-top: 16px;
+}
+
+.weekly-discovery-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 0.8fr) minmax(0, 1.5fr) minmax(180px, 0.8fr);
+  gap: 12px;
+  align-items: start;
+  padding: 14px;
+  border-radius: 18px;
+}
+
+.weekly-discovery-row > div {
+  display: grid;
+  gap: 4px;
+}
+
+.weekly-discovery-row.level-b {
+  background: linear-gradient(90deg, rgba(246, 237, 205, 0.7), rgba(255, 250, 243, 0.92));
+}
+
+.weekly-discovery-row.level-c {
+  background: linear-gradient(90deg, rgba(226, 235, 230, 0.64), rgba(255, 250, 243, 0.92));
 }
 
 .cloud-preview.loading {
