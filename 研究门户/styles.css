@@ -213,32 +213,36 @@ a:hover {
   order: 2;
 }
 
-.home-main #updates {
+.home-main #researchPool {
   order: 3;
 }
 
-.home-main #companies {
+.home-main #updates {
   order: 4;
 }
 
-.home-main #decisionImpact {
+.home-main #companies {
   order: 5;
 }
 
-.home-main #decisionDeposition {
+.home-main #decisionImpact {
   order: 6;
 }
 
-.home-main #decisionSystem {
+.home-main #decisionDeposition {
   order: 7;
 }
 
-.home-main #resources {
+.home-main #decisionSystem {
   order: 8;
 }
 
-.home-main #cloudSync {
+.home-main #resources {
   order: 9;
+}
+
+.home-main #cloudSync {
+  order: 10;
 }
 
 .section.slim {
@@ -737,6 +741,114 @@ a:hover {
   margin: 0;
   color: var(--muted);
   line-height: 1.65;
+}
+
+.research-pool-section {
+  background:
+    linear-gradient(135deg, rgba(18, 71, 52, 0.08), rgba(255, 248, 239, 0.9)),
+    var(--surface);
+}
+
+.research-pool-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.research-pool-card,
+.pool-panel,
+.pool-company-row,
+.pool-cadence-row {
+  border: 1px solid var(--border);
+  background: rgba(255, 250, 243, 0.88);
+}
+
+.research-pool-card {
+  min-height: 150px;
+  padding: 18px;
+  border-radius: 22px;
+}
+
+.research-pool-card span,
+.pool-company-row small,
+.pool-cadence-row small {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.research-pool-card strong {
+  display: block;
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.research-pool-card p,
+.pool-company-row p,
+.pool-cadence-row p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.pool-split-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 16px;
+}
+
+.pool-panel {
+  padding: 18px;
+  border-radius: 22px;
+}
+
+.pool-company-list,
+.pool-cadence-list {
+  display: grid;
+  gap: 10px;
+}
+
+.pool-company-row {
+  display: grid;
+  grid-template-columns: minmax(170px, 0.8fr) minmax(140px, 0.5fr) minmax(0, 1.4fr);
+  gap: 12px;
+  align-items: start;
+  padding: 14px;
+  border-radius: 18px;
+}
+
+.pool-company-row > div {
+  display: grid;
+  gap: 4px;
+}
+
+.pool-company-row strong,
+.pool-company-row b,
+.pool-cadence-row strong {
+  color: var(--ink);
+}
+
+.pool-company-row span {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.pool-company-row.level-a {
+  background: linear-gradient(90deg, rgba(215, 234, 216, 0.52), rgba(255, 250, 243, 0.92));
+}
+
+.pool-company-row.level-b {
+  background: linear-gradient(90deg, rgba(246, 237, 205, 0.7), rgba(255, 250, 243, 0.92));
+}
+
+.pool-cadence-row {
+  padding: 14px;
+  border-radius: 18px;
+}
+
+.pool-cadence-row strong {
+  display: block;
+  margin-bottom: 6px;
 }
 
 .cloud-preview.loading {
@@ -2168,6 +2280,8 @@ a:hover {
   .company-decision-board,
   .cockpit-grid,
   .cloud-sync-grid,
+  .research-pool-summary,
+  .pool-split-grid,
   .decision-queue-grid,
   .decision-impact-grid,
   .decision-deposition-grid,
@@ -2256,6 +2370,8 @@ a:hover {
   .company-decision-board,
   .cockpit-grid,
   .cloud-sync-grid,
+  .research-pool-summary,
+  .pool-split-grid,
   .decision-queue-grid,
   .decision-impact-grid,
   .decision-deposition-grid,
@@ -2271,6 +2387,10 @@ a:hover {
   .business-segment-grid,
   .business-moat-grid,
   .valuation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pool-company-row {
     grid-template-columns: 1fr;
   }
 

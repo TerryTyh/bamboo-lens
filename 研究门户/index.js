@@ -452,6 +452,55 @@ function renderDecisionDeposition() {
   }).join("");
 }
 
+function renderResearchPool() {
+  const summaryTarget = document.getElementById("researchPoolSummary");
+  const companyTarget = document.getElementById("researchPoolCompanies");
+  const cadenceTarget = document.getElementById("researchPoolCadence");
+  const payload = window.BAMBOO_LENS_RESEARCH_POOL;
+  if (!summaryTarget || !companyTarget || !cadenceTarget || !payload) return;
+
+  const summary = payload.summary || {};
+  summaryTarget.innerHTML = `
+    <article class="research-pool-card">
+      <span>A 层核心</span>
+      <strong>${escapeHtml(summary.a_core ?? "-")} 家</strong>
+      <p>已有公司主页、估值模型和动态回写机制；但不享有永久资格。</p>
+    </article>
+    <article class="research-pool-card">
+      <span>B 层观察</span>
+      <strong>${escapeHtml(summary.b_watch ?? "-")} 家</strong>
+      <p>先做最小研究包，等关键验证点兑现后再决定是否建主页。</p>
+    </article>
+    <article class="research-pool-card">
+      <span>下一步</span>
+      <strong>复评 + 发现</strong>
+      <p>${escapeHtml(summary.next_focus || "先稳定 V2 闭环，再扩展新公司。")}</p>
+    </article>
+  `;
+
+  companyTarget.innerHTML = (payload.companies || []).map((company) => `
+    <article class="pool-company-row level-${escapeHtml(String(company.level || "").toLowerCase())}">
+      <div>
+        <strong>${escapeHtml(company.name)}</strong>
+        <span>${escapeHtml(company.thesis || "")}</span>
+      </div>
+      <div>
+        <b>${escapeHtml(company.level_label || company.level || "待评估")}</b>
+        <small>下次复评：${escapeHtml(company.next_review || "待定")}</small>
+      </div>
+      <p>${escapeHtml(company.review_focus || "")}</p>
+    </article>
+  `).join("");
+
+  cadenceTarget.innerHTML = (payload.cadence || []).map((item) => `
+    <article class="pool-cadence-row">
+      <strong>${escapeHtml(item.name)}</strong>
+      <p>${escapeHtml(item.target)}</p>
+      <small>${escapeHtml(item.output)}</small>
+    </article>
+  `).join("");
+}
+
 function renderTimelineFeed() {
   const feed = document.getElementById("timelineFeed");
   const count = document.getElementById("timelineCount");
@@ -480,4 +529,5 @@ renderCloudSync();
 renderDecisionQueue();
 renderDecisionImpact();
 renderDecisionDeposition();
+renderResearchPool();
 renderTimelineFeed();

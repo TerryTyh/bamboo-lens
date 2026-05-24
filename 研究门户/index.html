@@ -19,6 +19,7 @@
             <a class="button primary" href="#valuation">估值总览</a>
             <a class="button primary" href="#updates">最近更新</a>
             <a class="button primary" href="#companies">公司主页</a>
+            <a class="button secondary" href="#researchPool">研究池</a>
             <a class="button secondary" href="#resources">规则与资料</a>
             <a class="button secondary" href="./candidates.html">候选研判台</a>
           </div>
@@ -216,6 +217,37 @@
           </div>
         </section>
 
+        <section id="researchPool" class="section research-pool-section">
+          <div class="section-heading">
+            <p class="section-kicker">Research Pool</p>
+            <h2>研究池生命周期</h2>
+            <p class="muted">竹鉴不只维护已有公司，也要自主发现新候选，并定期复评 A/B/C 层级。</p>
+          </div>
+          <div id="researchPoolSummary" class="research-pool-summary">
+            <article class="research-pool-card">
+              <span>读取中</span>
+              <strong>研究池状态</strong>
+              <p>正在读取研究池生命周期数据。</p>
+            </article>
+          </div>
+          <div class="pool-split-grid">
+            <article class="pool-panel">
+              <div class="cloud-card-head">
+                <span class="status-label">当前层级</span>
+                <a href="./reader.html?doc=./docs/rules/40-研究池生命周期管理V1.md&title=研究池生命周期管理">查看规则</a>
+              </div>
+              <div id="researchPoolCompanies" class="pool-company-list"></div>
+            </article>
+            <article class="pool-panel">
+              <div class="cloud-card-head">
+                <span class="status-label">固定节奏</span>
+                <a href="./reader.html?doc=./docs/rules/37-新增公司准入标准V1.md&title=新增公司准入标准">准入标准</a>
+              </div>
+              <div id="researchPoolCadence" class="pool-cadence-list"></div>
+            </article>
+          </div>
+        </section>
+
         <section id="updates" class="section">
           <div class="section-heading">
             <p class="section-kicker">Recent Updates</p>
@@ -305,6 +337,7 @@
             <a href="./reader.html?doc=./docs/rules/21-研究结论到投资决策的落地规则V1.md&title=研究结论到投资决策的落地规则">决策规则</a>
             <a href="./reader.html?doc=./docs/rules/21-研究结论到投资决策的落地规则V1.md&title=估值模型规则">估值模型规则</a>
             <a href="./reader.html?doc=./docs/rules/37-新增公司准入标准V1.md&title=新增公司准入标准">新增公司准入标准</a>
+            <a href="./reader.html?doc=./docs/rules/40-研究池生命周期管理V1.md&title=研究池生命周期管理">研究池生命周期</a>
           </div>
           <p class="resource-group-label">系统过程</p>
           <div class="framework-links">
@@ -330,6 +363,7 @@
     <script src="./decision-impact-data.js?v=20260505-1"></script>
     <script src="./decision-deposition-data.js?v=20260509-1"></script>
     <script src="./market-snapshot-data.js?v=20260515-1"></script>
-    <script src="./index.js?v=20260516-1"></script>
+    <script src="./research-pool-data.js?v=20260523-1"></script>
+    <script src="./index.js?v=20260523-1"></script>
   </body>
 </html>
