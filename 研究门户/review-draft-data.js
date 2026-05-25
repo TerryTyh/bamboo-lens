@@ -1,15 +1,14 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-25T13:51:18",
+  "generated_at": "2026-05-25T22:46:19",
   "summary": {
-    "total": 8,
+    "total": 6,
     "companies": 3,
-    "with_source_body": 5,
-    "suppressed_count": 0,
+    "with_source_body": 3,
+    "suppressed_count": 1,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
+      "ready_for_deep_review": 1,
       "needs_source": 4,
-      "readable_needs_review": 1,
-      "low_investment_signal": 1
+      "readable_needs_review": 1
     },
     "priority_batch": [
       {
@@ -27,31 +26,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-google-cloud-empower-the-next-wave-of-ai-builders.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-        "date": "2026-05-18",
-        "score": 8,
-        "readiness_score": 25,
-        "investment_signal_score": 6,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -201,31 +175,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
-    "nvidia::vera arrives: nvidia’s first cpu built for agents lands at top ai labs": {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "nvidia::nvidia gtc taipei at computex: live updates on what’s next in ai": {
       "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
       "company": "nvidia",
@@ -270,31 +219,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
       "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia ceo jensen huang at dell technologies world: ‘demand is going parabolic, utterly parabolic’": {
-      "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-      "date": "2026-05-18",
-      "score": 6,
-      "readiness_score": 12,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
-      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -364,31 +288,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-        "date": "2026-05-18",
-        "score": 8,
-        "readiness_score": 25,
-        "investment_signal_score": 6,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
         "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -440,31 +339,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "估值模型"
           ],
           "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-        "date": "2026-05-18",
-        "score": 6,
-        "readiness_score": 12,
-        "investment_signal_score": -4,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       },
       {
@@ -543,31 +417,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-google-cloud-empower-the-next-wave-of-ai-builders.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -690,31 +539,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-      "date": "2026-05-18",
-      "score": 6,
-      "readiness_score": 12,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -743,5 +567,14 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     }
   ],
-  "suppressed": []
+  "suppressed": [
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+      "date": "2026-05-15",
+      "source_url": "http://pr.tsmc.com/english/news/3314",
+      "reason": "同一官方来源链接已经进入正式事件"
+    }
+  ]
 };

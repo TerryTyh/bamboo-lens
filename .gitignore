@@ -10,9 +10,9 @@ __pycache__/
 !.env.example
 
 # Cloud brief outputs
-/云端研究简报系统/outputs/
+/云端研究简报系统/outputs/*
 !/云端研究简报系统/outputs/.gitkeep
+!/云端研究简报系统/outputs/deposition_log.md
 
 # Local snapshots
 /云端研究简报系统/outputs/snapshots/
-

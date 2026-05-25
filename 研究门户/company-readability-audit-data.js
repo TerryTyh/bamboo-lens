@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-05-25T13:51:18",
-  "source_overrides_at": "2026-05-25T13:51:18",
+  "generated_at": "2026-05-25T22:46:19",
+  "source_overrides_at": "2026-05-25T22:46:19",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "sourceEventDate": "2026-05-07",
+      "sourceEventTitle": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+      "sourceEventDate": "2026-05-18",
       "status": "healthy",
       "counts": {
         "finance_rows": 0,

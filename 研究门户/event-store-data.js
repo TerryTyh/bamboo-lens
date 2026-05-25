@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-25T13:51:18",
+  "generated_at": "2026-05-25T22:46:18",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,75 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+          "source_candidate_title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
+          "date": "2026-05-18",
+          "fetched_at": "",
+          "type": "产品路线图 / 数据中心 CPU（智能体 AI）",
+          "fact": "NVIDIA 披露其独立数据中心 CPU「Vera」从研发进入交付阶段，首批交付给 Anthropic、OpenAI、SpaceXAI 与 Oracle Cloud Infrastructure，并同步强调该 CPU 面向智能体 AI 场景、用于补齐 AI 工厂中 CPU 侧瓶颈。",
+          "judgment": "这条事件的核心在于：Vera 由“发布/路线图”进入“交付/生态验证”，并且首批客户覆盖前沿模型实验室与云基础设施方，强化了 NVIDIA 以“AI 工厂”全栈（CPU+GPU+网络+系统）去锁定工作负载与客户部署路径的策略。",
+          "action": "维持 A 池核心；把 Vera CPU 量产与客户采用纳入跟踪验证",
+          "priority": "P2",
+          "sort_key": 20260518,
+          "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+          "source_doc": "",
+          "source_summary": [
+            "NVIDIA 宣布其首款面向智能体 AI 的独立数据中心 CPU「Vera」开始向客户交付：首批送达 Anthropic（旧金山）、OpenAI（Mission Bay）、SpaceXAI（帕洛阿尔托），随后交付 Oracle Cloud Infrastructure（圣克拉拉）。",
+            "黄仁勋在 2026 年 3 月 GTC San Jose 上把 Vera 定位为面向智能体 AI 的新一代 CPU，并称其将成为 NVIDIA 下一条“数十亿美元级”业务线。",
+            "文中给出 Vera 的关键规格与口径：88 个自研 Olympus 核心、1.2TB/s 内存带宽，并宣称在持续高负载下单核性能提升约 50%，用于支撑智能体沙箱、工具调用、编译与数据处理等 CPU 侧瓶颈工作。",
+            "文章引用 Anthropic 计算负责人观点，强调扩展算力对模型迭代的重要性，并把 Vera 视为解决智能体工作负载的新硬件方向之一。"
+          ],
+          "evidence": [
+            "首批 Vera CPU 交付客户：Anthropic（San Francisco）、OpenAI（Mission Bay）、SpaceXAI（Palo Alto），并在随后交付 Oracle Cloud Infrastructure（Santa Clara）。",
+            "管理层口径：黄仁勋在 GTC San Jose（2026 年 3 月）将 Vera 描述为面向智能体 AI 的独立 CPU，并称其为公司下一项数十亿美元级业务。",
+            "关键规格与性能口径：Vera 采用 88 个 Olympus 核心、1.2TB/s 内存带宽，并宣称在持续负载下单核性能提升约 50%。"
+          ],
+          "business_analysis": "业务层面，Vera 是 NVIDIA 把智能体 AI 的关键瓶颈（沙箱、工具调用、编排、长上下文检索、数据处理等 CPU 侧工作）纳入自家平台的关键一步：当客户购买的不再只是 GPU，而是包含 CPU、互联与系统的整套 AI 工厂，平台粘性与系统级 ASP/份额通常更强。首批进入 Anthropic/OpenAI/SpaceXAI/OCI 的意义更多是“标杆客户与生态背书”，用来推动后续在云与企业 AI 工厂中的规模化部署与软件栈适配。",
+          "valuation_analysis": "估值/动作层面，这条消息更偏中期平台化验证：它支持“从 GPU 供应商走向系统平台”的叙事，但短期财务贡献取决于 Vera 的量产节奏、在整机/机架方案中的装机率、以及客户是否把更多 CPU 侧预算迁移到 NVIDIA 体系。当前不把单次交付新闻视为加仓触发，而是把 Vera 的实际出货与客户采用（尤其是云厂商与企业系统）作为后续验证点。",
+          "verification": [
+            "跟踪 Vera 进入哪些量产系统（例如是否成为机架级平台的标准配置）以及公开的出货节奏/客户名单扩展。",
+            "观察后续财报或产品沟通中，管理层是否给出 Vera 相关收入归类、ASP/毛利结构或更明确的量化目标。",
+            "持续跟踪客户侧真实工作负载反馈：智能体沙箱、编排与数据处理等 CPU 密集型环节是否成为推动采购的主因，还是更多停留在宣传口径。"
+          ],
+          "reviewed_at": "2026-05-25T22:44:19",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "Dell 大会：企业 AI 工厂上新（Rubin/Vera 服务器与网络）",
+          "source_candidate_title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
+          "date": "2026-05-18",
+          "fetched_at": "",
+          "type": "生态/企业 AI 工厂（Dell 合作与产品上新）",
+          "fact": "Dell 与 NVIDIA 在会议场景发布/强化企业 AI 工厂叙事，并披露一批基于 Rubin NVL72/HGX Rubin NVL8/Vera CPU 的 Dell 服务器与网络系统更新，给出若干性能与成本口径用于支撑企业侧智能体推理与部署规模化。",
+          "judgment": "这条事件更像“生态与产品组合更新”的打包呈现：它强化了 NVIDIA 在企业侧以整套 AI 工厂（GPU+CPU+网络+系统）进入预算与部署流程的路径，但其投资含金量不在于演讲措辞，而在于这些新品与口径能否转化为可持续的企业订单与交付节奏。",
+          "action": "维持跟踪；把 Dell AI Factory 相关系统与网络新品作为企业侧需求验证点",
+          "priority": "P3",
+          "sort_key": 20260518,
+          "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+          "source_doc": "",
+          "source_summary": [
+            "NVIDIA 在 Dell Technologies World 强调企业侧 AI 正从试点走向智能体 AI 与推理部署规模化，主打方案是「Dell AI Factory with NVIDIA」，把算力、网络与系统一体化交付给企业客户。",
+            "文章给出 Dell 的宏观口径：到 2030 年全球 AI 基础设施支出可能达到 3-4 万亿美元，并引用“token 消耗增长 3,400%”的预测，作为企业算力需求扩张的背景。",
+            "产品侧更新包括：基于 NVIDIA Vera Rubin NVL72 的 Dell PowerEdge XE9812（宣称在大规模智能体推理场景可实现“每 token 成本最多降低 10 倍”）；以及基于 HGX Rubin NVL8 的 XE9880L/XE9885L/XE9882L（文中提及单机架最多 144 GPUs、100% 直冷节点，并宣称相对 HGX B200 性能最多提升 10 倍）。",
+            "网络与系统侧更新包括：NVIDIA Quantum-X800 InfiniBand 与 Spectrum-6 Ethernet 相关的 Dell PowerSwitch 产品组合，以及集成式系统 Dell PowerRack；同时提到采用 Vera CPU 的 PowerEdge M9822/R9822（文中给出 1.2TB/s 内存带宽与“智能体工作负载较 x86 约快 50%”的口径）。"
+          ],
+          "evidence": [
+            "宏观口径：Dell 提到到 2030 年全球 AI 基础设施支出可能达到 3-4 万亿美元，并给出 token 消耗增长 3,400% 的预测口径。",
+            "产品口径：PowerEdge XE9812（Vera Rubin NVL72）被描述为在大规模智能体推理可实现“每 token 成本最多降低 10 倍”，并对比提到 NVIDIA Blackwell。",
+            "平台与供给形态口径：文中提及基于 HGX Rubin NVL8 的多款 PowerEdge 服务器，描述单机架最多 144 GPUs、100% 直冷节点，并给出相对 HGX B200 “最多 10 倍性能”的口径。",
+            "网络与 CPU 口径：提到 Quantum-X800 InfiniBand / Spectrum-6 Ethernet 相关交换机，以及 Vera CPU（1.2TB/s 内存带宽、智能体工作负载较 x86 快约 50%）进入企业服务器。"
+          ],
+          "business_analysis": "业务层面，Dell 是企业 IT 的关键分销与集成渠道。若「AI Factory」形态（机架/系统级交付 + 网络/存储/软件一体化）能在企业侧规模化，将有利于 NVIDIA 把需求从“单卡/单节点采购”升级为“系统级采购”，提高平台绑定与生态渗透。文中多处强调智能体推理与企业内网部署，意味着推理侧与企业数据治理/安全需求可能成为下一阶段增量来源；但需要警惕会议稿件把“性能口径”与“真实可获得供给/价格”混在一起，导致市场对短期兑现过度乐观。",
+          "valuation_analysis": "估值/动作层面，这类会议型事件对短期业绩的直接增量有限，更多是对高估值叙事（企业 AI 进入规模部署、Rubin/Vera 平台化）的支撑材料。对仓位动作不应由单篇会议稿触发，重点回到：后续几个季度的 Data Center 收入结构、推理需求口径、以及企业侧系统订单/交付是否体现“从试点到规模化”的斜率变化。",
+          "verification": [
+            "跟踪 Dell AI Factory 相关系统在后续季度的实际出货与客户案例（尤其是企业侧、非云厂商），判断是否从发布走向规模采购。",
+            "对文中“10 倍成本/性能”等口径，后续关注是否有更可比的基准、配置与价格披露，避免把营销口径当成可直接映射到财务模型的变量。",
+            "观察 Rubin/Vera 平台供给与交付节奏（以及企业客户可获得性），验证企业侧需求是否受供给约束。"
+          ],
+          "reviewed_at": "2026-05-25T22:44:19",
+          "review_status": "reviewed"
+        },
         {
           "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
           "source_candidate_title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
@@ -269,7 +338,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
             "观察 Nemotron、NeMo RL、Omniverse、Isaac Sim、Cosmos NIM 在 Google Cloud 上的开发者使用和企业采购情况，判断软件/物理 AI 生态是否能增强 NVIDIA 平台溢价。",
             "警惕 Google、OpenAI 等大客户自研 ASIC 与多供应商策略对 NVIDIA 单位经济和议价能力的长期压制。"
           ],
-          "reviewed_at": "2026-05-05T18:20:00",
+          "reviewed_at": "2026-05-25T22:36:28",
           "review_status": "reviewed"
         },
         {
@@ -282,7 +351,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -294,7 +363,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -306,7 +375,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -318,7 +387,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -330,7 +399,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -342,7 +411,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -476,37 +545,36 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "events": [
         {
           "title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
-          "source_candidate_title": "TSMC to Sell 8.1% of Vanguard International Semiconductor",
+          "source_candidate_title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
           "date": "2026-05-15",
           "fetched_at": "",
           "type": "资本配置 / 股权处置",
-          "fact": "2026-05-15，TSMC 公告拟通过 block trade 向金融机构投资者出售至多 1.52 亿股 VIS 普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%。TSMC 当前 fully-diluted 持股约 27.1%，若交易完成预计降至约 19%。公司强调该出售不会影响双方战略合作（interposer 外包与 GaN 技术授权），并表示该安排属于聚焦核心业务资源，同时公司已于 2024 年 6 月停止在 VIS 董事会的代表席位，且短期内无进一步出售计划。",
-          "judgment": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
+          "fact": "TSMC 计划出售最多 1.52 亿股 VIS 股份（约 8.1% 稀释后股本），持股比例预计将由约 27.1% 降至约 19%，并明确表示交易不影响双方 interposer 外包与 GaN 技术授权等合作安排。",
+          "judgment": "这条事件对主业经营的直接影响有限，更重要的信号是“股权关系与业务合作解耦”：TSMC 继续维持必要的制造/技术协同，但降低非核心股权绑定并把资源聚焦到核心业务与先进制程/先进封装等关键议题。整体应作为资本配置与非核心资产管理的跟踪节点，而非主业景气拐点。",
           "action": "维持跟踪；关注出售定价/会计影响与后续是否继续减持，但不视为主业趋势拐点",
           "priority": "P3",
           "sort_key": 20260515,
           "source_url": "http://pr.tsmc.com/english/news/3314",
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260518-145403__pr.tsmc.com_english_latest-news.html",
+          "source_doc": "",
           "source_summary": [
-            "公告披露，TSMC 计划通过向金融机构投资者的大宗交易（block trade）出售至多 1.52 亿股世界先进（VIS）普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%。",
-            "TSMC 表示该交易不会影响其与 VIS 的战略合作关系，包括将 interposer 生产外包给 VIS，以及向 VIS 授权 GaN 技术。",
-            "出售计划属于“聚焦核心业务资源”的资本配置安排；TSMC 说明其在 2024 年 6 月已不再派任 VIS 董事。",
-            "TSMC 当前对 VIS 的 fully-diluted 持股约 27.1%，交易完成后预计降至约 19%，并称短期内无进一步出售计划。"
+            "TSMC 公告计划通过大宗交易向金融机构投资者出售最多 1.52 亿股 VIS（Vanguard International Semiconductor）普通股，约占 VIS 完全稀释后股本的 8.1%。",
+            "公告强调该出售不影响与 VIS 的战略合作关系，包括：TSMC 继续将 interposer 产能外包给 VIS、并继续向 VIS 授权 GaN 技术；该交易属于“聚焦核心业务资源”的资本配置安排。"
           ],
           "evidence": [
-            "拟出售至多 152.0 million 股 VIS 普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%，方式为向金融机构投资者的大宗交易（block trade）。",
-            "TSMC 当前对 VIS 的 fully-diluted 持股约 27.1%，完成本次出售后预计降至约 19%。",
-            "TSMC 明确表示出售不影响双方战略关系：包括 interposer 生产外包给 VIS，以及向 VIS 授权 GaN 技术。",
-            "公司披露其在 2024 年 6 月已不再派任 VIS 董事，并称短期内无进一步出售 VIS 股份计划。"
+            "出售规模：最多处置 1.52 亿股 VIS 普通股，约占 VIS 完全稀释后股本的 8.1%，出售方式为 block trade 给金融机构投资者。",
+            "持股变化：TSMC 当前约持有 VIS 约 27.1%（完全稀释口径）；完成出售后预计降至约 19%。",
+            "合作不变：公告明确该出售不影响双方战略关系，包含 interposer 外包与 GaN 技术授权仍将继续。",
+            "资源聚焦：公告将本次出售描述为“聚焦核心业务活动”的资源配置安排；并提到 TSMC 已在 2024 年 6 月起不再在 VIS 董事会拥有席位。",
+            "后续计划：公告称短期内没有进一步出售更多 VIS 股票的计划。"
           ],
-          "business_analysis": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
-          "valuation_analysis": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+          "business_analysis": "业务层面，公告明确 interposer 外包与 GaN 技术授权仍将持续，意味着供应链合作关系未发生方向性变化；同时 TSMC 已在 2024 年 6 月退出 VIS 董事会席位，本次继续降低持股比例可视为治理与资源聚焦的延续。对 TSMC 的核心竞争力与产能规划并无直接边际信息，但对“如何处理非核心资产、如何在合作与控制之间取舍”的公司理解有增量。",
+          "valuation_analysis": "估值/动作层面，事件的可量化影响取决于出售定价、会计处理与资金用途披露（公告未给出交易价格与预计损益）。在缺少定价与现金流量化信息的情况下，不把该事件视为仓位动作触发；后续更多用于更新对资本配置纪律与非核心资产处置节奏的判断。",
           "verification": [
-            "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
-            "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
-            "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+            "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。",
+            "观察后续公告中对资金用途与资本配置（回购、capex、并购等）的描述是否发生变化。",
+            "继续跟踪与 VIS 的 interposer 外包与 GaN 授权合作是否保持稳定（供给、质量与交付节奏）。"
           ],
-          "reviewed_at": "2026-05-19T22:36:11",
+          "reviewed_at": "2026-05-25T22:46:18",
           "review_status": "reviewed"
         },
         {
@@ -705,7 +773,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -717,7 +785,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -766,7 +834,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -778,7 +846,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -790,7 +858,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -802,7 +870,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -944,7 +1012,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -956,7 +1024,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -968,7 +1036,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -980,7 +1048,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -992,7 +1060,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1004,7 +1072,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1025,7 +1093,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1037,7 +1105,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1049,7 +1117,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1061,7 +1129,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1073,7 +1141,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1085,7 +1153,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1106,7 +1174,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1118,7 +1186,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1130,7 +1198,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1142,7 +1210,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1154,7 +1222,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1166,7 +1234,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1308,7 +1376,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1320,7 +1388,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1332,7 +1400,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1344,7 +1412,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1356,7 +1424,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1368,7 +1436,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1405,7 +1473,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1417,7 +1485,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1429,7 +1497,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1441,7 +1509,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1453,7 +1521,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1465,7 +1533,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1477,7 +1545,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1658,7 +1726,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1670,7 +1738,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1682,7 +1750,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1694,7 +1762,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/e0b6/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [

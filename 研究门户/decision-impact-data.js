@@ -1,7 +1,83 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-05-25T13:51:18",
-  "source_generated_at": "2026-05-25T13:51:18",
+  "generated_at": "2026-05-25T22:46:19",
+  "source_generated_at": "2026-05-25T22:46:18",
   "items": [
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 0,
+      "event_title": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+      "event_date": "2026-05-18",
+      "event_type": "产品路线图 / 数据中心 CPU（智能体 AI）",
+      "priority": "P2",
+      "direction": "中性验证",
+      "dimensions": [
+        "业务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": false,
+      "decision_output": {
+        "confidence_change": "维持确信度",
+        "portfolio_hint": "可进入更积极分批候选，但仍需价格与估值安全边际配合。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "估值模型"
+        ],
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+      },
+      "decision_change": "这条事件的核心在于：Vera 由“发布/路线图”进入“交付/生态验证”，并且首批客户覆盖前沿模型实验室与云基础设施方，强化了 NVIDIA 以“AI 工厂”全栈（CPU+GPU+网络+系统）去锁定工作负载与客户部署路径的策略。",
+      "business_impact": "业务层面，Vera 是 NVIDIA 把智能体 AI 的关键瓶颈（沙箱、工具调用、编排、长上下文检索、数据处理等 CPU 侧工作）纳入自家平台的关键一步：当客户购买的不再只是 GPU，而是包含 CPU、互联与系统的整套 AI 工厂，平台粘性与系统级 ASP/份额通常更强。首批进入 Anthropic/OpenAI/SpaceXAI/OCI 的意义更多是“标杆客户与生态背书”，用来推动后续在云与企业 AI 工厂中的规模化部署与软件栈适配。",
+      "valuation_impact": "估值/动作层面，这条消息更偏中期平台化验证：它支持“从 GPU 供应商走向系统平台”的叙事，但短期财务贡献取决于 Vera 的量产节奏、在整机/机架方案中的装机率、以及客户是否把更多 CPU 侧预算迁移到 NVIDIA 体系。当前不把单次交付新闻视为加仓触发，而是把 Vera 的实际出货与客户采用（尤其是云厂商与企业系统）作为后续验证点。",
+      "next_verification": [
+        "跟踪 Vera 进入哪些量产系统（例如是否成为机架级平台的标准配置）以及公开的出货节奏/客户名单扩展。",
+        "观察后续财报或产品沟通中，管理层是否给出 Vera 相关收入归类、ASP/毛利结构或更明确的量化目标。",
+        "持续跟踪客户侧真实工作负载反馈：智能体沙箱、编排与数据处理等 CPU 密集型环节是否成为推动采购的主因，还是更多停留在宣传口径。"
+      ],
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "sort_key": 20260518,
+      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 1,
+      "event_title": "Dell 大会：企业 AI 工厂上新（Rubin/Vera 服务器与网络）",
+      "event_date": "2026-05-18",
+      "event_type": "生态/企业 AI 工厂（Dell 合作与产品上新）",
+      "priority": "P3",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": false,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+      },
+      "decision_change": "这条事件更像“生态与产品组合更新”的打包呈现：它强化了 NVIDIA 在企业侧以整套 AI 工厂（GPU+CPU+网络+系统）进入预算与部署流程的路径，但其投资含金量不在于演讲措辞，而在于这些新品与口径能否转化为可持续的企业订单与交付节奏。",
+      "business_impact": "业务层面，Dell 是企业 IT 的关键分销与集成渠道。若「AI Factory」形态（机架/系统级交付 + 网络/存储/软件一体化）能在企业侧规模化，将有利于 NVIDIA 把需求从“单卡/单节点采购”升级为“系统级采购”，提高平台绑定与生态渗透。文中多处强调智能体推理与企业内网部署，意味着推理侧与企业数据治理/安全需求可能成为下一阶段增量来源；但需要警惕会议稿件把“性能口径”与“真实可获得供给/价格”混在一起，导致市场对短期兑现过度",
+      "valuation_impact": "估值/动作层面，这类会议型事件对短期业绩的直接增量有限，更多是对高估值叙事（企业 AI 进入规模部署、Rubin/Vera 平台化）的支撑材料。对仓位动作不应由单篇会议稿触发，重点回到：后续几个季度的 Data Center 收入结构、推理需求口径、以及企业侧系统订单/交付是否体现“从试点到规模化”的斜率变化。",
+      "next_verification": [
+        "跟踪 Dell AI Factory 相关系统在后续季度的实际出货与客户案例（尤其是企业侧、非云厂商），判断是否从发布走向规模采购。",
+        "对文中“10 倍成本/性能”等口径，后续关注是否有更可比的基准、配置与价格披露，避免把营销口径当成可直接映射到财务模型的变量。",
+        "观察 Rubin/Vera 平台供给与交付节奏（以及企业客户可获得性），验证企业侧需求是否受供给约束。"
+      ],
+      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+      "sort_key": 20260518,
+      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+    },
     {
       "company": "tsmc",
       "company_name": "TSMC",
@@ -27,13 +103,13 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
       },
-      "decision_change": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
-      "business_impact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
-      "valuation_impact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+      "decision_change": "这条事件对主业经营的直接影响有限，更重要的信号是“股权关系与业务合作解耦”：TSMC 继续维持必要的制造/技术协同，但降低非核心股权绑定并把资源聚焦到核心业务与先进制程/先进封装等关键议题。整体应作为资本配置与非核心资产管理的跟踪节点，而非主业景气拐点。",
+      "business_impact": "业务层面，公告明确 interposer 外包与 GaN 技术授权仍将持续，意味着供应链合作关系未发生方向性变化；同时 TSMC 已在 2024 年 6 月退出 VIS 董事会席位，本次继续降低持股比例可视为治理与资源聚焦的延续。对 TSMC 的核心竞争力与产能规划并无直接边际信息，但对“如何处理非核心资产、如何在合作与控制之间取舍”的公司理解有增量。",
+      "valuation_impact": "估值/动作层面，事件的可量化影响取决于出售定价、会计处理与资金用途披露（公告未给出交易价格与预计损益）。在缺少定价与现金流量化信息的情况下，不把该事件视为仓位动作触发；后续更多用于更新对资本配置纪律与非核心资产处置节奏的判断。",
       "next_verification": [
-        "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
-        "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
-        "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+        "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。",
+        "观察后续公告中对资金用途与资本配置（回购、capex、并购等）的描述是否发生变化。",
+        "继续跟踪与 VIS 的 interposer 外包与 GaN 授权合作是否保持稳定（供给、质量与交付节奏）。"
       ],
       "source_url": "http://pr.tsmc.com/english/news/3314",
       "sort_key": 20260515,
@@ -42,7 +118,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 0,
+      "event_index": 2,
       "event_title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
       "event_date": "2026-05-13",
       "event_type": "生态/本地 Agent",
@@ -74,12 +150,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
       "sort_key": 20260513,
-      "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 1,
+      "event_index": 3,
       "event_title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
       "event_date": "2026-05-13",
       "event_type": "生态/训练基础设施（强化学习）",
@@ -111,12 +187,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
       "sort_key": 20260513,
-      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 2,
+      "event_index": 4,
       "event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
       "event_date": "2026-05-12",
       "event_type": "生态合作/企业软件",
@@ -148,7 +224,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
       "sort_key": 20260512,
-      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
@@ -270,7 +346,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 3,
+      "event_index": 5,
       "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "event_date": "2026-05-07",
       "event_type": "国家级 AI 基础设施 / 科学计算 / 能源",
@@ -302,12 +378,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
       "sort_key": 20260507,
-      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 4,
+      "event_index": 6,
       "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
       "event_date": "2026-05-06",
       "event_type": "产品 / 网络平台 / AI 工厂基础设施",
@@ -339,12 +415,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
       "sort_key": 20260506,
-      "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 5,
+      "event_index": 7,
       "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
       "event_date": "2026-05-05",
       "event_type": "企业 AI / Agent 平台 / 软件生态",
@@ -376,7 +452,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "sort_key": 20260505,
-      "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=7&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
@@ -418,7 +494,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 6,
+      "event_index": 8,
       "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "event_date": "2026-04-22",
       "event_type": "云平台合作 / AI 工厂平台",
@@ -450,7 +526,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "sort_key": 20260422,
-      "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=nvidia&event=8&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
@@ -578,6 +654,82 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "nvidia",
         "company_name": "NVIDIA",
         "event_index": 0,
+        "event_title": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+        "event_date": "2026-05-18",
+        "event_type": "产品路线图 / 数据中心 CPU（智能体 AI）",
+        "priority": "P2",
+        "direction": "中性验证",
+        "dimensions": [
+          "业务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": false,
+        "decision_output": {
+          "confidence_change": "维持确信度",
+          "portfolio_hint": "可进入更积极分批候选，但仍需价格与估值安全边际配合。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "估值模型"
+          ],
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+        },
+        "decision_change": "这条事件的核心在于：Vera 由“发布/路线图”进入“交付/生态验证”，并且首批客户覆盖前沿模型实验室与云基础设施方，强化了 NVIDIA 以“AI 工厂”全栈（CPU+GPU+网络+系统）去锁定工作负载与客户部署路径的策略。",
+        "business_impact": "业务层面，Vera 是 NVIDIA 把智能体 AI 的关键瓶颈（沙箱、工具调用、编排、长上下文检索、数据处理等 CPU 侧工作）纳入自家平台的关键一步：当客户购买的不再只是 GPU，而是包含 CPU、互联与系统的整套 AI 工厂，平台粘性与系统级 ASP/份额通常更强。首批进入 Anthropic/OpenAI/SpaceXAI/OCI 的意义更多是“标杆客户与生态背书”，用来推动后续在云与企业 AI 工厂中的规模化部署与软件栈适配。",
+        "valuation_impact": "估值/动作层面，这条消息更偏中期平台化验证：它支持“从 GPU 供应商走向系统平台”的叙事，但短期财务贡献取决于 Vera 的量产节奏、在整机/机架方案中的装机率、以及客户是否把更多 CPU 侧预算迁移到 NVIDIA 体系。当前不把单次交付新闻视为加仓触发，而是把 Vera 的实际出货与客户采用（尤其是云厂商与企业系统）作为后续验证点。",
+        "next_verification": [
+          "跟踪 Vera 进入哪些量产系统（例如是否成为机架级平台的标准配置）以及公开的出货节奏/客户名单扩展。",
+          "观察后续财报或产品沟通中，管理层是否给出 Vera 相关收入归类、ASP/毛利结构或更明确的量化目标。",
+          "持续跟踪客户侧真实工作负载反馈：智能体沙箱、编排与数据处理等 CPU 密集型环节是否成为推动采购的主因，还是更多停留在宣传口径。"
+        ],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+        "sort_key": 20260518,
+        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "event_index": 1,
+        "event_title": "Dell 大会：企业 AI 工厂上新（Rubin/Vera 服务器与网络）",
+        "event_date": "2026-05-18",
+        "event_type": "生态/企业 AI 工厂（Dell 合作与产品上新）",
+        "priority": "P3",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": false,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
+        },
+        "decision_change": "这条事件更像“生态与产品组合更新”的打包呈现：它强化了 NVIDIA 在企业侧以整套 AI 工厂（GPU+CPU+网络+系统）进入预算与部署流程的路径，但其投资含金量不在于演讲措辞，而在于这些新品与口径能否转化为可持续的企业订单与交付节奏。",
+        "business_impact": "业务层面，Dell 是企业 IT 的关键分销与集成渠道。若「AI Factory」形态（机架/系统级交付 + 网络/存储/软件一体化）能在企业侧规模化，将有利于 NVIDIA 把需求从“单卡/单节点采购”升级为“系统级采购”，提高平台绑定与生态渗透。文中多处强调智能体推理与企业内网部署，意味着推理侧与企业数据治理/安全需求可能成为下一阶段增量来源；但需要警惕会议稿件把“性能口径”与“真实可获得供给/价格”混在一起，导致市场对短期兑现过度",
+        "valuation_impact": "估值/动作层面，这类会议型事件对短期业绩的直接增量有限，更多是对高估值叙事（企业 AI 进入规模部署、Rubin/Vera 平台化）的支撑材料。对仓位动作不应由单篇会议稿触发，重点回到：后续几个季度的 Data Center 收入结构、推理需求口径、以及企业侧系统订单/交付是否体现“从试点到规模化”的斜率变化。",
+        "next_verification": [
+          "跟踪 Dell AI Factory 相关系统在后续季度的实际出货与客户案例（尤其是企业侧、非云厂商），判断是否从发布走向规模采购。",
+          "对文中“10 倍成本/性能”等口径，后续关注是否有更可比的基准、配置与价格披露，避免把营销口径当成可直接映射到财务模型的变量。",
+          "观察 Rubin/Vera 平台供给与交付节奏（以及企业客户可获得性），验证企业侧需求是否受供给约束。"
+        ],
+        "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+        "sort_key": 20260518,
+        "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+      },
+      {
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "event_index": 2,
         "event_title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
         "event_date": "2026-05-13",
         "event_type": "生态/本地 Agent",
@@ -609,12 +761,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
         "sort_key": 20260513,
-        "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 1,
+        "event_index": 3,
         "event_title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
         "event_date": "2026-05-13",
         "event_type": "生态/训练基础设施（强化学习）",
@@ -646,12 +798,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
         "sort_key": 20260513,
-        "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 2,
+        "event_index": 4,
         "event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
         "event_date": "2026-05-12",
         "event_type": "生态合作/企业软件",
@@ -683,12 +835,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
         "sort_key": 20260512,
-        "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 3,
+        "event_index": 5,
         "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
         "event_date": "2026-05-07",
         "event_type": "国家级 AI 基础设施 / 科学计算 / 能源",
@@ -720,12 +872,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
         "sort_key": 20260507,
-        "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 4,
+        "event_index": 6,
         "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
         "event_date": "2026-05-06",
         "event_type": "产品 / 网络平台 / AI 工厂基础设施",
@@ -757,12 +909,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
         "sort_key": 20260506,
-        "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 5,
+        "event_index": 7,
         "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
         "event_date": "2026-05-05",
         "event_type": "企业 AI / Agent 平台 / 软件生态",
@@ -794,12 +946,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
         "sort_key": 20260505,
-        "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=7&return=company&v=20260505-1"
       },
       {
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "event_index": 6,
+        "event_index": 8,
         "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
         "event_date": "2026-04-22",
         "event_type": "云平台合作 / AI 工厂平台",
@@ -831,7 +983,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
         "sort_key": 20260422,
-        "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=nvidia&event=8&return=company&v=20260505-1"
       }
     ],
     "tsmc": [
@@ -860,13 +1012,13 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
           ],
           "next_work": "先沉淀到事件流，等待更多证据再调整估值模型。"
         },
-        "decision_change": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。",
-        "business_impact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
-        "valuation_impact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
+        "decision_change": "这条事件对主业经营的直接影响有限，更重要的信号是“股权关系与业务合作解耦”：TSMC 继续维持必要的制造/技术协同，但降低非核心股权绑定并把资源聚焦到核心业务与先进制程/先进封装等关键议题。整体应作为资本配置与非核心资产管理的跟踪节点，而非主业景气拐点。",
+        "business_impact": "业务层面，公告明确 interposer 外包与 GaN 技术授权仍将持续，意味着供应链合作关系未发生方向性变化；同时 TSMC 已在 2024 年 6 月退出 VIS 董事会席位，本次继续降低持股比例可视为治理与资源聚焦的延续。对 TSMC 的核心竞争力与产能规划并无直接边际信息，但对“如何处理非核心资产、如何在合作与控制之间取舍”的公司理解有增量。",
+        "valuation_impact": "估值/动作层面，事件的可量化影响取决于出售定价、会计处理与资金用途披露（公告未给出交易价格与预计损益）。在缺少定价与现金流量化信息的情况下，不把该事件视为仓位动作触发；后续更多用于更新对资本配置纪律与非核心资产处置节奏的判断。",
         "next_verification": [
-          "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。",
-          "跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
-          "观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+          "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。",
+          "观察后续公告中对资金用途与资本配置（回购、capex、并购等）的描述是否发生变化。",
+          "继续跟踪与 VIS 的 interposer 外包与 GaN 授权合作是否保持稳定（供给、质量与交付节奏）。"
         ],
         "source_url": "http://pr.tsmc.com/english/news/3314",
         "sort_key": 20260515,
@@ -1150,10 +1302,10 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 15,
+    "total": 17,
     "companies": 3,
     "valuation_update_needed": 5,
-    "positive": 11,
+    "positive": 12,
     "watch": 0
   }
 };

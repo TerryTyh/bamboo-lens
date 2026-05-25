@@ -1,19 +1,110 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-05-25T13:51:18",
-  "source_event_store_at": "2026-05-25T13:51:18",
-  "source_deposition_at": "2026-05-25T13:51:18",
+  "generated_at": "2026-05-25T22:46:19",
+  "source_event_store_at": "2026-05-25T22:46:18",
+  "source_deposition_at": "2026-05-25T22:46:19",
   "companies": {
+    "nvidia": {
+      "source": "decision_deposition",
+      "sourceEventIndex": 0,
+      "sourceEventTitle": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+      "sourceEventDate": "2026-05-18",
+      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "updatedAt": "2026-05-25T22:46:19",
+      "latestEvent": "2026-05-18｜Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+      "businessImpact": "业务层面，Vera 是 NVIDIA 把智能体 AI 的关键瓶颈（沙箱、工具调用、编排、长上下文检索、数据处理等 CPU 侧工作）纳入自家平台的关键一步：当客户购买的不再只是 GPU，而是包含 CPU、互联与系统的整套 AI 工厂，平台粘性与系统级 ASP/份额通常更强。首批进入 Anthropic/OpenAI/SpaceXAI/OCI 的意义更多是“标杆客户与生态背书”，用来推动后续在云与企业 AI 工厂中的规模化部署与软件栈适配。",
+      "valuationImpact": "估值/动作层面，这条消息更偏中期平台化验证：它支持“从 GPU 供应商走向系统平台”的叙事，但短期财务贡献取决于 Vera 的量产节奏、在整机/机架方案中的装机率、以及客户是否把更多 CPU 侧预算迁移到 NVIDIA 体系。当前不把单次交付新闻视为加仓触发，而是把 Vera 的实际出货与客户采用（尤其是云厂商与企业系统）作为后续验证点。",
+      "nextCheck": "跟踪 Vera 进入哪些量产系统（例如是否成为机架级平台的标准配置）以及公开的出货节奏/客户名单扩展。；观察后续财报或产品沟通中，管理层是否给出 Vera 相关收入归类、ASP/毛利结构或更明确的量化目标。",
+      "action": "维持 A 池核心；把 Vera CPU 量产与客户采用纳入跟踪验证",
+      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "跟踪重点与风险"
+      ],
+      "sectionDeposits": {
+        "financeMap": {
+          "rows": [],
+          "bridge": [],
+          "notes": []
+        },
+        "businessMap": {
+          "segments": [
+            {
+              "key": "business-segment-财报-经营验证",
+              "title": "财报/经营验证｜Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+              "scale": "2026-05-18｜产品路线图 / 数据中心 CPU（智能体 AI）",
+              "text": "业务层面，Vera 是 NVIDIA 把智能体 AI 的关键瓶颈（沙箱、工具调用、编排、长上下文检索、数据处理等 CPU 侧工作）纳入自家平台的关键一步：当客户购买的不再只是 GPU，而是包含 CPU、互联与系统的整套 AI 工厂，平台粘性与系统级 ASP/份额通常更强。首批进入 Anthropic/OpenAI/SpaceXAI/OCI 的意义更多是“标杆客户与生态背书”，用来推动后续在云与企业 AI 工厂中的规模化部署与软件栈适配。 原文要点：NVIDIA 宣布其首款面向智能体 AI 的独立数据中心 CPU「Vera」开始向客户交付：首批送达 Anthropic（旧金山）、OpenAI（Mission Bay）、SpaceXAI（帕洛阿尔托），随后交付 Oracle Cloud Infrastructure（圣克拉拉）。；黄仁勋在 2026 年 3 月 GTC San Jose 上把 Vera 定位为面向智能体 AI 的新一代 CPU，并称其将成为 NVIDIA 下一条“数十亿美元级”业务线。；文中给出 Vera 的关键规格与口径：88 个自研 Olympus 核心、1.2TB/s 内存带宽，并宣称在持续高负载下单核性能提升约 50%，用于支撑智能体沙箱、工具调用、编译与数据处理等 CPU 侧瓶颈工作。"
+            }
+          ],
+          "moat": [
+            {
+              "key": "business-moat-财报-经营验证",
+              "title": "护城河/业务主线是否变化｜财报/经营验证",
+              "text": "这条事件的核心在于：Vera 由“发布/路线图”进入“交付/生态验证”，并且首批客户覆盖前沿模型实验室与云基础设施方，强化了 NVIDIA 以“AI 工厂”全栈（CPU+GPU+网络+系统）去锁定工作负载与客户部署路径的策略。"
+            }
+          ]
+        },
+        "valuationModel": {
+          "currentBreakdown": [],
+          "scenarios": [],
+          "triggers": []
+        }
+      },
+      "depositPolicy": {
+        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
+        "limits": {
+          "financeMap.rows": 3,
+          "financeMap.bridge": 3,
+          "financeMap.notes": 2,
+          "businessMap.segments": 2,
+          "businessMap.moat": 2,
+          "valuationModel.currentBreakdown": 2,
+          "valuationModel.scenarios": 1,
+          "valuationModel.triggers": 1
+        },
+        "omitted": {}
+      },
+      "depositEvents": [
+        {
+          "eventIndex": 0,
+          "title": "Vera CPU 开始交付：首批送达 Anthropic/OpenAI/SpaceXAI/OCI",
+          "date": "2026-05-18",
+          "priority": "P2",
+          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 5,
+          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+          "date": "2026-05-07",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 6,
+          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+          "date": "2026-05-06",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=6&return=company&v=20260505-1"
+        }
+      ]
+    },
     "tsmc": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "sourceEventDate": "2026-05-15",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T13:51:18",
+      "updatedAt": "2026-05-25T22:46:19",
       "latestEvent": "2026-05-15｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
-      "businessImpact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
-      "valuationImpact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
-      "nextCheck": "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。；跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。",
+      "businessImpact": "业务层面，公告明确 interposer 外包与 GaN 技术授权仍将持续，意味着供应链合作关系未发生方向性变化；同时 TSMC 已在 2024 年 6 月退出 VIS 董事会席位，本次继续降低持股比例可视为治理与资源聚焦的延续。对 TSMC 的核心竞争力与产能规划并无直接边际信息，但对“如何处理非核心资产、如何在合作与控制之间取舍”的公司理解有增量。",
+      "valuationImpact": "估值/动作层面，事件的可量化影响取决于出售定价、会计处理与资金用途披露（公告未给出交易价格与预计损益）。在缺少定价与现金流量化信息的情况下，不把该事件视为仓位动作触发；后续更多用于更新对资本配置纪律与非核心资产处置节奏的判断。",
+      "nextCheck": "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。；观察后续公告中对资金用途与资本配置（回购、capex、并购等）的描述是否发生变化。",
       "action": "维持跟踪；关注出售定价/会计影响与后续是否继续减持，但不视为主业趋势拐点",
       "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
       "writebackQuality": {
@@ -85,14 +176,14 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
               "key": "business-segment-财报-经营验证",
               "title": "财报/经营验证｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
               "scale": "2026-05-15｜资本配置 / 股权处置",
-              "text": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。 原文要点：公告披露，TSMC 计划通过向金融机构投资者的大宗交易（block trade）出售至多 1.52 亿股世界先进（VIS）普通股，约占 VIS fully-diluted paid-in-capital 的 8.1%。；TSMC 表示该交易不会影响其与 VIS 的战略合作关系，包括将 interposer 生产外包给 VIS，以及向 VIS 授权 GaN 技术。；出售计划属于“聚焦核心业务资源”的资本配置安排；TSMC 说明其在 2024 年 6 月已不再派任 VIS 董事。"
+              "text": "业务层面，公告明确 interposer 外包与 GaN 技术授权仍将持续，意味着供应链合作关系未发生方向性变化；同时 TSMC 已在 2024 年 6 月退出 VIS 董事会席位，本次继续降低持股比例可视为治理与资源聚焦的延续。对 TSMC 的核心竞争力与产能规划并无直接边际信息，但对“如何处理非核心资产、如何在合作与控制之间取舍”的公司理解有增量。 原文要点：TSMC 公告计划通过大宗交易向金融机构投资者出售最多 1.52 亿股 VIS（Vanguard International Semiconductor）普通股，约占 VIS 完全稀释后股本的 8.1%。；公告强调该出售不影响与 VIS 的战略合作关系，包括：TSMC 继续将 interposer 产能外包给 VIS、并继续向 VIS 授权 GaN 技术；该交易属于“聚焦核心业务资源”的资本配置安排。"
             }
           ],
           "moat": [
             {
               "key": "business-moat-财报-经营验证",
               "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这条事件的核心增量在“非核心股权处置 + 资源聚焦”的资本配置信号：TSMC 将对 VIS 的持股从约 27% 降至约 19%，同时强调业务合作关系不变，意味着公司在维持供应链/技术合作的同时，降低长期股权绑定程度。由于公告未披露定价、收益规模与资金用途，本次处置更适合作为对公司资本配置与非核心资产管理的跟踪节点，而非主业景气或盈利能力判断的转折点。"
+              "text": "这条事件对主业经营的直接影响有限，更重要的信号是“股权关系与业务合作解耦”：TSMC 继续维持必要的制造/技术协同，但降低非核心股权绑定并把资源聚焦到核心业务与先进制程/先进封装等关键议题。整体应作为资本配置与非核心资产管理的跟踪节点，而非主业景气拐点。"
             }
           ]
         },
@@ -101,21 +192,21 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
             {
               "key": "valuation-current-财报-经营验证",
               "title": "财报/经营验证｜估值/动作影响",
-              "text": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。"
+              "text": "估值/动作层面，事件的可量化影响取决于出售定价、会计处理与资金用途披露（公告未给出交易价格与预计损益）。在缺少定价与现金流量化信息的情况下，不把该事件视为仓位动作触发；后续更多用于更新对资本配置纪律与非核心资产处置节奏的判断。"
             }
           ],
           "scenarios": [
             {
               "key": "valuation-scenario-upside",
               "title": "估值中枢上修条件",
-              "text": "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。"
+              "text": "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。"
             }
           ],
           "triggers": [
             {
               "key": "valuation-trigger-财报-经营验证",
               "title": "下一步验证｜财报/经营验证",
-              "text": "确认 block trade 的实际成交价格/折价幅度、成交时间与处置收益（或损益）口径，并跟踪财报中对权益法/金融资产分类与一次性损益的影响披露。；跟踪 TSMC 后续是否继续减持 VIS，以及公司对“短期内无进一步出售计划”的表述是否在后续公告/财报中发生变化。；观察 interposer 外包与 GaN 技术授权合作是否保持稳定（交付、扩产、合作范围），以验证“股权降低但业务协同不变”的兑现情况。"
+              "text": "跟踪该 block trade 是否完成、成交价格区间及是否披露一次性损益/现金回笼规模。；观察后续公告中对资金用途与资本配置（回购、capex、并购等）的描述是否发生变化。；继续跟踪与 VIS 的 interposer 外包与 GaN 授权合作是否保持稳定（供给、质量与交付节奏）。"
             }
           ]
         }
@@ -160,104 +251,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         }
       ]
     },
-    "nvidia": {
-      "source": "decision_deposition",
-      "sourceEventIndex": 3,
-      "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "sourceEventDate": "2026-05-07",
-      "sourceEventLink": "./event.html?company=nvidia&event=3&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T13:51:18",
-      "latestEvent": "2026-05-07｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "businessImpact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。",
-      "valuationImpact": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
-      "nextCheck": "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。；跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
-      "action": "维持 A 池核心，提升“主权 AI + 科学计算基础设施”跟踪权重",
-      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
-      "writebackQuality": {
-        "status": "needs_model_update",
-        "statusLabel": "可回写，需同步估值/财务",
-        "score": 10,
-        "blockers": []
-      },
-      "updatedSections": [
-        "当前结论",
-        "公司理解",
-        "跟踪重点与风险"
-      ],
-      "sectionDeposits": {
-        "financeMap": {
-          "rows": [],
-          "bridge": [],
-          "notes": []
-        },
-        "businessMap": {
-          "segments": [
-            {
-              "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-              "scale": "2026-05-07｜国家级 AI 基础设施 / 科学计算 / 能源",
-              "text": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。 原文要点：这篇 NVIDIA Blog 记录了美国能源部长 Chris Wright 与 NVIDIA 高性能计算负责人 Ian Buck 在 SCSP AI+ Expo 上的对谈。文章的核心不是普通宣传，而是把 AI、能源、电力和国家科研基础设施联系在一起：美国 AI 领导力需要能源领导力支撑，而 DOE 的 Genesis Mission 是把 AI 用于科学发现的执行抓手。；Genesis Mission 是美国能源部推动 AI 科学发现的项目，NVIDIA 是合作伙伴之一。文章强调 NVIDIA 与美国国家实验室已有约 20 年超算合作历史，Buck 表示 NVIDIA 对 Genesis “100% committed and invested”。这说明 NVIDIA 在国家级科学计算体系中不是一次性供应商，而是长期全栈技术伙伴。；文章给出两个关键项目：NVIDIA 与 DOE 正在 Argonne National La…"
-            }
-          ],
-          "moat": [
-            {
-              "key": "business-moat-财报-经营验证",
-              "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。"
-            }
-          ]
-        },
-        "valuationModel": {
-          "currentBreakdown": [],
-          "scenarios": [],
-          "triggers": []
-        }
-      },
-      "depositPolicy": {
-        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
-        "limits": {
-          "financeMap.rows": 3,
-          "financeMap.bridge": 3,
-          "financeMap.notes": 2,
-          "businessMap.segments": 2,
-          "businessMap.moat": 2,
-          "valuationModel.currentBreakdown": 2,
-          "valuationModel.scenarios": 1,
-          "valuationModel.triggers": 1
-        },
-        "omitted": {}
-      },
-      "depositEvents": [
-        {
-          "eventIndex": 3,
-          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-          "date": "2026-05-07",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 4,
-          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-          "date": "2026-05-06",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 5,
-          "title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
-          "date": "2026-05-05",
-          "priority": "P2",
-          "detailLink": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
-        }
-      ]
-    },
     "constellation": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T13:51:18",
+      "updatedAt": "2026-05-25T22:46:19",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",

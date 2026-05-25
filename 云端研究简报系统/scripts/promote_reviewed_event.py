@@ -120,7 +120,10 @@ def normalize_event(draft: dict) -> dict:
         "business_analysis": draft["business_analysis"].strip(),
         "valuation_analysis": draft["valuation_analysis"].strip(),
         "verification": draft.get("verification", []),
-        "reviewed_at": draft.get("reviewed_at") or now,
+        # Use promotion time as reviewed_at so the morning brief can correctly
+        # surface newly promoted items, even if the draft file was authored earlier.
+        "reviewed_at": now,
+        "draft_reviewed_at": str(draft.get("reviewed_at") or "").strip(),
     }
     if not event["sort_key"]:
         event["sort_key"] = int("".join(ch for ch in event["date"] if ch.isdigit())[:8] or 0)
@@ -131,8 +134,25 @@ def upsert_event(payload: dict, company: str, event: dict) -> None:
     companies = payload.setdefault("companies", {})
     events = companies.setdefault(company, [])
     key = (event["title"], event["date"])
+    source_url = str(event.get("source_url") or "").strip().rstrip("/")
+    source_candidate_title = str(event.get("source_candidate_title") or "").strip()
     for idx, existing in enumerate(events):
-        if (existing.get("title"), existing.get("date")) == key:
+        existing_key = (str(existing.get("title") or ""), str(existing.get("date") or ""))
+        if existing_key == key:
+            events[idx] = event
+            return
+        # Allow title refinements by matching on (date + source_url) or
+        # (date + source_candidate_title) when title differs.
+        existing_url = str(existing.get("source_url") or "").strip().rstrip("/")
+        if source_url and existing.get("date") == event["date"] and existing_url == source_url:
+            events[idx] = event
+            return
+        existing_source_title = str(existing.get("source_candidate_title") or "").strip()
+        if (
+            source_candidate_title
+            and existing.get("date") == event["date"]
+            and existing_source_title == source_candidate_title
+        ):
             events[idx] = event
             return
     events.append(event)
