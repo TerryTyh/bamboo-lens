@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_MARKET_SNAPSHOT = {
-  "generated_at": "2026-05-25T13:51:22Z",
+  "generated_at": "2026-05-25T14:36:49Z",
   "source": "https://query1.finance.yahoo.com/v7/finance/quote / https://query1.finance.yahoo.com/v8/finance/chart / https://hq.sinajs.cn/list=",
   "warnings": [
     "Yahoo quote fetch failed, falling back to chart API: HTTP Error 401: Unauthorized"
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -107,7 +107,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -151,7 +151,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -212,7 +212,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -256,7 +256,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -300,7 +300,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -344,7 +344,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -388,7 +388,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-05-25T13:51:22Z",
+      "updatedAt": "2026-05-25T14:36:49Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     }
