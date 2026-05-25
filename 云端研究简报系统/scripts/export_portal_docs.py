@@ -63,6 +63,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "45-NVIDIA与Google Cloud草稿研判准备_2026-05-25.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "46-ASMPT初筛准备_2026-05-25.md",
+        PORTAL_DOCS / "research" / "46-ASMPT初筛准备_2026-05-25.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),
