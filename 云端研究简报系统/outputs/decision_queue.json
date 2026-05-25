@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-24T07:09:20",
-  "source_generated_at": "2026-05-24T07:09:20",
+  "generated_at": "2026-05-25T13:51:18",
+  "source_generated_at": "2026-05-25T13:51:18",
   "items": [
     {
       "company": "constellation",
@@ -681,7 +681,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260524-070655__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260525-134852__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20260511,
       "score": 14
@@ -795,24 +795,6 @@
       "score": 14
     },
     {
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260524-070655__pr.tsmc.com_english_latest-news.html",
-      "event_index": null,
-      "sort_key": 20260416,
-      "score": 12
-    },
-    {
       "company": "gevernova",
       "company_name": "GE Vernova",
       "source_type": "formal_event",
@@ -915,7 +897,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260520,
       "score": 11
@@ -969,7 +951,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260519,
       "score": 10
@@ -989,6 +971,24 @@
       "source_url": "",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 7,
+      "sort_key": 20260416,
+      "score": 10
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260525-134852__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
       "sort_key": 20260416,
       "score": 10
     },
@@ -1077,7 +1077,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
       "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260518,
       "score": 8
@@ -1185,7 +1185,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260521,
       "score": 6
@@ -1203,7 +1203,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260521,
       "score": 6
@@ -1221,7 +1221,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260518,
       "score": 6

@@ -9,7 +9,7 @@
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 18）
 - 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260524-070655__investor.nvidia.com_news_press-releases_default.aspx.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-134852__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 
