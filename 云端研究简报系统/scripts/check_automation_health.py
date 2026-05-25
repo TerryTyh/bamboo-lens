@@ -224,6 +224,13 @@ def check_brief_guard(now: datetime) -> dict:
     is_weekend = now.weekday() >= 5
     morning_same_day = today in "\n".join(morning.splitlines()[:8])
     daily_same_day = today in "\n".join(daily.splitlines()[:8])
+    morning_lines = [line.strip() for line in morning.splitlines() if line.strip()]
+    morning_body = "\n".join(morning_lines[1:]).strip() if len(morning_lines) > 1 else ""
+    morning_meaningful = bool(
+        morning_same_day
+        and len(morning_body) >= 80
+        and ("## " in morning_body or "**原文讲了什么**" in morning_body)
+    )
     empty_markers = [
         "今日没有新的可读内容",
         "今天没有新增值得直接推送的已判断研究事件",
@@ -243,7 +250,9 @@ def check_brief_guard(now: datetime) -> dict:
         else:
             status = "watch"
             notes.append("fallback 日报为空且没有当天晨报，prepare_brief_to_send.py 会阻断发送。")
-    if morning_same_day:
+    if morning_same_day and not morning_meaningful:
+        notes.append("当天晨报存在但正文不足，发送逻辑会回退到 fallback 日报。")
+    if morning_meaningful:
         notes.append("当天晨报存在，日报发送会优先选择 morning_brief.md。")
     elif daily_same_day and not daily_empty:
         notes.append("当天 fallback 日报可用，但质量取决于前一晚候选收集是否成功。")
@@ -251,6 +260,7 @@ def check_brief_guard(now: datetime) -> dict:
         "status": status,
         "today": today,
         "morningSameDay": morning_same_day,
+        "morningMeaningful": morning_meaningful,
         "dailySameDay": daily_same_day,
         "dailyEmpty": daily_empty,
         "notes": notes,
