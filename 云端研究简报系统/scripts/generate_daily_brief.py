@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -907,7 +908,8 @@ def render_brief(
 
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    previous_brief_text = OUTPUT_FILE.read_text(encoding="utf-8") if OUTPUT_FILE.exists() else ""
+    ignore_previous = os.environ.get("IGNORE_PREVIOUS_BRIEF_SIGNATURES", "").strip().lower() == "true"
+    previous_brief_text = "" if ignore_previous else (OUTPUT_FILE.read_text(encoding="utf-8") if OUTPUT_FILE.exists() else "")
     companies = load_companies()
     event_store = load_event_store()
     events = flatten_events(event_store)

@@ -26,6 +26,8 @@ jobs:
           python-version: "3.11"
 
       - name: Regenerate fallback daily brief
+        env:
+          IGNORE_PREVIOUS_BRIEF_SIGNATURES: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python3 scripts/generate_daily_brief.py
 
       - name: Choose brief with freshness guard
