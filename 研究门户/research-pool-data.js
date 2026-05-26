@@ -43,7 +43,7 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       trigger: "补 TSMC、长电科技之外的先进封装设备侧拼图；先看先进封装需求是否真正传导到设备订单和利润。",
       initial_level: "B",
       initial_level_label: "B 层候选",
-      next_step: "读最近年报/中报、先进封装设备订单、客户结构和周期波动。",
+      next_step: "一页式观察卡已完成；下一步等 2026Q2 结果验证收入指引、TCB 订单、毛利率和现金流。",
     },
     {
       company: "Vertiv",
