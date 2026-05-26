@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-05-26T21:08:33",
-  "source_generated_at": "2026-05-26T21:08:33",
+  "generated_at": "2026-05-26T21:39:45",
+  "source_generated_at": "2026-05-26T21:39:44",
   "items": [
     {
       "company": "constellation",
@@ -196,7 +196,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260426-092522__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 7,
+      "event_index": 8,
       "sort_key": 20260422,
       "score": 20
     },
@@ -232,7 +232,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 10,
+      "event_index": 11,
       "sort_key": 20260225,
       "score": 19
     },
@@ -286,7 +286,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 4,
+      "event_index": 5,
       "sort_key": 20260507,
       "score": 18
     },
@@ -304,7 +304,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 5,
+      "event_index": 6,
       "sort_key": 20260506,
       "score": 18
     },
@@ -376,7 +376,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 11,
+      "event_index": 12,
       "sort_key": 20260225,
       "score": 17
     },
@@ -421,6 +421,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "NVIDIA",
       "source_type": "formal_event",
       "stage": "已入库事件",
+      "title": "Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条",
+      "date": "2026-05-19",
+      "type": "云平台生态 / 开发者工作流",
+      "priority": "P3",
+      "decision_action": "维持 A 池核心；记录为 Google Cloud 分发渠道与推理/agent 工作流生态信号，不作为单独加仓触发",
+      "why": "这是一条 P3 级云平台生态强化事件。它不证明新增订单、合同金额或短期收入，但能补强 NVIDIA 平台化主线：NVIDIA 正把 GPU、CUDA 生态、数据科学库、开放模型、推理优化框架、可信 AI 与物理 AI 工具放进 Google Cloud 的开发者和企业应用构建路径。相比 2026-04-22 的 Google Cloud Next 全栈平台合作，本篇更偏“分发与使用路径”而不是“基础设施发布”，因此不应升为 P1/P2 财务催化。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
+      "source_doc": "",
+      "event_index": 1,
+      "sort_key": 20260519,
+      "score": 16
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
       "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
       "date": "2026-05-13",
       "type": "生态/本地 Agent",
@@ -430,7 +448,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-133033__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 1,
+      "event_index": 2,
       "sort_key": 20260513,
       "score": 16
     },
@@ -484,7 +502,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 6,
+      "event_index": 7,
       "sort_key": 20260505,
       "score": 16
     },
@@ -556,7 +574,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 9,
+      "event_index": 10,
       "sort_key": 20260225,
       "score": 16
     },
@@ -664,7 +682,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-133033__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 2,
+      "event_index": 3,
       "sort_key": 20260513,
       "score": 14
     },
@@ -682,7 +700,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 3,
+      "event_index": 4,
       "sort_key": 20260512,
       "score": 14
     },
@@ -736,7 +754,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 12,
+      "event_index": 13,
       "sort_key": 20260225,
       "score": 14
     },
@@ -754,7 +772,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 13,
+      "event_index": 14,
       "sort_key": 20260217,
       "score": 14
     },
@@ -916,7 +934,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
       "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 8,
+      "event_index": 9,
       "sort_key": 20260331,
       "score": 11
     },
@@ -937,24 +955,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 1,
       "sort_key": 20260318,
       "score": 11
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
-      "date": "2026-05-19",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-143408__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260519,
-      "score": 10
     },
     {
       "company": "tsmc",
@@ -1229,8 +1229,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
   ],
   "summary": {
     "total": 68,
-    "formal_events": 61,
-    "official_candidates": 7,
+    "formal_events": 62,
+    "official_candidates": 6,
     "companies": 8
   }
 };

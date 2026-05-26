@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-05-26T21:08:33",
-  "source_event_store_at": "2026-05-26T21:08:33",
-  "source_decision_impact_at": "2026-05-26T21:08:33",
+  "generated_at": "2026-05-26T21:39:45",
+  "source_event_store_at": "2026-05-26T21:39:44",
+  "source_decision_impact_at": "2026-05-26T21:39:45",
   "items": [
     {
       "company": "nvidia",
@@ -108,6 +108,111 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
       ],
       "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
       "sort_key": 20260520
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "event_index": 1,
+      "event_title": "Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条",
+      "event_date": "2026-05-19",
+      "priority": "P3",
+      "direction": "正向强化",
+      "trigger_type": "维持观察",
+      "status": "needs_model_update",
+      "status_label": "可回写，需同步估值/财务",
+      "writeback_ready": true,
+      "writeback_quality_score": 10,
+      "writeback_blockers": [],
+      "quality": "可自动生成回写建议",
+      "update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "raw_update_targets": [
+        "当前结论",
+        "公司理解",
+        "估值模型"
+      ],
+      "recommended_updates": [
+        {
+          "target": "当前结论",
+          "fields": [
+            "latestEvent",
+            "businessImpact",
+            "valuationImpact",
+            "nextCheck"
+          ],
+          "suggestion": "把最新事件更新为「Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条」；业务影响写入：业务层面，它影响的是 NVIDIA Data Center 的平台粘性和云端分发质量。Google Cloud 是 NVIDIA 的客户，也是企业开发者接触 NVIDIA 软件、模型和推理框架的渠道；如果开发者通过 JAX、Dynamo、Nemotron、cuDF、Cloud Run、GKE、G4 Blackwell VM 和 AI Hypercomputer 构建应用，NVIDIA 的价值会从一次性 GPU 采购延伸到训练、推理、模型服务、agent w"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务层面，它影响的是 NVIDIA Data Center 的平台粘性和云端分发质量。Google Cloud 是 NVIDIA 的客户，也是企业开发者接触 NVIDIA 软件、模型和推理框架的渠道；如果开发者通过 JAX、Dynamo、Nemotron、cuDF、Cloud Run、GKE、G4 Blackwell VM 和 AI Hypercomputer 构建应用，NVIDIA 的价值会从一次性 GPU 采购延伸到训练、推理、模型服务、agent workflow 和物理 AI 应用开发标准。它也让 NVIDIA 与 hyperscaler 的关系更复杂：云厂商既会自研芯片，也会把 NVIDIA 平台能力包装成客户可用的云服务"
+        },
+        {
+          "target": "财务数据地图",
+          "fields": [
+            "financeMap",
+            "financials"
+          ],
+          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
+        },
+        {
+          "target": "估值模型",
+          "fields": [
+            "valuationModel",
+            "valuationFrame"
+          ],
+          "suggestion": "估值/动作上，这条事件支持 NVIDIA 的平台溢价，但不单独改变合理价值区间或仓位动作。正面是 100,000+ 开发者社区、Dynamo/GKE 推理优化、Nemotron/Gemma/ADK agent 工具链和 Cosmos/SynthID 可信物理 AI 线索，增强了“推理和 agent 应用接棒训练需求”的可信度；限制是文章没有披露付费工作负载规模、GPU 消耗、收入贡献、毛利率或客户转化率。动作上维持 A 池核心，把它作为 Google Cloud 渠道采用和开发者生态扩散的辅助证据，不因这条新闻单独加仓。"
+        },
+        {
+          "target": "跟踪重点与风险",
+          "fields": [
+            "focus",
+            "trackingGuide",
+            "risk"
+          ],
+          "suggestion": "跟踪 Google Cloud 是否扩大 A5X / Vera Rubin、Blackwell GPU、G4 VMs、Dynamo on GKE 和 JAX / AI Hypercomputer 的可用区域、客户案例或商业化指标。；观察 Dynamo、Nemotron、Cosmos、cuDF、RTX PRO 6000 Blackwell GPU 是否在更多企业 agent、RAG、数据科学或物理 AI 部署案例中出现，而不只是学习路径和 codelab。；在后续 NVIDIA 财报中继续看 Data Center、networking、推理需求、软件/云服务采用和 hyperscaler capex 口径，确认开发者生态能否转化为实"
+        }
+      ],
+      "writeback_plan": [
+        {
+          "section": "当前结论",
+          "plan": "用「Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条」更新最新事件；当前结论只写这条事件对主线判断的增量，不覆盖长期判断底稿。"
+        },
+        {
+          "section": "公司理解",
+          "plan": "业务层面，它影响的是 NVIDIA Data Center 的平台粘性和云端分发质量。Google Cloud 是 NVIDIA 的客户，也是企业开发者接触 NVIDIA 软件、模型和推理框架的渠道；如果开发者通过 JAX、Dynamo、Nemotron、cuDF、Cloud Run、GKE、G4 Blackwell VM 和 AI Hypercomputer 构建应用，NVIDIA 的价值会从一次性 GPU 采购延伸到训练、推理、模型服务、agent workflow 和物理 AI 应用开发标准。它也让 NVIDIA 与 hyperscaler 的关系更复杂：云厂商既会自研芯片，也会把 NVIDIA 平台能力包装成客户可用的云服务。"
+        },
+        {
+          "section": "财务数据地图",
+          "plan": "提取收入、利润率、现金流、订单、backlog、capex、应收或存货等可核验数字，写成财务地图的增量注释。"
+        },
+        {
+          "section": "估值模型",
+          "plan": "估值/动作上，这条事件支持 NVIDIA 的平台溢价，但不单独改变合理价值区间或仓位动作。正面是 100,000+ 开发者社区、Dynamo/GKE 推理优化、Nemotron/Gemma/ADK agent 工具链和 Cosmos/SynthID 可信物理 AI 线索，增强了“推理和 agent 应用接棒训练需求”的可信度；限制是文章没有披露付费工作负载规模、GPU 消耗、收入贡献、毛利率或客户转化率。动作上维持 A 池核心，把它作为 Google Cloud 渠道采用和开发者生态扩散的辅助证据，不因这条新闻单独加仓。"
+        },
+        {
+          "section": "跟踪重点与风险",
+          "plan": "跟踪 Google Cloud 是否扩大 A5X / Vera Rubin、Blackwell GPU、G4 VMs、Dynamo on GKE 和 JAX / AI Hypercomputer 的可用区域、客户案例或商业化指标。；观察 Dynamo、Nemotron、Cosmos、cuDF、RTX PRO 6000 Blackwell GPU 是否在更多企业 agent、RAG、数据科学或物理 AI 部署案例中出现，而不只是学习路径和 codelab。；在后续 NVIDIA 财报中继续看 Data Center、networking、推理需求、软件/云服务采用和 hyperscaler capex 口径，确认开发者生态能否转化为实"
+        }
+      ],
+      "reason": "这是一条 P3 级云平台生态强化事件。它不证明新增订单、合同金额或短期收入，但能补强 NVIDIA 平台化主线：NVIDIA 正把 GPU、CUDA 生态、数据科学库、开放模型、推理优化框架、可信 AI 与物理 AI 工具放进 Google Cloud 的开发者和企业应用构建路径。相比 2026-04-22 的 Google Cloud Next 全栈平台合",
+      "valuation_impact": "估值/动作上，这条事件支持 NVIDIA 的平台溢价，但不单独改变合理价值区间或仓位动作。正面是 100,000+ 开发者社区、Dynamo/GKE 推理优化、Nemotron/Gemma/ADK agent 工具链和 Cosmos/SynthID 可信物理 AI 线索，增强了“推理和 agent 应用接棒训练需求”的可信度；限制是文章没有披露付费工作负载规模、GPU 消耗、收入贡献、毛利率或客户转化率。动作上维持 A 池核心，把它作为 Google Cloud 渠道采用和开",
+      "next_verification": [
+        "跟踪 Google Cloud 是否扩大 A5X / Vera Rubin、Blackwell GPU、G4 VMs、Dynamo on GKE 和 JAX / AI Hypercomputer 的可用区域、客户案例或商业化指标。",
+        "观察 Dynamo、Nemotron、Cosmos、cuDF、RTX PRO 6000 Blackwell GPU 是否在更多企业 agent、RAG、数据科学或物理 AI 部署案例中出现，而不只是学习路径和 codelab。",
+        "在后续 NVIDIA 财报中继续看 Data Center、networking、推理需求、软件/云服务采用和 hyperscaler capex 口径，确认开发者生态能否转化为实际计算需求。"
+      ],
+      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1",
+      "sort_key": 20260519
     },
     {
       "company": "tsmc",
@@ -217,7 +322,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
       "event_date": "2026-05-13",
       "priority": "P3",
@@ -316,13 +421,13 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "观察 RTX AI PC 与工作站出货/ASP/渠道反馈是否出现“agent 本地运行”驱动的结构性变化。",
         "若 DGX Spark 被持续提及，关注其目标客户、交付节奏与是否形成可复用的软件/运行时绑定（而不是一次性硬件宣传）。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=1&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1",
       "sort_key": 20260513
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 2,
+      "event_index": 3,
       "event_title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
       "event_date": "2026-05-13",
       "priority": "P3",
@@ -421,13 +526,13 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "观察是否出现可核验的客户采用：Ineffable 或类似团队在公开材料中披露使用规模、集群形态或性能指标。",
         "跟踪 Vera Rubin 平台相关披露中，是否把 RL/模拟训练作为关键用例之一，而不仅是单一的预训练/推理叙事。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=2&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1",
       "sort_key": 20260513
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 3,
+      "event_index": 4,
       "event_title": "SAP 在 Business AI Platform 集成 NVIDIA OpenShell：为企业级 AI Agent 提供隔离执行与治理控制",
       "event_date": "2026-05-12",
       "priority": "P3",
@@ -526,7 +631,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "NVIDIA 是否在财报/电话会中给出更清晰的企业软件/agent 相关收入口径或商业化模式（订阅、捆绑、渠道分成等）。",
         "OpenShell 作为开源项目的演进：关键能力（策略/身份/审计）是否快速补齐，是否出现第三方生态围绕其构建。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=3&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1",
       "sort_key": 20260512
     },
     {
@@ -850,7 +955,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 4,
+      "event_index": 5,
       "event_title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
       "event_date": "2026-05-07",
       "priority": "P1",
@@ -949,13 +1054,13 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
         "观察 Vera Rubin 平台在 100,000 GPU 级别科学计算场景中的部署是否顺利，是否成为下一代平台需求验证样板。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=4&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1",
       "sort_key": 20260507
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 5,
+      "event_index": 6,
       "event_title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
       "event_date": "2026-05-06",
       "priority": "P1",
@@ -1054,13 +1159,13 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "跟踪 OpenAI、Microsoft Fairwater、Oracle OCI Abilene 等客户后续是否继续公开提到 Spectrum-X、MRC 或 Blackwell 集群网络效率。",
         "观察 MRC 通过 Open Compute Project 开放后，是扩大 NVIDIA 网络生态影响力，还是让协议层被行业通用化并削弱硬件差异。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=5&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1",
       "sort_key": 20260506
     },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 6,
+      "event_index": 7,
       "event_title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
       "event_date": "2026-05-05",
       "priority": "P2",
@@ -1159,7 +1264,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "观察 OpenShell 是否被更多企业软件厂商或开发者采用，是否成为 enterprise agent execution 的通用基础。",
         "下一次 NVIDIA 财报中关注软件、推理、enterprise AI 或 agent 相关口径是否更具体。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=6&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=7&return=company&v=20260505-1",
       "sort_key": 20260505
     },
     {
@@ -1270,7 +1375,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "event_index": 7,
+      "event_index": 8,
       "event_title": "Google Cloud 合作把 Rubin、Blackwell、Nemotron 与物理 AI 推向云端生产平台",
       "event_date": "2026-04-22",
       "priority": "P1",
@@ -1369,7 +1474,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "跟踪 Google Cloud A5X 的实际推出时间、客户采用、定价和可用区域，验证 80,000 / 960,000 GPU 扩展能力是否从发布口径走向真实部署。",
         "跟踪 OpenAI、Thinking Machines、CrowdStrike、Siemens/Cadence 等客户案例是否带来可重复的高价值工作负载，而不只是发布会引用。"
       ],
-      "detail_link": "./event.html?company=nvidia&event=7&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=nvidia&event=8&return=company&v=20260505-1",
       "sort_key": 20260422
     },
     {
@@ -1693,9 +1798,9 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     }
   ],
   "summary": {
-    "total": 16,
-    "ready": 13,
-    "needs_model_update": 13,
+    "total": 17,
+    "ready": 14,
+    "needs_model_update": 14,
     "watch_only": 3,
     "blocked": 0,
     "companies": 3

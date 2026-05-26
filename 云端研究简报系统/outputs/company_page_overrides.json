@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26T21:08:33",
-  "source_event_store_at": "2026-05-26T21:08:33",
-  "source_deposition_at": "2026-05-26T21:08:33",
+  "generated_at": "2026-05-26T21:39:45",
+  "source_event_store_at": "2026-05-26T21:39:44",
+  "source_deposition_at": "2026-05-26T21:39:45",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@
       "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
       "sourceEventDate": "2026-05-20",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-26T21:08:33",
+      "updatedAt": "2026-05-26T21:39:45",
       "latestEvent": "2026-05-20｜FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
       "businessImpact": "这次财报把 NVIDIA 的主线进一步推向 AI 工厂平台公司。数据中心已经贡献约九成收入，且内部网络业务增速显著高于计算业务，说明客户采购不只是单点加速卡，而是在购买训练、推理、网络、存储、系统和软件协同能力。报告框架调整为数据中心与边缘计算，也说明公司希望用更贴近 AI 工厂、智能体 AI 和物理 AI 的方式呈现未来增长驱动。",
       "valuationImpact": "估值上，这条事件支持上调 NVIDIA 的基本面确信度和平台化权重，但不直接触发追价。US$91.0 billion 的 Q2 指引、75% 左右毛利率和 US$48.554 billion 自由现金流，支撑高估值的质量更强；但当前市场已经对 AI 基础设施给出高预期，后续动作仍要看 Q2 是否继续兑现、网络收入是否持续放大、库存/应收是否健康、客户资本开支是否维持。动作上维持 A 池核心，并把下一次 Q2 财报、网络收入和中国以外需求强度列为最高优先级验证点。",
@@ -145,16 +145,16 @@
           "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
         },
         {
-          "eventIndex": 4,
-          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-          "date": "2026-05-07",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
+          "eventIndex": 1,
+          "title": "Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条",
+          "date": "2026-05-19",
+          "priority": "P3",
+          "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
         },
         {
           "eventIndex": 5,
-          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-          "date": "2026-05-06",
+          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+          "date": "2026-05-07",
           "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
         }
@@ -166,7 +166,7 @@
       "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "sourceEventDate": "2026-05-15",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-26T21:08:33",
+      "updatedAt": "2026-05-26T21:39:45",
       "latestEvent": "2026-05-15｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "businessImpact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
       "valuationImpact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
@@ -323,7 +323,7 @@
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-26T21:08:33",
+      "updatedAt": "2026-05-26T21:39:45",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
