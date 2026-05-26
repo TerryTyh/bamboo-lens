@@ -71,6 +71,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "47-候选池变化复核_2026-05-26.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "48-NVIDIA FY2027 Q1财报候选研判准备_2026-05-26.md",
+        PORTAL_DOCS / "research" / "48-NVIDIA FY2027 Q1财报候选研判准备_2026-05-26.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),
