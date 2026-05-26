@@ -124,6 +124,46 @@ def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
 
+def extract_sent_brief_signatures(text: str) -> set[str]:
+    """Return title/url signatures from the previous committed fallback brief.
+
+    Daily Brief runs do not commit their generated output, but the nightly
+    candidate collection does. Reading the checked-in daily_brief.md before
+    overwriting it lets us avoid sending the same fallback candidate again on
+    consecutive mornings.
+    """
+    signatures: set[str] = set()
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        match = re.match(r"\d+\.\s+(.+?)｜(.+)", stripped)
+        if match:
+            company = normalize(match.group(1)).lower()
+            title = normalize(match.group(2)).lower()
+            if company and title:
+                signatures.add(f"title:{company}::{title}")
+        for url in re.findall(r"\]\((https?://[^)]+)\)", stripped):
+            signatures.add(f"url:{normalize(url).lower()}")
+    return signatures
+
+
+def item_signatures(item: dict) -> set[str]:
+    company = normalize(item.get("company_name", "")).lower()
+    title = normalize(item.get("title", "")).lower()
+    source = normalize(item.get("source_url", "") or item.get("source_doc", "")).lower()
+    signatures: set[str] = set()
+    if company and title:
+        signatures.add(f"title:{company}::{title}")
+    if source.startswith("http"):
+        signatures.add(f"url:{source}")
+    return signatures
+
+
+def was_sent_before(item: dict, previous_signatures: set[str]) -> bool:
+    return bool(item_signatures(item) & previous_signatures)
+
+
 def has_specific_evidence(text: str) -> bool:
     value = normalize(text)
     evidence_markers = [
@@ -707,13 +747,21 @@ def render_candidate_block(candidates: list[dict]) -> str:
     return "\n\n".join(lines)
 
 
-def render_brief(companies: list[dict], events: list[dict], official_candidates: list[dict]) -> str:
+def render_brief(
+    companies: list[dict],
+    events: list[dict],
+    official_candidates: list[dict],
+    previous_brief_text: str = "",
+) -> str:
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     today = now.strftime("%Y-%m-%d")
     names = "、".join(company["name"] for company in companies)
+    previous_signatures = extract_sent_brief_signatures(previous_brief_text)
     fresh_events = [
         item for item in events
-        if is_recent_event(item, now, days=2) and is_publishable_event(item)
+        if is_recent_event(item, now, days=2)
+        and is_publishable_event(item)
+        and not was_sent_before(item, previous_signatures)
     ]
     reviewed_titles = {
         normalize(title).lower()
@@ -726,6 +774,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
             item for item in official_candidates
             if is_recent_candidate(item, now, days=5)
             and normalize(item.get("title", "")).lower() not in reviewed_titles
+            and not was_sent_before(item, previous_signatures)
         ],
         key=rank_candidate,
         reverse=True,
@@ -735,6 +784,7 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
             item for item in official_candidates
             if is_recent_candidate(item, now, days=10)
             and normalize(item.get("title", "")).lower() not in reviewed_titles
+            and not was_sent_before(item, previous_signatures)
         ],
         key=rank_candidate,
         reverse=True,
@@ -818,11 +868,12 @@ def render_brief(companies: list[dict], events: list[dict], official_candidates:
 
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    previous_brief_text = OUTPUT_FILE.read_text(encoding="utf-8") if OUTPUT_FILE.exists() else ""
     companies = load_companies()
     event_store = load_event_store()
     events = flatten_events(event_store)
     official_candidates = flatten_official_candidates(event_store)
-    brief = render_brief(companies, events, official_candidates)
+    brief = render_brief(companies, events, official_candidates, previous_brief_text)
     OUTPUT_FILE.write_text(brief, encoding="utf-8")
     print(f"Daily brief written to: {OUTPUT_FILE}")
 
