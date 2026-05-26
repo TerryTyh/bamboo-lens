@@ -1,15 +1,15 @@
 # 竹鉴自动化健康检查
 
-生成时间：2026-05-26T21:39:45+08:00
+生成时间：2026-05-26T22:45:12+08:00
 
-总体状态：健康
+总体状态：需观察
 
 ## 核心结论
 
 - 工作流文件：4/4 已存在。
 - 关键云端产物：12/12 已存在。
 - 门户数据文件：10/10 已存在。
-- 日报保护状态：healthy。
+- 日报保护状态：watch。
 - 公司页审计状态：healthy。
 - 行情覆盖状态：healthy。
 
@@ -22,19 +22,19 @@
 ## 新鲜度
 
 - 阈值：42 小时
-- official_candidates：healthy，时间 2026-05-25T14:36:45+08:00，年龄 31.1h
-- event_store：healthy，时间 2026-05-26T21:39:44+08:00，年龄 0.0h
-- decision_queue：healthy，时间 2026-05-26T21:39:45+08:00，年龄 0.0h
-- company_page_overrides：healthy，时间 2026-05-26T21:39:45+08:00，年龄 0.0h
-- readability_audit：healthy，时间 2026-05-26T21:39:45+08:00，年龄 0.0h
-- mainline_audit：healthy，时间 2026-05-26T21:39:45+08:00，年龄 0.0h
-- market_snapshot：healthy，时间 2026-05-25T22:36:49+08:00，年龄 23.0h
-- daily_brief：healthy，时间 2026-05-26T00:00:00+08:00，年龄 21.7h
+- official_candidates：healthy，时间 2026-05-26T14:45:08+08:00，年龄 8.0h
+- event_store：healthy，时间 2026-05-26T14:45:09+08:00，年龄 8.0h
+- decision_queue：healthy，时间 2026-05-26T14:45:09+08:00，年龄 8.0h
+- company_page_overrides：healthy，时间 2026-05-26T14:45:09+08:00，年龄 8.0h
+- readability_audit：healthy，时间 2026-05-26T14:45:09+08:00，年龄 8.0h
+- mainline_audit：healthy，时间 2026-05-26T14:45:09+08:00，年龄 8.0h
+- market_snapshot：healthy，时间 2026-05-26T22:45:12+08:00，年龄 0.0h
+- daily_brief：healthy，时间 2026-05-26T00:00:00+08:00，年龄 22.8h
 - morning_brief：healthy，时间 2026-05-27T00:00:00+08:00，年龄 0.0h
 
 ## 日报发送保护
 
-- 当天 fallback 日报可用，但质量取决于前一晚候选收集是否成功。
+- fallback 日报为空且没有当天晨报，prepare_brief_to_send.py 会阻断发送。
 
 ## 公司页质量审计
 
