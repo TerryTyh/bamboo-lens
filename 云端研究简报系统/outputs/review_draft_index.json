@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-25T14:36:45",
+  "generated_at": "2026-05-26T21:08:33",
   "summary": {
-    "total": 8,
-    "companies": 3,
+    "total": 6,
+    "companies": 2,
     "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 2,
-      "needs_source": 4,
+      "needs_source": 2,
       "readable_needs_review": 1,
       "low_investment_signal": 1
     },
@@ -90,64 +90,6 @@
     ]
   },
   "by_key": {
-    "constellation::q1 2026 constellation energy corporation earnings conference call": {
-      "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2026-05-11",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    "nvidia::nvidia announces financial results for first quarter fiscal 2027": {
-      "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-      "date": "2026-05-20",
-      "score": 11,
-      "readiness_score": 18,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
     "nvidia::nvidia and google cloud empower the next wave of ai builders": {
       "draft_id": "auto-nvidia-nvidia-and-google-cloud-empower-the-next-wave-of-ai-builders",
       "company": "nvidia",
@@ -306,37 +248,6 @@
     }
   },
   "companies": {
-    "constellation": [
-      {
-        "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
-        "company": "constellation",
-        "company_name": "Constellation Energy",
-        "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
-        "date": "2026-05-11",
-        "score": 14,
-        "readiness_score": 21,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-        "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      }
-    ],
     "nvidia": [
       {
         "draft_id": "auto-nvidia-nvidia-and-google-cloud-empower-the-next-wave-of-ai-builders",
@@ -411,35 +322,6 @@
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-        "date": "2026-05-20",
-        "score": 11,
-        "readiness_score": 18,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       },
       {
@@ -579,35 +461,6 @@
       }
     },
     {
-      "draft_id": "auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2026-05-11",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q1-2026-constellation-energy-corporation-earnings-conference-call.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
       "company": "tsmc",
       "company_name": "TSMC",
@@ -658,35 +511,6 @@
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-      "date": "2026-05-20",
-      "score": 11,
-      "readiness_score": 18,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-first-quarter-fiscal-2027.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     {

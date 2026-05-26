@@ -87,12 +87,12 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-143408__investor.nvidia.com_news_press-releases_default.aspx.html",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "candidate_status": "pending",
-        "status_label": "待研判",
-        "review_lane": "优先阅读",
-        "review_score": 8,
-        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
-        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 18,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",

@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-05-25T14:36:46",
-  "source_overrides_at": "2026-05-25T14:36:45",
+  "generated_at": "2026-05-26T21:08:33",
+  "source_overrides_at": "2026-05-26T21:08:33",
   "items": [
     {
       "company": "constellation",
@@ -38,19 +38,21 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "sourceEventDate": "2026-05-07",
+      "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
+      "sourceEventDate": "2026-05-20",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
         "当前结论",
         "公司理解",
+        "财务数据地图",
+        "估值模型",
         "跟踪重点与风险"
       ],
       "sectionPresence": {
         "公司理解": 2,
-        "财务数据地图": 0,
-        "估值模型": 0
+        "财务数据地图": 7,
+        "估值模型": 3
       },
       "depositEvents": 3,
       "writebackQuality": {

@@ -82,7 +82,9 @@ def flatten_events(store: dict) -> list[dict]:
                     "priority": event["priority"],
                     "sort_key": event.get("sort_key", 0),
                     "source_doc": event.get("source_doc", ""),
+                    "source_url": event.get("source_url", ""),
                     "source_candidate_title": event.get("source_candidate_title", ""),
+                    "reviewed_at": event.get("reviewed_at", ""),
                 }
             )
     return sorted(items, key=rank_event, reverse=True)
@@ -122,6 +124,34 @@ def compact(text: str, limit: int = 82) -> str:
 
 def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
+
+
+def localize_brief_terms(text: str) -> str:
+    value = normalize(text)
+
+    def replace_usd_billion(match: re.Match[str]) -> str:
+        amount = float(match.group(1).replace(",", ""))
+        value_in_yi = amount * 10
+        if value_in_yi >= 100:
+            rendered = f"{value_in_yi:.1f}".rstrip("0").rstrip(".")
+        else:
+            rendered = f"{value_in_yi:.2f}".rstrip("0").rstrip(".")
+        return f"{rendered} 亿美元"
+
+    value = re.sub(r"US\$\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*billion\b", replace_usd_billion, value, flags=re.I)
+    replacements = {
+        "GAAP / non-GAAP": "GAAP / non-GAAP",
+        "free cash flow": "自由现金流",
+        "Data Center": "数据中心",
+        "Networking": "网络业务",
+        "networking": "网络业务",
+        "compute": "计算",
+        "revenue": "收入",
+        "gross margin": "毛利率",
+    }
+    for source, target in replacements.items():
+        value = value.replace(source, target)
+    return value
 
 
 def extract_sent_brief_signatures(text: str) -> set[str]:
@@ -220,7 +250,7 @@ def extract_key_evidence(event: dict) -> str:
     sentences = [item.strip(" 。；;") for item in fact.replace("；", "。").split("。") if item.strip()]
     evidence = [sentence for sentence in sentences if has_specific_evidence(sentence)]
     selected = evidence[:3] or sentences[:2]
-    return "；".join(selected)
+    return localize_brief_terms("；".join(selected))
 
 
 def derive_validation_questions(event: dict) -> list[str]:
@@ -295,6 +325,12 @@ def parse_date_like(value: str) -> datetime | None:
 
 
 def is_recent_event(item: dict, today: datetime, days: int = 2) -> bool:
+    parsed_reviewed = parse_date_like(item.get("reviewed_at", ""))
+    if parsed_reviewed is not None:
+        age = today.date() - parsed_reviewed.date()
+        if timedelta(days=0) <= age <= timedelta(days=days):
+            return True
+
     parsed = parse_date_like(item.get("date", ""))
     if parsed is not None:
         age = today.date() - parsed.date()
@@ -799,13 +835,14 @@ def render_brief(
     if top_events:
         key_changes = []
         for index, event in enumerate(top_events, start=1):
+            source = f"\n   [原文]({event['source_url']})" if event.get("source_url") else ""
             key_changes.append(
                 f"""{index}. 公司：{event["company_name"]}
-   事件：{normalize(event["title"])}
-   核心内容：{normalize(event["fact"])}
+   事件：{localize_brief_terms(event["title"])}
+   核心内容：{localize_brief_terms(event["fact"])}
    关键证据：{extract_key_evidence(event)}
-   为什么重要：{normalize(event["judgment"])}
-   动作：{event["action"]}"""
+   为什么重要：{localize_brief_terms(event["judgment"])}
+   动作：{localize_brief_terms(event["action"])}{source}"""
             )
         changes_block = "\n\n".join(key_changes)
         conclusion = f"今天在已判断事件里，最值得先看的是 {top_events[0]['company_name']}。"
@@ -853,6 +890,8 @@ def render_brief(
 """
 
     return f"""# 竹鉴日报 | {today}
+
+今日关键变化：
 
 {changes_block}
 

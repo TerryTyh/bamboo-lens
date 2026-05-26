@@ -1,15 +1,172 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-05-25T14:36:45",
-  "source_event_store_at": "2026-05-25T14:36:45",
-  "source_deposition_at": "2026-05-25T14:36:45",
+  "generated_at": "2026-05-26T21:08:33",
+  "source_event_store_at": "2026-05-26T21:08:33",
+  "source_deposition_at": "2026-05-26T21:08:33",
   "companies": {
+    "nvidia": {
+      "source": "decision_deposition",
+      "sourceEventIndex": 0,
+      "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
+      "sourceEventDate": "2026-05-20",
+      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "updatedAt": "2026-05-26T21:08:33",
+      "latestEvent": "2026-05-20｜FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
+      "businessImpact": "这次财报把 NVIDIA 的主线进一步推向 AI 工厂平台公司。数据中心已经贡献约九成收入，且内部网络业务增速显著高于计算业务，说明客户采购不只是单点加速卡，而是在购买训练、推理、网络、存储、系统和软件协同能力。报告框架调整为数据中心与边缘计算，也说明公司希望用更贴近 AI 工厂、智能体 AI 和物理 AI 的方式呈现未来增长驱动。",
+      "valuationImpact": "估值上，这条事件支持上调 NVIDIA 的基本面确信度和平台化权重，但不直接触发追价。US$91.0 billion 的 Q2 指引、75% 左右毛利率和 US$48.554 billion 自由现金流，支撑高估值的质量更强；但当前市场已经对 AI 基础设施给出高预期，后续动作仍要看 Q2 是否继续兑现、网络收入是否持续放大、库存/应收是否健康、客户资本开支是否维持。动作上维持 A 池核心，并把下一次 Q2 财报、网络收入和中国以外需求强度列为最高优先级验证点。",
+      "nextCheck": "FY2027 Q2 收入是否接近或超过 US$91.0 billion 指引。；数据中心网络收入是否继续高增长，验证 Spectrum-X / NVLink / AI 工厂系统协同是否转化为收入。",
+      "action": "维持 A 池核心；把下一验证点转向 Q2 指引兑现、网络业务持续性和营运资本健康度",
+      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "sectionDeposits": {
+        "financeMap": {
+          "rows": [
+            {
+              "key": "finance-row-财报-经营验证-1",
+              "metric": "事件证据 1",
+              "value": "总收入 US$81.615 billion，环比 +20%，同比 +85%，明显超过上一版公司页关注的 FY27 Q1 收入指引 US$78.0 billion。",
+              "change": "2026-05-20｜财报 / 指引",
+              "read": "这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%、环比 +35%，尤其值得重视：它说明 NVIDIA 的 AI 工厂平台逻辑正在从 GPU 计算扩展到网络、互连和系统级协同。Q2 指引不假设中国数据中心计算收入仍达到 US$91.0 billion，也强化了全球 AI 基础设施需求的广度。"
+            },
+            {
+              "key": "finance-row-财报-经营验证-2",
+              "metric": "事件证据 2",
+              "value": "数据中心收入 US$75.2 billion，环比 +21%，同比 +92%，继续贡献约九成收入，说明 AI 基础设施主线仍是绝对核心。",
+              "change": "2026-05-20｜财报 / 指引",
+              "read": "这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%、环比 +35%，尤其值得重视：它说明 NVIDIA 的 AI 工厂平台逻辑正在从 GPU 计算扩展到网络、互连和系统级协同。Q2 指引不假设中国数据中心计算收入仍达到 US$91.0 billion，也强化了全球 AI 基础设施需求的广度。"
+            },
+            {
+              "key": "finance-row-财报-经营验证-3",
+              "metric": "事件证据 3",
+              "value": "数据中心计算收入 US$60.4 billion，同比 +77%，环比 +18%；数据中心网络收入 US$14.8 billion，同比 +199%，环比 +35%，说明平台化收入不只来自 GPU 计算。",
+              "change": "2026-05-20｜财报 / 指引",
+              "read": "这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%、环比 +35%，尤其值得重视：它说明 NVIDIA 的 AI 工厂平台逻辑正在从 GPU 计算扩展到网络、互连和系统级协同。Q2 指引不假设中国数据中心计算收入仍达到 US$91.0 billion，也强化了全球 AI 基础设施需求的广度。"
+            }
+          ],
+          "bridge": [
+            {
+              "key": "finance-bridge-财报-经营验证-source",
+              "label": "第一层：原文发生了什么｜财报/经营验证",
+              "text": "NVIDIA 公布截至 2026-04-26 的 FY2027 Q1 财报。总收入 US$81.615 billion，环比增长 20%，同比增长 85%；数据中心收入 US$75.2 billion，环比增长 21%，同比增长 92%。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-evidence",
+              "label": "第二层：哪些事实最关键",
+              "text": "盈利质量继续维持高位：GAAP / non-GAAP 毛利率分别为 74.9% / 75.0%；GAAP 稀释 EPS 为 US$2.39，non-GAAP 稀释 EPS 为 US$1.87；自由现金流 US$48.554 billion。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-judgment",
+              "label": "第三层：它改变了什么判断",
+              "text": "这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%、环比 +35%，尤其值得重视：它说明 NVIDIA 的 AI 工厂平台逻辑正在从 GPU 计算扩展到网络、互连和系统级协同。Q2 指引不假设中国数据中心计算收入仍达到 US$91.0 billion，也强化了全球 AI 基础设施需求的广度。"
+            }
+          ],
+          "notes": [
+            {
+              "key": "finance-note-财报-经营验证",
+              "title": "财报/经营验证｜财务读法",
+              "text": "原文事实：NVIDIA 公布截至 2026-04-26 的 FY2027 Q1 财报。总收入 US$81.615 billion，环比增长 20%，同比增长 85%；数据中心收入 US$75.2 billion，环比增长 21%，同比增长 92%。；盈利质量继续维持高位：GAAP / non-GAAP 毛利率分别为 74.9% / 75.0%；GAAP 稀释 EPS 为 US$2.39，non-GAAP 稀释 EPS 为 US$1.87；自由现金流 US$48.554 billion。；公司给出 FY2027 Q2 收入指引 US$91.0 billion，上下浮动 2%，且不假设来自中国的数据中心计算收入。公司还新增 US$80.0 billion 股票回购授权，并将季度分红从 US$0.01 提高到 US$0.25。 证据：总收入 US$81.615 billion，环比 +20%，同比 +85%，明显超过上一版公司页关注的 FY27 Q1 收入指引 US$78.0 billion。；数据中心收入 US$75.2 billion，环比 +21%，同比 +92%，继续贡献约九成收入，说明 AI 基础设施主线仍是绝对核心。；数据中心计算收入 US$60.4 billion，同比 +77%，环比 +18%；数据中心网络收入 US$14.8 billion，同比 +199%，环比 +35%，说明平台化收入不只来自 GPU 计算。。读法：这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%…"
+            }
+          ]
+        },
+        "businessMap": {
+          "segments": [
+            {
+              "key": "business-segment-财报-经营验证",
+              "title": "财报/经营验证｜FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
+              "scale": "2026-05-20｜财报 / 指引",
+              "text": "这次财报把 NVIDIA 的主线进一步推向 AI 工厂平台公司。数据中心已经贡献约九成收入，且内部网络业务增速显著高于计算业务，说明客户采购不只是单点加速卡，而是在购买训练、推理、网络、存储、系统和软件协同能力。报告框架调整为数据中心与边缘计算，也说明公司希望用更贴近 AI 工厂、智能体 AI 和物理 AI 的方式呈现未来增长驱动。 原文要点：NVIDIA 公布截至 2026-04-26 的 FY2027 Q1 财报。总收入 US$81.615 billion，环比增长 20%，同比增长 85%；数据中心收入 US$75.2 billion，环比增长 21%，同比增长 92%。；盈利质量继续维持高位：GAAP / non-GAAP 毛利率分别为 74.9% / 75.0%；GAAP 稀释 EPS 为 US$2.39，non-GAAP 稀释 EPS 为 US$1.87；自由现金流 US$48.554 billion。；公司给出 FY2027 Q2 收入指引 US$91.0 billion，上下浮动 2%，且不假设来自中国的数据中心计算收入。公司还新增 US$80.0 billion 股票回购授权，并将季度分红从 US$0.01 提高到 US$0.25。"
+            }
+          ],
+          "moat": [
+            {
+              "key": "business-moat-财报-经营验证",
+              "title": "护城河/业务主线是否变化｜财报/经营验证",
+              "text": "这是 P1 级财报与指引强化事件。NVIDIA 不只是继续高增长，而是在高基数下同时兑现数据中心增长、约 75% 毛利率、强自由现金流和更高 Q2 指引。数据中心网络收入同比 +199%、环比 +35%，尤其值得重视：它说明 NVIDIA 的 AI 工厂平台逻辑正在从 GPU 计算扩展到网络、互连和系统级协同。Q2 指引不假设中国数据中心计算收入仍达到 US$91.0 billion，也强化了全球 AI 基础设施需求的广度。"
+            }
+          ]
+        },
+        "valuationModel": {
+          "currentBreakdown": [
+            {
+              "key": "valuation-current-财报-经营验证",
+              "title": "财报/经营验证｜估值/动作影响",
+              "text": "估值上，这条事件支持上调 NVIDIA 的基本面确信度和平台化权重，但不直接触发追价。US$91.0 billion 的 Q2 指引、75% 左右毛利率和 US$48.554 billion 自由现金流，支撑高估值的质量更强；但当前市场已经对 AI 基础设施给出高预期，后续动作仍要看 Q2 是否继续兑现、网络收入是否持续放大、库存/应收是否健康、客户资本开支是否维持。动作上维持 A 池核心，并把下一次 Q2 财报、网络收入和中国以外需求强度列为最高优先级验证点。"
+            }
+          ],
+          "scenarios": [
+            {
+              "key": "valuation-scenario-upside",
+              "title": "估值中枢上修条件",
+              "text": "FY2027 Q2 收入是否接近或超过 US$91.0 billion 指引。"
+            }
+          ],
+          "triggers": [
+            {
+              "key": "valuation-trigger-财报-经营验证",
+              "title": "下一步验证｜财报/经营验证",
+              "text": "FY2027 Q2 收入是否接近或超过 US$91.0 billion 指引。；数据中心网络收入是否继续高增长，验证 Spectrum-X / NVLink / AI 工厂系统协同是否转化为收入。；毛利率能否继续维持约 75%，平台化扩张是否侵蚀盈利质量。"
+            }
+          ]
+        }
+      },
+      "depositPolicy": {
+        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
+        "limits": {
+          "financeMap.rows": 3,
+          "financeMap.bridge": 3,
+          "financeMap.notes": 2,
+          "businessMap.segments": 2,
+          "businessMap.moat": 2,
+          "valuationModel.currentBreakdown": 2,
+          "valuationModel.scenarios": 1,
+          "valuationModel.triggers": 1
+        },
+        "omitted": {
+          "valuationModel.scenarios": 1
+        }
+      },
+      "depositEvents": [
+        {
+          "eventIndex": 0,
+          "title": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
+          "date": "2026-05-20",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 4,
+          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
+          "date": "2026-05-07",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 5,
+          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
+          "date": "2026-05-06",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
+        }
+      ]
+    },
     "tsmc": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "sourceEventDate": "2026-05-15",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T14:36:45",
+      "updatedAt": "2026-05-26T21:08:33",
       "latestEvent": "2026-05-15｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "businessImpact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
       "valuationImpact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
@@ -160,104 +317,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         }
       ]
     },
-    "nvidia": {
-      "source": "decision_deposition",
-      "sourceEventIndex": 3,
-      "sourceEventTitle": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "sourceEventDate": "2026-05-07",
-      "sourceEventLink": "./event.html?company=nvidia&event=3&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T14:36:45",
-      "latestEvent": "2026-05-07｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-      "businessImpact": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。",
-      "valuationImpact": "估值上，这条事件支持 NVIDIA 维持平台溢价和更长需求曲线，而不是只按短周期 GPU 订单看待。它增强“AI 工厂 + 主权 AI + 科学计算基础设施”的可持续性，但尚不足以单独上调估值中枢，因为文章没有披露项目合同金额、交付节奏、毛利率或收入确认。动作上维持 A 池核心，研究优先级提升到“政府/科研/能源 AI 基础设施需求是否成为第三增长曲线”，仓位动作仍需等财报中 Data Center、networking、Rubin 订单和客户结构验证。",
-      "nextCheck": "下一次 NVIDIA 财报或电话会中，关注管理层是否提到 sovereign AI、national labs、government AI infrastructure 或 scientific computing demand。；跟踪 Equinox 和 Solstice 的建设进度、交付时间、是否转化为可量化订单或长期服务收入。",
-      "action": "维持 A 池核心，提升“主权 AI + 科学计算基础设施”跟踪权重",
-      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
-      "writebackQuality": {
-        "status": "needs_model_update",
-        "statusLabel": "可回写，需同步估值/财务",
-        "score": 10,
-        "blockers": []
-      },
-      "updatedSections": [
-        "当前结论",
-        "公司理解",
-        "跟踪重点与风险"
-      ],
-      "sectionDeposits": {
-        "financeMap": {
-          "rows": [],
-          "bridge": [],
-          "notes": []
-        },
-        "businessMap": {
-          "segments": [
-            {
-              "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-              "scale": "2026-05-07｜国家级 AI 基础设施 / 科学计算 / 能源",
-              "text": "业务影响主要落在 Data Center、HPC/科学计算、主权 AI 与 AI 工厂系统方案。Equinox 和 Solstice 展示的是 NVIDIA 从 GPU、软件栈、模型、AI agent 到超算系统的全栈位置。对投资人而言，这类事件的重要性不在单个项目收入，而在验证 NVIDIA 的需求来源正在从 hyperscaler 训练集群扩展到政府、国家实验室、科学计算和能源科研。它也把 AI 基础设施需求和电力供给绑定，进一步解释为什么 NVIDIA 的平台边界会外溢到能源、电网和国家战略基础设施。 原文要点：这篇 NVIDIA Blog 记录了美国能源部长 Chris Wright 与 NVIDIA 高性能计算负责人 Ian Buck 在 SCSP AI+ Expo 上的对谈。文章的核心不是普通宣传，而是把 AI、能源、电力和国家科研基础设施联系在一起：美国 AI 领导力需要能源领导力支撑，而 DOE 的 Genesis Mission 是把 AI 用于科学发现的执行抓手。；Genesis Mission 是美国能源部推动 AI 科学发现的项目，NVIDIA 是合作伙伴之一。文章强调 NVIDIA 与美国国家实验室已有约 20 年超算合作历史，Buck 表示 NVIDIA 对 Genesis “100% committed and invested”。这说明 NVIDIA 在国家级科学计算体系中不是一次性供应商，而是长期全栈技术伙伴。；文章给出两个关键项目：NVIDIA 与 DOE 正在 Argonne National La…"
-            }
-          ],
-          "moat": [
-            {
-              "key": "business-moat-财报-经营验证",
-              "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是一条 P1 级平台地位强化事件。它不直接等同于短期订单增量，但强化了 NVIDIA 的长期角色：不只是卖 GPU，而是在国家级 AI 科学、主权 AI、超算和能源基础设施中提供全栈平台。更重要的是，Vera Rubin 级别的大规模部署进入国家实验室语境，说明 NVIDIA 的下一代平台有望继续获得非互联网客户、政府科研体系和能源科学场景的需求支撑。"
-            }
-          ]
-        },
-        "valuationModel": {
-          "currentBreakdown": [],
-          "scenarios": [],
-          "triggers": []
-        }
-      },
-      "depositPolicy": {
-        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
-        "limits": {
-          "financeMap.rows": 3,
-          "financeMap.bridge": 3,
-          "financeMap.notes": 2,
-          "businessMap.segments": 2,
-          "businessMap.moat": 2,
-          "valuationModel.currentBreakdown": 2,
-          "valuationModel.scenarios": 1,
-          "valuationModel.triggers": 1
-        },
-        "omitted": {}
-      },
-      "depositEvents": [
-        {
-          "eventIndex": 3,
-          "title": "DOE Genesis Mission 与 Argonne 两台 AI 超算强化 NVIDIA 在国家级 AI 科学基础设施中的平台地位",
-          "date": "2026-05-07",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=3&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 4,
-          "title": "Spectrum-X + MRC 把以太网推向 AI 工厂训练网络，强化 NVIDIA 系统级平台位置",
-          "date": "2026-05-06",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=4&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 5,
-          "title": "ServiceNow Project Arc 与 OpenShell 合作验证 NVIDIA 企业 Agent 栈从模型走向安全执行层",
-          "date": "2026-05-05",
-          "priority": "P2",
-          "detailLink": "./event.html?company=nvidia&event=5&return=company&v=20260505-1"
-        }
-      ]
-    },
     "constellation": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-05-25T14:36:45",
+      "updatedAt": "2026-05-26T21:08:33",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
