@@ -58,6 +58,41 @@ BAD_EXCERPT_PATTERNS = (
     "Skip to main content",
 )
 
+A_SHARE_SEED_CANDIDATES = {
+    "jcet": [
+        {
+            "title": "长电科技最小研究包待更新：验证长电微亏损、先进封装毛利率与经营现金流",
+            "date": "2026-05-27",
+            "source_url": "https://www.jcetglobal.com/cn/site/news",
+            "source_excerpt": "研究池种子候选：长电科技已完成强 B 层最小研究包，下一步应读取 2025 年报、2026Q1 和投资者关系材料，验证先进封装收入含金量、长电微亏损是否收窄、毛利率与经营现金流是否改善。",
+        }
+    ],
+    "naura": [
+        {
+            "title": "北方华创一页式观察卡待建：半导体设备平台化、订单质量与现金流验证",
+            "date": "2026-05-27",
+            "source_url": "https://www.naura.com/list/8.html",
+            "source_excerpt": "研究池种子候选：北方华创用于补前道半导体设备国产化拼图。第一步读取 2025 年报、2026Q1、订单/合同负债、毛利率和现金流，判断增长是否由真实设备需求支撑。",
+        }
+    ],
+    "amec": [
+        {
+            "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
+            "date": "2026-05-27",
+            "source_url": "https://www.amec-inc.com/investor",
+            "source_excerpt": "研究池种子候选：中微公司用于和北方华创形成设备侧对照。第一步读取 2025 年报、2026Q1、研发投入、新产品进展和毛利率，验证刻蚀设备份额和先进制程设备兑现度。",
+        }
+    ],
+    "innolight": [
+        {
+            "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
+            "date": "2026-05-27",
+            "source_url": "https://www.innolight.com/inv2.aspx",
+            "source_excerpt": "研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。",
+        }
+    ],
+}
+
 
 class CandidateHTMLParser(HTMLParser):
     def __init__(self) -> None:
@@ -265,6 +300,22 @@ def load_existing_payload() -> dict:
 
 def count_candidates(payload: dict) -> int:
     return sum(len(items) for items in (payload.get("companies") or {}).values())
+
+
+def merge_candidate_payloads(base: dict, extra: dict) -> dict:
+    merged = {
+        "generated_at": extra.get("generated_at") or datetime.now().isoformat(timespec="seconds"),
+        "companies": {company: list(items or []) for company, items in (base.get("companies") or {}).items()},
+    }
+    for company_id, items in (extra.get("companies") or {}).items():
+        target = merged["companies"].setdefault(company_id, [])
+        seen = {normalize_text(item.get("title", "")).lower() for item in target}
+        for item in items or []:
+            title = normalize_text(item.get("title", "")).lower()
+            if title and title not in seen:
+                target.append(item)
+                seen.add(title)
+    return merged
 
 
 def clean_candidate(text: str) -> str:
@@ -927,6 +978,31 @@ def build_payload() -> dict:
                 }
             )
 
+    for company_id, seeds in A_SHARE_SEED_CANDIDATES.items():
+        existing_titles = {normalize_text(item.get("title", "")).lower() for item in grouped.get(company_id, [])}
+        for seed in seeds:
+            title = seed["title"]
+            if normalize_text(title).lower() in existing_titles:
+                continue
+            date_text, sort_key = parse_date(seed["date"])
+            grouped[company_id].append(
+                {
+                    "title": title,
+                    "date": date_text,
+                    "fetched_at": datetime.now().strftime("%Y%m%d-%H%M%S"),
+                    "type": "研究池种子候选",
+                    "fact": candidate_fact(title, date_text, seed["source_url"], seed["source_excerpt"]),
+                    "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
+                    "action": "加入 A 股扩池待研判队列",
+                    "priority": "候选",
+                    "sort_key": sort_key,
+                    "source_url": seed["source_url"],
+                    "source_excerpt": seed["source_excerpt"],
+                    "source_body": seed["source_excerpt"],
+                    "source_file": "",
+                }
+            )
+
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "companies": grouped,
@@ -946,6 +1022,13 @@ def main() -> None:
             f"kept previous candidate file with {previous_total} items."
         )
         return
+    if 0 < total < previous_total:
+        payload = merge_candidate_payloads(previous_payload, payload)
+        total = count_candidates(payload)
+        print(
+            "Official candidate extraction produced fewer items than previous run; "
+            f"merged new seed candidates into previous candidate file ({total} items)."
+        )
 
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Official candidates written to: {OUTPUT_FILE} ({total} items)")

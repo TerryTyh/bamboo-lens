@@ -194,8 +194,15 @@ def render_item(index: int, item: dict) -> str:
 
 def render_research_backlog(items: list[dict]) -> str:
     selected = items[:5]
+    a_share_lines = [
+        "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。",
+        "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。",
+        "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。",
+        "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。",
+    ]
+    a_share_focus = "\n".join(a_share_lines)
     if not selected:
-        return """## 1. 研究池｜A 股扩池优先
+        return f"""## 1. 研究池｜A 股扩池优先
 
 **今天应看什么**
 
@@ -203,9 +210,7 @@ def render_research_backlog(items: list[dict]) -> str:
 
 **后续观察点**
 
-- 北方华创：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。
-- 中微公司：先看刻蚀设备、新产品、研发投入和毛利率。
-- 中际旭创/新易盛：做光模块对照，重点看客户集中度、800G/1.6T 产品占比和现金流。
+{a_share_focus}
 
 [原文](https://www.cninfo.com.cn/)"""
 
@@ -223,6 +228,12 @@ def render_research_backlog(items: list[dict]) -> str:
 **今天应看什么**
 
 今日没有新入库正式事件。为了避免日报空转，今天优先处理候选池深读，并把 A 股扩池放在 NVIDIA 生态新闻之前。
+
+**A 股扩池优先**
+
+{a_share_focus}
+
+**候选池提示**
 
 {chr(10).join(lines)}
 
