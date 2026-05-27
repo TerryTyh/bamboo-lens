@@ -1,60 +1,55 @@
-# 竹鉴晨报 | 2026-05-27
+# 竹鉴晨报 | 2026-05-28
 
-## 1. NVIDIA｜Google Cloud 开发者生态扩展：10 万+开发者、JAX/Dynamo/Nemotron/Blackwell 进入云端 AI 构建链条
-
-**原文讲了什么**
-
-NVIDIA 官方博客披露，在 Google I/O 期间，NVIDIA 与 Google Cloud 的联合开发者社区已经超过 100,000 名开发者。该社区提供学习路径、实操实验 和活动，帮助开发者在 Google Cloud 上使用 NVIDIA 全栈 AI 平台。
-
-今年新增内容包括 NVIDIA GPU 上的 JAX 学习路径、面向推理优化的 Dynamo 推理优化实验，以及月度开发者直播；文章还提到过去一年社区已经支持 GKE 上的生产级 RAG 应用、智能体工作负载可观测性、混合本地/云推理原型等用例。
-
-开发工具链层面，文章列举了 cuDF、Google Colab Enterprise、Dataproc、Gemma 4、NVIDIA Nemotron、Google 智能体开发工具包、Cloud Run、搭载 RTX PRO 6000 Blackwell GPU 的 G4 虚拟机 等组合路径。
-
-训练与推理基础设施层面，NVIDIA 与 Google Cloud 把 JAX 优化延伸到 Google Cloud AI 超级计算平台 和 MaxText；GKE 上的 Dynamo 用于大规模推理和 MoE 模型服务效率优化。
-
-可信 AI 与物理 AI 层面，文章补充 SynthID 与 NVIDIA Cosmos 世界基础模型 的合作，并把本篇开发者生态与 Google Cloud Next 的 A5X / Vera Rubin、Gemini、OpenAI、Thinking Machine Labs、Schrodinger、Salesforce、Snap、CrowdStrike 等平台合作线索连接起来。
-
-**业务影响**
-
-业务层面，它影响的是 NVIDIA 数据中心 的平台粘性和云端分发质量。Google Cloud 是 NVIDIA 的客户，也是企业开发者接触 NVIDIA 软件、模型和推理框架的渠道；如果开发者通过 JAX、Dynamo、Nemotron、cuDF、Cloud Run、GKE、G4 Blackwell VM 和 AI Hypercomputer 构建应用，NVIDIA 的价值会从一次性 GPU 采购延伸到训练、推理、模型服务、智能体工作流 和物理 AI 应用开发标准。它也让 NVIDIA 与 hyperscaler 的关系更复杂：云厂商既会自研芯片，也会把 NVIDIA 平台能力包装成客户可用的云服务。
-
-**估值/动作影响**
-
-估值/动作上，这条事件支持 NVIDIA 的平台溢价，但不单独改变合理价值区间或仓位动作。正面是 100,000+ 开发者社区、Dynamo/GKE 推理优化、Nemotron/Gemma/ADK 智能体 工具链和 Cosmos/SynthID 可信物理 AI 线索，增强了“推理和 智能体 应用接棒训练需求”的可信度；限制是文章没有披露付费工作负载规模、GPU 消耗、收入贡献、毛利率或客户转化率。动作上维持 A 池核心，把它作为 Google Cloud 渠道采用和开发者生态扩散的辅助证据，不因这条新闻单独加仓。
-
-**后续观察点**
-
-- 跟踪 Google Cloud 是否扩大 A5X / Vera Rubin、Blackwell GPU、G4 VMs、GKE 上的 Dynamo 和 JAX / AI Hypercomputer 的可用区域、客户案例或商业化指标。
-- 观察 Dynamo、Nemotron、Cosmos、cuDF、RTX PRO 6000 Blackwell GPU 是否在更多企业 智能体、RAG、数据科学或物理 AI 部署案例中出现，而不只是学习路径和 实验教程。
-- 在后续 NVIDIA 财报中继续看 数据中心、网络业务、推理需求、软件/云服务采用和 超大云厂商资本开支 口径，确认开发者生态能否转化为实际计算需求。
-- 跟踪 Google 自研 TPU / ASIC 与多供应商策略是否限制 NVIDIA 在 Google Cloud 工作负载中的议价能力和长期份额。
-
-[原文](https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/)
-
-## 2. NVIDIA｜FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化
+## 1. NVIDIA｜Vera CPU 首批交付 Anthropic/OpenAI/SpaceXAI/Oracle：88 核 Olympus、1.2TB/s 带宽，定位 智能体 AI 新业务
 
 **原文讲了什么**
 
-NVIDIA 公布截至 2026-04-26 的 FY2027 Q1 财报。总收入 816.1 亿美元，环比增长 20%，同比增长 85%；数据中心收入 752 亿美元，环比增长 21%，同比增长 92%。
+NVIDIA 官方博客称，公司在 GTC San Jose（3 月）发布的独立 CPU 产品 Vera 已开始从实验室走向客户：首批 Vera CPU 交付给 Anthropic（旧金山）、OpenAI（Mission Bay）、SpaceXAI（帕洛阿尔托），随后又交付给 Oracle Cloud Infrastructure（圣克拉拉）。
 
-盈利质量继续维持高位：GAAP / non-GAAP 毛利率分别为 74.9% / 75.0%；GAAP 稀释 EPS 为 US$2.39，non-GAAP 稀释 EPS 为 US$1.87；自由现金流 485.5 亿美元。
+文章将 Vera 的定位描述为“为 智能体 AI 时代定制的 CPU”：其关键工作负载不是 GPU 的矩阵计算，而是智能体沙箱、工具调用、编排层与长上下文检索等大量并发、实时的 CPU 侧任务。
 
-公司给出 FY2027 Q2 收入指引 910 亿美元，上下浮动 2%，且不假设来自中国的数据中心计算收入。公司还新增 800 亿美元 股票回购授权，并将季度分红从 US$0.01 提高到 US$0.25。
+文中给出 Vera 的核心规格与口径：88 个 NVIDIA 自研 Olympus 核心、1.2TB/s 内存带宽、每核性能较传统方案快 50%；并援引 Anthropic 负责人观点，强调扩展算力对模型迭代的重要性。
 
 **业务影响**
 
-这次财报把 NVIDIA 的主线进一步推向 AI 工厂平台公司。数据中心已经贡献约九成收入，且内部网络业务增速显著高于计算业务，说明客户采购不只是单点加速卡，而是在购买训练、推理、网络、存储、系统和软件协同能力。报告框架调整为数据中心与边缘计算，也说明公司希望用更贴近 AI 工厂、智能体 AI 和物理 AI 的方式呈现未来增长驱动。
+对业务层面，Vera 的价值在于提高 NVIDIA 在 AI 工厂“全栈控制面”的嵌入度：智能体编排、工具沙箱、检索与数据管道等 CPU 密集环节若能与 GPU/互连/系统一起打包销售，有机会提升机架级系统的整机份额与客户切换成本。与此同时，CPU 是传统强竞争市场，真正影响经营要看是否进入主流服务器平台（OEM 上架、云实例化）以及与既有 GPU 平台形成可规模复制的联合方案。
 
 **估值/动作影响**
 
-估值上，这条事件支持上调 NVIDIA 的基本面确信度和平台化权重，但不直接触发追价。910 亿美元 的 Q2 指引、75% 左右毛利率和 485.5 亿美元 自由现金流，支撑高估值的质量更强；但当前市场已经对 AI 基础设施给出高预期，后续动作仍要看 Q2 是否继续兑现、网络收入是否持续放大、库存/应收是否健康、客户资本开支是否维持。动作上维持 A 池核心，并把下一次 Q2 财报、网络收入和中国以外需求强度列为最高优先级验证点。
+估值/动作上，这更偏“平台溢价验证”而非短线催化：正面是平台边界扩展与头部客户试用开启，有助于支撑对 NVIDIA 长期 TAM 与生态粘性的更高权重；约束是 CPU 业务的量产节奏、毛利结构与与既有 CPU 生态的竞争强度尚未披露。动作建议维持核心持仓/研究优先级不变，把 Vera 的规模化上架与与机架级系统绑定销售作为后续验证点，避免仅凭发布与首批交付上调短期盈利假设。
 
 **后续观察点**
 
-- FY2027 Q2 收入是否接近或超过 910 亿美元 指引。
-- 数据中心网络收入是否继续高增长，验证 Spectrum-X / NVLink / AI 工厂系统协同是否转化为收入。
-- 毛利率能否继续维持约 75%，平台化扩张是否侵蚀盈利质量。
-- 应收账款、库存和自由现金流是否保持健康，避免高增长背后出现营运资本过热。
-- 管理层后续是否给出更清晰的超大客户 / AI 云端与企业客户分拆口径。
+- 验证产品化：Vera 是否被主流 OEM（含 Dell/HPE/Lenovo 等）纳入企业服务器产品线，以及对应的上市时间与配置口径。
+- 验证规模化：是否出现云厂商（含 OCI/其他 hyperscaler）公开的 Vera 实例/机型上架与可用区扩展节奏，而不仅是首批交付新闻。
+- 验证商业化：后续财报/指引中是否开始披露 CPU/系统相关的收入口径、订单或客户采用指标。
+- 验证竞争格局：客户是否将 Vera 作为 x86/Arm 的补充还是替代；是否出现“与 NVIDIA GPU/互连绑定”才能显著成立的采购模式。
 
-[原文](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx)
+[原文](https://blogs.nvidia.com/blog/vera-cpu-delivery/)
+
+## 2. NVIDIA｜Dell AI Factory with NVIDIA：Rubin NVL72/XE9812 与 HGX Rubin NVL8 上线，宣称推理 cost/token 最高降 10x、144 GPU/rack
+
+**原文讲了什么**
+
+NVIDIA 官方博客围绕 Dell Technologies World 的企业侧“Dell AI Factory with NVIDIA”叙事，强调企业 AI 从试点走向 智能体 AI 与大规模推理部署，并给出多项与 Rubin 平台相关的新品口径。
+
+文章称 Dell PowerEdge XE9812（基于 NVIDIA Vera Rubin NVL72）面向大规模 智能体 AI 推理，宣称相对 NVIDIA Blackwell 可实现“最高 10 倍更低 cost-per-token”；并称 XE9880L/XE9885L/XE9882L 为首批基于 NVIDIA HGX Rubin NVL8 的 Dell 系统，支持每机架最高 144 GPU、100% 直冷节点，并宣称相对 HGX B200 最高 10 倍性能。
+
+文章同时提到网络侧的 Dell PowerSwitch + NVIDIA Quantum-X800 InfiniBand、Spectrum-6 Ethernet，以及整机一体化的 Dell PowerRack；在 CPU 侧，Dell PowerEdge M9822/R9822 将引入 Vera CPU，并给出“1.2TB/s 内存带宽、智能体 工作负载 50% 更快”等口径。
+
+**业务影响**
+
+对业务层面，这条动态强化了 NVIDIA 的“AI 工厂平台”在企业私域市场的落地路径：通过 Dell 这样的 OEM，把 GPU（Rubin）、网络（InfiniBand/Ethernet）与整机系统（PowerRack）作为可交付单元进入企业数据中心。这有助于 NVIDIA 把增长从云厂商 资本开支 扩展到更分散但规模巨大的企业侧推理与 智能体 部署市场；同时，OEM/系统层的推进也可能提升网络与系统级产品的绑定率，形成更高的每机架收入与更强的方案锁定效应。
+
+**估值/动作影响**
+
+估值/动作上，这类“企业侧产品化”信息更多影响确信度与中长期渗透率假设：正面是它支持平台化溢价（系统/网络/软件协同）而非纯芯片周期；约束是口径多为发布会宣称，短期兑现仍取决于 Rubin 量产与交付、企业预算释放与项目扩散速度。动作建议维持核心跟踪，避免把发布会对比直接外推为短期毛利或收入加速；把验证重点放到 OEM 订单/交付、企业侧推理需求可见性，以及网络/系统收入占比是否继续抬升。
+
+**后续观察点**
+
+- 验证兑现：后续季度中 NVIDIA 是否披露 Rubin/机架级系统的出货节奏与供给约束缓解情况，企业侧需求是否在订单/收入口径中变得可见。
+- 验证结构：观察 数据中心 内部网络/系统/软件相关收入占比是否继续上升，验证“AI 工厂打包交付”是否在财务上成立。
+- 验证 OEM 扩散：除 Dell 外，其他 OEM 的 Rubin 相关产品是否同步推进并形成可复制的交付模板（液冷、机架级、PowerRack 类整机）。
+- 验证 TCO：关注第三方或客户侧对 cost-per-token、液冷、集成成本的可验证数据，避免仅采用厂商宣称口径。
+
+[原文](https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/)

@@ -30,6 +30,10 @@ def localize_brief_terms(text: str) -> str:
 
     value = re.sub(r"US\$\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*billion\b", replace_usd_billion, value, flags=re.I)
     replacements = {
+        # Avoid partial replacements turning "agentic" into "智能体ic".
+        "Agentic AI": "智能体 AI",
+        "agentic AI": "智能体 AI",
+        "agentic": "智能体",
         "hands-on labs": "实操实验",
         "JAX on NVIDIA GPUs": "NVIDIA GPU 上的 JAX",
         "NVIDIA Dynamo codelab": "Dynamo 推理优化实验",
