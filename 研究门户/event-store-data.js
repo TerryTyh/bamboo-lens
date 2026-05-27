@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-28T00:00:28",
+  "generated_at": "2026-05-27T16:05:04",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -397,7 +397,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -409,7 +409,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -421,7 +421,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -433,7 +433,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -445,7 +445,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -457,14 +457,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
           "date": "2026-05-26",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-26；标题：NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition；原文内容：The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope was centered on the agentic workloads Vera was designed for in the modern data center. T…；来源：https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -474,13 +474,13 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
           "source_excerpt": "The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope was centered on the agentic workloads Vera was designed for in the modern data center. T…",
           "source_body": "The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope was centered on the agentic workloads Vera was designed for in the modern data center. The Vera CPU delivers the throughput AI factories need while optimizing platform power. Eighty-eight NVIDIA custom Olympus cores, 1.2TB/s of memory bandwidth and a high-speed, on-chip fabric results in a CPU platform that combines core performance and memory bandwidth in an efficient power envelope. At the heart of Vera are custom NVIDIA Olympus CPU cores. Fully compatible with the Armv9.2 instruction set architecture, Olympus is designed for the sequential CPU work underpinning agentic AI: branch-heavy runtimes, sandboxed code, data processing and orchestration. Vera’s monolithic die, wide cores, advanced branch prediction and the second-generation NVIDIA Scalable Coherency Fabric help Vera keep data moving across all 88 cores. Phoronix’s testing of a single-socket Vera CPU — rated at 450-watt thermal design power with less than 30 watts of memory power — showed that it delivers outstanding performance within that power profile, along with generational gains across a broad array of workloads spanning code compilation, file compression, video transcoding, Python, Java and database management. These are the same kinds of CPU-heavy tasks that agents and AI factories run every day: compiling code, executing runtimes, compressing data, querying databases and coordinating large software stacks. “Going into this, I didn’t really know what to expect of NVIDIA’s Vera with the new Olympus cores,” wrote Michael Larabel, founder and principal author of Phoronix. “But in the end I was left realizing this is the most formidable competition to Intel and AMD x86_64 processors ever realized.” Agentic workloads are not limited by core count alone. They need high core utilization and sustained memory bandwidth, making memory performance per watt a critical part of overall CPU efficiency. Vera incorporates a second-generation LPDDR5X memory subsystem, enabling dramatically lower energy per bit compared to DDR5. This allows Vera to offer up to a massive 1.2 TB/s of bandwidth — up to 2x the peak memory bandwidth compared with traditional CPUs in less than 30 watts of memory power, as opposed to more than 100 watts for traditional DDR5. In Phoronix STREAM TRIAD testing, Vera sustained 90% of its peak memory bandwidth — achieving the highest percentage of rated peak bandwidth of any CPU tested by Phoronix — and delivered over 4x the memory bandwidth per core compared with traditional x86 CPUs. “NVIDIA Vera with its LPDDR5X memory was showing its incredible advantage in memory performance over current Intel Xeon and AMD EPYC processors,” Larabel wrote.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-155426__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
           "date": "2026-05-21",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-21；标题：NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI；原文内容：The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m.…；来源：https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -490,12 +490,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
           "source_excerpt": "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m.…",
           "source_body": "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m. Taipei time. Tune in early to catch the GTC Live at Taipei 2026 pregame show, featuring lively conversations with industry leaders about the latest innovations in AI and accelerated computing. This is the place to find all the latest — stay tuned to the blog for live updates. Constellation — NVIDIA’s Expanded Campus in Taipei Modern astronomy recognizes 88 official constellations — today in Taipei, Huang unveiled NVIDIA Constellation to a packed crowd including employees, local leaders and his family. Taipei Mayor Chiang Wan-an joined the celebration at the site of the new campus, shaking hands with Huang and presenting him with a key to the city. He also gifted Huang a traditional calligraphy scroll, which he made himself. “The world is watching NVIDIA shape the future of AI,” the mayor told attendees. Huang answered questions, joked with attendees in Mandarin and gave out signed champagne bottles to employees who have recently gotten married. The most popular topic: the NVIDIA Gear Store for company swag. “Due to popular demand, this Gear Store will be open to the public,” Huang said to applause. The new building, designed to house roughly 4,000 employees, will be based in the Beitou-Shilin Technology Park in northern Taipei on a site spanning nearly 4 hectares. It reflects the iconic design of NVIDIA’s headquarters in Santa Clara. Once operational, the site will serve as one of the largest AI research and development hubs in the APAC region. In his comments, Huang focused on the enormous opportunity of the current agentic AI moment to drive growth for NVIDIA and the entire Taiwan ecosystem. Looking ahead, the next phase is physical AI.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-155426__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Announces Upcoming Events for Financial Community",
           "date": "2026-05-21",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -505,12 +505,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-155426__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle",
           "date": "2026-05-21",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-21；标题：License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle；原文内容：GeForce NOW is dialing up the action with a blockbuster mix of spy thrills, high-speed racing and member rewards — plus eight new games joining the cloud this week, all ready to stream instantly. Leading the drop: the 007 First Light Ultimate Membership Bundle, which brings a brand-new way to jump into one of the year’s biggest releases and discover James Bond’s reimagined origin story. Rev the engines — the Horizon…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -520,12 +520,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/",
           "source_excerpt": "GeForce NOW is dialing up the action with a blockbuster mix of spy thrills, high-speed racing and member rewards — plus eight new games joining the cloud this week, all ready to stream instantly. Leading the drop: the 007 First Light Ultimate Membership Bundle, which brings a brand-new way to jump into one of the year’s biggest releases and discover James Bond’s reimagined origin story. Rev the engines — the Horizon…",
           "source_body": "GeForce NOW is dialing up the action with a blockbuster mix of spy thrills, high-speed racing and member rewards — plus eight new games joining the cloud this week, all ready to stream instantly. Leading the drop: the 007 First Light Ultimate Membership Bundle, which brings a brand-new way to jump into one of the year’s biggest releases and discover James Bond’s reimagined origin story. Rev the engines — the Horizon Festival is calling. Forza Horizon 6 is now available on GeForce NOW — bringing the series’ signature open-world racing and festival energy directly to members, wherever they play. Stream a world built for speed, style and freedom instantly across devices, with no downloads required. A mission worth accepting arrives. Starting today through Wednesday, June 10, 007 First Light is included with the purchase of a 12-month GeForce NOW Ultimate membership . Lock it in before the game’s launch, and it’ll be ready to play the moment it goes live on Wednesday, May 27 — no preloads, no waiting, no mission briefings required. This is a new, original take of Bond’s story — before the tux fit perfectly and the martinis got specific. 007 First Light drops players into a sharp, cinematic origin story packed with globe-trotting espionage, close calls and choices that shape how the world’s most famous agent takes form. Expect stealth, spectacle and just enough chaos to keep things interesting. Stream it all with GeForce RTX 50 Series GPU power in the cloud, with up to 5K high dynamic range and cinematic-quality streaming for Ultimate members. It’s high-end PC gaming, minus the high-end PC. Redeeming the mission is simple: After purchase, get the game by going to the “Available to Redeem” section in the account portal, signing in to a Steam account and completing the redemption. The game is for members to keep — and ready to play across devices at launch with GeForce NOW. Forza Horizon 6 is the ultimate automotive playground — a shared world where racing, exploration and creativity come together. Every road, trail and skyline is designed to be driven, discovered and mastered. Take on a wide range of events, from high-speed street races to off-road expeditions, or drop into live activities happening across the world. Build a garage of iconic cars spanning decades of automotive history, each brought to life with incredible detail and customization. The Horizon Festival is more than competition — it’s a celebration of car culture and music. Seamless online features connect players across events and challenges, making every session feel alive and unpredictable. Powered by the cloud, GeForce NOW delivers the festival in stunning detail. Members experience ultrasmooth performance and vivid environments without needing to wait for installs or upgrading hardware. With technologies like NVIDIA DLSS enhancing performance and visual fidelity, every reflection, speed blur and finish-line sprint hits at full intensity. Community-created content takes the spotlight this week, as GeForce NOW ambassador Cloud Gaming Battle sits down with Andrew Fear, GeForce NOW product manager director at NVIDIA, to dive into what makes the service tick. The conversation covers how GeForce NOW brings high-performance PC gaming from the cloud to a wide range of devices, giving a closer look at the tech, thinking and passion behind the platform. It’s a conversation that the GFN Reddit community is calling “genuinely inspirational.”",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-155426__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
           "date": "2026-05-18",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-18；标题：Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs；原文内容：Agentic AI has always called for a different kind of CPU. NVIDIA founder and CEO Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multibillion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay…；来源：https://blogs.nvidia.com/blog/vera-cpu-delivery/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -535,7 +535,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
           "source_excerpt": "Agentic AI has always called for a different kind of CPU. NVIDIA founder and CEO Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multibillion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay…",
           "source_body": "Agentic AI has always called for a different kind of CPU. NVIDIA founder and CEO Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multibillion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay, SpaceXAI in Palo Alto — followed by a delivery to Oracle Cloud Infrastructure in Santa Clara on Monday. NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck hand-delivered them. “ Agentic AI is creating a new CPU moment in the AI factory — as models move from answering to acting, Vera is purpose-built to keep that work moving at scale, ” Buck said. NVIDIA’s Ian Buck hand-delivered the first-ever NVIDIA Vera CPUs to our partners @AnthropicAI , @OpenAI , @SpaceX , and @OracleCloud . 🎉 Vera is NVIDIA’s first custom CPU, purpose-built for the age of agentic AI. This is just the beginning. The road to Vera-powered systems starts… pic.twitter.com/Ep5PLqcqIa The big idea: imagine you could work 10x faster. Could your computer keep up? Agentic AI puts more demand than ever on the infrastructure we use to do all kinds of work — from building slides to compiling and testing software, analyzing data, searching files or even running simulations. AI agents don’t run on GPUs alone. Every agentic sandbox, every tool call, every orchestration layer, every long-context retrieval operation — that’s CPU work. Vera is a new class of CPU designed with that reality as its starting point. This gauntlet of concurrent, real-time tasks puts pressure on CPUs in ways traditional core-density focused designs were never built to prioritize. Vera packs 88 custom NVIDIA-designed Olympus cores, 1.2TB/s of memory bandwidth and 50% faster per-core performance. Under constant load, work completes more quickly — increasing the efficiency of the entire AI factory and helping users get their work done with faster responses. The first delivery landed at Anthropic’s sleek SoMa offices in San Francisco. James Bradbury, Anthropic’s head of compute, took the handoff from their conference room near the Bay. Buck, aided by a bare NVIDIA Vera CPU motherboard he carried as a guide, walked Bradbury through the server built around the new CPU, talking through the features that make Vera different. “Scaling compute is an important accelerant for the growth of models,” Bradbury said. “We’re excited to see Vera emerge as a promising part of the ecosystem when solving for agentic workloads.”",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-155426__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -776,7 +776,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -788,7 +788,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -837,7 +837,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -849,7 +849,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -861,7 +861,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -873,14 +873,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "TSMC Files Annual Report on Form 20-F for 2025",
           "date": "2026-04-16",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts []…；来源：http://pr.tsmc.com/english/news/3300",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -890,7 +890,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "http://pr.tsmc.com/english/news/3300",
           "source_excerpt": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts []…",
           "source_body": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3300#)Search 5. TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300) TSMC Files Annual Report on Form 20-F for 2025 TSMC Files Annual Report on Form 20-F for 2025 *HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 -**TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available athttps://investor.tsmc.com/english/sec-filings.Hard copies of the report are also available, free of charge, upon email request top_sec_service@tsmc.com. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260527-155426__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260527-160142__pr.tsmc.com_english_latest-news.html"
         }
       ]
     },
@@ -910,7 +910,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -922,7 +922,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -934,7 +934,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -946,7 +946,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -958,7 +958,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -970,7 +970,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -991,7 +991,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1003,7 +1003,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1015,7 +1015,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1027,7 +1027,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1039,7 +1039,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1051,7 +1051,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1072,7 +1072,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1084,7 +1084,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1096,7 +1096,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1108,7 +1108,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1120,7 +1120,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1132,14 +1132,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "2026春季爆品发布会",
           "date": "2026-03-16",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-03-16；标题：2026春季爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1149,12 +1149,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "2025年度爆品发布会",
           "date": "2025-09-01",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-09-01；标题：2025年度爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1164,12 +1164,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会",
           "date": "2025-06-17",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-06-17；标题：邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1179,12 +1179,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！",
           "date": "2022-11-21",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2022-11-21；标题：数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1194,12 +1194,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "关于汇川技术机器人产品价格调整的通知",
           "date": "2026-03-30",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-03-30；标题：关于汇川技术机器人产品价格调整的通知；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1209,12 +1209,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”",
           "date": "2025-05-09",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-05-09；标题：汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1224,12 +1224,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-10",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2024-10-10；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1239,12 +1239,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-08",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2024-10-08；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1254,7 +1254,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-155426__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260527-160142__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         }
       ]
     },
@@ -1274,7 +1274,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1286,7 +1286,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1298,7 +1298,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1310,7 +1310,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1322,7 +1322,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1334,14 +1334,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "4th Quarter 2025 Earnings Webcast",
           "date": "2026-01-28",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-01-28；标题：4th Quarter 2025 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1351,7 +1351,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.gevernova.com/investors/events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260527-155426__www.gevernova.com_investors_events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260527-160142__www.gevernova.com_investors_events.html"
         }
       ]
     },
@@ -1371,7 +1371,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1383,7 +1383,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1395,7 +1395,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1407,7 +1407,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1419,7 +1419,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1431,7 +1431,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1443,14 +1443,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility",
           "date": "2026-03-09",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-03-09；标题：Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility；原文内容：Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…；来源：https://www.luxshare-ict.com/en/news/release/177.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1460,12 +1460,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/177.html",
           "source_excerpt": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…",
           "source_body": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a comprehensive look at its advanced capabilities in automotive intelligence and connectivity. The showcase featured a coordinated presentation of Luxshare’s brand ecosystem—including Luxvision intelligent vision systems, Leoni wiring systems, and BCS intelligent human-machine interface products. This collective display highlighted Luxshare’s robust system integration capabilities and underscored its evolution into a full-stack solution provider, capable of delivering integrated in-vehicle intelligent platforms—from underlying hardware to upper-level algorithms—to global OEMs with enhanced efficiency and security. The Techday opened with a VIP tour attended by over 30 senior leaders from Renault, including Sandra Beck, Vice President of Purchasing. Accompanied by Ms. Lidya Li, Executive Vice President of Luxshare-ICT and President of the Luxshare Automotive Business Group, the Renault leadership team explored the core exhibits across multiple business units, gaining hands-on insights into five key technological domains: Connection Systems, ADAS, Intelligent Cockpit, Power Systems, and Intelligent Chassis. Through live demonstrations and in-depth technical discussions, Renault representatives gained a strong appreciation for Luxshare’s system-level design capabilities, global delivery capacity, and synergistic approach within the automotive components sector. To ensure alignment across global teams, Luxshare organized a series of online training sessions tailored specifically for Renault’s worldwide procurement organization. Leveraging digital platforms, these sessions showcased Luxshare’s core product lines and long-term technology roadmap, while fostering extensive discussions with procurement experts across regions. This initiative helped global teams stay informed on Luxshare’s latest innovations and delivery capabilities, strengthening mutual strategic trust and laying a solid foundation for future multi-regional, multi-project collaboration. A key highlight of the Techday was a focused workshop centered on Luxshare’s core product portfolio. Technical experts from both companies engaged in deep-dive discussions on cutting-edge domains such as Intelligent Cockpits, ADAS, and UWB technology. Through these intensive exchanges, Luxshare not only demonstrated its technological depth but also reaffirmed its dedication to deep customization and collaborative development with OEM partners. The success of this Techday marks a significant milestone in Luxshare Group’s journey toward fully integrated, synergistic collaboration with global automotive leaders. As the industry accelerates toward an intelligent future, Luxshare is poised to drive innovation and shape the next generation of mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"",
           "date": "2026-01-19",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-01-19；标题：​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"；原文内容：After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…；来源：https://www.luxshare-ict.com/en/news/release/179.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1475,12 +1475,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/179.html",
           "source_excerpt": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…",
           "source_body": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the belief that \"responsibility is as precious and weighty as gold,\" and as China's ESG development moves comprehensively from \"setting standards\" to \"strengthening compliance\" – with sustainability becoming an ever more critical part of corporate competitiveness – the \"Golden Responsibility Award\" recognizes companies that have made outstanding contributions to China's ESG cause. This is the fifth consecutive year that Luxshare Precision has received the \"Golden Responsibility Award,\" reflecting the company's long‑term dedication to ESG, particularly in the environmental dimension. We regard green and low‑carbon development as a solid foundation for high‑quality growth. We proactively identify and manage climate risks and opportunities, set science‑based carbon targets aligned with the 1.5°C pathway, establish a carbon reduction roadmap across our value chain, and continuously deepen green operations. The company systematically advances water risk identification and assessment, sets sustainable water management goals and actions, and strictly complies with laws and regulations in wastewater and exhaust gas management. Aiming for a waste conversion rate of 90% by 2025, we actively promote the concept of zero waste to landfill and explore new models of waste recycling. In addition, leveraging the Azure EcoChain platform, we continuously push our suppliers to disclose emissions and pollutant release and transfer register information, helping them improve their environmental performance. As a result, we have been ranked No. 3 in the industry in the Green Supply Chain Index (CITI) and No. 2 in the Corporate Climate Action Index (CATI). Painting the manufacturing landscape with green, and translating responsibility into the language of precision, Luxshare Precision will continue to build long‑term competitiveness and work with its value chain partners to write a new chapter of high‑quality, sustainable development. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification",
           "date": "2026-01-05",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-01-05；标题：World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification；原文内容：On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…；来源：https://www.luxshare-ict.com/en/news/release/178.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1490,12 +1490,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/178.html",
           "source_excerpt": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…",
           "source_body": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-end transmission solutions market. With forward looking innovation, Luxshare Precision has consecutively set world leading certification records in DisplayPort, HDMI and USB technologies. Strategic Focus: Deeply committed to high speed and high frequency interconnect technologies. Cross Industry Layout: Expanding across consumer electronics, automotive electronics, communications equipment and intelligent manufacturing. Industry Leadership: As the world's first to achieve DP80LL certification, and continuously building competitive barriers with HDMI 2.2 connectors and USB4 technology. Three Major Breakthroughs, Redefining High-Performance Cables Long-Distance Transmission: Integrated LRD technology to overcome limitations and achieve stable transmission up to 3 meters. Extreme Performance: Delivers 40Gbps ultra-high bandwidth and 240W top-tier power delivery. Perfect Compatibility: Supports 8K video and is compatible with Thunderbolt™ 3/4 on specific systems, enabling seamless multi-protocol connectivity. As an active promoter of global interconnect technology, Luxshare Precision always stands at the forefront of international standard development. This certification represents not just a breakthrough in product technology but also a powerful testament to the company's role as a \"standard-setter,\" driving the upgrade of connectivity experiences within the industry. Looking ahead, Luxshare Precision will continue to deepen its R&D and innovation in cutting-edge technologies like USB4 and Thunderbolt, collaborating with global partners to jointly define a new standard for efficient, reliable, and intelligent connectivity. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Named to Forbes' 2025 World's Best Employers List",
           "date": "2025-10-10",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-10-10；标题：Luxshare Precision Named to Forbes' 2025 World's Best Employers List；原文内容：Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…；来源：https://www.luxshare-ict.com/en/news/release/174.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1505,12 +1505,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/174.html",
           "source_excerpt": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…",
           "source_body": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment. This recognition underscores the company's strong reputation as an employer among professionals worldwide. At Luxshare, we are committed to fostering our employees' growth and integrating sustainable practices into our talent strategy. We provide comprehensive support, safeguard employees' rights, and offer clear career advancement paths to help every individual succeed. We view this not only as an honor but as a responsibility. Going forward, we will continue to enhance our employee development programs and strengthen our culture of mutual growth and success. Our goal is to empower every Luxshare employee to achieve their professional aspirations and fulfill their potential. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!",
           "date": "2025-07-31",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-07-31；标题：Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!；原文内容：BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…；来源：https://www.luxshare-ict.com/en/news/release/173.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1520,12 +1520,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/173.html",
           "source_excerpt": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…",
           "source_body": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects the latest dynamics shaping the global industrial landscape. Luxshare Precision's inclusion for the third consecutive year signifies international recognition of the company's comprehensive capabilities and vividly illustrates the rise of \"Intelligent Manufacturing in China\" to the top of the global value chain. Looking forward, Luxshare Precision will continue to drive its dual-engine strategy of \"Technology + Manufacturing,\" delivering smarter and more efficient products and solutions to global customers, advancing high-quality development within the industry. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations",
           "date": "2025-07-23",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-07-23；标题：Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations；原文内容：July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…；来源：https://www.luxshare-ict.com/en/news/release/176.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1535,12 +1535,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/176.html",
           "source_excerpt": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…",
           "source_body": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassis. The event served as a platform to demonstrate Luxshare-ICT's integrated approach to developing solutions from critical components to full systems. The exhibition featured a powerful demonstration of group synergies, presenting products from across the Luxshare portfolio, including the Luxvisions intelligent vision system, Leoni HV/LV wiring harness, BCS smart interaction systems. The event also marked the first joint participation since Leoni's official integration into the Luxshare Group in 2025, signifying a substantial step forward in technological synergy and market expansion. This progress further strengthens Luxshare's capabilities in providing system-level solutions for next-generation vehicle E/E architectures. During the event, Executive Vice President of Luxshare-ICT and President of the Automotive Business Group, Ms. Lidya Li, met with Mr. Tobias Moch, Chief Procurement Officer of JLR. The meeting featured productive discussions centered on the shared vision for next-generation automotive technology and manufacturing excellence. The Tech Day was not only a successful demonstration of Luxshare's technological strength and collaborative achievements, but also a powerful testament to its commitment to driving innovation in the automotive industry. Moving forward, Luxshare-ICT will continue to deepen the collaboration with global partners to jointly advance towards a safer, more efficient, and more connected future of intelligent mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "REACH and SVHC Statement",
           "date": "2025-07-22",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-07-22；标题：REACH and SVHC Statement；原文内容：As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…；来源：https://www.luxshare-ict.com/en/news/release/172.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1550,12 +1550,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/172.html",
           "source_excerpt": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…",
           "source_body": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an article contains more than 0.1% (by weight per article) of any substance on the SVHC candidate list published by the European Chemicals Agency (ECHA). Our company, Luxshare Precision Limited, manufactures the products TMRV085G/TMRV08P5G, which are in compliance with Article 33 of the REACH Regulation (EC No. 1907/2006 – Registration, Evaluation, Authorization and Restriction of Chemicals). In accordance with Article 33 of the REACH Regulation, we commit to providing relevant information and disclosing the required details. The status regarding the presence of Substances of Very High Concern (SVHC) in these products and their packaging materials is detailed below: Batteries from products may potentially contain 1,3-propanesultone above 0.1% by weight. C opper alloy nuts Parts from products may potentially contain Lead above 0.1% by weight. The SVHC used in these products do not pose a safety risk to customers under normal use conditions. Regarding the products of the T-Mobile brand phones, T-Mobile USA, Inc. offers recycling programs for customers to help ensure these products are recycled appropriately. For more information about the recycling programs, please visit: https://www.t-mobile.com/responsibility/planet/waste-recycling-circularity Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay",
           "date": "2025-07-21",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-07-21；标题：Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay；原文内容：On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…；来源：https://www.luxshare-ict.com/en/news/release/171.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1565,7 +1565,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.luxshare-ict.com/en/news/release/171.html",
           "source_excerpt": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…",
           "source_body": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. This philosophy was recently embodied in the successful conclusion of the sixth annual Luxshare Cup, a signature internal sporting and cultural event. Established in 2017, the Luxshare Cup has grown to represent much more than a sporting competition. It is a celebration of unity, collaboration, and the shared values that define Luxshare Precision’s corporate culture. The event brings together employees from diverse regions and job roles, fostering a dynamic platform for team building and mutual recognition. Through sport, participants experience firsthand the power of cooperation and a sense of collective purpose that transcends daily work. Each year, the Luxshare Cup evolves to reinforce cultural relevance and deepen employee connection. Beyond enhancing morale and wellness, the event serves as a powerful channel for embedding core values such as progress, inclusiveness, and collaboration. Cultural exchanges—ranging from traditional performances to regional displays—highlight the diversity within Luxshare Precision’s global workforce and create meaningful dialogue across borders. The centerpiece of this year’s event was the innovative “Luxshare Cup\" Global Relay,ss a nine-month journey that began on June 24, 2024. This symbolic relay connected 28 company locations across China, Vietnam, Japan, the United States, Singapore, and India. Employees from different backgrounds and regions actively participated, each proudly contributing to the Cup’s journey from one site to another. More than a physical handover, the event fostered a sense of global emotional connectivity and unity. Each stop in the relay featured unique cultural interpretations of welcome. At the Bac Giang facility in Vietnam, the Cup’s arrival sparked heartfelt celebrations. Employees donned traditional Ao Dai attire and performed a choreographed Vietnamese dance, prepared over weeks of rehearsal. “When I read the note inside the box that said, ‘Please deliver this safely to the next stop’—written in a language I don’t fully understand—I still felt its weight,” said Luong Thi Phuong, an HR representative in Vietnam. “It was a shared responsibility, a dream we were carrying together.” That same spirit echoed across the globe. In the United States, Mandy Yang from the Overseas Management Department recalled witnessing colleagues in India create intricate floral motifs and perform traditional dances. “It completely reshaped my view of cultural fusion,” Yang shared. “Every site greeted the Cup with genuine care and collective effort. These moments conveyed a warmth and unity no manual could ever express. That’s what ‘One Luxshare’ truly means.” At a time when the world faces growing complexity and uncertainty, Luxshare Precision continues to advance its technology-driven capabilities—while also investing in the cultural alignment and internal cohesion that define its global identity. By strengthening both operational excellence and human connection, the company is well-positioned to navigate global challenges with clarity and confidence, anchoring its international development strategy in unity, understanding, and trust. For more information about Luxshare Precision, please visit http://www.luxshare-ict.com/en/ . Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-155426__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260527-160142__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -1624,7 +1624,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1636,7 +1636,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1648,7 +1648,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1660,14 +1660,14 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
         {
           "title": "CERAWeek Highlights 2026",
           "date": "2026-03-27",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-03-27；标题：CERAWeek Highlights 2026；原文内容：Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1677,12 +1677,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Axios DC + AI Summit",
           "date": "2026-03-25",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-03-25；标题：Axios DC + AI Summit；原文内容：Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1692,12 +1692,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Constellation CEO: 'We Produce Enough Energy to Power Mexico'",
           "date": "2026-01-20",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-01-20；标题：Constellation CEO: 'We Produce Enough Energy to Power Mexico'；原文内容：Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1707,12 +1707,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "ENERGY: Always On",
           "date": "2025-11-18",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-11-18；标题：ENERGY: Always On；原文内容：Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1722,12 +1722,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
           "date": "2026-05-11",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1737,12 +1737,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-11-07",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-11-07；标题：Q3 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1752,12 +1752,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-08-07",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-08-07；标题：Q2 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1767,12 +1767,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-05-06",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2025-05-06；标题：Q1 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1782,12 +1782,12 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
           "date": "2024-11-04",
-          "fetched_at": "20260527-155426",
+          "fetched_at": "20260527-160142",
           "type": "官方候选",
           "fact": "日期：2024-11-04；标题：Q3 2024 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1797,7 +1797,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-155426__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260527-160142__investors.constellationenergy.com_events-and-presentations_past-events.html"
         }
       ]
     },
@@ -1811,7 +1811,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
         {
           "title": "长电科技最小研究包待更新：验证长电微亏损、先进封装毛利率与经营现金流",
           "date": "2026-05-27",
-          "fetched_at": "20260528-000016",
+          "fetched_at": "20260527-160439",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：长电科技最小研究包待更新：验证长电微亏损、先进封装毛利率与经营现金流；原文内容：研究池种子候选：长电科技已完成强 B 层最小研究包，下一步应读取 2025 年报、2026Q1 和投资者关系材料，验证先进封装收入含金量、长电微亏损是否收窄、毛利率与经营现金流是否改善。；来源：https://www.jcetglobal.com/cn/site/news",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1835,7 +1835,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
         {
           "title": "北方华创一页式观察卡待建：半导体设备平台化、订单质量与现金流验证",
           "date": "2026-05-27",
-          "fetched_at": "20260528-000016",
+          "fetched_at": "20260527-160439",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：北方华创一页式观察卡待建：半导体设备平台化、订单质量与现金流验证；原文内容：研究池种子候选：北方华创用于补前道半导体设备国产化拼图。第一步读取 2025 年报、2026Q1、订单/合同负债、毛利率和现金流，判断增长是否由真实设备需求支撑。；来源：https://www.naura.com/list/8.html",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1859,7 +1859,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
         {
           "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
           "date": "2026-05-27",
-          "fetched_at": "20260528-000016",
+          "fetched_at": "20260527-160439",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化；原文内容：研究池种子候选：中微公司用于和北方华创形成设备侧对照。第一步读取 2025 年报、2026Q1、研发投入、新产品进展和毛利率，验证刻蚀设备份额和先进制程设备兑现度。；来源：https://www.amec-inc.com/investor",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1883,7 +1883,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
         {
           "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
           "date": "2026-05-27",
-          "fetched_at": "20260528-000016",
+          "fetched_at": "20260527-160439",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证；原文内容：研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。；来源：https://www.innolight.com/inv2.aspx",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",

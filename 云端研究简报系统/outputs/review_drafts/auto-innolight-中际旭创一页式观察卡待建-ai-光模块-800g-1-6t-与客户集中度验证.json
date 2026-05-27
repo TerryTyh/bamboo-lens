@@ -1,32 +1,31 @@
 {
-  "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
+  "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
   "draft_status": "auto_draft",
   "generated_at": "2026-05-27T16:05:04",
-  "company": "nvidia",
-  "company_name": "NVIDIA",
-  "source_candidate_title": "NVIDIA Announces Upcoming Events for Financial Community",
-  "title": "NVIDIA Announces Upcoming Events for Financial Community",
-  "date": "2026-05-21",
+  "company": "innolight",
+  "company_name": "中际旭创",
+  "source_candidate_title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
+  "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
+  "date": "2026-05-27",
   "type": "官方候选",
   "priority": "草稿",
-  "action": "等待补证据",
-  "score": 6,
-  "sort_key": 20260521,
-  "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "action": "进入人工研判",
+  "score": 10,
+  "sort_key": 20260527,
+  "source_url": "https://www.innolight.com/inv2.aspx",
+  "source_doc": "",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
-  "readiness_score": 0,
-  "investment_signal_score": 0,
+  "readiness_score": 20,
+  "investment_signal_score": 4,
   "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
   "promotion_blockers": [
-    "还没有抓到足够正文",
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679"
+    "研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。"
   ],
-  "fact": "日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
+  "fact": "日期：2026-05-27；标题：中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证；原文内容：研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。；来源：https://www.innolight.com/inv2.aspx",
   "evidence": [
     "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
     "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
@@ -56,8 +55,8 @@
   "quality_check": {
     "has_source": true,
     "has_readable_source": true,
-    "has_source_body": false,
-    "source_chars": 174,
+    "has_source_body": true,
+    "source_chars": 92,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -67,6 +66,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.json"
+  "portal_doc": "./docs/review-drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.json"
 }

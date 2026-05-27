@@ -1,23 +1,22 @@
-# 正式事件草稿｜NVIDIA｜NVIDIA Announces Upcoming Events for Financial Community
+# 正式事件草稿｜中微公司｜中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化
 
 ## 草稿状态
 
-- 公司：NVIDIA（nvidia）
-- 日期：2026-05-21
+- 公司：中微公司（amec）
+- 日期：2026-05-27
 - 类型：官方候选
 - 候选分数：6
-- 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 0）
-- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html
+- 当前动作：进入人工研判
+- 批处理建议：低投资信息密度（readiness 6）
+- 官方来源：[打开官方来源](https://www.amec-inc.com/investor)
+- 来源快照：暂无
 
 ## 批处理建议
 
-当前主要是标题或短事实，不适合直接进入正式事件。
+虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。
 
 ### 当前阻碍
 
-- 还没有抓到足够正文
 - 可读内容偏短
 
 ## 原文与事实
@@ -26,11 +25,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+研究池种子候选：中微公司用于和北方华创形成设备侧对照。第一步读取 2025 年报、2026Q1、研发投入、新产品进展和毛利率，验证刻蚀设备份额和先进制程设备兑现度。
 
 ### 候选事实
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+日期：2026-05-27；标题：中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化；原文内容：研究池种子候选：中微公司用于和北方华创形成设备侧对照。第一步读取 2025 年报、2026Q1、研发投入、新产品进展和毛利率，验证刻蚀设备份额和先进制程设备兑现度。；来源：https://www.amec-inc.com/investor
 
 ## 升级为正式事件前必须补齐
 
@@ -70,11 +69,11 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-nvidia-nvidia-announces-upcoming-events-for-financial-community`
+`auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化`
 
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：否
+- 有可读正文：是
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。

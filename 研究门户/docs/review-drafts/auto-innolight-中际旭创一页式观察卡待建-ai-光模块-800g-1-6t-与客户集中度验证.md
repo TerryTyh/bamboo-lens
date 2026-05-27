@@ -1,15 +1,15 @@
-# 正式事件草稿｜NVIDIA｜NVIDIA Announces Upcoming Events for Financial Community
+# 正式事件草稿｜中际旭创｜中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证
 
 ## 草稿状态
 
-- 公司：NVIDIA（nvidia）
-- 日期：2026-05-21
+- 公司：中际旭创（innolight）
+- 日期：2026-05-27
 - 类型：官方候选
-- 候选分数：6
-- 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 0）
-- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-160142__investor.nvidia.com_news_press-releases_default.aspx.html
+- 候选分数：10
+- 当前动作：进入人工研判
+- 批处理建议：待补正文（readiness 20）
+- 官方来源：[打开官方来源](https://www.innolight.com/inv2.aspx)
+- 来源快照：暂无
 
 ## 批处理建议
 
@@ -17,7 +17,6 @@
 
 ### 当前阻碍
 
-- 还没有抓到足够正文
 - 可读内容偏短
 
 ## 原文与事实
@@ -26,11 +25,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。
 
 ### 候选事实
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+日期：2026-05-27；标题：中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证；原文内容：研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。；来源：https://www.innolight.com/inv2.aspx
 
 ## 升级为正式事件前必须补齐
 
@@ -70,11 +69,11 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-nvidia-nvidia-announces-upcoming-events-for-financial-community`
+`auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证`
 
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：否
+- 有可读正文：是
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。
