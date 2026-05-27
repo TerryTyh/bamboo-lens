@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import json
+import os
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -17,6 +19,50 @@ def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
 
+def localize_brief_terms(text: str) -> str:
+    value = normalize(text)
+
+    def replace_usd_billion(match: re.Match[str]) -> str:
+        amount = float(match.group(1).replace(",", ""))
+        amount_yi = amount * 10
+        rendered = f"{amount_yi:.1f}".rstrip("0").rstrip(".")
+        return f"{rendered} 亿美元"
+
+    value = re.sub(r"US\$\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*billion\b", replace_usd_billion, value, flags=re.I)
+    replacements = {
+        "hands-on labs": "实操实验",
+        "JAX on NVIDIA GPUs": "NVIDIA GPU 上的 JAX",
+        "NVIDIA Dynamo codelab": "Dynamo 推理优化实验",
+        "NVIDIA Dynamo on GKE": "GKE 上的 Dynamo",
+        "Dynamo on GKE": "GKE 上的 Dynamo",
+        "agent workload observability": "智能体工作负载可观测性",
+        "Google Agent Development Kit": "Google 智能体开发工具包",
+        "G4 VMs with NVIDIA RTX PRO 6000 Blackwell GPUs": "搭载 RTX PRO 6000 Blackwell GPU 的 G4 虚拟机",
+        "Google Cloud AI Hypercomputer": "Google Cloud AI 超级计算平台",
+        "world foundation models": "世界基础模型",
+        "Data Center": "数据中心",
+        "networking": "网络业务",
+        "hyperscaler capex": "超大云厂商资本开支",
+        "agent workflow": "智能体工作流",
+        "inference codelab": "推理优化实验",
+        "codelab": "实验教程",
+        "workloads": "工作负载",
+        "hands-on": "实操",
+        "inference": "推理",
+        "agent": "智能体",
+        "capex": "资本开支",
+    }
+    for source, target in replacements.items():
+        value = value.replace(source, target)
+    return value
+
+
+def render_text_block(text: str) -> str:
+    value = localize_brief_terms(text)
+    sentences = [item.strip() for item in re.split(r"(?<=[。！？])\s+", value) if item.strip()]
+    return "\n\n".join(sentences) if sentences else value
+
+
 def parse_iso_datetime(value: str) -> datetime | None:
     if not value:
         return None
@@ -29,6 +75,16 @@ def parse_iso_datetime(value: str) -> datetime | None:
         return parsed
     except ValueError:
         return None
+
+
+def current_time() -> datetime:
+    override = os.environ.get("MORNING_BRIEF_NOW", "").strip()
+    if override:
+        parsed = datetime.fromisoformat(override)
+        if parsed.tzinfo is None:
+            return parsed.replace(tzinfo=ZoneInfo("Asia/Shanghai"))
+        return parsed.astimezone(ZoneInfo("Asia/Shanghai"))
+    return datetime.now(ZoneInfo("Asia/Shanghai"))
 
 
 def load_reviewed_events() -> list[dict]:
@@ -56,6 +112,7 @@ def company_name(company_id: str) -> str:
     }
     return names.get(company_id, company_id)
 
+
 def render_item(index: int, item: dict) -> str:
     company = company_name(item.get("company_id", ""))
     title = normalize(item.get("title", ""))
@@ -63,15 +120,19 @@ def render_item(index: int, item: dict) -> str:
     evidence = item.get("evidence") or []
     verification = item.get("verification") or []
 
-    source_paragraph = normalize(" ".join(source_summary)) if source_summary else normalize(item.get("fact", ""))
+    if source_summary:
+        source_paragraph = "\n\n".join(render_text_block(line) for line in source_summary if normalize(line))
+    else:
+        source_paragraph = render_text_block(item.get("fact", ""))
     source_url = normalize(item.get("source_url", ""))
-    source_line = f"\n\n来源：[{company} 原文]({source_url})" if source_url else ""
+    source_line = f"\n\n[原文]({source_url})" if source_url else ""
 
-    evidence_lines = "\n".join(f"- {normalize(line)}" for line in evidence[:6] if normalize(line))
-    verification_lines = "\n".join(f"- {normalize(line)}" for line in verification[:6] if normalize(line))
+    evidence_lines = "\n".join(f"- {localize_brief_terms(line)}" for line in evidence[:6] if normalize(line))
+    verification_lines = "\n".join(f"- {localize_brief_terms(line)}" for line in verification[:6] if normalize(line))
 
-    business = normalize(item.get("business_analysis", ""))
-    valuation = normalize(item.get("valuation_analysis", ""))
+    business = render_text_block(item.get("business_analysis", ""))
+    valuation = render_text_block(item.get("valuation_analysis", ""))
+    title = localize_brief_terms(title)
 
     return f"""## {index}. {company}｜{title}
 
@@ -94,7 +155,7 @@ def render_item(index: int, item: dict) -> str:
 
 
 def main() -> None:
-    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    now = current_time()
     # Nightly runs can happen shortly after midnight; in that case the "morning brief"
     # should still be for the same calendar day (this morning), not +1 day.
     brief_date = now if now.hour < 6 else (now + timedelta(days=1))

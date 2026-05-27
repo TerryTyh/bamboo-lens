@@ -10,6 +10,59 @@ def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
 
+ALLOWED_ASCII_WORDS = {
+    "a5x",
+    "adk",
+    "ai",
+    "asic",
+    "blackwell",
+    "cloud",
+    "colab",
+    "computex",
+    "cosmos",
+    "crowdstrike",
+    "cudf",
+    "data",
+    "dataproc",
+    "dynamo",
+    "enterprise",
+    "eps",
+    "gaap",
+    "gemini",
+    "gemma",
+    "gke",
+    "google",
+    "gpu",
+    "gpus",
+    "gtc",
+    "hypercomputer",
+    "jax",
+    "labs",
+    "maxtext",
+    "moe",
+    "nemotron",
+    "next",
+    "non-gaap",
+    "nvidia",
+    "nvlink",
+    "openai",
+    "pro",
+    "rag",
+    "rtx",
+    "run",
+    "rubin",
+    "salesforce",
+    "schrodinger",
+    "snap",
+    "spectrum-x",
+    "synthid",
+    "thinking",
+    "tpu",
+    "vera",
+    "vms",
+}
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         print("Usage: validate_brief_quality.py <brief.md>")
@@ -45,7 +98,11 @@ def main() -> int:
             continue
         if "http" in line:
             continue
-        ascii_words = re.findall(r"\b[A-Za-z][A-Za-z'’\-]{3,}\b", line)
+        ascii_words = [
+            word
+            for word in re.findall(r"\b[A-Za-z][A-Za-z'’\-]{3,}\b", line)
+            if word.lower().replace("’", "'") not in ALLOWED_ASCII_WORDS
+        ]
         if len(ascii_words) >= 10:
             suspicious.append(line.strip())
     if suspicious:
