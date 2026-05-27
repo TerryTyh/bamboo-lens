@@ -1,16 +1,41 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-27T22:53:32",
+  "generated_at": "2026-05-27T15:00:56",
   "summary": {
-    "total": 3,
-    "companies": 1,
-    "with_source_body": 2,
+    "total": 5,
+    "companies": 2,
+    "with_source_body": 4,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 1,
-      "readable_needs_review": 1,
-      "needs_source": 1
+      "ready_for_deep_review": 2,
+      "needs_source": 2,
+      "readable_needs_review": 1
     },
     "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+        "date": "2026-05-26",
+        "score": 11,
+        "readiness_score": 27,
+        "investment_signal_score": 5,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
         "company": "nvidia",
@@ -64,6 +89,59 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "by_key": {
+    "nvidia::nvidia vera cpu is ‘packing a heavy-hitting punch’ against competition": {
+      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+      "date": "2026-05-26",
+      "score": 11,
+      "readiness_score": 27,
+      "investment_signal_score": 5,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "tsmc::tsmc files annual report on form 20-f for 2025": {
+      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "score": 10,
+      "readiness_score": 20,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待读原文件",
+      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "promotion_blockers": [
+        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "业务地图",
+          "风险与跟踪重点"
+        ],
+        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+      }
+    },
     "nvidia::vera arrives: nvidia’s first cpu built for agents lands at top ai labs": {
       "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
       "company": "nvidia",
@@ -146,6 +224,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
   "companies": {
     "nvidia": [
       {
+        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+        "date": "2026-05-26",
+        "score": 11,
+        "readiness_score": 27,
+        "investment_signal_score": 5,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
         "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -223,9 +326,64 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
+    ],
+    "tsmc": [
+      {
+        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC Files Annual Report on Form 20-F for 2025",
+        "date": "2026-04-16",
+        "score": 10,
+        "readiness_score": 20,
+        "investment_signal_score": 9,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待读原文件",
+        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+        "promotion_blockers": [
+          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+        ],
+        "source_url": "http://pr.tsmc.com/english/news/3300",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "业务地图",
+            "风险与跟踪重点"
+          ],
+          "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+        }
+      }
     ]
   },
   "items": [
+    {
+      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+      "date": "2026-05-26",
+      "score": 11,
+      "readiness_score": 27,
+      "investment_signal_score": 5,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     {
       "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
       "company": "nvidia",
@@ -249,6 +407,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC Files Annual Report on Form 20-F for 2025",
+      "date": "2026-04-16",
+      "score": 10,
+      "readiness_score": 20,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待读原文件",
+      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "promotion_blockers": [
+        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+      ],
+      "source_url": "http://pr.tsmc.com/english/news/3300",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "业务地图",
+          "风险与跟踪重点"
+        ],
+        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
     {

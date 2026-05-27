@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-27T22:53:32",
+  "generated_at": "2026-05-27T15:00:56",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
@@ -13,7 +13,7 @@
   "score": 6,
   "sort_key": 20260521,
   "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260527-145833__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "readable_needs_review",
   "readiness_label": "可读待研判",
   "readiness_score": 19,
@@ -21,7 +21,7 @@
   "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
   "promotion_blockers": [],
   "source_summary": [
-    "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m. Taipei time. Tune in early to catch the GTC Live at Taipei 2026 pregame show, featuring lively conversations with industry leaders about the latest innovations in AI and accelerated computing. This is the place to find all the latest — stay tuned to the blog for live updates. Jensen joined his parents for a family meal and also made sure to share fried mantou with local media gathered at the restaurant. It’s not a trip to Taipei without a stop at the Raohe St. night market. Matcha and mango shave ice hit the spot on a warm evening. NVIDIA founder and CEO Jensen Huang meets with industry leaders, dignitaries, developers and NVIDIA employees ahead of GTC Taipei. Hours after landing, Huang made a surprise visit to Meet-a-Claw, where NVIDIA and Taiwan’s developer community gathered for an afternoon of demos, tech talks and networking — an opportunity to get hands on with autonomous agents and OpenClaw. Because OpenClaw is open source, it’s available for everyone to use and build their own AI agent. Huang described some of the ways OpenClaw agents secured by NVIDIA OpenShell can be of service for everything from software programming to marketing and content creation. “It’s become a really, very powerful assistant,” Huang said. “The era of useful AI has arrived. That’s what this event is about, to show you what open source agents can do and then you can go create your own.” Huang fielded a few questions from the assembled press, including the status of NVIDIA’s pending Taipei office. Huang smiled before offering his response. “I think I’m going to give you an update on the headquarters this week,” he said. “It could be a secret … I might show you what the building is going to look like.” Well, if it was a secret, it isn’t now. Come back for the latest on the NVIDIA Taipei office design and all the action in the run-up to NVIDIA GTC Taipei at COMPUTEX ."
+    "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m. Taipei time. Tune in early to catch the GTC Live at Taipei 2026 pregame show, featuring lively conversations with industry leaders about the latest innovations in AI and accelerated computing. This is the place to find all the latest — stay tuned to the blog for live updates. Constellation — NVIDIA’s Expanded Campus in Taipei Modern astronomy recognizes 88 official constellations — today in Taipei, Huang unveiled NVIDIA Constellation to a packed crowd including employees, local leaders and his family. Taipei Mayor Chiang Wan-an joined the celebration at the site of the new campus, shaking hands with Huang and presenting him with a key to the city. He also gifted Huang a traditional calligraphy scroll, which he made himself. “The world is watching NVIDIA shape the future of AI,” the mayor told attendees. Huang answered questions, joked with attendees in Mandarin and gave out signed champagne bottles to employees who have recently gotten married. The most popular topic: the NVIDIA Gear Store for company swag. “Due to popular demand, this Gear Store will be open to the public,” Huang said to applause. The new building, designed to house roughly 4,000 employees, will be based in the Beitou-Shilin Technology Park in northern Taipei on a site spanning nearly 4 hectares. It reflects the iconic design of NVIDIA’s headquarters in Santa Clara. Once operational, the site will serve as one of the largest AI research and development hubs in the APAC region. In his comments, Huang focused on the enormous opportunity of the current agentic AI moment to drive growth for NVIDIA and the entire Taiwan ecosystem. Looking ahead, the next phase is physical AI."
   ],
   "fact": "日期：2026-05-21；标题：NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI；原文内容：The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m.…；来源：https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
   "evidence": [
@@ -54,7 +54,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": true,
-    "source_chars": 2297,
+    "source_chars": 2085,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -65,5 +65,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.json"
 }
