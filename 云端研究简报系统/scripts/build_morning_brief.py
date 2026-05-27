@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "outputs"
 REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
+REVIEW_DRAFT_INDEX_FILE = OUTPUT_DIR / "review_draft_index.json"
 MORNING_BRIEF_FILE = OUTPUT_DIR / "morning_brief.md"
 
 
@@ -114,6 +115,24 @@ def load_reviewed_events() -> list[dict]:
     return items
 
 
+def load_review_priorities() -> list[dict]:
+    if not REVIEW_DRAFT_INDEX_FILE.exists():
+        return []
+    payload = json.loads(REVIEW_DRAFT_INDEX_FILE.read_text(encoding="utf-8"))
+    items = payload.get("summary", {}).get("priority_batch") or []
+
+    def priority_key(item: dict) -> tuple[int, int]:
+        company = normalize(item.get("company", "")).lower()
+        cn_bonus = 1 if company in {"jcet", "naura", "amec", "innolight", "inovance", "luxshare"} else 0
+        nvidia_penalty = -1 if company == "nvidia" else 0
+        return (
+            cn_bonus + nvidia_penalty,
+            int(item.get("readiness_score") or 0) + int(item.get("investment_signal_score") or 0),
+        )
+
+    return sorted(items, key=priority_key, reverse=True)
+
+
 def company_name(company_id: str) -> str:
     names = {
         "nvidia": "NVIDIA",
@@ -124,6 +143,10 @@ def company_name(company_id: str) -> str:
         "luxshare": "立讯精密",
         "gevernova": "GE Vernova",
         "constellation": "Constellation Energy",
+        "jcet": "长电科技",
+        "naura": "北方华创",
+        "amec": "中微公司",
+        "innolight": "中际旭创",
     }
     return names.get(company_id, company_id)
 
@@ -169,6 +192,47 @@ def render_item(index: int, item: dict) -> str:
 """
 
 
+def render_research_backlog(items: list[dict]) -> str:
+    selected = items[:5]
+    if not selected:
+        return """## 1. 研究池｜A 股扩池优先
+
+**今天应看什么**
+
+今日没有新入库正式事件。研究工作改为扩充 A 股公司池，优先补半导体设备、先进封装、AI 光模块、PCB/服务器和电力设备候选。
+
+**后续观察点**
+
+- 北方华创：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。
+- 中微公司：先看刻蚀设备、新产品、研发投入和毛利率。
+- 中际旭创/新易盛：做光模块对照，重点看客户集中度、800G/1.6T 产品占比和现金流。
+
+[原文](https://www.cninfo.com.cn/)"""
+
+    lines = []
+    for item in selected:
+        company = company_name(item.get("company", ""))
+        title = localize_brief_terms(item.get("title", ""))
+        reason = localize_brief_terms(item.get("review_batch_reason", ""))
+        url = normalize(item.get("source_url", ""))
+        link = f" [原文]({url})" if url else ""
+        lines.append(f"- {company}｜{title}：{reason}{link}")
+
+    return f"""## 1. 研究池｜候选深读待办
+
+**今天应看什么**
+
+今日没有新入库正式事件。为了避免日报空转，今天优先处理候选池深读，并把 A 股扩池放在 NVIDIA 生态新闻之前。
+
+{chr(10).join(lines)}
+
+**后续观察点**
+
+- 先补 A 股半导体设备、先进封装、AI 光模块和 PCB/服务器公司池。
+- NVIDIA 只在财报、订单、量产、客户 capex 或明确收入/利润影响出现时进入头条。
+- 候选只作为研究待办，不直接形成买卖动作。"""
+
+
 def main() -> None:
     now = current_time()
     # Nightly runs can happen shortly after midnight; in that case the "morning brief"
@@ -186,7 +250,10 @@ def main() -> None:
     selected.sort(key=lambda row: (row.get("reviewed_at_dt") or datetime.min), reverse=True)
     selected = selected[:5]
 
-    body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
+    if selected:
+        body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
+    else:
+        body = render_research_backlog(load_review_priorities())
     MORNING_BRIEF_FILE.write_text(
         f"""# 竹鉴晨报 | {today}
 

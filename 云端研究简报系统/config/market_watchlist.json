@@ -47,6 +47,54 @@
       "name": "Constellation Energy",
       "primary_symbol": "CEG",
       "symbols": ["CEG"]
+    },
+    {
+      "id": "jcet",
+      "name": "长电科技",
+      "primary_symbol": "600584.SS",
+      "symbols": ["600584.SS"]
+    },
+    {
+      "id": "naura",
+      "name": "北方华创",
+      "primary_symbol": "002371.SZ",
+      "symbols": ["002371.SZ"]
+    },
+    {
+      "id": "amec",
+      "name": "中微公司",
+      "primary_symbol": "688012.SS",
+      "symbols": ["688012.SS"]
+    },
+    {
+      "id": "innolight",
+      "name": "中际旭创",
+      "primary_symbol": "300308.SZ",
+      "symbols": ["300308.SZ"]
+    },
+    {
+      "id": "eoptolink",
+      "name": "新易盛",
+      "primary_symbol": "300502.SZ",
+      "symbols": ["300502.SZ"]
+    },
+    {
+      "id": "shennan",
+      "name": "深南电路",
+      "primary_symbol": "002916.SZ",
+      "symbols": ["002916.SZ"]
+    },
+    {
+      "id": "wus",
+      "name": "沪电股份",
+      "primary_symbol": "002463.SZ",
+      "symbols": ["002463.SZ"]
+    },
+    {
+      "id": "fii",
+      "name": "工业富联",
+      "primary_symbol": "601138.SS",
+      "symbols": ["601138.SS"]
     }
   ]
 }

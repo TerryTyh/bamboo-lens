@@ -87,6 +87,46 @@
         "https://investors.constellationenergy.com/events-and-presentations",
         "https://investors.constellationenergy.com/events-and-presentations/past-events"
       ]
+    },
+    {
+      "id": "jcet",
+      "name": "长电科技",
+      "market": "CN A-share",
+      "tier": "B",
+      "theme": "Advanced packaging and OSAT",
+      "official_sources": [
+        "https://www.jcetglobal.com/cn/site/news"
+      ]
+    },
+    {
+      "id": "naura",
+      "name": "北方华创",
+      "market": "CN A-share",
+      "tier": "B",
+      "theme": "Semiconductor equipment localization",
+      "official_sources": [
+        "https://www.naura.com/list/8.html"
+      ]
+    },
+    {
+      "id": "amec",
+      "name": "中微公司",
+      "market": "CN A-share",
+      "tier": "B",
+      "theme": "Etch and MOCVD semiconductor equipment",
+      "official_sources": [
+        "https://www.amec-inc.com/investor"
+      ]
+    },
+    {
+      "id": "innolight",
+      "name": "中际旭创",
+      "market": "CN A-share",
+      "tier": "B",
+      "theme": "AI optical modules",
+      "official_sources": [
+        "https://www.innolight.com/inv2.aspx"
+      ]
     }
   ]
 }

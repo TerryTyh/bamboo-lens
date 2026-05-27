@@ -79,6 +79,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "49-ASMPT一页式观察卡_2026-05-26.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "50-A股候选扩池_2026-05-27.md",
+        PORTAL_DOCS / "research" / "50-A股候选扩池_2026-05-27.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),
