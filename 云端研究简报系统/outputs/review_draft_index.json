@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-05-26T14:45:09",
+  "generated_at": "2026-05-27T22:53:32",
   "summary": {
-    "total": 4,
+    "total": 3,
     "companies": 1,
-    "with_source_body": 3,
+    "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 1,
       "readable_needs_review": 1,
-      "low_investment_signal": 1,
       "needs_source": 1
     },
     "priority_batch": [
@@ -142,31 +141,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "nvidia::nvidia ceo jensen huang at dell technologies world: ‘demand is going parabolic, utterly parabolic’": {
-      "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-      "date": "2026-05-18",
-      "score": 6,
-      "readiness_score": 12,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -211,31 +185,6 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-        "date": "2026-05-18",
-        "score": 6,
-        "readiness_score": 12,
-        "investment_signal_score": -4,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -317,31 +266,6 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-      "date": "2026-05-18",
-      "score": 6,
-      "readiness_score": 12,
-      "investment_signal_score": -4,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ceo-jensen-huang-at-dell-technologies-world-demand-is-going-parabolic-utterly-parabolic.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [

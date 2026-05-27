@@ -156,12 +156,12 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "candidate_status": "archived",
-        "status_label": "先存档",
-        "review_lane": "低优先级",
-        "review_score": 3,
-        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
-        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+        "candidate_status": "promoted",
+        "status_label": "已入库",
+        "review_lane": "正式事件",
+        "review_score": 13,
+        "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
+        "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
         "title": "Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW",

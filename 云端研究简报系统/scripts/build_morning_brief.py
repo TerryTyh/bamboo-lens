@@ -30,6 +30,21 @@ def localize_brief_terms(text: str) -> str:
 
     value = re.sub(r"US\$\s*([0-9][0-9,]*(?:\.[0-9]+)?)\s*billion\b", replace_usd_billion, value, flags=re.I)
     replacements = {
+        "Agentic AI": "智能体 AI",
+        "agentic AI": "智能体 AI",
+        "cost-per-token": "每 token 成本",
+        "cost per token": "每 token 成本",
+        "Dell AI Factories with NVIDIA": "Dell AI Factory with NVIDIA",
+        "Dell AI Factories": "Dell AI Factory",
+        "Dell Technologies World": "Dell Technologies World 大会",
+        "on-premises": "本地部署",
+        "on-prem": "本地部署",
+        "frontier models": "前沿模型",
+        "autonomous agents": "自主智能体",
+        "enterprise perimeter": "企业边界内",
+        "Confidential Computing": "机密计算",
+        "AI adoption survey": "AI 采用调研",
+        "AI infrastructure spending": "AI 基础设施支出",
         "hands-on labs": "实操实验",
         "JAX on NVIDIA GPUs": "NVIDIA GPU 上的 JAX",
         "NVIDIA Dynamo codelab": "Dynamo 推理优化实验",

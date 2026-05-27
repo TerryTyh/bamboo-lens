@@ -146,6 +146,33 @@ def normalize_reviewed_events(company_id: str, reviewed_payload: dict) -> list[d
     return events
 
 
+def reviewed_candidate_keys(reviewed_events: list[dict]) -> set[tuple[str, str]]:
+    keys = set()
+    for event in reviewed_events:
+        for field in ("title", "source_candidate_title"):
+            title = clean(event.get(field, "")).lower()
+            if title:
+                keys.add(("title", title))
+        source_url = clean(event.get("source_url", "")).lower()
+        if source_url:
+            keys.add(("source_url", source_url))
+    return keys
+
+
+def filter_reviewed_candidates(candidates: list[dict], reviewed_events: list[dict]) -> list[dict]:
+    reviewed = reviewed_candidate_keys(reviewed_events)
+    filtered = []
+    for candidate in candidates:
+        title = clean(candidate.get("title", "")).lower()
+        source_url = clean(candidate.get("source_url", "")).lower()
+        if title and ("title", title) in reviewed:
+            continue
+        if source_url and ("source_url", source_url) in reviewed:
+            continue
+        filtered.append(candidate)
+    return filtered
+
+
 def promote_tsmc_candidates(candidates: list[dict]) -> list[dict]:
     # Quality gate:
     # Do not promote title-only official candidates into formal research events.
@@ -181,7 +208,9 @@ def main() -> None:
     for company in load_companies():
         company_id = company["id"]
         company_candidates = official_candidates.get("companies", {}).get(company_id, [])
-        events = normalize_reviewed_events(company_id, reviewed_events)
+        reviewed_company_events = normalize_reviewed_events(company_id, reviewed_events)
+        company_candidates = filter_reviewed_candidates(company_candidates, reviewed_company_events)
+        events = reviewed_company_events
         events.extend(parse_company_events(company_id))
         if company_id == "tsmc":
             events.extend(promote_tsmc_candidates(company_candidates))

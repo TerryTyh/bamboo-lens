@@ -87,16 +87,19 @@ def keyword_score(text: str) -> int:
     return sum(weight for keyword, weight in IMPORTANT_KEYWORDS.items() if keyword in lowered)
 
 
-def reviewed_titles(event_store: dict, company_id: str) -> set[str]:
-    titles = set()
+def reviewed_keys(event_store: dict, company_id: str) -> set[tuple[str, str]]:
+    keys = set()
     for event in event_store.get("companies", {}).get(company_id, {}).get("events", []):
         if event.get("review_status") != "reviewed":
             continue
         for field in ("title", "source_candidate_title"):
             title = str(event.get(field, "")).strip()
             if title:
-                titles.add(title)
-    return titles
+                keys.add(("title", title))
+        source_url = str(event.get("source_url", "")).strip()
+        if source_url:
+            keys.add(("source_url", source_url))
+    return keys
 
 
 def read_next(candidate: dict) -> str:
@@ -112,7 +115,7 @@ def read_next(candidate: dict) -> str:
     return "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
 
 
-def classify_candidate(candidate: dict, reviewed: set[str]) -> dict:
+def classify_candidate(candidate: dict, reviewed: set[tuple[str, str]]) -> dict:
     title = candidate.get("title", "").strip()
     text = " ".join([title, candidate.get("type", ""), candidate.get("fact", "")])
     lowered = text.lower()
@@ -120,7 +123,8 @@ def classify_candidate(candidate: dict, reviewed: set[str]) -> dict:
     if parse_sort_key(candidate.get("sort_key") or candidate.get("date")) >= 20260425:
         score += 2
 
-    if title in reviewed:
+    source_url = candidate.get("source_url", "").strip()
+    if ("title", title) in reviewed or ("source_url", source_url) in reviewed:
         return {
             "candidate_status": "promoted",
             "status_label": "已入库",
@@ -175,7 +179,7 @@ def classify_candidate(candidate: dict, reviewed: set[str]) -> dict:
 def enrich_candidates(payload: dict, event_store: dict) -> dict:
     enriched = {**payload, "companies": {}}
     for company_id, items in payload.get("companies", {}).items():
-        reviewed = reviewed_titles(event_store, company_id)
+        reviewed = reviewed_keys(event_store, company_id)
         enriched["companies"][company_id] = []
         company_name = event_store.get("companies", {}).get(company_id, {}).get("name", company_id)
         for item in items or []:

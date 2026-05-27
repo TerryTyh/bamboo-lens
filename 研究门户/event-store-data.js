@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-05-26T14:45:09",
+  "generated_at": "2026-05-27T22:54:41",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -80,6 +80,46 @@ window.BAMBOO_LENS_EVENT_STORE = {
             "跟踪 Google 自研 TPU / ASIC 与多供应商策略是否限制 NVIDIA 在 Google Cloud 工作负载中的议价能力和长期份额。"
           ],
           "reviewed_at": "2026-05-26T21:39:44",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "Dell AI Factory 扩展：5,000 家企业负载、Vera Rubin NVL72 与 PowerEdge/PowerRack 推动企业 AI 本地部署",
+          "source_candidate_title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
+          "date": "2026-05-18",
+          "fetched_at": "",
+          "type": "企业 AI / OEM AI 工厂生态",
+          "fact": "2026-05-18，NVIDIA 在官方博客披露 Dell Technologies World 上的 Dell AI Factory with NVIDIA 更新：5,000 家企业已在相关方案上运行 AI 工作负载；新平台包括基于 Vera Rubin NVL72 的 Dell PowerEdge XE9812、基于 HGX Rubin NVL8 的 XE9880L/XE9885L/XE9882L、Dell PowerRack、PowerSwitch with NVIDIA Quantum-X800 InfiniBand/Spectrum-6 Ethernet，以及搭载 Vera CPU 的 M9822/R9822。公告同时给出多项性能/成本口径：智能体推理最高 10 倍更低每 token 成本、每机架最高 144 块 GPU、Vera CPU 1.2 TB/s 内存带宽、智能体工作负载比 x86 快 50%、Starburst 查询吞吐最高快 3 倍。",
+          "judgment": "这条事件的投资含义强于一般发布会稿件：它把 NVIDIA 数据中心增长从云厂商采购进一步延伸到企业 on-prem / hybrid AI 工厂场景，且通过 Dell 这样的 OEM 渠道给出了客户数量、系统配置、推理成本和工作负载迁移理由。不过它仍是厂商活动口径，缺少订单金额、交付节奏、毛利率和独立客户采购预算，因此评级为 P2 渠道验证，而不是 P1 财务验证或仓位动作触发。",
+          "action": "维持 A 池核心跟踪；把 Dell AI Factory 作为企业 AI 推理部署与 OEM 渠道验证点，不作为单独加仓触发",
+          "priority": "P2",
+          "sort_key": 20260518,
+          "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+          "source_doc": "",
+          "source_summary": [
+            "NVIDIA 官方博客记录了 2026-05-18 Dell Technologies World 上 Michael Dell 与 Jensen Huang 对 Dell AI Factory with NVIDIA 的更新。核心信息不是单一产品发布，而是 Dell 把 NVIDIA 的 Vera Rubin、HGX Rubin、Vera CPU、Quantum-X800 InfiniBand、Spectrum-6 Ethernet 和 Confidential Computing 打包成从桌面工作站到数据中心机架的企业 AI 工厂方案。",
+            "原文称已有 5,000 家企业在 Dell AI Factories with NVIDIA 上运行 AI 工作负载，举例包括 Lilly、Samsung、Honeywell 和 Hudson River Trading。Dell 同时给出行业口径：到 2030 年全球 AI 基础设施支出可能达到 3-4 万亿美元，token 消耗预计增长 3,400%。",
+            "硬件层面，Dell PowerEdge XE9812 基于 NVIDIA Vera Rubin NVL72，面向大规模智能体推理时相对 NVIDIA Blackwell 可实现最高 10 倍更低的每 token 成本；PowerEdge XE9880L、XE9885L 和 XE9882L 是首批基于 NVIDIA HGX Rubin NVL8 的 Dell 系统，支持每机架最高 144 块 GPU、100% 直接液冷计算节点，并宣称相对 HGX B200 最高 10 倍性能。",
+            "CPU 与数据平台层面，Dell PowerEdge M9822/R9822 将 NVIDIA Vera CPU 带入企业 AI 工厂。原文称 Vera CPU 具备 1.2 TB/s 内存带宽，智能体工作负载完成速度比 x86 处理器快 50%；Starburst 数据引擎在 NVIDIA Vera CPU 上进行大规模 SQL 分析时查询吞吐最高快 3 倍。",
+            "部署形态层面，Dell 引用自家 AI adoption survey 称 67% 的 AI 工作负载运行在云外环境，88% 的受访者至少有一个 AI 工作负载在本地运行。后续还包括 Google Distributed Cloud with Gemini 3.0 preview、NVIDIA Nemotron、Reflection、Hugging Face 上的开放模型、OpenAI Codex 与 Dell AI Data Platform 的连接探索，以及 Palantir、ServiceNow、CrowdStrike、Fortanix 等软件/安全伙伴。"
+          ],
+          "evidence": [
+            "客户/部署证据：原文称 5,000 家企业正在 Dell AI Factories with NVIDIA 上运行 AI 工作负载，并列举 Lilly、Samsung、Honeywell、Hudson River Trading 等企业案例。",
+            "市场空间口径：Dell 在 keynote 中称全球 AI 基础设施支出到 2030 年可能达到 3-4 万亿美元，token 消耗同期预计增长 3,400%。",
+            "推理成本证据：Dell PowerEdge XE9812 基于 NVIDIA Vera Rubin NVL72，原文称面向大规模智能体推理时相对 NVIDIA Blackwell 最高可实现 10 倍更低每 token 成本。",
+            "机架级系统证据：XE9880L/XE9885L/XE9882L 是首批基于 NVIDIA HGX Rubin NVL8 的 Dell 系统，支持每机架最高 144 块 GPU、100% 直接液冷计算节点，并宣称相对 HGX B200 最高 10 倍性能。",
+            "CPU/数据平台证据：Vera CPU 服务器具备 1.2 TB/s 内存带宽，智能体工作负载完成速度比 x86 快 50%；Starburst 在 Vera CPU 上的大规模 SQL 查询吞吐最高快 3 倍。",
+            "部署偏好证据：Dell 调研口径称 67% AI 工作负载运行在云外环境，88% 受访者至少有一个 AI 工作负载在本地运行，支撑企业本地/混合部署需求。"
+          ],
+          "business_analysis": "业务层面，Dell AI Factory 强化的是 NVIDIA 数据中心业务的“企业部署入口”：GPU/CPU/网络/软件栈不再只以云端大集群形式出现，而是通过 Dell PowerEdge、PowerRack、PowerSwitch 和数据平台进入受监管、重安全、重本地数据的企业环境。5,000 家企业工作负载和 67% 云外工作负载口径，支持企业 AI 从试点向部署迁移的方向，但还需要区分真实生产负载、试点负载和营销案例。对 NVIDIA 来说，关键在于 OEM 渠道能否把 Blackwell/Rubin、Vera CPU、InfiniBand/Ethernet 网络和软件栈打包成可复制的企业收入路径。",
+          "valuation_analysis": "估值/动作层面，这条事件支撑 NVIDIA 长期收入空间和数据中心 TAM 的质量假设，尤其是推理成本下降、企业本地部署和 OEM 系统化交付三条线。但它不直接改变近期盈利预测：3-4 万亿美元基础设施支出和 3,400% token 增长属于行业展望，最高 10 倍性能/成本也需要在客户采购、利用率和总拥有成本中验证。动作上维持 A 池核心跟踪，不因单条 Dell 活动上调仓位；后续若财报中 OEM/enterprise AI factory 相关收入、网络业务、Vera/Rubin 交付和软件订阅开始形成可计量增量，再考虑提高权重。",
+          "verification": [
+            "后续 NVIDIA 财报或 Dell 财报是否披露 AI Factory、PowerEdge AI server、PowerRack 或 enterprise AI pipeline 的订单、收入、backlog 或交付节奏。",
+            "观察 Blackwell 到 Rubin/Vera 的平台切换是否顺利，尤其是 Vera Rubin NVL72、HGX Rubin NVL8、Vera CPU 和网络产品的上市时间、供给约束与客户导入。",
+            "验证 5,000 家企业工作负载中生产部署占比、平均采购规模、复购/扩容情况，避免把试点与营销案例等同于可持续收入。",
+            "检查企业 on-prem / hybrid AI 需求是否持续超过云端方案，重点看安全、数据主权、延迟、成本和治理要求是否推动真实资本开支。",
+            "在后续日报和候选池中将 Dell AI Factory 与 Google Cloud、GTC Taipei、Vera CPU 单独公告去重，避免重复把同一条 Rubin/enterprise AI 叙事多次计入。"
+          ],
+          "reviewed_at": "2026-05-27T22:51:45",
           "review_status": "reviewed"
         },
         {
@@ -357,7 +397,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -369,7 +409,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -381,7 +421,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -393,7 +433,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -405,7 +445,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -417,7 +457,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -467,36 +507,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
-          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-          "date": "2026-05-20",
-          "fetched_at": "20260526-144306",
-          "type": "官方候选",
-          "fact": "日期：2026-05-20；标题：NVIDIA Announces Financial Results for First Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260520,
-          "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
-          "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
-          "date": "2026-05-19",
-          "fetched_at": "20260526-144306",
-          "type": "官方候选",
-          "fact": "日期：2026-05-19；标题：NVIDIA and Google Cloud Empower the Next Wave of AI Builders；原文内容：At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community , which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the community brings together developers, data scientists and machine learnin…；来源：https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260519,
-          "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-          "source_excerpt": "At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community , which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the community brings together developers, data scientists and machine learnin…",
-          "source_body": "At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community , which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the community brings together developers, data scientists and machine learning engineers who want to sharpen their AI skills on the latest NVIDIA and Google Cloud technologies. New additions for the community are rolling out this year, including a learning path for using the JAX library on NVIDIA GPUs, a new NVIDIA Dynamo codelab focused on inference optimizations, as well as monthly developer livestreams . Over the last year, the community has become a go‑to hub for AI builders using NVIDIA‑accelerated tools for data science and machine learning. The result has been production‑ready retrieval-augmented generation applications on Google Kubernetes Engine (GKE) and instrumenting observability for agent workloads. These AI builders are also experimenting with new large language model research and prototyping hybrid on‑premises and cloud inference for real‑world use cases like sports analytics and enterprise data pipelines. NVIDIA and Google Cloud are equipping developers with learning resources and hands-on labs that combine NVIDIA libraries, open models and tools with Google Cloud’s AI platform — so they can build optimized, production‑ready AI applications faster. For example, developers can accelerate data science and analytics with the NVIDIA cuDF library in Google Colab Enterprise or Dataproc, or deploy multi-agent applications by combining Google DeepMind’s Gemma 4 models, NVIDIA Nemotron open models and Google Agent Development Kit with Google Cloud G4 VMs powered by NVIDIA RTX PRO 6000 Blackwell GPUs in Google Cloud Run or with spot instances. NVIDIA and Google Cloud work closely across open frameworks like JAX so developers can build, scale and productize JAX workloads on NVIDIA AI infrastructure on Google Cloud — from single‑GPU experiments to multi‑rack deployments — while getting strong performance and a consistent experience. This work extends to Google Cloud AI Hypercomputer, where the MaxText framework uses these JAX optimizations to train large models efficiently on NVIDIA GPUs. Building on the same foundation, NVIDIA Dynamo on GKE helps developers optimize large-scale inference — including mixture-of-experts models — so they can serve AI applications more efficiently with NVIDIA accelerated infrastructure on Google Cloud. To help developers get hands-on with these capabilities, a new learning path on running and scaling JAX on NVIDIA GPUs and a new NVIDIA Dynamo on GKE inference codelab will become available next month for members in the Google Cloud and NVIDIA developer community. AI agents are increasingly built from a system of AI models — combining proprietary and open source models that reason, plan and act on users’ behalf.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
           "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
           "date": "2026-05-18",
           "fetched_at": "20260526-144306",
@@ -509,21 +519,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
           "source_excerpt": "Agentic AI has always called for a different kind of CPU. NVIDIA founder and CEO Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multibillion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay…",
           "source_body": "Agentic AI has always called for a different kind of CPU. NVIDIA founder and CEO Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multibillion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay, SpaceXAI in Palo Alto — followed by a delivery to Oracle Cloud Infrastructure in Santa Clara on Monday. NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck hand-delivered them. “ Agentic AI is creating a new CPU moment in the AI factory — as models move from answering to acting, Vera is purpose-built to keep that work moving at scale, ” Buck said. NVIDIA’s Ian Buck hand-delivered the first-ever NVIDIA Vera CPUs to our partners @AnthropicAI , @OpenAI , @SpaceX , and @OracleCloud . 🎉 Vera is NVIDIA’s first custom CPU, purpose-built for the age of agentic AI. This is just the beginning. The road to Vera-powered systems starts… pic.twitter.com/Ep5PLqcqIa The big idea: imagine you could work 10x faster. Could your computer keep up? Agentic AI puts more demand than ever on the infrastructure we use to do all kinds of work — from building slides to compiling and testing software, analyzing data, searching files or even running simulations. AI agents don’t run on GPUs alone. Every agentic sandbox, every tool call, every orchestration layer, every long-context retrieval operation — that’s CPU work. Vera is a new class of CPU designed with that reality as its starting point. This gauntlet of concurrent, real-time tasks puts pressure on CPUs in ways traditional core-density focused designs were never built to prioritize. Vera packs 88 custom NVIDIA-designed Olympus cores, 1.2TB/s of memory bandwidth and 50% faster per-core performance. Under constant load, work completes more quickly — increasing the efficiency of the entire AI factory and helping users get their work done with faster responses. The first delivery landed at Anthropic’s sleek SoMa offices in San Francisco. James Bradbury, Anthropic’s head of compute, took the handoff from their conference room near the Bay. Buck, aided by a bare NVIDIA Vera CPU motherboard he carried as a guide, walked Bradbury through the server built around the new CPU, talking through the features that make Vera different. “Scaling compute is an important accelerant for the growth of models,” Bradbury said. “We’re excited to see Vera emerge as a promising part of the ecosystem when solving for agentic workloads.”",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
-          "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-          "date": "2026-05-18",
-          "fetched_at": "20260526-144306",
-          "type": "官方候选",
-          "fact": "日期：2026-05-18；标题：NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’；原文内容：Agentic AI inference at one-tenth the cost per token with NVIDIA Vera Rubin NVL72 . Agent sandboxes run 50% faster on NVIDIA Vera than traditional CPUs — while enterprise data queries are up to 3x faster with the Vera CPU. And 5,000 enterprises like Lilly, Samsung and Honeywell are running AI workloads on Dell AI Factories with NVIDIA, turning ambition into production at scale. That’s the picture Michael Dell painte…；来源：https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260518,
-          "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
-          "source_excerpt": "Agentic AI inference at one-tenth the cost per token with NVIDIA Vera Rubin NVL72 . Agent sandboxes run 50% faster on NVIDIA Vera than traditional CPUs — while enterprise data queries are up to 3x faster with the Vera CPU. And 5,000 enterprises like Lilly, Samsung and Honeywell are running AI workloads on Dell AI Factories with NVIDIA, turning ambition into production at scale. That’s the picture Michael Dell painte…",
-          "source_body": "Agentic AI inference at one-tenth the cost per token with NVIDIA Vera Rubin NVL72 . Agent sandboxes run 50% faster on NVIDIA Vera than traditional CPUs — while enterprise data queries are up to 3x faster with the Vera CPU. And 5,000 enterprises like Lilly, Samsung and Honeywell are running AI workloads on Dell AI Factories with NVIDIA, turning ambition into production at scale. That’s the picture Michael Dell painted Monday morning at Dell Technologies World. Dell sized the stakes: Worldwide AI infrastructure spending could reach $3-4 trillion by 2030, with token consumption projected to grow 3,400% in the same window. “There is a massive AI investment boom thats already underway, and a productivity boom is beginning, and in some companies, including ours,” Dell said. “The rate of change has gone parabolic, and it’s not slowing down.” Then, the Dell chairman and CEO welcomed NVIDIA founder and CEO Jensen Huang to the keynote stage — with a look at the NVIDIA portfolio behind him, from a deskside Dell Pro Max with GB10 workstation to a Dell PowerRack with NVIDIA Vera Rubin NVL72. “We’ve now arrived at the era of useful AI, which is the reason why demand is going parabolic, utterly parabolic,” Huang said. “What took months now takes weeks. What took weeks now takes days. And what takes days now takes hours. It’s a big deal in productivity, but a gigantic leap in computation requirements.” The message: Enterprise AI has moved past pilots into agentic AI and inference deployments at scale. The platform for what’s next is the Dell AI Factory with NVIDIA — running frontier models and autonomous agents securely behind the enterprise perimeter. The accelerated computing news leads the refresh: The Dell PowerEdge XE9812, built on NVIDIA Vera Rubin NVL72, delivers up to 10x lower cost-per-token than NVIDIA Blackwell for massive-scale agentic AI inferencing. It’s joined by PowerEdge XE9880L, XE9885L and XE9882L servers — the first Dell systems built on NVIDIA HGX Rubin NVL8 , supporting up to 144 GPUs per rack with 100% direct liquid-cooled compute nodes and up to 10x the performance of HGX B200. In addition, networking gets the new Dell PowerSwitch portfolio with NVIDIA Quantum-X800 InfiniBand , featuring liquid-cooled, co-packaged optics and NVIDIA Spectrum-6 Ethernet . Dell is also introducing Dell PowerRack, a fully integrated system – compute, networking and storage engineered as one – with thermal design, power management and software optimization built to work together from the ground up. The result is accelerated AI and high-performance computing workloads at enterprise scale, without the integration overhead of component assembly. On the CPU side, Dell PowerEdge M9822 and R9822 servers bring NVIDIA Vera CPUs to the enterprise AI factory. Purpose-built for agentic AI, Vera runs data pipelines, analytics, sandboxed tools and code workloads where each step waits on the last. With 1.2 TB/s memory bandwidth and predictable performance under load, Vera completes agentic workloads 50% faster than x86 processors, helping PowerEdge systems increase AI factory output with faster agent responses and shorter feedback loops.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260526-144306__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
@@ -780,7 +775,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -792,7 +787,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -841,7 +836,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -853,7 +848,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -865,7 +860,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -877,7 +872,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -898,7 +893,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -910,7 +905,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -922,7 +917,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -934,7 +929,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -946,7 +941,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -958,7 +953,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -979,7 +974,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -991,7 +986,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1003,7 +998,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1015,7 +1010,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1027,7 +1022,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1039,7 +1034,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1060,7 +1055,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1072,7 +1067,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1084,7 +1079,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1096,7 +1091,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1108,7 +1103,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1120,7 +1115,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1262,7 +1257,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1274,7 +1269,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1286,7 +1281,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1298,7 +1293,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1310,7 +1305,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1322,7 +1317,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1359,7 +1354,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1371,7 +1366,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1383,7 +1378,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1395,7 +1390,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1407,7 +1402,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1419,7 +1414,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1431,7 +1426,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1612,7 +1607,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1624,7 +1619,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1636,7 +1631,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1648,7 +1643,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1722,21 +1717,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260511,
-          "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260526-144306__investors.constellationenergy.com_events-and-presentations_past-events.html"
-        },
-        {
-          "title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",
-          "date": "2026-03-31",
-          "fetched_at": "20260526-144306",
-          "type": "官方候选",
-          "fact": "日期：2026-03-31；标题：Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260331,
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
