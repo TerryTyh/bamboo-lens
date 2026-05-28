@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = ROOT.parent
 OUTPUT_DIR = ROOT / "outputs"
 REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
 REVIEW_DRAFT_INDEX_FILE = OUTPUT_DIR / "review_draft_index.json"
@@ -151,6 +152,19 @@ def company_name(company_id: str) -> str:
     return names.get(company_id, company_id)
 
 
+def research_doc_exists(filename: str) -> bool:
+    return (PROJECT_ROOT / "长期高潜力公司跟踪系统" / filename).exists()
+
+
+def is_completed_research_candidate(item: dict) -> bool:
+    company = normalize(item.get("company", "")).lower()
+    title = normalize(item.get("title", ""))
+    completed = {
+        "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
+    }
+    return completed.get(company, False) and "观察卡待建" in title
+
+
 def render_item(index: int, item: dict) -> str:
     company = company_name(item.get("company_id", ""))
     title = normalize(item.get("title", ""))
@@ -193,9 +207,15 @@ def render_item(index: int, item: dict) -> str:
 
 
 def render_research_backlog(items: list[dict]) -> str:
-    selected = items[:5]
+    selected = [item for item in items if not is_completed_research_candidate(item)][:5]
+    naura_done = research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md")
+    naura_line = (
+        "- 北方华创｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
+        if naura_done
+        else "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。"
+    )
     a_share_lines = [
-        "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。",
+        naura_line,
         "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。",
         "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。",
         "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。",

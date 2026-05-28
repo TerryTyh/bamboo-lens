@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = ROOT.parent
 CONFIG_FILE = ROOT / "config" / "companies.json"
 OUTPUT_DIR = ROOT / "outputs"
 OUTPUT_FILE = OUTPUT_DIR / "daily_brief.md"
@@ -127,6 +128,16 @@ def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
 
+def current_time() -> datetime:
+    override = os.environ.get("DAILY_BRIEF_NOW", "").strip()
+    if override:
+        parsed = datetime.fromisoformat(override)
+        if parsed.tzinfo is None:
+            return parsed.replace(tzinfo=ZoneInfo("Asia/Shanghai"))
+        return parsed.astimezone(ZoneInfo("Asia/Shanghai"))
+    return datetime.now(ZoneInfo("Asia/Shanghai"))
+
+
 def localize_brief_terms(text: str) -> str:
     value = normalize(text)
 
@@ -193,6 +204,19 @@ def item_signatures(item: dict) -> set[str]:
 
 def was_sent_before(item: dict, previous_signatures: set[str]) -> bool:
     return bool(item_signatures(item) & previous_signatures)
+
+
+def research_doc_exists(filename: str) -> bool:
+    return (PROJECT_ROOT / "长期高潜力公司跟踪系统" / filename).exists()
+
+
+def is_completed_research_candidate(item: dict) -> bool:
+    company_id = normalize(item.get("company_id", "")).lower()
+    title = normalize(item.get("title", ""))
+    completed = {
+        "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
+    }
+    return completed.get(company_id, False) and "观察卡待建" in title
 
 
 def has_specific_evidence(text: str) -> bool:
@@ -784,13 +808,74 @@ def render_candidate_block(candidates: list[dict]) -> str:
     return "\n\n".join(lines)
 
 
+def parse_research_doc_filename(path: Path) -> dict | None:
+    match = re.match(r"(?P<index>\d+)-(?P<title>.+)_(?P<date>\d{4}-\d{2}-\d{2})\.md$", path.name)
+    if not match:
+        return None
+    title = match.group("title")
+    date = match.group("date")
+    if "一页式观察卡" not in title and "候选扩池" not in title and "最小研究包" not in title:
+        return None
+    display_title = title.replace("一页式观察卡", "一页式观察卡").replace("A股", "A 股")
+    return {
+        "title": display_title,
+        "date": date,
+        "path": path,
+        "portal_doc": f"./docs/research/{path.name}",
+    }
+
+
+def load_recent_research_artifacts(today: datetime, days: int = 1) -> list[dict]:
+    research_dir = PROJECT_ROOT / "长期高潜力公司跟踪系统"
+    if not research_dir.exists():
+        return []
+    items: list[dict] = []
+    for path in research_dir.glob("*.md"):
+        parsed = parse_research_doc_filename(path)
+        if not parsed:
+            continue
+        parsed_date = parse_date_like(parsed["date"])
+        if parsed_date is None:
+            continue
+        age = today.date() - parsed_date.date()
+        if timedelta(days=0) <= age <= timedelta(days=days):
+            items.append(parsed)
+    return sorted(items, key=lambda item: (item["date"], item["title"]), reverse=True)
+
+
+def render_research_artifacts_block(items: list[dict]) -> str:
+    lines = []
+    for index, item in enumerate(items, start=1):
+        title = normalize(item["title"])
+        if "北方华创" in title:
+            note = "A 股半导体设备平台观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
+        elif "A 股候选扩池" in title or "A股候选扩池" in title:
+            note = "A 股候选池扩充记录已完成，用来把日报重点从单一 NVIDIA 线索扩到半导体设备、先进封装、AI 光模块和 PCB/服务器链条。"
+        else:
+            note = "新增研究文档已沉淀到门户，后续按文档里的验证点继续推进。"
+        lines.append(
+            f"""{index}. 研究成果｜{title}
+   {note}
+   [原文]({item["portal_doc"]})"""
+        )
+    return "\n\n".join(lines)
+
+
+def has_same_day_reviewed_event(events: list[dict], today: datetime) -> bool:
+    for event in events:
+        parsed_reviewed = parse_date_like(event.get("reviewed_at", ""))
+        if parsed_reviewed is not None and parsed_reviewed.date() == today.date():
+            return True
+    return False
+
+
 def render_brief(
     companies: list[dict],
     events: list[dict],
     official_candidates: list[dict],
     previous_brief_text: str = "",
 ) -> str:
-    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    now = current_time()
     today = now.strftime("%Y-%m-%d")
     names = "、".join(company["name"] for company in companies)
     previous_signatures = extract_sent_brief_signatures(previous_brief_text)
@@ -812,6 +897,7 @@ def render_brief(
             if is_recent_candidate(item, now, days=5)
             and normalize(item.get("title", "")).lower() not in reviewed_titles
             and not was_sent_before(item, previous_signatures)
+            and not is_completed_research_candidate(item)
         ],
         key=rank_candidate,
         reverse=True,
@@ -822,6 +908,7 @@ def render_brief(
             if is_recent_candidate(item, now, days=10)
             and normalize(item.get("title", "")).lower() not in reviewed_titles
             and not was_sent_before(item, previous_signatures)
+            and not is_completed_research_candidate(item)
         ],
         key=rank_candidate,
         reverse=True,
@@ -832,6 +919,27 @@ def render_brief(
     top_candidates = select_diverse_candidates(readable_candidates, limit=5, per_company=2)
     if distinct_company_count(top_candidates) < 2 and distinct_company_count(wider_readable_candidates) >= 2:
         top_candidates = select_diverse_candidates(wider_readable_candidates, limit=5, per_company=2)
+    research_artifacts = load_recent_research_artifacts(now)
+
+    if research_artifacts and not has_same_day_reviewed_event(top_events, now):
+        candidate_block = render_candidate_block(top_candidates)
+        next_candidate_block = (
+            f"\n\n下一步候选：\n\n{candidate_block}\n"
+            if top_candidates
+            else ""
+        )
+        return f"""# 竹鉴日报 | {today}
+
+今日研究成果：
+
+{render_research_artifacts_block(research_artifacts)}{next_candidate_block}
+
+明日重点：
+
+- 优先推进中微公司观察卡，和北方华创形成半导体设备对照。
+- 推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 候选只作为研究待办，不直接形成买卖动作。
+"""
 
     if top_events:
         key_changes = []
@@ -869,6 +977,24 @@ def render_brief(
 
     if not top_events:
         candidate_block = render_candidate_block(top_candidates)
+        if research_artifacts:
+            next_candidate_block = (
+                f"\n\n下一步候选：\n\n{candidate_block}\n"
+                if top_candidates
+                else ""
+            )
+            return f"""# 竹鉴日报 | {today}
+
+今日研究成果：
+
+{render_research_artifacts_block(research_artifacts)}{next_candidate_block}
+
+明日重点：
+
+- 优先推进中微公司观察卡，和北方华创形成半导体设备对照。
+- 推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 候选只作为研究待办，不直接形成买卖动作。
+"""
         if top_candidates:
             tomorrow_focus = "\n".join(
                 f"- 优先阅读：{event['company_name']}｜{normalize(event['title'])}"
