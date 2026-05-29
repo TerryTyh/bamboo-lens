@@ -95,6 +95,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "53-中际旭创与新易盛光模块对照卡准备_2026-05-29.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md",
+        PORTAL_DOCS / "research" / "54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),

@@ -216,7 +216,10 @@ def is_completed_research_candidate(item: dict) -> bool:
     completed = {
         "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
         "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
+        "optical_module_compare": research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md"),
     }
+    if completed["optical_module_compare"] and ("中际旭创" in title or "新易盛" in title or "光模块" in title):
+        return True
     return completed.get(company_id, False) and "观察卡待建" in title
 
 
@@ -819,6 +822,7 @@ def parse_research_doc_filename(path: Path) -> dict | None:
         "一页式观察卡" not in title
         and "候选扩池" not in title
         and "最小研究包" not in title
+        and "对照卡" not in title
         and "准备" not in title
     ):
         return None
@@ -846,6 +850,11 @@ def load_recent_research_artifacts(today: datetime, days: int = 1) -> list[dict]
         age = today.date() - parsed_date.date()
         if timedelta(days=0) <= age <= timedelta(days=days):
             items.append(parsed)
+    if any("光模块正式对照卡" in item["title"] for item in items):
+        items = [
+            item for item in items
+            if "光模块对照卡准备" not in item["title"]
+        ]
     return sorted(items, key=lambda item: (item["date"], item["title"]), reverse=True)
 
 
@@ -858,7 +867,10 @@ def render_research_artifacts_block(items: list[dict]) -> str:
         elif "中微公司" in title:
             note = "A 股半导体设备对照观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证扣非利润、经营现金流、薄膜设备放量和营运资本。"
         elif "中际旭创" in title or "新易盛" in title or "光模块" in title:
-            note = "A 股 AI 光模块对照卡准备稿已完成，下一步补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收，决定是否推进正式对照卡。"
+            if "正式" in title:
+                note = "A 股 AI 光模块正式对照卡已完成，结论是中际旭创 B+ 观察、新易盛 B 观察；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流、应收和存货。"
+            else:
+                note = "A 股 AI 光模块对照卡准备稿已完成，下一步补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收，决定是否推进正式对照卡。"
         elif "A 股候选扩池" in title or "A股候选扩池" in title:
             note = "A 股候选池扩充记录已完成，用来把日报重点从单一 NVIDIA 线索扩到半导体设备、先进封装、AI 光模块和 PCB/服务器链条。"
         else:
@@ -946,7 +958,7 @@ def render_brief(
 
 明日重点：
 
-- 将中际旭创/新易盛准备稿推进为正式光模块对照卡，补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收。
+- 读取中际旭创/新易盛 2026H1/Q2 报告，复核光模块对照卡里的毛利率、经营现金流、应收和存货验证点。
 - 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
@@ -1001,7 +1013,7 @@ def render_brief(
 
 明日重点：
 
-- 将中际旭创/新易盛准备稿推进为正式光模块对照卡，补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收。
+- 读取中际旭创/新易盛 2026H1/Q2 报告，复核光模块对照卡里的毛利率、经营现金流、应收和存货验证点。
 - 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
