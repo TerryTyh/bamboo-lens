@@ -1,67 +1,16 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-05-28T15:32:26",
+  "generated_at": "2026-05-29T23:32:40",
   "summary": {
-    "total": 7,
+    "total": 5,
     "companies": 4,
-    "with_source_body": 6,
+    "with_source_body": 4,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
       "readable_needs_review": 1,
       "needs_source": 3,
       "low_investment_signal": 1
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "AI Factories: The New Infrastructure of Intelligence",
-        "date": "2026-05-27",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 8,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-        "date": "2026-05-26",
-        "score": 11,
-        "readiness_score": 27,
-        "investment_signal_score": 5,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
       {
         "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
         "company": "nvidia",
@@ -90,31 +39,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "by_key": {
-    "nvidia::nvidia vera cpu is ‘packing a heavy-hitting punch’ against competition": {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "innolight::中际旭创一页式观察卡待建：ai 光模块、800g/1.6t 与客户集中度验证": {
       "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
       "company": "innolight",
@@ -168,31 +92,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "风险与跟踪重点"
         ],
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
-      }
-    },
-    "nvidia::ai factories: the new infrastructure of intelligence": {
-      "draft_id": "auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "AI Factories: The New Infrastructure of Intelligence",
-      "date": "2026-05-27",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 8,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     "amec::中微公司一页式观察卡待建：刻蚀设备、mocvd 与先进制程设备国产化": {
@@ -277,111 +176,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     }
   },
   "companies": {
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "AI Factories: The New Infrastructure of Intelligence",
-        "date": "2026-05-27",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 8,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-        "date": "2026-05-26",
-        "score": 11,
-        "readiness_score": 27,
-        "investment_signal_score": 5,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-        "date": "2026-05-21",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 12,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Announces Upcoming Events for Financial Community",
-        "date": "2026-05-21",
-        "score": 6,
-        "readiness_score": 0,
-        "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
     "innolight": [
       {
         "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
@@ -469,59 +263,64 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
+    ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+        "date": "2026-05-21",
+        "score": 6,
+        "readiness_score": 25,
+        "investment_signal_score": 12,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Announces Upcoming Events for Financial Community",
+        "date": "2026-05-21",
+        "score": 6,
+        "readiness_score": 0,
+        "investment_signal_score": 0,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "AI Factories: The New Infrastructure of Intelligence",
-      "date": "2026-05-27",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 8,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-ai-factories-the-new-infrastructure-of-intelligence.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     {
       "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
       "company": "nvidia",

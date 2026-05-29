@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-05-28T15:32:26",
-  "source_generated_at": "2026-05-28T15:32:26",
+  "generated_at": "2026-05-29T23:32:40",
+  "source_generated_at": "2026-05-29T23:32:40",
   "items": [
     {
       "company": "constellation",
@@ -34,7 +34,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260525-143408__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 0,
+      "event_index": 2,
       "sort_key": 20260520,
       "score": 27
     },
@@ -69,7 +69,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。Microsoft 的 AI 逻辑已经不能只看 Copilot 叙事，而要看云收入、Azure 增速、RPO、AI run-rate 和资本开支效率是否能同时站住。FY26 Q3 给出的信号是：收入端和订单可见性很强，但 Microsoft Cloud 毛利率已降至 66%，资本开支仍在快速上行，所以后续判断必须从“AI 有增长”升级为“AI 投入能否形成高质量回报”。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 0,
       "sort_key": 20260429,
       "score": 24
@@ -87,7 +87,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。GE Vernova 不只是受益于电力主题，而是在把电力投资周期转化为订单、backlog、利润率和现金流。尤其是订单同比 +71%、backlog 顺增 130 亿美元、自由现金流 48 亿美元和全年指引上修同时出现，说明本轮强化不是单一指标好看。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 0,
       "sort_key": 20260422,
       "score": 23
@@ -105,7 +105,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它的价值不在 EPS 数字本身，而在结构变化：HPC 已经明显压过智能手机成为台积电最重要的收入引擎，且没有牺牲利润率，反而把毛利率推到 66.2%。这说明 AI / HPC 需求不仅存在，而且正在以更高价值的先进制程和更高产能利用率体现到利润表里。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 6,
       "sort_key": 20260416,
       "score": 23
@@ -123,7 +123,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P1 级别的强化信息。它说明阿里的云和 AI 不是边缘业务，而是在持续成长为新的长期价值中枢。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20260319,
       "score": 23
@@ -141,7 +141,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明 Constellation 的底层经营质量和股东回报能力并没有被大规模并购和成长叙事稀释，反而在继续加强。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20260224,
       "score": 23
@@ -159,7 +159,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明微软的 AI 和云逻辑并不是单点业务驱动，而是在继续扩展整个云和企业平台的收入基础。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20260128,
       "score": 21
@@ -177,7 +177,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这进一步强化了微软“平台型现金流资产 + AI 增长引擎”的复合逻辑。微软未来价值中枢是否继续上移，核心还是看云和 AI 能不能协同放大。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20260128,
       "score": 21
@@ -196,7 +196,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
       "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260426-092522__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 9,
+      "event_index": 11,
       "sort_key": 20260422,
       "score": 20
     },
@@ -213,7 +213,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是当前最重要的近端验证点。我们需要重点看三件事：1）订单与 backlog 是否继续高增长；2）Power 和 Electrification 利润率是否继续改善；3）并购并表后 Electrification 的增长质量是否增强。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20260422,
       "score": 20
@@ -231,8 +231,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明 NVIDIA 仍然处在 AI 基础设施主线最中心的位置，而且增长并没有因为高基数而明显失速。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 12,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 14,
       "sort_key": 20260225,
       "score": 19
     },
@@ -249,7 +249,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明电力系统投资并不是分散小修小补，而是在核心设备和服务层面形成了更长、更强的需求可见性。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20260128,
       "score": 19
@@ -268,7 +268,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
       "source_doc": "",
-      "event_index": 2,
+      "event_index": 4,
       "sort_key": 20260518,
       "score": 18
     },
@@ -304,7 +304,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 6,
+      "event_index": 8,
       "sort_key": 20260507,
       "score": 18
     },
@@ -322,7 +322,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 7,
+      "event_index": 9,
       "sort_key": 20260506,
       "score": 18
     },
@@ -357,7 +357,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这条信息非常重要，因为它表明 GE Vernova 的长期逻辑已经不只是“订单多”，而是订单正在更系统地转化为利润率与现金流改善。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 5,
       "sort_key": 20260128,
       "score": 18
@@ -375,7 +375,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明 TSMC 的增长不是来自成熟制程反弹，而是高价值先进制程继续主导收入结构。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 11,
       "sort_key": 20260115,
       "score": 18
@@ -393,8 +393,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这条信息非常关键，因为它说明即使在相对保守的地缘假设下，公司仍然给出非常强的增长与盈利能力指引。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 13,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 15,
       "sort_key": 20260225,
       "score": 17
     },
@@ -411,7 +411,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这条信息很关键，因为它说明市场最关心的“AI 需求会不会很快降温”暂时没有在公司官方口径里出现，相反，TSMC 仍在按高强度需求来安排产能和资本开支。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 12,
       "sort_key": 20260115,
       "score": 17
@@ -429,10 +429,28 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这强化了“平台型工业公司”而非“单品公司”的长期逻辑。对汇川这种公司来说，真正值得给高跟踪优先级的原因，就在于它可能从几个强产品演进成完整解决方案平台。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 5,
       "sort_key": 20250826,
       "score": 17
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "Vera CPU 首批基准披露：88 核 Olympus + 1.2TB/s 带宽，NVIDIA 把 AI 工厂 CPU 平台化再推进一步",
+      "date": "2026-05-26",
+      "type": "产品/平台/技术",
+      "priority": "P2",
+      "decision_action": "维持跟踪，等待量产节奏与客户采用信号后再上调权重",
+      "why": "这条信息的价值不在“单次基准跑分”，而在于 NVIDIA 继续把 AI 工厂从 GPU 扩展为 CPU+网络+软件的全栈平台：若 Vera 的量产与生态适配顺利，它会增强 NVIDIA 在机架级系统（如 Grace Blackwell/Vera Rubin 组合）之外、向通用数据中心 CPU 预算渗透的能力，并提高整套 AI 工厂方案的绑定度。需要警惕的是：基准来自单一媒体场景，真实客户负载、供货节奏与软件栈迁移成本才决定它能否进入规模化采购清单。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+      "source_doc": "",
+      "event_index": 1,
+      "sort_key": 20260526,
+      "score": 16
     },
     {
       "company": "nvidia",
@@ -448,7 +466,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
       "source_doc": "",
-      "event_index": 1,
+      "event_index": 3,
       "sort_key": 20260519,
       "score": 16
     },
@@ -466,7 +484,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-133033__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 3,
+      "event_index": 5,
       "sort_key": 20260513,
       "score": 16
     },
@@ -520,7 +538,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260510-032716__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 8,
+      "event_index": 10,
       "sort_key": 20260505,
       "score": 16
     },
@@ -537,7 +555,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这意味着“现金流压力”更像增长与并表整合阶段的结算/营运资本节奏问题，而不是全公司层面的回款崩坏。研究重点应从“看到现金流转负”升级为“盯住三件事：经营性应付是否继续回落、存货是否继续堆、经营性应收是否由贡献转为拖累”，并以 2026Q1 季报作为第一验证点。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20260414,
       "score": 16
@@ -573,7 +591,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的结构性强化信息，同时也是 P1 级别的质量验证信息。正面是云和 AI 已经从叙事进入收入、用户和生态指标：云收入 36% 增长、AI 产品连续十个季度三位数增长、Qwen 月活超过 3 亿、开源模型下载超过 10 亿。压力是集团利润和自由现金流被高投入明显压低，说明阿里正在用电商现金流和资产负债表支持 AI、云和即时零售扩张。后续不能只写“云 AI 强化”，要看这些投入能否转成云利润率、AI 商业化和核心平台现金流恢复。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 0,
       "sort_key": 20260319,
       "score": 16
@@ -591,8 +609,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。NVIDIA 的核心变化不是“GPU 还在卖得好”，而是数据中心收入已经成为压倒性主线，并且高增长没有明显牺牲毛利率。FY27 Q1 指引在排除中国数据中心计算收入假设后仍然强劲，说明需求并不只是依赖单一区域或单一训练周期。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 11,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 13,
       "sort_key": 20260225,
       "score": 16
     },
@@ -609,7 +627,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这说明微软已经跨过“AI 会不会贡献收入”的早期阶段，进入“AI 收入和投入能否持续形成高质量经营杠杆”的阶段。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 3,
       "sort_key": 20260128,
       "score": 16
@@ -627,7 +645,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P2 级别的提醒信息。长期逻辑没被削弱，但它提醒我们，微软的 AI 叙事需要和投资收益波动、资本开支与真实经营质量分开看。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20260128,
       "score": 16
@@ -645,7 +663,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这说明微软后续最关键的验证点已经不是“会不会投”，而是“投入是否持续带来足够高质量的商业回报”。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md",
       "event_index": 5,
       "sort_key": 20260128,
       "score": 16
@@ -663,10 +681,28 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条“偏正面但带警示”的信息。它说明立讯的经营扩张仍在继续，但现金流压力明显加大，尤其对 A 股制造龙头来说，这是必须持续观察的质量信号。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20250426,
       "score": 16
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "AI 工厂叙事升级：用 token 经济学定义基础设施效率，把智能体推理负载推到“持续产出”模型",
+      "date": "2026-05-27",
+      "type": "管理层表述/平台叙事",
+      "priority": "P3",
+      "decision_action": "维持跟踪；把“每 token 成本/利用率”作为后续读财报与客户 capex 的关键提问",
+      "why": "这篇文章本身不提供新增财务数字，但它把 NVIDIA 的竞争维度从“更快的 GPU”推向“更低每 token 成本与更高系统利用率”的基础设施叙事，等同于把未来几个季度的验证问题写清楚：推理/智能体负载能否把客户 capex 转成持续的 token 产出（而不是阶段性训练高峰），以及 NVIDIA 是否能在网络/软件/系统层面把价值捕获从单卡扩展到整厂。它更像研究框架更新，而不是可立刻交易的事件。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source_doc": "",
+      "event_index": 0,
+      "sort_key": 20260527,
+      "score": 14
     },
     {
       "company": "tsmc",
@@ -700,7 +736,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260514-133033__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 4,
+      "event_index": 6,
       "sort_key": 20260513,
       "score": 14
     },
@@ -718,7 +754,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260512-135439__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": 5,
+      "event_index": 7,
       "sort_key": 20260512,
       "score": 14
     },
@@ -753,7 +789,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是阿里最值得长期跟踪的变化之一。若这套一体化能力持续兑现，它就不再只是“估值受压的平台公司”，而更像“中国 AI 基础设施与应用平台的复合体”。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 3,
       "sort_key": 20260319,
       "score": 14
@@ -771,8 +807,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P2 级别的提醒信息。长期逻辑没有被削弱，但后续必须把毛利率、库存变化和超大客户 capex 波动一起看，而不能只看收入。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 14,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 16,
       "sort_key": 20260225,
       "score": 14
     },
@@ -789,8 +825,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的信息。它强化了一个关键结论：NVIDIA 的增长不只是短期订单高景气，而是被头部平台客户写进了多年资本开支路线图。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 15,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 17,
       "sort_key": 20260217,
       "score": 14
     },
@@ -807,7 +843,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息。它说明汇川不只是短期订单反弹，而是平台型工业公司在多个业务线上同步释放增长。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20251024,
       "score": 14
@@ -825,7 +861,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这条信息非常重要，因为它说明公司并不是只靠单一行业吃景气，而是“工业自动化 + 电驱系统”双轮驱动在继续强化。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20250826,
       "score": 14
@@ -843,7 +879,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这强化了“立讯不是单一消费电子链公司”的长期逻辑。它已经在往更广义的复杂制造平台演进。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 5,
       "sort_key": 20250426,
       "score": 14
@@ -861,7 +897,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这条信息本身不新鲜，但很重要。因为它提醒我们：GE Vernova 的研究已经不能停留在“赛道正确”层面，而要转向“赛道红利是否稳定兑现为 backlog 质量、利润率和现金流”。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20260318,
       "score": 12
@@ -879,7 +915,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的信息。它让“数据中心长期供电”从概念走向实单，也强化了 Constellation 在 AI 用电周期中的战略位置。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
       "event_index": 3,
       "sort_key": 20260209,
       "score": 12
@@ -897,7 +933,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P1 级别的强化信息。它让 GE Vernova 在北美电网设备与变压器链条上的位置更强，也让 Electrification 这条主线更清晰。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md",
       "event_index": 3,
       "sort_key": 20260202,
       "score": 12
@@ -915,7 +951,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P1 级别的强化信息。它明显改变了公司边界，使其从“核电稀缺资产持有者”升级为更完整的电力与能源解决方案平台。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20260107,
       "score": 12
@@ -933,28 +969,10 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的强化信息，但不是无风险强化。正面是收入、利润、扣非利润同步双位数增长，通用自动化和新能源汽车/轨交两条主线同时释放，经营现金流仍为正且略有增长，说明增长没有明显脱离现金流。需要警惕的是，研发费用增速高于收入增速，资产减值损失大幅扩大，说明平台化扩张和新业务投入会带来库存、设备和研发回报压力。汇川可以继续作为 A 股工业平台核心跟踪，但资金动作必须克制。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20251024,
       "score": 12
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260528-152800__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260526,
-      "score": 11
     },
     {
       "company": "nvidia",
@@ -969,8 +987,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P1 级别的信息。它说明 NVIDIA 正在从“最强 AI 芯片公司”继续演进为“AI 工厂平台公司”，未来护城河越来越依赖系统级协同，而不是单点芯片领先。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
-      "event_index": 10,
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md",
+      "event_index": 12,
       "sort_key": 20260331,
       "score": 11
     },
@@ -987,7 +1005,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P2 级别的信息。它没有破坏长期逻辑，但提醒我们：Calpine 并购的价值不能只看规模扩张，还要把监管约束、资产剥离和整合难度一起纳入跟踪。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md",
       "event_index": 1,
       "sort_key": 20260318,
       "score": 11
@@ -1023,7 +1041,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这本身不是业绩强化信息，但它是当前最重要的近端验证点。到 2026 年 4 月 16 日，我们需要重点看三个问题：1）2nm 和先进封装需求是否继续偏紧；2）海外扩产是否继续影响利润率；3）资本开支与回报的平衡是否仍可接受。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 7,
       "sort_key": 20260416,
       "score": 10
@@ -1059,7 +1077,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这意味着阿里的 AI 逻辑不只是企业端云服务，还在往消费端入口和开发者生态延展。对平台公司而言，这是很重要的结构性信号。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20260319,
       "score": 9
@@ -1077,7 +1095,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是 P1 级别的验证信息。它说明进入 2026 年之后，高基数之下需求并没有明显失速，AI / HPC 相关强度仍在支撑台积电的收入表现。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 9,
       "sort_key": 20260310,
       "score": 9
@@ -1095,7 +1113,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P2 级别的信息。正面之处在于，管理层对长期需求和技术路线仍然非常坚定；需要持续跟踪的是，全球扩产与海外建厂会不会阶段性稀释资本回报和利润结构。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md",
       "event_index": 10,
       "sort_key": 20260210,
       "score": 9
@@ -1113,28 +1131,10 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是偏中性的信号。它不是坏事，因为用途与战略主航道一致；但也意味着阿里在新阶段愿意用更长期资本支持扩张，未来要继续观察投入回报效率。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 5,
       "sort_key": 20250911,
       "score": 9
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "AI Factories: The New Infrastructure of Intelligence",
-      "date": "2026-05-27",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260528-152800__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260527,
-      "score": 8
     },
     {
       "company": "luxshare",
@@ -1149,7 +1149,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这一步的价值在于把“直觉担忧（回款出问题）”转化为“可验证的问题树”，降低后续反复遗忘与重复讨论的成本。后续如果 2026Q1 再现大额经营现金流流出，就不再停留在情绪判断，而能直接定位到应付/存货/应收的哪一项在恶化，从而决定研究动作与资金动作的收敛或升级。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 0,
       "sort_key": 20260419,
       "score": 7
@@ -1167,7 +1167,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这说明管理层愿意在当前阶段动用真金白银回购，至少释放出对公司长期价值和员工绑定的信号。但因为回购主要用于激励，不等同于纯粹的股东回报，正面但不过度高估。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 2,
       "sort_key": 20260224,
       "score": 7
@@ -1185,7 +1185,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这是一条 P2 级别的正向信息。它说明汇川出海不再只是渠道铺设，而是在产品和解决方案层面开始建立国际存在感。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md",
       "event_index": 0,
       "sort_key": 20260107,
       "score": 7
@@ -1203,7 +1203,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "对港股/中概平台资产而言，回购并不是边缘信息，而是估值框架的一部分。阿里持续回购有助于证明管理层愿意把现金流转化为股东回报。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md",
       "event_index": 4,
       "sort_key": 20251002,
       "score": 7
@@ -1221,7 +1221,7 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "why": "这说明汽车业务不再只是零部件切入，而是在往更高价值、更系统级的环节上走。对长期逻辑是加分项。",
       "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
       "source_url": "",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
+      "source_doc": "/Users/tianyuehua/.codex/worktrees/ff47/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md",
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
@@ -1283,8 +1283,8 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
   ],
   "summary": {
     "total": 71,
-    "formal_events": 63,
-    "official_candidates": 8,
+    "formal_events": 65,
+    "official_candidates": 6,
     "companies": 10
   }
 };

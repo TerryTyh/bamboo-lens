@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T15:32:27",
-  "source_overrides_at": "2026-05-28T15:32:27",
+  "generated_at": "2026-05-29T23:32:40",
+  "source_overrides_at": "2026-05-29T23:32:40",
   "items": [
     {
       "company": "constellation",
@@ -38,8 +38,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
-      "sourceEventDate": "2026-05-20",
+      "sourceEventTitle": "Vera CPU 首批基准披露：88 核 Olympus + 1.2TB/s 带宽，NVIDIA 把 AI 工厂 CPU 平台化再推进一步",
+      "sourceEventDate": "2026-05-26",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

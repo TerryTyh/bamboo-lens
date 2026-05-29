@@ -1,67 +1,17 @@
 {
-  "generated_at": "2026-05-28T00:00:28",
+  "generated_at": "2026-05-29T23:32:40",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
     "total": 5,
-    "companies": 2,
+    "companies": 4,
     "with_source_body": 4,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "needs_source": 2,
-      "readable_needs_review": 1
+      "readable_needs_review": 1,
+      "needs_source": 3,
+      "low_investment_signal": 1
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-        "date": "2026-05-26",
-        "score": 11,
-        "readiness_score": 27,
-        "investment_signal_score": 5,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-        "date": "2026-05-18",
-        "score": 8,
-        "readiness_score": 25,
-        "investment_signal_score": 6,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
       {
         "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
         "company": "nvidia",
@@ -69,8 +19,8 @@
         "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
         "date": "2026-05-21",
         "score": 6,
-        "readiness_score": 19,
-        "investment_signal_score": 3,
+        "readiness_score": 25,
+        "investment_signal_score": 12,
         "readiness_lane": "readable_needs_review",
         "readiness_label": "可读待研判",
         "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
@@ -91,64 +41,14 @@
   },
   "priority_batch": [
     {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
       "company": "nvidia",
       "company_name": "NVIDIA",
       "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
       "date": "2026-05-21",
       "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 3,
+      "readiness_score": 25,
+      "investment_signal_score": 12,
       "readiness_lane": "readable_needs_review",
       "readiness_label": "可读待研判",
       "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
@@ -168,20 +68,20 @@
   ],
   "items": [
     {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
+      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+      "date": "2026-05-21",
+      "score": 6,
+      "readiness_score": 25,
+      "investment_signal_score": 12,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
       "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -193,20 +93,22 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
+      "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
+      "company": "innolight",
+      "company_name": "中际旭创",
+      "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
+      "date": "2026-05-27",
+      "score": 10,
+      "readiness_score": 20,
+      "investment_signal_score": 4,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "可读内容偏短"
+      ],
+      "source_url": "https://www.innolight.com/inv2.aspx",
+      "portal_doc": "./docs/review-drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -246,20 +148,22 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-      "date": "2026-05-21",
+      "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
+      "company": "amec",
+      "company_name": "中微公司",
+      "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
+      "date": "2026-05-27",
       "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 3,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
+      "readiness_score": 6,
+      "investment_signal_score": 0,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [
+        "可读内容偏短"
+      ],
+      "source_url": "https://www.amec-inc.com/investor",
+      "portal_doc": "./docs/review-drafts/auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-28T15:32:26",
-  "source_generated_at": "2026-05-28T15:32:26",
+  "generated_at": "2026-05-29T23:32:40",
+  "source_generated_at": "2026-05-29T23:32:40",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
-      "source_event_title": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
-      "source_event_date": "2026-05-20",
-      "latestEvent": "2026-05-20｜FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
-      "businessImpact": "这次财报把 NVIDIA 的主线进一步推向 AI 工厂平台公司。数据中心已经贡献约九成收入，且内部网络业务增速显著高于计算业务，说明客户采购不只是单点加速卡，而是在购买训练、推理、网络、存储、系统和软件协同能力。报告框架调整为数据中心与边缘计算，也说明公司希望用更贴近 AI 工厂、智能体 AI 和物理 AI 的方式呈现未来增长驱动。",
-      "valuationImpact": "估值上，这条事件支持上调 NVIDIA 的基本面确信度和平台化权重，但不直接触发追价。US$91.0 billion 的 Q2 指引、75% 左右毛利率和 US$48.554 billion 自由现金流，支撑高估值的质量更强；但当前市场已经对 AI 基础设施给出高预期，后续动作仍要看 Q2 是否继续兑现、网络收入是否持续放大、库存/应收是否健康、客户资本开支是否维持。动作上维持 A 池核心，并把下一次 Q2 财报、网络收入和中国以外需求强度列为最高优先级验证点。",
-      "nextCheck": "FY2027 Q2 收入是否接近或超过 US$91.0 billion 指引。；数据中心网络收入是否继续高增长，验证 Spectrum-X / NVLink / AI 工厂系统协同是否转化为收入。；毛利率能否继续维持约 75%，平台化扩张是否侵蚀盈利质量。",
-      "action": "维持 A 池核心；把下一验证点转向 Q2 指引兑现、网络业务持续性和营运资本健康度",
-      "priority": "P1",
+      "source_event_title": "AI 工厂叙事升级：用 token 经济学定义基础设施效率，把智能体推理负载推到“持续产出”模型",
+      "source_event_date": "2026-05-27",
+      "latestEvent": "2026-05-27｜AI 工厂叙事升级：用 token 经济学定义基础设施效率，把智能体推理负载推到“持续产出”模型",
+      "businessImpact": "业务上，token 经济学的核心是把“推理与智能体工作流”变成可计量、可优化、可对标的产出过程：当客户关注每 token 成本与利用率，NVIDIA 的系统级组件（GPU+网络+软件编排+存储/内存子系统）就更容易以整套方案被采购和持续迭代，从而提高切换成本与生态黏性。对于 NVIDIA 来说，这意味着：网络与软件（以及机架级系统交付能力）将更直接参与收入结构，而不是只作为 GPU 的附属加速器。",
+      "valuationImpact": "估值层面，它把关键变量从“训练需求增长”扩展为“持续推理/智能体带来的 token 产出与利用率”。如果后续客户案例/财报能证明推理占比提升并带动系统利用率、网络/软件渗透与平台化成交，那么市场愿意给予更高的长期增长与利润中枢假设；反之，如果 token 叙事只能停留在营销层而无法转化为可验证的 ROI 与采购节奏，则不应据此上调估值中枢，只作为跟踪框架使用。",
+      "nextCheck": "在后续财报/电话会中，是否出现可量化的推理/智能体负载指标（推理占比、token 相关 KPI、利用率、客户 ROI 口径）而不是仅叙事描述。；超大客户与企业客户的 capex 口径：是否从训练高峰转向“持续推理+智能体工作流”的稳定扩张，采购是否更多以机架/整系统而非单卡形态体现。；网络与软件的兑现：Spectrum-X/ConnectX 等网络业务与软件栈在订单/收入中的权重是否持续上升，并能解释为 token 经济学驱动的系统级升级。",
+      "action": "维持跟踪；把“每 token 成本/利用率”作为后续读财报与客户 capex 的关键提问",
+      "priority": "P3",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "source_event_date": "2026-05-15",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-05-28T15:32:26",
+      "updated_at": "2026-05-29T23:32:40",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
