@@ -815,7 +815,12 @@ def parse_research_doc_filename(path: Path) -> dict | None:
         return None
     title = match.group("title")
     date = match.group("date")
-    if "一页式观察卡" not in title and "候选扩池" not in title and "最小研究包" not in title:
+    if (
+        "一页式观察卡" not in title
+        and "候选扩池" not in title
+        and "最小研究包" not in title
+        and "准备" not in title
+    ):
         return None
     display_title = title.replace("一页式观察卡", "一页式观察卡").replace("A股", "A 股")
     return {
@@ -852,6 +857,8 @@ def render_research_artifacts_block(items: list[dict]) -> str:
             note = "A 股半导体设备平台观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
         elif "中微公司" in title:
             note = "A 股半导体设备对照观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证扣非利润、经营现金流、薄膜设备放量和营运资本。"
+        elif "中际旭创" in title or "新易盛" in title or "光模块" in title:
+            note = "A 股 AI 光模块对照卡准备稿已完成，下一步补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收，决定是否推进正式对照卡。"
         elif "A 股候选扩池" in title or "A股候选扩池" in title:
             note = "A 股候选池扩充记录已完成，用来把日报重点从单一 NVIDIA 线索扩到半导体设备、先进封装、AI 光模块和 PCB/服务器链条。"
         else:
@@ -939,7 +946,7 @@ def render_brief(
 
 明日重点：
 
-- 优先推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 将中际旭创/新易盛准备稿推进为正式光模块对照卡，补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收。
 - 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
@@ -994,8 +1001,8 @@ def render_brief(
 
 明日重点：
 
-- 优先推进中微公司观察卡，和北方华创形成半导体设备对照。
-- 推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 将中际旭创/新易盛准备稿推进为正式光模块对照卡，补客户集中度、800G/1.6T 占比、毛利率、经营现金流、存货和应收。
+- 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
         if top_candidates:
