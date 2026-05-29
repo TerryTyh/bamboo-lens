@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
   "draft_status": "auto_draft",
-  "generated_at": "2026-05-28T15:32:26",
+  "generated_at": "2026-05-29T14:44:07",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
@@ -13,7 +13,7 @@
   "score": 6,
   "sort_key": 20260521,
   "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260528-152800__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260529-144007__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "readable_needs_review",
   "readiness_label": "可读待研判",
   "readiness_score": 25,
@@ -21,7 +21,7 @@
   "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
   "promotion_blockers": [],
   "source_summary": [
-    "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m. Taipei time. Tune in early to catch the GTC Live at Taipei 2026 pregame show, featuring lively conversations with industry leaders about the latest innovations in AI and accelerated computing. This is the place to find all the latest — stay tuned to the blog for live updates. Chemistry was the word to describe the unique gathering at the Brick Kiln restaurant in Taipei where NVIDIA founder and CEO Jensen Huang hosted more than 30 CEOs. Standing on a stool, Huang greeted his longtime partners with a toast and thanks for all the collaboration and hard work. Those present for the dinner lead the Taiwan supply chain companies that have helped to transform the tech industry and literally accelerate computing and AI. Huang moved from table to table chatting with his fellow CEOs and leaders. It was a casual evening filled with laughter and the deep relationships really showed. The night closed with Huang passing out treats to press and all the people, including families and children, who had filled the street outside the restaurant to see the fun. Wednesday evening in Taipei, Huang and his family dined with the Quanta Computer team, including founder and chairman Barry Lam and vice chairman and president C.C. Leung — celebrating years of partnership manufacturing the infrastructure of AI. Prompted by a question from the assembled press, Huang gave a glimpse into the remainder of 2026: “The second half of this year is going to be very, very busy with Grace Blackwell, Vera Rubin, and we have a surprise new product that we haven’t told anyone about yet.” Stay tuned. More details, alongside the work of NVIDIA’s rapidly growing Taiwan ecosystem, will be on full display at GTC Taipei in just a few days. “Taiwan has grown significantly over the years, and so we thought that it would be great to celebrate our ecosystem here,” said Huang, commenting on GTC’s return to Taipei. “Many years ago we had 10 partners, and then five years ago maybe 50 partners. Now we have 150 partners, and so it’s good that we celebrate our ecosystem.” Constellation — NVIDIA’s Expanded Campus in Taipei"
+    "The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m. Taipei time. Tune in early to catch the GTC Live at Taipei 2026 pregame show, featuring lively conversations with industry leaders about the latest innovations in AI and accelerated computing. This is the place to find all the latest — stay tuned to the blog for live updates. NVIDIA founder and CEO Jensen Huang gathered with MGX ecosystem partners to celebrate the companies helping build the AI factories that drive innovation across industries. “We’ve been working with all of our partners for quite some time to prepare for this new world where artificial intelligence will be everywhere, rather than just a computer,” Huang said. “Now AI has transformed the computer industry into infrastructure. Every company will be powered by artificial intelligence. Every country will have artificial intelligence that supports its society, its industry and its companies. And when it comes to what all the partners make possible Huang made it clear – NVIDIA can’t realize its dreams without them. “I want to thank all of you for your partnership,” Huang said. “I can’t do this without you, and together we are reinventing the computer industry – and we are reinventing the world.” Chemistry was the word to describe the unique gathering at the Brick Kiln restaurant in Taipei where NVIDIA founder and CEO Jensen Huang hosted more than 30 CEOs. Standing on a stool, Huang greeted his longtime partners with a toast and thanks for all the collaboration and hard work. Those present for the dinner lead the Taiwan supply chain companies that have helped to transform the tech industry and literally accelerate computing and AI. Huang moved from table to table chatting with his fellow CEOs and leaders. It was a casual evening filled with laughter and the deep relationships really showed. The night closed with Huang passing out treats to press and all the people, including families and children, who had filled the street outside the restaurant to see the fun. Wednesday evening in Taipei, Huang and his family dined with the Quanta Computer team, including founder and chairman Barry Lam and vice chairman and president C.C. Leung — celebrating years of partnership manufacturing the\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
   ],
   "fact": "日期：2026-05-21；标题：NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI；原文内容：The future of AI is landing in Taipei. At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. Hear from NVIDIA founder and CEO Jensen Huang live on stage at Taipei Music Center on Monday, June 1, 11 a.m.…；来源：https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
   "evidence": [
@@ -54,7 +54,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": true,
-    "source_chars": 2518,
+    "source_chars": 2621,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",

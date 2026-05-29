@@ -9,7 +9,7 @@
 - 当前动作：进入人工研判
 - 批处理建议：优先深读（readiness 28）
 - 官方来源：[打开官方来源](https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260528-152800__investor.nvidia.com_news_press-releases_default.aspx.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260529-144007__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 
