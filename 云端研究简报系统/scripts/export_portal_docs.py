@@ -87,6 +87,10 @@ DOCS = [
         PORTAL_DOCS / "research" / "51-北方华创一页式观察卡_2026-05-28.md",
     ),
     (
+        PROJECT_ROOT / "长期高潜力公司跟踪系统" / "52-中微公司一页式观察卡_2026-05-29.md",
+        PORTAL_DOCS / "research" / "52-中微公司一页式观察卡_2026-05-29.md",
+    ),
+    (
         ROOT / "outputs" / "daily_brief.md",
         PORTAL_DOCS / "briefs" / "daily_brief.md",
     ),

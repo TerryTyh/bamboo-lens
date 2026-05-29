@@ -215,6 +215,7 @@ def is_completed_research_candidate(item: dict) -> bool:
     title = normalize(item.get("title", ""))
     completed = {
         "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
+        "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
     }
     return completed.get(company_id, False) and "观察卡待建" in title
 
@@ -849,6 +850,8 @@ def render_research_artifacts_block(items: list[dict]) -> str:
         title = normalize(item["title"])
         if "北方华创" in title:
             note = "A 股半导体设备平台观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
+        elif "中微公司" in title:
+            note = "A 股半导体设备对照观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证扣非利润、经营现金流、薄膜设备放量和营运资本。"
         elif "A 股候选扩池" in title or "A股候选扩池" in title:
             note = "A 股候选池扩充记录已完成，用来把日报重点从单一 NVIDIA 线索扩到半导体设备、先进封装、AI 光模块和 PCB/服务器链条。"
         else:
@@ -936,8 +939,8 @@ def render_brief(
 
 明日重点：
 
-- 优先推进中微公司观察卡，和北方华创形成半导体设备对照。
-- 推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 优先推进中际旭创/新易盛光模块对照卡，补 AI capex 向 A 股链条传导的验证。
+- 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
 

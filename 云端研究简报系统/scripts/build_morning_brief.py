@@ -161,6 +161,7 @@ def is_completed_research_candidate(item: dict) -> bool:
     title = normalize(item.get("title", ""))
     completed = {
         "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
+        "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
     }
     return completed.get(company, False) and "观察卡待建" in title
 
@@ -214,9 +215,15 @@ def render_research_backlog(items: list[dict]) -> str:
         if naura_done
         else "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。"
     )
+    amec_done = research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md")
+    amec_line = (
+        "- 中微公司｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证扣非利润、现金流、薄膜设备放量和营运资本。"
+        if amec_done
+        else "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。"
+    )
     a_share_lines = [
         naura_line,
-        "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。",
+        amec_line,
         "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。",
         "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。",
     ]
