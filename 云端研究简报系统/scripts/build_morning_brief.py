@@ -162,7 +162,13 @@ def is_completed_research_candidate(item: dict) -> bool:
     completed = {
         "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
         "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
+        "jcet": research_doc_exists("55-长电科技强B复核_2026-05-30.md"),
+        "optical_module_compare": research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md"),
     }
+    if completed["optical_module_compare"] and ("中际旭创" in title or "新易盛" in title or "光模块" in title):
+        return True
+    if completed["jcet"] and ("长电科技" in title or "强 B 复核" in title or "强B复核" in title):
+        return True
     return completed.get(company, False) and "观察卡待建" in title
 
 
@@ -221,11 +227,21 @@ def render_research_backlog(items: list[dict]) -> str:
         if amec_done
         else "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。"
     )
+    optical_line = (
+        "- 中际旭创/新易盛｜光模块正式对照卡：已完成；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流和存货/应收。"
+        if research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md")
+        else "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。"
+    )
+    jcet_line = (
+        "- 长电科技｜强 B 复核：已完成；下一步等 2026H1/Q2 验证长电微亏损、先进封装毛利率、经营现金流和 capex 回报。"
+        if research_doc_exists("55-长电科技强B复核_2026-05-30.md")
+        else "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。"
+    )
     a_share_lines = [
         naura_line,
         amec_line,
-        "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。",
-        "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。",
+        optical_line,
+        jcet_line,
     ]
     a_share_focus = "\n".join(a_share_lines)
     if not selected:

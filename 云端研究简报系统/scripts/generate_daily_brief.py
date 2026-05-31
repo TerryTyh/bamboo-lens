@@ -217,8 +217,11 @@ def is_completed_research_candidate(item: dict) -> bool:
         "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
         "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
         "optical_module_compare": research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md"),
+        "jcet": research_doc_exists("55-长电科技强B复核_2026-05-30.md"),
     }
     if completed["optical_module_compare"] and ("中际旭创" in title or "新易盛" in title or "光模块" in title):
+        return True
+    if completed["jcet"] and ("长电科技" in title or "强 B 复核" in title or "强B复核" in title or "最小研究包待更新" in title):
         return True
     return completed.get(company_id, False) and "观察卡待建" in title
 
@@ -823,6 +826,7 @@ def parse_research_doc_filename(path: Path) -> dict | None:
         and "候选扩池" not in title
         and "最小研究包" not in title
         and "对照卡" not in title
+        and "复核" not in title
         and "准备" not in title
     ):
         return None
@@ -866,6 +870,8 @@ def render_research_artifacts_block(items: list[dict]) -> str:
             note = "A 股半导体设备平台观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
         elif "中微公司" in title:
             note = "A 股半导体设备对照观察卡已完成，结论是 B 层观察、不追价，下一步等 2026H1/Q2 验证扣非利润、经营现金流、薄膜设备放量和营运资本。"
+        elif "长电科技" in title:
+            note = "A 股先进封装强 B 复核已完成，结论是维持强 B、不升 A；下一步等 2026H1/Q2 验证长电微亏损、先进封装毛利率、经营现金流和 capex 回报。"
         elif "中际旭创" in title or "新易盛" in title or "光模块" in title:
             if "正式" in title:
                 note = "A 股 AI 光模块正式对照卡已完成，结论是中际旭创 B+ 观察、新易盛 B 观察；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流、应收和存货。"
@@ -958,8 +964,8 @@ def render_brief(
 
 明日重点：
 
-- 读取中际旭创/新易盛 2026H1/Q2 报告，复核光模块对照卡里的毛利率、经营现金流、应收和存货验证点。
-- 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
+- 准备下一轮 A 股候选发现，优先补 PCB/服务器、电力设备、半导体材料和国产软件链条。
+- 只在 2026H1/Q2 数据出来后复核北方华创、中微公司、中际旭创/新易盛和长电科技。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
 
@@ -1013,8 +1019,8 @@ def render_brief(
 
 明日重点：
 
-- 读取中际旭创/新易盛 2026H1/Q2 报告，复核光模块对照卡里的毛利率、经营现金流、应收和存货验证点。
-- 准备长电科技强 B 复核，验证先进封装毛利率、长电微亏损和经营现金流。
+- 准备下一轮 A 股候选发现，优先补 PCB/服务器、电力设备、半导体材料和国产软件链条。
+- 只在 2026H1/Q2 数据出来后复核北方华创、中微公司、中际旭创/新易盛和长电科技。
 - 候选只作为研究待办，不直接形成买卖动作。
 """
         if top_candidates:
