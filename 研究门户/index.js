@@ -93,29 +93,47 @@ function buildTimelineEvents() {
   return [...fallbackEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
 }
 
-function selectDiverseTimelineEvents(events, limit = 12, perCompanyLimit = 2) {
+function isChineseCompanyEvent(event) {
+  const tagText = `${event.tag || ""} ${event.tagClass || ""} ${event.companyName || ""}`;
+  return /A 股|港股|中概|\bcn\b|\bhk\b/.test(tagText);
+}
+
+function selectDiverseTimelineEvents(events, limit = 12, perCompanyLimit = 2, chineseShareTarget = 0.4) {
   const selected = [];
   const selectedKeys = new Set();
   const companyCounts = {};
+  const chineseTarget = Math.min(
+    Math.ceil(limit * chineseShareTarget),
+    events.filter(isChineseCompanyEvent).length,
+  );
 
-  events.forEach((event) => {
-    if (selected.length >= limit) return;
+  const makeKey = (event) => `${event.company || event.companyName || ""}-${event.index}-${event.title}`;
+  const canSelect = (event) => {
     const company = event.company || event.companyName || "";
-    if ((companyCounts[company] || 0) >= perCompanyLimit) return;
+    return !selectedKeys.has(makeKey(event)) && (companyCounts[company] || 0) < perCompanyLimit;
+  };
+  const addEvent = (event) => {
+    const company = event.company || event.companyName || "";
     selected.push(event);
-    selectedKeys.add(`${company}-${event.index}-${event.title}`);
+    selectedKeys.add(makeKey(event));
     companyCounts[company] = (companyCounts[company] || 0) + 1;
+  };
+
+  events.forEach((event) => {
+    if (selected.length >= limit) return;
+    if (!isChineseCompanyEvent(event)) return;
+    if (selected.filter(isChineseCompanyEvent).length >= chineseTarget) return;
+    if (!canSelect(event)) return;
+    addEvent(event);
   });
 
   events.forEach((event) => {
     if (selected.length >= limit) return;
-    const key = `${event.company || event.companyName || ""}-${event.index}-${event.title}`;
-    if (selectedKeys.has(key)) return;
-    selected.push(event);
-    selectedKeys.add(key);
+    if (!canSelect(event)) return;
+    addEvent(event);
   });
 
-  return selected;
+  return selected.sort((a, b) => b.sortKey - a.sortKey);
 }
 
 function escapeHtml(value) {
@@ -588,7 +606,10 @@ function renderTimelineFeed() {
   const events = buildTimelineEvents();
   const visibleEvents = selectDiverseTimelineEvents(events, 12, 2);
   const visibleCompanies = new Set(visibleEvents.map((event) => event.company || event.companyName)).size;
-  count.textContent = `最新 ${visibleEvents.length} 条关键动态 · 覆盖 ${visibleCompanies} 家`;
+  const chineseCompanies = new Set(
+    visibleEvents.filter(isChineseCompanyEvent).map((event) => event.company || event.companyName),
+  ).size;
+  count.textContent = `最新 ${visibleEvents.length} 条关键动态 · 覆盖 ${visibleCompanies} 家 · 中企 ${chineseCompanies} 家`;
 
   feed.innerHTML = visibleEvents.map((event) => `
     <article class="event-card rich-card timeline-card-item">
