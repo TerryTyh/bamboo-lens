@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>竹鉴 | Bamboo Lens</title>
-    <link rel="stylesheet" href="./styles.css?v=20260516-1" />
+    <link rel="stylesheet" href="./styles.css?v=20260531-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -45,6 +45,45 @@
       </header>
 
       <main class="home-main">
+        <section id="portfolioOverview" class="section portfolio-overview-section">
+          <div class="section-heading portfolio-heading">
+            <div>
+              <p class="section-kicker">Portfolio Board</p>
+              <h2>组合动态总览</h2>
+              <p class="muted">把跟踪池公司压到一个版面里：层级、市场、最新动态、价格信号和下一步动作一起看。</p>
+            </div>
+            <div id="portfolioBoardStats" class="portfolio-board-stats">
+              <span>读取组合状态...</span>
+            </div>
+          </div>
+          <div class="portfolio-board-layout">
+            <div class="portfolio-table-wrap">
+              <table class="portfolio-table">
+                <thead>
+                  <tr>
+                    <th>公司</th>
+                    <th>层级</th>
+                    <th>最新动态</th>
+                    <th>价格/动作</th>
+                    <th>下一步</th>
+                  </tr>
+                </thead>
+                <tbody id="portfolioBoardRows">
+                  <tr>
+                    <td colspan="5">正在读取公司组合动态...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <aside id="portfolioBoardSide" class="portfolio-board-side">
+              <div>
+                <span class="status-label">结构</span>
+                <strong>读取中</strong>
+              </div>
+            </aside>
+          </div>
+        </section>
+
         <section id="workbench" class="section cockpit-section">
           <div class="section-heading">
             <p class="section-kicker">Decision Cockpit</p>
@@ -386,6 +425,6 @@
     <script src="./decision-deposition-data.js?v=20260509-1"></script>
     <script src="./market-snapshot-data.js?v=20260515-1"></script>
     <script src="./research-pool-data.js?v=20260531-1"></script>
-    <script src="./index.js?v=20260531-5"></script>
+    <script src="./index.js?v=20260531-6"></script>
   </body>
 </html>

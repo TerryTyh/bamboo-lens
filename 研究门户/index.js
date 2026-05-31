@@ -211,6 +211,12 @@ function formatRange(range, currency) {
   return `${currency}${range.low}-${range.high}，中枢 ${currency}${range.mid}`;
 }
 
+function compactText(value, maxLength = 72) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength)}...`;
+}
+
 function buildCockpitActionItems() {
   return Object.entries(COCKPIT_VALUATION_WATCH).map(([companyId, config]) => {
     const quote = getPrimaryPrice(companyId);
@@ -223,6 +229,153 @@ function buildCockpitActionItems() {
       actionText: config.action[position.key] || config.action.nearMid,
     };
   }).sort((a, b) => b.position.severity - a.position.severity);
+}
+
+function getCompanyRegion(row) {
+  const text = `${row.tag || ""} ${row.market || ""} ${row.tagClass || ""}`;
+  if (/A 股|CN A-share|\bcn\b/.test(text)) return "中企";
+  if (/港股|中概|HK\/ADR|\bhk\b/.test(text)) return "中企";
+  if (/全球制造|Taiwan|\btw\b/.test(text)) return "全球制造";
+  return "外资";
+}
+
+function buildPortfolioBoardRows() {
+  const eventStoreCompanies = window.BAMBOO_LENS_EVENT_STORE?.companies || {};
+  const metaCompanies = window.COMPANY_EVENT_META || {};
+  const poolCompanies = window.BAMBOO_LENS_RESEARCH_POOL?.companies || [];
+  const stateCompanies = window.BAMBOO_LENS_COMPANY_STATE?.companies || {};
+  const marketCompanies = window.BAMBOO_LENS_MARKET_SNAPSHOT?.companies || {};
+  const latestByCompany = {};
+
+  buildTimelineEvents().forEach((event) => {
+    if (!latestByCompany[event.company]) latestByCompany[event.company] = event;
+  });
+
+  const ids = new Set([
+    ...Object.keys(eventStoreCompanies),
+    ...Object.keys(metaCompanies),
+    ...Object.keys(marketCompanies),
+    ...poolCompanies.map((company) => company.id).filter(Boolean),
+  ]);
+
+  const poolById = Object.fromEntries(poolCompanies.map((company) => [company.id, company]));
+
+  return [...ids].map((companyId) => {
+    const meta = metaCompanies[companyId] || {};
+    const pool = poolById[companyId] || {};
+    const store = eventStoreCompanies[companyId] || {};
+    const state = stateCompanies[companyId] || {};
+    const latest = latestByCompany[companyId] || null;
+    const quote = getPrimaryPrice(companyId);
+    const primarySymbol = marketCompanies[companyId]?.primarySymbol || "";
+    const inferredTag = /\.(SZ|SS)$/i.test(primarySymbol) ? "A 股" : "";
+    const inferredTagClass = inferredTag ? "cn" : "";
+    const valuationConfig = COCKPIT_VALUATION_WATCH[companyId];
+    const position = valuationConfig ? classifyPricePosition(quote?.price, valuationConfig.range) : null;
+    const latestSort = latest?.sortKey || getLatestDateValue(state.source_event_date || "");
+
+    return {
+      companyId,
+      name: pool.name || state.name || meta.displayName || store.name || marketCompanies[companyId]?.name || companyId,
+      tag: meta.tag || store.market || pool.market || inferredTag,
+      tagClass: meta.tagClass || inferredTagClass,
+      market: store.market || pool.market || "",
+      level: pool.level_label || pool.level || (store.events?.length ? "已跟踪" : "雷达"),
+      thesis: pool.thesis || meta.summary || store.theme || "",
+      latest,
+      latestSort,
+      price: quote?.displayPrice || "",
+      priceChange: quote?.changePercent || "",
+      priceStatus: position?.status || "",
+      action: position && valuationConfig
+        ? valuationConfig.action[position.key]
+        : state.action || pool.action || pool.review_focus || "等待下一条可验证材料。",
+      nextCheck: state.nextCheck || pool.review_focus || meta.nextCheck || "等待下一条正式事件或候选新闻。",
+      priority: state.priority || latest?.priority || "",
+      sourceLink: latest?.link || state.sourceLink || `./company.html?company=${encodeURIComponent(companyId)}&v=20260531-1`,
+      external: Boolean(latest?.external),
+    };
+  }).sort((a, b) => {
+    const levelWeight = { A: 4, B: 3, C: 2 };
+    const aLevel = levelWeight[String(poolById[a.companyId]?.level || "").charAt(0)] || 1;
+    const bLevel = levelWeight[String(poolById[b.companyId]?.level || "").charAt(0)] || 1;
+    if (bLevel !== aLevel) return bLevel - aLevel;
+    return b.latestSort - a.latestSort;
+  });
+}
+
+function renderPortfolioBoard() {
+  const rowsTarget = document.getElementById("portfolioBoardRows");
+  const statsTarget = document.getElementById("portfolioBoardStats");
+  const sideTarget = document.getElementById("portfolioBoardSide");
+  if (!rowsTarget || !statsTarget || !sideTarget) return;
+
+  const rows = buildPortfolioBoardRows();
+  const displayRows = rows;
+  const regionCounts = displayRows.reduce((acc, row) => {
+    const region = getCompanyRegion(row);
+    acc[region] = (acc[region] || 0) + 1;
+    return acc;
+  }, {});
+  const aCount = displayRows.filter((row) => /^A/.test(String(row.level))).length;
+  const bCount = displayRows.filter((row) => /^B|强 B/.test(String(row.level))).length;
+  const updatedCount = displayRows.filter((row) => row.latest).length;
+
+  statsTarget.innerHTML = `
+    <span>跟踪 ${displayRows.length} 家</span>
+    <span>中企 ${regionCounts["中企"] || 0} 家</span>
+    <span>外资 ${regionCounts["外资"] || 0} 家</span>
+  `;
+
+  rowsTarget.innerHTML = displayRows.map((row) => {
+    const latest = row.latest;
+    const quoteText = row.price
+      ? `${row.price}${row.priceChange ? ` / ${row.priceChange}` : ""}`
+      : "价格待更新";
+    const latestTitle = latest
+      ? `${latest.date || "日期待确认"}｜${latest.title}`
+      : "暂无新入库外部动态";
+
+    return `
+      <tr>
+        <th scope="row">
+          <a href="./company.html?company=${encodeURIComponent(row.companyId)}&v=20260531-1">${escapeHtml(row.name)}</a>
+          <span class="company-tag ${escapeHtml(row.tagClass)}">${escapeHtml(row.tag || getCompanyRegion(row))}</span>
+        </th>
+        <td>
+          <strong>${escapeHtml(row.level)}</strong>
+          <span>${escapeHtml(compactText(row.thesis, 28))}</span>
+        </td>
+        <td>
+          <a href="${escapeHtml(row.sourceLink)}"${row.external ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(compactText(latestTitle, 58))}</a>
+          <span>${escapeHtml(latest?.type || row.priority || "待下一条事件")}</span>
+        </td>
+        <td>
+          <strong>${escapeHtml(row.priceStatus || quoteText)}</strong>
+          <span>${escapeHtml(row.priceStatus ? quoteText : "")}</span>
+        </td>
+        <td>${escapeHtml(compactText(row.nextCheck || row.action, 52))}</td>
+      </tr>
+    `;
+  }).join("");
+
+  sideTarget.innerHTML = `
+    <div>
+      <span class="status-label">结构</span>
+      <strong>${displayRows.length} 家 / A ${aCount} / B ${bCount}</strong>
+      <p>中企 ${regionCounts["中企"] || 0} 家，外资 ${regionCounts["外资"] || 0} 家，全球制造 ${regionCounts["全球制造"] || 0} 家。</p>
+    </div>
+    <div>
+      <span class="status-label">动态覆盖</span>
+      <strong>${updatedCount} 家有动态</strong>
+      <p>空白公司不是删掉，而是提示当前缺少可展示的新外部事件。</p>
+    </div>
+    <div>
+      <span class="status-label">下一步</span>
+      <strong>补中企新闻源</strong>
+      <p>新易盛、深南电路、沪电股份、工业富联应进入官方新闻采集。</p>
+    </div>
+  `;
 }
 
 function renderDecisionCockpit() {
@@ -625,6 +778,7 @@ function renderTimelineFeed() {
   `).join("");
 }
 
+renderPortfolioBoard();
 renderDecisionCockpit();
 renderCloudSync();
 renderDecisionQueue();

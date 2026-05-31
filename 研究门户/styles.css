@@ -298,6 +298,137 @@ a:hover {
   color: var(--accent);
 }
 
+.portfolio-overview-section {
+  padding: 22px;
+}
+
+.portfolio-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.portfolio-heading h2 {
+  margin-bottom: 10px;
+}
+
+.portfolio-board-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  min-width: 260px;
+}
+
+.portfolio-board-stats span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: rgba(215, 234, 216, 0.7);
+  border: 1px solid rgba(18, 71, 52, 0.12);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.portfolio-board-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 16px;
+  align-items: start;
+}
+
+.portfolio-table-wrap {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: rgba(255, 252, 245, 0.7);
+}
+
+.portfolio-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+.portfolio-table th,
+.portfolio-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.portfolio-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: var(--muted);
+  background: #f7efe3;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.portfolio-table tbody tr:last-child th,
+.portfolio-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.portfolio-table tbody tr:hover {
+  background: rgba(215, 234, 216, 0.28);
+}
+
+.portfolio-table tbody th {
+  width: 150px;
+}
+
+.portfolio-table a {
+  font-weight: 800;
+}
+
+.portfolio-table span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.portfolio-table strong {
+  color: var(--ink);
+}
+
+.portfolio-table .company-tag {
+  display: inline-flex;
+  margin-top: 8px;
+}
+
+.portfolio-board-side {
+  display: grid;
+  gap: 10px;
+}
+
+.portfolio-board-side > div {
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(255, 248, 239, 0.8);
+  border: 1px solid var(--border);
+}
+
+.portfolio-board-side strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.portfolio-board-side p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .grid {
   display: grid;
   gap: 16px;
@@ -2311,6 +2442,7 @@ a:hover {
   .status-strip,
   .company-kpi-grid,
   .company-decision-board,
+  .portfolio-board-layout,
   .cockpit-grid,
   .cloud-sync-grid,
   .research-pool-summary,
@@ -2368,6 +2500,15 @@ a:hover {
     justify-content: flex-start;
   }
 
+  .portfolio-heading {
+    flex-direction: column;
+  }
+
+  .portfolio-board-stats {
+    justify-content: flex-start;
+    min-width: 0;
+  }
+
   .masonry-grid {
     column-count: 2;
   }
@@ -2401,6 +2542,7 @@ a:hover {
   .status-strip,
   .company-kpi-grid,
   .company-decision-board,
+  .portfolio-board-layout,
   .cockpit-grid,
   .cloud-sync-grid,
   .research-pool-summary,
@@ -2439,6 +2581,15 @@ a:hover {
 
   .company-decision-board {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio-heading {
+    flex-direction: column;
+  }
+
+  .portfolio-board-stats {
+    justify-content: flex-start;
+    min-width: 0;
   }
 
   .decision-thesis {
