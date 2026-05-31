@@ -93,6 +93,31 @@ function buildTimelineEvents() {
   return [...fallbackEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
 }
 
+function selectDiverseTimelineEvents(events, limit = 12, perCompanyLimit = 2) {
+  const selected = [];
+  const selectedKeys = new Set();
+  const companyCounts = {};
+
+  events.forEach((event) => {
+    if (selected.length >= limit) return;
+    const company = event.company || event.companyName || "";
+    if ((companyCounts[company] || 0) >= perCompanyLimit) return;
+    selected.push(event);
+    selectedKeys.add(`${company}-${event.index}-${event.title}`);
+    companyCounts[company] = (companyCounts[company] || 0) + 1;
+  });
+
+  events.forEach((event) => {
+    if (selected.length >= limit) return;
+    const key = `${event.company || event.companyName || ""}-${event.index}-${event.title}`;
+    if (selectedKeys.has(key)) return;
+    selected.push(event);
+    selectedKeys.add(key);
+  });
+
+  return selected;
+}
+
 function escapeHtml(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -561,8 +586,9 @@ function renderTimelineFeed() {
   if (!feed || !count) return;
 
   const events = buildTimelineEvents();
-  const visibleEvents = events.slice(0, 12);
-  count.textContent = `最新 ${visibleEvents.length} 条关键动态`;
+  const visibleEvents = selectDiverseTimelineEvents(events, 12, 2);
+  const visibleCompanies = new Set(visibleEvents.map((event) => event.company || event.companyName)).size;
+  count.textContent = `最新 ${visibleEvents.length} 条关键动态 · 覆盖 ${visibleCompanies} 家`;
 
   feed.innerHTML = visibleEvents.map((event) => `
     <article class="event-card rich-card timeline-card-item">
