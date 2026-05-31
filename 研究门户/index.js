@@ -17,20 +17,27 @@ function getLatestDateValue(dateText) {
 function buildTimelineEvents() {
   const eventStoreCompanies = window.BAMBOO_LENS_EVENT_STORE?.companies || {};
   const metaCompanies = window.COMPANY_EVENT_META || {};
-  const researchArtifacts = (window.BAMBOO_LENS_RESEARCH_ARTIFACTS || []).map((item, index) => ({
-    company: `research-${index}`,
-    companyName: item.companyName || "研究成果",
-    tag: item.tag || "研究",
-    tagClass: item.tagClass || "",
-    index,
-    date: item.date,
-    type: item.type || "研究成果",
-    title: item.title,
-    note: item.note || "",
-    sortKey: getLatestDateValue(item.date),
-    link: item.link,
-    linkLabel: "查看研究卡",
-  }));
+  const candidateCompanies = window.BAMBOO_LENS_CANDIDATES?.companies || {};
+  const officialCandidates = Object.entries(candidateCompanies).flatMap(([company, items]) => {
+    const meta = metaCompanies[company] || {};
+    return (items || [])
+      .filter((item) => item.candidate_status !== "promoted")
+      .map((item, index) => ({
+        company,
+        companyName: item.company_name || meta.displayName || company,
+        tag: item.status_label || "候选新闻",
+        tagClass: meta.tagClass || "",
+        index,
+        date: item.date,
+        type: item.type || "官方候选",
+        title: item.title,
+        note: item.content_summary || item.source_excerpt || item.review_reason || "系统抓到的官方新闻，尚未完成正式研判。",
+        sortKey: Number(item.sort_key) || getLatestDateValue(item.date),
+        link: item.source_url || "./candidates.html",
+        linkLabel: item.source_url ? "查看官方来源" : "查看候选台",
+        external: Boolean(item.source_url),
+      }));
+  });
 
   if (Object.keys(eventStoreCompanies).length) {
     const formalEvents = Object.entries(eventStoreCompanies).flatMap(([company, companyData]) => {
@@ -49,9 +56,10 @@ function buildTimelineEvents() {
         sortKey: Number(event.sort_key) || getLatestDateValue(event.date),
         link: `./event.html?company=${encodeURIComponent(company)}&event=${index}&return=company&v=20260412-24`,
         linkLabel: "查看原文详情",
+        external: false,
       }));
     });
-    return [...formalEvents, ...researchArtifacts].sort((a, b) => b.sortKey - a.sortKey);
+    return [...formalEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
   }
 
   const fallbackEvents = Object.entries(metaCompanies).flatMap(([company, latest]) => {
@@ -71,9 +79,10 @@ function buildTimelineEvents() {
       sortKey: getLatestDateValue(event.date),
       link: `./event.html?company=${encodeURIComponent(company)}&event=${index}&return=company&v=20260412-24`,
       linkLabel: "查看原文详情",
+      external: false,
     }));
   });
-  return [...fallbackEvents, ...researchArtifacts].sort((a, b) => b.sortKey - a.sortKey);
+  return [...fallbackEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
 }
 
 function escapeHtml(value) {
@@ -181,7 +190,7 @@ function renderDecisionCockpit() {
         </div>
         <h3>${escapeHtml(latest.title)}</h3>
         <p>${escapeHtml(latest.note || "这条事件已进入正式事件库，建议打开详情看原文摘要和分析。")}</p>
-        <a class="event-link" href="${escapeHtml(latest.link || `./event.html?company=${encodeURIComponent(latest.company)}&event=${latest.index}&return=company&v=20260516-1`)}">${escapeHtml(latest.linkLabel || "查看事件详情")}</a>
+        <a class="event-link" href="${escapeHtml(latest.link || `./event.html?company=${encodeURIComponent(latest.company)}&event=${latest.index}&return=company&v=20260516-1`)}"${latest.external ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(latest.linkLabel || "查看事件详情")}</a>
       `;
     }
   }
@@ -556,7 +565,7 @@ function renderTimelineFeed() {
       <span class="company-tag ${event.tagClass}">${event.tag}</span>
       <h4>${event.companyName} | ${event.title}</h4>
       <p class="event-summary">${event.note}</p>
-      <a class="event-link" href="${escapeHtml(event.link || `./event.html?company=${encodeURIComponent(event.company)}&event=${event.index}&return=company&v=20260412-24`)}">${escapeHtml(event.linkLabel || "查看原文详情")}</a>
+      <a class="event-link" href="${escapeHtml(event.link || `./event.html?company=${encodeURIComponent(event.company)}&event=${event.index}&return=company&v=20260412-24`)}"${event.external ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(event.linkLabel || "查看原文详情")}</a>
     </article>
   `).join("");
 }
