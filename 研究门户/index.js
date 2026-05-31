@@ -14,6 +14,14 @@ function getLatestDateValue(dateText) {
   return Math.max(...values);
 }
 
+function isExternalCompanyCandidate(item) {
+  if (!item || item.candidate_status === "promoted") return false;
+  if (item.type && item.type !== "官方候选") return false;
+
+  const internalText = `${item.title || ""} ${item.source_excerpt || ""} ${item.source_body || ""}`;
+  return !/研究池种子候选|观察卡待建|最小研究包待更新|待建|待更新/.test(internalText);
+}
+
 function buildTimelineEvents() {
   const eventStoreCompanies = window.BAMBOO_LENS_EVENT_STORE?.companies || {};
   const metaCompanies = window.COMPANY_EVENT_META || {};
@@ -21,17 +29,17 @@ function buildTimelineEvents() {
   const officialCandidates = Object.entries(candidateCompanies).flatMap(([company, items]) => {
     const meta = metaCompanies[company] || {};
     return (items || [])
-      .filter((item) => item.candidate_status !== "promoted")
+      .filter(isExternalCompanyCandidate)
       .map((item, index) => ({
         company,
         companyName: item.company_name || meta.displayName || company,
-        tag: item.status_label || "候选新闻",
+        tag: meta.tag || "公司新闻",
         tagClass: meta.tagClass || "",
         index,
         date: item.date,
-        type: item.type || "官方候选",
+        type: "公司新闻候选",
         title: item.title,
-        note: item.content_summary || item.source_excerpt || item.review_reason || "系统抓到的官方新闻，尚未完成正式研判。",
+        note: item.content_summary || item.source_excerpt || "来自公司官方来源的候选新闻，尚未完成正式研判。",
         sortKey: Number(item.sort_key) || getLatestDateValue(item.date),
         link: item.source_url || "./candidates.html",
         linkLabel: item.source_url ? "查看官方来源" : "查看候选台",
