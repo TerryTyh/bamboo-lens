@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import gzip
 import json
+import re
 import ssl
 import urllib.request
 from urllib.error import HTTPError
@@ -30,6 +31,24 @@ def slugify(url: str) -> str:
         .replace("&", "_")
         .replace("=", "_")
     )
+
+
+def decode_body(raw: bytes, content_type: str = "") -> str:
+    charset_match = re.search(r"charset=([\w-]+)", content_type or "", re.IGNORECASE)
+    candidates = []
+    if charset_match:
+        candidates.append(charset_match.group(1))
+    candidates.extend(["utf-8", "gb18030", "gbk", "gb2312"])
+
+    for encoding in candidates:
+        try:
+            text = raw.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            continue
+        if "\ufffd" not in text:
+            return text
+
+    return raw.decode("utf-8", errors="replace")
 
 
 def fetch(url: str) -> str:
@@ -62,7 +81,7 @@ def fetch(url: str) -> str:
             encoding = (response.headers.get("Content-Encoding") or "").lower()
             if "gzip" in encoding or raw[:2] == b"\x1f\x8b":
                 raw = gzip.decompress(raw)
-            return raw.decode("utf-8", errors="ignore")
+            return decode_body(raw, response.headers.get("Content-Type", ""))
 
     def _proxy_url(target_url: str) -> str:
         return f"https://r.jina.ai/http://{target_url.replace('https://', '').replace('http://', '')}"
