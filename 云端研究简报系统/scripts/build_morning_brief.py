@@ -214,77 +214,9 @@ def render_item(index: int, item: dict) -> str:
 
 
 def render_research_backlog(items: list[dict]) -> str:
-    selected = [item for item in items if not is_completed_research_candidate(item)][:5]
-    naura_done = research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md")
-    naura_line = (
-        "- 北方华创｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
-        if naura_done
-        else "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。"
-    )
-    amec_done = research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md")
-    amec_line = (
-        "- 中微公司｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证扣非利润、现金流、薄膜设备放量和营运资本。"
-        if amec_done
-        else "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。"
-    )
-    optical_line = (
-        "- 中际旭创/新易盛｜光模块正式对照卡：已完成；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流和存货/应收。"
-        if research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md")
-        else "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。"
-    )
-    jcet_line = (
-        "- 长电科技｜强 B 复核：已完成；下一步等 2026H1/Q2 验证长电微亏损、先进封装毛利率、经营现金流和 capex 回报。"
-        if research_doc_exists("55-长电科技强B复核_2026-05-30.md")
-        else "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。"
-    )
-    a_share_lines = [
-        naura_line,
-        amec_line,
-        optical_line,
-        jcet_line,
-    ]
-    a_share_focus = "\n".join(a_share_lines)
-    if not selected:
-        return f"""## 1. 研究池｜A 股扩池优先
-
-**今天应看什么**
-
-今日没有新入库正式事件。研究工作改为扩充 A 股公司池，优先补半导体设备、先进封装、AI 光模块、PCB/服务器和电力设备候选。
-
-**后续观察点**
-
-{a_share_focus}
-
-[原文](https://www.cninfo.com.cn/)"""
-
-    lines = []
-    for item in selected:
-        company = company_name(item.get("company", ""))
-        title = localize_brief_terms(item.get("title", ""))
-        reason = localize_brief_terms(item.get("review_batch_reason", ""))
-        url = normalize(item.get("source_url", ""))
-        link = f" [原文]({url})" if url else ""
-        lines.append(f"- {company}｜{title}：{reason}{link}")
-
-    return f"""## 1. 研究池｜候选深读待办
-
-**今天应看什么**
-
-今日没有新入库正式事件。为了避免日报空转，今天优先处理候选池深读，并把 A 股扩池放在 NVIDIA 生态新闻之前。
-
-**A 股扩池优先**
-
-{a_share_focus}
-
-**候选池提示**
-
-{chr(10).join(lines)}
-
-**后续观察点**
-
-- 先补 A 股半导体设备、先进封装、AI 光模块和 PCB/服务器公司池。
-- NVIDIA 只在财报、订单、量产、客户 capex 或明确收入/利润影响出现时进入头条。
-- 候选只作为研究待办，不直接形成买卖动作。"""
+    # Morning brief only contains reviewed formal events. Candidates/backlog notes belong in logs/portal,
+    # not in the brief body.
+    return ""
 
 
 def main() -> None:
@@ -307,7 +239,7 @@ def main() -> None:
     if selected:
         body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
     else:
-        body = render_research_backlog(load_review_priorities())
+        body = ""
     MORNING_BRIEF_FILE.write_text(
         f"""# 竹鉴晨报 | {today}
 

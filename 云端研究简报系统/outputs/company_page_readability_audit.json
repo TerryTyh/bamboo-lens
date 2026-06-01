@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-29T14:44:07",
-  "source_overrides_at": "2026-05-29T14:44:07",
+  "generated_at": "2026-06-01T22:36:15",
+  "source_overrides_at": "2026-06-01T22:36:15",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
-      "sourceEventDate": "2026-05-20",
+      "sourceEventTitle": "提出“AI 工厂”基础设施框架：用 tokens 衡量产能与单位经济，强调全栈协同与智能体/持续推理负载",
+      "sourceEventDate": "2026-05-27",
       "status": "healthy",
       "counts": {
         "finance_rows": 3,
