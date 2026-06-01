@@ -127,6 +127,48 @@
       "official_sources": [
         "https://www.innolight.com/inv2.aspx"
       ]
+    },
+    {
+      "id": "eoptolink",
+      "name": "新易盛",
+      "market": "CN A-share",
+      "tier": "B",
+      "theme": "AI optical modules",
+      "official_sources": [
+        "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml"
+      ]
+    },
+    {
+      "id": "shennan",
+      "name": "深南电路",
+      "market": "CN A-share",
+      "tier": "C",
+      "theme": "PCB, package substrate and AI server supply chain",
+      "official_sources": [
+        "https://www.scc.com.cn/scc/tzzgx/zxgg/",
+        "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
+        "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg"
+      ]
+    },
+    {
+      "id": "wus",
+      "name": "沪电股份",
+      "market": "CN A-share",
+      "tier": "C",
+      "theme": "High-speed PCB and AI server supply chain",
+      "official_sources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463"
+      ]
+    },
+    {
+      "id": "fii",
+      "name": "工业富联",
+      "market": "CN A-share",
+      "tier": "C",
+      "theme": "AI server manufacturing and industrial internet",
+      "official_sources": [
+        "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml"
+      ]
     }
   ]
 }

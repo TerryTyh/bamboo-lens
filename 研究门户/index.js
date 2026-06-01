@@ -372,8 +372,8 @@ function renderPortfolioBoard() {
     </div>
     <div>
       <span class="status-label">下一步</span>
-      <strong>补中企新闻源</strong>
-      <p>新易盛、深南电路、沪电股份、工业富联应进入官方新闻采集。</p>
+      <strong>验证中企新闻源</strong>
+      <p>新易盛、深南电路、沪电股份、工业富联已补入采集配置，等待下一轮候选抓取验证。</p>
     </div>
   `;
 }
