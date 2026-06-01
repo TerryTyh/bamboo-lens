@@ -1,4 +1,4 @@
-# 竹鉴晨报 | 2026-05-30
+# 竹鉴晨报 | 2026-06-02
 
 ## 1. 研究池｜候选深读待办
 
@@ -15,9 +15,10 @@
 
 **候选池提示**
 
-- NVIDIA｜NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI：已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。 [原文](https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/)
-- NVIDIA｜AI Factories: The New Infrastructure of Intelligence：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/)
-- NVIDIA｜NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/vera-cpu-phoronix/)
+- NVIDIA｜NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/ai-cloud-ecosystem/)
+- NVIDIA｜Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/)
+- NVIDIA｜How Cosmos 3 Helps Physical AI Think Before It Acts：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/)
+- NVIDIA｜NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain：已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。 [原文](https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/)
 
 **后续观察点**
 

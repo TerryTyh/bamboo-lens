@@ -1,15 +1,15 @@
-# 正式事件草稿｜NVIDIA｜NVIDIA Announces Upcoming Events for Financial Community
+# 正式事件草稿｜NVIDIA｜NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research
 
 ## 草稿状态
 
 - 公司：NVIDIA（nvidia）
-- 日期：2026-05-21
+- 日期：2026-05-31
 - 类型：官方候选
 - 候选分数：6
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 0）
-- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260529-144007__investor.nvidia.com_news_press-releases_default.aspx.html
+- 官方来源：[打开官方来源](https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+日期：2026-05-31；标题：NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research；来源：https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 
 ### 候选事实
 
-日期：2026-05-21；标题：NVIDIA Announces Upcoming Events for Financial Community；来源：https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679
+日期：2026-05-31；标题：NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research；来源：https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-nvidia-nvidia-announces-upcoming-events-for-financial-community`
+`auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research`
 
 ## 质量闸门
 
