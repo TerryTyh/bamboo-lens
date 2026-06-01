@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-01T14:52:49",
-  "source_generated_at": "2026-06-01T14:52:49",
+  "generated_at": "2026-06-01T14:59:03",
+  "source_generated_at": "2026-06-01T14:59:03",
   "items": [
     {
       "company": "constellation",
@@ -735,7 +735,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260601-144815__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260601-145526__investors.constellationenergy.com_events-and-presentations_past-events.html",
       "event_index": null,
       "sort_key": 20260511,
       "score": 14
@@ -987,7 +987,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 10
@@ -1041,10 +1041,28 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "适合周末深读：补风险、业务结构、资本开支和治理信息，先不要直接写成短期动作。",
       "source_url": "http://pr.tsmc.com/english/news/3300",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260601-144815__pr.tsmc.com_english_latest-news.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260601-145526__pr.tsmc.com_english_latest-news.html",
       "event_index": null,
       "sort_key": 20260416,
       "score": 10
+    },
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+      "date": "2026-05-14",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260601-145526__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20260514,
+      "score": 9
     },
     {
       "company": "alibaba",
@@ -1131,7 +1149,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 8
@@ -1149,7 +1167,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 8
@@ -1167,7 +1185,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 8
@@ -1185,7 +1203,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 8
@@ -1203,7 +1221,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://investor.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 8
@@ -1311,7 +1329,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 6
@@ -1329,7 +1347,7 @@
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
       "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-144815__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260531,
       "score": 6
@@ -1354,9 +1372,9 @@
     }
   ],
   "summary": {
-    "total": 75,
+    "total": 76,
     "formal_events": 63,
-    "official_candidates": 12,
-    "companies": 10
+    "official_candidates": 13,
+    "companies": 11
   }
 }

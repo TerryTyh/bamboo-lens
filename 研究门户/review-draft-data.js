@@ -1,14 +1,14 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-01T14:52:49",
+  "generated_at": "2026-06-01T14:59:04",
   "summary": {
-    "total": 11,
-    "companies": 4,
+    "total": 12,
+    "companies": 5,
     "with_source_body": 7,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 3,
       "readable_needs_review": 1,
-      "needs_source": 6,
+      "needs_source": 7,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -193,6 +193,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "风险与跟踪重点"
         ],
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+      }
+    },
+    "fii::工业富联：关于召开2026年第一季度业绩说明会的公告": {
+      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+      "date": "2026-05-14",
+      "score": 9,
+      "readiness_score": 3,
+      "investment_signal_score": 0,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     "nvidia::nvidia ai cloud ecosystem expands worldwide to meet global ai compute demand": {
@@ -684,6 +712,36 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       }
     ],
+    "fii": [
+      {
+        "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+        "date": "2026-05-14",
+        "score": 9,
+        "readiness_score": 3,
+        "investment_signal_score": 0,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "amec": [
       {
         "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
@@ -916,6 +974,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://www.amec-inc.com/investor",
       "portal_doc": "./docs/review-drafts/auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化.md",
       "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+      "date": "2026-05-14",
+      "score": 9,
+      "readiness_score": 3,
+      "investment_signal_score": 0,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",

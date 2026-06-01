@@ -1,22 +1,22 @@
 {
-  "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+  "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
   "draft_status": "auto_draft",
   "generated_at": "2026-06-01T14:59:04",
-  "company": "nvidia",
-  "company_name": "NVIDIA",
-  "source_candidate_title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-  "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-  "date": "2026-05-31",
+  "company": "fii",
+  "company_name": "工业富联",
+  "source_candidate_title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+  "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+  "date": "2026-05-14",
   "type": "官方候选",
   "priority": "草稿",
   "action": "等待补证据",
-  "score": 8,
-  "sort_key": 20260531,
-  "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-145526__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "score": 9,
+  "sort_key": 20260514,
+  "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260601-145526__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
-  "readiness_score": 2,
+  "readiness_score": 3,
   "investment_signal_score": 0,
   "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
   "promotion_blockers": [
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-05-31；标题：NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’；来源：https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan"
+    "日期：2026-05-14；标题：工业富联：关于召开2026年第一季度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml"
   ],
-  "fact": "日期：2026-05-31；标题：NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’；来源：https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+  "fact": "日期：2026-05-14；标题：工业富联：关于召开2026年第一季度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
   "evidence": [
     "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
     "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
@@ -57,7 +57,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 235,
+    "source_chars": 133,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -67,6 +67,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.json"
+  "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.json"
 }
