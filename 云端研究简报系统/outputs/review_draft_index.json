@@ -1,42 +1,17 @@
 {
-  "generated_at": "2026-06-01T17:21:01",
+  "generated_at": "2026-06-02T16:03:55",
   "summary": {
     "total": 12,
     "companies": 5,
-    "with_source_body": 7,
+    "with_source_body": 8,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 3,
-      "readable_needs_review": 1,
-      "needs_source": 7,
+      "ready_for_deep_review": 2,
+      "readable_needs_review": 3,
+      "needs_source": 6,
       "low_investment_signal": 1
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-        "date": "2026-05-31",
-        "score": 10,
-        "readiness_score": 28,
-        "investment_signal_score": 7,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
       {
         "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
         "company": "nvidia",
@@ -88,6 +63,32 @@
         }
       },
       {
+        "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+        "date": "2026-06-01",
+        "score": 6,
+        "readiness_score": 26,
+        "investment_signal_score": 6,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "业务地图",
+            "护城河与风险",
+            "当前结论"
+          ],
+          "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+        }
+      },
+      {
         "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -111,35 +112,35 @@
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+        "date": "2026-06-01",
+        "score": 6,
+        "readiness_score": 24,
+        "investment_signal_score": 6,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ]
   },
   "by_key": {
-    "nvidia::how cosmos 3 helps physical ai think before it acts": {
-      "draft_id": "auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "date": "2026-05-31",
-      "score": 10,
-      "readiness_score": 28,
-      "investment_signal_score": 7,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "innolight::中际旭创一页式观察卡待建：ai 光模块、800g/1.6t 与客户集中度验证": {
       "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
       "company": "innolight",
@@ -329,25 +330,48 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia releases major collection of open source agent tools and skills for physical ai": {
-      "draft_id": "auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
+    "nvidia::why financial institutions are converging on transaction foundation models to build their own intelligence": {
+      "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 2,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai.md",
-      "has_source_body": false,
+      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+      "date": "2026-06-01",
+      "score": 6,
+      "readiness_score": 26,
+      "investment_signal_score": 6,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "业务地图",
+          "护城河与风险",
+          "当前结论"
+        ],
+        "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+      }
+    },
+    "nvidia::nvidia jetson brings agentic ai to the physical world": {
+      "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "date": "2026-06-01",
+      "score": 6,
+      "readiness_score": 24,
+      "investment_signal_score": 6,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
+      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -439,220 +463,6 @@
     }
   },
   "companies": {
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-        "date": "2026-05-31",
-        "score": 10,
-        "readiness_score": 28,
-        "investment_signal_score": 7,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 18,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 9,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-        "date": "2026-05-31",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 7,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 11,
-        "investment_signal_score": 3,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 2,
-        "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 2,
-        "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-        "date": "2026-05-31",
-        "score": 6,
-        "readiness_score": 0,
-        "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
     "innolight": [
       {
         "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
@@ -742,6 +552,218 @@
         }
       }
     ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+        "date": "2026-05-31",
+        "score": 8,
+        "readiness_score": 28,
+        "investment_signal_score": 18,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+        "date": "2026-05-31",
+        "score": 8,
+        "readiness_score": 28,
+        "investment_signal_score": 9,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+        "date": "2026-06-01",
+        "score": 6,
+        "readiness_score": 26,
+        "investment_signal_score": 6,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "业务地图",
+            "护城河与风险",
+            "当前结论"
+          ],
+          "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
+        "date": "2026-05-31",
+        "score": 6,
+        "readiness_score": 25,
+        "investment_signal_score": 7,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+        "date": "2026-06-01",
+        "score": 6,
+        "readiness_score": 24,
+        "investment_signal_score": 6,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
+        "date": "2026-05-31",
+        "score": 8,
+        "readiness_score": 11,
+        "investment_signal_score": 3,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
+        "date": "2026-05-31",
+        "score": 8,
+        "readiness_score": 2,
+        "investment_signal_score": 0,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+        "date": "2026-05-31",
+        "score": 6,
+        "readiness_score": 0,
+        "investment_signal_score": 0,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "amec": [
       {
         "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
@@ -773,31 +795,6 @@
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "date": "2026-05-31",
-      "score": 10,
-      "readiness_score": 28,
-      "investment_signal_score": 7,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-how-cosmos-3-helps-physical-ai-think-before-it-acts.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     {
       "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
       "company": "nvidia",
@@ -849,6 +846,32 @@
       }
     },
     {
+      "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+      "date": "2026-06-01",
+      "score": 6,
+      "readiness_score": 26,
+      "investment_signal_score": 6,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "业务地图",
+          "护城河与风险",
+          "当前结论"
+        ],
+        "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+      }
+    },
+    {
       "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -863,6 +886,31 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "date": "2026-06-01",
+      "score": 6,
+      "readiness_score": 24,
+      "investment_signal_score": 6,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -1029,34 +1077,6 @@
       ],
       "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 2,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

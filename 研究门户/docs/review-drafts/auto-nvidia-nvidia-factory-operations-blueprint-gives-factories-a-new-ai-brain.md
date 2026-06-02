@@ -9,7 +9,7 @@
 - 当前动作：进入人工研判
 - 批处理建议：可读待研判（readiness 25）
 - 官方来源：[打开官方来源](https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260601-171644__investor.nvidia.com_news_press-releases_default.aspx.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260602-160003__investor.nvidia.com_news_press-releases_default.aspx.html
 
 ## 批处理建议
 

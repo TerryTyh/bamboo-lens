@@ -1,4 +1,4 @@
-# 竹鉴晨报 | 2026-06-02
+# 竹鉴晨报 | 2026-06-03
 
 ## 1. 研究池｜候选深读待办
 
@@ -17,8 +17,9 @@
 
 - NVIDIA｜NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/ai-cloud-ecosystem/)
 - NVIDIA｜Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/)
-- NVIDIA｜How Cosmos 3 Helps Physical AI Think Before It Acts：已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。 [原文](https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/)
+- NVIDIA｜Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence：已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。 [原文](https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/)
 - NVIDIA｜NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain：已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。 [原文](https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/)
+- NVIDIA｜NVIDIA Jetson Brings 智能体 AI to the Physical World：已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。 [原文](https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/)
 
 **后续观察点**
 

@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-06-01T17:21:01",
-  "source_generated_at": "2026-06-01T17:21:01",
+  "generated_at": "2026-06-02T16:03:55",
+  "source_generated_at": "2026-06-02T16:03:55",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
       "source_event_date": "2026-05-20",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "source_event_date": "2026-05-15",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-06-01T17:21:01",
+      "updated_at": "2026-06-02T16:03:55",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
