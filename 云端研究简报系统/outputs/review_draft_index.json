@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-02T16:03:55",
+  "generated_at": "2026-06-03T16:21:37",
   "summary": {
     "total": 12,
     "companies": 5,
-    "with_source_body": 8,
+    "with_source_body": 11,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "readable_needs_review": 3,
-      "needs_source": 6,
-      "low_investment_signal": 1
+      "ready_for_deep_review": 1,
+      "readable_needs_review": 4,
+      "needs_source": 3,
+      "low_investment_signal": 4
     },
     "priority_batch": [
       {
@@ -27,31 +27,6 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 9,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -86,6 +61,31 @@
             "当前结论"
           ],
           "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+        "date": "2026-06-03",
+        "score": 6,
+        "readiness_score": 25,
+        "investment_signal_score": 7,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       },
       {
@@ -224,6 +224,31 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "nvidia::nvidia partners with microsoft on unified stack for agentic ai deployment, from windows devices to cloud to local": {
+      "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "date": "2026-06-02",
+      "score": 8,
+      "readiness_score": 14,
+      "investment_signal_score": -1,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "nvidia::nvidia ai cloud ecosystem expands worldwide to meet global ai compute demand": {
       "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
       "company": "nvidia",
@@ -249,21 +274,21 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::taiwan’s industry titans turbocharge world’s ai infrastructure buildout with nvidia": {
-      "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
+    "nvidia::nvidia research unlocks advanced grasping, smarter autonomous driving and agent training at scale": {
+      "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 9,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "date": "2026-06-03",
+      "score": 6,
+      "readiness_score": 10,
+      "investment_signal_score": 0,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
       "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
+      "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -274,25 +299,22 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia and tsmc bring ai into fabs to advance semiconductor design and manufacturing": {
-      "draft_id": "auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+    "nvidia::nvidia enables the next era of physical ai research with agent skills for autonomous vehicles, robotics and vision ai": {
+      "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 11,
-      "investment_signal_score": 3,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing.md",
-      "has_source_body": false,
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "date": "2026-06-03",
+      "score": 6,
+      "readiness_score": 25,
+      "investment_signal_score": 7,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
+      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -302,25 +324,22 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia, foxconn and taiwan medical centers bring agentic and physical ai to ‘healthy taiwan’": {
-      "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+    "nvidia::industrial software leaders build secure, autonomous ai engineers with nvidia nemoclaw": {
+      "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 2,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-      "has_source_body": false,
+      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+      "date": "2026-06-02",
+      "score": 6,
+      "readiness_score": 11,
+      "investment_signal_score": -7,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
+      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -397,34 +416,6 @@
       "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
       "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia announces nvidia isaac gr00t reference humanoid robot for academic research": {
-      "draft_id": "auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-      "date": "2026-05-31",
-      "score": 6,
-      "readiness_score": 0,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research.md",
-      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -579,31 +570,6 @@
         }
       },
       {
-        "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 9,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
         "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -627,6 +593,31 @@
             "当前结论"
           ],
           "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+        "date": "2026-06-03",
+        "score": 6,
+        "readiness_score": 25,
+        "investment_signal_score": 7,
+        "readiness_lane": "readable_needs_review",
+        "readiness_label": "可读待研判",
+        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       },
       {
@@ -680,24 +671,21 @@
         }
       },
       {
-        "draft_id": "auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+        "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-        "date": "2026-05-31",
+        "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+        "date": "2026-06-02",
         "score": 8,
-        "readiness_score": 11,
-        "investment_signal_score": 3,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing.md",
-        "has_source_body": false,
+        "readiness_score": 14,
+        "investment_signal_score": -1,
+        "readiness_lane": "low_investment_signal",
+        "readiness_label": "低投资信息密度",
+        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
+        "has_source_body": true,
         "company_page_writeback": {
           "targets": [
             "最新动态",
@@ -708,52 +696,46 @@
         }
       },
       {
-        "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+        "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 2,
-        "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-        "date": "2026-05-31",
+        "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+        "date": "2026-06-02",
         "score": 6,
-        "readiness_score": 0,
+        "readiness_score": 11,
+        "investment_signal_score": -7,
+        "readiness_lane": "low_investment_signal",
+        "readiness_label": "低投资信息密度",
+        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+        "date": "2026-06-03",
+        "score": 6,
+        "readiness_score": 10,
         "investment_signal_score": 0,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research.md",
-        "has_source_body": false,
+        "readiness_lane": "low_investment_signal",
+        "readiness_label": "低投资信息密度",
+        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
+        "has_source_body": true,
         "company_page_writeback": {
           "targets": [
             "最新动态",
@@ -821,31 +803,6 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 9,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-taiwan-s-industry-titans-turbocharge-world-s-ai-infrastructure-buildout-with-nvidia.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -869,6 +826,31 @@
           "当前结论"
         ],
         "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "date": "2026-06-03",
+      "score": 6,
+      "readiness_score": 25,
+      "investment_signal_score": 7,
+      "readiness_lane": "readable_needs_review",
+      "readiness_label": "可读待研判",
+      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
@@ -977,24 +959,71 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+      "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
       "company": "nvidia",
       "company_name": "NVIDIA",
-      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "date": "2026-05-31",
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "date": "2026-06-02",
       "score": 8,
+      "readiness_score": 14,
+      "investment_signal_score": -1,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+      "date": "2026-06-02",
+      "score": 6,
       "readiness_score": 11,
-      "investment_signal_score": 3,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing.md",
-      "has_source_body": false,
+      "investment_signal_score": -7,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "date": "2026-06-03",
+      "score": 6,
+      "readiness_score": 10,
+      "investment_signal_score": 0,
+      "readiness_lane": "low_investment_signal",
+      "readiness_label": "低投资信息密度",
+      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
+      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -1049,62 +1078,6 @@
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
       "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 2,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-      "date": "2026-05-31",
-      "score": 6,
-      "readiness_score": 0,
-      "investment_signal_score": 0,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

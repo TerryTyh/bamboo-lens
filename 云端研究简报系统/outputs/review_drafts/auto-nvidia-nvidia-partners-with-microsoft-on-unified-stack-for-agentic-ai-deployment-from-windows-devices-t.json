@@ -1,0 +1,69 @@
+{
+  "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-06-03T16:21:37",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+  "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+  "date": "2026-06-02",
+  "type": "官方候选",
+  "priority": "草稿",
+  "action": "进入人工研判",
+  "score": 8,
+  "sort_key": 20260602,
+  "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "readiness_lane": "low_investment_signal",
+  "readiness_label": "低投资信息密度",
+  "readiness_score": 14,
+  "investment_signal_score": -1,
+  "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+  "promotion_blockers": [],
+  "source_summary": [
+    "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman and CEO Satya Nadella’s keynote via livestream from Taipei to discuss the expanded partnership: NVIDIA RTX Spark and DGX Station for Windows , NVIDIA GPU-accelerated Microsoft Fabric, NVIDIA open models on Microsoft Foundry, the NVIDIA OpenShell secure runtime in GitHub Copilot and the next generation of NVIDIA-powered AI factories. NVIDIA and Microsoft are reimagining Windows PCs for the age of AI agents. With RTX Spark laptops and small desktops, and DGX Station for Windows deskside AI supercomputers, developers can build, tune and run agents natively on Windows. RTX Spark is a new beginning, powering the world’s first Windows PCs purpose-built for personal agents, with 1 petaflop of AI performance, up to 128GB of unified memory, all-day battery life, and full AI and graphics performance unplugged. Bringing over 30 years of NVIDIA innovation, including CUDA, RTX, DLSS and TensorRT, systems arrive this fall from Microsoft Surface, ASUS, Dell, HP, Lenovo and MSI. DGX Station for Windows is the most powerful deskside AI supercomputer for building and running agents on Windows enterprise applications and workflows. Powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip with up to 748GB of coherent memory and 20 petaflops of FP4 performance, it runs frontier models of up to 1 trillion parameters for always-on enterprise agents. Systems are expected from ASUS, Dell, GIGABYTE, HP, MSI and Supermicro in Q4. Both products run NVIDIA OpenShell, a secure-by-design runtime for autonomous agents. Read more in this Microsoft blog: “ Introducing a powerful new chapter for Windows PCs, accelerated by NVIDIA RTX Spark ” Agentic AI runs on a system of models. With NVIDIA, Anthropic and OpenAI models — plus Hermes special agents — now on the hosted agents in Foundry Agent Service, enterprises can bring agentic systems to life on Azure with built-in identity and governance. Anthropic’s Claude models now run natively on NVIDIA GB300 Blackwell Ultra systems on Azure, with customer availability in the weeks ahead. NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is ava\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
+  ],
+  "fact": "日期：2026-06-02；标题：NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local；原文内容：The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman an…；来源：https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+  "evidence": [
+    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
+    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "evidence_needed": [
+    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "这件事影响哪条业务线、财务科目或竞争位置",
+    "下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "company_page_writeback": {
+    "targets": [
+      "最新动态",
+      "当前结论",
+      "跟踪重点"
+    ],
+    "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+  },
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": true,
+    "source_chars": 3639,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.json"
+}
