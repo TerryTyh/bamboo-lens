@@ -51,6 +51,53 @@ NOISE_PATTERNS = (
     "nuclear preservation",
     "nuclear license renewal",
 )
+CN_INVESTMENT_KEYWORDS = (
+    "投资者关系活动记录表",
+    "投资者关系管理信息",
+    "业绩说明会",
+    "年度报告",
+    "季度报告",
+    "半年度报告",
+    "业绩预告",
+    "业绩快报",
+    "向特定对象发行股票",
+    "定增",
+    "募集说明书",
+    "募集资金",
+    "重大合同",
+    "日常经营重大合同",
+    "中标",
+    "订单",
+    "回购",
+)
+CN_WAITING_MATERIAL_KEYWORDS = (
+    "关于召开",
+    "业绩说明会的公告",
+    "股东大会通知",
+)
+CN_LOW_SIGNAL_PATTERNS = (
+    "法律意见书",
+    "工作细则",
+    "公司章程",
+    "独立董事",
+    "董事会",
+    "监事会",
+    "审计委员会",
+    "提名委员会",
+    "战略委员会",
+    "薪酬与考核委员会",
+    "股权激励",
+    "限制性股票归属",
+    "作废部分",
+    "工商变更",
+    "工商登记",
+    "营业执照",
+    "权益分派实施公告",
+    "非经营性资金占用",
+    "专项意见",
+    "内部控制",
+)
+CN_ANNOUNCEMENT_COMPANIES = {"jcet", "naura", "amec", "innolight", "eoptolink", "shennan", "wus", "fii"}
 BAD_EXCERPT_PATTERNS = (
     "PLATFORMS Autonomous Machines",
     "View All Products GPU TECHNOLOGY CONFERENCE",
@@ -383,10 +430,16 @@ def score_candidate(tag: str, text: str) -> int:
         score += 3
     if any(keyword in value for keyword in ("ai", "cloud", "data center", "acquisition", "partnership", "conference")):
         score += 2
+    if any(keyword in text for keyword in CN_INVESTMENT_KEYWORDS):
+        score += 5
+    if any(keyword in text for keyword in CN_WAITING_MATERIAL_KEYWORDS):
+        score += 2
     if len(text) < 18 or len(text) > 180:
         score -= 2
     if any(noise in value for noise in NOISE_PATTERNS):
         score -= 5
+    if any(noise in text for noise in CN_LOW_SIGNAL_PATTERNS):
+        score -= 8
     return score
 
 
@@ -458,6 +511,17 @@ def build_items_from_nodes(text_nodes: list[tuple[str, str]], min_score: int = 4
             }
         )
     return items
+
+
+def extract_cn_announcement_candidates(text_nodes: list[tuple[str, str]]) -> list[dict]:
+    items = build_items_from_nodes(text_nodes, min_score=5)
+    focused = [
+        item
+        for item in items
+        if any(keyword in item["title"] for keyword in CN_INVESTMENT_KEYWORDS + CN_WAITING_MATERIAL_KEYWORDS)
+        and not any(noise in item["title"] for noise in CN_LOW_SIGNAL_PATTERNS)
+    ]
+    return dedupe_items(focused or items)
 
 
 def dedupe_items(items: list[dict], limit: int = 8) -> list[dict]:
@@ -906,6 +970,8 @@ def extract_candidates_from_html(html: str, company_id: str, url: str) -> list[d
         return extract_luxshare_candidates_from_html(html) or extract_luxshare_candidates(text_nodes)
     if company_id == "inovance":
         return extract_inovance_candidates(text_nodes)
+    if company_id in CN_ANNOUNCEMENT_COMPANIES:
+        return extract_cn_announcement_candidates(text_nodes)
 
     return dedupe_items(build_items_from_nodes(text_nodes))
 

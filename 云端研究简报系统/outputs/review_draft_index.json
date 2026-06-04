@@ -1,144 +1,14 @@
 {
-  "generated_at": "2026-06-03T16:21:37",
+  "generated_at": "2026-06-04T22:06:23",
   "summary": {
-    "total": 12,
-    "companies": 5,
-    "with_source_body": 11,
+    "total": 15,
+    "companies": 6,
+    "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 1,
-      "readable_needs_review": 4,
-      "needs_source": 3,
-      "low_investment_signal": 4
+      "needs_source": 15
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 18,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-        "date": "2026-06-01",
-        "score": 6,
-        "readiness_score": 26,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "业务地图",
-            "护城河与风险",
-            "当前结论"
-          ],
-          "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-        "date": "2026-06-03",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 7,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-        "date": "2026-05-31",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 7,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-        "date": "2026-06-01",
-        "score": 6,
-        "readiness_score": 24,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ]
+    "priority_batch": []
   },
   "by_key": {
     "innolight::中际旭创一页式观察卡待建：ai 光模块、800g/1.6t 与客户集中度验证": {
@@ -196,15 +66,15 @@
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
-    "fii::工业富联：关于召开2026年第一季度业绩说明会的公告": {
-      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
-      "company": "fii",
-      "company_name": "工业富联",
-      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
-      "date": "2026-05-14",
+    "shennan::深南电路：2026年6月3日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月3日投资者关系活动记录表",
+      "date": "2026-6-3",
       "score": 9,
-      "readiness_score": 3,
-      "investment_signal_score": 0,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
       "readiness_lane": "needs_source",
       "readiness_label": "待补正文",
       "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
@@ -212,8 +82,8 @@
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -224,225 +94,333 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia partners with microsoft on unified stack for agentic ai deployment, from windows devices to cloud to local": {
-      "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+    "eoptolink::新易盛：投资者关系管理信息20260601": {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260601",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20260601",
       "date": "2026-06-02",
-      "score": 8,
+      "score": 9,
       "readiness_score": 14,
-      "investment_signal_score": -1,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia ai cloud ecosystem expands worldwide to meet global ai compute demand": {
-      "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 18,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia research unlocks advanced grasping, smarter autonomous driving and agent training at scale": {
-      "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "date": "2026-06-03",
-      "score": 6,
-      "readiness_score": 10,
-      "investment_signal_score": 0,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia enables the next era of physical ai research with agent skills for autonomous vehicles, robotics and vision ai": {
-      "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-      "date": "2026-06-03",
-      "score": 6,
-      "readiness_score": 25,
-      "investment_signal_score": 7,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::industrial software leaders build secure, autonomous ai engineers with nvidia nemoclaw": {
-      "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-      "date": "2026-06-02",
-      "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -7,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::why financial institutions are converging on transaction foundation models to build their own intelligence": {
-      "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-      "date": "2026-06-01",
-      "score": 6,
-      "readiness_score": 26,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "业务地图",
-          "护城河与风险",
-          "当前结论"
-        ],
-        "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
-      }
-    },
-    "nvidia::nvidia jetson brings agentic ai to the physical world": {
-      "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-      "date": "2026-06-01",
-      "score": 6,
-      "readiness_score": 24,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::nvidia factory operations blueprint gives factories a new ai brain": {
-      "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "date": "2026-05-31",
-      "score": 6,
-      "readiness_score": 25,
-      "investment_signal_score": 7,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "amec::中微公司一页式观察卡待建：刻蚀设备、mocvd 与先进制程设备国产化": {
-      "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
-      "company": "amec",
-      "company_name": "中微公司",
-      "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
-      "date": "2026-05-27",
-      "score": 6,
-      "readiness_score": 6,
-      "investment_signal_score": 0,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
       "promotion_blockers": [
+        "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://www.amec-inc.com/investor",
-      "portal_doc": "./docs/review-drafts/auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化.md",
-      "has_source_body": true,
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260601.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "shennan::深南电路：关于筹划向特定对象发行股票的提示性公告": {
+      "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
+      "date": "2026-06-02",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年6月2日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月2日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月2日投资者关系活动记录表",
+      "date": "2026-6-2",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月2日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年6月1日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月1日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月1日投资者关系活动记录表",
+      "date": "2026-6-1",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "shennan::深南电路：2026年5月27日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年5月27日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年5月26日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年5月26日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月26日投资者关系活动记录表",
+      "date": "2026-5-26",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月26日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年5月25日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年5月25日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月25日投资者关系活动记录表",
+      "date": "2026-5-25",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月25日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：投资者关系活动记录表20260520": {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260520",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表20260520",
+      "date": "2026-05-21",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260520.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "shennan::深南电路：2026年5月19日-21日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
+      "date": "2026-5-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：投资者关系活动记录表-20260515-20260518": {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表-20260515-20260518",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表-20260515-20260518",
+      "date": "2026-05-15",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表-20260515-20260518.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：关于召开2026年第一季度业绩说明会的公告": {
+      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+      "date": "2026-05-14",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -513,7 +491,349 @@
         }
       }
     ],
+    "shennan": [
+      {
+        "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年6月3日投资者关系活动记录表",
+        "date": "2026-6-3",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
+        "date": "2026-06-02",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年5月27日投资者关系活动记录表",
+        "date": "2026-5-27",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
+        "date": "2026-5-19",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
+    "eoptolink": [
+      {
+        "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260601",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "title": "新易盛：投资者关系管理信息20260601",
+        "date": "2026-06-02",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260601.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
+    "wus": [
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月2日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月2日投资者关系活动记录表",
+        "date": "2026-6-2",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月2日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月1日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月1日投资者关系活动记录表",
+        "date": "2026-6-1",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年5月27日投资者关系活动记录表",
+        "date": "2026-5-27",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年5月26日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年5月26日投资者关系活动记录表",
+        "date": "2026-5-26",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月26日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年5月25日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年5月25日投资者关系活动记录表",
+        "date": "2026-5-25",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月25日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "fii": [
+      {
+        "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260520",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：投资者关系活动记录表20260520",
+        "date": "2026-05-21",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260520.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-fii-工业富联-投资者关系活动记录表-20260515-20260518",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：投资者关系活动记录表-20260515-20260518",
+        "date": "2026-05-15",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表-20260515-20260518.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
         "company": "fii",
@@ -521,8 +841,8 @@
         "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
         "date": "2026-05-14",
         "score": 9,
-        "readiness_score": 3,
-        "investment_signal_score": 0,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
         "readiness_lane": "needs_source",
         "readiness_label": "待补正文",
         "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
@@ -542,367 +862,9 @@
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
-    ],
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-        "date": "2026-05-31",
-        "score": 8,
-        "readiness_score": 28,
-        "investment_signal_score": 18,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-        "date": "2026-06-01",
-        "score": 6,
-        "readiness_score": 26,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "业务地图",
-            "护城河与风险",
-            "当前结论"
-          ],
-          "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-        "date": "2026-06-03",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 7,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-        "date": "2026-05-31",
-        "score": 6,
-        "readiness_score": 25,
-        "investment_signal_score": 7,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-        "date": "2026-06-01",
-        "score": 6,
-        "readiness_score": 24,
-        "investment_signal_score": 6,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
-        "date": "2026-06-02",
-        "score": 8,
-        "readiness_score": 14,
-        "investment_signal_score": -1,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-        "date": "2026-06-02",
-        "score": 6,
-        "readiness_score": 11,
-        "investment_signal_score": -7,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-        "date": "2026-06-03",
-        "score": 6,
-        "readiness_score": 10,
-        "investment_signal_score": 0,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
-    "amec": [
-      {
-        "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
-        "company": "amec",
-        "company_name": "中微公司",
-        "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
-        "date": "2026-05-27",
-        "score": 6,
-        "readiness_score": 6,
-        "investment_signal_score": 0,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [
-          "可读内容偏短"
-        ],
-        "source_url": "https://www.amec-inc.com/investor",
-        "portal_doc": "./docs/review-drafts/auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-      "date": "2026-05-31",
-      "score": 8,
-      "readiness_score": 28,
-      "investment_signal_score": 18,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-ai-cloud-ecosystem-expands-worldwide-to-meet-global-ai-compute-demand.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-      "date": "2026-06-01",
-      "score": 6,
-      "readiness_score": 26,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build-their-own-in.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "业务地图",
-          "护城河与风险",
-          "当前结论"
-        ],
-        "guidance": "若有客户、规模、商业化路径或技术证据，应沉淀到业务地图和护城河，不要只留在事件详情里。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-      "date": "2026-06-03",
-      "score": 6,
-      "readiness_score": 25,
-      "investment_signal_score": 7,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-enables-the-next-era-of-physical-ai-research-with-agent-skills-for-autonomous-vehicles-ro.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "date": "2026-05-31",
-      "score": 6,
-      "readiness_score": 25,
-      "investment_signal_score": 7,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-factory-operations-blueprint-gives-factories-a-new-ai-brain.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-      "date": "2026-06-01",
-      "score": 6,
-      "readiness_score": 24,
-      "investment_signal_score": 6,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-jetson-brings-agentic-ai-to-the-physical-world.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     {
       "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
       "company": "innolight",
@@ -959,98 +921,332 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
-      "date": "2026-06-02",
-      "score": 8,
+      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月3日投资者关系活动记录表",
+      "date": "2026-6-3",
+      "score": 9,
       "readiness_score": 14,
-      "investment_signal_score": -1,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-partners-with-microsoft-on-unified-stack-for-agentic-ai-deployment-from-windows-devices-t.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-      "date": "2026-06-02",
-      "score": 6,
-      "readiness_score": 11,
-      "investment_signal_score": -7,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-industrial-software-leaders-build-secure-autonomous-ai-engineers-with-nvidia-nemoclaw.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "date": "2026-06-03",
-      "score": 6,
-      "readiness_score": 10,
-      "investment_signal_score": 0,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-research-unlocks-advanced-grasping-smarter-autonomous-driving-and-agent-training-at-scale.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化",
-      "company": "amec",
-      "company_name": "中微公司",
-      "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
-      "date": "2026-05-27",
-      "score": 6,
-      "readiness_score": 6,
-      "investment_signal_score": 0,
-      "readiness_lane": "low_investment_signal",
-      "readiness_label": "低投资信息密度",
-      "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
       "promotion_blockers": [
+        "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://www.amec-inc.com/investor",
-      "portal_doc": "./docs/review-drafts/auto-amec-中微公司一页式观察卡待建-刻蚀设备-mocvd-与先进制程设备国产化.md",
-      "has_source_body": true,
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260601",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20260601",
+      "date": "2026-06-02",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260601.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
+      "date": "2026-06-02",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月2日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月2日投资者关系活动记录表",
+      "date": "2026-6-2",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月2日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月1日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月1日投资者关系活动记录表",
+      "date": "2026-6-1",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月26日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月26日投资者关系活动记录表",
+      "date": "2026-5-26",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月26日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月25日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月25日投资者关系活动记录表",
+      "date": "2026-5-25",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月25日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260520",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表20260520",
+      "date": "2026-05-21",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260520.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
+      "date": "2026-5-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表-20260515-20260518",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表-20260515-20260518",
+      "date": "2026-05-15",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表-20260515-20260518.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -1067,8 +1263,8 @@
       "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
       "date": "2026-05-14",
       "score": 9,
-      "readiness_score": 3,
-      "investment_signal_score": 0,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
       "readiness_lane": "needs_source",
       "readiness_label": "待补正文",
       "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",

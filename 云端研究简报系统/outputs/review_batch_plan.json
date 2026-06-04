@@ -1,212 +1,35 @@
 {
-  "generated_at": "2026-05-28T00:00:28",
+  "generated_at": "2026-06-04T22:06:23",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
-    "total": 5,
-    "companies": 2,
-    "with_source_body": 4,
+    "total": 15,
+    "companies": 6,
+    "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "needs_source": 2,
-      "readable_needs_review": 1
+      "needs_source": 15
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-        "date": "2026-05-26",
-        "score": 11,
-        "readiness_score": 27,
-        "investment_signal_score": 5,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-        "date": "2026-05-18",
-        "score": 8,
-        "readiness_score": 25,
-        "investment_signal_score": 6,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-        "date": "2026-05-21",
-        "score": 6,
-        "readiness_score": 19,
-        "investment_signal_score": 3,
-        "readiness_lane": "readable_needs_review",
-        "readiness_label": "可读待研判",
-        "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ]
+    "priority_batch": []
   },
-  "priority_batch": [
-    {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-      "date": "2026-05-21",
-      "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 3,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    }
-  ],
+  "priority_batch": [],
   "items": [
     {
-      "draft_id": "auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-      "date": "2026-05-26",
-      "score": 11,
-      "readiness_score": 27,
-      "investment_signal_score": 5,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-cpu-is-packing-a-heavy-hitting-punch-against-competition.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "date": "2026-05-18",
-      "score": 8,
-      "readiness_score": 25,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-arrives-nvidia-s-first-cpu-built-for-agents-lands-at-top-ai-labs.md",
+      "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
+      "company": "innolight",
+      "company_name": "中际旭创",
+      "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
+      "date": "2026-05-27",
+      "score": 10,
+      "readiness_score": 20,
+      "investment_signal_score": 4,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "可读内容偏短"
+      ],
+      "source_url": "https://www.innolight.com/inv2.aspx",
+      "portal_doc": "./docs/review-drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -246,21 +69,24 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-      "date": "2026-05-21",
-      "score": 6,
-      "readiness_score": 19,
-      "investment_signal_score": 3,
-      "readiness_lane": "readable_needs_review",
-      "readiness_label": "可读待研判",
-      "review_batch_reason": "已经有可读正文，但还需要人工补证据、业务影响和估值/动作影响。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-gtc-taipei-at-computex-live-updates-on-what-s-next-in-ai.md",
-      "has_source_body": true,
+      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月3日投资者关系活动记录表",
+      "date": "2026-6-3",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -271,14 +97,14 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-nvidia-announces-upcoming-events-for-financial-community",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Announces Upcoming Events for Financial Community",
-      "date": "2026-05-21",
-      "score": 6,
-      "readiness_score": 0,
-      "investment_signal_score": 0,
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260601",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20260601",
+      "date": "2026-06-02",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
       "readiness_lane": "needs_source",
       "readiness_label": "待补正文",
       "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
@@ -286,8 +112,316 @@
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-upcoming-events-for-financial-community.md",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260601.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
+      "date": "2026-06-02",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月2日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月2日投资者关系活动记录表",
+      "date": "2026-6-2",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月2日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月1日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月1日投资者关系活动记录表",
+      "date": "2026-6-1",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月27日投资者关系活动记录表",
+      "date": "2026-5-27",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月26日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月26日投资者关系活动记录表",
+      "date": "2026-5-26",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月26日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年5月25日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年5月25日投资者关系活动记录表",
+      "date": "2026-5-25",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月25日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260520",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表20260520",
+      "date": "2026-05-21",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260520.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
+      "date": "2026-5-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表-20260515-20260518",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表-20260515-20260518",
+      "date": "2026-05-15",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表-20260515-20260518.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
+      "date": "2026-05-14",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

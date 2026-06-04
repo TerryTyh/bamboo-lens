@@ -14,6 +14,25 @@ EVENT_STORE_FILE = ROOT / "outputs" / "event_store.json"
 OUTPUT_FILE = PROJECT_ROOT / "研究门户" / "candidate-data.js"
 
 IMPORTANT_KEYWORDS = {
+    "财报": 5,
+    "业绩": 5,
+    "收入": 4,
+    "毛利率": 4,
+    "现金流": 4,
+    "年度报告": 5,
+    "季度报告": 5,
+    "半年度报告": 4,
+    "业绩预告": 5,
+    "业绩快报": 5,
+    "投资者关系活动记录表": 5,
+    "投资者关系管理信息": 5,
+    "向特定对象发行股票": 5,
+    "定增": 4,
+    "募集说明书": 4,
+    "重大合同": 4,
+    "中标": 3,
+    "订单": 3,
+    "回购": 3,
     "earnings": 5,
     "results": 5,
     "outlook": 5,
@@ -33,6 +52,24 @@ IMPORTANT_KEYWORDS = {
 }
 
 LOW_SIGNAL_KEYWORDS = [
+    "法律意见书",
+    "工作细则",
+    "公司章程",
+    "独立董事",
+    "审计委员会",
+    "提名委员会",
+    "战略委员会",
+    "薪酬与考核委员会",
+    "股权激励",
+    "限制性股票归属",
+    "作废部分",
+    "工商变更",
+    "工商登记",
+    "营业执照",
+    "权益分派实施公告",
+    "非经营性资金占用",
+    "专项意见",
+    "内部控制",
     "games hit the cloud",
     "protecting the planet",
     "national robotics week",
@@ -104,6 +141,15 @@ def reviewed_keys(event_store: dict, company_id: str) -> set[tuple[str, str]]:
 
 def read_next(candidate: dict) -> str:
     text = " ".join([candidate.get("title", ""), candidate.get("type", ""), candidate.get("fact", "")]).lower()
+    raw_text = " ".join([candidate.get("title", ""), candidate.get("type", ""), candidate.get("fact", "")])
+    if any(word in raw_text for word in ["投资者关系活动记录表", "投资者关系管理信息"]):
+        return "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
+    if any(word in raw_text for word in ["年度报告", "季度报告", "半年度报告", "业绩预告", "业绩快报"]):
+        return "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+    if any(word in raw_text for word in ["向特定对象发行股票", "定增", "募集说明书"]):
+        return "先读募投项目、金额、稀释、产能用途和客户验证；确认是否改善长期竞争位置。"
+    if "关于召开" in raw_text and "业绩说明会" in raw_text:
+        return "先记录会议日期；等说明会纪要、问答或材料出来后再做正式研判。"
     if any(word in text for word in ["earnings", "results", "eps", "revenue", "outlook", "guidance"]):
         return "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
     if any(word in text for word in ["annual report", "20-f", "report"]):
@@ -144,6 +190,16 @@ def classify_candidate(candidate: dict, reviewed: set[tuple[str, str]]) -> dict:
             "read_next": "保留存档；除非后续出现客户、金额、产品路线或财务影响，否则不升级。",
         }
 
+    if "关于召开" in text and "业绩说明会" in text:
+        return {
+            "candidate_status": "waiting_material",
+            "status_label": "待材料",
+            "review_lane": "日程线索",
+            "review_score": score,
+            "review_reason": "这更像业绩说明会日程，不能只凭通知写成正式事件，需要等问答纪要或会议材料。",
+            "read_next": read_next(candidate),
+        }
+
     if any(word in lowered for word in ["conference call", "annual meeting", "webcast"]) and not any(
         word in lowered for word in ["outlook", "results", "earnings"]
     ):
@@ -176,6 +232,17 @@ def classify_candidate(candidate: dict, reviewed: set[tuple[str, str]]) -> dict:
     }
 
 
+def candidate_sort_key(item: dict) -> tuple[int, int, int]:
+    status_rank = {
+        "pending": 4,
+        "waiting_material": 3,
+        "promoted": 2,
+        "archived": 1,
+        "skipped": 0,
+    }.get(item.get("candidate_status", ""), 0)
+    return (status_rank, int(item.get("review_score") or 0), parse_sort_key(item.get("sort_key") or item.get("date")))
+
+
 def enrich_candidates(payload: dict, event_store: dict) -> dict:
     enriched = {**payload, "companies": {}}
     for company_id, items in payload.get("companies", {}).items():
@@ -191,6 +258,7 @@ def enrich_candidates(payload: dict, event_store: dict) -> dict:
                     **classify_candidate(item, reviewed),
                 }
             )
+        enriched["companies"][company_id].sort(key=candidate_sort_key, reverse=True)
     return enriched
 
 

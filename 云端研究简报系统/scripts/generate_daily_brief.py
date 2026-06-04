@@ -15,6 +15,7 @@ CONFIG_FILE = ROOT / "config" / "companies.json"
 OUTPUT_DIR = ROOT / "outputs"
 OUTPUT_FILE = OUTPUT_DIR / "daily_brief.md"
 EVENT_STORE_FILE = OUTPUT_DIR / "event_store.json"
+OFFICIAL_CANDIDATES_FILE = OUTPUT_DIR / "official_candidates.json"
 
 
 def load_companies() -> list[dict]:
@@ -26,6 +27,12 @@ def load_event_store() -> dict:
     if not EVENT_STORE_FILE.exists():
         return {"companies": {}}
     return json.loads(EVENT_STORE_FILE.read_text(encoding="utf-8"))
+
+
+def load_official_candidate_payload() -> dict:
+    if not OFFICIAL_CANDIDATES_FILE.exists():
+        return {"companies": {}}
+    return json.loads(OFFICIAL_CANDIDATES_FILE.read_text(encoding="utf-8"))
 
 
 def event_priority_score(priority: str) -> int:
@@ -115,6 +122,46 @@ def flatten_official_candidates(store: dict) -> list[dict]:
                 }
             )
     return sorted(items, key=lambda item: item["sort_key"], reverse=True)
+
+
+def flatten_official_candidate_payload(payload: dict, companies: list[dict]) -> list[dict]:
+    company_names = {company["id"]: company["name"] for company in companies}
+    items = []
+    for company_id, candidates in payload.get("companies", {}).items():
+        for event in candidates or []:
+            items.append(
+                {
+                    "company_id": company_id,
+                    "company_name": event.get("company_name") or company_names.get(company_id, company_id),
+                    "title": event.get("title", ""),
+                    "date": event.get("date", ""),
+                    "fetched_at": event.get("fetched_at", ""),
+                    "type": event.get("type", "官方候选"),
+                    "fact": event.get("fact", ""),
+                    "judgment": event.get("judgment", ""),
+                    "action": event.get("action", ""),
+                    "priority": event.get("priority", "候选"),
+                    "sort_key": event.get("sort_key", 0),
+                    "source_url": event.get("source_url", ""),
+                    "source_excerpt": event.get("source_excerpt", ""),
+                    "source_body": event.get("source_body", ""),
+                    "content_summary": event.get("content_summary", []),
+                }
+            )
+    return sorted(items, key=lambda item: item["sort_key"], reverse=True)
+
+
+def merge_official_candidates(*groups: list[dict]) -> list[dict]:
+    merged: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for group in groups:
+        for item in group:
+            key = (normalize(item.get("company_id", "")), normalize(item.get("title", "")).lower())
+            if not key[0] or not key[1] or key in seen:
+                continue
+            seen.add(key)
+            merged.append(item)
+    return sorted(merged, key=rank_candidate, reverse=True)
 
 
 def compact(text: str, limit: int = 82) -> str:
@@ -397,6 +444,25 @@ def candidate_signal_base_score(item: dict) -> int:
     ).lower()
     score = 0
     keyword_weights = {
+        "财报": 5,
+        "业绩": 5,
+        "收入": 4,
+        "毛利率": 4,
+        "现金流": 4,
+        "年度报告": 5,
+        "季度报告": 5,
+        "半年度报告": 4,
+        "业绩预告": 5,
+        "业绩快报": 5,
+        "投资者关系活动记录表": 5,
+        "投资者关系管理信息": 5,
+        "向特定对象发行股票": 5,
+        "定增": 4,
+        "募集说明书": 4,
+        "重大合同": 4,
+        "中标": 3,
+        "订单": 3,
+        "回购": 3,
         "earnings": 5,
         "results": 5,
         "revenue": 4,
@@ -422,6 +488,24 @@ def candidate_signal_base_score(item: dict) -> int:
         "gan": 2,
     }
     low_signal = [
+        "法律意见书",
+        "工作细则",
+        "公司章程",
+        "独立董事",
+        "审计委员会",
+        "提名委员会",
+        "战略委员会",
+        "薪酬与考核委员会",
+        "股权激励",
+        "限制性股票归属",
+        "作废部分",
+        "工商变更",
+        "工商登记",
+        "营业执照",
+        "权益分派实施公告",
+        "非经营性资金占用",
+        "专项意见",
+        "内部控制",
         "games hit the cloud",
         "geforce now",
         "gaming",
@@ -455,6 +539,13 @@ def candidate_signal_score(item: dict) -> int:
 
 def candidate_reason(item: dict) -> str:
     text = normalize(item.get("title", "")).lower()
+    raw_text = normalize(item.get("title", ""))
+    if any(word in raw_text for word in ["投资者关系活动记录表", "投资者关系管理信息"]):
+        return "这类问答记录通常会披露订单能见度、客户结构、产品代际和经营质量，是 A 股跟踪池的优先阅读材料。"
+    if any(word in raw_text for word in ["年度报告", "季度报告", "半年度报告", "业绩预告", "业绩快报"]):
+        return "这类材料直接关系收入、利润率、现金流和经营指引，值得优先读原文。"
+    if any(word in raw_text for word in ["向特定对象发行股票", "定增", "募集说明书"]):
+        return "这类融资/募投材料可能改变产能、稀释和长期竞争位置，需要读清项目用途和回报路径。"
     if any(word in text for word in ["earnings", "results", "eps", "revenue", "outlook", "guidance"]):
         return "这类信息可能直接影响收入、利润率、现金流或下一季验证点，值得优先读原文。"
     if any(word in text for word in ["partnership", "collaborate", "long-term"]):
@@ -468,6 +559,13 @@ def candidate_reason(item: dict) -> str:
 
 def candidate_next_step(item: dict) -> str:
     text = normalize(item.get("title", "")).lower()
+    raw_text = normalize(item.get("title", ""))
+    if any(word in raw_text for word in ["投资者关系活动记录表", "投资者关系管理信息"]):
+        return "读问答正文，抓客户集中度、订单能见度、800G/1.6T、毛利率、现金流、存货和应收。"
+    if any(word in raw_text for word in ["年度报告", "季度报告", "半年度报告", "业绩预告", "业绩快报"]):
+        return "提取收入、利润率、现金流、存货、应收和经营指引，再判断是否升级为正式事件。"
+    if any(word in raw_text for word in ["向特定对象发行股票", "定增", "募集说明书"]):
+        return "核对募投金额、建设周期、产能用途、客户验证和摊薄影响。"
     if any(word in text for word in ["earnings", "results", "conference call"]):
         return "打开原文或会议材料，提取收入、利润率、指引、现金流和管理层口径。"
     if any(word in text for word in ["partnership", "collaborate", "manufacturing"]):
@@ -497,7 +595,7 @@ def candidate_content(item: dict) -> str:
         extracted = fact.split(marker, 1)[1].split("；来源：", 1)[0].strip()
         if is_readable_candidate_content(extracted) and contains_chinese(extracted):
             return extracted
-    return "已抓到原文链接，但云端日报不再直接搬运英文片段；等待夜间智能沉淀生成中文读后摘要。"
+    return "已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。"
 
 
 def split_sentences(text: str) -> list[str]:
@@ -947,6 +1045,11 @@ def render_brief(
     top_candidates = select_diverse_candidates(readable_candidates, limit=5, per_company=2)
     if distinct_company_count(top_candidates) < 2 and distinct_company_count(wider_readable_candidates) >= 2:
         top_candidates = select_diverse_candidates(wider_readable_candidates, limit=5, per_company=2)
+    fallback_candidates = select_diverse_candidates(
+        [item for item in wider_candidates if candidate_signal_base_score(item) >= 3],
+        limit=5,
+        per_company=2,
+    )
     research_artifacts = load_recent_research_artifacts(now)
 
     if research_artifacts and not has_same_day_reviewed_event(top_events, now):
@@ -1030,6 +1133,25 @@ def render_brief(
             )
         else:
             tomorrow_focus = "- 继续扫描官方来源中的新增内容\n- 只在读到正文并形成中文摘要后，才进入晨报主体"
+            if fallback_candidates:
+                candidate_block = render_candidate_block(fallback_candidates)
+                tomorrow_focus = "\n".join(
+                    f"- 优先打开原文：{event['company_name']}｜{normalize(event['title'])}"
+                    for event in fallback_candidates[:3]
+                )
+                return f"""# 竹鉴日报 | {today}
+
+今日没有新的可读内容。
+
+今日待读候选：
+
+{candidate_block}
+
+明日重点：
+
+- 当前覆盖公司：{names}
+{tomorrow_focus}
+"""
             return f"""# 竹鉴日报 | {today}
 
 今日没有新的可读内容。
@@ -1066,8 +1188,12 @@ def main() -> None:
     previous_brief_text = "" if ignore_previous else (OUTPUT_FILE.read_text(encoding="utf-8") if OUTPUT_FILE.exists() else "")
     companies = load_companies()
     event_store = load_event_store()
+    official_candidate_payload = load_official_candidate_payload()
     events = flatten_events(event_store)
-    official_candidates = flatten_official_candidates(event_store)
+    official_candidates = merge_official_candidates(
+        flatten_official_candidates(event_store),
+        flatten_official_candidate_payload(official_candidate_payload, companies),
+    )
     brief = render_brief(companies, events, official_candidates, previous_brief_text)
     OUTPUT_FILE.write_text(brief, encoding="utf-8")
     print(f"Daily brief written to: {OUTPUT_FILE}")
