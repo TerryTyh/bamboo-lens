@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
   "draft_status": "auto_draft",
-  "generated_at": "2026-06-04T22:06:23",
+  "generated_at": "2026-06-04T14:16:12",
   "company": "tsmc",
   "company_name": "TSMC",
   "source_candidate_title": "TSMC Files Annual Report on Form 20-F for 2025",
@@ -13,7 +13,7 @@
   "score": 10,
   "sort_key": 20260416,
   "source_url": "http://pr.tsmc.com/english/news/3300",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260603-161710__pr.tsmc.com_english_latest-news.html",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260604-141031__pr.tsmc.com_english_latest-news.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待读原文件",
   "readiness_score": 20,
@@ -68,5 +68,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.json"
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.json"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T16:21:37",
+  "generated_at": "2026-06-04T14:16:12",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -462,9 +462,25 @@
       ],
       "official_candidates": [
         {
+          "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
+          "date": "2026-06-04",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-06-04；标题：Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW；原文内容：June’s forecast with GeForce NOW : 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squad up in new playlists and discover “just one more run” favorites — all streaming from the cloud, no downloads or upgrades required. Eighteen games are coming this month, starting with the 10 games…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260604,
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
+          "source_excerpt": "June’s forecast with GeForce NOW : 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squad up in new playlists and discover “just one more run” favorites — all streaming from the cloud, no downloads or upgrades required. Eighteen games are coming this month, starting with the 10 games…",
+          "source_body": "June’s forecast with GeForce NOW : 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squad up in new playlists and discover “just one more run” favorites — all streaming from the cloud, no downloads or upgrades required. Eighteen games are coming this month, starting with the 10 games arriving this week with the highly requested Neverness to Everness . Step into a surreal, supernatural open world in NTE: Neverness to Everness from Hota Studio . Reality bends, streets twist into impossible angles and the uncanny waits around every corner. Play as an anomaly hunter drawn into a strange metropolis alive with anomalies, cosmic oddities and dreamlike encounters. Explore the city’s districts at street level or from impossible heights, uncovering secrets, side stories and hidden paths woven through the tangled skyline. Combat and exploration blend together as players move between quiet, eerie spaces and sudden bursts of action. Every alleyway and rooftop hides something strange and new, from bizarre characters to otherworldly phenomena that reshape the environment in unexpected ways. Streaming with GeForce NOW lets the game’s distinctive art direction and atmospheric lighting shine, keeping the city’s moody glow, deep shadows and supernatural effects crisp and sharp. Whether wandering its streets on a big screen or checking in from a laptop, NTE: Neverness to Everness stays fluid and immersive — powered by the cloud. Return to the Valley of Mines in Gothic 1 Remake , a faithful rebuild of the original experience that expands the world with more detailed questlines, additional nonplayer character routines and reactions, new traversal abilities and a fully modernized combat system. Step into the role of the Nameless Hero and explore a dangerous prison colony filled with rival factions, ancient magic, deadly creatures and choices that shape the journey ahead. Whether revisiting a classic or discovering it for the first time, GeForce NOW makes it easy to jump into the adventure instantly across nearly any device, no downloads required. And look forward to the games coming throughout the month: In addition to the 16 games announced last month, 18 more joined the GeForce NOW library :",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
           "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
           "date": "2026-06-03",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-03；标题：NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that it can do so quickly enough on the hardware actually installe…；来源：https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -474,13 +490,13 @@
           "source_url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
           "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that it can do so quickly enough on the hardware actually installe…",
           "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that it can do so quickly enough on the hardware actually installed in the car. What makes a virtual agent capable is exposure to as many different environments as possible before it faces the real world. At this year’s Computer Vision and Pattern Recognition (CVPR) conference, NVIDIA Research is presenting three papers that address each of these challenges — and share a common theme: training at scale creates systems that generalize across diverse applications. The three papers cover different challenges in physical AI research: NVIDIA also unveiled at CVPR new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. Most AI systems for robotic grasping are specialists. A vision-language-action policy trained for a two-finger gripper only learns to grasp with those two fingers. Similarly, a policy for dextrous grasping will only work for the bespoke multi-fingered gripper it’s trained on. For every new embodiment, the process typically needs to be repeated — requiring new training data, fine-tuning and validation. This constraint means most robotics companies pick a gripper, train for it and stick with it. GraspGen-X is the first foundation model for grasping built to eliminate this bottleneck. Like a large language model that can apply its understanding of language to a new task without retraining, GraspGen-X applies its understanding of geometry and contact to any robotic gripper it encounters. Given the geometry of a new gripper and an unknown object it’s never seen before, the model generates reliable grasp pose proposals to enable the robot to grasp the object. To get there, the researchers needed a dataset that’s impossible to collect in the real world at scale. They generated 2 billion simulated grasps across thousands of object shapes and synthetic gripper configurations, spanning the diversity of form factors a deployed robot might encounter.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
           "date": "2026-06-03",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-03；标题：NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles , robots and vision AI systems . The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, gener…；来源：https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -490,13 +506,13 @@
           "source_url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
           "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles , robots and vision AI systems . The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, gener…",
           "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles , robots and vision AI systems . The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating behavior and rapidly iterating. Today, these steps are fragmented across separate tools, slowing the pace of experimentation as researchers struggle to piece them together. Earlier this week, NVIDIA announced NVIDIA Cosmos 3 , the open frontier model for physical AI and the world’s first full omnimodel unifying vision reasoning, world and action generation. Leading across the open model public leaderboards central to physical AI, the world foundation model provides core capabilities for physical AI development. NVIDIA physical AI skills pair with Cosmos, NVIDIA libraries and simulation frameworks to help researchers move from model capabilities to scalable end-to-end workflows faster than ever. For AV researchers, the problem is the “long tail” of driving — rare interactions, unusual road geometry, lighting changes and edge-case behaviors that are difficult to repeatedly collect, but critical for training and validation. Neural Reconstruction skill demo in OpenClaw, showing a video re-rendered from an elevated virtual sensor viewpoint. With NVIDIA autonomous vehicle skills, researchers and developers can task AI agents to automate workflows for scene reconstruction from fleet data and generate synthetic scenarios. Neural Reconstruction skills help AI agents turn fleet-captured data into editable 3D scenes for simulation and synthetic data generation, while technologies including NVIDIA Omniverse NuRec , InstantNuRec , Harmonizer and HiGS accelerated renderer help accelerate reconstruction, improve scene realism and generate new views. InstantNuRec enables fast 3D Gaussian road-scene reconstruction from images without per-scene optimization. For AV researchers, repeatable simulation helps vary conditions, compare system responses and uncover failure modes across scenarios beyond what can be captured in real-world data. NVIDIA AlpaGym , an open source closed-loop reinforcement learning framework, extends that approach by connecting policy rollouts and high-fidelity simulation with agent skills, scaling across thousands of GPUs, to help researchers move through setup, rollout and evaluation. NVIDIA OmniDreams , an action-conditioned generative world model, adds photorealistic rendering to the simulation loop, generating camera frames that respond directly to policy actions in real time. NVIDIA is also advancing AV research with its most powerful open driving foundation model to date: NVIDIA Alpamayo 2 Super , an open 32-billion-parameter reasoning vision language action (VLA) model that reasons, plans and acts across the full driving stack for safer, scalable level 4 development and deployment. For vision AI research, the bottleneck is creating enough controlled examples to study how models behave when visual conditions, object states or temporal events change. Work in zero-shot anomaly detection, synthetic anomaly generation and few-shot defect recognition all run into the same data wall.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
           "date": "2026-06-02",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-02；标题：Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw；原文内容：Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering softw…；来源：https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -506,13 +522,13 @@
           "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
           "source_excerpt": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering softw…",
           "source_body": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering software providers are showcasing how autonomous AI agents automate this entire workflow. These AI engineers are based on NVIDIA NemoClaw , an open blueprint for building specialized, long-running agents with a secure runtime and frontier models. NemoClaw includes a choice of harness — meaning it can be integrated with various orchestration frameworks enterprises use to deploy and coordinate agents, such as OpenClaw and Hermes — as well as a model router and NVIDIA NeMo libraries for customization. Users can easily deploy NemoClaw from NVIDIA DGX Spark personal AI supercomputers, as well as through enterprise data centers and cloud service providers. NVIDIA OpenShell — the open source runtime at its core — governs how each agent accesses files, networks and tools, enforcing policy-based security at every layer. Industrial software leaders are building AI engineers for computer-aided engineering (CAE) and electronic design automation (EDA) use cases across automotive, aerospace, semiconductors and manufacturing. Cadence is building an autonomous register-transfer level (RTL) engineer with NemoClaw that orchestrates Cadence Design Systems ChipStack for design and verification. The workflow was featured yesterday in a GTC Taipei keynote demo and is cutting time for RTL verification — a key step in digital circuit design — from weeks to hours. Dassault Systèmes is actively productizing the 3DEXPERIENCE Agentic Platform to operate long-running and autonomous agents for design, simulation and manufacturing operations, in a secured environment powered by NVIDIA NemoClaw and OpenShell. Siemens is integrating NVIDIA NemoClaw and OpenShell into Fuse EDA AI Agent, a purpose-built autonomous agent that plans and orchestrates domain-scoped multi-tool workflows across semiconductor, 3D integrated circuit and printed circuit board system design. Synopsys is collaborating with NVIDIA to apply agents to end-to-end engineering workflows with NVIDIA NemoClaw. Ansys Icepak, part of the Synopsys portfolio, is being demoed on the COMPUTEX show floor this week, used within a NemoClaw-based autonomous AI engineer to mesh, simulate and optimize GPU electronics cooling designs. In addition, cutting-edge startups are building AI engineers for their workflows — all using NVIDIA NemoClaw.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
           "date": "2026-06-02",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-02；标题：NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local；原文内容：The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman an…；来源：https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -522,13 +538,13 @@
           "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
           "source_excerpt": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman an…",
           "source_body": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman and CEO Satya Nadella’s keynote via livestream from Taipei to discuss the expanded partnership: NVIDIA RTX Spark and DGX Station for Windows , NVIDIA GPU-accelerated Microsoft Fabric, NVIDIA open models on Microsoft Foundry, the NVIDIA OpenShell secure runtime in GitHub Copilot and the next generation of NVIDIA-powered AI factories. NVIDIA and Microsoft are reimagining Windows PCs for the age of AI agents. With RTX Spark laptops and small desktops, and DGX Station for Windows deskside AI supercomputers, developers can build, tune and run agents natively on Windows. RTX Spark is a new beginning, powering the world’s first Windows PCs purpose-built for personal agents, with 1 petaflop of AI performance, up to 128GB of unified memory, all-day battery life, and full AI and graphics performance unplugged. Bringing over 30 years of NVIDIA innovation, including CUDA, RTX, DLSS and TensorRT, systems arrive this fall from Microsoft Surface, ASUS, Dell, HP, Lenovo and MSI. DGX Station for Windows is the most powerful deskside AI supercomputer for building and running agents on Windows enterprise applications and workflows. Powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip with up to 748GB of coherent memory and 20 petaflops of FP4 performance, it runs frontier models of up to 1 trillion parameters for always-on enterprise agents. Systems are expected from ASUS, Dell, GIGABYTE, HP, MSI and Supermicro in Q4. Both products run NVIDIA OpenShell, a secure-by-design runtime for autonomous agents. Read more in this Microsoft blog: “ Introducing a powerful new chapter for Windows PCs, accelerated by NVIDIA RTX Spark ” Agentic AI runs on a system of models. With NVIDIA, Anthropic and OpenAI models — plus Hermes special agents — now on the hosted agents in Foundry Agent Service, enterprises can bring agentic systems to life on Azure with built-in identity and governance. Anthropic’s Claude models now run natively on NVIDIA GB300 Blackwell Ultra systems on Azure, with customer availability in the weeks ahead. NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is available this month on Foundry managed compute, alongside Nemotron 3.5 ASR for speech recognition and Nemotron 3.5 Content Safety. Developers can compose Nemotron alongside frontier and local models, optimizing cost and quality for each workflow. NVIDIA’s open model portfolio on Foundry now spans agentic, physical and scientific AI. NVIDIA Cosmos 3 , the first fully open omnimodel for physical AI, brings vision reasoning, world simulation and action generation. NVIDIA Earth-2 AI weather models are available through Microsoft Planetary Computer Pro and Foundry for enterprise forecasting and risk analysis. NVIDIA Agent Toolkit and NVIDIA NemoClaw blueprints give developers an open source platform to build production agents on Foundry. NVIDIA CUDA-X libraries including cuDF, cuOpt, AI-Q and NeMo are now accessible to agents as domain-specific skills. Learn more in this Build breakout session: “ Orchestrate Special Agents with NVIDIA Nemotron Models on Microsoft Foundry .” Data fuels agentic AI, and fast access to it is critical.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
           "date": "2026-06-01",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-01；标题：Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence；原文内容：Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know…；来源：https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -538,12 +554,12 @@
           "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
           "source_excerpt": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know…",
           "source_body": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know and what their AI can reason over — creating a major opportunity for the industry to build intelligence using proprietary data. NVIDIA’s 2026 State of AI in Financial Services report shows 65% of institutions now use AI, with nearly 90% deploying or assessing it and almost all maintaining or increasing spend. But as AI scales, so does complexity, and fragmented model architectures become the limiting factor. Leading firms are tackling this challenge by rethinking the architecture itself. Where the industry once relied on statistical and machine learning algorithms purpose-built for each line of business, transformer-based transaction foundation models now make it possible to learn a single, unified representation of consumer behavior trained entirely on proprietary data. Transaction foundation models are large-scale AI systems trained on billions of financial events — such as payments, transfers, product interactions and behavioral signals — that transform raw data into intelligence, helping firms better serve their customers. The shift is structural. A traditional fraud model evaluates isolated signals. A foundation model interprets behavior in context where timing, device, location and prior activity shape meaning. More importantly, it brings the power of transformer architectures to tabular data, extracting signals previously invisible to traditional algorithms. A payment at midnight means something different when it’s the fourth in 10 minutes, on an unfamiliar device, in a city the customer’s never transacted from before. That contextual depth improves performance across tasks, not just within them. In collaboration with NVIDIA, Revolut built PRAGMA — a family of transformer-based foundation models trained on 24 billion events across 26 million user records spanning over 100 countries. Powered by NVIDIA’s full AI stack — including NVIDIA Hopper GPUs , the NVIDIA cuDF library and NVIDIA Nemotron open models — running on Nebius cloud, a single foundation model outperforms strong task-specific models across domains like credit scoring, fraud detection and product recommendations while reducing reliance on handcrafted features. “We move from weeks, or even in some cases months, in feature engineering to no time required for it at all,” said Tadas Kriščiūnas, head of group credit data science at Revolut. Any institution can now adopt this approach using NVIDIA’s new Build Your Own Transaction Foundation Model developer example, which enables teams to start building transformer embeddings on tabular transaction data — integrating into existing pipelines without rebuilding from scratch. The problem isn’t today’s models, it’s the trajectory. Every new use case adds another model. Every new market needs retraining. Models that can’t share context leave value on the table. Mastercard is developing a proprietary large tabular foundation model for payments, trained on billions of anonymized transactions today and designed to scale to hundreds of billions across additional datasets including fraud, authorization, chargeback, merchant location and loyalty data.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
           "date": "2026-06-01",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-01；标题：NVIDIA Jetson Brings Agentic AI to the Physical World；原文内容：At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson . JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin , a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor . NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, alway…；来源：https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -553,12 +569,12 @@
           "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
           "source_excerpt": "At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson . JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin , a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor . NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, alway…",
           "source_body": "At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson . JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin , a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor . NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, always-on assistant running right on NVIDIA Jetson. The launch coincides with the GTC Taipei Build-a-Claw event , bringing the popular hands-on event from GTC San Jose to Taiwan, one of the world’s premier global technology hubs. The release lands NemoClaw, NVIDIA’s agentic AI framework , on the production-grade Jetson stack — taking agentic AI from servers and workstations into the physical world, across robotics, inspection and industrial automation. “Agentic AI is here, and Jetson’s programmability and high performance enable developers to instantly deploy physical AI agents in production at the edge,” said Deepu Talla, vice president of robotics and edge computing at NVIDIA. “With purpose-built skills for agentic development and workflows, developers can accelerate time to market, cut total cost of ownership and deploy at scale — all on a memory-optimized platform.” Jetson is already a multi-generation platform — Orin , Thor and beyond — powering edge AI in robotics, autonomous systems, industrial inspection and medical devices. JetPack 7.2 builds on that foundation; NemoClaw extends it. Three layers ship in this release. JetPack 7.2 at the base — operating system (OS), compute, deterministic performance. A new layer of agent skills in the middle, automating developer tasks. And NemoClaw at the top. JetPack 7.2 brings major upgrades to the Jetson software foundation. Yocto-based OS support gives industrial customers a leaner, more customizable Linux foundation — important for memory-bound deployments. CUDA 13 on Jetson Orin brings the latest compute stack to existing devices. MIG plus real-time kernel on Jetson Thor lets developers reserve dedicated GPU resources for deterministic workloads, like robot perception systems that can’t pause for unrelated AI inference. Jetson AGX Orin 32GB also gets a performance boost to 241 TOPS of AI compute, up 20% above its original spec. The middle layer — agent skills — accelerates the work of building a Jetson-based system itself. Jetson agent skills now include Linux customization, memory optimization, model benchmarking and similar developer tasks. These are now available as agent-deployable skills, developed from NVIDIA documentation and design guides. The result: a task that used to take weeks resolves in days. At the top, NemoClaw deploys to Jetson with a single command. The pairing lands agentic AI on a production-grade robotics and vision AI stack, accelerating task automation for industrial systems. Developers can go further with NVIDIA Metropolis VSS blueprint skills , adding visual reasoning agents that watch, interpret and act on what they see. The Jetson platform is already in deployment across fields such as robotics, industrial automation, drones, healthcare devices, agricultural machinery, humanoid systems and more.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
           "date": "2026-05-31",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-31；标题：NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand；原文内容：The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-…；来源：https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -568,22 +584,7 @@
           "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
           "source_excerpt": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-…",
           "source_body": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-designed with NVIDIA’s full-stack AI infrastructure to meet surging demand for AI from enterprises, startups and nations looking for new vendors and regional capacity. They combine NVIDIA accelerated computing, networking and AI software to help partners support training, fine-tuning, inference, agentic AI, physical AI and sovereign AI deployments. Specific configurations vary by partner and workload. AI cloud partners choose NVIDIA for the best economics — lowest token cost, best throughput per watt — to run frontier and open source AI. Built with NVIDIA accelerated computing, networking and AI software, these clouds bring AI factories closer to where data, developers, users and industries are, helping customers train, tune and run agentic AI applications at scale. The ecosystem spans nearly every geography, supporting regional and sovereign AI capacity for frontier model builders, enterprises, startups, software providers and national AI programs. “Every company and every country needs AI factory infrastructure to turn data into intelligence,” said Jensen Huang, founder and CEO of NVIDIA . “NVIDIA AI Clouds bring full-stack AI factories closer to the regions, industries and developers building the next generation of AI, from model training to real-time inference and AI agents that will transform how people and organizations work.” AI cloud providers, telcos, sovereign AI builders and vertically integrated infrastructure providers are building AI factories with NVIDIA to serve customers across frontier AI, enterprise AI, telecommunications, developer clouds and national AI programs. Regional growth is accelerating across Southeast Asia, Australia and the Americas, with NVIDIA AI Clouds now reaching six continents following the addition of Cassava in Africa and Claro in South America. NVIDIA AI Clouds are pairing large-scale AI factory buildouts with demand from leading AI labs, enterprises, governments and digital service providers. Partners including CoreWeave , Firmus , IREN, Nebius and Nscale are expanding AI infrastructure to support frontier model development, enterprise AI, agentic applications and high-volume inference. Across regions, NVIDIA AI Clouds are bringing AI factories closer to local industries and sovereign AI ecosystems. Partners including Firebird , GMI Cloud , I ndosat Ooredoo Hutchison , Lambda , Naver Cloud , Sharon AI , Yotta and YTL are supporting emerging AI companies, national AI initiatives, financial services, telecommunications, manufacturing, education, healthcare and developer ecosystems. For governments and regulated industries, regional AI clouds can support sovereign controls and local compliance requirements. For developers and enterprises, they can reduce friction in accessing accelerated infrastructure for AI agents, enterprise copilots, digital workers and other AI services that must run close to users and data. Firmus Technologies is expanding its AI factory footprint across South Australia and Southeast Asia, building energy-efficient infrastructure to support growing demand for large-scale training, inference and agentic AI workloads. Through Project Southgate, Firmus is developing AI factories in Tasmania, Melbourne, South Australia and New South Wales, with an emphasis on renewable power, advanced cooling and modular infrastructure that can bring capacity online faster. The company has also deployed AI infrastructure in Singapore through a partnership with ST Telemedia Global Data Centres.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
-          "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-          "date": "2026-05-31",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-31；标题：NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain；原文内容：As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager agent that continuously monito…；来源：https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260531,
-          "source_url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-          "source_excerpt": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager agent that continuously monito…",
-          "source_body": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager agent that continuously monitors and reasons across the real-time data and orchestrates a fleet of speciality agents and machines to quickly resolve issues at scale. FOX helps developers build secure, centralized factory manager agents for orchestrating and optimizing specialized industrial AI agents for quality control, material transport and worker safety. Built with NVIDIA NemoClaw , AI-Q Blueprint and NVIDIA Nemotron open models , the blueprint provides a customizable foundation for connecting factory systems, automating model development and running intelligent operations at scale. The blueprint is optimized to run on NVIDIA DGX Station , the ultimate deskside AI supercomputer companion for factory managers. DGX Station is powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip, featuring 20 petaflops of FP4 performance and 748GB of coherent memory, and is capable of running large AI models up to 1 trillion parameters, making it ideal for developing and running powerful AI agents locally. The superchip features the NVIDIA Blackwell Ultra GPU connected to a high-performance NVIDIA Grace CPU using the NVIDIA NVLink-C2C interconnect to deliver best-in-class system communication and performance, ideal for lightning-fast interactions between NemoClaw and AI models. Key capabilities of the FOX blueprint include: Taiwan manufacturers Advantech , Foxconn , Pegatron and Wistron are the first to deploy autonomous factory manager agents using the NVIDIA FOX blueprint and NemoClaw. Foxconn , the world’s largest electronics manufacturer, is using the FOX blueprint and NemoClaw to build MoMClaw, a manufacturing operations multi-agent system. Pegatron is using the FOX blueprint and NemoClaw to build a factory manager agent that orchestrates specialized agents for material transport, AI inspection, standard operating procedure guidance and machine-to-machine coordination. With the factory manager agent, Pegatron can orchestrate robot utilization more efficiently, eliminating the need for expensive standby equipment, with an estimated 15% reduction in asset redundancy costs. Advantech has introduced the AI Factory Brain, an intelligent multi-agent system led by a factory manager agent built with the FOX blueprint and NemoClaw. Advantech has deployed the factory manager agent in its own factories to autonomously manage energy across HVAC and lighting specialized agents and projects to cut energy consumption by 10%. Wistron is adopting the FOX blueprint and using NVIDIA Cosmos , NVIDIA Nemotron open models and the NVIDIA Metropolis VSS blueprint to build surface-mount technology agents that analyze and orchestrate production-line operations, enabling real-time root-cause analysis and quality control.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260603-161710__investor.nvidia.com_news_press-releases_default.aspx.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -926,9 +927,25 @@
       ],
       "official_candidates": [
         {
+          "title": "TSMC Shareholders’ Meeting Resolutions",
+          "date": "2026-06-04",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-06-04；标题：TSMC Shareholders’ Meeting Resolutions；原文内容：TSMC Shareholders’ Meeting Resolutions [](http://pr.tsmc.com/english/news/3317#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.t…；来源：http://pr.tsmc.com/english/news/3317",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260604,
+          "source_url": "http://pr.tsmc.com/english/news/3317",
+          "source_excerpt": "TSMC Shareholders’ Meeting Resolutions [](http://pr.tsmc.com/english/news/3317#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.t…",
+          "source_body": "TSMC Shareholders’ Meeting Resolutions [](http://pr.tsmc.com/english/news/3317#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3317#)Search 5. TSMC Shareholders’ Meeting Resolutions [](http://pr.tsmc.com/english/news/3317) TSMC Shareholders’ Meeting Resolutions TSMC Shareholders’ Meeting Resolutions *HSINCHU, Taiwan, R.O.C., June 4, 2026 –**TSMC (TWSE: 2330, NYSE: TSM) today held its 2026 Annual Shareholders’ Meeting, which passed the following major resolutions: 1. Acknowledged the 2025 Business Report and Financial Statements.Consolidated revenue totaled NT$3,809.05 billion and net income was NT$1,717.88 billion, with diluted earnings per share of NT$66.25. 2. Approved amendments to TSMC’s Articles of Incorporation. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260604-141031__pr.tsmc.com_english_latest-news.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
           "title": "TSMC Files Annual Report on Form 20-F for 2025",
           "date": "2026-04-16",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-04-16；标题：TSMC Files Annual Report on Form 20-F for 2025；原文内容：TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…；来源：http://pr.tsmc.com/english/news/3300",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -938,7 +955,7 @@
           "source_url": "http://pr.tsmc.com/english/news/3300",
           "source_excerpt": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…",
           "source_body": "TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3300#)Search 5. TSMC Files Annual Report on Form 20-F for 2025 [](http://pr.tsmc.com/english/news/3300) TSMC Files Annual Report on Form 20-F for 2025 TSMC Files Annual Report on Form 20-F for 2025 *HSINCHU, Taiwan, R.O.C. – Apr. 16, 2026 -**TSMC (TWSE: 2330, NYSE: TSM) today filed its 2025 annual report on Form 20-F with the U.S. Securities and Exchange Commission. The report is available athttps://investor.tsmc.com/english/sec-filings.Hard copies of the report are also available, free of charge, upon email request top_sec_service@tsmc.com. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260603-161710__pr.tsmc.com_english_latest-news.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260604-141031__pr.tsmc.com_english_latest-news.html"
         }
       ]
     },
@@ -1187,7 +1204,7 @@
         {
           "title": "2026春季爆品发布会",
           "date": "2026-03-16",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-03-16；标题：2026春季爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1197,12 +1214,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "2025年度爆品发布会",
           "date": "2025-09-01",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-09-01；标题：2025年度爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1212,12 +1229,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         },
         {
           "title": "邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会",
           "date": "2025-06-17",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-06-17；标题：邀请函｜ 「零碳有“数” ·智造有“方”」——2025汇川技术纺织行业新品发布会；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1227,12 +1244,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！",
           "date": "2022-11-21",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2022-11-21；标题：数自融合，绿创未来！汇川技术应需而动，为纺织行业再推新品！；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1242,12 +1259,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%96%B0%E5%93%81&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%96%B0%E5%93%81_showChannel_2.html"
         },
         {
           "title": "关于汇川技术机器人产品价格调整的通知",
           "date": "2026-03-30",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-03-30；标题：关于汇川技术机器人产品价格调整的通知；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1257,12 +1274,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”",
           "date": "2025-05-09",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-05-09；标题：汇川技术机器人斩获德国TUV功能安全认证，全球化征程再添“安全引擎”；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1272,12 +1289,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-10",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2024-10-10；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1287,12 +1304,12 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         },
         {
           "title": "120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平",
           "date": "2024-10-08",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2024-10-08；标题：120000小时！汇川大六关节机器人MTBF认证达行业顶尖水平；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1302,7 +1319,7 @@
           "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260603-161710__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         }
       ]
     },
@@ -1389,7 +1406,7 @@
         {
           "title": "4th Quarter 2025 Earnings Webcast",
           "date": "2026-01-28",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-01-28；标题：4th Quarter 2025 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1399,7 +1416,7 @@
           "source_url": "https://www.gevernova.com/investors/events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260603-161710__www.gevernova.com_investors_events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260604-141031__www.gevernova.com_investors_events.html"
         }
       ]
     },
@@ -1498,7 +1515,7 @@
         {
           "title": "Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility",
           "date": "2026-03-09",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-03-09；标题：Luxshare Techday Debuts at Renault TCR: Showcasing Full-Chain Synergy for the Future of Mobility；原文内容：Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…；来源：https://www.luxshare-ict.com/en/news/release/177.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1508,12 +1525,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/177.html",
           "source_excerpt": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a co…",
           "source_body": "Marking a dynamic start to 2026, Luxshare Group kicked off the new year with a high-profile technology showcase, reinforcing its commitment to global collaborative innovation. On January 15, the Group hosted its “Shape the Future Together” Techday at Renault Group’s Guyancourt Technical Center (TCR) in France. The event brought together the technological strengths of Luxshare’s diverse brand portfolio, offering a comprehensive look at its advanced capabilities in automotive intelligence and connectivity. The showcase featured a coordinated presentation of Luxshare’s brand ecosystem—including Luxvision intelligent vision systems, Leoni wiring systems, and BCS intelligent human-machine interface products. This collective display highlighted Luxshare’s robust system integration capabilities and underscored its evolution into a full-stack solution provider, capable of delivering integrated in-vehicle intelligent platforms—from underlying hardware to upper-level algorithms—to global OEMs with enhanced efficiency and security. The Techday opened with a VIP tour attended by over 30 senior leaders from Renault, including Sandra Beck, Vice President of Purchasing. Accompanied by Ms. Lidya Li, Executive Vice President of Luxshare-ICT and President of the Luxshare Automotive Business Group, the Renault leadership team explored the core exhibits across multiple business units, gaining hands-on insights into five key technological domains: Connection Systems, ADAS, Intelligent Cockpit, Power Systems, and Intelligent Chassis. Through live demonstrations and in-depth technical discussions, Renault representatives gained a strong appreciation for Luxshare’s system-level design capabilities, global delivery capacity, and synergistic approach within the automotive components sector. To ensure alignment across global teams, Luxshare organized a series of online training sessions tailored specifically for Renault’s worldwide procurement organization. Leveraging digital platforms, these sessions showcased Luxshare’s core product lines and long-term technology roadmap, while fostering extensive discussions with procurement experts across regions. This initiative helped global teams stay informed on Luxshare’s latest innovations and delivery capabilities, strengthening mutual strategic trust and laying a solid foundation for future multi-regional, multi-project collaboration. A key highlight of the Techday was a focused workshop centered on Luxshare’s core product portfolio. Technical experts from both companies engaged in deep-dive discussions on cutting-edge domains such as Intelligent Cockpits, ADAS, and UWB technology. Through these intensive exchanges, Luxshare not only demonstrated its technological depth but also reaffirmed its dedication to deep customization and collaborative development with OEM partners. The success of this Techday marks a significant milestone in Luxshare Group’s journey toward fully integrated, synergistic collaboration with global automotive leaders. As the industry accelerates toward an intelligent future, Luxshare is poised to drive innovation and shape the next generation of mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"",
           "date": "2026-01-19",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-01-19；标题：​Gold Forges the Future: Luxshare Precision Once Again Wins Sina Finance's \"ESG Golden Responsibility Award\"；原文内容：After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…；来源：https://www.luxshare-ict.com/en/news/release/179.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1523,12 +1540,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/179.html",
           "source_excerpt": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the be…",
           "source_body": "After being selected for Sina Finance's \"2025 China Corporate ESG Top 100,\" Luxshare Precision has once again earned recognition in the recently released 2025 China Corporate ESG \"Golden Responsibility Award\" evaluation by Sina Finance. Standing out from over 5,000 companies through performance assessment, online voting, and expert reviews, the company won the \"Best Environment (E) Responsibility Award.\" With the belief that \"responsibility is as precious and weighty as gold,\" and as China's ESG development moves comprehensively from \"setting standards\" to \"strengthening compliance\" – with sustainability becoming an ever more critical part of corporate competitiveness – the \"Golden Responsibility Award\" recognizes companies that have made outstanding contributions to China's ESG cause. This is the fifth consecutive year that Luxshare Precision has received the \"Golden Responsibility Award,\" reflecting the company's long‑term dedication to ESG, particularly in the environmental dimension. We regard green and low‑carbon development as a solid foundation for high‑quality growth. We proactively identify and manage climate risks and opportunities, set science‑based carbon targets aligned with the 1.5°C pathway, establish a carbon reduction roadmap across our value chain, and continuously deepen green operations. The company systematically advances water risk identification and assessment, sets sustainable water management goals and actions, and strictly complies with laws and regulations in wastewater and exhaust gas management. Aiming for a waste conversion rate of 90% by 2025, we actively promote the concept of zero waste to landfill and explore new models of waste recycling. In addition, leveraging the Azure EcoChain platform, we continuously push our suppliers to disclose emissions and pollutant release and transfer register information, helping them improve their environmental performance. As a result, we have been ranked No. 3 in the industry in the Green Supply Chain Index (CITI) and No. 2 in the Corporate Climate Action Index (CATI). Painting the manufacturing landscape with green, and translating responsibility into the language of precision, Luxshare Precision will continue to build long‑term competitiveness and work with its value chain partners to write a new chapter of high‑quality, sustainable development. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification",
           "date": "2026-01-05",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-01-05；标题：World's First! Luxshare Precision USB 40Gbps 240W USB Type-C 3m Active Cable Receives Official Certification；原文内容：On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…；来源：https://www.luxshare-ict.com/en/news/release/178.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1538,12 +1555,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/178.html",
           "source_excerpt": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-…",
           "source_body": "On January 5th, the USB 40Gbps 240W USB Type-C 3m active cable developed by Luxshare Precision became the world's first active cable to receive official USB-IF certification. This technological breakthrough not only highlights Luxshare Precision's leading technical expertise in the field of high-speed interconnection and system integration, but also further advances the company's strategic layout in the global high-end transmission solutions market. With forward looking innovation, Luxshare Precision has consecutively set world leading certification records in DisplayPort, HDMI and USB technologies. Strategic Focus: Deeply committed to high speed and high frequency interconnect technologies. Cross Industry Layout: Expanding across consumer electronics, automotive electronics, communications equipment and intelligent manufacturing. Industry Leadership: As the world's first to achieve DP80LL certification, and continuously building competitive barriers with HDMI 2.2 connectors and USB4 technology. Three Major Breakthroughs, Redefining High-Performance Cables Long-Distance Transmission: Integrated LRD technology to overcome limitations and achieve stable transmission up to 3 meters. Extreme Performance: Delivers 40Gbps ultra-high bandwidth and 240W top-tier power delivery. Perfect Compatibility: Supports 8K video and is compatible with Thunderbolt™ 3/4 on specific systems, enabling seamless multi-protocol connectivity. As an active promoter of global interconnect technology, Luxshare Precision always stands at the forefront of international standard development. This certification represents not just a breakthrough in product technology but also a powerful testament to the company's role as a \"standard-setter,\" driving the upgrade of connectivity experiences within the industry. Looking ahead, Luxshare Precision will continue to deepen its R&D and innovation in cutting-edge technologies like USB4 and Thunderbolt, collaborating with global partners to jointly define a new standard for efficient, reliable, and intelligent connectivity. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Named to Forbes' 2025 World's Best Employers List",
           "date": "2025-10-10",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-10-10；标题：Luxshare Precision Named to Forbes' 2025 World's Best Employers List；原文内容：Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…；来源：https://www.luxshare-ict.com/en/news/release/174.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1553,12 +1570,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/174.html",
           "source_excerpt": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment…",
           "source_body": "Luxshare Precision has been named to Forbes' 2025 World's Best Employers list, recently released by the global business publication. The Forbes list is based on survey responses from more than 300,000 employees in over 50 countries and regions. It ranks companies on their appeal as an employer across various dimensions, such as career development opportunities, compensation and benefits, and overall work environment. This recognition underscores the company's strong reputation as an employer among professionals worldwide. At Luxshare, we are committed to fostering our employees' growth and integrating sustainable practices into our talent strategy. We provide comprehensive support, safeguard employees' rights, and offer clear career advancement paths to help every individual succeed. We view this not only as an honor but as a responsibility. Going forward, we will continue to enhance our employee development programs and strengthen our culture of mutual growth and success. Our goal is to empower every Luxshare employee to achieve their professional aspirations and fulfill their potential. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!",
           "date": "2025-07-31",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-07-31；标题：Luxshare Precision Soars 65 Places on Fortune Global 500 Ranking!；原文内容：BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…；来源：https://www.luxshare-ict.com/en/news/release/173.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1568,12 +1585,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/173.html",
           "source_excerpt": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects…",
           "source_body": "BEIJING, July 29 – The 2025 Fortune Global 500 list was officially released today, with Luxshare Precision (Stock Code: 002475) ranked #423. This marks a significant advancement of 65 places compared to last year, representing its highest ranking since first entering the prestigious index. As the authoritative benchmark for measuring the scale of the world's largest corporations, the Fortune Global 500 also reflects the latest dynamics shaping the global industrial landscape. Luxshare Precision's inclusion for the third consecutive year signifies international recognition of the company's comprehensive capabilities and vividly illustrates the rise of \"Intelligent Manufacturing in China\" to the top of the global value chain. Looking forward, Luxshare Precision will continue to drive its dual-engine strategy of \"Technology + Manufacturing,\" delivering smarter and more efficient products and solutions to global customers, advancing high-quality development within the industry. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations",
           "date": "2025-07-23",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-07-23；标题：Luxshare-ICT Tech Day at JLR UK: Shaping the Future of Intelligent Mobility with System-Level Innovations；原文内容：July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…；来源：https://www.luxshare-ict.com/en/news/release/176.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1583,12 +1600,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/176.html",
           "source_excerpt": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassi…",
           "source_body": "July 2025, Luxshare-ICT successfully hosted the Tech Day at the JLR in Gaydon, UK, presenting its cutting-edge technologies and comprehensive capabilities in vehicle electrification and intelligence. The event served as a strategic platform to showcase Luxshare's portfolio across key domains including high-voltage and low-voltage connection systems, vehicle wiring harness, ADAS, smart cockpit, and intelligent chassis. The event served as a platform to demonstrate Luxshare-ICT's integrated approach to developing solutions from critical components to full systems. The exhibition featured a powerful demonstration of group synergies, presenting products from across the Luxshare portfolio, including the Luxvisions intelligent vision system, Leoni HV/LV wiring harness, BCS smart interaction systems. The event also marked the first joint participation since Leoni's official integration into the Luxshare Group in 2025, signifying a substantial step forward in technological synergy and market expansion. This progress further strengthens Luxshare's capabilities in providing system-level solutions for next-generation vehicle E/E architectures. During the event, Executive Vice President of Luxshare-ICT and President of the Automotive Business Group, Ms. Lidya Li, met with Mr. Tobias Moch, Chief Procurement Officer of JLR. The meeting featured productive discussions centered on the shared vision for next-generation automotive technology and manufacturing excellence. The Tech Day was not only a successful demonstration of Luxshare's technological strength and collaborative achievements, but also a powerful testament to its commitment to driving innovation in the automotive industry. Moving forward, Luxshare-ICT will continue to deepen the collaboration with global partners to jointly advance towards a safer, more efficient, and more connected future of intelligent mobility. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "REACH and SVHC Statement",
           "date": "2025-07-22",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-07-22；标题：REACH and SVHC Statement；原文内容：As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…；来源：https://www.luxshare-ict.com/en/news/release/172.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1598,12 +1615,12 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/172.html",
           "source_excerpt": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an…",
           "source_body": "As Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (https://single-market-economy.ec.europa.eu/sectors/chemicals/reach_en) requires, one of the key requirements is the Duty to Communicate Information on Substances in Articles (Article 33). Article 33: Information for Recipients & Customers Article 33 of REACH requires suppliers to inform recipients and respond to consumer enquiries if an article contains more than 0.1% (by weight per article) of any substance on the SVHC candidate list published by the European Chemicals Agency (ECHA). Our company, Luxshare Precision Limited, manufactures the products TMRV085G/TMRV08P5G, which are in compliance with Article 33 of the REACH Regulation (EC No. 1907/2006 – Registration, Evaluation, Authorization and Restriction of Chemicals). In accordance with Article 33 of the REACH Regulation, we commit to providing relevant information and disclosing the required details. The status regarding the presence of Substances of Very High Concern (SVHC) in these products and their packaging materials is detailed below: Batteries from products may potentially contain 1,3-propanesultone above 0.1% by weight. C opper alloy nuts Parts from products may potentially contain Lead above 0.1% by weight. The SVHC used in these products do not pose a safety risk to customers under normal use conditions. Regarding the products of the T-Mobile brand phones, T-Mobile USA, Inc. offers recycling programs for customers to help ensure these products are recycled appropriately. For more information about the recycling programs, please visit: https://www.t-mobile.com/responsibility/planet/waste-recycling-circularity Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         },
         {
           "title": "Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay",
           "date": "2025-07-21",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-07-21；标题：Luxshare Precision Celebrates Cross-Cultural Unity Through the “Luxshare Cup” Global Relay；原文内容：On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…；来源：https://www.luxshare-ict.com/en/news/release/171.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1613,7 +1630,7 @@
           "source_url": "https://www.luxshare-ict.com/en/news/release/171.html",
           "source_excerpt": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…",
           "source_body": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. This philosophy was recently embodied in the successful conclusion of the sixth annual Luxshare Cup, a signature internal sporting and cultural event. Established in 2017, the Luxshare Cup has grown to represent much more than a sporting competition. It is a celebration of unity, collaboration, and the shared values that define Luxshare Precision’s corporate culture. The event brings together employees from diverse regions and job roles, fostering a dynamic platform for team building and mutual recognition. Through sport, participants experience firsthand the power of cooperation and a sense of collective purpose that transcends daily work. Each year, the Luxshare Cup evolves to reinforce cultural relevance and deepen employee connection. Beyond enhancing morale and wellness, the event serves as a powerful channel for embedding core values such as progress, inclusiveness, and collaboration. Cultural exchanges—ranging from traditional performances to regional displays—highlight the diversity within Luxshare Precision’s global workforce and create meaningful dialogue across borders. The centerpiece of this year’s event was the innovative “Luxshare Cup\" Global Relay,ss a nine-month journey that began on June 24, 2024. This symbolic relay connected 28 company locations across China, Vietnam, Japan, the United States, Singapore, and India. Employees from different backgrounds and regions actively participated, each proudly contributing to the Cup’s journey from one site to another. More than a physical handover, the event fostered a sense of global emotional connectivity and unity. Each stop in the relay featured unique cultural interpretations of welcome. At the Bac Giang facility in Vietnam, the Cup’s arrival sparked heartfelt celebrations. Employees donned traditional Ao Dai attire and performed a choreographed Vietnamese dance, prepared over weeks of rehearsal. “When I read the note inside the box that said, ‘Please deliver this safely to the next stop’—written in a language I don’t fully understand—I still felt its weight,” said Luong Thi Phuong, an HR representative in Vietnam. “It was a shared responsibility, a dream we were carrying together.” That same spirit echoed across the globe. In the United States, Mandy Yang from the Overseas Management Department recalled witnessing colleagues in India create intricate floral motifs and perform traditional dances. “It completely reshaped my view of cultural fusion,” Yang shared. “Every site greeted the Cup with genuine care and collective effort. These moments conveyed a warmth and unity no manual could ever express. That’s what ‘One Luxshare’ truly means.” At a time when the world faces growing complexity and uncertainty, Luxshare Precision continues to advance its technology-driven capabilities—while also investing in the cultural alignment and internal cohesion that define its global identity. By strengthening both operational excellence and human connection, the company is well-positioned to navigate global challenges with clarity and confidence, anchoring its international development strategy in unity, understanding, and trust. For more information about Luxshare Precision, please visit http://www.luxshare-ict.com/en/ . Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260603-161710__www.luxshare-ict.com_en_news_release.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -1715,7 +1732,7 @@
         {
           "title": "CERAWeek Highlights 2026",
           "date": "2026-03-27",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-03-27；标题：CERAWeek Highlights 2026；原文内容：Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1725,12 +1742,12 @@
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Discussions with Constellation President and CEO Joe Dominguez and Senior Executive Vice President and Chief External Affairs and Growth Officer David Dardis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Axios DC + AI Summit",
           "date": "2026-03-25",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-03-25；标题：Axios DC + AI Summit；原文内容：Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1740,12 +1757,12 @@
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez joins Axios Live to discuss the AI race, making data center load more flexible and using targeted demand response to meet energy demand, maintain our competitive edge and keep energy costs stable.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Constellation CEO: 'We Produce Enough Energy to Power Mexico'",
           "date": "2026-01-20",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-01-20；标题：Constellation CEO: 'We Produce Enough Energy to Power Mexico'；原文内容：Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1755,12 +1772,12 @@
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks to Barron's editor at large Andy Serwer about the company's Calpine deal, how it's working with Meta Platforms, the future of electric vehicles, and more.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "ENERGY: Always On",
           "date": "2025-11-18",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-11-18；标题：ENERGY: Always On；原文内容：Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.；来源：https://www.constellationenergy.com/newsroom.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1770,12 +1787,12 @@
           "source_url": "https://www.constellationenergy.com/newsroom.html",
           "source_excerpt": "Constellation President and CEO Joe Dominguez speaks at GROUNDBREAKERS 2025 hosted by Prologis.",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__www.constellationenergy.com_newsroom.html.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__www.constellationenergy.com_newsroom.html.html"
         },
         {
           "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
           "date": "2026-05-11",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-11；标题：Q1 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1785,12 +1802,12 @@
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-11-07",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-11-07；标题：Q3 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1800,12 +1817,12 @@
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q2 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-08-07",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-08-07；标题：Q2 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1815,12 +1832,12 @@
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q1 2025 Constellation Energy Corporation Earnings Conference Call",
           "date": "2025-05-06",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2025-05-06；标题：Q1 2025 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1830,12 +1847,12 @@
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
         },
         {
           "title": "Q3 2024 Constellation Energy Corporation Earnings Conference Call",
           "date": "2024-11-04",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2024-11-04；标题：Q3 2024 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1845,7 +1862,7 @@
           "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260603-161710__investors.constellationenergy.com_events-and-presentations_past-events.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
         }
       ]
     },
@@ -1859,7 +1876,7 @@
         {
           "title": "长电科技最小研究包待更新：验证长电微亏损、先进封装毛利率与经营现金流",
           "date": "2026-05-27",
-          "fetched_at": "20260603-161956",
+          "fetched_at": "20260604-141344",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：长电科技最小研究包待更新：验证长电微亏损、先进封装毛利率与经营现金流；原文内容：研究池种子候选：长电科技已完成强 B 层最小研究包，下一步应读取 2025 年报、2026Q1 和投资者关系材料，验证先进封装收入含金量、长电微亏损是否收窄、毛利率与经营现金流是否改善。；来源：https://www.jcetglobal.com/cn/site/news",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1883,7 +1900,7 @@
         {
           "title": "北方华创一页式观察卡待建：半导体设备平台化、订单质量与现金流验证",
           "date": "2026-05-27",
-          "fetched_at": "20260603-161956",
+          "fetched_at": "20260604-141344",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：北方华创一页式观察卡待建：半导体设备平台化、订单质量与现金流验证；原文内容：研究池种子候选：北方华创用于补前道半导体设备国产化拼图。第一步读取 2025 年报、2026Q1、订单/合同负债、毛利率和现金流，判断增长是否由真实设备需求支撑。；来源：https://www.naura.com/list/8.html",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1907,7 +1924,7 @@
         {
           "title": "中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化",
           "date": "2026-05-27",
-          "fetched_at": "20260603-161956",
+          "fetched_at": "20260604-141344",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：中微公司一页式观察卡待建：刻蚀设备、MOCVD 与先进制程设备国产化；原文内容：研究池种子候选：中微公司用于和北方华创形成设备侧对照。第一步读取 2025 年报、2026Q1、研发投入、新产品进展和毛利率，验证刻蚀设备份额和先进制程设备兑现度。；来源：https://www.amec-inc.com/investor",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1931,7 +1948,7 @@
         {
           "title": "中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证",
           "date": "2026-05-27",
-          "fetched_at": "20260603-161956",
+          "fetched_at": "20260604-141344",
           "type": "研究池种子候选",
           "fact": "日期：2026-05-27；标题：中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证；原文内容：研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。；来源：https://www.innolight.com/inv2.aspx",
           "judgment": "这是为扩充 A 股研究池补入的种子候选，只代表下一步研究待办；必须读取年报、季报、公告或投资者关系材料后，才可升级为正式事件。",
@@ -1955,7 +1972,7 @@
         {
           "title": "新易盛：投资者关系管理信息20260601",
           "date": "2026-06-02",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-02；标题：新易盛：投资者关系管理信息20260601；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -1965,57 +1982,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
-        },
-        {
-          "title": "新易盛：关于2024年限制性股票激励计划首次授予第二期归属结果暨股份上市的公告",
-          "date": "2026-05-19",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-19；标题：新易盛：关于2024年限制性股票激励计划首次授予第二期归属结果暨股份上市的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260519,
-          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
-        },
-        {
-          "title": "新易盛：北京国枫律师事务所关于成都新易盛通信技术股份有限公司2025年度股东会的法律意见书",
-          "date": "2026-05-15",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-15；标题：新易盛：北京国枫律师事务所关于成都新易盛通信技术股份有限公司2025年度股东会的法律意见书；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260515,
-          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
-        },
-        {
-          "title": "新易盛：关于完成工商登记变更并换发营业执照的公告",
-          "date": "2026-04-30",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-04-30；标题：新易盛：关于完成工商登记变更并换发营业执照的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260430,
-          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         },
         {
           "title": "新易盛：投资者关系管理信息20260429",
           "date": "2026-04-29",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-04-29；标题：新易盛：投资者关系管理信息20260429；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2025,12 +1997,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         },
         {
           "title": "新易盛：投资者关系管理信息20260423",
           "date": "2026-04-24",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-04-24；标题：新易盛：投资者关系管理信息20260423；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2040,14 +2012,14 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         },
         {
-          "title": "新易盛：关于作废部分限制性股票的公告",
+          "title": "新易盛：2025年年度报告",
           "date": "2026-04-24",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-04-24；标题：新易盛：关于作废部分限制性股票的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "fact": "日期：2026-04-24；标题：新易盛：2025年年度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
@@ -2055,14 +2027,14 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         },
         {
-          "title": "新易盛：董事会关于独立董事独立性自查情况的专项意见",
+          "title": "新易盛：2026年一季度报告",
           "date": "2026-04-24",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-04-24；标题：新易盛：董事会关于独立董事独立性自查情况的专项意见；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "fact": "日期：2026-04-24；标题：新易盛：2026年一季度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
@@ -2070,7 +2042,52 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "新易盛：关于召开2025年度股东会的通知",
+          "date": "2026-04-24",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-04-24；标题：新易盛：关于召开2025年度股东会的通知；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260424,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "业绩预告",
+          "date": "20260604-1",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：20260604-1；标题：业绩预告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260604,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "年度报告",
+          "date": "20260604-1",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：20260604-1；标题：年度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260604,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         }
       ]
     },
@@ -2082,144 +2099,144 @@
       "events": [],
       "official_candidates": [
         {
-          "title": "深南电路：董事会战略委员会工作细则（2024年3月）.PDF",
-          "date": "2024-3-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：关于注销非公开发行股票募集资金账户的公告.pdf",
+          "date": "2025-05-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2024-3-01；标题：深南电路：董事会战略委员会工作细则（2024年3月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-05-01；标题：深南电路：关于注销非公开发行股票募集资金账户的公告.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20240301,
+          "sort_key": 20250501,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：独立董事工作制度（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：2025年一季度报告.pdf",
+          "date": "2025-04-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：独立董事工作制度（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-04-01；标题：深南电路：2025年一季度报告.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250401,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：募集资金管理制度（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：国泰君安证券股份有限公司、中航证券有限公司关于公司使用节余募集资金永久补充流动资金的核查意见.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：募集资金管理制度（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：国泰君安证券股份有限公司、中航证券有限公司关于公司使用节余募集资金永久补充流动资金的核查意见.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：独立董事年报工作制度（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：关于使用节余募集资金永久补充流动资金的公告.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：独立董事年报工作制度（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：关于使用节余募集资金永久补充流动资金的公告.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：审计委员会工作细则（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：2024年度募集资金存放与使用情况的专项报告.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：审计委员会工作细则（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：2024年度募集资金存放与使用情况的专项报告.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：对外担保管理制度(2023年11月).PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：2024年年度报告.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：对外担保管理制度(2023年11月).PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：2024年年度报告.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：提名委员会工作细则（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：国泰君安证券股份有限公司、中航证券有限公司关于公司2024年度募集资金存放与使用的核查意见.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：提名委员会工作细则（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：国泰君安证券股份有限公司、中航证券有限公司关于公司2024年度募集资金存放与使用的核查意见.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：公司章程（2023年11月）.PDF",
-          "date": "2023-11-01",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路：2024年年度报告摘要.pdf",
+          "date": "2025-03-01",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2023-11-01；标题：深南电路：公司章程（2023年11月）.PDF；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
+          "fact": "日期：2025-03-01；标题：深南电路：2024年年度报告摘要.pdf；来源：https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20231101,
+          "sort_key": 20250301,
           "source_url": "https://www.scc.com.cn/scc/tzzgx/zxgg/",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__www.scc.com.cn_scc_tzzgx_zxgg_.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_zxgg_.html"
         },
         {
-          "title": "深南电路：第四届董事会第十六次会议决议公告",
-          "date": "2026-06-04",
-          "fetched_at": "20260603-161710",
+          "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
+          "date": "20260604-1",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-06-04；标题：深南电路：第四届董事会第十六次会议决议公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "fact": "日期：20260604-1；标题：深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。；来源：https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
           "sort_key": 20260604,
-          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_dqbg_index.html.html"
         },
         {
           "title": "深南电路：2026年6月3日投资者关系活动记录表",
           "date": "2026-6-3",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-6-3；标题：深南电路：2026年6月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2229,12 +2246,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         },
         {
           "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
           "date": "2026-06-02",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-06-02；标题：深南电路：关于筹划向特定对象发行股票的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2244,12 +2261,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         },
         {
           "title": "深南电路：2026年5月27日投资者关系活动记录表",
           "date": "2026-5-27",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-27；标题：深南电路：2026年5月27日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2259,27 +2276,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
-        },
-        {
-          "title": "深南电路：2025年年度权益分派实施公告",
-          "date": "2026-05-22",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-22；标题：深南电路：2025年年度权益分派实施公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260522,
-          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         },
         {
           "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
           "date": "2026-5-19",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-19；标题：深南电路：2026年5月19日-21日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2289,12 +2291,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         },
         {
           "title": "深南电路：2026年5月12日-13日投资者关系活动记录表",
           "date": "2026-5-12",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-12；标题：深南电路：2026年5月12日-13日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2304,12 +2306,12 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         },
         {
           "title": "深南电路：2026年5月7日投资者关系活动记录表",
           "date": "2026-5-7",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-7；标题：深南电路：2026年5月7日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2319,7 +2321,37 @@
           "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260603-161710__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年4月28日-29日投资者关系活动记录表",
+          "date": "2026-4-28",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-4-28；标题：深南电路：2026年4月28日-29日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260428,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年4月24日投资者关系活动记录表",
+          "date": "2026-4-24",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-4-24；标题：深南电路：2026年4月24日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260424,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -2333,7 +2365,7 @@
         {
           "title": "沪电股份：2026年6月2日投资者关系活动记录表",
           "date": "2026-6-2",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-6-2；标题：沪电股份：2026年6月2日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2343,12 +2375,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
           "title": "沪电股份：2026年6月1日投资者关系活动记录表",
           "date": "2026-6-1",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-6-1；标题：沪电股份：2026年6月1日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2358,12 +2390,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
           "title": "沪电股份：2026年5月27日投资者关系活动记录表",
           "date": "2026-5-27",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-27；标题：沪电股份：2026年5月27日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2373,27 +2405,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
-        },
-        {
-          "title": "沪电股份：关于股票交易异常波动的公告",
-          "date": "2026-05-27",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-27；标题：沪电股份：关于股票交易异常波动的公告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260527,
-          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
           "title": "沪电股份：2026年5月26日投资者关系活动记录表",
           "date": "2026-5-26",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-26；标题：沪电股份：2026年5月26日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2403,27 +2420,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
-        },
-        {
-          "title": "沪电股份：关于为全资子公司提供担保的进展公告",
-          "date": "2026-05-26",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-26；标题：沪电股份：关于为全资子公司提供担保的进展公告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260526,
-          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
           "title": "沪电股份：2026年5月25日投资者关系活动记录表",
           "date": "2026-5-25",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-5-25；标题：沪电股份：2026年5月25日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2433,22 +2435,52 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
-          "title": "沪电股份：关于独立董事取得独立董事资格证书的公告",
-          "date": "2026-05-21",
-          "fetched_at": "20260603-161710",
+          "title": "沪电股份：2026年5月20日投资者关系活动记录表",
+          "date": "2026-5-20",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-05-21；标题：沪电股份：关于独立董事取得独立董事资格证书的公告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "fact": "日期：2026-5-20；标题：沪电股份：2026年5月20日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20260521,
+          "sort_key": 20260520,
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260603-161710__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年5月19日投资者关系活动记录表",
+          "date": "2026-5-19",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-5-19；标题：沪电股份：2026年5月19日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260519,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年5月13日投资者关系活动记录表",
+          "date": "2026-5-13",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-5-13；标题：沪电股份：2026年5月13日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260513,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
@@ -2460,24 +2492,9 @@
       "events": [],
       "official_candidates": [
         {
-          "title": "工业富联：2025年年度股东会会议资料",
-          "date": "2026-05-30",
-          "fetched_at": "20260603-161710",
-          "type": "官方候选",
-          "fact": "日期：2026-05-30；标题：工业富联：2025年年度股东会会议资料；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260530,
-          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
-        },
-        {
           "title": "工业富联：投资者关系活动记录表20260520",
           "date": "2026-05-21",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-21；标题：工业富联：投资者关系活动记录表20260520；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2487,12 +2504,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
           "title": "工业富联：关于召开2025年年度股东会的通知",
           "date": "2026-05-20",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-20；标题：工业富联：关于召开2025年年度股东会的通知；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2502,12 +2519,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
           "title": "工业富联：投资者关系活动记录表-20260515-20260518",
           "date": "2026-05-15",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-15；标题：工业富联：投资者关系活动记录表-20260515-20260518；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2517,12 +2534,12 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
           "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
           "date": "2026-05-14",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
           "fact": "日期：2026-05-14；标题：工业富联：关于召开2026年第一季度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
@@ -2532,14 +2549,14 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
-          "title": "工业富联：第三届董事会第三十二次会议决议公告",
+          "title": "工业富联：2026年第一季度报告",
           "date": "2026-04-29",
-          "fetched_at": "20260603-161710",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-04-29；标题：工业富联：第三届董事会第三十二次会议决议公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "fact": "日期：2026-04-29；标题：工业富联：2026年第一季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
@@ -2547,37 +2564,52 @@
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
-          "title": "工业富联：2025年可持续发展报告摘要",
-          "date": "2026-04-29",
-          "fetched_at": "20260603-161710",
+          "title": "工业富联：投资者关系活动记录表20260416",
+          "date": "2026-04-17",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-04-29；标题：工业富联：2025年可持续发展报告摘要；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "fact": "日期：2026-04-17；标题：工业富联：投资者关系活动记录表20260416；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20260429,
+          "sort_key": 20260417,
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         },
         {
-          "title": "工业富联：关于2026年度“提质增效重回报”行动方案的公告",
-          "date": "2026-04-29",
-          "fetched_at": "20260603-161710",
+          "title": "工业富联：关于召开2025年年度业绩说明会的公告",
+          "date": "2026-04-09",
+          "fetched_at": "20260604-141031",
           "type": "官方候选",
-          "fact": "日期：2026-04-29；标题：工业富联：关于2026年度“提质增效重回报”行动方案的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "fact": "日期：2026-04-09；标题：工业富联：关于召开2025年年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
           "action": "加入待研判队列",
           "priority": "候选",
-          "sort_key": 20260429,
+          "sort_key": 20260409,
           "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
           "source_excerpt": "",
           "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "工业富联：关于股份回购实施结果暨股份变动的公告",
+          "date": "2026-03-31",
+          "fetched_at": "20260604-141031",
+          "type": "官方候选",
+          "fact": "日期：2026-03-31；标题：工业富联：关于股份回购实施结果暨股份变动的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260331,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }

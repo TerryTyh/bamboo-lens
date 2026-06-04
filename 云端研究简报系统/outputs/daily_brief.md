@@ -4,29 +4,29 @@
 
 今日待读候选：
 
-1. NVIDIA｜NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local
-   2026-06-02。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
-   [原文](https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/)
+1. 深南电路｜深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。
+   20260604-1。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://www.scc.com.cn/scc/tzzgx/dqbg/index.html)
 
-2. NVIDIA｜NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand
-   2026-05-31。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
-   [原文](https://blogs.nvidia.com/blog/ai-cloud-ecosystem/)
+2. 新易盛｜业绩预告
+   20260604-1。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml)
 
-3. NVIDIA｜NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale
-   2026-06-03。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
-   [原文](https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/)
+3. 新易盛｜年度报告
+   20260604-1。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml)
 
-4. NVIDIA｜Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw
-   2026-06-02。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
-   [原文](https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/)
+4. 深南电路｜深南电路：2026年6月3日投资者关系活动记录表
+   2026-6-3。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
 
-5. NVIDIA｜Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence
-   2026-06-01。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
-   [原文](https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/)
+5. 沪电股份｜沪电股份：2026年6月2日投资者关系活动记录表
+   2026-6-2。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
 
 明日重点：
 
 - 当前覆盖公司：NVIDIA、TSMC、Microsoft、阿里巴巴、汇川技术、GE Vernova、立讯精密、Constellation Energy、长电科技、北方华创、中微公司、中际旭创、新易盛、深南电路、沪电股份、工业富联
-- 优先打开原文：NVIDIA｜NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local
-- 优先打开原文：NVIDIA｜NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand
-- 优先打开原文：NVIDIA｜NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale
+- 优先打开原文：深南电路｜深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。
+- 优先打开原文：新易盛｜业绩预告
+- 优先打开原文：新易盛｜年度报告

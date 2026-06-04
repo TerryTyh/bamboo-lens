@@ -1,15 +1,15 @@
-# 正式事件草稿｜工业富联｜工业富联：投资者关系活动记录表-20260515-20260518
+# 正式事件草稿｜深南电路｜深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。
 
 ## 草稿状态
 
-- 公司：工业富联（fii）
-- 日期：2026-05-15
+- 公司：深南电路（shennan）
+- 日期：20260604-1
 - 类型：官方候选
-- 候选分数：9
+- 候选分数：18
 - 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 14）
-- 官方来源：[打开官方来源](https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260603-161710__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html
+- 批处理建议：待补正文（readiness 26）
+- 官方来源：[打开官方来源](https://www.scc.com.cn/scc/tzzgx/dqbg/index.html)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_dqbg_index.html.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-05-15；标题：工业富联：投资者关系活动记录表-20260515-20260518；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
+日期：20260604-1；标题：深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。；来源：https://www.scc.com.cn/scc/tzzgx/dqbg/index.html
 
 ### 候选事实
 
-日期：2026-05-15；标题：工业富联：投资者关系活动记录表-20260515-20260518；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
+日期：20260604-1；标题：深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。；来源：https://www.scc.com.cn/scc/tzzgx/dqbg/index.html
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-fii-工业富联-投资者关系活动记录表-20260515-20260518`
+`auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠`
 
 ## 质量闸门
 
