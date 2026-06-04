@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T22:34:54",
+  "generated_at": "2026-06-04T22:37:46",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -22,9 +22,9 @@
           "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "source_summary": [
             "这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。",
-            "端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows PC，给出 1 petaflop AI 算力、最高 128GB unified memory，并计划在 2026 年秋季由 Surface、ASUS、Dell、HP、Lenovo、MSI 推出。DGX Station for Windows 则定位为桌边 AI 超算，基于 GB300 Grace Blackwell Ultra Desktop Superchip，拥有最高 748GB coherent memory 和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。",
-            "云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 ASR 和 Content Safety 也会进入 Microsoft Foundry managed compute。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为 secure-by-design 智能体运行时。",
-            "开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw blueprints、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。"
+            "端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows 电脑，给出 1 petaflop AI 算力和最高 128GB 统一内存，并计划在 2026 年秋季由多家 OEM 推出。DGX Station for Windows 则定位为桌边 AI 超算，拥有最高 748GB 统一地址内存和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。",
+            "云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 语音识别模型和内容安全模型也会进入 Microsoft Foundry 托管算力环境。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为默认强调安全隔离的智能体运行时。",
+            "开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw 蓝图、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。"
           ],
           "evidence": [
             "RTX Spark 被定义为面向 personal agents 的 Windows PC，给出 1 petaflop AI performance、最高 128GB unified memory，并由 Surface、ASUS、Dell、HP、Lenovo、MSI 于 2026 年秋季推出。",
@@ -60,9 +60,9 @@
           "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "source_summary": [
             "这篇原文在讲 NVIDIA AI Cloud 生态如何从少数超大云厂商，扩展成覆盖六大洲的区域云、运营商云、主权 AI 云和垂直基础设施网络。文章的重点不是某一家客户签约，而是 NVIDIA 想证明 AI 工厂的建设和推理需求正在向全球分散，不再只由美国头部模型公司承接。",
-            "原文直接把 NVIDIA AI Clouds 定义为一套 purpose-built clouds 生态，用 NVIDIA accelerated computing、networking 和 AI software 帮助合作伙伴支撑 training、fine-tuning、inference、agentic AI、physical AI 和 sovereign AI 部署。也就是说，这不是普通 GPU 租赁，而是围绕 token 经济和工作负载效率设计的区域 AI 工厂。",
-            "文章称该生态已随着非洲的 Cassava 和南美的 Claro 加入而到达六大洲，并点名 CoreWeave、Firmus、IREN、Nebius、Nscale、Firebird、GMI Cloud、Indosat Ooredoo Hutchison、Lambda、Naver Cloud、Sharon AI、Yotta、YTL 等伙伴，覆盖 AI labs、企业、政府、金融、电信、制造、教育和医疗等场景。",
-            "更重要的是，原文反复把 regional capacity、sovereign controls、local compliance、developer access 和 data proximity 放在一起，说明 NVIDIA 正试图用区域云和主权 AI 的叙事承接全球监管、本地化部署和低延迟推理需求。Firmus 在澳大利亚和东南亚基于可再生能源和模块化基础设施扩张 AI factory，也体现出能源与 AI 基建开始更紧地绑定。"
+            "原文直接把 NVIDIA AI Clouds 定义为一套围绕 AI 工作负载专门建设的云基础设施，用 NVIDIA 的加速计算、网络和 AI 软件帮助合作伙伴支撑训练、微调、推理、智能体 AI、物理 AI 和主权 AI 部署。也就是说，这不是普通 GPU 租赁，而是围绕 token 经济和工作负载效率设计的区域 AI 工厂。",
+            "文章称该生态已随着非洲的 Cassava 和南美的 Claro 加入而到达六大洲，并列出一批区域云、运营商云和 AI 基础设施伙伴，覆盖 AI 实验室、企业、政府、金融、电信、制造、教育和医疗等场景。",
+            "更重要的是，原文反复把区域算力供给、主权控制、本地合规、开发者接入能力和贴近数据部署放在一起，说明 NVIDIA 正试图用区域云和主权 AI 的叙事承接全球监管、本地化部署和低延迟推理需求。Firmus 在澳大利亚和东南亚基于可再生能源和模块化基础设施扩张 AI 工厂，也体现出能源与 AI 基建开始更紧地绑定。"
           ],
           "evidence": [
             "原文把 NVIDIA AI Clouds 定义为为 exploding token demand 服务的 purpose-built clouds，明确覆盖 training、fine-tuning、inference、agentic AI、physical AI 和 sovereign AI。",

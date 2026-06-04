@@ -11,9 +11,9 @@
   "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
   "source_summary": [
     "这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。",
-    "端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows PC，给出 1 petaflop AI 算力、最高 128GB unified memory，并计划在 2026 年秋季由 Surface、ASUS、Dell、HP、Lenovo、MSI 推出。DGX Station for Windows 则定位为桌边 AI 超算，基于 GB300 Grace Blackwell Ultra Desktop Superchip，拥有最高 748GB coherent memory 和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。",
-    "云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 ASR 和 Content Safety 也会进入 Microsoft Foundry managed compute。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为 secure-by-design 智能体运行时。",
-    "开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw blueprints、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。"
+    "端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows 电脑，给出 1 petaflop AI 算力和最高 128GB 统一内存，并计划在 2026 年秋季由多家 OEM 推出。DGX Station for Windows 则定位为桌边 AI 超算，拥有最高 748GB 统一地址内存和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。",
+    "云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 语音识别模型和内容安全模型也会进入 Microsoft Foundry 托管算力环境。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为默认强调安全隔离的智能体运行时。",
+    "开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw 蓝图、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。"
   ],
   "fact": "2026-06-02，NVIDIA 在 Microsoft Build 期间披露与 Microsoft 的扩展合作：Windows 端推出面向个人智能体的 RTX Spark PC（1 petaflop AI 算力、最高 128GB unified memory）和面向企业本地部署的 DGX Station for Windows（GB300 Grace Blackwell Ultra Desktop Superchip、最高 748GB coherent memory、20 petaflops FP4，支持 1 万亿参数模型）；Azure 端将让 Anthropic Claude 运行在 GB300 Blackwell Ultra 系统上，Microsoft Foundry 则接入 Nemotron 3 Ultra、Nemotron 3.5 ASR、Content Safety、Agent Toolkit、NemoClaw 和 CUDA-X 技能。文章还强调 GitHub Copilot 与 Windows 侧采用 NVIDIA OpenShell 作为智能体安全运行时。",
   "evidence": [

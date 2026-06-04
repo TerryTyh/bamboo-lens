@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-06-04T22:34:54",
-  "source_event_store_at": "2026-06-04T22:34:54",
-  "source_deposition_at": "2026-06-04T22:34:54",
+  "generated_at": "2026-06-04T22:37:46",
+  "source_event_store_at": "2026-06-04T22:37:46",
+  "source_deposition_at": "2026-06-04T22:37:46",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
       "sourceEventDate": "2026-06-02",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-04T22:34:54",
+      "updatedAt": "2026-06-04T22:37:46",
       "latestEvent": "2026-06-02｜微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
       "businessImpact": "业务层面，这条合作同时触及三条线。第一条是 Windows AI PC 和 deskside AI supercomputer，把 NVIDIA 算力从数据中心向个人开发者和企业本地部署扩散。第二条是 Azure/Foundry 上的模型与推理栈，让 NVIDIA 在企业实际购买的云端 AI 工作流里保持较深嵌入，而不是只做底层芯片供应商。第三条是 OpenShell、Agent Toolkit、NemoClaw 和 CUDA-X 技能进入企业开发平台，说明 NVIDIA 试图把价值延伸到智能体运行时、安全和行业化工具链。若企业智能体从演示阶段走向长期运行，这种端到云一体化会提高 NVIDIA 平台的黏性和 attach rate。",
       "valuationImpact": "估值和动作上，这条事件支持平台溢价，但还不足以单独上调盈利预测。正面在于：合作对象是 Microsoft，覆盖 Windows、GitHub、Azure、Foundry、Fabric 等高分发入口，而且文章给出了具体硬件规格、模型栈和运行时位置，说明合作深度高于普通生态站台。限制在于：没有披露订单金额、付费用户数、GPU 消耗规模或软件附加收入，因此更像中期平台化证据，而不是短期财务催化。动作上维持 A 池核心，后续重点验证企业智能体是否真的带来可观的推理需求和软件 attach。",
@@ -85,7 +85,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
               "key": "business-segment-财报-经营验证",
               "title": "财报/经营验证｜微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
               "scale": "2026-06-02｜生态合作 / 智能体基础设施",
-              "text": "业务层面，这条合作同时触及三条线。第一条是 Windows AI PC 和 deskside AI supercomputer，把 NVIDIA 算力从数据中心向个人开发者和企业本地部署扩散。第二条是 Azure/Foundry 上的模型与推理栈，让 NVIDIA 在企业实际购买的云端 AI 工作流里保持较深嵌入，而不是只做底层芯片供应商。第三条是 OpenShell、Agent Toolkit、NemoClaw 和 CUDA-X 技能进入企业开发平台，说明 NVIDIA 试图把价值延伸到智能体运行时、安全和行业化工具链。若企业智能体从演示阶段走向长期运行，这种端到云一体化会提高 NVIDIA 平台的黏性和 attach rate。 原文要点：这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。；端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows PC，给出 1 petaflop AI 算力、最高 128GB unified memory，并计划在 2026 年秋季由 Surface、ASUS、Dell、HP、Lenovo、MSI 推出。DGX Station for Windows 则定位为桌边 AI 超算，基于 GB300 Grace Blackwell Ult…"
+              "text": "业务层面，这条合作同时触及三条线。第一条是 Windows AI PC 和 deskside AI supercomputer，把 NVIDIA 算力从数据中心向个人开发者和企业本地部署扩散。第二条是 Azure/Foundry 上的模型与推理栈，让 NVIDIA 在企业实际购买的云端 AI 工作流里保持较深嵌入，而不是只做底层芯片供应商。第三条是 OpenShell、Agent Toolkit、NemoClaw 和 CUDA-X 技能进入企业开发平台，说明 NVIDIA 试图把价值延伸到智能体运行时、安全和行业化工具链。若企业智能体从演示阶段走向长期运行，这种端到云一体化会提高 NVIDIA 平台的黏性和 attach rate。 原文要点：这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。；端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows 电脑，给出 1 petaflop AI 算力和最高 128GB 统一内存，并计划在 2026 年秋季由多家 OEM 推出。DGX Station for Windows 则定位为桌边 AI 超算，拥有最高 748GB 统一地址内存和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体…"
             }
           ],
           "moat": [
@@ -166,7 +166,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "sourceEventDate": "2026-05-15",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-04T22:34:54",
+      "updatedAt": "2026-06-04T22:37:46",
       "latestEvent": "2026-05-15｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "businessImpact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
       "valuationImpact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
@@ -323,7 +323,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-04T22:34:54",
+      "updatedAt": "2026-06-04T22:37:46",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
