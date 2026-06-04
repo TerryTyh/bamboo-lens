@@ -1,18 +1,46 @@
 {
-  "generated_at": "2026-06-04T22:06:23",
+  "generated_at": "2026-06-04T22:18:12",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
-    "total": 15,
+    "total": 14,
     "companies": 6,
     "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
-      "needs_source": 15
+      "needs_source": 14
     },
     "priority_batch": []
   },
   "priority_batch": [],
   "items": [
+    {
+      "draft_id": "auto-eoptolink-业绩预告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "业绩预告",
+      "date": "20260604-1",
+      "score": 14,
+      "readiness_score": 22,
+      "investment_signal_score": 10,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-业绩预告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     {
       "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
       "company": "innolight",
@@ -66,6 +94,34 @@
           "风险与跟踪重点"
         ],
         "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+      }
+    },
+    {
+      "draft_id": "auto-eoptolink-年度报告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "年度报告",
+      "date": "20260604-1",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
@@ -338,90 +394,6 @@
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
       "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260520.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年5月19日-21日投资者关系活动记录表",
-      "date": "2026-5-19",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月19日-21日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-fii-工业富联-投资者关系活动记录表-20260515-20260518",
-      "company": "fii",
-      "company_name": "工业富联",
-      "title": "工业富联：投资者关系活动记录表-20260515-20260518",
-      "date": "2026-05-15",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表-20260515-20260518.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告",
-      "company": "fii",
-      "company_name": "工业富联",
-      "title": "工业富联：关于召开2026年第一季度业绩说明会的公告",
-      "date": "2026-05-14",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年第一季度业绩说明会的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

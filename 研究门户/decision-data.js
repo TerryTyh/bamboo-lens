@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-06-04T14:16:12",
+  "generated_at": "2026-06-04T22:18:05",
   "source_generated_at": "2026-06-04T14:16:12",
   "items": [
     {
@@ -271,24 +271,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 12,
       "sort_key": 20260225,
       "score": 19
-    },
-    {
-      "company": "shennan",
-      "company_name": "深南电路",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
-      "date": "20260604-1",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_dqbg_index.html.html",
-      "event_index": null,
-      "sort_key": 20260604,
-      "score": 18
     },
     {
       "company": "nvidia",
@@ -1009,6 +991,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 1,
       "sort_key": 20260318,
       "score": 11
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
+      "date": "20260604-1",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_dqbg_index.html.html",
+      "event_index": null,
+      "sort_key": 20260604,
+      "score": 10
     },
     {
       "company": "innolight",

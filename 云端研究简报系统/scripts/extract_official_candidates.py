@@ -76,6 +76,10 @@ CN_WAITING_MATERIAL_KEYWORDS = (
     "股东大会通知",
 )
 CN_LOW_SIGNAL_PATTERNS = (
+    "公告包括",
+    "承诺报告内容真实可靠",
+    "定期报告",
+    "临时公告",
     "法律意见书",
     "工作细则",
     "公司章程",
@@ -97,6 +101,7 @@ CN_LOW_SIGNAL_PATTERNS = (
     "专项意见",
     "内部控制",
 )
+CN_GENERIC_CANDIDATE_TITLES = {"年度报告", "半年度报告", "季度报告", "业绩预告", "业绩快报", "临时公告", "定期报告"}
 CN_ANNOUNCEMENT_COMPANIES = {"jcet", "naura", "amec", "innolight", "eoptolink", "shennan", "wus", "fii"}
 BAD_EXCERPT_PATTERNS = (
     "PLATFORMS Autonomous Machines",
@@ -440,6 +445,8 @@ def score_candidate(tag: str, text: str) -> int:
         score -= 5
     if any(noise in text for noise in CN_LOW_SIGNAL_PATTERNS):
         score -= 8
+    if text.strip() in CN_GENERIC_CANDIDATE_TITLES:
+        score -= 8
     return score
 
 
@@ -520,6 +527,7 @@ def extract_cn_announcement_candidates(text_nodes: list[tuple[str, str]]) -> lis
         for item in items
         if any(keyword in item["title"] for keyword in CN_INVESTMENT_KEYWORDS + CN_WAITING_MATERIAL_KEYWORDS)
         and not any(noise in item["title"] for noise in CN_LOW_SIGNAL_PATTERNS)
+        and item["title"].strip() not in CN_GENERIC_CANDIDATE_TITLES
     ]
     return dedupe_items(focused or items)
 

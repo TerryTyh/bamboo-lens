@@ -1,44 +1,16 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-04T14:16:12",
+  "generated_at": "2026-06-04T22:18:12",
   "summary": {
-    "total": 15,
+    "total": 14,
     "companies": 6,
     "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
-      "needs_source": 15
+      "needs_source": 14
     },
     "priority_batch": []
   },
   "by_key": {
-    "shennan::深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。": {
-      "draft_id": "auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
-      "date": "20260604-1",
-      "score": 18,
-      "readiness_score": 26,
-      "investment_signal_score": 14,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "eoptolink::业绩预告": {
       "draft_id": "auto-eoptolink-业绩预告",
       "company": "eoptolink",
@@ -432,120 +404,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     }
   },
   "companies": {
-    "shennan": [
-      {
-        "draft_id": "auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
-        "date": "20260604-1",
-        "score": 18,
-        "readiness_score": 26,
-        "investment_signal_score": 14,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：2026年6月3日投资者关系活动记录表",
-        "date": "2026-6-3",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
-        "date": "2026-06-02",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：2026年5月27日投资者关系活动记录表",
-        "date": "2026-5-27",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
     "eoptolink": [
       {
         "draft_id": "auto-eoptolink-业绩预告",
@@ -688,6 +546,92 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "风险与跟踪重点"
           ],
           "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+        }
+      }
+    ],
+    "shennan": [
+      {
+        "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年6月3日投资者关系活动记录表",
+        "date": "2026-6-3",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
+        "date": "2026-06-02",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年5月27日投资者关系活动记录表",
+        "date": "2026-5-27",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
     ],
@@ -865,34 +809,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
-      "date": "20260604-1",
-      "score": 18,
-      "readiness_score": 26,
-      "investment_signal_score": 14,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路公告包括-定期报告-含年度报告-半年度报告-季度报告-临时公告等-公司依法披露信息-承诺报告内容真实可靠.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     {
       "draft_id": "auto-eoptolink-业绩预告",
       "company": "eoptolink",

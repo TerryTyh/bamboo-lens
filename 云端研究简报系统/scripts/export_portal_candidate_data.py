@@ -52,6 +52,10 @@ IMPORTANT_KEYWORDS = {
 }
 
 LOW_SIGNAL_KEYWORDS = [
+    "公告包括",
+    "承诺报告内容真实可靠",
+    "定期报告",
+    "临时公告",
     "法律意见书",
     "工作细则",
     "公司章程",
@@ -76,6 +80,7 @@ LOW_SIGNAL_KEYWORDS = [
     "rainforests",
     "recycling plants",
 ]
+GENERIC_CN_TITLES = {"年度报告", "半年度报告", "季度报告", "业绩预告", "业绩快报", "临时公告", "定期报告"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -180,7 +185,7 @@ def classify_candidate(candidate: dict, reviewed: set[tuple[str, str]]) -> dict:
             "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。",
         }
 
-    if any(keyword in lowered for keyword in LOW_SIGNAL_KEYWORDS):
+    if title in GENERIC_CN_TITLES or any(keyword in lowered for keyword in LOW_SIGNAL_KEYWORDS):
         return {
             "candidate_status": "skipped",
             "status_label": "暂不研判",

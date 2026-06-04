@@ -438,6 +438,9 @@ def is_recent_candidate(item: dict, today: datetime, days: int = 2, upcoming_day
 
 
 def candidate_signal_base_score(item: dict) -> int:
+    raw_title = normalize(item.get("title", ""))
+    if raw_title in {"年度报告", "半年度报告", "季度报告", "业绩预告", "业绩快报", "临时公告", "定期报告"}:
+        return -10
     text = " ".join(
         normalize(item.get(field, ""))
         for field in ["title", "type", "fact"]
@@ -488,6 +491,10 @@ def candidate_signal_base_score(item: dict) -> int:
         "gan": 2,
     }
     low_signal = [
+        "公告包括",
+        "承诺报告内容真实可靠",
+        "定期报告",
+        "临时公告",
         "法律意见书",
         "工作细则",
         "公司章程",
@@ -521,8 +528,10 @@ def candidate_signal_base_score(item: dict) -> int:
     for keyword, weight in keyword_weights.items():
         if keyword in text:
             score += weight
+    if contains_chinese(raw_title) or contains_chinese(normalize(item.get("company_name", ""))):
+        score += 6
     if any(keyword in text for keyword in low_signal):
-        score -= 6
+        return -10
     if item.get("sort_key", 0) >= 20260501:
         score += 2
     return score
@@ -876,18 +885,6 @@ def select_diverse_candidates(candidates: list[dict], limit: int = 5, per_compan
         company_counts[company_id] = company_counts.get(company_id, 0) + 1
         if len(picked) >= limit:
             break
-
-    if len(picked) < limit:
-        for item in candidates:
-            company_id = normalize(item.get("company_id", ""))
-            title = normalize(item.get("title", "")).lower()
-            key = (company_id, title)
-            if key in seen_titles:
-                continue
-            picked.append(item)
-            seen_titles.add(key)
-            if len(picked) >= limit:
-                break
 
     return picked
 
