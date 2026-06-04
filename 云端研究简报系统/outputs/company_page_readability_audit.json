@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T14:16:12",
-  "source_overrides_at": "2026-06-04T14:16:12",
+  "generated_at": "2026-06-04T22:34:54",
+  "source_overrides_at": "2026-06-04T22:34:54",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
-      "sourceEventDate": "2026-05-20",
+      "sourceEventTitle": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
+      "sourceEventDate": "2026-06-02",
       "status": "healthy",
       "counts": {
         "finance_rows": 3,

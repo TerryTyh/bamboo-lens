@@ -116,24 +116,6 @@ def load_reviewed_events() -> list[dict]:
     return items
 
 
-def load_review_priorities() -> list[dict]:
-    if not REVIEW_DRAFT_INDEX_FILE.exists():
-        return []
-    payload = json.loads(REVIEW_DRAFT_INDEX_FILE.read_text(encoding="utf-8"))
-    items = payload.get("summary", {}).get("priority_batch") or []
-
-    def priority_key(item: dict) -> tuple[int, int]:
-        company = normalize(item.get("company", "")).lower()
-        cn_bonus = 1 if company in {"jcet", "naura", "amec", "innolight", "inovance", "luxshare"} else 0
-        nvidia_penalty = -1 if company == "nvidia" else 0
-        return (
-            cn_bonus + nvidia_penalty,
-            int(item.get("readiness_score") or 0) + int(item.get("investment_signal_score") or 0),
-        )
-
-    return sorted(items, key=priority_key, reverse=True)
-
-
 def company_name(company_id: str) -> str:
     names = {
         "nvidia": "NVIDIA",
@@ -152,31 +134,10 @@ def company_name(company_id: str) -> str:
     return names.get(company_id, company_id)
 
 
-def research_doc_exists(filename: str) -> bool:
-    return (PROJECT_ROOT / "长期高潜力公司跟踪系统" / filename).exists()
-
-
-def is_completed_research_candidate(item: dict) -> bool:
-    company = normalize(item.get("company", "")).lower()
-    title = normalize(item.get("title", ""))
-    completed = {
-        "naura": research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md"),
-        "amec": research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md"),
-        "jcet": research_doc_exists("55-长电科技强B复核_2026-05-30.md"),
-        "optical_module_compare": research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md"),
-    }
-    if completed["optical_module_compare"] and ("中际旭创" in title or "新易盛" in title or "光模块" in title):
-        return True
-    if completed["jcet"] and ("长电科技" in title or "强 B 复核" in title or "强B复核" in title):
-        return True
-    return completed.get(company, False) and "观察卡待建" in title
-
-
 def render_item(index: int, item: dict) -> str:
     company = company_name(item.get("company_id", ""))
     title = normalize(item.get("title", ""))
     source_summary = item.get("source_summary") or []
-    evidence = item.get("evidence") or []
     verification = item.get("verification") or []
 
     if source_summary:
@@ -186,7 +147,6 @@ def render_item(index: int, item: dict) -> str:
     source_url = normalize(item.get("source_url", ""))
     source_line = f"\n\n[原文]({source_url})" if source_url else ""
 
-    evidence_lines = "\n".join(f"- {localize_brief_terms(line)}" for line in evidence[:6] if normalize(line))
     verification_lines = "\n".join(f"- {localize_brief_terms(line)}" for line in verification[:6] if normalize(line))
 
     business = render_text_block(item.get("business_analysis", ""))
@@ -211,82 +171,6 @@ def render_item(index: int, item: dict) -> str:
 
 {verification_lines or '- （无）'}{source_line}
 """
-
-
-def render_research_backlog(items: list[dict]) -> str:
-    selected = [item for item in items if not is_completed_research_candidate(item)][:5]
-    naura_done = research_doc_exists("51-北方华创一页式观察卡_2026-05-28.md")
-    naura_line = (
-        "- 北方华创｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。"
-        if naura_done
-        else "- 北方华创｜一页式观察卡：先读年报和 Q1，确认订单、合同负债、毛利率和现金流。"
-    )
-    amec_done = research_doc_exists("52-中微公司一页式观察卡_2026-05-29.md")
-    amec_line = (
-        "- 中微公司｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证扣非利润、现金流、薄膜设备放量和营运资本。"
-        if amec_done
-        else "- 中微公司｜一页式观察卡：对照北方华创，重点看刻蚀设备、新产品、研发投入和毛利率。"
-    )
-    optical_line = (
-        "- 中际旭创/新易盛｜光模块正式对照卡：已完成；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流和存货/应收。"
-        if research_doc_exists("54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md")
-        else "- 中际旭创/新易盛｜光模块对照：重点看客户集中度、800G/1.6T 产品占比、现金流和库存/应收。"
-    )
-    jcet_line = (
-        "- 长电科技｜强 B 复核：已完成；下一步等 2026H1/Q2 验证长电微亏损、先进封装毛利率、经营现金流和 capex 回报。"
-        if research_doc_exists("55-长电科技强B复核_2026-05-30.md")
-        else "- 长电科技｜强 B 复核：等待能验证长电微亏损、先进封装毛利率和经营现金流的新材料。"
-    )
-    a_share_lines = [
-        naura_line,
-        amec_line,
-        optical_line,
-        jcet_line,
-    ]
-    a_share_focus = "\n".join(a_share_lines)
-    if not selected:
-        return f"""## 1. 研究池｜A 股扩池优先
-
-**今天应看什么**
-
-今日没有新入库正式事件。研究工作改为扩充 A 股公司池，优先补半导体设备、先进封装、AI 光模块、PCB/服务器和电力设备候选。
-
-**后续观察点**
-
-{a_share_focus}
-
-[原文](https://www.cninfo.com.cn/)"""
-
-    lines = []
-    for item in selected:
-        company = company_name(item.get("company", ""))
-        title = localize_brief_terms(item.get("title", ""))
-        reason = localize_brief_terms(item.get("review_batch_reason", ""))
-        url = normalize(item.get("source_url", ""))
-        link = f" [原文]({url})" if url else ""
-        lines.append(f"- {company}｜{title}：{reason}{link}")
-
-    return f"""## 1. 研究池｜候选深读待办
-
-**今天应看什么**
-
-今日没有新入库正式事件。为了避免日报空转，今天优先处理候选池深读，并把 A 股扩池放在 NVIDIA 生态新闻之前。
-
-**A 股扩池优先**
-
-{a_share_focus}
-
-**候选池提示**
-
-{chr(10).join(lines)}
-
-**后续观察点**
-
-- 先补 A 股半导体设备、先进封装、AI 光模块和 PCB/服务器公司池。
-- NVIDIA 只在财报、订单、量产、客户 capex 或明确收入/利润影响出现时进入头条。
-- 候选只作为研究待办，不直接形成买卖动作。"""
-
-
 def main() -> None:
     now = current_time()
     # Nightly runs can happen shortly after midnight; in that case the "morning brief"
@@ -307,7 +191,7 @@ def main() -> None:
     if selected:
         body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
     else:
-        body = render_research_backlog(load_review_priorities())
+        body = "## 今日暂无符合质量门槛的正式事件\n"
     MORNING_BRIEF_FILE.write_text(
         f"""# 竹鉴晨报 | {today}
 

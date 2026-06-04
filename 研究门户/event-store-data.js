@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-06-04T14:16:12",
+  "generated_at": "2026-06-04T22:34:54",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,82 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
+          "source_candidate_title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+          "date": "2026-06-02",
+          "fetched_at": "",
+          "type": "生态合作 / 智能体基础设施",
+          "fact": "2026-06-02，NVIDIA 在 Microsoft Build 期间披露与 Microsoft 的扩展合作：Windows 端推出面向个人智能体的 RTX Spark PC（1 petaflop AI 算力、最高 128GB unified memory）和面向企业本地部署的 DGX Station for Windows（GB300 Grace Blackwell Ultra Desktop Superchip、最高 748GB coherent memory、20 petaflops FP4，支持 1 万亿参数模型）；Azure 端将让 Anthropic Claude 运行在 GB300 Blackwell Ultra 系统上，Microsoft Foundry 则接入 Nemotron 3 Ultra、Nemotron 3.5 ASR、Content Safety、Agent Toolkit、NemoClaw 和 CUDA-X 技能。文章还强调 GitHub Copilot 与 Windows 侧采用 NVIDIA OpenShell 作为智能体安全运行时。",
+          "judgment": "这是一条 P2 级平台外延强化事件。它的关键不是某台 PC 或某个模型上架，而是 NVIDIA 正在和 Microsoft 一起定义企业智能体的完整部署路径：端侧开发、本地推理、云端前沿模型、安全运行时、数据访问和行业技能被连成一体。对投资判断更重要的是，这说明 NVIDIA 平台化不再只停留在超大训练集群，而是在往企业生产级智能体工作流渗透。",
+          "action": "维持 A 池核心；把企业智能体从端到云的一体化部署能力列为下一阶段验证点",
+          "priority": "P2",
+          "sort_key": 20260602,
+          "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+          "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。",
+            "端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows PC，给出 1 petaflop AI 算力、最高 128GB unified memory，并计划在 2026 年秋季由 Surface、ASUS、Dell、HP、Lenovo、MSI 推出。DGX Station for Windows 则定位为桌边 AI 超算，基于 GB300 Grace Blackwell Ultra Desktop Superchip，拥有最高 748GB coherent memory 和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。",
+            "云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 ASR 和 Content Safety 也会进入 Microsoft Foundry managed compute。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为 secure-by-design 智能体运行时。",
+            "开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw blueprints、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。"
+          ],
+          "evidence": [
+            "RTX Spark 被定义为面向 personal agents 的 Windows PC，给出 1 petaflop AI performance、最高 128GB unified memory，并由 Surface、ASUS、Dell、HP、Lenovo、MSI 于 2026 年秋季推出。",
+            "DGX Station for Windows 基于 NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip，拥有最高 748GB coherent memory 和 20 petaflops FP4 performance，目标是运行 1 万亿参数模型和常驻企业智能体。",
+            "Anthropic Claude 模型将在 Azure 的 NVIDIA GB300 Blackwell Ultra 系统上原生运行，客户可用时间被表述为未来几周。",
+            "Microsoft Foundry managed compute 会提供 NVIDIA Nemotron 3 Ultra、Nemotron 3.5 ASR 与 Content Safety，允许开发者把开源推理模型和前沿模型组合到同一工作流。",
+            "NVIDIA OpenShell 被写成 GitHub Copilot 和 Windows 智能体侧的 secure-by-design runtime，说明合作已进入运行时安全与治理层，而不只是卖 GPU。",
+            "NVIDIA Agent Toolkit、NemoClaw blueprints、cuDF、cuOpt、AI-Q、NeMo、Cosmos 3 和 Earth-2 等能力被接入 Foundry、Planetary Computer Pro、Fabric 等 Microsoft 平台，覆盖企业数据、科学计算与物理 AI 场景。"
+          ],
+          "business_analysis": "业务层面，这条合作同时触及三条线。第一条是 Windows AI PC 和 deskside AI supercomputer，把 NVIDIA 算力从数据中心向个人开发者和企业本地部署扩散。第二条是 Azure/Foundry 上的模型与推理栈，让 NVIDIA 在企业实际购买的云端 AI 工作流里保持较深嵌入，而不是只做底层芯片供应商。第三条是 OpenShell、Agent Toolkit、NemoClaw 和 CUDA-X 技能进入企业开发平台，说明 NVIDIA 试图把价值延伸到智能体运行时、安全和行业化工具链。若企业智能体从演示阶段走向长期运行，这种端到云一体化会提高 NVIDIA 平台的黏性和 attach rate。",
+          "valuation_analysis": "估值和动作上，这条事件支持平台溢价，但还不足以单独上调盈利预测。正面在于：合作对象是 Microsoft，覆盖 Windows、GitHub、Azure、Foundry、Fabric 等高分发入口，而且文章给出了具体硬件规格、模型栈和运行时位置，说明合作深度高于普通生态站台。限制在于：没有披露订单金额、付费用户数、GPU 消耗规模或软件附加收入，因此更像中期平台化证据，而不是短期财务催化。动作上维持 A 池核心，后续重点验证企业智能体是否真的带来可观的推理需求和软件 attach。",
+          "verification": [
+            "跟踪 RTX Spark 和 DGX Station for Windows 的实际上市时间、渠道价格、客户采用和企业案例，判断端侧与本地部署是否形成真实需求。",
+            "观察 Azure GB300 / Blackwell Ultra、Foundry 上 Nemotron 与 OpenShell 的商业化口径，尤其是客户数量、推理负载和收费模式。",
+            "继续看 NVIDIA 财报中数据中心推理需求、软件/服务 attach rate 和企业客户结构变化，验证这类生态合作能否转化为收入。",
+            "关注 Microsoft 自研 ASIC、多模型路线和 OpenAI/Anthropic 等伙伴关系，判断 NVIDIA 在微软生态中的长期议价力是否稳固。"
+          ],
+          "reviewed_at": "2026-06-04T22:50:00",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "AI Cloud 生态扩到六大洲，区域云与主权 AI 正成为 NVIDIA 新的需求承接层",
+          "source_candidate_title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+          "date": "2026-05-31",
+          "fetched_at": "",
+          "type": "AI 云基础设施 / 主权 AI",
+          "fact": "2026-05-31，NVIDIA 披露 AI Cloud 生态扩展进展：该生态以 NVIDIA 加速计算、网络和 AI 软件为底座，覆盖 training、fine-tuning、inference、agentic AI、physical AI 与 sovereign AI 工作负载，并随着 Cassava（非洲）和 Claro（南美）加入而扩展到六大洲。文章列出 CoreWeave、Firmus、IREN、Nebius、Nscale、Firebird、GMI Cloud、Indosat Ooredoo Hutchison、Lambda、Naver Cloud、Sharon AI、Yotta、YTL 等合作方，强调它们正在为 AI labs、企业、政府、金融、电信、制造、教育、医疗和国家级 AI 计划提供区域算力和本地合规部署能力。",
+          "judgment": "这是一条 P2 级需求外延事件。它没有给出直接订单或收入数字，但强化了一个重要判断：NVIDIA 的需求承接层正在从少数超大客户，扩展到区域云、主权 AI、运营商云和行业化基础设施提供商。对投资上更关键的是，这为未来推理、智能体和本地化部署需求提供了更多全球分发通道。",
+          "action": "维持 A 池核心；把区域云、主权 AI 与高量推理需求纳入新增验证主线",
+          "priority": "P2",
+          "sort_key": 20260531,
+          "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+          "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "这篇原文在讲 NVIDIA AI Cloud 生态如何从少数超大云厂商，扩展成覆盖六大洲的区域云、运营商云、主权 AI 云和垂直基础设施网络。文章的重点不是某一家客户签约，而是 NVIDIA 想证明 AI 工厂的建设和推理需求正在向全球分散，不再只由美国头部模型公司承接。",
+            "原文直接把 NVIDIA AI Clouds 定义为一套 purpose-built clouds 生态，用 NVIDIA accelerated computing、networking 和 AI software 帮助合作伙伴支撑 training、fine-tuning、inference、agentic AI、physical AI 和 sovereign AI 部署。也就是说，这不是普通 GPU 租赁，而是围绕 token 经济和工作负载效率设计的区域 AI 工厂。",
+            "文章称该生态已随着非洲的 Cassava 和南美的 Claro 加入而到达六大洲，并点名 CoreWeave、Firmus、IREN、Nebius、Nscale、Firebird、GMI Cloud、Indosat Ooredoo Hutchison、Lambda、Naver Cloud、Sharon AI、Yotta、YTL 等伙伴，覆盖 AI labs、企业、政府、金融、电信、制造、教育和医疗等场景。",
+            "更重要的是，原文反复把 regional capacity、sovereign controls、local compliance、developer access 和 data proximity 放在一起，说明 NVIDIA 正试图用区域云和主权 AI 的叙事承接全球监管、本地化部署和低延迟推理需求。Firmus 在澳大利亚和东南亚基于可再生能源和模块化基础设施扩张 AI factory，也体现出能源与 AI 基建开始更紧地绑定。"
+          ],
+          "evidence": [
+            "原文把 NVIDIA AI Clouds 定义为为 exploding token demand 服务的 purpose-built clouds，明确覆盖 training、fine-tuning、inference、agentic AI、physical AI 和 sovereign AI。",
+            "随着 Cassava 和 Claro 加入，生态被描述为已覆盖 six continents，说明区域算力供给不再只集中在北美与欧洲。",
+            "文章列出 CoreWeave、Firmus、IREN、Nebius、Nscale 等面向前沿模型、企业 AI 和高量推理扩张的合作方，也列出 Firebird、GMI Cloud、Indosat、Lambda、Naver Cloud、Yotta、YTL 等面向本地产业与国家计划的合作方。",
+            "原文强调 enterprises、startups、nations are looking for new vendors and regional capacity，说明需求侧不只是头部云厂商，也包括希望分散供应链和满足本地监管的客户。",
+            "regional AI clouds 被写成可支持 sovereign controls 和 local compliance requirements，这对政府、金融、电信、医疗等监管敏感行业尤其关键。",
+            "Firmus 在 South Australia 和 Southeast Asia 扩张 AI factory，并强调 renewable power、advanced cooling 和 modular infrastructure，说明能源效率和供电约束开始成为 AI 云扩张的重要变量。"
+          ],
+          "business_analysis": "业务层面，这条事件说明 NVIDIA 的 AI 工厂平台有更强的地理和客户层次扩散能力。对前沿模型公司而言，这些云提供训练和大规模推理的新增容量；对企业和开发者而言，它们提供更靠近数据和用户的部署位置；对政府和监管行业而言，它们提供主权控制与本地合规。这样一来，NVIDIA 不只是依赖 hyperscaler 自建集群，而是通过区域 AI cloud partners 打开更多中间层需求。若这类伙伴能持续上量，NVIDIA 的 GPU、网络、软件和系统方案会在全球更分散的客户结构中获得更长需求尾部。",
+          "valuation_analysis": "估值/动作上，这条事件支持平台需求曲线更长，但证据强度仍弱于财报和大客户 capex。正面在于，它把 regional capacity、sovereign AI、local compliance、token economics 和 energy-efficient AI factory 连接起来，说明未来 AI 支出可能不只来自少数美国云厂商。限制在于：文章没有披露每家伙伴的装机规模、采购节奏、利用率或盈利贡献，因此不能据此直接上调收入预测。动作上继续维持核心跟踪，把区域云与主权 AI 当作新增需求验证线，而不是单独的买入触发。",
+          "verification": [
+            "跟踪这些 AI cloud partners 后续是否披露 GPU 数量、机架规模、区域上线时间、客户案例或融资计划，判断扩张是否真实落地。",
+            "观察 NVIDIA 财报或电话会是否开始单独强调 sovereign AI、regional cloud partners、telecom AI infrastructure 或 enterprise inference demand。",
+            "继续看推理需求、网络业务和系统级 attach rate 是否提升，验证区域云扩张是否带来高质量收入。",
+            "关注电力、冷却、融资与本地监管是否成为区域 AI factory 扩张瓶颈，避免把全球覆盖口径直接等同于可盈利部署。"
+          ],
+          "reviewed_at": "2026-06-04T22:55:00",
+          "review_status": "reviewed"
+        },
         {
           "title": "FY2027 Q1：收入 US$81.6b、数据中心 US$75.2b，Q2 指引 US$91.0b，AI 工厂平台逻辑继续强化",
           "source_candidate_title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
@@ -397,7 +473,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -409,7 +485,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -421,7 +497,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -433,7 +509,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -445,7 +521,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -457,7 +533,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -526,22 +602,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
-          "date": "2026-06-02",
-          "fetched_at": "20260604-141031",
-          "type": "官方候选",
-          "fact": "日期：2026-06-02；标题：NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local；原文内容：The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman an…；来源：https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260602,
-          "source_url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-          "source_excerpt": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman an…",
-          "source_body": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman and CEO Satya Nadella’s keynote via livestream from Taipei to discuss the expanded partnership: NVIDIA RTX Spark and DGX Station for Windows , NVIDIA GPU-accelerated Microsoft Fabric, NVIDIA open models on Microsoft Foundry, the NVIDIA OpenShell secure runtime in GitHub Copilot and the next generation of NVIDIA-powered AI factories. NVIDIA and Microsoft are reimagining Windows PCs for the age of AI agents. With RTX Spark laptops and small desktops, and DGX Station for Windows deskside AI supercomputers, developers can build, tune and run agents natively on Windows. RTX Spark is a new beginning, powering the world’s first Windows PCs purpose-built for personal agents, with 1 petaflop of AI performance, up to 128GB of unified memory, all-day battery life, and full AI and graphics performance unplugged. Bringing over 30 years of NVIDIA innovation, including CUDA, RTX, DLSS and TensorRT, systems arrive this fall from Microsoft Surface, ASUS, Dell, HP, Lenovo and MSI. DGX Station for Windows is the most powerful deskside AI supercomputer for building and running agents on Windows enterprise applications and workflows. Powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip with up to 748GB of coherent memory and 20 petaflops of FP4 performance, it runs frontier models of up to 1 trillion parameters for always-on enterprise agents. Systems are expected from ASUS, Dell, GIGABYTE, HP, MSI and Supermicro in Q4. Both products run NVIDIA OpenShell, a secure-by-design runtime for autonomous agents. Read more in this Microsoft blog: “ Introducing a powerful new chapter for Windows PCs, accelerated by NVIDIA RTX Spark ” Agentic AI runs on a system of models. With NVIDIA, Anthropic and OpenAI models — plus Hermes special agents — now on the hosted agents in Foundry Agent Service, enterprises can bring agentic systems to life on Azure with built-in identity and governance. Anthropic’s Claude models now run natively on NVIDIA GB300 Blackwell Ultra systems on Azure, with customer availability in the weeks ahead. NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is available this month on Foundry managed compute, alongside Nemotron 3.5 ASR for speech recognition and Nemotron 3.5 Content Safety. Developers can compose Nemotron alongside frontier and local models, optimizing cost and quality for each workflow. NVIDIA’s open model portfolio on Foundry now spans agentic, physical and scientific AI. NVIDIA Cosmos 3 , the first fully open omnimodel for physical AI, brings vision reasoning, world simulation and action generation. NVIDIA Earth-2 AI weather models are available through Microsoft Planetary Computer Pro and Foundry for enterprise forecasting and risk analysis. NVIDIA Agent Toolkit and NVIDIA NemoClaw blueprints give developers an open source platform to build production agents on Foundry. NVIDIA CUDA-X libraries including cuDF, cuOpt, AI-Q and NeMo are now accessible to agents as domain-specific skills. Learn more in this Build breakout session: “ Orchestrate Special Agents with NVIDIA Nemotron Models on Microsoft Foundry .” Data fuels agentic AI, and fast access to it is critical.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
           "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
           "date": "2026-06-01",
           "fetched_at": "20260604-141031",
@@ -569,21 +629,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
           "source_excerpt": "At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson . JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin , a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor . NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, alway…",
           "source_body": "At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson . JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin , a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor . NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, always-on assistant running right on NVIDIA Jetson. The launch coincides with the GTC Taipei Build-a-Claw event , bringing the popular hands-on event from GTC San Jose to Taiwan, one of the world’s premier global technology hubs. The release lands NemoClaw, NVIDIA’s agentic AI framework , on the production-grade Jetson stack — taking agentic AI from servers and workstations into the physical world, across robotics, inspection and industrial automation. “Agentic AI is here, and Jetson’s programmability and high performance enable developers to instantly deploy physical AI agents in production at the edge,” said Deepu Talla, vice president of robotics and edge computing at NVIDIA. “With purpose-built skills for agentic development and workflows, developers can accelerate time to market, cut total cost of ownership and deploy at scale — all on a memory-optimized platform.” Jetson is already a multi-generation platform — Orin , Thor and beyond — powering edge AI in robotics, autonomous systems, industrial inspection and medical devices. JetPack 7.2 builds on that foundation; NemoClaw extends it. Three layers ship in this release. JetPack 7.2 at the base — operating system (OS), compute, deterministic performance. A new layer of agent skills in the middle, automating developer tasks. And NemoClaw at the top. JetPack 7.2 brings major upgrades to the Jetson software foundation. Yocto-based OS support gives industrial customers a leaner, more customizable Linux foundation — important for memory-bound deployments. CUDA 13 on Jetson Orin brings the latest compute stack to existing devices. MIG plus real-time kernel on Jetson Thor lets developers reserve dedicated GPU resources for deterministic workloads, like robot perception systems that can’t pause for unrelated AI inference. Jetson AGX Orin 32GB also gets a performance boost to 241 TOPS of AI compute, up 20% above its original spec. The middle layer — agent skills — accelerates the work of building a Jetson-based system itself. Jetson agent skills now include Linux customization, memory optimization, model benchmarking and similar developer tasks. These are now available as agent-deployable skills, developed from NVIDIA documentation and design guides. The result: a task that used to take weeks resolves in days. At the top, NemoClaw deploys to Jetson with a single command. The pairing lands agentic AI on a production-grade robotics and vision AI stack, accelerating task automation for industrial systems. Developers can go further with NVIDIA Metropolis VSS blueprint skills , adding visual reasoning agents that watch, interpret and act on what they see. The Jetson platform is already in deployment across fields such as robotics, industrial automation, drones, healthcare devices, agricultural machinery, humanoid systems and more.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
-          "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-          "date": "2026-05-31",
-          "fetched_at": "20260604-141031",
-          "type": "官方候选",
-          "fact": "日期：2026-05-31；标题：NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand；原文内容：The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-…；来源：https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260531,
-          "source_url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-          "source_excerpt": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-…",
-          "source_body": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-designed with NVIDIA’s full-stack AI infrastructure to meet surging demand for AI from enterprises, startups and nations looking for new vendors and regional capacity. They combine NVIDIA accelerated computing, networking and AI software to help partners support training, fine-tuning, inference, agentic AI, physical AI and sovereign AI deployments. Specific configurations vary by partner and workload. AI cloud partners choose NVIDIA for the best economics — lowest token cost, best throughput per watt — to run frontier and open source AI. Built with NVIDIA accelerated computing, networking and AI software, these clouds bring AI factories closer to where data, developers, users and industries are, helping customers train, tune and run agentic AI applications at scale. The ecosystem spans nearly every geography, supporting regional and sovereign AI capacity for frontier model builders, enterprises, startups, software providers and national AI programs. “Every company and every country needs AI factory infrastructure to turn data into intelligence,” said Jensen Huang, founder and CEO of NVIDIA . “NVIDIA AI Clouds bring full-stack AI factories closer to the regions, industries and developers building the next generation of AI, from model training to real-time inference and AI agents that will transform how people and organizations work.” AI cloud providers, telcos, sovereign AI builders and vertically integrated infrastructure providers are building AI factories with NVIDIA to serve customers across frontier AI, enterprise AI, telecommunications, developer clouds and national AI programs. Regional growth is accelerating across Southeast Asia, Australia and the Americas, with NVIDIA AI Clouds now reaching six continents following the addition of Cassava in Africa and Claro in South America. NVIDIA AI Clouds are pairing large-scale AI factory buildouts with demand from leading AI labs, enterprises, governments and digital service providers. Partners including CoreWeave , Firmus , IREN, Nebius and Nscale are expanding AI infrastructure to support frontier model development, enterprise AI, agentic applications and high-volume inference. Across regions, NVIDIA AI Clouds are bringing AI factories closer to local industries and sovereign AI ecosystems. Partners including Firebird , GMI Cloud , I ndosat Ooredoo Hutchison , Lambda , Naver Cloud , Sharon AI , Yotta and YTL are supporting emerging AI companies, national AI initiatives, financial services, telecommunications, manufacturing, education, healthcare and developer ecosystems. For governments and regulated industries, regional AI clouds can support sovereign controls and local compliance requirements. For developers and enterprises, they can reduce friction in accessing accelerated infrastructure for AI agents, enterprise copilots, digital workers and other AI services that must run close to users and data. Firmus Technologies is expanding its AI factory footprint across South Australia and Southeast Asia, building energy-efficient infrastructure to support growing demand for large-scale training, inference and agentic AI workloads. Through Project Southgate, Firmus is developing AI factories in Tasmania, Melbourne, South Australia and New South Wales, with an emphasis on renewable power, advanced cooling and modular infrastructure that can bring capacity online faster. The company has also deployed AI infrastructure in Singapore through a partnership with ST Telemedia Global Data Centres.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
@@ -825,7 +870,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -837,7 +882,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -886,7 +931,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -898,7 +943,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -910,7 +955,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -922,7 +967,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -975,7 +1020,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -987,7 +1032,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -999,7 +1044,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1011,7 +1056,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -1023,7 +1068,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1035,7 +1080,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1056,7 +1101,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1068,7 +1113,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1080,7 +1125,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1092,7 +1137,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1104,7 +1149,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1116,7 +1161,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1137,7 +1182,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1149,7 +1194,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1161,7 +1206,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1173,7 +1218,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1185,7 +1230,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1197,7 +1242,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1339,7 +1384,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1351,7 +1396,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1363,7 +1408,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1375,7 +1420,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1387,7 +1432,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1399,7 +1444,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1436,7 +1481,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1448,7 +1493,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1460,7 +1505,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1472,7 +1517,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1484,7 +1529,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1496,7 +1541,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1508,7 +1553,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1689,7 +1734,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1701,7 +1746,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1713,7 +1758,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1725,7 +1770,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/5dfe/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [

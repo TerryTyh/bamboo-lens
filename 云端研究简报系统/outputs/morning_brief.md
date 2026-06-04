@@ -1,16 +1,59 @@
 # 竹鉴晨报 | 2026-06-05
 
-## 1. 研究池｜A 股扩池优先
+## 1. NVIDIA｜AI Cloud 生态扩到六大洲，区域云与主权 AI 正成为 NVIDIA 新的需求承接层
 
-**今天应看什么**
+**原文讲了什么**
 
-今日没有新入库正式事件。研究工作改为扩充 A 股公司池，优先补半导体设备、先进封装、AI 光模块、PCB/服务器和电力设备候选。
+这篇原文在讲 NVIDIA AI Cloud 生态如何从少数超大云厂商，扩展成覆盖六大洲的区域云、运营商云、主权 AI 云和垂直基础设施网络。文章的重点不是某一家客户签约，而是 NVIDIA 想证明 AI 工厂的建设和推理需求正在向全球分散，不再只由美国头部模型公司承接。
+
+原文直接把 NVIDIA AI Clouds 定义为一套 purpose-built clouds 生态，用 NVIDIA accelerated computing、网络业务 和 AI software 帮助合作伙伴支撑 training、fine-tuning、推理、智能体 AI、physical AI 和 sovereign AI 部署。也就是说，这不是普通 GPU 租赁，而是围绕 token 经济和工作负载效率设计的区域 AI 工厂。
+
+文章称该生态已随着非洲的 Cassava 和南美的 Claro 加入而到达六大洲，并点名 CoreWeave、Firmus、IREN、Nebius、Nscale、Firebird、GMI Cloud、Indosat Ooredoo Hutchison、Lambda、Naver Cloud、Sharon AI、Yotta、YTL 等伙伴，覆盖 AI labs、企业、政府、金融、电信、制造、教育和医疗等场景。
+
+更重要的是，原文反复把 regional capacity、sovereign controls、local compliance、developer access 和 data proximity 放在一起，说明 NVIDIA 正试图用区域云和主权 AI 的叙事承接全球监管、本地化部署和低延迟推理需求。Firmus 在澳大利亚和东南亚基于可再生能源和模块化基础设施扩张 AI factory，也体现出能源与 AI 基建开始更紧地绑定。
+
+**业务影响**
+
+业务层面，这条事件说明 NVIDIA 的 AI 工厂平台有更强的地理和客户层次扩散能力。对前沿模型公司而言，这些云提供训练和大规模推理的新增容量；对企业和开发者而言，它们提供更靠近数据和用户的部署位置；对政府和监管行业而言，它们提供主权控制与本地合规。这样一来，NVIDIA 不只是依赖 hyperscaler 自建集群，而是通过区域 AI cloud partners 打开更多中间层需求。若这类伙伴能持续上量，NVIDIA 的 GPU、网络、软件和系统方案会在全球更分散的客户结构中获得更长需求尾部。
+
+**估值/动作影响**
+
+估值/动作上，这条事件支持平台需求曲线更长，但证据强度仍弱于财报和大客户 资本开支。正面在于，它把 regional capacity、sovereign AI、local compliance、token economics 和 energy-efficient AI factory 连接起来，说明未来 AI 支出可能不只来自少数美国云厂商。限制在于：文章没有披露每家伙伴的装机规模、采购节奏、利用率或盈利贡献，因此不能据此直接上调收入预测。动作上继续维持核心跟踪，把区域云与主权 AI 当作新增需求验证线，而不是单独的买入触发。
 
 **后续观察点**
 
-- 北方华创｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证收入、毛利率、合同负债、存货和现金流。
-- 中微公司｜一页式观察卡：已完成；下一步等 2026H1/Q2 验证扣非利润、现金流、薄膜设备放量和营运资本。
-- 中际旭创/新易盛｜光模块正式对照卡：已完成；下一步等 2026H1/Q2 验证客户集中、800G/1.6T、毛利率、现金流和存货/应收。
-- 长电科技｜强 B 复核：已完成；下一步等 2026H1/Q2 验证长电微亏损、先进封装毛利率、经营现金流和 capex 回报。
+- 跟踪这些 AI cloud partners 后续是否披露 GPU 数量、机架规模、区域上线时间、客户案例或融资计划，判断扩张是否真实落地。
+- 观察 NVIDIA 财报或电话会是否开始单独强调 sovereign AI、regional cloud partners、telecom AI infrastructure 或 enterprise 推理 demand。
+- 继续看推理需求、网络业务和系统级 attach rate 是否提升，验证区域云扩张是否带来高质量收入。
+- 关注电力、冷却、融资与本地监管是否成为区域 AI factory 扩张瓶颈，避免把全球覆盖口径直接等同于可盈利部署。
 
-[原文](https://www.cninfo.com.cn/)
+[原文](https://blogs.nvidia.com/blog/ai-cloud-ecosystem/)
+
+## 2. NVIDIA｜微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈
+
+**原文讲了什么**
+
+这篇原文不是单点产品发布，而是在讲 NVIDIA 与 Microsoft 如何把智能体开发栈从 Windows 设备、本地企业机房一直连到 Azure 云端。文章把硬件、模型、运行时、数据层和开发工具放在同一个框架里，强调企业要真正部署长期运行的智能体，不能只靠模型本身。
+
+端侧与本地算力部分，文章披露 RTX Spark 笔记本和小型台式机将成为面向个人智能体的 Windows PC，给出 1 petaflop AI 算力、最高 128GB unified memory，并计划在 2026 年秋季由 Surface、ASUS、Dell、HP、Lenovo、MSI 推出。DGX Station for Windows 则定位为桌边 AI 超算，基于 GB300 Grace Blackwell Ultra Desktop Superchip，拥有最高 748GB coherent memory 和 20 petaflops FP4 算力，目标是运行 1 万亿参数级前沿模型和常驻企业智能体。
+
+云端模型与平台部分，文章称 Anthropic Claude 将在 Azure 的 GB300 Blackwell Ultra 系统上原生运行；NVIDIA Nemotron 3 Ultra、Nemotron 3.5 ASR 和 Content Safety 也会进入 Microsoft Foundry managed compute。GitHub Copilot 与 Windows 侧还会使用 NVIDIA OpenShell 作为 secure-by-design 智能体运行时。
+
+开发栈方面，NVIDIA 把 Agent Toolkit、NemoClaw blueprints、CUDA-X 库、Cosmos 3、Earth-2 天气模型等放进 Microsoft Foundry、Planetary Computer Pro 和 Microsoft Fabric 体系，意味着双方合作不只覆盖编码助手，还在往企业数据分析、科学计算、物理 AI 和行业智能体延伸。
+
+**业务影响**
+
+业务层面，这条合作同时触及三条线。第一条是 Windows AI PC 和 deskside AI supercomputer，把 NVIDIA 算力从数据中心向个人开发者和企业本地部署扩散。第二条是 Azure/Foundry 上的模型与推理栈，让 NVIDIA 在企业实际购买的云端 AI 工作流里保持较深嵌入，而不是只做底层芯片供应商。第三条是 OpenShell、Agent Toolkit、NemoClaw 和 CUDA-X 技能进入企业开发平台，说明 NVIDIA 试图把价值延伸到智能体运行时、安全和行业化工具链。若企业智能体从演示阶段走向长期运行，这种端到云一体化会提高 NVIDIA 平台的黏性和 attach rate。
+
+**估值/动作影响**
+
+估值和动作上，这条事件支持平台溢价，但还不足以单独上调盈利预测。正面在于：合作对象是 Microsoft，覆盖 Windows、GitHub、Azure、Foundry、Fabric 等高分发入口，而且文章给出了具体硬件规格、模型栈和运行时位置，说明合作深度高于普通生态站台。限制在于：没有披露订单金额、付费用户数、GPU 消耗规模或软件附加收入，因此更像中期平台化证据，而不是短期财务催化。动作上维持 A 池核心，后续重点验证企业智能体是否真的带来可观的推理需求和软件 attach。
+
+**后续观察点**
+
+- 跟踪 RTX Spark 和 DGX Station for Windows 的实际上市时间、渠道价格、客户采用和企业案例，判断端侧与本地部署是否形成真实需求。
+- 观察 Azure GB300 / Blackwell Ultra、Foundry 上 Nemotron 与 OpenShell 的商业化口径，尤其是客户数量、推理负载和收费模式。
+- 继续看 NVIDIA 财报中数据中心推理需求、软件/服务 attach rate 和企业客户结构变化，验证这类生态合作能否转化为收入。
+- 关注 Microsoft 自研 ASIC、多模型路线和 OpenAI/Anthropic 等伙伴关系，判断 NVIDIA 在微软生态中的长期议价力是否稳固。
+
+[原文](https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/)
