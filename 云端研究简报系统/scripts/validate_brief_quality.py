@@ -164,6 +164,11 @@ PROCESS_PATTERNS = (
     "今天应看什么",
     "今日研究成果",
     "研究成果｜",
+    "今日待读候选",
+    "今日没有新的可读内容",
+    "已抓到原文链接",
+    "尚未抓到可引用",
+    "等读完原文",
     "观察卡已完成",
     "强 B 复核：已完成",
     "已完成；下一步",
@@ -228,8 +233,7 @@ def main() -> int:
     if len(normalize(body)) < 160:
         errors.append("brief body is too short")
     if "今日没有新的可读内容" in text or "今天没有新增值得直接推送" in text:
-        if "今日待读候选" not in text:
-            errors.append("empty/no-news brief should not be sent")
+        errors.append("empty/no-news brief should not be sent")
     if "等待夜间智能沉淀" in text:
         errors.append("process placeholder leaked into brief")
     if any(pattern in text for pattern in PROCESS_PATTERNS):
