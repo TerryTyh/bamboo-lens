@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T14:13:44",
+  "generated_at": "2026-06-05T14:28:39",
   "companies": {
     "nvidia": [
       {
@@ -126,6 +126,22 @@
         "source_excerpt": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-…",
         "source_body": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-designed with NVIDIA’s full-stack AI infrastructure to meet surging demand for AI from enterprises, startups and nations looking for new vendors and regional capacity. They combine NVIDIA accelerated computing, networking and AI software to help partners support training, fine-tuning, inference, agentic AI, physical AI and sovereign AI deployments. Specific configurations vary by partner and workload. AI cloud partners choose NVIDIA for the best economics — lowest token cost, best throughput per watt — to run frontier and open source AI. Built with NVIDIA accelerated computing, networking and AI software, these clouds bring AI factories closer to where data, developers, users and industries are, helping customers train, tune and run agentic AI applications at scale. The ecosystem spans nearly every geography, supporting regional and sovereign AI capacity for frontier model builders, enterprises, startups, software providers and national AI programs. “Every company and every country needs AI factory infrastructure to turn data into intelligence,” said Jensen Huang, founder and CEO of NVIDIA . “NVIDIA AI Clouds bring full-stack AI factories closer to the regions, industries and developers building the next generation of AI, from model training to real-time inference and AI agents that will transform how people and organizations work.” AI cloud providers, telcos, sovereign AI builders and vertically integrated infrastructure providers are building AI factories with NVIDIA to serve customers across frontier AI, enterprise AI, telecommunications, developer clouds and national AI programs. Regional growth is accelerating across Southeast Asia, Australia and the Americas, with NVIDIA AI Clouds now reaching six continents following the addition of Cassava in Africa and Claro in South America. NVIDIA AI Clouds are pairing large-scale AI factory buildouts with demand from leading AI labs, enterprises, governments and digital service providers. Partners including CoreWeave , Firmus , IREN, Nebius and Nscale are expanding AI infrastructure to support frontier model development, enterprise AI, agentic applications and high-volume inference. Across regions, NVIDIA AI Clouds are bringing AI factories closer to local industries and sovereign AI ecosystems. Partners including Firebird , GMI Cloud , I ndosat Ooredoo Hutchison , Lambda , Naver Cloud , Sharon AI , Yotta and YTL are supporting emerging AI companies, national AI initiatives, financial services, telecommunications, manufacturing, education, healthcare and developer ecosystems. For governments and regulated industries, regional AI clouds can support sovereign controls and local compliance requirements. For developers and enterprises, they can reduce friction in accessing accelerated infrastructure for AI agents, enterprise copilots, digital workers and other AI services that must run close to users and data. Firmus Technologies is expanding its AI factory footprint across South Australia and Southeast Asia, building energy-efficient infrastructure to support growing demand for large-scale training, inference and agentic AI workloads. Through Project Southgate, Firmus is developing AI factories in Tasmania, Melbourne, South Australia and New South Wales, with an emphasis on renewable power, advanced cooling and modular infrastructure that can bring capacity online faster. The company has also deployed AI infrastructure in Singapore through a partnership with ST Telemedia Global Data Centres.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
+      },
+      {
+        "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+        "date": "2026-06-04",
+        "fetched_at": "20260605-142528",
+        "type": "官方候选",
+        "fact": "日期：2026-06-04；标题：Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI；原文内容：Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. To shouts of “Welcome to Korea” from the 1,000 plus people gathered outside on a Friday night, NVIDIA founder and CEO Je…；来源：https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260604,
+        "source_url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+        "source_excerpt": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. To shouts of “Welcome to Korea” from the 1,000 plus people gathered outside on a Friday night, NVIDIA founder and CEO Je…",
+        "source_body": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. To shouts of “Welcome to Korea” from the 1,000 plus people gathered outside on a Friday night, NVIDIA founder and CEO Jensen Huang visited Seoul’s popular Hongdae district for a sit-down with the heads of some of Korea’s leading technology companies over a meal of Korean BBQ. Huang joined SK Group chairman Chey Tae-won, LG Group chairman Koo Kwang-mo and Naver chairman Lee Hae-jin for a casual night filled with food and plenty of toasts. “ Go Korea, go SK, go LG, go Naver,” Huang said with his glass raised. Twice during the dinner, Huang stepped outside to pass out snacks to the crowds gathered hoping for a glimpse of the tech leaders inside. Fittingly, Huang and Chey handed out “ HBM Chips,” to cheers from the crowd. HBM references SK Hynix’s leading “high bandwidth memory,” but in the case of the snack, HBM stands for “honey banana mat (flavor).” Get it? On the heels of GTC Taipei at COMPUTEX, NVIDIA founder and CEO Jensen Huang touched down in Seoul Friday afternoon, greeted by fans and media as his visit got underway. A key focus of the trip, Huang said: to align the AI supply chain ahead of a busy second half of the year. “We have a very significant, very large AI infrastructure buildout — already a very successful first half,” Huang told media. “Grace Blackwell, our system, is doing very well, and Vera Rubin is in full production — so we are going to be very busy the second half [of the year].” Huang also touched on the huge potential for robotics and physical AI in Korea. “Robotics is going to be the next major sector here in Korea — this is a great opportunity for Korea to invest in AI,” he said. From memory manufacturing to robotics and gaming, Huang is off to a packed schedule with partners — but not without leaving time to enjoy some Korean fried chicken and BBQ. “It ’ s all delicious,” Huang said.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260605-142528__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
     "tsmc": [
@@ -784,6 +800,36 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "一季度报告",
+        "date": "20260605-1",
+        "fetched_at": "20260605-142528",
+        "type": "官方候选",
+        "fact": "日期：20260605-1；标题：一季度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260605,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260605-142528__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "三季度报告",
+        "date": "20260605-1",
+        "fetched_at": "20260605-142528",
+        "type": "官方候选",
+        "fact": "日期：20260605-1；标题：三季度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260605,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260605-142528__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
       }
     ],
     "shennan": [
@@ -1163,6 +1209,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260604-141031__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+      },
+      {
+        "title": "沪电股份：2026年6月5日投资者关系活动记录表",
+        "date": "2026-6-5",
+        "fetched_at": "20260605-142528",
+        "type": "官方候选",
+        "fact": "日期：2026-6-5；标题：沪电股份：2026年6月5日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260605,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260605-142528__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
       }
     ],
     "fii": [

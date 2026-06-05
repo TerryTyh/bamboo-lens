@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T22:37:46+08:00",
+  "generated_at": "2026-06-05T22:30:50+08:00",
   "status": "watch",
   "status_label": "需观察",
   "summary_notes": [
@@ -44,63 +44,63 @@
       {
         "name": "official_candidates",
         "path": "云端研究简报系统/outputs/official_candidates.json",
-        "timestamp": "2026-06-04T14:13:44+08:00",
-        "ageHours": 8.4,
+        "timestamp": "2026-06-05T14:28:39+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "event_store",
         "path": "云端研究简报系统/outputs/event_store.json",
-        "timestamp": "2026-06-04T22:37:46+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-06-05T14:30:43+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "decision_queue",
         "path": "云端研究简报系统/outputs/decision_queue.json",
-        "timestamp": "2026-06-04T22:37:46+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-06-05T14:30:43+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "company_page_overrides",
         "path": "云端研究简报系统/outputs/company_page_overrides.json",
-        "timestamp": "2026-06-04T22:37:46+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-06-05T14:30:43+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "readability_audit",
         "path": "云端研究简报系统/outputs/company_page_readability_audit.json",
-        "timestamp": "2026-06-04T22:37:46+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-06-05T14:30:43+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "mainline_audit",
         "path": "云端研究简报系统/outputs/company_page_mainline_audit.json",
-        "timestamp": "2026-06-04T22:37:46+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-06-05T14:30:44+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "market_snapshot",
         "path": "云端研究简报系统/outputs/market_snapshot.json",
-        "timestamp": "2026-06-04T22:16:18+08:00",
-        "ageHours": 0.4,
+        "timestamp": "2026-06-05T22:30:49+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "daily_brief",
         "path": "云端研究简报系统/outputs/daily_brief.md",
-        "timestamp": "2026-06-04T00:00:00+08:00",
-        "ageHours": 22.6,
+        "timestamp": "2026-06-05T00:00:00+08:00",
+        "ageHours": 22.5,
         "status": "healthy"
       },
       {
         "name": "morning_brief",
         "path": "云端研究简报系统/outputs/morning_brief.md",
-        "timestamp": "2026-06-05T00:00:00+08:00",
+        "timestamp": "2026-06-06T00:00:00+08:00",
         "ageHours": 0.0,
         "status": "healthy"
       }
@@ -110,7 +110,7 @@
   },
   "brief_guard": {
     "status": "watch",
-    "today": "2026-06-04",
+    "today": "2026-06-05",
     "morningSameDay": false,
     "morningMeaningful": false,
     "dailySameDay": true,
