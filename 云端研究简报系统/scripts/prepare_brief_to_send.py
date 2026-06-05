@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import sys
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -20,8 +21,60 @@ EMPTY_DAILY_MARKERS = (
     "今天没有新增值得直接推送的已判断研究事件",
 )
 
+TRACKED_COMPANY_NAMES = (
+    "NVIDIA",
+    "TSMC",
+    "Microsoft",
+    "阿里巴巴",
+    "汇川技术",
+    "GE Vernova",
+    "立讯精密",
+    "Constellation Energy",
+    "长电科技",
+    "北方华创",
+    "中微公司",
+    "中际旭创",
+    "新易盛",
+    "深南电路",
+    "沪电股份",
+    "工业富联",
+)
+
+PROCESS_PATTERNS = (
+    "研究池｜候选深读待办",
+    "研究池｜A 股扩池优先",
+    "今天应看什么",
+    "今日研究成果",
+    "研究成果｜",
+    "观察卡已完成",
+    "强 B 复核：已完成",
+    "已完成；下一步",
+    "候选池深读",
+    "自动化健康",
+    "系统层",
+)
+
+NVIDIA_HARD_EVENT_TERMS = (
+    "财报",
+    "业绩",
+    "收入",
+    "指引",
+    "订单",
+    "客户",
+    "capex",
+    "capital expenditure",
+    "financial results",
+    "earnings",
+    "revenue",
+    "guidance",
+    "contract",
+)
+
 
 def today_cn() -> str:
+    override = os.environ.get("BRIEF_TODAY", "").strip()
+    if override:
+        return override
     return datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
 
 
@@ -36,6 +89,8 @@ def has_same_day_header(text: str, today: str) -> bool:
 
 
 def is_empty_daily(text: str) -> bool:
+    if "今日待读候选" in text and is_external_company_brief(text):
+        return False
     return any(marker in text for marker in EMPTY_DAILY_MARKERS)
 
 
@@ -47,7 +102,45 @@ def is_meaningful_morning(text: str) -> bool:
     body = "\n".join(lines[1:]).strip()
     if len(body) < 80:
         return False
-    return "## " in body or "**原文讲了什么**" in body
+    return ("## " in body or "**原文讲了什么**" in body) and is_external_company_brief(text)
+
+
+def section_headings(text: str) -> list[str]:
+    return [line.strip() for line in text.splitlines() if line.strip().startswith("## ")]
+
+
+def brief_main_body(text: str) -> str:
+    return text.split("明日重点", 1)[0]
+
+
+def company_names_in_main_body(text: str) -> set[str]:
+    body = brief_main_body(text)
+    return {name for name in TRACKED_COMPANY_NAMES if name in body}
+
+
+def is_nvidia_only_soft_brief(text: str) -> bool:
+    headings = section_headings(text)
+    if headings and all(re.match(r"##\s+\d+\.\s+NVIDIA｜", heading) for heading in headings):
+        signal_text = " ".join(headings).lower()
+        return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
+    names = company_names_in_main_body(text)
+    if names != {"NVIDIA"}:
+        return False
+    signal_text = " ".join(headings) if headings else brief_main_body(text)
+    signal_text = signal_text.lower()
+    return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
+
+
+def is_external_company_brief(text: str) -> bool:
+    if any(pattern in text for pattern in PROCESS_PATTERNS):
+        return False
+    if "[原文](" not in text and "[打开原文](" not in text:
+        return False
+    if not any(name in text for name in TRACKED_COMPANY_NAMES):
+        return False
+    if is_nvidia_only_soft_brief(text):
+        return False
+    return True
 
 
 def set_send_output(value: bool) -> None:
@@ -86,13 +179,19 @@ def main() -> int:
 
     if morning and has_same_day_header(morning, today):
         print(
-            "Same-day morning_brief.md exists but has no meaningful body; "
+            "Same-day morning_brief.md exists but does not pass external-company gates; "
             "falling back to daily_brief.md.",
         )
 
-    if daily and not is_empty_daily(daily):
+    if daily and has_same_day_header(daily, today) and not is_empty_daily(daily) and is_external_company_brief(daily):
         write_choice("non-empty daily_brief.md", daily)
         return 0
+
+    if daily and not has_same_day_header(daily, today):
+        print("daily_brief.md exists but is not same-day.")
+
+    if daily and has_same_day_header(daily, today) and not is_empty_daily(daily):
+        print("Non-empty daily_brief.md exists but does not pass external-company gates.")
 
     if morning and not has_same_day_header(morning, today):
         return skip_send(

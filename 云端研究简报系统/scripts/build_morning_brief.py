@@ -16,6 +16,36 @@ REVIEWED_EVENTS_FILE = OUTPUT_DIR / "reviewed_events.json"
 REVIEW_DRAFT_INDEX_FILE = OUTPUT_DIR / "review_draft_index.json"
 MORNING_BRIEF_FILE = OUTPUT_DIR / "morning_brief.md"
 
+PROCESS_PATTERNS = (
+    "研究池｜候选深读待办",
+    "研究池｜A 股扩池优先",
+    "今天应看什么",
+    "今日研究成果",
+    "研究成果｜",
+    "观察卡已完成",
+    "强 B 复核：已完成",
+    "已完成；下一步",
+    "候选池深读",
+    "自动化健康",
+    "系统层",
+)
+
+NVIDIA_HARD_EVENT_TERMS = (
+    "财报",
+    "业绩",
+    "收入",
+    "指引",
+    "订单",
+    "客户",
+    "capex",
+    "capital expenditure",
+    "financial results",
+    "earnings",
+    "revenue",
+    "guidance",
+    "contract",
+)
+
 
 def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
@@ -156,8 +186,39 @@ def company_name(company_id: str) -> str:
         "naura": "北方华创",
         "amec": "中微公司",
         "innolight": "中际旭创",
+        "eoptolink": "新易盛",
+        "shennan": "深南电路",
+        "wus": "沪电股份",
+        "fii": "工业富联",
     }
     return names.get(company_id, company_id)
+
+
+def event_text(item: dict) -> str:
+    fields = [
+        item.get("title", ""),
+        item.get("source_candidate_title", ""),
+        item.get("type", ""),
+        item.get("fact", ""),
+        item.get("judgment", ""),
+        item.get("business_analysis", ""),
+        item.get("valuation_analysis", ""),
+        " ".join(item.get("source_summary") or []),
+    ]
+    return normalize(" ".join(fields))
+
+
+def is_external_company_event(item: dict) -> bool:
+    text = event_text(item)
+    if any(pattern in text for pattern in PROCESS_PATTERNS):
+        return False
+    if not normalize(item.get("source_url", "")):
+        return False
+    if item.get("company_id") == "nvidia":
+        title = normalize(item.get("title", "") + " " + item.get("source_candidate_title", "")).lower()
+        if not any(term.lower() in title for term in NVIDIA_HARD_EVENT_TERMS):
+            return False
+    return True
 
 
 def render_item(index: int, item: dict) -> str:
@@ -210,6 +271,7 @@ def main() -> None:
         item
         for item in events
         if item.get("reviewed_at_dt") and item["reviewed_at_dt"] >= window_start
+        and is_external_company_event(item)
     ]
     selected.sort(key=lambda row: (row.get("reviewed_at_dt") or datetime.min), reverse=True)
     selected = selected[:5]

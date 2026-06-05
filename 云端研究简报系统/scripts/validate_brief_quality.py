@@ -139,6 +139,81 @@ ALLOWED_ASCII_WORDS = {
     "x86",
 }
 
+TRACKED_COMPANY_NAMES = (
+    "NVIDIA",
+    "TSMC",
+    "Microsoft",
+    "阿里巴巴",
+    "汇川技术",
+    "GE Vernova",
+    "立讯精密",
+    "Constellation Energy",
+    "长电科技",
+    "北方华创",
+    "中微公司",
+    "中际旭创",
+    "新易盛",
+    "深南电路",
+    "沪电股份",
+    "工业富联",
+)
+
+PROCESS_PATTERNS = (
+    "研究池｜候选深读待办",
+    "研究池｜A 股扩池优先",
+    "今天应看什么",
+    "今日研究成果",
+    "研究成果｜",
+    "观察卡已完成",
+    "强 B 复核：已完成",
+    "已完成；下一步",
+    "候选池深读",
+    "自动化健康",
+    "系统层",
+)
+
+NVIDIA_HARD_EVENT_TERMS = (
+    "财报",
+    "业绩",
+    "收入",
+    "指引",
+    "订单",
+    "客户",
+    "capex",
+    "capital expenditure",
+    "financial results",
+    "earnings",
+    "revenue",
+    "guidance",
+    "contract",
+)
+
+
+def section_headings(text: str) -> list[str]:
+    return [line.strip() for line in text.splitlines() if line.strip().startswith("## ")]
+
+
+def brief_main_body(text: str) -> str:
+    return text.split("明日重点", 1)[0]
+
+
+def company_names_in_main_body(text: str) -> set[str]:
+    body = brief_main_body(text)
+    return {name for name in TRACKED_COMPANY_NAMES if name in body}
+
+
+def is_nvidia_only_soft_brief(text: str) -> bool:
+    headings = section_headings(text)
+    if headings and all(re.match(r"##\s+\d+\.\s+NVIDIA｜", heading) for heading in headings):
+        signal_text = " ".join(headings).lower()
+        return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
+    names = company_names_in_main_body(text)
+    if names != {"NVIDIA"}:
+        return False
+    signal_text = " ".join(headings) if headings else brief_main_body(text)
+    signal_text = signal_text.lower()
+    return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
+
 
 def main() -> int:
     if len(sys.argv) != 2:
@@ -153,11 +228,18 @@ def main() -> int:
     if len(normalize(body)) < 160:
         errors.append("brief body is too short")
     if "今日没有新的可读内容" in text or "今天没有新增值得直接推送" in text:
-        errors.append("empty/no-news brief should not be sent")
-    if "等待夜间智能沉淀" in text or "已抓到原文链接" in text:
+        if "今日待读候选" not in text:
+            errors.append("empty/no-news brief should not be sent")
+    if "等待夜间智能沉淀" in text:
         errors.append("process placeholder leaked into brief")
+    if any(pattern in text for pattern in PROCESS_PATTERNS):
+        errors.append("internal research progress leaked into brief")
     if "[原文](" not in text and "[打开原文](" not in text:
         errors.append("brief lacks clickable source links")
+    if not any(name in text for name in TRACKED_COMPANY_NAMES):
+        errors.append("brief lacks tracked company names")
+    if is_nvidia_only_soft_brief(text):
+        errors.append("NVIDIA-only soft ecosystem brief should not be the default sendable brief")
     if "｜" not in text and "今日关键变化" not in text:
         errors.append("brief lacks readable summary sections")
 
