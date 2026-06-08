@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-08T22:37:19",
+  "generated_at": "2026-06-08T15:33:25",
   "summary": {
     "total": 14,
-    "companies": 5,
+    "companies": 6,
     "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -29,6 +29,34 @@
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
       "portal_doc": "./docs/review-drafts/auto-eoptolink-业绩预告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "nvidia::sk telecom and nvidia build ai infrastructure to power korea’s ai innovation": {
+      "draft_id": "auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
+      "date": "2026-06-07",
+      "score": 10,
+      "readiness_score": 13,
+      "investment_signal_score": 3,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.nvidia.com/news/sk-telecom-ai-infrastructure",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -373,34 +401,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "wus::沪电股份：2026年5月27日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年5月27日投资者关系活动记录表",
-      "date": "2026-5-27",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -546,6 +546,36 @@
         }
       }
     ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
+        "date": "2026-06-07",
+        "score": 10,
+        "readiness_score": 13,
+        "investment_signal_score": 3,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/sk-telecom-ai-infrastructure",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "innolight": [
       {
         "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
@@ -680,34 +710,6 @@
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
         "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年5月27日投资者关系活动记录表",
-        "date": "2026-5-27",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1171,14 +1173,14 @@
       }
     },
     {
-      "draft_id": "auto-wus-沪电股份-2026年5月27日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年5月27日投资者关系活动记录表",
-      "date": "2026-5-27",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
+      "draft_id": "auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
+      "date": "2026-06-07",
+      "score": 10,
+      "readiness_score": 13,
+      "investment_signal_score": 3,
       "readiness_lane": "needs_source",
       "readiness_label": "待补正文",
       "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
@@ -1186,8 +1188,8 @@
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年5月27日投资者关系活动记录表.md",
+      "source_url": "https://investor.nvidia.com/news/sk-telecom-ai-infrastructure",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-sk-telecom-and-nvidia-build-ai-infrastructure-to-power-korea-s-ai-innovation.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
