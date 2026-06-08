@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-06-05T14:30:43",
+  "generated_at": "2026-06-08T22:37:19",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -43,6 +43,78 @@ window.BAMBOO_LENS_EVENT_STORE = {
             "关注 Microsoft 自研 ASIC、多模型路线和 OpenAI/Anthropic 等伙伴关系，判断 NVIDIA 在微软生态中的长期议价力是否稳固。"
           ],
           "reviewed_at": "2026-06-04T22:50:00",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "NemoClaw 切入 EDA/CAE 工作流，NVIDIA 开始把工业软件智能体推向生产级落地",
+          "source_candidate_title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+          "date": "2026-06-02",
+          "fetched_at": "",
+          "type": "生态合作 / 工业软件智能体",
+          "fact": "2026-06-02，NVIDIA 在 GTC Taipei / COMPUTEX 期间披露 NemoClaw 工业软件智能体蓝图，明确把其定位为面向 CAE 和 EDA 的生产级自治智能体框架。文章不仅给出 OpenShell 安全运行时、模型路由和 NeMo 定制能力等基础组件，还点名 Cadence、Dassault Systèmes、Siemens、Synopsys 等厂商正在把 NemoClaw 接入设计、验证、仿真和制造工作流，显示该能力已从概念演示进入行业软件集成阶段。",
+          "judgment": "这条事件的价值不在于又多了一个 AI 蓝图，而在于 NVIDIA 正把工业软件里的高价值工作流变成依赖其运行时、模型和算力的自治执行层。它标志着 NVIDIA 的平台外延从训练/推理硬件继续伸向 EDA、CAE 这类客户切换成本高、验证周期长、愿意为效率买单的专业软件场景。没有改变的是，这仍属于早期平台渗透证据，而不是已经兑现到财报的收入催化。",
+          "action": "维持 A 池核心；把工业软件智能体的企业落地与软件附加率列为下一阶段验证点",
+          "priority": "P2",
+          "sort_key": 20260602,
+          "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "原文不是单纯介绍一个开源蓝图，而是在解释 NVIDIA 如何把工业工程里原本分散在 CAD、网格划分、仿真设定、调试、后处理和报告生成之间的工作流，改造成可长期运行的自治智能体。文章把 NemoClaw 定义为构建这类专用智能体的开放蓝图，核心包括模型路由、NeMo 定制能力，以及负责文件、网络与工具访问控制的 OpenShell 安全运行时。",
+            "更关键的是，文章列举了多家头部工业软件厂商已经把 NemoClaw 接进真实工作流。Cadence 正在做面向寄存器传输级设计验证的自治工程智能体，目标是把验证时间从数周压缩到数小时；Dassault Systèmes 正在把覆盖设计、仿真和制造运营的长期运行智能体平台产品化；Siemens 把 NemoClaw 和 OpenShell 接入其半导体、三维集成电路与 PCB 设计工作流；Synopsys 也在推进端到端工程流程，并展示了借助智能体做 GPU 散热仿真优化。",
+            "部署层面，原文强调这套栈既能从 DGX Spark 个人 AI 超算起步，也能扩展到企业数据中心和云服务商，说明 NVIDIA 想卖的不只是训练硬件，而是把运行时、安全、行业工具链和算力平台一起打包进工业软件智能体。"
+          ],
+          "evidence": [
+            "原文称已有十多家工程软件提供商围绕 NemoClaw 展示自治 AI engineer，覆盖汽车、航空航天、半导体和制造业。",
+            "Cadence 正在构建基于 NemoClaw 的 autonomous RTL engineer，用于调度 ChipStack 做设计与验证，文中明确写到 RTL verification 的关键环节可从数周压缩到数小时。",
+            "Dassault Systèmes 正在把 3DEXPERIENCE Agentic Platform 产品化，用于设计、仿真和制造运营中的长期运行智能体，并以 NemoClaw + OpenShell 作为安全执行环境。",
+            "Siemens 将 NemoClaw 和 OpenShell 接入 Fuse EDA AI Agent，场景覆盖半导体、3D 集成电路和 PCB 系统设计；Synopsys 也在合作推进端到端工程工作流，COMPUTEX 现场展示了 Ansys Icepak 参与 GPU 散热优化。",
+            "NemoClaw 可从 DGX Spark 个人 AI 超算部署，也可扩展到企业数据中心和云服务商，OpenShell 负责按策略控制文件、网络和工具访问，说明 NVIDIA 试图把算力、运行时和行业工具链一起嵌入客户流程。"
+          ],
+          "business_analysis": "业务上，这条进展同时强化了三层护城河。第一层是算力需求，仿真、验证和优化天然会消耗更多 GPU 计算。第二层是运行时与安全层，OpenShell 进入企业工程流程后，NVIDIA 不再只是底层芯片商，而是在控制智能体如何安全调度工具和数据。第三层是行业生态层，Cadence、Siemens、Synopsys、Dassault 这些厂商一旦把 NemoClaw 深嵌到工作流，NVIDIA 在工业软件链条里的地位会更接近平台合作方，而不是可替换部件供应商。",
+          "valuation_analysis": "估值和动作上，这条事件支持继续给予 NVIDIA 较高的平台溢价，因为它把市场对公司的预期从 AI 训练基础设施扩展到工业软件智能体执行层。正面在于合作方规格高、场景贴近半导体和制造等高客单价领域，且文章给出了具体产品化动作而非泛泛生态站台。限制在于尚无订单金额、付费席位数、软件分成或新增 GPU 消耗披露，因此不足以单独上调近期盈利预测。动作上维持 A 池核心，后续重点验证这类工业软件智能体是否带来可量化的软件附加收入和推理需求。",
+          "verification": [
+            "跟踪 Cadence、Siemens、Synopsys、Dassault 后续产品发布和客户案例，确认 NemoClaw 是否从展示样机变成正式商业模块。",
+            "观察 NVIDIA 财报或管理层口径是否开始披露工业软件、企业智能体、软件 attach rate 或推理工作负载的新增贡献。",
+            "检查 DGX Spark、企业数据中心和云端部署在这类场景中的实际落地路径，判断客户是试点验证还是开始规模采购。",
+            "持续对比 Cadence、Synopsys、Siemens 自研智能体路线，评估 NVIDIA 在运行时与行业执行层的长期议价力。"
+          ],
+          "reviewed_at": "2026-06-08T22:45:00",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "金融机构转向交易基础模型，NVIDIA 以 Hopper + Nemotron 切入高价值金融 AI 栈",
+          "source_candidate_title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+          "date": "2026-06-01",
+          "fetched_at": "",
+          "type": "行业采用 / 金融 AI",
+          "fact": "2026-06-01，NVIDIA 发布金融行业交易基础模型案例，核心是把金融 AI 从多条线分散的小模型体系，推进到基于专有交易数据训练的统一 transformer 架构。文章既给出行业层面的 AI 渗透率与支出趋势，也给出 Revolut 采用 Hopper GPU、cuDF、Nemotron 和 Nebius 云训练 PRAGMA 的具体案例，说明 NVIDIA 正在把自身硬件、数据处理库和模型栈一起嵌入金融机构的高价值 AI 工作流。",
+          "judgment": "这条事件说明 NVIDIA 的企业 AI 主线正在从通用云和开发者生态，继续深入到金融这种预算高、数据壁垒强、推理价值密度高的垂直行业。比起普通行业白皮书，这篇文章的意义在于它给出了采用度数据、真实客户规模、训练样本规模和技术栈落点，证明 NVIDIA 正在把 Hopper、数据处理库和开放模型打包成行业解决方案。没有改变的是，文章仍缺少直接收入拆分和客户采购金额，因此更像中期企业渗透证据，而非短期财务催化。",
+          "action": "维持 A 池核心；把金融垂直场景的推理负载与软件附加收入列为重点验证方向",
+          "priority": "P2",
+          "sort_key": 20260601,
+          "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "原文先讲金融行业为什么正在从大量分散的欺诈、信用、推荐和风控小模型，转向统一的交易基础模型。核心论点是：传统按条线构建的模型体系虽然可用，但因为数据和模型彼此孤立，难以形成对客户行为的统一理解；而基于 transformer 的交易基础模型能够在支付、转账、产品交互和行为信号上学习统一表示，把原来各自为战的信用、反欺诈和推荐任务连起来。",
+            "文章给出行业采用度数据：NVIDIA 2026 年金融服务 AI 调查显示，65% 的金融机构已经在用 AI，接近 90% 处于部署或评估阶段，而且几乎所有机构都在维持或提高 AI 支出。随后它用 Revolut 与 NVIDIA 的合作案例说明这种架构不是概念验证，而是能在真实业务上跑起来。",
+            "案例部分最有价值：Revolut 构建的 PRAGMA 交易基础模型基于 240 亿条事件、2600 万用户记录和 100 多个国家的数据，在 Nebius 云上借助 Hopper GPU、cuDF 和 Nemotron 开放模型训练后，单一基础模型在信用评分、欺诈识别和产品推荐等任务上优于强任务专用模型，并显著减少了手工特征工程。文章最后还把这套方法沉淀成可复用的开发示例，试图把金融机构采用门槛进一步压低。"
+          ],
+          "evidence": [
+            "NVIDIA 2026 年金融服务 AI 调查显示，65% 的金融机构已经使用 AI，接近 90% 正在部署或评估 AI，且几乎所有机构都维持或增加相关支出。",
+            "原文将 transaction foundation model 定义为用支付、转账、产品交互和行为信号等数十亿金融事件训练的统一大模型，用一个表示层覆盖信用、欺诈、推荐等多个任务。",
+            "Revolut 的 PRAGMA 模型训练于 240 亿条事件、2600 万条用户记录和 100 多个国家的数据之上，属于真实高规模金融数据场景，而不是实验室级小样本验证。",
+            "该案例使用 NVIDIA Hopper GPU、cuDF 和 Nemotron 开放模型，并运行在 Nebius 云上，说明 NVIDIA 的价值点不仅是硬件，还包括数据处理与模型软件栈。",
+            "原文明确写到单一基础模型在信用评分、欺诈检测和产品推荐上优于强任务专用模型，并把特征工程从数周甚至数月缩短到几乎不再需要手工处理。"
+          ],
+          "business_analysis": "业务层面，金融机构若从零散模型切向统一交易基础模型，会同步拉动训练、推理、特征处理和模型治理需求，这正好对应 NVIDIA 的 GPU、cuDF、Nemotron 和行业参考架构。金融客户的特点是数据敏感、验证周期长、单客户价值高，一旦架构定型，迁移成本通常高于普通互联网场景。若 NVIDIA 能把这类方案从示范案例扩展成标准化部署模板，公司在企业 AI 中的角色就会从 GPU 供应商进一步升级为行业解决方案提供方。",
+          "valuation_analysis": "估值和动作上，这条事件增强了对 NVIDIA 企业垂直渗透能力的信心，因为它把 AI 投资逻辑从云厂商资本开支，延伸到银行、支付和消费金融等更分散但高利润的客户池。正面在于原文给出了清晰的行业渗透率、客户案例和完整技术栈，说明企业采用不再停留在概念宣传。限制在于还看不到客户数扩散、合同金额和经常性软件收入，因此暂不调整短期盈利预测。动作上维持 A 池核心，但后续要更重视企业垂直场景是否开始贡献可见的推理需求和软件 attach。",
+          "verification": [
+            "跟踪 NVIDIA 后续是否披露更多金融机构、支付公司或银行的落地案例，确认 Revolut 不是孤例。",
+            "观察 Hopper、下一代 Blackwell/Rubin 以及 cuDF、Nemotron 在企业垂直场景中的收费模式和 attach rate 口径。",
+            "继续看财报中企业推理需求、软件/服务收入和客户结构变化，验证金融 AI 是否开始形成可见收入贡献。",
+            "关注金融机构对数据主权、合规和本地部署的要求，判断 NVIDIA 方案会更多落在公有云、私有云还是混合部署。"
+          ],
+          "reviewed_at": "2026-06-08T22:48:00",
           "review_status": "reviewed"
         },
         {
@@ -473,7 +545,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -485,7 +557,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -497,7 +569,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -509,7 +581,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -521,7 +593,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -533,7 +605,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -584,37 +656,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles , robots and vision AI systems . The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating behavior and rapidly iterating. Today, these steps are fragmented across separate tools, slowing the pace of experimentation as researchers struggle to piece them together. Earlier this week, NVIDIA announced NVIDIA Cosmos 3 , the open frontier model for physical AI and the world’s first full omnimodel unifying vision reasoning, world and action generation. Leading across the open model public leaderboards central to physical AI, the world foundation model provides core capabilities for physical AI development. NVIDIA physical AI skills pair with Cosmos, NVIDIA libraries and simulation frameworks to help researchers move from model capabilities to scalable end-to-end workflows faster than ever. For AV researchers, the problem is the “long tail” of driving — rare interactions, unusual road geometry, lighting changes and edge-case behaviors that are difficult to repeatedly collect, but critical for training and validation. Neural Reconstruction skill demo in OpenClaw, showing a video re-rendered from an elevated virtual sensor viewpoint. With NVIDIA autonomous vehicle skills, researchers and developers can task AI agents to automate workflows for scene reconstruction from fleet data and generate synthetic scenarios. Neural Reconstruction skills help AI agents turn fleet-captured data into editable 3D scenes for simulation and synthetic data generation, while technologies including NVIDIA Omniverse NuRec , InstantNuRec , Harmonizer and HiGS accelerated renderer help accelerate reconstruction, improve scene realism and generate new views. InstantNuRec enables fast 3D Gaussian road-scene reconstruction from images without per-scene optimization. For AV researchers, repeatable simulation helps vary conditions, compare system responses and uncover failure modes across scenarios beyond what can be captured in real-world data. NVIDIA AlpaGym , an open source closed-loop reinforcement learning framework, extends that approach by connecting policy rollouts and high-fidelity simulation with agent skills, scaling across thousands of GPUs, to help researchers move through setup, rollout and evaluation. NVIDIA OmniDreams , an action-conditioned generative world model, adds photorealistic rendering to the simulation loop, generating camera frames that respond directly to policy actions in real time. NVIDIA is also advancing AV research with its most powerful open driving foundation model to date: NVIDIA Alpamayo 2 Super , an open 32-billion-parameter reasoning vision language action (VLA) model that reasons, plans and acts across the full driving stack for safer, scalable level 4 development and deployment. For vision AI research, the bottleneck is creating enough controlled examples to study how models behave when visual conditions, object states or temporal events change. Work in zero-shot anomaly detection, synthetic anomaly generation and few-shot defect recognition all run into the same data wall.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-          "date": "2026-06-02",
-          "fetched_at": "20260604-141031",
-          "type": "官方候选",
-          "fact": "日期：2026-06-02；标题：Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw；原文内容：Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering softw…；来源：https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260602,
-          "source_url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-          "source_excerpt": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering softw…",
-          "source_body": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering software providers are showcasing how autonomous AI agents automate this entire workflow. These AI engineers are based on NVIDIA NemoClaw , an open blueprint for building specialized, long-running agents with a secure runtime and frontier models. NemoClaw includes a choice of harness — meaning it can be integrated with various orchestration frameworks enterprises use to deploy and coordinate agents, such as OpenClaw and Hermes — as well as a model router and NVIDIA NeMo libraries for customization. Users can easily deploy NemoClaw from NVIDIA DGX Spark personal AI supercomputers, as well as through enterprise data centers and cloud service providers. NVIDIA OpenShell — the open source runtime at its core — governs how each agent accesses files, networks and tools, enforcing policy-based security at every layer. Industrial software leaders are building AI engineers for computer-aided engineering (CAE) and electronic design automation (EDA) use cases across automotive, aerospace, semiconductors and manufacturing. Cadence is building an autonomous register-transfer level (RTL) engineer with NemoClaw that orchestrates Cadence Design Systems ChipStack for design and verification. The workflow was featured yesterday in a GTC Taipei keynote demo and is cutting time for RTL verification — a key step in digital circuit design — from weeks to hours. Dassault Systèmes is actively productizing the 3DEXPERIENCE Agentic Platform to operate long-running and autonomous agents for design, simulation and manufacturing operations, in a secured environment powered by NVIDIA NemoClaw and OpenShell. Siemens is integrating NVIDIA NemoClaw and OpenShell into Fuse EDA AI Agent, a purpose-built autonomous agent that plans and orchestrates domain-scoped multi-tool workflows across semiconductor, 3D integrated circuit and printed circuit board system design. Synopsys is collaborating with NVIDIA to apply agents to end-to-end engineering workflows with NVIDIA NemoClaw. Ansys Icepak, part of the Synopsys portfolio, is being demoed on the COMPUTEX show floor this week, used within a NemoClaw-based autonomous AI engineer to mesh, simulate and optimize GPU electronics cooling designs. In addition, cutting-edge startups are building AI engineers for their workflows — all using NVIDIA NemoClaw.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-          "date": "2026-06-01",
-          "fetched_at": "20260604-141031",
-          "type": "官方候选",
-          "fact": "日期：2026-06-01；标题：Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence；原文内容：Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know…；来源：https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260601,
-          "source_url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-          "source_excerpt": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know…",
-          "source_body": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know and what their AI can reason over — creating a major opportunity for the industry to build intelligence using proprietary data. NVIDIA’s 2026 State of AI in Financial Services report shows 65% of institutions now use AI, with nearly 90% deploying or assessing it and almost all maintaining or increasing spend. But as AI scales, so does complexity, and fragmented model architectures become the limiting factor. Leading firms are tackling this challenge by rethinking the architecture itself. Where the industry once relied on statistical and machine learning algorithms purpose-built for each line of business, transformer-based transaction foundation models now make it possible to learn a single, unified representation of consumer behavior trained entirely on proprietary data. Transaction foundation models are large-scale AI systems trained on billions of financial events — such as payments, transfers, product interactions and behavioral signals — that transform raw data into intelligence, helping firms better serve their customers. The shift is structural. A traditional fraud model evaluates isolated signals. A foundation model interprets behavior in context where timing, device, location and prior activity shape meaning. More importantly, it brings the power of transformer architectures to tabular data, extracting signals previously invisible to traditional algorithms. A payment at midnight means something different when it’s the fourth in 10 minutes, on an unfamiliar device, in a city the customer’s never transacted from before. That contextual depth improves performance across tasks, not just within them. In collaboration with NVIDIA, Revolut built PRAGMA — a family of transformer-based foundation models trained on 24 billion events across 26 million user records spanning over 100 countries. Powered by NVIDIA’s full AI stack — including NVIDIA Hopper GPUs , the NVIDIA cuDF library and NVIDIA Nemotron open models — running on Nebius cloud, a single foundation model outperforms strong task-specific models across domains like credit scoring, fraud detection and product recommendations while reducing reliance on handcrafted features. “We move from weeks, or even in some cases months, in feature engineering to no time required for it at all,” said Tadas Kriščiūnas, head of group credit data science at Revolut. Any institution can now adopt this approach using NVIDIA’s new Build Your Own Transaction Foundation Model developer example, which enables teams to start building transformer embeddings on tabular transaction data — integrating into existing pipelines without rebuilding from scratch. The problem isn’t today’s models, it’s the trajectory. Every new use case adds another model. Every new market needs retraining. Models that can’t share context leave value on the table. Mastercard is developing a proprietary large tabular foundation model for payments, trained on billions of anonymized transactions today and designed to scale to hundreds of billions across additional datasets including fraud, authorization, chargeback, merchant location and loyalty data.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260604-141031__investor.nvidia.com_news_press-releases_default.aspx.html"
         },
         {
           "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
@@ -886,7 +927,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -898,7 +939,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -947,7 +988,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -959,7 +1000,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -971,7 +1012,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -983,7 +1024,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1036,7 +1077,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1048,7 +1089,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -1060,7 +1101,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1072,7 +1113,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -1084,7 +1125,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1096,7 +1137,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1117,7 +1158,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1129,7 +1170,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1141,7 +1182,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1153,7 +1194,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1165,7 +1206,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1177,7 +1218,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1198,7 +1239,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1210,7 +1251,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1222,7 +1263,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1234,7 +1275,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1246,7 +1287,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1258,7 +1299,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1400,7 +1441,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1412,7 +1453,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1424,7 +1465,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1436,7 +1477,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1448,7 +1489,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1460,7 +1501,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1497,7 +1538,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1509,7 +1550,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1521,7 +1562,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1533,7 +1574,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1545,7 +1586,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1557,7 +1598,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1569,7 +1610,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1750,7 +1791,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1762,7 +1803,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1774,7 +1815,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -1786,7 +1827,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/bcc8/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [

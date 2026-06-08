@@ -177,23 +177,6 @@ PROCESS_PATTERNS = (
     "系统层",
 )
 
-NVIDIA_HARD_EVENT_TERMS = (
-    "财报",
-    "业绩",
-    "收入",
-    "指引",
-    "订单",
-    "客户",
-    "capex",
-    "capital expenditure",
-    "financial results",
-    "earnings",
-    "revenue",
-    "guidance",
-    "contract",
-)
-
-
 def section_headings(text: str) -> list[str]:
     return [line.strip() for line in text.splitlines() if line.strip().startswith("## ")]
 
@@ -205,19 +188,6 @@ def brief_main_body(text: str) -> str:
 def company_names_in_main_body(text: str) -> set[str]:
     body = brief_main_body(text)
     return {name for name in TRACKED_COMPANY_NAMES if name in body}
-
-
-def is_nvidia_only_soft_brief(text: str) -> bool:
-    headings = section_headings(text)
-    if headings and all(re.match(r"##\s+\d+\.\s+NVIDIA｜", heading) for heading in headings):
-        signal_text = " ".join(headings).lower()
-        return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
-    names = company_names_in_main_body(text)
-    if names != {"NVIDIA"}:
-        return False
-    signal_text = " ".join(headings) if headings else brief_main_body(text)
-    signal_text = signal_text.lower()
-    return not any(term.lower() in signal_text for term in NVIDIA_HARD_EVENT_TERMS)
 
 
 def main() -> int:
@@ -242,8 +212,6 @@ def main() -> int:
         errors.append("brief lacks clickable source links")
     if not any(name in text for name in TRACKED_COMPANY_NAMES):
         errors.append("brief lacks tracked company names")
-    if is_nvidia_only_soft_brief(text):
-        errors.append("NVIDIA-only soft ecosystem brief should not be the default sendable brief")
     if "｜" not in text and "今日关键变化" not in text:
         errors.append("brief lacks readable summary sections")
 

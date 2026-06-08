@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-06-05T14:30:44",
-  "source_overrides_at": "2026-06-05T14:30:43",
+  "generated_at": "2026-06-08T22:37:19",
+  "source_overrides_at": "2026-06-08T22:37:19",
   "items": [
     {
       "company": "constellation",
@@ -45,14 +45,12 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
       "updatedSections": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
-        "估值模型",
         "跟踪重点与风险"
       ],
       "sectionPresence": {
         "公司理解": 2,
-        "财务数据地图": 7,
-        "估值模型": 3
+        "财务数据地图": 0,
+        "估值模型": 0
       },
       "depositEvents": 3,
       "writebackQuality": {

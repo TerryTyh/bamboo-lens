@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-06-05T14:30:43",
-  "source_overrides_at": "2026-06-05T14:30:43",
+  "generated_at": "2026-06-08T22:37:19",
+  "source_overrides_at": "2026-06-08T22:37:19",
   "items": [
     {
       "company": "constellation",
@@ -33,24 +33,20 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
       "sourceEventDate": "2026-06-02",
       "status": "healthy",
       "counts": {
-        "finance_rows": 3,
-        "finance_bridge": 3,
-        "finance_notes": 1,
+        "finance_rows": 0,
+        "finance_bridge": 0,
+        "finance_notes": 0,
         "business_segments": 1,
         "business_moat": 1,
-        "valuation_current": 1,
-        "valuation_scenarios": 1,
-        "valuation_triggers": 1
+        "valuation_current": 0,
+        "valuation_scenarios": 0,
+        "valuation_triggers": 0
       },
-      "totalAutoItems": 12,
-      "omitted": {
-        "valuationModel.scenarios": 1
-      },
+      "totalAutoItems": 2,
+      "omitted": {},
       "longTextSamples": [],
       "warnings": [],
-      "suggestions": [
-        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
-      ]
+      "suggestions": []
     },
     {
       "company": "tsmc",

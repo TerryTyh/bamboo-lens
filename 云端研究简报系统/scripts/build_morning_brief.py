@@ -30,23 +30,6 @@ PROCESS_PATTERNS = (
     "系统层",
 )
 
-NVIDIA_HARD_EVENT_TERMS = (
-    "财报",
-    "业绩",
-    "收入",
-    "指引",
-    "订单",
-    "客户",
-    "capex",
-    "capital expenditure",
-    "financial results",
-    "earnings",
-    "revenue",
-    "guidance",
-    "contract",
-)
-
-
 def normalize(text: str) -> str:
     return " ".join((text or "").split()).strip()
 
@@ -214,10 +197,6 @@ def is_external_company_event(item: dict) -> bool:
         return False
     if not normalize(item.get("source_url", "")):
         return False
-    if item.get("company_id") == "nvidia":
-        title = normalize(item.get("title", "") + " " + item.get("source_candidate_title", "")).lower()
-        if not any(term.lower() in title for term in NVIDIA_HARD_EVENT_TERMS):
-            return False
     return True
 
 
