@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-06-08T15:31:46",
+  "generated_at": "2026-06-09T14:28:50",
   "companies": {
     "nvidia": [
       {
