@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-06-09T14:30:29",
-  "source_overrides_at": "2026-06-09T14:30:29",
+  "generated_at": "2026-06-10T10:05:46",
+  "source_overrides_at": "2026-06-10T10:05:46",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
-      "sourceEventDate": "2026-06-02",
+      "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
+      "sourceEventDate": "2026-06-07",
       "status": "healthy",
       "counts": {
         "finance_rows": 0,
