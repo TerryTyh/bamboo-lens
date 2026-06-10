@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:28:50",
+  "generated_at": "2026-06-10T14:55:50",
   "companies": {
     "nvidia": [
       {
@@ -251,6 +251,22 @@
         "source_body": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RTX Spark-powered systems. Designed for local AI, creating and gaming, RTX Spark brings together 30 years of NVIDIA innovation to slim Windows laptops with all-day battery life and small, ultraefficient desktop PCs. With the superchip, gamers can play AAA games at 1440p resolution and over 100 frames per second with NVIDIA ray tracing, DLSS and Reflex technologies. In addition, RTX Spark supports all NVIDIA RTX technologies, including the recently announced DLSS 4.5 Ray Reconstruction , which features a second-generation transformer model for realistic image quality. Korea has played a major role in spearheading esports and driving the boom in PC bangs, or internet and gaming cafes. With longstanding collaborations rooted in the country, NVIDIA in October celebrated 25 years of GeForce in Korea with a free festival for gamers, highlighting the rich gaming ecosystem that has been built over decades. On Friday, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark. NVIDIA and Riot Games — developer of League of Legends — are collaborating to bring the title as well as VALORANT to RTX Spark, expanding gamers’ access to high-performance gaming on slim laptops. To mark the occasion, T1 Base Camp attendees had the chance to win RTX Spark laptops, League of Legends and T1 merch signed by Huang and Faker, as well as GeForce RTX 5090 GPUs. Later, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC. At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers. Gamers then got the surprise chance to play with the unreleased PUBG Ally, a co-playable character built with NVIDIA ACE technologies on RTX Spark laptops. PUBG Ally resulted from AI research and development at KRAFTON and NVIDIA, part of an initiative to create next-generation game characters that act like teammates and enable more meaningful, immersive engagements with players. Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260608-152847__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+        "date": "2026-06-09",
+        "fetched_at": "20260610-145251",
+        "type": "官方候选",
+        "fact": "日期：2026-06-09；标题：NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute；原文内容：NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…；来源：https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260609,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+        "source_excerpt": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…",
+        "source_body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key capabilities: Learn more about NVIDIA Confidential Computing and NVIDIA AI cybersecurity solutions.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
     "tsmc": [
@@ -374,6 +390,22 @@
         "source_excerpt": "TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](htt…",
         "source_body": "TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3297#)Search 5. TSMC Reports First Quarter EPS of NT$22.08 [](http://pr.tsmc.com/english/news/3297) TSMC Reports First Quarter EPS of NT$22.08 TSMC Reports First Quarter EPS of NT$22.08 *HSINCHU, Taiwan, R.O.C., Apr. 16, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,134.10 billion, net income of NT$572.48 billion, and diluted earnings per share of NT$22.08 (US$3.49 per ADR unit) for the first quarter ended March 31, 2026. Year-over-year, first quarter revenue increased 35.1%, while net income and diluted EPS both increased 58.3%. Compared to fourth quarter 2025, first quarter results represented an 8.4% increase in revenue and a 13.2% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, first quarter revenue was $35.90 billion, which increased 40.6% year-over-year and increased 6.4% from the previous quarter. Gross margin for the quarter was 66.2%, operating margin was 58.1%, and net profit margin was 50.5%. In the first quarter, shipments of 3-nanometer accounted for 25% of total wafer revenue; 5-nanometer accounted for 36%; 7-nanometer accounted for 13%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 74% of total wafer revenue. “Our business in the first quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into second quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies.” Based on the Company’s current business outlook, management expects the overall performance for second quarter 2026 to be as follows: • Revenue is expected to be between US$39.0 billion and US$40.2 billion; And, based on the exchange rate assumption of 1 US dollar to 31.7 NT dollars, • Gross profit margin is expected to be between 65.5% and 67.5%; • Operating profit margin is expected to be between 56.5% and 58.5%. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260604-141031__pr.tsmc.com_english_latest-news.html"
+      },
+      {
+        "title": "TSMC May 2026 Revenue Report",
+        "date": "2026-06-10",
+        "fetched_at": "20260610-145251",
+        "type": "官方候选",
+        "fact": "日期：2026-06-10；标题：TSMC May 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3320#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3320#)Search [](ht…；来源：http://pr.tsmc.com/english/news/3320",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260610,
+        "source_url": "http://pr.tsmc.com/english/news/3320",
+        "source_excerpt": "[](http://pr.tsmc.com/english/news/3320#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3320#)Search [](ht…",
+        "source_body": "[](http://pr.tsmc.com/english/news/3320#) Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3320#)Search [](http://pr.tsmc.com/english/news/3320) *HSINCHU, Taiwan, R.O.C. – June 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for May 2026: On a consolidated basis, revenue for May 2026 was approximately NT$416.98 billion, an increase of 1.5 percent from April 2026 and an increase of 30.1 percent from May 2025. Revenue for January through May 2026 totaled NT$1,961.80 billion, an increase of 30.0 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260610-145251__pr.tsmc.com_english_latest-news.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
     "inovance": [
@@ -939,6 +971,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260605-142528__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "新易盛：关于召开2026年第二次临时股东会的通知",
+        "date": "2026-06-11",
+        "fetched_at": "20260610-145251",
+        "type": "官方候选",
+        "fact": "日期：2026-06-11；标题：新易盛：关于召开2026年第二次临时股东会的通知；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260611,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260610-145251__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
       }
     ],
     "shennan": [
@@ -1333,6 +1380,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260605-142528__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+      },
+      {
+        "title": "沪电股份：2026年6月10日投资者关系活动记录表",
+        "date": "2026-6-10",
+        "fetched_at": "20260610-145251",
+        "type": "官方候选",
+        "fact": "日期：2026-6-10；标题：沪电股份：2026年6月10日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260610,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260610-145251__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
       }
     ],
     "fii": [

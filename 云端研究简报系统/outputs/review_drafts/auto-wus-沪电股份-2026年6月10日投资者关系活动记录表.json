@@ -1,19 +1,19 @@
 {
-  "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+  "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
   "draft_status": "auto_draft",
-  "generated_at": "2026-06-10T10:05:46",
-  "company": "shennan",
-  "company_name": "深南电路",
-  "source_candidate_title": "深南电路：2026年5月27日投资者关系活动记录表",
-  "title": "深南电路：2026年5月27日投资者关系活动记录表",
-  "date": "2026-5-27",
+  "generated_at": "2026-06-10T14:56:40",
+  "company": "wus",
+  "company_name": "沪电股份",
+  "source_candidate_title": "沪电股份：2026年6月10日投资者关系活动记录表",
+  "title": "沪电股份：2026年6月10日投资者关系活动记录表",
+  "date": "2026-6-10",
   "type": "官方候选",
   "priority": "草稿",
   "action": "等待补证据",
   "score": 9,
-  "sort_key": 20260527,
-  "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+  "sort_key": 20260610,
+  "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260610-145251__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 14,
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-5-27；标题：深南电路：2026年5月27日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg"
+    "日期：2026-6-10；标题：沪电股份：2026年6月10日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463"
   ],
-  "fact": "日期：2026-5-27；标题：深南电路：2026年5月27日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+  "fact": "日期：2026-6-10；标题：沪电股份：2026年6月10日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
   "evidence": [
     "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
     "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
@@ -57,7 +57,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 138,
+    "source_chars": 134,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -67,6 +67,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
-  "draft_file": "/Users/tianyuehua/.codex/worktrees/5b25/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.json"
+  "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.json"
 }

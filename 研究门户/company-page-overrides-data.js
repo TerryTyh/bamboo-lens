@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-06-10T10:05:46",
-  "source_event_store_at": "2026-06-10T10:05:46",
-  "source_deposition_at": "2026-06-10T10:05:46",
+  "generated_at": "2026-06-10T14:56:41",
+  "source_event_store_at": "2026-06-10T14:56:40",
+  "source_deposition_at": "2026-06-10T14:56:41",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
       "sourceEventDate": "2026-06-07",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-10T10:05:46",
+      "updatedAt": "2026-06-10T14:56:41",
       "latestEvent": "2026-06-07｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
       "businessImpact": "业务影响主要落在 Data Center、networking、AI factory software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 hyperscaler 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权 AI 场景，扩展 NVIDIA 在亚洲企业 AI 与 physical AI 的需求承接层。",
       "valuationImpact": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源，从美国超大云厂商资本开支，延伸到韩国电信运营商主导的 AI 云建设。正面在于原文给出了 gigawatt-scale、2027 上线、DSX 全栈架构和联合研究这些具体抓手，说明 AI factory 模式已开始从概念走向区域级部署。限制在于仍缺少合同金额、GPU 数量、投产节奏和软件收入占比，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把“telco 是否成为下一批 AI 基础设施客户”列为高优先级跟踪主线。",
@@ -100,7 +100,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "sourceEventDate": "2026-05-15",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-10T10:05:46",
+      "updatedAt": "2026-06-10T14:56:41",
       "latestEvent": "2026-05-15｜出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
       "businessImpact": "对主业经营的直接影响有限：公告明确 interposer 外包与 GaN 技术授权将继续，说明这不是供应链中断或合作降级的信号。对业务理解更重要的是“股权关系与业务合作解耦”：TSMC 维持必要的制造/技术协同，但不再通过更高比例持股维系关系，反映其把资源与管理关注度进一步集中在先进制程、先进封装与全球产能布局等核心议题上。",
       "valuationImpact": "估值/动作上，这类非核心股权处置通常带来一次性现金回笼与投资组合波动，但公告缺少交易价格与预计收益，无法据此量化对现金流、净现金或一次性损益的影响。方向上，减少非核心权益投资有利于降低估值中对“投资组合不确定性”的折价，但影响预计显著小于先进制程需求、毛利率与资本开支回报这些核心变量。动作上以维持跟踪为主：等待披露定价/会计处理与资金用途后，再判断是否对股东回报或资本结构有边际影响。",
@@ -257,7 +257,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-10T10:05:46",
+      "updatedAt": "2026-06-10T14:56:41",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
