@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-06-10T14:56:41",
-  "source_overrides_at": "2026-06-10T14:56:41",
+  "generated_at": "2026-06-11T00:13:29",
+  "source_overrides_at": "2026-06-11T00:13:29",
   "items": [
     {
       "company": "constellation",
@@ -70,8 +70,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "tsmc",
-      "sourceEventTitle": "出售 VIS 约 8.1% 股权：最多处置 1.52 亿股，持股将由约 27.1% 降至约 19%",
-      "sourceEventDate": "2026-05-15",
+      "sourceEventTitle": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
+      "sourceEventDate": "2026-06-10",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
