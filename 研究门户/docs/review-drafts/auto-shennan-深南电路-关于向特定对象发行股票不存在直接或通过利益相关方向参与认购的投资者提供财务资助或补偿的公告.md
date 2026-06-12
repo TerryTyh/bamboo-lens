@@ -1,15 +1,15 @@
-# 正式事件草稿｜深南电路｜深南电路：关于筹划向特定对象发行股票的提示性公告
+# 正式事件草稿｜深南电路｜深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告
 
 ## 草稿状态
 
 - 公司：深南电路（shennan）
-- 日期：2026-06-02
+- 日期：2026-06-13
 - 类型：官方候选
 - 候选分数：9
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 14）
 - 官方来源：[打开官方来源](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260612-143445__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-06-02；标题：深南电路：关于筹划向特定对象发行股票的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
+日期：2026-06-13；标题：深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ### 候选事实
 
-日期：2026-06-02；标题：深南电路：关于筹划向特定对象发行股票的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
+日期：2026-06-13；标题：深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告`
+`auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告`
 
 ## 质量闸门
 
