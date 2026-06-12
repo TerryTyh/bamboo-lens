@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-12T10:41:00",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -322,6 +322,40 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "Apple Intelligence 私有云开始采用 Blackwell 机密计算，NVIDIA 切入高隐私推理基础设施",
+        "source_candidate_title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+        "date": "2026-06-09",
+        "type": "机密计算 / 云端推理基础设施 / Apple Intelligence",
+        "priority": "P1",
+        "action": "维持 A 池核心；把机密计算与高隐私推理负载列为新增验证线",
+        "sort_key": 20260609,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "原文先讲清楚一件具体事实：Apple 的 Private Cloud Compute 已经开始在 Google Cloud 上使用带有机密计算能力的 NVIDIA GPU，为 Apple Foundation Models 提供私密推理。也就是说，Apple Intelligence 的一部分云端推理不再只停留在 Apple 自有数据中心，而是开始借助外部云与 NVIDIA 的机密计算栈承载。",
+          "文章进一步说明三方分工。Apple 提供 Apple Foundation Models 与 Private Cloud Compute 架构，Google Cloud 提供外部云基础设施，NVIDIA 则提供 Blackwell GPU 和硬件级机密计算，把敏感推理负载放进可信执行环境，并在数据发往服务器之前完成加密校验。",
+          "原文强调的重点不是更高吞吐，而是“即使系统建设者也看不到用户数据、聊天内容和对话”。这意味着 NVIDIA 想把 Blackwell 的卖点从训练与通用推理，进一步延伸到隐私要求更高的消费级智能助手与企业敏感推理场景。"
+        ],
+        "fact": "2026-06-09，NVIDIA 披露其带有机密计算能力的 Blackwell GPU 已用于 Apple Private Cloud Compute 的私密推理，并随着该架构从 Apple 自有数据中心向 Google Cloud 扩展，承载 Apple Foundation Models 的部分服务端推理。原文明确说明，这套方案通过可信执行环境和加密验证机制保护推理过程中的敏感数据，服务 Apple Intelligence 的下一代功能。",
+        "evidence": [
+          "原文直接写明带有机密计算能力的 NVIDIA GPU 已用于 Apple Private Cloud Compute 的私密推理。",
+          "部署范围被表述为从 Apple 自有数据中心扩展到 Google Cloud，说明这不是单一实验室口径，而是外部云承载路径开始落地。",
+          "文章点名使用的是带机密计算能力的 NVIDIA Blackwell GPU，并被整合进 PCC 的硬件安全架构。",
+          "被承载的推理对象是 Apple Foundation Models，表明 NVIDIA 已经切入 Apple Intelligence 的服务端模型基础设施，而不只是通用云租赁。",
+          "原文强调 no one, not even the system's builders, can look at user data, chats or conversations，说明核心卖点是高隐私推理而非单纯算力扩容。"
+        ],
+        "judgment": "这是一条 P1 级平台渗透事件。关键变化不是 Apple 又采购了一批 GPU，而是 NVIDIA 的 Blackwell 机密计算能力被放进 Apple Intelligence 的私有云安全架构，并通过 Google Cloud 承接外部推理负载。它说明 NVIDIA 正在把自身价值从高性能训练和通用推理，延伸到高隐私、高信任要求的 AI 服务基础设施层。",
+        "business_analysis": "业务上，这条事件同时验证了三件事。第一，Blackwell 的落地场景从超大模型训练扩展到消费级智能助手的服务端推理，说明推理需求曲线正在向更广泛终端生态渗透。第二，机密计算不再只是安全功能展示，而是成为大型客户把敏感 AI 负载放上外部云的前提条件，这会提高 GPU、系统软件与云合作方案的整体附加率。第三，Apple、Google、NVIDIA 的组合说明 NVIDIA 正在参与“模型提供方 + 云基础设施 + 安全执行环境”这一整套交付链，而不只是底层芯片供应商。",
+        "valuation_analysis": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源进一步扩展到高隐私推理和可信 AI 基础设施。正面在于原文给出了 Apple Private Cloud Compute、Google Cloud、Blackwell 和机密计算这几个非常具体的落地抓手，说明机密计算开始进入真实生产场景。限制在于文章没有披露 GPU 数量、合同金额、推理规模或软件收入贡献，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把机密计算渗透率、服务端推理负载和大型平台客户采用情况列为新增验证主线。",
+        "verification": [
+          "跟踪 Apple 后续是否披露 Private Cloud Compute 在 Google Cloud 上的推理规模、覆盖功能范围和上线节奏，确认这不是局部试点。",
+          "观察 NVIDIA 财报或电话会是否开始单独提及机密计算、私密推理或高隐私推理场景的客户需求。",
+          "继续看 Google Cloud 是否围绕 Blackwell 机密计算推出更明确的产品化口径、客户案例或定价模式。",
+          "跟踪 Apple Intelligence 后续功能扩张是否带来更高的服务端推理占比，验证这类消费级 AI 助手是否能转化为持续算力需求。"
+        ],
+        "reviewed_at": "2026-06-12T22:30:00+08:00"
+      },
       {
         "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
         "source_candidate_title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",

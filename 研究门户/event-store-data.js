@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-12T10:41:00",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,42 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "Apple Intelligence 私有云开始采用 Blackwell 机密计算，NVIDIA 切入高隐私推理基础设施",
+          "source_candidate_title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+          "date": "2026-06-09",
+          "fetched_at": "",
+          "type": "机密计算 / 云端推理基础设施 / Apple Intelligence",
+          "fact": "2026-06-09，NVIDIA 披露其带有机密计算能力的 Blackwell GPU 已用于 Apple Private Cloud Compute 的私密推理，并随着该架构从 Apple 自有数据中心向 Google Cloud 扩展，承载 Apple Foundation Models 的部分服务端推理。原文明确说明，这套方案通过可信执行环境和加密验证机制保护推理过程中的敏感数据，服务 Apple Intelligence 的下一代功能。",
+          "judgment": "这是一条 P1 级平台渗透事件。关键变化不是 Apple 又采购了一批 GPU，而是 NVIDIA 的 Blackwell 机密计算能力被放进 Apple Intelligence 的私有云安全架构，并通过 Google Cloud 承接外部推理负载。它说明 NVIDIA 正在把自身价值从高性能训练和通用推理，延伸到高隐私、高信任要求的 AI 服务基础设施层。",
+          "action": "维持 A 池核心；把机密计算与高隐私推理负载列为新增验证线",
+          "priority": "P1",
+          "sort_key": 20260609,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "原文先讲清楚一件具体事实：Apple 的 Private Cloud Compute 已经开始在 Google Cloud 上使用带有机密计算能力的 NVIDIA GPU，为 Apple Foundation Models 提供私密推理。也就是说，Apple Intelligence 的一部分云端推理不再只停留在 Apple 自有数据中心，而是开始借助外部云与 NVIDIA 的机密计算栈承载。",
+            "文章进一步说明三方分工。Apple 提供 Apple Foundation Models 与 Private Cloud Compute 架构，Google Cloud 提供外部云基础设施，NVIDIA 则提供 Blackwell GPU 和硬件级机密计算，把敏感推理负载放进可信执行环境，并在数据发往服务器之前完成加密校验。",
+            "原文强调的重点不是更高吞吐，而是“即使系统建设者也看不到用户数据、聊天内容和对话”。这意味着 NVIDIA 想把 Blackwell 的卖点从训练与通用推理，进一步延伸到隐私要求更高的消费级智能助手与企业敏感推理场景。"
+          ],
+          "evidence": [
+            "原文直接写明带有机密计算能力的 NVIDIA GPU 已用于 Apple Private Cloud Compute 的私密推理。",
+            "部署范围被表述为从 Apple 自有数据中心扩展到 Google Cloud，说明这不是单一实验室口径，而是外部云承载路径开始落地。",
+            "文章点名使用的是带机密计算能力的 NVIDIA Blackwell GPU，并被整合进 PCC 的硬件安全架构。",
+            "被承载的推理对象是 Apple Foundation Models，表明 NVIDIA 已经切入 Apple Intelligence 的服务端模型基础设施，而不只是通用云租赁。",
+            "原文强调 no one, not even the system's builders, can look at user data, chats or conversations，说明核心卖点是高隐私推理而非单纯算力扩容。"
+          ],
+          "business_analysis": "业务上，这条事件同时验证了三件事。第一，Blackwell 的落地场景从超大模型训练扩展到消费级智能助手的服务端推理，说明推理需求曲线正在向更广泛终端生态渗透。第二，机密计算不再只是安全功能展示，而是成为大型客户把敏感 AI 负载放上外部云的前提条件，这会提高 GPU、系统软件与云合作方案的整体附加率。第三，Apple、Google、NVIDIA 的组合说明 NVIDIA 正在参与“模型提供方 + 云基础设施 + 安全执行环境”这一整套交付链，而不只是底层芯片供应商。",
+          "valuation_analysis": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源进一步扩展到高隐私推理和可信 AI 基础设施。正面在于原文给出了 Apple Private Cloud Compute、Google Cloud、Blackwell 和机密计算这几个非常具体的落地抓手，说明机密计算开始进入真实生产场景。限制在于文章没有披露 GPU 数量、合同金额、推理规模或软件收入贡献，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把机密计算渗透率、服务端推理负载和大型平台客户采用情况列为新增验证主线。",
+          "verification": [
+            "跟踪 Apple 后续是否披露 Private Cloud Compute 在 Google Cloud 上的推理规模、覆盖功能范围和上线节奏，确认这不是局部试点。",
+            "观察 NVIDIA 财报或电话会是否开始单独提及机密计算、私密推理或高隐私推理场景的客户需求。",
+            "继续看 Google Cloud 是否围绕 Blackwell 机密计算推出更明确的产品化口径、客户案例或定价模式。",
+            "跟踪 Apple Intelligence 后续功能扩张是否带来更高的服务端推理占比，验证这类消费级 AI 助手是否能转化为持续算力需求。"
+          ],
+          "reviewed_at": "2026-06-12T22:30:00+08:00",
+          "review_status": "reviewed"
+        },
         {
           "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
           "source_candidate_title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
@@ -583,7 +619,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -595,7 +631,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -607,7 +643,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -619,7 +655,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -631,7 +667,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -643,7 +679,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -818,22 +854,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RT…",
           "source_body": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RTX Spark-powered systems. Designed for local AI, creating and gaming, RTX Spark brings together 30 years of NVIDIA innovation to slim Windows laptops with all-day battery life and small, ultraefficient desktop PCs. With the superchip, gamers can play AAA games at 1440p resolution and over 100 frames per second with NVIDIA ray tracing, DLSS and Reflex technologies. In addition, RTX Spark supports all NVIDIA RTX technologies, including the recently announced DLSS 4.5 Ray Reconstruction , which features a second-generation transformer model for realistic image quality. Korea has played a major role in spearheading esports and driving the boom in PC bangs, or internet and gaming cafes. With longstanding collaborations rooted in the country, NVIDIA in October celebrated 25 years of GeForce in Korea with a free festival for gamers, highlighting the rich gaming ecosystem that has been built over decades. On Friday, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark. NVIDIA and Riot Games — developer of League of Legends — are collaborating to bring the title as well as VALORANT to RTX Spark, expanding gamers’ access to high-performance gaming on slim laptops. To mark the occasion, T1 Base Camp attendees had the chance to win RTX Spark laptops, League of Legends and T1 merch signed by Huang and Faker, as well as GeForce RTX 5090 GPUs. Later, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC. At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers. Gamers then got the surprise chance to play with the unreleased PUBG Ally, a co-playable character built with NVIDIA ACE technologies on RTX Spark laptops. PUBG Ally resulted from AI research and development at KRAFTON and NVIDIA, part of an initiative to create next-generation game characters that act like teammates and enable more meaningful, immersive engagements with players. Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260608-152847__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-          "date": "2026-06-09",
-          "fetched_at": "20260610-145251",
-          "type": "官方候选",
-          "fact": "日期：2026-06-09；标题：NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute；原文内容：NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…；来源：https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260609,
-          "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-          "source_excerpt": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…",
-          "source_body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key capabilities: Learn more about NVIDIA Confidential Computing and NVIDIA AI cybersecurity solutions.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
@@ -1111,7 +1131,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -1123,7 +1143,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -1172,7 +1192,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -1184,7 +1204,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -1196,7 +1216,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -1208,7 +1228,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1261,7 +1281,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1273,7 +1293,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -1285,7 +1305,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1297,7 +1317,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -1309,7 +1329,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1321,7 +1341,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1342,7 +1362,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1354,7 +1374,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1366,7 +1386,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1378,7 +1398,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1390,7 +1410,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1402,7 +1422,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1423,7 +1443,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1435,7 +1455,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1447,7 +1467,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1459,7 +1479,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1471,7 +1491,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1483,7 +1503,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1625,7 +1645,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1637,7 +1657,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1649,7 +1669,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1661,7 +1681,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1673,7 +1693,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1685,7 +1705,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1722,7 +1742,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1734,7 +1754,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1746,7 +1766,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1758,7 +1778,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1770,7 +1790,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1782,7 +1802,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1794,7 +1814,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1975,7 +1995,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -1987,7 +2007,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -1999,7 +2019,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -2011,7 +2031,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/Documents/项目/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/3dac/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
