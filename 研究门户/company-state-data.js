@@ -1,24 +1,24 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-06-11T00:13:28",
-  "source_generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-13T07:42:39",
+  "source_generated_at": "2026-06-13T07:42:39",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
-      "source_event_title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "source_event_date": "2026-06-07",
-      "latestEvent": "2026-06-07｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "businessImpact": "业务影响主要落在 Data Center、networking、AI factory software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 hyperscaler 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权...",
-      "valuationImpact": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源，从美国超大云厂商资本开支，延伸到韩国电信运营商主导的 AI 云建设。正面在于原文给出了 gigawatt-scale、2027 上线、DSX 全栈架构和联合研究这些具体抓手，说明 AI factory 模式已开始从概念走向区域级部署。限制在于仍缺少合同金额、GPU 数量、投产节奏和软件收入占比，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把“telco 是否成为下一批 AI...",
-      "nextCheck": "跟踪 SK Telecom 后续是否披露首座 AI factory 的 GPU 配置、功率规模、资本开支和客户签约节奏，确认 2027 上线不是概念性口径。；观察 NVIDIA 财报或电话会是否开始把 telco AI cloud、sovereign AI、AI factory software 或亚洲区域云合作列为新增需求来源。；继续看 SK Group 与 NVIDIA 在 next-generation AI factory architectures 上的联合研究是否落到新产品、标准化方案或更多部署项目。",
-      "action": "维持 A 池核心，并提高“电信运营商转型 AI 云基础设施平台”验证权重",
-      "priority": "P1",
+      "source_event_title": "Apple 把 Private Cloud Compute 扩到 Google Cloud，NVIDIA Blackwell 开始切入隐私推理底座",
+      "source_event_date": "2026-06-09",
+      "latestEvent": "2026-06-09｜Apple 把 Private Cloud Compute 扩到 Google Cloud，NVIDIA Blackwell 开始切入隐私推理底座",
+      "businessImpact": "业务层面，这条进展强化了三件事。第一，NVIDIA 开始切入高隐私要求的消费级云端推理入口，说明 Apple Intelligence 这类面向海量终端用户的功能，未来可能不只依赖端侧芯片，还需要可信的云端推理底座。第二，合作链条把 Apple、Google Cloud 和 NVIDIA 连在一起，意味着 NVIDIA 既可能受益于云厂商基础设施采购，也可能受益于更多面向终端产品的 server-side inference 扩容。第三，机密计算把 NVIDIA 的平台边界从...",
+      "valuationImpact": "估值和动作上，这条事件支持继续给 NVIDIA 平台溢价，但力度应低于财报、数据中心收入或大额 AI 工厂订单。正面在于：Apple 的 PCC 场景对隐私和安全要求很高，NVIDIA 能进入这类部署，说明其在可信推理基础设施上的能力得到头部客户认可；同时 Google Cloud 的加入，让这条线不只是封闭的 Apple 内部项目。限制在于：原文没有披露 GPU 数量、收入贡献、软件收费或后续扩容节奏，短期难以映射到盈利预测。动作上维持 A 池核心，把“机密计算是否成为 B...",
+      "nextCheck": "跟踪 Apple、Google Cloud 或 NVIDIA 后续是否披露 PCC 扩容范围、GPU 部署规模、上线节奏和更多 Apple Intelligence 功能落地细节。；观察 NVIDIA 财报或电话会是否开始单独提及 confidential computing、secure inference 或 Blackwell 在高隐私推理场景中的客户采用情况。；继续看 Google Cloud 是否把机密推理能力产品化，确认这不是单一客户定制，而是可复制的云端基础设施能力。",
+      "action": "维持 A 池核心；把机密计算与云端隐私推理入口列为新增验证点",
+      "priority": "P2",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "source_event_date": "2026-06-10",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-06-11T00:13:28",
+      "updated_at": "2026-06-13T07:42:39",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",

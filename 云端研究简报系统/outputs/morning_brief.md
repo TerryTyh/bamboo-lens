@@ -1,57 +1,30 @@
-# 竹鉴晨报 | 2026-06-11
+# 竹鉴晨报 | 2026-06-13
 
-## 1. TSMC｜2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图
-
-**原文讲了什么**
-
-TSMC 在 2026-06-10 发布 2026 年 5 月营收公告。公告口径很短，但数字足够明确：5 月合并营收约 NT$416.98 billion，较 2026 年 4 月增长 1.5%，较 2025 年 5 月增长 30.1%。
-
-公司同时披露 2026 年 1-5 月累计营收 NT$1,961.80 billion，较 2025 年同期增长 30.0%。这说明 4 月高位营收之后，5 月没有回落，反而继续小幅上行。
-
-把 4 月和 5 月连起来看，TSMC 已经连续两个月维持在 NT$410 billion 以上。5 月数据本身不提供分业务、毛利率、EPS 或现金流，但它为 Q2 收入指引兑现提供了第二个月证据。
-
-**业务影响**
-
-业务上，5 月营收继续高位，更像是对 Q1 财报和 4 月营收之后的延续确认。结合此前 Q1 中先进制程占晶圆收入 74%、HPC 是主要收入驱动的框架，5 月数据支持“先进制程与 AI/HPC 需求仍在承接高收入台阶”的判断。限制是，公告没有拆出 HPC、智能手机、汽车、IoT 或先进封装贡献，不能据此判断是哪一条业务线新增加速。
-
-**估值/动作影响**
-
-估值/动作上，5 月营收支持 TSMC 继续保持 A 池核心和质量溢价，但不构成新的追高信号。真正决定估值中枢的仍是 Q2 指引能否完整兑现、毛利率是否维持在 65.5%-67.5%、以及高资本开支和海外扩产是否侵蚀自由现金流。动作上维持核心跟踪，不因单月收入上行加仓；下一步用 6 月营收和 Q2 财报确认收入高位是否能转化为高质量利润。
-
-**后续观察点**
-
-- 6 月营收是否继续维持 NT$400 billion 以上，并和 4-5 月一起验证 Q2 收入指引 US$39.0-40.2 billion。
-- Q2 财报毛利率是否落在 65.5%-67.5% 指引区间，确认收入高位没有被海外扩产、汇率或产品组合稀释。
-- Q2 财报继续看先进制程占比、HPC 需求和先进封装产能口径，判断 5 月收入高位背后的结构质量。
-- 结合资本开支、折旧和经营现金流，评估高收入是否同步转化为自由现金流和资本回报。
-
-[原文](http://pr.tsmc.com/english/news/3320)
-
-## 2. NVIDIA｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座
+## 1. NVIDIA｜Apple 把 Private Cloud Compute 扩到 Google Cloud，NVIDIA Blackwell 开始切入隐私推理底座
 
 **原文讲了什么**
 
-原文先宣布 SK Telecom 将在韩国建设 gigawatt-scale AI Cloud，底层采用 NVIDIA DSX 全栈 AI 工厂 参考架构，首座 AI 工厂计划在 2027 年上线。文章重点不是单笔 GPU 采购，而是在把韩国电信运营商的网络、数据中心和企业客户基础，改造成面向训练、推理和智能体工作负载的 AI 云基础设施。
+这篇原文讲的不是泛泛而谈的“AI 安全”概念，而是 Apple 已把 Private Cloud Compute（PCC）中的部分机密推理工作负载扩展到 Google Cloud，并在这条链路里使用带有 机密计算 的 NVIDIA GPU。也就是说，NVIDIA 不只是继续卖训练卡，而是在 Apple Intelligence 的云端推理安全架构里占到一个明确位置。
 
-原文进一步解释这朵 AI Cloud 的定位：它不是通用云，而是专门为 AI 训练、推理和 智能体 AI 设计的 GPU 云。SK Telecom 将依托自身网络、数据中心和企业基础设施，为韩国企业和行业提供 sovereign、physical 和 enterprise AI 服务，并把覆盖范围向更广泛亚洲地区扩展。
+原文进一步说明，这套部署面向 Apple Foundation Models 的 server-side 推理，由 Apple 与 Google 基于 Gemini 技术栈共同构建，运行在集成进 PCC 硬件安全架构的 NVIDIA Blackwell GPU 上。文章把“Apple + Google Cloud + NVIDIA Blackwell + PCC”放进同一个架构叙事里，核心增量是高隐私要求的消费级 AI 功能开始依赖云端机密推理能力，而不是只停留在端侧模型。
 
-技术栈部分，文章明确点出 NVIDIA DSX 会作为架构蓝图，组合 加速计算、systems、software 以及 partner technologies，以缩短投产时间并优化每兆瓦 token 产出。新闻稿还单独提到 DSX MaxLPS 和 DSX OS，说明 NVIDIA 想卖的不只是 GPU，而是连同运营、调度和单位能效一起打包的 AI 工厂 方法论。
+安全机制部分，NVIDIA 把 机密计算 定义为 AI 工作负载的硬件级隔离层：通过 trusted execution environments 隔离处理中的数据，并在敏感数据发送前进行加密校验，验证基础设施未被篡改。对终端用户的含义是，连系统建设方本身也不应看到聊天、对话或个人数据内容。
 
-更关键的是，双方把合作从部署延伸到下一代 AI 工厂 架构联合研究。Jensen Huang 把电信网络定义为 national AI infrastructure，SK Telecom 管理层则把 AI infrastructure business 列为长期增长引擎，显示这并非一次性营销合作，而是电信运营商向 AI 基础设施平台转型的路径样板。
+这条材料没有披露 GPU 数量、合同金额或推理 token 规模，因此不能把它直接写成短期收入催化。但它明确展示了一条新场景：当大模型功能进入高隐私、高合规要求的云端推理阶段，NVIDIA 试图把 Blackwell、机密计算和云厂商部署能力一起打包成基础设施标准。
 
 **业务影响**
 
-业务影响主要落在 数据中心、网络业务、AI 工厂 software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 超大云厂商 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权 AI 场景，扩展 NVIDIA 在亚洲企业 AI 与 物理 AI 的需求承接层。
+业务层面，这条进展强化了三件事。第一，NVIDIA 开始切入高隐私要求的消费级云端推理入口，说明 Apple Intelligence 这类面向海量终端用户的功能，未来可能不只依赖端侧芯片，还需要可信的云端推理底座。第二，合作链条把 Apple、Google Cloud 和 NVIDIA 连在一起，意味着 NVIDIA 既可能受益于云厂商基础设施采购，也可能受益于更多面向终端产品的 server-side 推理 扩容。第三，机密计算把 NVIDIA 的平台边界从算力与网络继续推到安全执行层；如果这套能力被更多云厂商和企业 AI 工作负载复用，Blackwell 的 配套附加率 和平台黏性都有机会提升。
 
 **估值/动作影响**
 
-估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源，从美国超大云厂商资本开支，延伸到韩国电信运营商主导的 AI 云建设。正面在于原文给出了 gigawatt-scale、2027 上线、DSX 全栈架构和联合研究这些具体抓手，说明 AI 工厂 模式已开始从概念走向区域级部署。限制在于仍缺少合同金额、GPU 数量、投产节奏和软件收入占比，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把“telco 是否成为下一批 AI 基础设施客户”列为高优先级跟踪主线。
+估值和动作上，这条事件支持继续给 NVIDIA 平台溢价，但力度应低于财报、数据中心收入或大额 AI 工厂订单。正面在于：Apple 的 PCC 场景对隐私和安全要求很高，NVIDIA 能进入这类部署，说明其在可信推理基础设施上的能力得到头部客户认可；同时 Google Cloud 的加入，让这条线不只是封闭的 Apple 内部项目。限制在于：原文没有披露 GPU 数量、收入贡献、软件收费或后续扩容节奏，短期难以映射到盈利预测。动作上维持 A 池核心，把“机密计算是否成为 Blackwell 新的差异化卖点”列为后续验证点，而不是因为单篇合作文章提高仓位。
 
 **后续观察点**
 
-- 跟踪 SK Telecom 后续是否披露首座 AI 工厂 的 GPU 配置、功率规模、资本开支和客户签约节奏，确认 2027 上线不是概念性口径。
-- 观察 NVIDIA 财报或电话会是否开始把 telco AI cloud、主权 AI、AI 工厂 software 或亚洲区域云合作列为新增需求来源。
-- 继续看 SK Group 与 NVIDIA 在 next-generation AI 工厂 architectures 上的联合研究是否落到新产品、标准化方案或更多部署项目。
-- 跟踪韩国与亚洲其他运营商是否复制同类 DSX 模式，验证这是否会成为 NVIDIA 新的区域扩张模板。
+- 跟踪 Apple、Google Cloud 或 NVIDIA 后续是否披露 PCC 扩容范围、GPU 部署规模、上线节奏和更多 Apple Intelligence 功能落地细节。
+- 观察 NVIDIA 财报或电话会是否开始单独提及 confidential computing、secure 推理 或 Blackwell 在高隐私推理场景中的客户采用情况。
+- 继续看 Google Cloud 是否把机密推理能力产品化，确认这不是单一客户定制，而是可复制的云端基础设施能力。
+- 对比 AMD、Intel 及云厂商自研方案在 trusted execution 与 secure 推理 上的进展，判断 NVIDIA 的机密计算是否具备可持续差异化。
 
-[原文](https://nvidianews.nvidia.com/news/sk-telecom-ai-infrastructure)
+[原文](https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/)

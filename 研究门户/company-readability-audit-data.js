@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-06-11T00:13:29",
-  "source_overrides_at": "2026-06-11T00:13:29",
+  "generated_at": "2026-06-13T07:42:39",
+  "source_overrides_at": "2026-06-13T07:42:39",
   "items": [
     {
       "company": "constellation",
@@ -29,24 +29,28 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "sourceEventDate": "2026-06-07",
+      "sourceEventTitle": "Apple 把 Private Cloud Compute 扩到 Google Cloud，NVIDIA Blackwell 开始切入隐私推理底座",
+      "sourceEventDate": "2026-06-09",
       "status": "healthy",
       "counts": {
-        "finance_rows": 0,
-        "finance_bridge": 0,
-        "finance_notes": 0,
+        "finance_rows": 3,
+        "finance_bridge": 3,
+        "finance_notes": 1,
         "business_segments": 1,
         "business_moat": 1,
-        "valuation_current": 0,
-        "valuation_scenarios": 0,
-        "valuation_triggers": 0
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
       },
-      "totalAutoItems": 2,
-      "omitted": {},
+      "totalAutoItems": 12,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
       "longTextSamples": [],
       "warnings": [],
-      "suggestions": []
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
     },
     {
       "company": "tsmc",

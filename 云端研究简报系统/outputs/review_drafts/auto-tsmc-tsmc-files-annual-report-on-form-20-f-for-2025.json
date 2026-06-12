@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
   "draft_status": "auto_draft",
-  "generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-13T07:42:39",
   "company": "tsmc",
   "company_name": "TSMC",
   "source_candidate_title": "TSMC Files Annual Report on Form 20-F for 2025",
@@ -68,5 +68,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-  "draft_file": "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.json"
+  "draft_file": "/Users/tianyuehua/.codex/worktrees/b1f1/一个财务投资应用/云端研究简报系统/outputs/review_drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.json"
 }

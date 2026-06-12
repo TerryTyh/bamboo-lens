@@ -239,9 +239,8 @@ def render_item(index: int, item: dict) -> str:
 """
 def main() -> None:
     now = current_time()
-    # Nightly runs can happen shortly after midnight; in that case the "morning brief"
-    # should still be for the same calendar day (this morning), not +1 day.
-    brief_date = now if now.hour < 6 else (now + timedelta(days=1))
+    # Morning reruns should keep today's header. Only late-day prep writes tomorrow.
+    brief_date = now if now.hour < 12 else (now + timedelta(days=1))
     today = brief_date.strftime("%Y-%m-%d")
     events = load_reviewed_events()
     # Select: reviewed within the last 24 hours to avoid repeating older items.
@@ -258,7 +257,7 @@ def main() -> None:
     if selected:
         body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
     else:
-        body = "## 今日暂无符合质量门槛的正式事件\n"
+        body = "暂无符合质量门槛的正式事件。\n"
     MORNING_BRIEF_FILE.write_text(
         f"""# 竹鉴晨报 | {today}
 
