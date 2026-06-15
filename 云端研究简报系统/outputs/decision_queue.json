@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T14:39:28",
-  "source_generated_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-15T17:00:07",
+  "source_generated_at": "2026-06-15T17:00:07",
   "items": [
     {
       "company": "constellation",
@@ -1063,6 +1063,24 @@
       "event_index": 1,
       "sort_key": 20251024,
       "score": 12
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "date": "2026-06-12",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260615-165710__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260612,
+      "score": 11
     },
     {
       "company": "nvidia",
@@ -2272,9 +2290,9 @@
     }
   ],
   "summary": {
-    "total": 126,
+    "total": 127,
     "formal_events": 69,
-    "official_candidates": 57,
+    "official_candidates": 58,
     "companies": 15
   }
 }

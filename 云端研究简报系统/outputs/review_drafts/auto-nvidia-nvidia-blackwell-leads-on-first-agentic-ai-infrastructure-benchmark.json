@@ -1,0 +1,69 @@
+{
+  "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-06-15T17:00:07",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+  "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+  "date": "2026-06-12",
+  "type": "官方候选",
+  "priority": "草稿",
+  "action": "进入人工研判",
+  "score": 11,
+  "sort_key": 20260612,
+  "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260615-165710__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "readiness_lane": "ready_for_deep_review",
+  "readiness_label": "优先深读",
+  "readiness_score": 31,
+  "investment_signal_score": 12,
+  "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+  "promotion_blockers": [],
+  "source_summary": [
+    "AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundamentally different workload than conversational AI. A single chat completion is a sprint: one large language model (LLM) call, one response. An agent functions more like a relay: It breaks a goal into many steps and keeps going until the task is done. That results in dozens to hundreds of LLM calls chained together, each passing growing context to the next, with tool calls like code compile and execution, database search and web browsing at every handoff. The complexity isn’t additive; it’s multiplicative. The distinction matters enormously for performance measurement. Existing AI inference benchmarks measure one LLM call: how fast an LLM responds to a single request and how many simultaneous requests a system can handle. They weren’t designed for agentic workloads, where chained LLM calls, tool call delays and growing context stress accelerated computing systems in fundamentally different ways than a single LLM call ever could. For companies building and deploying agents at scale, it’s important to understand how responsive agents are, how many can be deployed simultaneously and how much useful work AI infrastructure can deliver for every dollar and watt invested. In this first round, AgentPerf measures agentic performance with DeepSeek V4 Pro , a large mixture-of-experts (MoE) model that represents the class of frontier models powering today’s most capable agents. On this workload, NVIDIA GB300 NVL72 delivers the highest performance in the benchmark, running up to 20x more agents per megawatt than the NVIDIA HGX H200 system. The performance advantage comes from extreme codesign across the full stack. GB300 NVL72 connects 72 GPUs into a single rack-scale system, enabling large MoE models like DeepSeek V4 Pro to distribute model execution efficiently at scale. CUDA kernels accelerate this further by overlapping communication and compute, so the cost of coordinating across experts is absorbed rather than added to latency. NVIDIA TensorRT LLM sustains efficiency as concurrent agent sessions scale. For example, it separates the processing of inputs from the generation of outputs so each can be optimized independently. These results are grounded in a\n\n（原文较长，草稿只保留前段可读内容；正式研判前必须打开来源阅读全文。）"
+  ],
+  "fact": "日期：2026-06-12；标题：NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark；原文内容：AgentPerf from Artificial Analysis, the industry’s first agentic AI benchmark, gives developers, enterprises and infrastructure providers a clear way to compare systems for agentic AI. In the first round of published results, the NVIDIA Blackwell Ultra NVL72 platform delivers leading performance across the agentic AI workloads tested, running 20x more agents per megawatt than NVIDIA Hopper. Agentic AI is a fundament…；来源：https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+  "evidence": [
+    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
+    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "evidence_needed": [
+    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "这件事影响哪条业务线、财务科目或竞争位置",
+    "下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "company_page_writeback": {
+    "targets": [
+      "最新动态",
+      "当前结论",
+      "跟踪重点"
+    ],
+    "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+  },
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": true,
+    "source_chars": 3408,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.json"
+}

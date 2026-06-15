@@ -1,14 +1,41 @@
 {
-  "generated_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-15T17:00:07",
   "summary": {
     "total": 14,
-    "companies": 5,
-    "with_source_body": 2,
+    "companies": 6,
+    "with_source_body": 3,
     "suppressed_count": 0,
     "readiness_counts": {
-      "needs_source": 14
+      "ready_for_deep_review": 1,
+      "needs_source": 13
     },
-    "priority_batch": []
+    "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+        "date": "2026-06-12",
+        "score": 11,
+        "readiness_score": 31,
+        "investment_signal_score": 12,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ]
   },
   "by_key": {
     "eoptolink::业绩预告": {
@@ -30,6 +57,31 @@
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
       "portal_doc": "./docs/review-drafts/auto-eoptolink-业绩预告.md",
       "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "nvidia::nvidia blackwell leads on first agentic ai infrastructure benchmark": {
+      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "date": "2026-06-12",
+      "score": 11,
+      "readiness_score": 31,
+      "investment_signal_score": 12,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -373,34 +425,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "eoptolink::年度报告": {
-      "draft_id": "auto-eoptolink-年度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "年度报告",
-      "date": "20260604-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -488,26 +512,25 @@
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
-      },
+      }
+    ],
+    "nvidia": [
       {
-        "draft_id": "auto-eoptolink-年度报告",
-        "company": "eoptolink",
-        "company_name": "新易盛",
-        "title": "年度报告",
-        "date": "20260604-1",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-        "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
-        "has_source_body": false,
+        "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+        "date": "2026-06-12",
+        "score": 11,
+        "readiness_score": 31,
+        "investment_signal_score": 12,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "has_source_body": true,
         "company_page_writeback": {
           "targets": [
             "最新动态",
@@ -807,6 +830,31 @@
     ]
   },
   "items": [
+    {
+      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "date": "2026-06-12",
+      "score": 11,
+      "readiness_score": 31,
+      "investment_signal_score": 12,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     {
       "draft_id": "auto-eoptolink-业绩预告",
       "company": "eoptolink",
@@ -1160,34 +1208,6 @@
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月5日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-eoptolink-年度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "年度报告",
-      "date": "20260604-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
