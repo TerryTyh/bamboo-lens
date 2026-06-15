@@ -1,9 +1,9 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-16T06:34:02",
   "summary": {
     "total": 14,
-    "companies": 5,
-    "with_source_body": 2,
+    "companies": 4,
+    "with_source_body": 1,
     "suppressed_count": 0,
     "readiness_counts": {
       "needs_source": 14
@@ -64,34 +64,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "tsmc::tsmc files annual report on form 20-f for 2025": {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-      "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-      ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
-        ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
     "shennan::深南电路：2026年度向特定对象发行股票预案": {
@@ -401,6 +373,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "shennan::深南电路：2026年6月3日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月3日投资者关系活动记录表",
+      "date": "2026-6-3",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   },
   "companies": {
@@ -544,36 +544,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
-    "tsmc": [
-      {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 10,
-        "readiness_score": 20,
-        "investment_signal_score": 9,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待读原文件",
-        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-        "promotion_blockers": [
-          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-        ],
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "业务地图",
-            "风险与跟踪重点"
-          ],
-          "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
         }
       }
     ],
@@ -745,6 +715,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年6月3日投资者关系活动记录表",
+        "date": "2026-6-3",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ],
     "wus": [
@@ -860,34 +858,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-      "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-      ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
-        ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
       }
     },
     {
@@ -1188,6 +1158,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
       "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月3日投资者关系活动记录表",
+      "date": "2026-6-3",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

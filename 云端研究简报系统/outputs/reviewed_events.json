@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-16T06:34:02",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -322,6 +322,40 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "Apple 把 Private Cloud Compute 扩到 Google Cloud，NVIDIA Blackwell 开始切入隐私推理底座",
+        "source_candidate_title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+        "date": "2026-06-09",
+        "type": "机密计算 / 云推理基础设施 / Apple Intelligence",
+        "priority": "P1",
+        "action": "维持 A 池核心，并把机密计算从安全卖点转成真实企业与消费级推理需求的验证主线",
+        "sort_key": 20260609,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+        "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "这篇原文讲的不是泛泛而谈的安全宣传，而是 Apple 已经把 NVIDIA 的机密计算 GPU 用到 Private Cloud Compute（PCC）里，并把原本主要在 Apple 自有数据中心运行的服务端推理，扩展到 Google Cloud。文章明确说，Apple Foundation Models 的部分服务端推理将使用带机密计算能力的 NVIDIA GPU，支撑下一代 Apple Intelligence 功能。",
+          "原文同时解释了这套架构为什么重要：NVIDIA Blackwell GPU 的 Confidential Computing 会被嵌入 PCC 的硬件安全架构里，在 Google Cloud 上为敏感推理工作负载建立 trusted execution environment。系统会在数据进入服务器前做加密验证，确保底层基础设施未被篡改，目标是让用户数据、聊天和对话内容在被处理时仍然处于受保护状态。",
+          "换句话说，这不是单纯的 Apple 采用某一代 GPU，而是 Apple、Google Cloud 和 NVIDIA 三方把“高性能推理 + 云端弹性 + 隐私隔离”拼成了可落地的生产方案。对 NVIDIA 来说，机密计算开始从金融、政府等高合规场景，延伸到大规模消费级 AI 功能的后端推理。"
+        ],
+        "fact": "2026-06-09，NVIDIA 披露其具备 Confidential Computing 的 GPU 已被用于 Apple 的 Private Cloud Compute，并随着 PCC 从 Apple 自有数据中心扩展到 Google Cloud，支持 Apple Foundation Models 的部分服务端推理。原文写明 NVIDIA 正与 Apple 和 Google 合作，把带机密计算能力的 Blackwell GPU 嵌入 PCC 的硬件安全架构，用于下一代 Apple Intelligence 功能。",
+        "evidence": [
+          "原文直接写明，NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute（PCC），说明这不是未来路线图，而是已经进入现网架构的部署口径。",
+          "PCC 的部署边界发生了变化：服务从 Apple 自有数据中心扩展到 Google Cloud，意味着 Apple 需要在外部云环境中复制与验证其隐私推理安全模型。",
+          "支持对象不是普通通用负载，而是 Apple Foundation Models 的服务端推理，并被描述为支撑 next-generation Apple Intelligence features，说明它挂钩的是 Apple 的核心 AI 产品路线。",
+          "NVIDIA 点名使用的是 Blackwell GPUs with Confidential Computing，并强调它们被 integrated into Private Cloud Compute’s hardware security architecture，表明卖点已从算力规格延伸到安全架构层。",
+          "原文解释机密计算会把工作负载隔离在 trusted execution environments 中，并在敏感数据发送前通过加密方式验证底层基础设施未被篡改，这为云端敏感推理提供了可验证的信任机制。"
+        ],
+        "judgment": "这是一条 P1 级平台质量强化事件。真正的增量不是 Apple 多用了一家 GPU 供应商，而是 NVIDIA 把 Blackwell + Confidential Computing 从“高端安全功能”推进成 Apple Intelligence 后端推理的生产底座之一，并且落在 Google Cloud 这种外部云环境里。它说明高性能推理、云端弹性和隐私隔离正在开始绑定销售，NVIDIA 在 AI 基础设施中的价值主张也从纯算力继续扩到可信执行与安全治理。",
+        "business_analysis": "业务层面，这条事件至少影响三条线。第一条是 Data Center GPU 需求：Apple Intelligence 如果持续扩大功能范围，服务端推理会变成长期负载，而不是发布会阶段的一次性项目。第二条是机密计算与系统软件 attach：当 Apple 这类平台型客户要求把 GPU 放进可验证隐私架构里，NVIDIA 的卖点就不再只是训练/推理性能，还包括安全隔离、远程度量和可信运行能力。第三条是云生态协同：Apple 把 PCC 扩到 Google Cloud，意味着 NVIDIA 在超大客户架构中的角色从“云厂商 GPU 供应商”进一步延伸到上层消费 AI 产品的后端底座。",
+        "valuation_analysis": "估值和动作上，这条事件支持继续给 NVIDIA 平台溢价，尤其是对推理基础设施和系统级能力的溢价。正面在于，合作对象同时覆盖 Apple 与 Google，且原文把应用场景、GPU 代际和安全机制都写得比较具体，说明机密计算已经进入真实生产工作负载。限制在于，公告没有披露 GPU 数量、合同金额、推理负载规模或软件收入口径，因此它更适合作为“平台能力被高质量客户验证”的证据，而不是直接上调短期盈利预测。动作上维持 A 池核心，并把后续机密计算是否复制到更多企业与消费级推理场景列为重点观察。",
+        "verification": [
+          "跟踪 Apple 后续是否进一步披露 Private Cloud Compute 的部署范围、Google Cloud 占比和 Apple Intelligence 新功能上线节奏，确认这不是单点安全宣传。",
+          "观察 NVIDIA 财报或电话会是否开始明确提到 confidential inference、Confidential Computing attach rate 或安全型推理工作负载成为新增需求来源。",
+          "继续跟踪 Google Cloud、Microsoft Azure 等云平台对 Blackwell 机密计算产品的商业化口径，判断这类能力是否正在成为标准采购项。",
+          "留意 Apple、Google 或第三方安全研究对 PCC 架构的验证结果，确认可信执行环境没有因为性能、成本或运维复杂度而限制规模化部署。"
+        ],
+        "reviewed_at": "2026-06-16T00:20:00+08:00"
+      },
       {
         "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
         "source_candidate_title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
