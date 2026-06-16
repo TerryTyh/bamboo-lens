@@ -1,15 +1,41 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-15T17:00:07",
+  "generated_at": "2026-06-16T16:26:47",
   "summary": {
     "total": 14,
-    "companies": 6,
+    "companies": 5,
     "with_source_body": 3,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 1,
-      "needs_source": 13
+      "ready_for_deep_review": 2,
+      "needs_source": 12
     },
     "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+        "date": "2026-06-16",
+        "score": 10,
+        "readiness_score": 32,
+        "investment_signal_score": 20,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
         "company": "nvidia",
@@ -91,6 +117,32 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "nvidia::fastest, largest, strongest: nvidia blackwell sweeps mlperf training 6.0": {
+      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "date": "2026-06-16",
+      "score": 10,
+      "readiness_score": 32,
+      "investment_signal_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "innolight::中际旭创一页式观察卡待建：ai 光模块、800g/1.6t 与客户集中度验证": {
       "draft_id": "auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证",
       "company": "innolight",
@@ -118,32 +170,60 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "tsmc::tsmc files annual report on form 20-f for 2025": {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
+    "wus::沪电股份：2026年6月16日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+      "date": "2026-6-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
       "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
       "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+        "还没有抓到足够正文",
+        "可读内容偏短"
       ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
+          "当前结论",
+          "跟踪重点"
         ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "shennan::深南电路：2026年6月15日-16日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月15日-16日投资者关系活动记录表",
+      "date": "2026-6-15",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     "shennan::深南电路：2026年度向特定对象发行股票预案": {
@@ -369,62 +449,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "eoptolink::三季度报告": {
-      "draft_id": "auto-eoptolink-三季度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "三季度报告",
-      "date": "20260605-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-三季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "wus::沪电股份：2026年6月5日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年6月5日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月5日投资者关系活动记录表",
-      "date": "2026-6-5",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月5日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -484,37 +508,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
-      },
-      {
-        "draft_id": "auto-eoptolink-三季度报告",
-        "company": "eoptolink",
-        "company_name": "新易盛",
-        "title": "三季度报告",
-        "date": "20260605-1",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-        "portal_doc": "./docs/review-drafts/auto-eoptolink-三季度报告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ],
     "nvidia": [
+      {
+        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+        "date": "2026-06-16",
+        "score": 10,
+        "readiness_score": 32,
+        "investment_signal_score": 20,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
         "company": "nvidia",
@@ -570,37 +592,93 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       }
     ],
-    "tsmc": [
+    "wus": [
       {
-        "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Files Annual Report on Form 20-F for 2025",
-        "date": "2026-04-16",
-        "score": 10,
-        "readiness_score": 20,
-        "investment_signal_score": 9,
+        "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+        "date": "2026-6-16",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
         "readiness_lane": "needs_source",
-        "readiness_label": "待读原文件",
-        "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
         "promotion_blockers": [
-          "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+          "还没有抓到足够正文",
+          "可读内容偏短"
         ],
-        "source_url": "http://pr.tsmc.com/english/news/3300",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-        "has_source_body": true,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
+        "has_source_body": false,
         "company_page_writeback": {
           "targets": [
             "最新动态",
-            "财务地图",
-            "业务地图",
-            "风险与跟踪重点"
+            "当前结论",
+            "跟踪重点"
           ],
-          "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月10日投资者关系活动记录表",
+        "date": "2026-6-10",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
     ],
     "shennan": [
+      {
+        "draft_id": "auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年6月15日-16日投资者关系活动记录表",
+        "date": "2026-6-15",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票预案",
         "company": "shennan",
@@ -769,67 +847,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
-    ],
-    "wus": [
-      {
-        "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年6月10日投资者关系活动记录表",
-        "date": "2026-6-10",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年6月5日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年6月5日投资者关系活动记录表",
-        "date": "2026-6-5",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月5日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
     ]
   },
   "items": [
+    {
+      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "date": "2026-06-16",
+      "score": 10,
+      "readiness_score": 32,
+      "investment_signal_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     {
       "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
       "company": "nvidia",
@@ -911,31 +957,59 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
+      "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+      "date": "2026-6-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
       "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
       "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
+        "还没有抓到足够正文",
+        "可读内容偏短"
       ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
+          "当前结论",
+          "跟踪重点"
         ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年6月15日-16日投资者关系活动记录表",
+      "date": "2026-6-15",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
@@ -1152,62 +1226,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
       "portal_doc": "./docs/review-drafts/auto-eoptolink-一季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-eoptolink-三季度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "三季度报告",
-      "date": "20260605-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-三季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年6月5日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月5日投资者关系活动记录表",
-      "date": "2026-6-5",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月5日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

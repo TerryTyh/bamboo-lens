@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-06-15T17:00:07",
-  "source_event_store_at": "2026-06-15T17:00:07",
-  "source_decision_impact_at": "2026-06-15T17:00:07",
+  "generated_at": "2026-06-16T16:26:48",
+  "source_event_store_at": "2026-06-16T16:26:47",
+  "source_decision_impact_at": "2026-06-16T16:26:48",
   "items": [
     {
       "company": "tsmc",
