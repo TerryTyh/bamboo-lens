@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_AUTOMATION_HEALTH = {
-  "generated_at": "2026-06-18T22:52:28+08:00",
+  "generated_at": "2026-06-19T22:47:21+08:00",
   "status": "watch",
   "status_label": "需观察",
   "summary_notes": [
@@ -44,63 +44,63 @@ window.BAMBOO_LENS_AUTOMATION_HEALTH = {
       {
         "name": "official_candidates",
         "path": "云端研究简报系统/outputs/official_candidates.json",
-        "timestamp": "2026-06-18T14:49:29+08:00",
+        "timestamp": "2026-06-19T14:45:36+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "event_store",
         "path": "云端研究简报系统/outputs/event_store.json",
-        "timestamp": "2026-06-18T14:52:22+08:00",
+        "timestamp": "2026-06-19T14:47:15+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "decision_queue",
         "path": "云端研究简报系统/outputs/decision_queue.json",
-        "timestamp": "2026-06-18T14:52:22+08:00",
+        "timestamp": "2026-06-19T14:47:16+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "company_page_overrides",
         "path": "云端研究简报系统/outputs/company_page_overrides.json",
-        "timestamp": "2026-06-18T14:52:22+08:00",
+        "timestamp": "2026-06-19T14:47:16+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "readability_audit",
         "path": "云端研究简报系统/outputs/company_page_readability_audit.json",
-        "timestamp": "2026-06-18T14:52:22+08:00",
+        "timestamp": "2026-06-19T14:47:16+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "mainline_audit",
         "path": "云端研究简报系统/outputs/company_page_mainline_audit.json",
-        "timestamp": "2026-06-18T14:52:22+08:00",
+        "timestamp": "2026-06-19T14:47:16+08:00",
         "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "market_snapshot",
         "path": "云端研究简报系统/outputs/market_snapshot.json",
-        "timestamp": "2026-06-18T22:52:27+08:00",
+        "timestamp": "2026-06-19T22:47:21+08:00",
         "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "daily_brief",
         "path": "云端研究简报系统/outputs/daily_brief.md",
-        "timestamp": "2026-06-18T00:00:00+08:00",
-        "ageHours": 22.9,
+        "timestamp": "2026-06-19T00:00:00+08:00",
+        "ageHours": 22.8,
         "status": "healthy"
       },
       {
         "name": "morning_brief",
         "path": "云端研究简报系统/outputs/morning_brief.md",
-        "timestamp": "2026-06-19T00:00:00+08:00",
+        "timestamp": "2026-06-20T00:00:00+08:00",
         "ageHours": 0.0,
         "status": "healthy"
       }
@@ -110,7 +110,7 @@ window.BAMBOO_LENS_AUTOMATION_HEALTH = {
   },
   "brief_guard": {
     "status": "watch",
-    "today": "2026-06-18",
+    "today": "2026-06-19",
     "morningSameDay": false,
     "morningMeaningful": false,
     "dailySameDay": true,

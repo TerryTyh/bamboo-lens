@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T14:52:22",
-  "source_generated_at": "2026-06-18T14:52:22",
+  "generated_at": "2026-06-19T14:47:16",
+  "source_generated_at": "2026-06-19T14:47:15",
   "items": [
     {
       "company": "constellation",
@@ -2185,6 +2185,24 @@
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "date": "2026-06-18",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260619-144247__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260618,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
       "date": "2026-06-17",
       "type": "官方候选",
@@ -2416,9 +2434,9 @@
     }
   ],
   "summary": {
-    "total": 134,
+    "total": 135,
     "formal_events": 69,
-    "official_candidates": 65,
+    "official_candidates": 66,
     "companies": 15
   }
 }

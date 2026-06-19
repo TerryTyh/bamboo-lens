@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-18T14:52:22",
+  "generated_at": "2026-06-19T14:47:16",
   "summary": {
     "total": 14,
     "companies": 5,

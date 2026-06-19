@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-06-18T14:49:29",
+  "generated_at": "2026-06-19T14:45:36",
   "companies": {
     "nvidia": [
       {
@@ -251,6 +251,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_excerpt": "Play favorite titles from popular game libraries, keep progress synced and jump back into gaming sessions on virtually any device. That’s the power of GeForce NOW cloud gaming. From providing access to members’ favorite game libraries to offering some of the season’s best membership pricing, GeForce NOW is making it easier than ever to get more from the cloud this summer.",
         "source_body": "Play favorite titles from popular game libraries, keep progress synced and jump back into gaming sessions on virtually any device. That’s the power of GeForce NOW cloud gaming. From providing access to members’ favorite game libraries to offering some of the season’s best membership pricing, GeForce NOW is making it easier than ever to get more from the cloud this summer. Plus, check out the seven new games arriving in the GeForce NOW library this week. Whether it’s blockbuster franchises, competitive shooters, sprawling role-playing games (RPGs) or indie gems, GeForce NOW supports thousands of games from leading PC game stores, making it easy to bring existing game libraries to the cloud. Connect supported game store accounts and stream titles with GeForce RTX power. Games that include cloud-save functionality help keep progress intact across devices. Start a game on one screen, pick up where playtime left off on another and spend less time managing installs and storage space. Jump into fan favorites like Cyberpunk 2077 and The Witcher 3: Wild Hunt streaming through GOG . These sci-fi and fantasy favorites support cloud saves, making it easy to continue where play left off. GOG single sign-on and game library syncing — coming this summer — will make that process even smoother. Explore ancient mysteries in the Assassin’s Creed franchise or team up for tactical action in Tom Clancy’s Rainbow Six Siege through Ubisoft+ , delivering iconic worlds and competitive experiences to the cloud. Whether joining massive, all-in combat in Battlefield 6 or shaping the fate of Thedas with compelling companions in Dragon Age: The Veilguard , the EA app offers action-packed experiences and beloved RPGs. Find them in the GeForce NOW app by simply searching and filtering by store. Gaming doesn’t always happen at a desk — community members are sharing how GeForce NOW lets them play across their favorite devices. GeForce NOW Ambassador and cloud gaming creator Anytime Anywhere Gaming recently showcased Dead as Disco — a PC title without a native mobile version — running on an iPhone through the cloud.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260618-144644__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+        "date": "2026-06-18",
+        "fetched_at": "20260619-144247",
+        "type": "官方候选",
+        "fact": "日期：2026-06-18；标题：How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability；原文内容：In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the cr…；来源：https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260618,
+        "source_url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+        "source_excerpt": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the cr…",
+        "source_body": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabrication support systems and advanced manufacturing facilities can connect to the grid. In the era of AI, which NVIDIA founder and CEO Jensen Huang has described as a five-layer cake , energy is the critical foundation of technological innovation. FERC’s actions do more than modernize the grid interconnection queue — the approval process power developers must complete to safely connect new energy generation to the electrical grid. Following U.S. Secretary of Energy Chris Wright’s order directing FERC to address large-load interconnection, the actions establish national policy for how America can simultaneously lower energy costs, grow its industrial base, scale AI and strengthen the electrical grid. For policymakers, utilities and technology partners, the message is clear: This is a pro-growth, pro-affordability and pro-reliability policy. At its core, the new framework cuts through burdensome bureaucratic red tape and aligns industry incentives. Large customers are no longer passive entrants into an overburdened interconnection queue. They’re active participants in building the infrastructure they require. That means: Customers that can demonstrate flexibility — shifting or curtailing load in response to grid conditions — can move through the process on accelerated timelines, with study periods potentially as short as 60 days, per Secretary Wright’s directive . This is not just faster interconnection. It’s smarter interconnection. Electric grids are capital-intensive systems with high fixed costs. When more demand is added efficiently, those costs are spread across a broader base — lowering prices per unit. Lawrence Berkeley National Laboratory found that every 10% increase in state electricity consumption correlates with an approximately 6-cents-per-kilowatt-hour reduction in retail electricity prices. In other words, grid growth — when done right — lowers costs. This dynamic is already playing out at the state level: Inversely, states that fail to attract new load risk concentrating system costs on a shrinking customer base — putting upward pressure on rates for households and small businesses.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260619-144247__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests",
         "company": "nvidia",
         "company_name": "NVIDIA",
