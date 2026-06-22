@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-06-12T14:39:28",
-  "source_event_store_at": "2026-06-12T14:39:28",
-  "source_deposition_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-22T22:36:29",
+  "source_event_store_at": "2026-06-22T22:36:29",
+  "source_deposition_at": "2026-06-22T22:36:29",
   "companies": {
     "tsmc": {
       "source": "decision_deposition",
@@ -9,7 +9,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "sourceEventDate": "2026-06-10",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-12T14:39:28",
+      "updatedAt": "2026-06-22T22:36:29",
       "latestEvent": "2026-06-10｜2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "businessImpact": "业务上，5 月营收继续高位，更像是对 Q1 财报和 4 月营收之后的延续确认。结合此前 Q1 中先进制程占晶圆收入 74%、HPC 是主要收入驱动的框架，5 月数据支持“先进制程与 AI/HPC 需求仍在承接高收入台阶”的判断。限制是，公告没有拆出 HPC、智能手机、汽车、IoT 或先进封装贡献，不能据此判断是哪一条业务线新增加速。",
       "valuationImpact": "估值/动作上，5 月营收支持 TSMC 继续保持 A 池核心和质量溢价，但不构成新的追高信号。真正决定估值中枢的仍是 Q2 指引能否完整兑现、毛利率是否维持在 65.5%-67.5%、以及高资本开支和海外扩产是否侵蚀自由现金流。动作上维持核心跟踪，不因单月收入上行加仓；下一步用 6 月营收和 Q2 财报确认收入高位是否能转化为高质量利润。",
@@ -163,15 +163,15 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
     "nvidia": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
-      "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "sourceEventDate": "2026-06-07",
+      "sourceEventTitle": "Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+      "sourceEventDate": "2026-06-09",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-12T14:39:28",
-      "latestEvent": "2026-06-07｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "businessImpact": "业务影响主要落在 Data Center、networking、AI factory software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 hyperscaler 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权 AI 场景，扩展 NVIDIA 在亚洲企业 AI 与 physical AI 的需求承接层。",
-      "valuationImpact": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源，从美国超大云厂商资本开支，延伸到韩国电信运营商主导的 AI 云建设。正面在于原文给出了 gigawatt-scale、2027 上线、DSX 全栈架构和联合研究这些具体抓手，说明 AI factory 模式已开始从概念走向区域级部署。限制在于仍缺少合同金额、GPU 数量、投产节奏和软件收入占比，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把“telco 是否成为下一批 AI 基础设施客户”列为高优先级跟踪主线。",
-      "nextCheck": "跟踪 SK Telecom 后续是否披露首座 AI factory 的 GPU 配置、功率规模、资本开支和客户签约节奏，确认 2027 上线不是概念性口径。；观察 NVIDIA 财报或电话会是否开始把 telco AI cloud、sovereign AI、AI factory software 或亚洲区域云合作列为新增需求来源。",
-      "action": "维持 A 池核心，并提高“电信运营商转型 AI 云基础设施平台”验证权重",
+      "updatedAt": "2026-06-22T22:36:29",
+      "latestEvent": "2026-06-09｜Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+      "businessImpact": "业务层面，这条事件把 NVIDIA 的推理能力进一步延伸到高隐私消费级 AI 云端基础设施。Apple Intelligence 若要把更多模型能力放到云端，就必须同时解决延迟、吞吐和隐私保护；NVIDIA 在这里提供的不是普通 GPU，而是可嵌入 PCC 安全架构的机密计算底座。若这类需求扩大，NVIDIA 的价值将不只来自训练和企业推理，还可能覆盖消费级云端推理、可信执行环境以及更严格合规场景下的推理部署。",
+      "valuationImpact": "估值和动作上，这条事件更像中期平台化证据，而不是短期业绩催化。正面在于，Apple、Google Cloud 与 NVIDIA Blackwell 机密计算被放进同一条实际部署链路，证明云端推理的竞争维度正在从单纯算力和成本，扩展到安全隔离与可验证可信执行。限制在于，文章没有披露部署规模、GPU 数量、定价或长期采购承诺，因此不能据此直接上调收入预测。动作上维持 A 池核心，把 confidential inference 是否成为新的高附加值推理赛道列入验证清单。",
+      "nextCheck": "跟踪 Apple 后续是否披露更多基于 PCC 的云端功能范围、上线节奏或推理规模，判断这是否只是试点而非广泛部署。；观察 Google Cloud 与 NVIDIA 后续是否把 Blackwell confidential inference 产品化成更标准的云服务能力，并出现更多客户案例。",
+      "action": "维持 A 池核心；把机密推理与消费级云端 AI 部署列为新增验证线",
       "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
       "writebackQuality": {
         "status": "needs_model_update",
@@ -194,16 +194,16 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
           "segments": [
             {
               "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-              "scale": "2026-06-07｜AI 云基础设施 / 电信 AI 平台 / 主权 AI",
-              "text": "业务影响主要落在 Data Center、networking、AI factory software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 hyperscaler 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权 AI 场景，扩展 NVIDIA 在亚洲企业 AI 与 physical AI 的需求承接层。 原文要点：原文先宣布 SK Telecom 将在韩国建设 gigawatt-scale AI Cloud，底层采用 NVIDIA DSX 全栈 AI factory 参考架构，首座 AI 工厂计划在 2027 年上线。文章重点不是单笔 GPU 采购，而是在把韩国电信运营商的网络、数据中心和企业客户基础，改造成面向训练、推理和智能体工作负载的 AI 云基础设施。；原文进一步解释这朵 AI Cloud 的定位：它不是通用云，而是专门为 AI 训练、推理和 agentic AI 设计的 GPU 云。SK Telecom 将依托自身网络、数据中心和企业基础设施，为韩国企业和行业提供 sovereign、physical 和 enterprise AI 服务，并把覆盖范围向更广泛亚洲地区扩展。；技术栈部分，文章明确点出 NVIDIA DSX 会作为架构蓝图，组合 accelerate…"
+              "title": "财报/经营验证｜Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+              "scale": "2026-06-09｜机密计算 / 云端推理基础设施",
+              "text": "业务层面，这条事件把 NVIDIA 的推理能力进一步延伸到高隐私消费级 AI 云端基础设施。Apple Intelligence 若要把更多模型能力放到云端，就必须同时解决延迟、吞吐和隐私保护；NVIDIA 在这里提供的不是普通 GPU，而是可嵌入 PCC 安全架构的机密计算底座。若这类需求扩大，NVIDIA 的价值将不只来自训练和企业推理，还可能覆盖消费级云端推理、可信执行环境以及更严格合规场景下的推理部署。 原文要点：这篇原文讲的不是普通合作站台，而是 Apple 的 Private Cloud Compute（PCC）开始从自有数据中心扩展到 Google Cloud，并在这个过程中使用带机密计算能力的 NVIDIA Blackwell GPU 处理 Apple Foundation Models 的服务端推理。核心问题不是 Apple 上不上 NVIDIA，而是高隐私消费级 AI 推理是否开始需要云端机密计算能力。；原文先交代 PCC 的变化：Apple Intelligence 的部分下一代功能，将把服务端推理能力放到 Google Cloud，同时仍保持 PCC 的硬件安全架构。NVIDIA 在这里与 Apple 和 Google 协作，提供带 Confidential Computing 的 Blackwell GPU，使敏感数据在进入服务器前，可以先验证底层基础设施没有被篡改。；文章对机密计算的解释很明确。NVIDIA Confidential Computing 通过硬件级可信执行环境隔离 AI 工作负载，并允许系统以…"
             }
           ],
           "moat": [
             {
               "key": "business-moat-财报-经营验证",
               "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是一条 P1 级 AI 基础设施扩张事件。关键增量不只是 SK Telecom 新买一批 GPU，而是电信运营商开始按“国家级 AI 云 + AI factory”模式重构算力供给。对 NVIDIA 而言，这说明需求曲线正从 hyperscaler 与国家实验室继续外扩到拥有网络、机房和企业客户入口的 telco 平台，平台化叙事进一步落到可执行项目和时间表上。"
+              "text": "这是一条 P2 级平台能力强化事件。它暂时没有披露订单规模或收入贡献，但说明 NVIDIA 正在进入更高价值的云端推理安全层，而不仅是提供通用算力。对判断最关键的是，消费级 AI 与云端推理开始把隐私、安全和可信执行能力纳入采购条件，Blackwell 的平台价值由此向机密计算延伸。"
             }
           ]
         },
@@ -230,23 +230,23 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "depositEvents": [
         {
           "eventIndex": 0,
-          "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-          "date": "2026-06-07",
-          "priority": "P1",
+          "title": "Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+          "date": "2026-06-09",
+          "priority": "P2",
           "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
         },
         {
           "eventIndex": 1,
-          "title": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
-          "date": "2026-06-02",
-          "priority": "P2",
+          "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
+          "date": "2026-06-07",
+          "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
         },
         {
           "eventIndex": 2,
-          "title": "NemoClaw 切入 EDA/CAE 工作流，NVIDIA 开始把工业软件智能体推向生产级落地",
-          "date": "2026-06-02",
-          "priority": "P2",
+          "title": "英国主权 AI 基建一年内翻倍扩容，NVIDIA 开始把国家级算力、区域云与本土创业生态接成同一承接层",
+          "date": "2026-06-07",
+          "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
         }
       ]
@@ -257,7 +257,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-06-12T14:39:28",
+      "updatedAt": "2026-06-22T22:36:29",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",

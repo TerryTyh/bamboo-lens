@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T14:39:28",
-  "source_overrides_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-22T22:36:29",
+  "source_overrides_at": "2026-06-22T22:36:29",
   "items": [
     {
       "company": "constellation",
@@ -38,8 +38,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "sourceEventDate": "2026-06-07",
+      "sourceEventTitle": "Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+      "sourceEventDate": "2026-06-09",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:39:28",
+  "generated_at": "2026-06-22T22:36:29",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,43 @@
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "Apple 把 PCC 扩到 Google Cloud，NVIDIA 以 Blackwell 机密计算切入高隐私云端推理底座",
+          "source_candidate_title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+          "date": "2026-06-09",
+          "fetched_at": "",
+          "type": "机密计算 / 云端推理基础设施",
+          "fact": "2026-06-09，NVIDIA 披露其带机密计算能力的 GPU 已用于 Apple Private Cloud Compute 的 confidential inference。随着 PCC 从 Apple 自有数据中心扩展到 Google Cloud，NVIDIA 与 Apple、Google 协作，使用集成在 Google Cloud 上的 NVIDIA Blackwell GPU 与 PCC 硬件安全架构，支持 Apple Foundation Models 的服务端推理。原文同时说明 NVIDIA Confidential Computing 通过可信执行环境隔离 AI 工作负载，并在敏感数据发送到服务器前，以加密方式验证底层基础设施未被篡改。",
+          "judgment": "这是一条 P2 级平台能力强化事件。它暂时没有披露订单规模或收入贡献，但说明 NVIDIA 正在进入更高价值的云端推理安全层，而不仅是提供通用算力。对判断最关键的是，消费级 AI 与云端推理开始把隐私、安全和可信执行能力纳入采购条件，Blackwell 的平台价值由此向机密计算延伸。",
+          "action": "维持 A 池核心；把机密推理与消费级云端 AI 部署列为新增验证线",
+          "priority": "P2",
+          "sort_key": 20260609,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+          "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "这篇原文讲的不是普通合作站台，而是 Apple 的 Private Cloud Compute（PCC）开始从自有数据中心扩展到 Google Cloud，并在这个过程中使用带机密计算能力的 NVIDIA Blackwell GPU 处理 Apple Foundation Models 的服务端推理。核心问题不是 Apple 上不上 NVIDIA，而是高隐私消费级 AI 推理是否开始需要云端机密计算能力。",
+            "原文先交代 PCC 的变化：Apple Intelligence 的部分下一代功能，将把服务端推理能力放到 Google Cloud，同时仍保持 PCC 的硬件安全架构。NVIDIA 在这里与 Apple 和 Google 协作，提供带 Confidential Computing 的 Blackwell GPU，使敏感数据在进入服务器前，可以先验证底层基础设施没有被篡改。",
+            "文章对机密计算的解释很明确。NVIDIA Confidential Computing 通过硬件级可信执行环境隔离 AI 工作负载，并允许系统以加密方式证明底层基础设施未被篡改；对最终用户而言，连系统构建者也无法查看其数据、聊天或对话内容。这意味着 NVIDIA 切入的不是普通推理算力，而是更高安全等级的云端推理场景。",
+            "从投资视角更重要的是，这把 NVIDIA 的角色从企业/科研/主权 AI 扩展到消费级大模型云端推理与隐私保护基础设施。Apple、Google Cloud 和 Blackwell 机密计算出现在同一条链路里，说明未来云端 AI 推理的竞争不只比吞吐和成本，也开始比安全隔离、可信执行和合规能力。"
+          ],
+          "evidence": [
+            "原文明确称 NVIDIA GPUs with Confidential Computing 已用于 Apple Private Cloud Compute 的 confidential inference。",
+            "PCC 的部署范围从 Apple 自有数据中心扩展到 Google Cloud，说明这不是封闭私有环境，而是开始进入外部云基础设施。",
+            "NVIDIA 与 Apple、Google 协作，使用 NVIDIA Blackwell GPUs with Confidential Computing 集成到 PCC 的 hardware security architecture 中。",
+            "文章解释机密计算通过 trusted execution environments 隔离 AI 工作负载，并在敏感数据发送前对基础设施完整性做 cryptographic verification。",
+            "原文强调即使是系统构建者也无法查看用户数据、聊天或对话内容，说明这条能力主打高隐私、高信任等级的云端推理场景。"
+          ],
+          "business_analysis": "业务层面，这条事件把 NVIDIA 的推理能力进一步延伸到高隐私消费级 AI 云端基础设施。Apple Intelligence 若要把更多模型能力放到云端，就必须同时解决延迟、吞吐和隐私保护；NVIDIA 在这里提供的不是普通 GPU，而是可嵌入 PCC 安全架构的机密计算底座。若这类需求扩大，NVIDIA 的价值将不只来自训练和企业推理，还可能覆盖消费级云端推理、可信执行环境以及更严格合规场景下的推理部署。",
+          "valuation_analysis": "估值和动作上，这条事件更像中期平台化证据，而不是短期业绩催化。正面在于，Apple、Google Cloud 与 NVIDIA Blackwell 机密计算被放进同一条实际部署链路，证明云端推理的竞争维度正在从单纯算力和成本，扩展到安全隔离与可验证可信执行。限制在于，文章没有披露部署规模、GPU 数量、定价或长期采购承诺，因此不能据此直接上调收入预测。动作上维持 A 池核心，把 confidential inference 是否成为新的高附加值推理赛道列入验证清单。",
+          "verification": [
+            "跟踪 Apple 后续是否披露更多基于 PCC 的云端功能范围、上线节奏或推理规模，判断这是否只是试点而非广泛部署。",
+            "观察 Google Cloud 与 NVIDIA 后续是否把 Blackwell confidential inference 产品化成更标准的云服务能力，并出现更多客户案例。",
+            "继续看 NVIDIA 财报中推理需求、软件附加率和机密计算相关口径，验证安全推理是否开始形成收入贡献。",
+            "关注消费级 AI 对隐私、安全和合规要求提升后，是否推动更多云端模型部署采用 trusted execution 与 confidential computing。"
+          ],
+          "reviewed_at": "2026-06-22T23:05:00",
+          "review_status": "reviewed"
+        },
         {
           "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
           "source_candidate_title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
@@ -43,6 +80,43 @@
             "跟踪韩国与亚洲其他运营商是否复制同类 DSX 模式，验证这是否会成为 NVIDIA 新的区域扩张模板。"
           ],
           "reviewed_at": "2026-06-10T10:05:46",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "英国主权 AI 基建一年内翻倍扩容，NVIDIA 开始把国家级算力、区域云与本土创业生态接成同一承接层",
+          "source_candidate_title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
+          "date": "2026-06-07",
+          "fetched_at": "",
+          "type": "主权 AI / 区域云基础设施",
+          "fact": "2026-06-07，NVIDIA 披露英国主权 AI 基建的最新落地进展：过去一年，计划在英国本土部署 AI 基础设施的 AI 云提供商数量已翻倍；Nebius 计划新增三处先进 NVIDIA AI 基建设施，全部爬坡完成后预计在 2027 年达到 65 兆瓦；CoreWeave 正在英国 AI Growth Zones 建设，另有七家 NVIDIA AI Cloud 生态伙伴在推进中。BT 与 Nscale 计划在三处 BT 站点建设主权 AI 数据中心。科研算力侧，Isambard-AI 基于 5,400 颗 NVIDIA GH200 Grace Hopper Superchips 并使用零碳电力运行；英国 Sovereign AI Fund 已开始把这类本土算力支持给 Ineffable Intelligence 等本国公司。",
+          "judgment": "这是一条 P1 级需求承接层强化事件。它的重要性不在于英国又宣布支持 AI，而在于 NVIDIA 已经把主权 AI 叙事落成更完整的供给链条：区域云、国家级科研算力、电信机房和本土创业公司开始围绕同一套平台部署和消费算力。对投资判断更关键的是，这说明 NVIDIA 的新增需求来源正在从超大云厂商继续外溢到国家级与区域级基础设施层。",
+          "action": "维持 A 池核心，并上调主权 AI 与区域云落地验证优先级",
+          "priority": "P1",
+          "sort_key": 20260607,
+          "source_url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+          "source_doc": "云端研究简报系统/outputs/snapshots/nvidia__20260608-152847__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "这篇原文不是泛泛而谈英国重视 AI，而是在交代过去一年英国如何把“做 AI 的国家、而不是只买 AI 的国家”落成一套具体基础设施。文章先回顾 Jensen Huang 与英国首相去年在 London Tech Week 提出的主权 AI 方向，再展示一年后已经出现的算力扩容、区域云部署和本土创业项目承接。",
+            "最核心的信息是英国本土 AI 基础设施的新增供给。原文说，计划在英国本土部署 AI 基础设施的 AI 云提供商数量一年内已经翻倍；Nebius 计划新增三处先进 NVIDIA AI 基建部署，全部爬坡完成后预计在 2027 年达到 65 兆瓦；CoreWeave 正在英国政府设定的 AI Growth Zones 建设，另有七家 NVIDIA AI Cloud 生态伙伴仍在推进中。",
+            "文章还把英国电信网络、主权数据中心与国家级科研算力放在同一张图里。BT 与 Nscale 计划在英国三处既有 BT 站点建设主权 AI 数据中心，把 NVIDIA AI 基础设施、Nscale 全栈能力和 BT 全国连接骨干结合起来；Isambard-AI 被描述为英国最强计算机，基于 5,400 颗 NVIDIA GH200 Grace Hopper Superchips，并全部使用零碳电力运行。",
+            "更重要的是，这些算力不是停留在展示层。英国政府 Sovereign AI Fund 已开始把本土算力直接分配给本国公司，其中包括刚宣布与 NVIDIA 合作强化强化学习基础设施的 Ineffable Intelligence，以及多家使用 Isambard-AI 的 NVIDIA Inception 创业公司。也就是说，NVIDIA 正在把主权 AI 的需求从“政府想建算力”推进到“区域云、科研算力和本土创业生态都开始消耗这套平台”。"
+          ],
+          "evidence": [
+            "原文直接称，过去一年计划在英国本土部署 AI 基础设施的 AI cloud providers 数量已经翻倍。",
+            "Nebius 宣布三处新的先进 NVIDIA AI 基建设施，完全爬坡后预计在 2027 年达到 65 megawatts。",
+            "BT 与 Nscale 计划在三处既有 BT 站点建设 sovereign AI data centers，把 NVIDIA AI 基础设施、Nscale 全栈和 BT 全国连接骨干整合起来。",
+            "Isambard-AI 被描述为英国最强计算机，基于 5,400 颗 NVIDIA GH200 Grace Hopper Superchips，并全部使用 zero-carbon electricity。",
+            "英国 Sovereign AI Fund 已把本土算力资源分配给 Ineffable Intelligence 等本国公司，说明主权算力开始进入创业和科研实际使用，而不是停留在政策宣示。"
+          ],
+          "business_analysis": "业务层面，这条事件强化了 NVIDIA 在主权 AI 与区域云基础设施中的平台位置。65 兆瓦级别的新增部署、BT/Nscale 的主权数据中心计划以及 5,400 颗 GH200 的国家科研集群，说明需求已经不仅是云厂商训练集群，而是开始覆盖电信机房、本国科研、创业孵化和监管敏感行业。这样一来，NVIDIA 不只是卖 GPU，而是在区域云、电信连接、主权控制和本土 AI 创新之间提供一套可复用的平台底座，延长需求曲线并分散客户结构。",
+          "valuation_analysis": "估值和动作上，这条事件支持高估值中的主权 AI 与区域云扩散逻辑，但仍不足以单独上调短期盈利预测。正面在于，原文给出了可验证的容量与部署信号，包括 provider 数量翻倍、Nebius 65 兆瓦、BT/Nscale 三站点和 5,400 颗 GH200；这比泛泛合作新闻更接近真实基建节奏。限制在于，文章没有披露 NVIDIA 对应的订单金额、装机节奏、利用率和毛利率贡献。动作上维持 A 池核心，但要把主权 AI 需求是否能持续转成高质量数据中心收入列为下一阶段重点验证。",
+          "verification": [
+            "跟踪 Nebius、BT、Nscale、CoreWeave 等后续是否披露英国项目的 GPU 数量、上线时间、利用率或客户案例，判断 65 兆瓦与三站点是否真正落地。",
+            "观察 NVIDIA 财报或电话会里是否开始更频繁提到 sovereign AI、regional AI clouds 和 telecom AI infrastructure，并对应到数据中心收入结构。",
+            "继续看 Isambard-AI 与 Sovereign AI Fund 支持的本土公司是否披露训练、推理或商业化进展，验证主权算力是否形成可持续工作负载。",
+            "关注英国及欧洲电力、监管、数据主权和融资约束是否拖慢本地主权 AI 基建扩张节奏。"
+          ],
+          "reviewed_at": "2026-06-22T22:55:00",
           "review_status": "reviewed"
         },
         {
@@ -583,7 +657,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -595,7 +669,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -607,7 +681,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -619,7 +693,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -631,7 +705,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -643,7 +717,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -727,22 +801,6 @@
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
-          "date": "2026-06-07",
-          "fetched_at": "20260608-152847",
-          "type": "官方候选",
-          "fact": "日期：2026-06-07；标题：How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies；原文内容：A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration : the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation’s infrastructure, startups and enterprises. U.K. technology leaders are innovating across healthcare and life sciences…；来源：https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260607,
-          "source_url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
-          "source_excerpt": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration : the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation’s infrastructure, startups and enterprises. U.K. technology leaders are innovating across healthcare and life sciences…",
-          "source_body": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration : the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation’s infrastructure, startups and enterprises. U.K. technology leaders are innovating across healthcare and life sciences, coding, agentic AI, inference and more — all running on sovereign AI deployments. AI Minister Kanishka Narayan said: “A year ago, we said the UK would be an AI maker, not an AI taker. Today we’re delivering on that — with sovereign compute powering British startups to push the boundaries of what AI can do, from drug discovery to healthcare to robotics. This is what it looks like when a country backs its own talent with the infrastructure to match. “NVIDIA’s decision to invest billions here is a reflection of the strength of what’s being built in Britain. We are determined to make sure the next generation of AI breakthroughs happens in this country, and we have everything we need to make it happen.” Over the past year, the number of AI cloud providers planning to deploy AI infrastructure on U.K. soil has doubled. Nebius has announced plans to expand customers and cloud capabilities with three new deployments of advanced NVIDIA AI infrastructure, as the NVIDIA AI Cloud ecosystem partner continues to build out its commercial and AI R&D hub in London. Combined, the deployments are expected to reach 65 megawatts when fully ramped up in 2027. CoreWeave is building in the U.K. Government’s AI Growth Zones, and seven more NVIDIA AI Cloud ecosystem partners have plans in the pipeline. BT and Nscale announced plans to build sovereign AI data centers across three existing BT sites in the U.K., combining NVIDIA AI infrastructure, Nscale’s full stack and BT’s trusted nationwide connectivity backbone. Central to that sovereign compute story is Isambard-AI — the U.K.’s most powerful computer. Built on 5,400 NVIDIA GH200 Grace Hopper Superchips and running entirely on zero-carbon electricity, it’s the engine behind some of the U.K.’s most ambitious AI research. The U.K. government’s Sovereign AI Fund is putting that capability to work by backing homegrown companies and providing the domestic infrastructure needed to scale their ambitions. Among its first recipients is Ineffable Intelligence , which recently announced a collaboration with NVIDIA to build the future of reinforcement learning infrastructure. Other recipients include four U.K.-based NVIDIA Inception startups, each pushing the AI frontier using Isambard-AI. These startups are:",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260608-152847__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
           "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
           "date": "2026-06-07",
           "fetched_at": "20260608-152847",
@@ -818,22 +876,6 @@
           "source_excerpt": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RT…",
           "source_body": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RTX Spark-powered systems. Designed for local AI, creating and gaming, RTX Spark brings together 30 years of NVIDIA innovation to slim Windows laptops with all-day battery life and small, ultraefficient desktop PCs. With the superchip, gamers can play AAA games at 1440p resolution and over 100 frames per second with NVIDIA ray tracing, DLSS and Reflex technologies. In addition, RTX Spark supports all NVIDIA RTX technologies, including the recently announced DLSS 4.5 Ray Reconstruction , which features a second-generation transformer model for realistic image quality. Korea has played a major role in spearheading esports and driving the boom in PC bangs, or internet and gaming cafes. With longstanding collaborations rooted in the country, NVIDIA in October celebrated 25 years of GeForce in Korea with a free festival for gamers, highlighting the rich gaming ecosystem that has been built over decades. On Friday, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark. NVIDIA and Riot Games — developer of League of Legends — are collaborating to bring the title as well as VALORANT to RTX Spark, expanding gamers’ access to high-performance gaming on slim laptops. To mark the occasion, T1 Base Camp attendees had the chance to win RTX Spark laptops, League of Legends and T1 merch signed by Huang and Faker, as well as GeForce RTX 5090 GPUs. Later, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC. At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers. Gamers then got the surprise chance to play with the unreleased PUBG Ally, a co-playable character built with NVIDIA ACE technologies on RTX Spark laptops. PUBG Ally resulted from AI research and development at KRAFTON and NVIDIA, part of an initiative to create next-generation game characters that act like teammates and enable more meaningful, immersive engagements with players. Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260608-152847__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "title": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-          "date": "2026-06-09",
-          "fetched_at": "20260610-145251",
-          "type": "官方候选",
-          "fact": "日期：2026-06-09；标题：NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute；原文内容：NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…；来源：https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260609,
-          "source_url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-          "source_excerpt": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini…",
-          "source_body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in Apple’s Private Cloud Compute (PCC), as it expands beyond Apple’s data centers to Google Cloud. Unveiled during Apple’s annual WWDC gathering for developers from around the globe, NVIDIA GPUs will support server-side inference for Apple Foundation Models , custom-built by Apple and Google, leveraging the technologies behind the Gemini family of models. NVIDIA is collaborating with Apple and Google to support some of the next-generation Apple Intelligence features, using NVIDIA Blackwell GPUs with Confidential Computing integrated into Private Cloud Compute’s hardware security architecture running on Google Cloud. NVIDIA Confidential Computing provides a hardware-based security layer for accelerated AI workloads. The technology protects data while it’s being processed by isolating workloads in trusted execution environments and enabling systems to cryptographically verify that the infrastructure has not been tampered with before any sensitive data is sent to the server. For end users, NVIDIA Confidential Computing means that no one, not even the system’s builders, can look at their data, chats or conversations. NVIDIA Confidential Computing reflects NVIDIA’s commitment to trustworthy AI and includes these key capabilities: Learn more about NVIDIA Confidential Computing and NVIDIA AI cybersecurity solutions.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260610-145251__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
@@ -1174,7 +1216,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -1186,7 +1228,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -1235,7 +1277,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -1247,7 +1289,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -1259,7 +1301,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -1271,7 +1313,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1324,7 +1366,7 @@
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1336,7 +1378,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -1348,7 +1390,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1360,7 +1402,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -1372,7 +1414,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -1384,7 +1426,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1405,7 +1447,7 @@
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -1417,7 +1459,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -1429,7 +1471,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -1441,7 +1483,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -1453,7 +1495,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -1465,7 +1507,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -1486,7 +1528,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -1498,7 +1540,7 @@
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -1510,7 +1552,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -1522,7 +1564,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -1534,7 +1576,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -1546,7 +1588,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1688,7 +1730,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -1700,7 +1742,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -1712,7 +1754,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -1724,7 +1766,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -1736,7 +1778,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -1748,7 +1790,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1785,7 +1827,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -1797,7 +1839,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -1809,7 +1851,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -1821,7 +1863,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -1833,7 +1875,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -1845,7 +1887,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -1857,7 +1899,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2038,7 +2080,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -2050,7 +2092,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -2062,7 +2104,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -2074,7 +2116,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/6d15/一个财务投资应用/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
