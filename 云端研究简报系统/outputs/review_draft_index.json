@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-19T14:47:16",
+  "generated_at": "2026-06-22T16:33:24",
   "summary": {
     "total": 14,
     "companies": 5,
-    "with_source_body": 3,
+    "with_source_body": 4,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "needs_source": 12
+      "ready_for_deep_review": 3,
+      "needs_source": 11
     },
     "priority_batch": [
       {
@@ -51,6 +51,31 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+        "date": "2026-06-22",
+        "score": 10,
+        "readiness_score": 28,
+        "investment_signal_score": 6,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -107,6 +132,31 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "nvidia::nairr science program reshapes scientific research, powered by nvidia ai infrastructure": {
+      "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "date": "2026-06-22",
+      "score": 10,
+      "readiness_score": 28,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -421,34 +471,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "wus::沪电股份：2026年6月10日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月10日投资者关系活动记录表",
-      "date": "2026-6-10",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -524,6 +546,31 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+        "date": "2026-06-22",
+        "score": 10,
+        "readiness_score": 28,
+        "investment_signal_score": 6,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -611,34 +658,6 @@
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
         "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年6月10日投资者关系活动记录表",
-        "date": "2026-6-10",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -891,6 +910,31 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "date": "2026-06-22",
+      "score": 10,
+      "readiness_score": 28,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -1198,34 +1242,6 @@
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月10日投资者关系活动记录表",
-      "date": "2026-6-10",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
