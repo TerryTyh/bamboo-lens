@@ -15,10 +15,10 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
   },
   summary: {
     a_core: 8,
-    b_watch: 1,
+    b_watch: 2,
     c_radar: 0,
     paused: 0,
-    next_focus: "首轮复评先维持 8A+1B 结构；6 月重点看 A 层估值容错率、现金流质量，以及长电科技先进封装兑现度；后续候选发现优先纠偏中企/外资比例。",
+    next_focus: "首轮复评先维持 8A 结构；6 月重点看 A 层估值容错率、现金流质量，以及长电科技先进封装和工业富联 AI 服务器 ODM 兑现度；后续候选发现优先纠偏中企/外资比例。",
   },
   cadence: [
     {
@@ -189,6 +189,20 @@ window.BAMBOO_LENS_RESEARCH_POOL = {
       review_result: "维持强 B 层重点观察",
       review_note: "最小研究包已完成，但先进封装、长电微亏损、毛利率和现金流仍未达到建正式主页标准；下轮只看关键验证点，不因持仓或主题热度升 A。",
       action: "保留最小研究包，暂不建正式主页。",
+    },
+    {
+      id: "fii",
+      name: "工业富联",
+      level: "B+",
+      level_label: "B+ 层观察",
+      thesis: "AI 服务器 ODM 与云服务商硬件制造",
+      review_focus: "AI 服务器收入质量、云计算毛利率、经营现金流、存货、应收账款和客户集中度。",
+      next_review: "2026H1/Q2",
+      upgrade_trigger: "AI 服务器/云计算高增继续兑现，毛利率改善，经营现金流覆盖净利润，存货和应收不再快于收入扩张。",
+      downgrade_trigger: "收入增长主要来自低毛利放量，现金流重新弱于利润，存货跌价或客户账期压力扩大。",
+      review_result: "由 B 观察候选上调至 B+ 观察",
+      review_note: "正式观察卡已完成：2025 年云计算收入 6026.79 亿元、2026Q1 云计算同比翻倍，AI GPU 机柜和 AI ASIC 服务器出货高增；但低毛利、客户集中和营运资本压力仍限制升 A。",
+      action: "保留 B+，下一轮只看 2026H1/Q2 现金流、毛利率、存货和应收。",
     },
   ],
 };

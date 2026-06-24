@@ -206,23 +206,23 @@ a:hover {
 }
 
 .home-main #workbench {
-  order: 1;
+  order: 8;
 }
 
 .home-main #valuation {
-  order: 2;
+  order: 8;
 }
 
 .home-main #researchPool {
-  order: 3;
+  order: 8;
 }
 
 .home-main #updates {
-  order: 4;
+  order: 2;
 }
 
 .home-main #companies {
-  order: 5;
+  order: 3;
 }
 
 .home-main #decisionImpact {
@@ -238,7 +238,7 @@ a:hover {
 }
 
 .home-main #resources {
-  order: 9;
+  order: 4;
 }
 
 .home-main #cloudSync {
@@ -347,7 +347,7 @@ a:hover {
 
 .portfolio-table {
   width: 100%;
-  min-width: 900px;
+  min-width: 1080px;
   border-collapse: collapse;
 }
 
@@ -380,7 +380,7 @@ a:hover {
 }
 
 .portfolio-table tbody th {
-  width: 150px;
+  width: 170px;
 }
 
 .portfolio-table a {
@@ -402,6 +402,20 @@ a:hover {
 .portfolio-table .company-tag {
   display: inline-flex;
   margin-top: 8px;
+}
+
+.board-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.board-link-row a {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(215, 234, 216, 0.55);
+  border: 1px solid rgba(18, 71, 52, 0.12);
+  font-size: 13px;
 }
 
 .portfolio-board-side {
@@ -1544,8 +1558,11 @@ a:hover {
 }
 
 .company-card {
-  padding: 20px;
-  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  padding: 18px;
+  border-radius: 16px;
   background: #fffaf3;
   border: 1px solid var(--border);
 }
@@ -1558,6 +1575,12 @@ a:hover {
 .company-card li {
   color: var(--muted);
   line-height: 1.7;
+}
+
+.company-card-meta {
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
 }
 
 .company-card a,
@@ -2189,6 +2212,40 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.resource-quick-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.resource-quick-grid article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(255, 248, 239, 0.86);
+  border: 1px solid var(--border);
+}
+
+.resource-quick-grid a {
+  width: fit-content;
+  font-weight: 700;
+}
+
+.resource-archive {
+  margin-top: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.resource-archive summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 800;
+}
+
 .resource-group-label {
   margin: 18px 0 10px;
   color: var(--pine);
@@ -2440,6 +2497,7 @@ a:hover {
   }
 
   .status-strip,
+  .resource-quick-grid,
   .company-kpi-grid,
   .company-decision-board,
   .portfolio-board-layout,
@@ -2540,6 +2598,7 @@ a:hover {
   .reading-path,
   .company-grid,
   .status-strip,
+  .resource-quick-grid,
   .company-kpi-grid,
   .company-decision-board,
   .portfolio-board-layout,

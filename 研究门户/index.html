@@ -16,10 +16,9 @@
             以长期高潜力公司研究为主线，用你的真实决策场景校准研究优先级。
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#valuation">估值总览</a>
+            <a class="button primary" href="#portfolioOverview">组合看板</a>
             <a class="button primary" href="#updates">最近更新</a>
             <a class="button primary" href="#companies">公司主页</a>
-            <a class="button secondary" href="#researchPool">研究池</a>
             <a class="button secondary" href="#resources">规则与资料</a>
             <a class="button secondary" href="./candidates.html">候选研判台</a>
           </div>
@@ -30,12 +29,12 @@
             <span class="value">3 层</span>
           </div>
           <div class="hero-stat">
-            <span class="label">当前核心池</span>
-            <span class="value">8 家</span>
+            <span class="label">当前跟踪池</span>
+            <span class="value">16 家</span>
           </div>
           <div class="hero-stat">
             <span class="label">优先校准</span>
-            <span class="value">持仓相关</span>
+            <span class="value">中企/A 股</span>
           </div>
           <div class="hero-stat">
             <span class="label">质量门槛</span>
@@ -62,15 +61,16 @@
                 <thead>
                   <tr>
                     <th>公司</th>
-                    <th>层级</th>
+                    <th>现价</th>
+                    <th>买入区间</th>
+                    <th>卖出/降仓</th>
                     <th>最新动态</th>
-                    <th>价格/动作</th>
-                    <th>下一步</th>
+                    <th>入口</th>
                   </tr>
                 </thead>
                 <tbody id="portfolioBoardRows">
                   <tr>
-                    <td colspan="5">正在读取公司组合动态...</td>
+                    <td colspan="6">正在读取公司组合动态...</td>
                   </tr>
                 </tbody>
               </table>
@@ -84,7 +84,7 @@
           </div>
         </section>
 
-        <section id="workbench" class="section cockpit-section">
+        <section id="workbench" class="section cockpit-section" hidden>
           <div class="section-heading">
             <p class="section-kicker">Decision Cockpit</p>
             <h2>当前决策驾驶舱</h2>
@@ -120,7 +120,7 @@
           </div>
         </section>
 
-        <section id="cloudSync" class="section cloud-sync-section">
+        <section id="cloudSync" class="section cloud-sync-section" hidden>
           <div class="section-heading cloud-sync-heading">
             <div>
               <p class="section-kicker">Cloud Sync</p>
@@ -166,7 +166,7 @@
           </div>
         </section>
 
-        <section id="valuation" class="section">
+        <section id="valuation" class="section" hidden>
           <div class="section-heading">
             <p class="section-kicker">Valuation Dashboard</p>
             <h2>估值决策总览</h2>
@@ -256,7 +256,7 @@
           </div>
         </section>
 
-        <section id="researchPool" class="section research-pool-section">
+        <section id="researchPool" class="section research-pool-section" hidden>
           <div class="section-heading">
             <p class="section-kicker">Research Pool</p>
             <h2>研究池生命周期</h2>
@@ -298,7 +298,7 @@
           <div class="section-heading">
             <p class="section-kicker">Recent Updates</p>
             <h2>最近更新</h2>
-            <p class="muted">按时间看跨公司的关键动态。先知道最近有没有新变化，再决定要不要深入某家公司。</p>
+            <p class="muted">只放已完成研判的标的公司新闻和公告；展示顺序向中企/A 股倾斜，避免被美股动态淹没。</p>
           </div>
           <div class="inline-notice">
             <strong>候选线索：</strong>
@@ -316,56 +316,13 @@
           <div class="section-heading">
             <p class="section-kicker">Company Pages</p>
             <h2>公司主页</h2>
-            <p class="muted">点进去看沉淀后的业务、财报、估值动作和最近变化，不再只是资料跳转页。</p>
+            <p class="muted">当前跟踪池统一入口。成熟公司已有完整主页，候选/观察公司先进入轻量页与候选材料。</p>
           </div>
-          <div class="company-grid">
+          <div id="companyDirectory" class="company-grid">
             <article class="company-card">
-              <span class="company-tag us">美股</span>
-              <h3>NVIDIA</h3>
-              <p>AI 工厂平台。重点看推理需求、客户 capex、毛利率。</p>
-              <a href="./company.html?company=nvidia&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag tw">全球制造</span>
-              <h3>TSMC</h3>
-              <p>先进制程底座。重点看 2nm、CoWoS、资本回报。</p>
-              <a href="./company.html?company=tsmc&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag us">美股</span>
-              <h3>Microsoft</h3>
-              <p>企业 AI 平台。重点看 Azure、Copilot、利润率兑现。</p>
-              <a href="./company.html?company=microsoft&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag hk">港股 / 中概</span>
-              <h3>阿里巴巴</h3>
-              <p>平台现金流 + 云 + AI。重点看估值中枢能否继续上移。</p>
-              <a href="./company.html?company=alibaba&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag cn">A 股</span>
-              <h3>汇川技术</h3>
-              <p>工业平台。重点看平台化、双轮驱动和出海验证。</p>
-              <a href="./company.html?company=inovance&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag us">美股</span>
-              <h3>GE Vernova</h3>
-              <p>电力系统升级平台。重点看订单、利润率、自由现金流。</p>
-              <a href="./company.html?company=gevernova&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag cn">A 股</span>
-              <h3>立讯精密</h3>
-              <p>复杂制造龙头。重点看现金流、资本效率和扩张质量。</p>
-              <a href="./company.html?company=luxshare&v=20260501-19">进入公司主页</a>
-            </article>
-            <article class="company-card">
-              <span class="company-tag us">美股</span>
-              <h3>Constellation Energy</h3>
-              <p>稳定零碳电力平台。重点看长期合同、整合、核电运行。</p>
-              <a href="./company.html?company=constellation&v=20260501-19">进入公司主页</a>
+              <span class="company-tag">读取中</span>
+              <h3>正在整理公司入口...</h3>
+              <p>将从跟踪池、市场快照和正式事件库自动合并公司列表。</p>
             </article>
           </div>
         </section>
@@ -376,6 +333,28 @@
             <h2>规则与资料入口</h2>
             <p class="muted">方法论、系统过程、审计报告和复盘内容都收在这里，不占用首页主视线。</p>
           </div>
+          <div class="resource-quick-grid">
+            <article>
+              <span class="status-label">今日入口</span>
+              <a href="./reader.html?doc=./docs/briefs/daily_brief.md&title=最新云端日报">最新日报</a>
+              <a href="./candidates.html">候选研判台</a>
+              <a href="./reader.html?doc=./docs/research/63-本周总结与下周计划_2026-06-13.md&title=本周总结与下周计划">周总结与下周计划</a>
+            </article>
+            <article>
+              <span class="status-label">重点研究</span>
+              <a href="./reader.html?doc=./docs/research/62-工业富联AI服务器ODM一页式观察卡_2026-06-13.md&title=工业富联AI服务器ODM一页式观察卡">工业富联观察卡</a>
+              <a href="./reader.html?doc=./docs/research/58-沪电股份与深南电路PCB正式对照卡_2026-06-09.md&title=沪电股份深南电路PCB正式对照卡">PCB 对照卡</a>
+              <a href="./reader.html?doc=./docs/research/54-中际旭创与新易盛光模块正式对照卡_2026-05-29.md&title=中际旭创新易盛光模块正式对照卡">光模块对照卡</a>
+            </article>
+            <article>
+              <span class="status-label">系统规则</span>
+              <a href="./reader.html?doc=./docs/rules/37-新增公司准入标准V1.md&title=新增公司准入标准">新增公司准入</a>
+              <a href="./reader.html?doc=./docs/rules/40-研究池生命周期管理V1.md&title=研究池生命周期管理">研究池生命周期</a>
+              <a href="./reader.html?doc=./docs/research/automation_health.md&title=自动化健康检查">自动化健康</a>
+            </article>
+          </div>
+          <details class="resource-archive">
+            <summary>展开历史规则与过程资料</summary>
           <p class="resource-group-label">研究规则</p>
           <div class="framework-links">
             <a href="./reader.html?doc=./docs/rules/01-筛选规则.md&title=筛选规则">筛选规则</a>
@@ -412,12 +391,16 @@
             <a href="./reader.html?doc=./docs/research/57-沪电股份与深南电路PCB对照准备_2026-06-08.md&title=沪电股份深南电路PCB对照准备">PCB对照准备</a>
             <a href="./reader.html?doc=./docs/research/58-沪电股份与深南电路PCB正式对照卡_2026-06-09.md&title=沪电股份深南电路PCB正式对照卡">PCB正式对照卡</a>
             <a href="./reader.html?doc=./docs/research/60-工业富联AI服务器ODM观察卡准备_2026-06-11.md&title=工业富联AI服务器ODM观察卡准备">工业富联观察卡准备</a>
+            <a href="./reader.html?doc=./docs/research/61-候选池复核与首页动态检查_2026-06-13.md&title=候选池复核与首页动态检查">候选池首页复核</a>
+            <a href="./reader.html?doc=./docs/research/62-工业富联AI服务器ODM一页式观察卡_2026-06-13.md&title=工业富联AI服务器ODM一页式观察卡">工业富联正式观察卡</a>
+            <a href="./reader.html?doc=./docs/research/63-本周总结与下周计划_2026-06-13.md&title=本周总结与下周计划">本周总结与下周计划</a>
           </div>
           <p class="resource-group-label">日报与复盘</p>
           <div class="framework-links">
             <a href="./reader.html?doc=./docs/briefs/daily_brief.md&title=最新云端日报">最新日报</a>
             <a href="./reader.html?doc=./docs/briefs/weekend_sync_summary.md&title=周末同步摘要">周末复盘</a>
           </div>
+          </details>
         </section>
       </main>
     </div>

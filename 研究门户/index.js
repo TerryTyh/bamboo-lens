@@ -14,38 +14,9 @@ function getLatestDateValue(dateText) {
   return Math.max(...values);
 }
 
-function isExternalCompanyCandidate(item) {
-  if (!item || item.candidate_status === "promoted") return false;
-  if (item.type && item.type !== "官方候选") return false;
-
-  const internalText = `${item.title || ""} ${item.source_excerpt || ""} ${item.source_body || ""}`;
-  return !/研究池种子候选|观察卡待建|最小研究包待更新|待建|待更新/.test(internalText);
-}
-
 function buildTimelineEvents() {
   const eventStoreCompanies = window.BAMBOO_LENS_EVENT_STORE?.companies || {};
   const metaCompanies = window.COMPANY_EVENT_META || {};
-  const candidateCompanies = window.BAMBOO_LENS_CANDIDATES?.companies || {};
-  const officialCandidates = Object.entries(candidateCompanies).flatMap(([company, items]) => {
-    const meta = metaCompanies[company] || {};
-    return (items || [])
-      .filter(isExternalCompanyCandidate)
-      .map((item, index) => ({
-        company,
-        companyName: item.company_name || meta.displayName || company,
-        tag: meta.tag || "公司新闻",
-        tagClass: meta.tagClass || "",
-        index,
-        date: item.date,
-        type: "公司新闻候选",
-        title: item.title,
-        note: item.content_summary || item.source_excerpt || "来自公司官方来源的候选新闻，尚未完成正式研判。",
-        sortKey: Number(item.sort_key) || getLatestDateValue(item.date),
-        link: item.source_url || "./candidates.html",
-        linkLabel: item.source_url ? "查看官方来源" : "查看候选台",
-        external: Boolean(item.source_url),
-      }));
-  });
 
   if (Object.keys(eventStoreCompanies).length) {
     const formalEvents = Object.entries(eventStoreCompanies).flatMap(([company, companyData]) => {
@@ -67,7 +38,7 @@ function buildTimelineEvents() {
         external: false,
       }));
     });
-    return [...formalEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
+    return formalEvents.sort((a, b) => b.sortKey - a.sortKey);
   }
 
   const fallbackEvents = Object.entries(metaCompanies).flatMap(([company, latest]) => {
@@ -90,7 +61,7 @@ function buildTimelineEvents() {
       external: false,
     }));
   });
-  return [...fallbackEvents, ...officialCandidates].sort((a, b) => b.sortKey - a.sortKey);
+  return fallbackEvents.sort((a, b) => b.sortKey - a.sortKey);
 }
 
 function isChineseCompanyEvent(event) {
@@ -211,6 +182,26 @@ function formatRange(range, currency) {
   return `${currency}${range.low}-${range.high}，中枢 ${currency}${range.mid}`;
 }
 
+function formatActionRange(companyId, quote) {
+  const config = COCKPIT_VALUATION_WATCH[companyId];
+  if (!config) {
+    return {
+      buyZone: "暂无买入价",
+      sellZone: "暂无卖出价",
+      priceStatus: quote ? "只更新现价" : "价格待更新",
+      actionText: "需先补估值模型，暂不形成买入或卖出建议。",
+    };
+  }
+
+  const position = classifyPricePosition(quote?.price, config.range);
+  return {
+    buyZone: `${config.currency}${config.range.low}-${config.currency}${config.range.mid}`,
+    sellZone: `>${config.currency}${config.range.high} 需降温复核`,
+    priceStatus: position.status,
+    actionText: config.action[position.key] || config.action.nearMid,
+  };
+}
+
 function compactText(value, maxLength = 72) {
   const text = String(value || "").replace(/\s+/g, " ").trim();
   if (text.length <= maxLength) return text;
@@ -272,6 +263,7 @@ function buildPortfolioBoardRows() {
     const inferredTagClass = inferredTag ? "cn" : "";
     const valuationConfig = COCKPIT_VALUATION_WATCH[companyId];
     const position = valuationConfig ? classifyPricePosition(quote?.price, valuationConfig.range) : null;
+    const actionRange = formatActionRange(companyId, quote);
     const latestSort = latest?.sortKey || getLatestDateValue(state.source_event_date || "");
 
     return {
@@ -286,9 +278,11 @@ function buildPortfolioBoardRows() {
       latestSort,
       price: quote?.displayPrice || "",
       priceChange: quote?.changePercent || "",
-      priceStatus: position?.status || "",
+      priceStatus: actionRange.priceStatus || position?.status || "",
+      buyZone: actionRange.buyZone,
+      sellZone: actionRange.sellZone,
       action: position && valuationConfig
-        ? valuationConfig.action[position.key]
+        ? actionRange.actionText
         : state.action || pool.action || pool.review_focus || "等待下一条可验证材料。",
       nextCheck: state.nextCheck || pool.review_focus || meta.nextCheck || "等待下一条正式事件或候选新闻。",
       priority: state.priority || latest?.priority || "",
@@ -320,6 +314,7 @@ function renderPortfolioBoard() {
   const aCount = displayRows.filter((row) => /^A/.test(String(row.level))).length;
   const bCount = displayRows.filter((row) => /^B|强 B/.test(String(row.level))).length;
   const updatedCount = displayRows.filter((row) => row.latest).length;
+  const rangedCount = displayRows.filter((row) => COCKPIT_VALUATION_WATCH[row.companyId]).length;
 
   statsTarget.innerHTML = `
     <span>跟踪 ${displayRows.length} 家</span>
@@ -341,20 +336,31 @@ function renderPortfolioBoard() {
         <th scope="row">
           <a href="./company.html?company=${encodeURIComponent(row.companyId)}&v=20260531-1">${escapeHtml(row.name)}</a>
           <span class="company-tag ${escapeHtml(row.tagClass)}">${escapeHtml(row.tag || getCompanyRegion(row))}</span>
+          <span>${escapeHtml(row.level)} · ${escapeHtml(compactText(row.thesis, 28))}</span>
         </th>
         <td>
-          <strong>${escapeHtml(row.level)}</strong>
-          <span>${escapeHtml(compactText(row.thesis, 28))}</span>
+          <strong>${escapeHtml(quoteText)}</strong>
+          <span>${escapeHtml(row.priceStatus || "等待价格信号")}</span>
+        </td>
+        <td>
+          <strong>${escapeHtml(row.buyZone)}</strong>
+          <span>${escapeHtml(COCKPIT_VALUATION_WATCH[row.companyId] ? "第一版估值区间" : "需先补估值模型")}</span>
+        </td>
+        <td>
+          <strong>${escapeHtml(row.sellZone)}</strong>
+          <span>${escapeHtml(compactText(row.action, 44))}</span>
         </td>
         <td>
           <a href="${escapeHtml(row.sourceLink)}"${row.external ? ' target="_blank" rel="noreferrer"' : ""}>${escapeHtml(compactText(latestTitle, 58))}</a>
-          <span>${escapeHtml(latest?.type || row.priority || "待下一条事件")}</span>
+          <span>${escapeHtml(latest?.type || row.priority || "暂无正式事件，候选台继续跟踪")}</span>
         </td>
         <td>
-          <strong>${escapeHtml(row.priceStatus || quoteText)}</strong>
-          <span>${escapeHtml(row.priceStatus ? quoteText : "")}</span>
+          <div class="board-link-row">
+            <a href="./company.html?company=${encodeURIComponent(row.companyId)}&v=20260531-1">公司主页</a>
+            <a href="./company.html?company=${encodeURIComponent(row.companyId)}&v=20260531-1#companyValuationModelSection">估值</a>
+          </div>
+          <span>${escapeHtml(compactText(row.nextCheck || "等待下一条正式事件", 42))}</span>
         </td>
-        <td>${escapeHtml(compactText(row.nextCheck || row.action, 52))}</td>
       </tr>
     `;
   }).join("");
@@ -371,11 +377,37 @@ function renderPortfolioBoard() {
       <p>空白公司不是删掉，而是提示当前缺少可展示的新外部事件。</p>
     </div>
     <div>
+      <span class="status-label">买卖价</span>
+      <strong>${rangedCount} 家已建</strong>
+      <p>没有买卖价的公司只显示现价，不给动作建议；下一步优先补中企/A 股估值模型。</p>
+    </div>
+    <div>
       <span class="status-label">下一步</span>
       <strong>验证中企新闻源</strong>
       <p>新易盛、深南电路、沪电股份、工业富联已补入采集配置，等待下一轮候选抓取验证。</p>
     </div>
   `;
+}
+
+function renderCompanyDirectory() {
+  const target = document.getElementById("companyDirectory");
+  if (!target) return;
+
+  const rows = buildPortfolioBoardRows();
+  target.innerHTML = rows.map((row) => {
+    const latestLabel = row.latest
+      ? `${row.latest.date || "日期待确认"} · ${compactText(row.latest.title, 34)}`
+      : "暂无正式事件，先看候选与观察资料";
+    return `
+      <article class="company-card">
+        <span class="company-tag ${escapeHtml(row.tagClass)}">${escapeHtml(row.tag || getCompanyRegion(row))}</span>
+        <h3>${escapeHtml(row.name)}</h3>
+        <p><strong>${escapeHtml(row.level)}</strong> · ${escapeHtml(compactText(row.thesis || row.nextCheck, 58))}</p>
+        <p class="company-card-meta">${escapeHtml(row.price || "价格待更新")} · ${escapeHtml(latestLabel)}</p>
+        <a href="./company.html?company=${encodeURIComponent(row.companyId)}&v=20260531-1">进入公司主页</a>
+      </article>
+    `;
+  }).join("");
 }
 
 function renderDecisionCockpit() {
@@ -757,7 +789,7 @@ function renderTimelineFeed() {
   if (!feed || !count) return;
 
   const events = buildTimelineEvents();
-  const visibleEvents = selectDiverseTimelineEvents(events, 12, 2);
+  const visibleEvents = selectDiverseTimelineEvents(events, 14, 2, 0.6);
   const visibleCompanies = new Set(visibleEvents.map((event) => event.company || event.companyName)).size;
   const chineseCompanies = new Set(
     visibleEvents.filter(isChineseCompanyEvent).map((event) => event.company || event.companyName),
@@ -779,6 +811,7 @@ function renderTimelineFeed() {
 }
 
 renderPortfolioBoard();
+renderCompanyDirectory();
 renderDecisionCockpit();
 renderCloudSync();
 renderDecisionQueue();
