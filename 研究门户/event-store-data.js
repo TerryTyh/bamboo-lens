@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-06-22T16:33:24",
+  "generated_at": "2026-06-24T14:12:37",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -1166,6 +1166,85 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260622-162803__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+          "date": "2026-06-23",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-06-23；标题：NVIDIA and AWS Collaborate to Bring AI to Production at Scale；原文内容：Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy AI at pro…；来源：https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260623,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+          "source_excerpt": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy AI at pro…",
+          "source_body": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy AI at production scale. EC2 G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs expand the compute layer for AI, graphics, video and data analytics workloads, while the NVIDIA cuVS library accelerates the retrieval layer by making GPU-powered vector indexing the default in OpenSearch Serverless. And with AWS achieving NVIDIA Exemplar Cloud status for NVIDIA GB300, customers can trust they’re receiving peak optimized performance for their training workloads. Amazon EC2 G7 instances bring NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs to AWS for AI inference, graphics, spatial computing and GPU-accelerated data analytics — delivering a new instance type engineered for production workloads that need performance without the operational overhead of a customer-managed GPU platform. Compared with G6 instances, G7 delivers up to 4.6x AI inference performance, up to 2.1x graphics performance and significantly faster GPU-accelerated data analytics on Amazon EMR using the NVIDIA cuDF library for Apache Spark workloads. With support for up to eight GPUs, 256GB of total GPU memory, 700 Gbps of EFA-enabled networking and up to 7.6TB of local NVMe SSD storage — across one-, two-, four- and eight- GPU configurations plus bare metal, coming soon — G7 instances let customers right-size infrastructure for their workloads instead of over-provisioning for them. The platform’s versatility means AI teams get lower-latency inference. Media and entertainment teams get high-resolution video workflows and rendering. Simulation, computer-aided design, virtual desktop infrastructure, gaming and spatial computing teams get the same instance type for graphics-intensive applications. And data teams can apply the GPU memory, local storage and networking improvements to analytics pipelines and vector database workloads. G7 instances are accessible through AWS Deep Learning Amazon Machine Images (AMIs), Amazon Deep Learning Containers, Amazon EMR, Amazon EKS, Amazon ECS and graphics AMIs — and coming soon to Amazon SageMaker AI. The next generation of Amazon OpenSearch Serverless powers agentic AI and dynamic workloads with no infrastructure management required. It uses GPU-accelerated vector indexing, powered by NVIDIA cuVS, as the default compute choice for all vector collections. For teams building retrieval-augmented generation , semantic search, recommendation systems and agentic AI applications, that shift matters. It turns GPU-powered vector search from a specialized optimization project into a standard AWS capability. The customer impact is direct: vector indexing up to 10x faster at a quarter of the cost, compared with CPU-only builds — making billion-scale vector databases practical to build in under an hour. By making NVIDIA cuVS the default in OpenSearch Serverless, AWS customers get a much faster path from raw data to production-ready AI retrieval infrastructure — with serverless scaling that reduces operational overhead when workloads are idle.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "How Businesses Are Building Specialized AI They Can Trust",
+          "date": "2026-06-23",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-06-23；标题：How Businesses Are Building Specialized AI They Can Trust；原文内容：Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — systems of models that can reason, use tools and take action even for the most complex workflows — put more useful AI within reach of the peop…；来源：https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260623,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+          "source_excerpt": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — systems of models that can reason, use tools and take action even for the most complex workflows — put more useful AI within reach of the peop…",
+          "source_body": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — systems of models that can reason, use tools and take action even for the most complex workflows — put more useful AI within reach of the people who already know the work best. Agents are already helping life sciences researchers accelerate medicine discovery, security teams investigate vulnerabilities with more context and operations teams seamlessly coordinate supply chains. To tap into these specialized agents, businesses are using a foundation they can adapt and own: one built on models they can customize, tools that connect to systems they already use and infrastructure that lets agents operate safely at scale. NVIDIA Agent Toolkit — comprising models, tools, skills and a secure runtime — provides an open, modular foundation for building safer, faster, lower-cost digital AI coworkers that enterprises and developers can customize, specialize, control and trust. Enterprises and developers building secure, specialized AI agents require: NVIDIA technologies accelerate all the pieces needed to turn a powerful frontier model into a fully functional digital coworker. The toolkit’s users can work with third-party agent harnesses — or agent orchestration frameworks — of their choice, including Hermes Agents and OpenClaw. This unlocks enterprise AI momentum with control. And that matters because the most valuable agents across industries will be specialized. The specialized AI foundation is already at work. In life sciences, agents can help researchers call domain models for protein design, virtual screening, genomics analysis and biomarker discovery. The new NVIDIA BioNeMo Toolkit enables work that previously took months to be completed in days. In healthcare, agents support clinical documentation, clinical decision support and care coordination. Plus, physical agents in robotics systems trained in digital twins of hospitals can scale surgical assistance and hospital automation to meet care demands.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery",
+          "date": "2026-06-23",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-06-23；标题：NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery；来源：https://investor.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260623,
+          "source_url": "https://investor.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+          "date": "2026-06-23",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-06-23；标题：NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers；原文内容：NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany. That’s a gain of 17 systems from the previous list, with the momentum in new deployments: nearly nine of every 10 systems new to the ranking are built on NVIDIA technologies. That percentage reflects a d…；来源：https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260623,
+          "source_url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+          "source_excerpt": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany. That’s a gain of 17 systems from the previous list, with the momentum in new deployments: nearly nine of every 10 systems new to the ranking are built on NVIDIA technologies. That percentage reflects a d…",
+          "source_body": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany. That’s a gain of 17 systems from the previous list, with the momentum in new deployments: nearly nine of every 10 systems new to the ranking are built on NVIDIA technologies. That percentage reflects a deliberate preference for machines built for AI, simulation and science together. And it’s compounding: NVIDIA systems across the TOP500 now deliver more than 2x the AI training and nearly 3x the AI inference throughput of every other platform combined. GPU and networking adoption each hit new highs, with NVIDIA GPUs accelerating a record 238 systems and NVIDIA networking connecting a record 376 — the vast majority on NVIDIA Quantum InfiniBand, the backbone of large-scale AI and high-performance computing, and the rest on Ethernet. The trend behind the numbers is bigger than any one list: Accelerated computing is becoming the foundation for the systems taking on the world’s most demanding work, across AI and science. Updated twice a year, the TOP500 ranks the world’s fastest supercomputers, while the Green500 list measures how much computing each delivers per watt. NVIDIA’s reach now spans the full system — GPU, networking and, increasingly, the CPU — with NVIDIA Grace CPU adoption reaching 26 systems, up eight from the previous list, with nearly 2.5 million Grace CPUs shipped. NVIDIA Grace-based machines sit atop both rankings: JUPITER at No. 5 and Alps at No. 10 on the TOP500, and KAIROS at No. 1 on the Green500. Each pairs an NVIDIA GPU with the Grace CPU in a single NVIDIA Grace Hopper Superchip, letting the two share memory with minimal overhead — a design built for the memory-intensive demands of modern AI. The NVIDIA Vera CPU , announced earlier this year, builds on the success of Grace, taking CPU performance and energy efficiency to new levels for the most demanding AI workloads in modern data centers — where agents move from answering basic questions to taking actions, running code, using tools and evaluating results. NVIDIA swept the Green500 ranking of the most energy-efficient supercomputers: The top eight all run on NVIDIA GPUs and nine of the top 10 use NVIDIA technologies. Leading the list is KAIROS, an NVIDIA Grace Hopper system at France’s University of Toulouse, at 73.3 gigaflops per watt — with Grace Hopper systems taking the top four spots, across France, Germany and the U.K.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+          "date": "2026-06-22",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-06-22；标题：NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations；原文内容：Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The industry is now pushing toward truly autonom…；来源：https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260622,
+          "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+          "source_excerpt": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The industry is now pushing toward truly autonom…",
+          "source_body": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The industry is now pushing toward truly autonomous networks and operations, where AI agents proactively watch for problems and coordinate changes across network, IT and business systems. Together, synthetic data, telecom-domain models, secure agent runtimes and simulations form critical pieces of a secure, telecom autonomy platform , where agents understand operator intent, act safely across business and network domains and keep humans in control of policy. NVIDIA and its partners are demonstrating these building blocks at TM Forum’s DTW Ignite 2026 — running this week in Copenhagen — giving operators a practical path to running more autonomous, resilient networks and powering richer AI‑driven services for consumers and businesses. Reasoning models that understand the telecom domain are the foundation of autonomous networks. These specialized models require fine‑tuning on high‑quality datasets, yet 54% of operators cite data‑related issues as their biggest barrier, with the most valuable network and customer data too sensitive to use directly. Synthetic data is enabling operators to safely increase the volume and diversity of training data, protect sensitive information and democratize access to production‑like telecom datasets across internal teams and external developers, without exposing raw customer records. As telecom operators look to achieve autonomy across end-to-end workflows, they need AI agents that can stick with a complex job from start to finish, not just execute a pointed task. Long‑running autonomous agents that operate under strict service-level agreements, change‑management policies and regulatory constraints are key to this shift. NVIDIA NemoClaw blueprints and the NVIDIA OpenShell secure runtime give these agents policy‑based guardrails and sandboxed access to telecom systems, so operators can more safely expand the role of agents in operations while keeping behavior predictable, auditable and governed. AdaptKey is collaborating with operators to pilot security‑hardened, long-running agents for self‑healing 5G network operations. NemoClaw and OpenShell power agents that detect security and connectivity issues and submit scoped remediation requests into AdaptKey ’s KeySmith platform for execution, which orchestrates diagnosis and runs agents that apply auditable fixes across core, radio access network (RAN) and billing systems. Amdocs is showcasing the potential of NemoClaw and OpenShell for proactive customer-care agents, including roaming assistance scenarios where autonomous agents can identify customers whose roaming package is nearing depletion, engage them with approved options and execute actions within defined business policies and operational controls. Amdocs is applying this runtime to autonomous data‑science agents that analyze customer accounts and assess migration eligibility, producing ranked, decision‑ready views that help operators intelligently sequence migrations to modern billing and business platforms at the right time and in the right order.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
@@ -3338,6 +3417,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260618-144644__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年6月24日投资者关系活动记录表",
+          "date": "2026-6-24",
+          "fetched_at": "20260624-140554",
+          "type": "官方候选",
+          "fact": "日期：2026-6-24；标题：沪电股份：2026年6月24日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260624,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260624-140554__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },

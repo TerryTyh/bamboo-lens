@@ -1,15 +1,40 @@
 {
-  "generated_at": "2026-06-22T16:33:24",
+  "generated_at": "2026-06-24T14:12:37",
   "summary": {
     "total": 14,
     "companies": 5,
-    "with_source_body": 4,
+    "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 3,
-      "needs_source": 11
+      "ready_for_deep_review": 4,
+      "needs_source": 10
     },
     "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+        "date": "2026-06-22",
+        "score": 12,
+        "readiness_score": 32,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
         "company": "nvidia",
@@ -117,6 +142,31 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "nvidia::nvidia brings trusted, 24/7 ai agents to telecom operations": {
+      "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "date": "2026-06-22",
+      "score": 12,
+      "readiness_score": 32,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "nvidia::nvidia blackwell leads on first agentic ai infrastructure benchmark": {
       "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
       "company": "nvidia",
@@ -211,6 +261,34 @@
       "source_url": "https://www.innolight.com/inv2.aspx",
       "portal_doc": "./docs/review-drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.md",
       "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年6月24日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月24日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月24日投资者关系活动记录表",
+      "date": "2026-6-24",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月24日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -415,62 +493,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "shennan::深南电路：2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告": {
-      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "shennan::深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告": {
-      "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
@@ -505,6 +527,31 @@
       }
     ],
     "nvidia": [
+      {
+        "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+        "date": "2026-06-22",
+        "score": 12,
+        "readiness_score": 32,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
         "company": "nvidia",
@@ -612,6 +659,34 @@
       }
     ],
     "wus": [
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月24日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月24日投资者关系活动记录表",
+        "date": "2026-6-24",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月24日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
         "company": "wus",
@@ -809,66 +884,35 @@
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
-        "date": "2026-06-13",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-        "date": "2026-06-13",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ]
   },
   "items": [
+    {
+      "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "date": "2026-06-22",
+      "score": 12,
+      "readiness_score": 32,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     {
       "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
       "company": "nvidia",
@@ -991,6 +1035,34 @@
       "source_url": "https://www.innolight.com/inv2.aspx",
       "portal_doc": "./docs/review-drafts/auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证.md",
       "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月24日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月24日投资者关系活动记录表",
+      "date": "2026-6-24",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月24日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -1186,62 +1258,6 @@
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票摊薄即期回报-填补措施及相关主体承诺的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
