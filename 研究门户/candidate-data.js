@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-06-24T14:08:50",
+  "generated_at": "2026-06-25T14:06:06",
   "companies": {
     "nvidia": [
       {
@@ -260,6 +260,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+        "date": "2026-06-25",
+        "fetched_at": "20260625-140319",
+        "type": "官方候选",
+        "fact": "日期：2026-06-25；标题：The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts；原文内容：Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Stea…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260625,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+        "source_excerpt": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Stea…",
+        "source_body": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Steam Summer Sale is here, bringing discounts across thousands of PC games as one of the year’s biggest opportunities to grow a gaming library. Supported Steam games can be streamed across devices with GeForce NOW, making it easy to buy a game once, keep progress synced and pick up where the gameplay left off on PCs, Macs, handheld devices, phones, TVs and more. In other words, the Steam Summer Sale brings the deals; GeForce NOW adds the flexibility. As new titles expand collections, storage demands and hardware requirements expand with them. GeForce NOW helps remove those barriers by streaming supported games from powerful GeForce RTX servers in the cloud, allowing members to enjoy today’s biggest games on devices they already own. Since downloads and installs are handled in the cloud, games can be added to the cart without being added to storage. Check out the “Sales & Special Offers” row in the GeForce NOW app to discover the discounts today. The deals don’t stop there. Pair GeForce NOW’s summer sale with the Steam Summer Sale to spend less time waiting on downloads, managing storage or needing pricey hardware upgrades — and more time gaming. Get $70 off a 12-month Ultimate membership or $35 off a 12-month Performance membership and experience GeForce RTX-powered gaming in the cloud across devices. The Ultimate membership unlocks GeForce RTX 4080- and 5080-class performance in the cloud with up to 4K resolution, up to 120 frames per second (fps) and advanced technologies like NVIDIA DLSS , ray tracing and NVIDIA Reflex . Dark Scrolls, the kinetic action roguelite from Devolver Digital, arrives on GeForce NOW with its blend of fast combat, evolving builds and unapologetic chaos. Set in a warped fantasy world that doesn’t take itself too seriously, players battle through shifting arenas packed with enemies, hazards and power-ups that can turn a run from fragile to unstoppable in seconds. Stack abilities, experiment with wild combinations and adapt on the fly as the game constantly raises the stakes — rewarding bold play as much as careful movement.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260625-140319__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "How Businesses Are Building Specialized AI They Can Trust",
@@ -1632,6 +1656,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "constellation": [
+      {
+        "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+        "date": "2026-08-06",
+        "fetched_at": "20260625-140319",
+        "type": "官方候选",
+        "fact": "日期：2026-08-06；标题：Q2 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260806,
+        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260625-140319__investors.constellationenergy.com_events-and-presentations.html",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 11,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+      },
       {
         "title": "Q1 2026 Constellation Energy Corporation Earnings Conference Call",
         "date": "2026-05-11",

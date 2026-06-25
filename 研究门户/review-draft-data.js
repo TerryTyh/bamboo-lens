@@ -1,8 +1,8 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-06-24T14:12:37",
+  "generated_at": "2026-06-25T14:07:47",
   "summary": {
     "total": 14,
-    "companies": 5,
+    "companies": 6,
     "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -114,6 +114,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "by_key": {
+    "constellation::q2 2026 constellation energy corporation earnings conference call": {
+      "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+      "date": "2026-08-06",
+      "score": 14,
+      "readiness_score": 21,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "eoptolink::业绩预告": {
       "draft_id": "auto-eoptolink-业绩预告",
       "company": "eoptolink",
@@ -465,37 +494,40 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "shennan::深南电路：关于向特定对象发行股票预案披露的提示性公告": {
-      "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于向特定对象发行股票预案披露的提示性公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
+    "constellation": [
+      {
+        "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+        "date": "2026-08-06",
+        "score": 14,
+        "readiness_score": 21,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+        "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      }
+    ],
     "eoptolink": [
       {
         "draft_id": "auto-eoptolink-业绩预告",
@@ -856,34 +888,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：关于向特定对象发行股票预案披露的提示性公告",
-        "date": "2026-06-13",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ]
   },
@@ -1015,6 +1019,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+      "date": "2026-08-06",
+      "score": 14,
+      "readiness_score": 21,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     {
@@ -1230,34 +1263,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于向特定对象发行股票预案披露的提示性公告",
-      "date": "2026-06-13",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于向特定对象发行股票预案披露的提示性公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

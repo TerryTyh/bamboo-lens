@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-06-24T14:12:37",
-  "source_generated_at": "2026-06-24T14:12:37",
+  "generated_at": "2026-06-25T14:07:47",
+  "source_generated_at": "2026-06-25T14:07:47",
   "items": [
     {
       "company": "constellation",
@@ -775,6 +775,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 4,
       "sort_key": 20250426,
       "score": 16
+    },
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+      "date": "2026-08-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260625-140319__investors.constellationenergy.com_events-and-presentations.html",
+      "event_index": null,
+      "sort_key": 20260806,
+      "score": 14
     },
     {
       "company": "eoptolink",
@@ -2614,9 +2632,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 145,
+    "total": 146,
     "formal_events": 69,
-    "official_candidates": 76,
+    "official_candidates": 77,
     "companies": 15
   }
 };

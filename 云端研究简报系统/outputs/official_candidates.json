@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T14:08:50",
+  "generated_at": "2026-06-25T14:06:06",
   "companies": {
     "nvidia": [
       {
@@ -677,6 +677,22 @@
         "source_body": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The industry is now pushing toward truly autonomous networks and operations, where AI agents proactively watch for problems and coordinate changes across network, IT and business systems. Together, synthetic data, telecom-domain models, secure agent runtimes and simulations form critical pieces of a secure, telecom autonomy platform , where agents understand operator intent, act safely across business and network domains and keep humans in control of policy. NVIDIA and its partners are demonstrating these building blocks at TM Forum’s DTW Ignite 2026 — running this week in Copenhagen — giving operators a practical path to running more autonomous, resilient networks and powering richer AI‑driven services for consumers and businesses. Reasoning models that understand the telecom domain are the foundation of autonomous networks. These specialized models require fine‑tuning on high‑quality datasets, yet 54% of operators cite data‑related issues as their biggest barrier, with the most valuable network and customer data too sensitive to use directly. Synthetic data is enabling operators to safely increase the volume and diversity of training data, protect sensitive information and democratize access to production‑like telecom datasets across internal teams and external developers, without exposing raw customer records. As telecom operators look to achieve autonomy across end-to-end workflows, they need AI agents that can stick with a complex job from start to finish, not just execute a pointed task. Long‑running autonomous agents that operate under strict service-level agreements, change‑management policies and regulatory constraints are key to this shift. NVIDIA NemoClaw blueprints and the NVIDIA OpenShell secure runtime give these agents policy‑based guardrails and sandboxed access to telecom systems, so operators can more safely expand the role of agents in operations while keeping behavior predictable, auditable and governed. AdaptKey is collaborating with operators to pilot security‑hardened, long-running agents for self‑healing 5G network operations. NemoClaw and OpenShell power agents that detect security and connectivity issues and submit scoped remediation requests into AdaptKey ’s KeySmith platform for execution, which orchestrates diagnosis and runs agents that apply auditable fixes across core, radio access network (RAN) and billing systems. Amdocs is showcasing the potential of NemoClaw and OpenShell for proactive customer-care agents, including roaming assistance scenarios where autonomous agents can identify customers whose roaming package is nearing depletion, engage them with approved options and execute actions within defined business policies and operational controls. Amdocs is applying this runtime to autonomous data‑science agents that analyze customer accounts and assess migration eligibility, producing ranked, decision‑ready views that help operators intelligently sequence migrations to modern billing and business platforms at the right time and in the right order.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260624-140554__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+        "date": "2026-06-25",
+        "fetched_at": "20260625-140319",
+        "type": "官方候选",
+        "fact": "日期：2026-06-25；标题：The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts；原文内容：Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Stea…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260625,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+        "source_excerpt": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Stea…",
+        "source_body": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts , this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales . They lead the charge for six new games joining the GeForce NOW library this week. The Steam Summer Sale is here, bringing discounts across thousands of PC games as one of the year’s biggest opportunities to grow a gaming library. Supported Steam games can be streamed across devices with GeForce NOW, making it easy to buy a game once, keep progress synced and pick up where the gameplay left off on PCs, Macs, handheld devices, phones, TVs and more. In other words, the Steam Summer Sale brings the deals; GeForce NOW adds the flexibility. As new titles expand collections, storage demands and hardware requirements expand with them. GeForce NOW helps remove those barriers by streaming supported games from powerful GeForce RTX servers in the cloud, allowing members to enjoy today’s biggest games on devices they already own. Since downloads and installs are handled in the cloud, games can be added to the cart without being added to storage. Check out the “Sales & Special Offers” row in the GeForce NOW app to discover the discounts today. The deals don’t stop there. Pair GeForce NOW’s summer sale with the Steam Summer Sale to spend less time waiting on downloads, managing storage or needing pricey hardware upgrades — and more time gaming. Get $70 off a 12-month Ultimate membership or $35 off a 12-month Performance membership and experience GeForce RTX-powered gaming in the cloud across devices. The Ultimate membership unlocks GeForce RTX 4080- and 5080-class performance in the cloud with up to 4K resolution, up to 120 frames per second (fps) and advanced technologies like NVIDIA DLSS , ray tracing and NVIDIA Reflex . Dark Scrolls, the kinetic action roguelite from Devolver Digital, arrives on GeForce NOW with its blend of fast combat, evolving builds and unapologetic chaos. Set in a warped fantasy world that doesn’t take itself too seriously, players battle through shifting arenas packed with enemies, hazards and power-ups that can turn a run from fragile to unstoppable in seconds. Stack abilities, experiment with wild combinations and adapt on the fly as the game constantly raises the stakes — rewarding bold play as much as careful movement.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260625-140319__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
     "tsmc": [
@@ -1229,6 +1245,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260604-141031__investors.constellationenergy.com_events-and-presentations_past-events.html"
+      },
+      {
+        "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+        "date": "2026-08-06",
+        "fetched_at": "20260625-140319",
+        "type": "官方候选",
+        "fact": "日期：2026-08-06；标题：Q2 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260806,
+        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260625-140319__investors.constellationenergy.com_events-and-presentations.html"
       }
     ],
     "eoptolink": [
