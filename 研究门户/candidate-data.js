@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-06-26T14:05:36",
+  "generated_at": "2026-06-29T15:33:02",
   "companies": {
     "nvidia": [
       {
@@ -260,6 +260,54 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+        "date": "2026-06-29",
+        "fetched_at": "20260629-153008",
+        "type": "官方候选",
+        "fact": "日期：2026-06-29；标题：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron；原文内容：Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbo…；来源：https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260629,
+        "source_url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+        "source_excerpt": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbo…",
+        "source_body": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a pillar of U.S. technology leadership. In 1969, DARPA connected four university computers — from UCLA, Stanford, UCSB and the University of Utah — laying the infrastructure backbone that became the internet. In those early days, U.S.-led open source contributions also drove leadership in coding languages, with UNIX in 1969 and C at Bell Labs in 1972. These languages led to more open source software building on those foundations, including the Linux Kernel in 1991, GitHub in 2008 and Docker in 2013. Today, open models are making frontier-level AI broadly accessible, with control over customization and trust through transparency. They give enterprises and government agencies the ability to inspect, adapt and deploy AI in sensitive environments, making them essential for national security, corporate sustainability and industrial innovation. With domain-optimized harnesses, strong open models can deliver frontier capabilities while helping customers retain control over proprietary data, model weights and deployment environments. Today’s Palantir announcement brings NVIDIA Nemotron open models into air-gapped environments — secure setups that are completely isolated from unsecured networks — on NVIDIA accelerated computing. Palantir will use NVIDIA Nemotron open models to build custom frontier-quality models to serve the U.S. government. Many of the government’s operations mirror private-sector enterprises — including commerce, energy, healthcare, agriculture, education and transportation. With about 3 million civilian employees, the U.S. government is essentially one of the world’s largest enterprises. Providing critical services across so many disciplines is incredibly complex. AI can help streamline this complexity and boost insights to drive productivity. From food safety to maintaining safety on interstate highway infrastructure, AI can help government agencies tackle operational challenges, just like American public sector businesses. With this new engine, agencies and operators can run customized Nemotron models on their own infrastructure, train on their own data and retain full ownership of the resulting models — including the weights that encode their operational knowledge. Palantir’s Sovereign AI Operating System — built on AIP, Ontology, Foundry and Apollo — handles the operational and data authorization layer for easy deployment in sensitive environments. Explicit data authorization, architecturally enforced isolation and full auditability are already central to Palantir’s Sovereign AI Operating System. As these customized models are used in production, agencies and operators can continually improve them within their own environments using new data and feedback. This creates a data flywheel that continually optimizes model performance while keeping data, models and auditability under customer control. While NVIDIA Nemotron open models provide a customizable and continually learning model layer on Palantir’s Sovereign AI Operating System, enterprise-grade deployments can be supported through the NVIDIA AI Enterprise software suite.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260629-153008__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
+        "date": "2026-06-29",
+        "fetched_at": "20260629-153008",
+        "type": "官方候选",
+        "fact": "日期：2026-06-29；标题：Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time；原文内容：When Firefly Aerospace’s Blue Ghost Mission 1 landed on the moon in March 2025, the lander downlinked nearly 120 gigabytes of raw data back to Earth — imagery and video captured by onboard cameras that scientists are still processing today. The company’s next lunar mission, Blue Ghost Mission 2 — targeted for launch in late 2026 — will carry Firefly’s Ocula moon imaging service , marking the first time the NVIDIA Je…；来源：https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260629,
+        "source_url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+        "source_excerpt": "When Firefly Aerospace’s Blue Ghost Mission 1 landed on the moon in March 2025, the lander downlinked nearly 120 gigabytes of raw data back to Earth — imagery and video captured by onboard cameras that scientists are still processing today. The company’s next lunar mission, Blue Ghost Mission 2 — targeted for launch in late 2026 — will carry Firefly’s Ocula moon imaging service , marking the first time the NVIDIA Je…",
+        "source_body": "When Firefly Aerospace’s Blue Ghost Mission 1 landed on the moon in March 2025, the lander downlinked nearly 120 gigabytes of raw data back to Earth — imagery and video captured by onboard cameras that scientists are still processing today. The company’s next lunar mission, Blue Ghost Mission 2 — targeted for launch in late 2026 — will carry Firefly’s Ocula moon imaging service , marking the first time the NVIDIA Jetson edge AI platform has operated in lunar orbit. This time, rather than sending massive volumes of raw data home for processing that takes weeks or months, Ocula will run AI algorithms directly on orbit, using Jetson to extract critical insights and transmit only the most relevant information — based on customer need — back to Earth in near real time, vastly reducing latency and costly downlink. For Blue Ghost Mission 2 , a lunar lander will separate and descend to the far side of the moon — carrying science and technology instruments including a radio telescope — in support of NASA-funded, UC Berkeley-led research to detect faint signals from the cosmic Dark Ages shortly after the Big Bang. Meanwhile, Firefly’s Elytra spacecraft will continue orbiting the moon for its five-year mission, running Ocula and its NVIDIA Jetson AI-powered processing chain. “Our vision is to continue lighting the path to a bold space ecosystem that expands humanity’s future,” said Jason Kim, CEO of Firefly Aerospace, which is a member of the NVIDIA Inception program for cutting-edge startups and based in Austin, Texas. “We believe in a future where all AI processing and sensing will happen in space,” he added. “It’s like the transatlantic cables that connect the continents on Earth to enable the internet — we want to do that same kind of thing in space: connect all these different orbital constellations to enable something greater than any individual constellation.” Traditionally, space-based sensing follows a slow pipeline: Sensors collect data and downlink it over constrained and latent radio bandwidth. Then, traditional CPU-based terrestrial processing takes days or weeks to gain valuable insights. By running AI inference directly on orbit with NVIDIA Jetson, Firefly can dramatically compress that timeline. The Ocula sensor will collect imagery across ultraviolet and visible spectrum bands. This data will then be rapidly processed onboard Elytra in lunar orbit and autonomously transmitted back to Earth using the Jetson module — powered in space by solar panels and combined with Firefly’s AI software from its SciTec subsidiary. “We’re going to be able to do that for the first time in history,” Kim said of on-orbit AI processing around the moon. Ocula supports a range of use cases that will ultimately help humans explore the vast possibilities of space.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260629-153008__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
@@ -2766,6 +2814,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "wus": [
+      {
+        "title": "沪电股份：2026年6月29日投资者关系活动记录表",
+        "date": "2026-6-29",
+        "fetched_at": "20260629-153008",
+        "type": "官方候选",
+        "fact": "日期：2026-6-29；标题：沪电股份：2026年6月29日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260629,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260629-153008__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
+      },
       {
         "title": "沪电股份：2026年6月24日投资者关系活动记录表",
         "date": "2026-6-24",
