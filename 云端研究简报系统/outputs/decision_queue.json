@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T15:33:53",
-  "source_generated_at": "2026-06-29T15:33:53",
+  "generated_at": "2026-06-29T16:13:11",
+  "source_generated_at": "2026-06-29T16:13:11",
   "items": [
     {
       "company": "constellation",
@@ -993,6 +993,24 @@
       "score": 14
     },
     {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "formal_event",
+      "stage": "已入库事件",
+      "title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+      "date": "2026-06-24",
+      "type": "产能 / AI 服务器 PCB",
+      "priority": "B+ 观察",
+      "decision_action": "维持 B+ 观察，不追价；等待新产能试产、客户认证、毛利率和现金流验证。",
+      "why": "这条记录强化了沪电股份作为 AI 高端 PCB 优先样本的地位，并给出了 2026H2 试产这一可验证时间点；但新增项目和厂房扩建也提高了资本开支、折旧和产能消化要求。公司主动提示行业同质化扩产和利润挤压，说明后续不能只看 AI 需求，还必须验证毛利率、客户认证和现金流。",
+      "read_next": "打开事件详情，核对事实、判断、估值/动作影响，并决定是否回写公司主页当前结论。",
+      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
+      "source_doc": "",
+      "event_index": 0,
+      "sort_key": 20260624,
+      "score": 13
+    },
+    {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
@@ -1296,24 +1314,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260629-153008__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
       "event_index": null,
       "sort_key": 20260629,
-      "score": 9
-    },
-    {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年6月24日投资者关系活动记录表",
-      "date": "2026-6-24",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260624-140554__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260624,
       "score": 9
     },
     {
@@ -2615,8 +2615,8 @@
   ],
   "summary": {
     "total": 145,
-    "formal_events": 69,
-    "official_candidates": 76,
+    "formal_events": 70,
+    "official_candidates": 75,
     "companies": 15
   }
 }

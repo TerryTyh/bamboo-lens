@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-06-29T15:33:53",
-  "source_generated_at": "2026-06-29T15:33:53",
+  "generated_at": "2026-06-29T16:13:11",
+  "source_generated_at": "2026-06-29T16:13:11",
   "items": [
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "event_index": 0,
+      "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+      "event_date": "2026-06-24",
+      "event_type": "产能 / AI 服务器 PCB",
+      "priority": "B+ 观察",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "等待验证",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这条记录强化了沪电股份作为 AI 高端 PCB 优先样本的地位，并给出了 2026H2 试产这一可验证时间点；但新增项目和厂房扩建也提高了资本开支、折旧和产能消化要求。公司主动提示行业同质化扩产和利润挤压，说明后续不能只看 AI 需求，还必须验证毛利率、客户认证和现金流。",
+      "business_impact": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
+      "valuation_impact": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
+      "next_verification": [
+        "核对人工智能芯片配套高端 PCB 项目是否在 2026H2 按期试产，并披露客户认证、良率、产能利用率或收入贡献。",
+        "跟踪昆山普江厂房扩建的投资额、产品方向、建设进度和新增折旧。",
+        "复核 2026H1/Q3 毛利率、经营现金流、存货和应收，判断扩产是否被真实订单和回款支持。"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
+      "sort_key": 20260624,
+      "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "tsmc",
       "company_name": "TSMC",
@@ -1821,13 +1862,56 @@
         "sort_key": 20260331,
         "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
       }
+    ],
+    "wus": [
+      {
+        "company": "wus",
+        "company_name": "沪电股份",
+        "event_index": 0,
+        "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+        "event_date": "2026-06-24",
+        "event_type": "产能 / AI 服务器 PCB",
+        "priority": "B+ 观察",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "等待验证",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这条记录强化了沪电股份作为 AI 高端 PCB 优先样本的地位，并给出了 2026H2 试产这一可验证时间点；但新增项目和厂房扩建也提高了资本开支、折旧和产能消化要求。公司主动提示行业同质化扩产和利润挤压，说明后续不能只看 AI 需求，还必须验证毛利率、客户认证和现金流。",
+        "business_impact": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
+        "valuation_impact": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
+        "next_verification": [
+          "核对人工智能芯片配套高端 PCB 项目是否在 2026H2 按期试产，并披露客户认证、良率、产能利用率或收入贡献。",
+          "跟踪昆山普江厂房扩建的投资额、产品方向、建设进度和新增折旧。",
+          "复核 2026H1/Q3 毛利率、经营现金流、存货和应收，判断扩产是否被真实订单和回款支持。"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
+        "sort_key": 20260624,
+        "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+      }
     ]
   },
   "summary": {
-    "total": 24,
-    "companies": 3,
-    "valuation_update_needed": 7,
-    "positive": 19,
-    "watch": 0
+    "total": 25,
+    "companies": 4,
+    "valuation_update_needed": 8,
+    "positive": 20,
+    "watch": 1
   }
 }

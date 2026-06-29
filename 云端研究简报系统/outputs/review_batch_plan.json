@@ -1,18 +1,324 @@
 {
-  "generated_at": "2026-06-11T00:13:28",
+  "generated_at": "2026-06-29T16:13:11",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
     "total": 14,
-    "companies": 5,
-    "with_source_body": 2,
+    "companies": 6,
+    "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
-      "needs_source": 14
+      "ready_for_deep_review": 4,
+      "needs_source": 10
     },
-    "priority_batch": []
+    "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+        "date": "2026-06-22",
+        "score": 12,
+        "readiness_score": 32,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+        "date": "2026-06-16",
+        "score": 10,
+        "readiness_score": 32,
+        "investment_signal_score": 20,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+        "date": "2026-06-12",
+        "score": 11,
+        "readiness_score": 31,
+        "investment_signal_score": 12,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+        "date": "2026-06-22",
+        "score": 10,
+        "readiness_score": 28,
+        "investment_signal_score": 6,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ]
   },
-  "priority_batch": [],
+  "priority_batch": [
+    {
+      "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "date": "2026-06-22",
+      "score": 12,
+      "readiness_score": 32,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "date": "2026-06-16",
+      "score": 10,
+      "readiness_score": 32,
+      "investment_signal_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "date": "2026-06-12",
+      "score": 11,
+      "readiness_score": 31,
+      "investment_signal_score": 12,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "date": "2026-06-22",
+      "score": 10,
+      "readiness_score": 28,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    }
+  ],
   "items": [
+    {
+      "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "date": "2026-06-22",
+      "score": 12,
+      "readiness_score": 32,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "date": "2026-06-16",
+      "score": 10,
+      "readiness_score": 32,
+      "investment_signal_score": 20,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "date": "2026-06-12",
+      "score": 11,
+      "readiness_score": 31,
+      "investment_signal_score": 12,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "date": "2026-06-22",
+      "score": 10,
+      "readiness_score": 28,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     {
       "draft_id": "auto-eoptolink-业绩预告",
       "company": "eoptolink",
@@ -39,6 +345,35 @@
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+      "date": "2026-08-06",
+      "score": 14,
+      "readiness_score": 21,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     {
@@ -69,39 +404,11 @@
       }
     },
     {
-      "draft_id": "auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Files Annual Report on Form 20-F for 2025",
-      "date": "2026-04-16",
-      "score": 10,
-      "readiness_score": 20,
-      "investment_signal_score": 9,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待读原文件",
-      "review_batch_reason": "当前只读到了年报提交公告，不是年报正文；需要抓取 Form 20-F 或年报 PDF 后再进入深读。",
-      "promotion_blockers": [
-        "年报公告只说明文件已提交，未抓到年报正文里的经营和财务内容"
-      ],
-      "source_url": "http://pr.tsmc.com/english/news/3300",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-files-annual-report-on-form-20-f-for-2025.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "业务地图",
-          "风险与跟踪重点"
-        ],
-        "guidance": "若读到的是年报正文而非提交公告，应沉淀业务结构、风险、资本开支、现金流和治理信息。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年6月10日投资者关系活动记录表",
+      "draft_id": "auto-wus-沪电股份-2026年6月29日投资者关系活动记录表",
       "company": "wus",
       "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月10日投资者关系活动记录表",
-      "date": "2026-6-10",
+      "title": "沪电股份：2026年6月29日投资者关系活动记录表",
+      "date": "2026-6-29",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -113,7 +420,7 @@
         "可读内容偏短"
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月10日投资者关系活动记录表.md",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月29日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -125,67 +432,11 @@
       }
     },
     {
-      "draft_id": "auto-eoptolink-一季度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "一季度报告",
-      "date": "20260605-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-一季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-eoptolink-三季度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "三季度报告",
-      "date": "20260605-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-三季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年6月5日投资者关系活动记录表",
+      "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
       "company": "wus",
       "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月5日投资者关系活动记录表",
-      "date": "2026-6-5",
+      "title": "沪电股份：2026年6月18日投资者关系活动记录表",
+      "date": "2026-6-18",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -197,7 +448,7 @@
         "可读内容偏短"
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月5日投资者关系活动记录表.md",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月18日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -209,11 +460,11 @@
       }
     },
     {
-      "draft_id": "auto-eoptolink-年度报告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "年度报告",
-      "date": "20260604-1",
+      "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+      "date": "2026-6-16",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -224,8 +475,8 @@
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-年度报告.md",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -237,11 +488,11 @@
       }
     },
     {
-      "draft_id": "auto-shennan-深南电路-2026年6月3日投资者关系活动记录表",
+      "draft_id": "auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表",
       "company": "shennan",
       "company_name": "深南电路",
-      "title": "深南电路：2026年6月3日投资者关系活动记录表",
-      "date": "2026-6-3",
+      "title": "深南电路：2026年6月15日-16日投资者关系活动记录表",
+      "date": "2026-6-15",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -253,7 +504,7 @@
         "可读内容偏短"
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月3日投资者关系活动记录表.md",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年6月15日-16日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -265,39 +516,11 @@
       }
     },
     {
-      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260601",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "新易盛：投资者关系管理信息20260601",
-      "date": "2026-06-02",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260601.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告",
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票预案",
       "company": "shennan",
       "company_name": "深南电路",
-      "title": "深南电路：关于筹划向特定对象发行股票的提示性公告",
-      "date": "2026-06-02",
+      "title": "深南电路：2026年度向特定对象发行股票预案",
+      "date": "2026-06-13",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -309,7 +532,7 @@
         "可读内容偏短"
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于筹划向特定对象发行股票的提示性公告.md",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票预案.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -321,67 +544,11 @@
       }
     },
     {
-      "draft_id": "auto-wus-沪电股份-2026年6月2日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月2日投资者关系活动记录表",
-      "date": "2026-6-2",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月2日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年6月1日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年6月1日投资者关系活动记录表",
-      "date": "2026-6-1",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月1日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-2026年5月27日投资者关系活动记录表",
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告",
       "company": "shennan",
       "company_name": "深南电路",
-      "title": "深南电路：2026年5月27日投资者关系活动记录表",
-      "date": "2026-5-27",
+      "title": "深南电路：2026年度向特定对象发行股票方案的论证分析报告",
+      "date": "2026-06-13",
       "score": 9,
       "readiness_score": 14,
       "investment_signal_score": 5,
@@ -393,7 +560,35 @@
         "可读内容偏短"
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年5月27日投资者关系活动记录表.md",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年度向特定对象发行股票募集资金使用的可行性分析报告",
+      "date": "2026-06-13",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

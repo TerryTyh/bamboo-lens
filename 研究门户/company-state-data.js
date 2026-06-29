@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-06-29T15:33:53",
-  "source_generated_at": "2026-06-29T15:33:53",
+  "generated_at": "2026-06-29T16:13:11",
+  "source_generated_at": "2026-06-29T16:13:11",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
       "source_event_date": "2026-06-07",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "source_event_date": "2026-06-10",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-06-29T15:33:53",
+      "updated_at": "2026-06-29T16:13:11",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -113,6 +113,20 @@ window.BAMBOO_LENS_COMPANY_STATE = {
       "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
       "priority": "P1",
       "sourceLink": "./event.html?company=constellation&event=0&return=company&v=20260412-24"
+    },
+    "wus": {
+      "name": "沪电股份",
+      "updated_at": "2026-06-29T16:13:11",
+      "source_event_index": 0,
+      "source_event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+      "source_event_date": "2026-06-24",
+      "latestEvent": "2026-06-24｜高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+      "businessImpact": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
+      "valuationImpact": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
+      "nextCheck": "核对人工智能芯片配套高端 PCB 项目是否在 2026H2 按期试产，并披露客户认证、良率、产能利用率或收入贡献。；跟踪昆山普江厂房扩建的投资额、产品方向、建设进度和新增折旧。；复核 2026H1/Q3 毛利率、经营现金流、存货和应收，判断扩产是否被真实订单和回款支持。",
+      "action": "维持 B+ 观察，不追价；等待新产能试产、客户认证、毛利率和现金流验证。",
+      "priority": "B+ 观察",
+      "sourceLink": "./event.html?company=wus&event=0&return=company&v=20260412-24"
     }
   }
 };

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T15:33:53",
-  "source_overrides_at": "2026-06-29T15:33:53",
+  "generated_at": "2026-06-29T16:13:11",
+  "source_overrides_at": "2026-06-29T16:13:11",
   "items": [
     {
       "company": "constellation",
@@ -72,11 +72,36 @@
       "suggestions": [
         "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
       ]
+    },
+    {
+      "company": "wus",
+      "sourceEventTitle": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+      "sourceEventDate": "2026-06-24",
+      "status": "healthy",
+      "counts": {
+        "finance_rows": 1,
+        "finance_bridge": 3,
+        "finance_notes": 1,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
+      },
+      "totalAutoItems": 10,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
+      "longTextSamples": [],
+      "warnings": [],
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
     }
   ],
   "summary": {
-    "companies": 3,
-    "healthy": 3,
+    "companies": 4,
+    "healthy": 4,
     "review": 0,
     "at_risk": 0
   }
