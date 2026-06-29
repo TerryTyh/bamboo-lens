@@ -1,71 +1,65 @@
 {
   "draft_id": "auto-wus-沪电股份-2026年6月24日投资者关系活动记录表",
-  "draft_status": "auto_draft",
-  "generated_at": "2026-06-29T15:33:53",
+  "draft_status": "reviewed",
+  "generated_at": "2026-06-29T15:33:53+08:00",
+  "reviewed_at": "2026-06-29T12:00:00+08:00",
   "company": "wus",
   "company_name": "沪电股份",
   "source_candidate_title": "沪电股份：2026年6月24日投资者关系活动记录表",
-  "title": "沪电股份：2026年6月24日投资者关系活动记录表",
-  "date": "2026-6-24",
-  "type": "官方候选",
-  "priority": "草稿",
-  "action": "等待补证据",
-  "score": 9,
+  "title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
+  "date": "2026-06-24",
+  "type": "产能 / AI 服务器 PCB",
+  "priority": "B+ 观察",
+  "action": "维持 B+ 观察，不追价；等待新产能试产、客户认证、毛利率和现金流验证。",
+  "score": 14,
   "sort_key": 20260624,
-  "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260624-140554__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-  "readiness_lane": "needs_source",
-  "readiness_label": "待补正文",
-  "readiness_score": 14,
-  "investment_signal_score": 5,
-  "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-  "promotion_blockers": [
-    "还没有抓到足够正文",
-    "可读内容偏短"
-  ],
+  "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
+  "source_doc": "",
+  "readiness_lane": "ready",
+  "readiness_label": "可提升",
+  "readiness_score": 100,
+  "investment_signal_score": 9,
+  "review_batch_reason": "原文包含高端 AI PCB 项目试产时间、昆山厂房扩产、供应链瓶颈和行业竞争风险，可支持正式判断。",
+  "promotion_blockers": [],
   "source_summary": [
-    "日期：2026-6-24；标题：沪电股份：2026年6月24日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463"
+    "沪电股份在 2026 年 6 月 24 日投资者关系活动记录中表示，AI 训练、推理和商业化扩张推动 CSP 增加资本支出，并带动 AI 服务器和高速网络交换机 PCB 的结构性需求。",
+    "公司强调不会以规模和价格为导向做同质化扩张，而会把资源集中到数据通讯高附加值核心 PCB，并通过国内与泰国产能协同服务头部客户。",
+    "公司同时提示，同行激进扩产可能摊薄成熟技术平台的准入门槛，使行业竞争白热化并挤压利润空间。"
   ],
-  "fact": "日期：2026-6-24；标题：沪电股份：2026年6月24日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+  "fact": "公司披露，约 43 亿元的人工智能芯片配套高端印制电路板扩产项目正有序推进，预计 2026 年下半年开始试产并逐步提升产能；2026 年 6 月收购昆山普江仓储设施有限公司 100% 股权，将其厂房用于产能扩建。",
   "evidence": [
-    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
-    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
-    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+    "公司称约 43 亿元的人工智能芯片配套高端 PCB 扩产项目正有序推进，预计 2026 年下半年开始试产并逐步提升产能。",
+    "2026 年 6 月，公司收购昆山普江仓储设施有限公司 100% 股权，并计划将其厂房用于分阶段的升级式扩容。",
+    "公司认为 AI 服务器和高速网络交换机部署为 PCB 带来结构性增长，但同行新增产能落地后，成熟技术平台的准入门槛可能被摊薄，利润空间可能受到结构性挤压。",
+    "高阶 PCB 正向超低损耗树脂、HVLP 铜箔和特种高性能玻纤布演进，部分高端原材料存在阶段性供应偏紧；公司通过前期材料验证、战略库存和多元化认证争取供应保障。",
+    "公司明确资源将倾斜于数据通讯领域高附加值核心 PCB，并通过国内与泰国生产基地协同服务头部客户。"
   ],
-  "evidence_needed": [
-    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
-    "这件事影响哪条业务线、财务科目或竞争位置",
-    "下一次可以验证这件事是否真正有价值的指标"
-  ],
-  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
-  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
-  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "evidence_needed": [],
+  "judgment": "这条记录强化了沪电股份作为 AI 高端 PCB 优先样本的地位，并给出了 2026H2 试产这一可验证时间点；但新增项目和厂房扩建也提高了资本开支、折旧和产能消化要求。公司主动提示行业同质化扩产和利润挤压，说明后续不能只看 AI 需求，还必须验证毛利率、客户认证和现金流。",
+  "business_analysis": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
+  "valuation_analysis": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
   "verification": [
-    "打开原始来源，确认正文是否足够支撑正式事件。",
-    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
-    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+    "核对人工智能芯片配套高端 PCB 项目是否在 2026H2 按期试产，并披露客户认证、良率、产能利用率或收入贡献。",
+    "跟踪昆山普江厂房扩建的投资额、产品方向、建设进度和新增折旧。",
+    "复核 2026H1/Q3 毛利率、经营现金流、存货和应收，判断扩产是否被真实订单和回款支持。",
+    "跟踪 HVLP 铜箔、超低损耗树脂和特种玻纤布的供应情况，判断原料紧张是否影响交付或利润率。"
   ],
   "company_page_writeback": {
     "targets": [
       "最新动态",
-      "当前结论",
+      "业务地图",
+      "估值模型",
       "跟踪重点"
     ],
-    "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+    "guidance": "补入 2026H2 试产、昆山厂房扩建和行业利润挤压风险；动作维持 B+ 观察，不追价。"
   },
   "quality_check": {
     "has_source": true,
     "has_readable_source": true,
-    "has_source_body": false,
-    "source_chars": 134,
-    "can_promote_now": false,
-    "missing_before_promotion": [
-      "原文内容总结",
-      "三条以上具体证据",
-      "业务影响",
-      "估值或动作影响",
-      "下一次验证点"
-    ]
+    "has_source_body": true,
+    "source_chars": 5000,
+    "can_promote_now": true,
+    "missing_before_promotion": []
   },
   "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月24日投资者关系活动记录表.md",
   "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-wus-沪电股份-2026年6月24日投资者关系活动记录表.json"
