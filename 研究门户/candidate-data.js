@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-01T14:09:41",
+  "generated_at": "2026-07-02T13:32:10",
   "companies": {
     "nvidia": [
       {
@@ -262,6 +262,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
+        "title": "Joyride Through July With 12 Games Coming to GeForce NOW",
+        "date": "2026-07-02",
+        "fetched_at": "20260702-132930",
+        "type": "官方候选",
+        "fact": "日期：2026-07-02；标题：Joyride Through July With 12 Games Coming to GeForce NOW；原文内容：Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains , bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the sun set on the biggest GeForce NOW savings of the year. Level up for less before the deals disappear.；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260702,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
+        "source_excerpt": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains , bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the sun set on the biggest GeForce NOW savings of the year. Level up for less before the deals disappear.",
+        "source_body": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains , bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the sun set on the biggest GeForce NOW savings of the year. Level up for less before the deals disappear. Rule the board, you must. Choose a side in Monopoly: Star Wars Heroes vs. Villains , the classic property-trading board game reimagined with legendary characters, locations and rivalries from across the Star Wars universe. Play as iconic heroes or infamous villains — each with unique abilities — to assemble a team and experience cinematic moments while competing with family and friends across locations from every era of the saga. Every roll of the dice brings new opportunities to build an empire and claim victory. GeForce NOW makes it easy to take the battle between the light and dark sides across nearly any device. Jump into a match on a low-powered PC, Mac, phone, TV, tablet or handheld device and keep the fun going across the galaxy. And look forward to the games coming throughout the month: In addition to the 18 games announced last month, 10 more came to the cloud. The final days of the GeForce NOW Summer Sale are here. Before the savings disappear, gamers can save $35 on a 12-month Performance membership or $70 on a 12-month Ultimate membership — unlocking GeForce RTX-powered gaming in the cloud across devices they already own. The Performance membership delivers smooth, high-quality gaming with RTX-powered servers, making it easy to jump into favorite titles across PCs, Macs, phones, handhelds and TVs. The Ultimate membership takes cloud gaming to the max with RTX 4080‑ or 5080‑class performance. Experience cinematic visuals, ultralow latency and responsive gameplay powered by technologies like NVIDIA DLSS , ray tracing and NVIDIA Reflex — all without the cost of a new gaming rig. Hear directly from the GeForce NOW Community.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260702-132930__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
         "title": "NVIDIA and Partners Build in America, for America",
         "date": "2026-07-01",
         "fetched_at": "20260701-140706",
@@ -275,6 +299,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_excerpt": "For 250 years, America has built railroads that connected a continent, power grids that lit up cities, factories that powered prosperity, semiconductors that made the digital age possible and the internet that opened knowledge to the world. NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better h…",
         "source_body": "For 250 years, America has built railroads that connected a continent, power grids that lit up cities, factories that powered prosperity, semiconductors that made the digital age possible and the internet that opened knowledge to the world. NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery, stronger industrial productivity and global technology leadership. That progress depends on more than chips and AI models. It depends on the wide range of physical components behind them: advanced semiconductors, packaging, power systems, cooling, cloud capacity and much more — along with the people who build and operate it all. “AI is driving a once-in-a-generation opportunity to reinvigorate American manufacturing and supply chains,” said Jensen Huang, NVIDIA founder and CEO. In 43 states and growing, NVIDIA’s network of American partners and suppliers spans semiconductors, boards, systems, racks and more — all to meet this rare moment in the nation’s history and set up the country’s future by bringing the supply chain home. In just the past few years, NVIDIA and its partners have onshored the most advanced semiconductor manufacturing to build and test NVIDIA Blackwell chips in Arizona, with production underway at TSMC’s Phoenix facility and new AI supercomputer manufacturing plants planned with Foxconn in Houston and Wistron in Dallas. NVIDIA plans to produce up to $500 billion of AI infrastructure in the U.S. with partners including TSMC, Foxconn, Wistron, Corning, Lumentum, Coherent and Amkor. That means more advanced chips made in America, more systems assembled in America and more work for the contractors, technicians and engineers who are building the future. But the purpose of this buildout extends far beyond the chips and systems being produced in the U.S. It’s to accelerate what those chips and systems make possible. AI can help scientists discover medicines, forecast weather and solve problems once beyond reach. It can help computer scientists write software, operations teams strengthen supply chains, and engineers design and simulate products. In this way, the five-layer cake of AI is enabling America to build new industries and reimagine existing ones. It’s helping to increase productivity, add jobs and bolster the U.S. economy. And by producing intelligence at scale, AI is supporting open science that accelerates discovery across universities, labs, startups and industry. Doing all of this requires building three types of factories: Public First estimates that in 2026 alone, NVIDIA-driven AI demand will contribute $485 billion to the U.S. GDP and that AI infrastructure powered by NVIDIA chips is supporting over 100,000 jobs. This includes direct jobs like electricians, plumbers, HVAC technicians, pipefitters and construction workers, as well as indirect jobs throughout the wider supply chain.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260701-140706__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
+        "date": "2026-07-01",
+        "fetched_at": "20260702-132930",
+        "type": "官方候选",
+        "fact": "日期：2026-07-01；标题：NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout；原文内容：As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access…；来源：https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260701,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+        "source_excerpt": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access…",
+        "source_body": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly utilized and support the economics of token‑scale AI services. Emerging AI companies historically have had limited access to capital-intensive infrastructure, with even long-term commitments insufficient to unlock financing for compute. To address this, NVIDIA is introducing a new business model that opens up compute access to the fast‑growing AI ecosystem of startups, model builders, enterprises, research organizations and regional AI players. This new model enables AI clouds to procure NVIDIA infrastructure for AI-native, enterprise and ISV customers through economic alignment with a revenue-sharing and credit-support model. Through the partnership, AI clouds will sell NVIDIA-powered cloud services, with NVIDIA earning both standard product revenue and a share of the cloud revenue on the supported capacity. This structure accelerates adoption of NVIDIA platforms among the high-growth, high-conviction AI native sector, and provides NVIDIA with a recurring, usage-linked earnings stream. For model builders, inference providers, agent platforms and enterprises scaling AI, it can mean faster access to full-stack accelerated computing without waiting through site selection, power procurement, construction and hardware bring-up. The initiative is already taking shape, with AI cloud companies building DSX AI factories designed to serve customers and workloads across regions. Sharon AI and Firmus are among the first companies to work with NVIDIA on this new business model. Sharon AI is deploying up to 40,000 NVIDIA Grace Blackwell GB300 GPUs. “This strategic collaboration with NVIDIA marks a pivotal moment in Sharon AI’s mission to deliver sovereign, large-scale AI compute infrastructure,” said James Manning, cofounder and CEO of Sharon AI. Firmus is building a DSX AI factory campus in Batam, Indonesia. The campus is expected to scale to 360 megawatts and up to 170,000 NVIDIA GPUs. “AI-native companies need access to scalable, energy- and cost-efficient compute infrastructure to compete globally,” said Tim Rosenfield, co-CEO of Firmus Technologies. “Firmus AI cloud is building a NVIDIA DSX-aligned AI factory, which will enable our cloud to help more customers access the compute they need to build and scale AI.” AI natives such as Baseten, Fireworks AI and Together AI show where compute demand is headed: they need immediate access to AI cloud capacity to run model training, post-training, fine-tuning and high-volume agentic inference for developers, digital natives and enterprises building with AI.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260702-132930__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests",
         "company": "nvidia",
         "company_name": "NVIDIA",

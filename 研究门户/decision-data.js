@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-07-01T14:12:59",
-  "source_generated_at": "2026-07-01T14:12:59",
+  "generated_at": "2026-07-02T13:35:03",
+  "source_generated_at": "2026-07-02T13:35:03",
   "items": [
     {
       "company": "constellation",
@@ -1987,6 +1987,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
+      "date": "2026-07-01",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260702-132930__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260701,
+      "score": 8
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
       "date": "2026-06-30",
       "type": "官方候选",
@@ -2722,9 +2740,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 151,
+    "total": 152,
     "formal_events": 70,
-    "official_candidates": 81,
+    "official_candidates": 82,
     "companies": 15
   }
 };
