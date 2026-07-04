@@ -33,7 +33,7 @@ https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxx
 
 当前工作流文件已经准备好：
 
-- [daily-brief.yml](/Users/tianyuehua/Documents/项目/一个财务投资应用/.github/workflows/daily-brief.yml)
+- [daily-brief.yml](/Users/tianyuehua/Documents/项目/竹鉴/.github/workflows/daily-brief.yml)
 
 它会在工作日定时执行：
 
@@ -48,14 +48,14 @@ https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxx
 在项目根目录运行：
 
 ```bash
-cd "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统"
+cd "/Users/tianyuehua/Documents/项目/竹鉴/云端研究简报系统"
 python3 scripts/check_setup.py
 ```
 
 如果你想连企业微信一起本地测试，可以临时带上环境变量：
 
 ```bash
-cd "/Users/tianyuehua/Documents/项目/一个财务投资应用/云端研究简报系统"
+cd "/Users/tianyuehua/Documents/项目/竹鉴/云端研究简报系统"
 WECOM_WEBHOOK_URL="你的 webhook" python3 scripts/check_setup.py
 ```
 
