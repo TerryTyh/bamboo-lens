@@ -258,7 +258,9 @@ def main() -> None:
     if selected:
         body = "\n".join(render_item(index, item) for index, item in enumerate(selected, start=1))
     else:
-        body = "## 今日暂无符合质量门槛的正式事件\n"
+        # A zero-event brief is intentionally title-only. Process/status wording
+        # is useful in logs, not in the user-facing morning brief.
+        body = ""
     MORNING_BRIEF_FILE.write_text(
         f"""# 竹鉴晨报 | {today}
 

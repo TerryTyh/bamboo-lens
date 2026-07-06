@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:13:11",
+  "generated_at": "2026-07-06T22:36:36",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -322,6 +322,40 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+        "source_candidate_title": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
+        "date": "2026-07-01",
+        "type": "商业模式 / AI 云 / 资本支持",
+        "priority": "P1",
+        "action": "维持 A 池核心，新增对收入分成质量、信用暴露和客户利用率的高优先级跟踪",
+        "sort_key": 20260701,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+        "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260703-134218__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "source_summary": [
+          "NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。",
+          "首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。",
+          "原文把模式的经济动因定义为：新兴 AI 客户即使给出长期承诺，也往往不足以支持昂贵算力设施融资。NVIDIA 用信用支持和经济利益绑定帮助 AI 云更快上线产能，并从未来云收入中分享回报。"
+        ],
+        "fact": "2026-07-01，NVIDIA 公布面向 AI 云的收入分成与信用支持模式。AI 云采购 NVIDIA 设备后对外销售算力，NVIDIA 同时获得标准产品收入和受支持产能的云收入分成。首批 Sharon AI 与 Firmus 项目分别规划最多 4 万颗 GB300 GPU、最多 17 万颗 NVIDIA GPU 及 360MW 园区。",
+        "evidence": [
+          "NVIDIA 明确表示，将同时获得标准产品收入和受支持产能的云收入分成。",
+          "模式包含 credit-support，目的是帮助长期客户承诺仍不足以支持的算力基础设施获得融资。",
+          "Sharon AI 宣布部署最多 40,000 颗 NVIDIA Grace Blackwell GB300 GPU。",
+          "Firmus 的巴淡 DSX AI 工厂园区预计扩展至 360MW，最多容纳 170,000 颗 NVIDIA GPU。",
+          "原文将 Baseten、Fireworks AI 和 Together AI 列为需要即时算力以支持训练、后训练、微调与高并发智能体推理的需求代表。"
+        ],
+        "judgment": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。",
+        "business_analysis": "正面影响是扩大可负担的客户范围，缩短 AI 云从订单到上线的融资周期，并把 DSX、GB300 和全栈软件嵌入新兴区域算力市场。更重要的是，NVIDIA 的收入不再只与设备交付挂钩，还与云产能实际销售挂钩。反面是信用支持可能降低初期订单的风险含金量：如果需求、定价或利用率不及预期，NVIDIA 可能同时面临客户信用和分成收入下降。",
+        "valuation_analysis": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。",
+        "verification": [
+          "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。",
+          "在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。",
+          "比较该模式与 CoreWeave 等 AI 云的资本成本、GPU 小时价格、利用率和客户集中度，判断分成收入的真实质量。",
+          "观察模式是否扩展到更多 DSX 伙伴，以及是否影响 NVIDIA 的毛利率、营运资本和自由现金流。"
+        ],
+        "reviewed_at": "2026-07-06T22:20:00+08:00"
+      },
       {
         "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
         "source_candidate_title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",

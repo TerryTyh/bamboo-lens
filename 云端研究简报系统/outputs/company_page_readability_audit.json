@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-03T13:46:41",
-  "source_overrides_at": "2026-07-03T13:46:41",
+  "generated_at": "2026-07-06T22:36:36",
+  "source_overrides_at": "2026-07-06T22:36:36",
   "items": [
     {
       "company": "constellation",
@@ -29,24 +29,28 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "sourceEventDate": "2026-06-07",
+      "sourceEventTitle": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+      "sourceEventDate": "2026-07-01",
       "status": "healthy",
       "counts": {
-        "finance_rows": 0,
-        "finance_bridge": 0,
-        "finance_notes": 0,
+        "finance_rows": 1,
+        "finance_bridge": 3,
+        "finance_notes": 1,
         "business_segments": 1,
         "business_moat": 1,
-        "valuation_current": 0,
-        "valuation_scenarios": 0,
-        "valuation_triggers": 0
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
       },
-      "totalAutoItems": 2,
-      "omitted": {},
+      "totalAutoItems": 10,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
       "longTextSamples": [],
       "warnings": [],
-      "suggestions": []
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
     },
     {
       "company": "tsmc",

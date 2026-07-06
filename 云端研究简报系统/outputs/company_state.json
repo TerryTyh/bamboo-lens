@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-03T13:46:41",
-  "source_generated_at": "2026-07-03T13:46:40",
+  "generated_at": "2026-07-06T22:36:36",
+  "source_generated_at": "2026-07-06T22:36:36",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
-      "source_event_title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "source_event_date": "2026-06-07",
-      "latestEvent": "2026-06-07｜SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-      "businessImpact": "业务影响主要落在 Data Center、networking、AI factory software 以及主权 AI 平台输出四条线。电信运营商原本就掌握机房、电力接入、网络和大型企业客户，如果 SK Telecom 能把这些资源转成 AI Cloud，NVIDIA 的角色就不再只是卖训练卡，而是把 DSX、MaxLPS、DSX OS 和系统方案嵌入运营商基础设施。与单纯卖给 hyperscaler 相比，这类客户一旦跑通模型，后续更可能复制到本地企业、机器人、制造和主权...",
-      "valuationImpact": "估值和动作上，这条事件支持继续给予 NVIDIA 平台溢价，因为它把市场对公司的需求来源，从美国超大云厂商资本开支，延伸到韩国电信运营商主导的 AI 云建设。正面在于原文给出了 gigawatt-scale、2027 上线、DSX 全栈架构和联合研究这些具体抓手，说明 AI factory 模式已开始从概念走向区域级部署。限制在于仍缺少合同金额、GPU 数量、投产节奏和软件收入占比，因此不足以单独上调短期盈利预测。动作上维持 A 池核心，并把“telco 是否成为下一批 AI...",
-      "nextCheck": "跟踪 SK Telecom 后续是否披露首座 AI factory 的 GPU 配置、功率规模、资本开支和客户签约节奏，确认 2027 上线不是概念性口径。；观察 NVIDIA 财报或电话会是否开始把 telco AI cloud、sovereign AI、AI factory software 或亚洲区域云合作列为新增需求来源。；继续看 SK Group 与 NVIDIA 在 next-generation AI factory architectures 上的联合研究是否落到新产品、标准化方案或更多部署项目。",
-      "action": "维持 A 池核心，并提高“电信运营商转型 AI 云基础设施平台”验证权重",
+      "source_event_title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+      "source_event_date": "2026-07-01",
+      "latestEvent": "2026-07-01｜NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+      "businessImpact": "正面影响是扩大可负担的客户范围，缩短 AI 云从订单到上线的融资周期，并把 DSX、GB300 和全栈软件嵌入新兴区域算力市场。更重要的是，NVIDIA 的收入不再只与设备交付挂钩，还与云产能实际销售挂钩。反面是信用支持可能降低初期订单的风险含金量：如果需求、定价或利用率不及预期，NVIDIA 可能同时面临客户信用和分成收入下降。",
+      "valuationImpact": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。",
+      "nextCheck": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本、GPU 小时价格、利用率和客户集中度，判断分成收入的真实质量。",
+      "action": "维持 A 池核心，新增对收入分成质量、信用暴露和客户利用率的高优先级跟踪",
       "priority": "P1",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "source_event_date": "2026-06-10",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-03T13:46:41",
+      "updated_at": "2026-07-06T22:36:36",
       "source_event_index": 0,
       "source_event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "source_event_date": "2026-06-24",
