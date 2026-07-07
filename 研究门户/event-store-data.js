@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-06T15:01:48",
+  "generated_at": "2026-07-07T14:11:03",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -1441,6 +1441,54 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains , bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 new games joining the cloud this month. Plus, don’t let the sun set on the biggest GeForce NOW savings of the year. Level up for less before the deals disappear. Rule the board, you must. Choose a side in Monopoly: Star Wars Heroes vs. Villains , the classic property-trading board game reimagined with legendary characters, locations and rivalries from across the Star Wars universe. Play as iconic heroes or infamous villains — each with unique abilities — to assemble a team and experience cinematic moments while competing with family and friends across locations from every era of the saga. Every roll of the dice brings new opportunities to build an empire and claim victory. GeForce NOW makes it easy to take the battle between the light and dark sides across nearly any device. Jump into a match on a low-powered PC, Mac, phone, TV, tablet or handheld device and keep the fun going across the galaxy. And look forward to the games coming throughout the month: In addition to the 18 games announced last month, 10 more came to the cloud. The final days of the GeForce NOW Summer Sale are here. Before the savings disappear, gamers can save $35 on a 12-month Performance membership or $70 on a 12-month Ultimate membership — unlocking GeForce RTX-powered gaming in the cloud across devices they already own. The Performance membership delivers smooth, high-quality gaming with RTX-powered servers, making it easy to jump into favorite titles across PCs, Macs, phones, handhelds and TVs. The Ultimate membership takes cloud gaming to the max with RTX 4080‑ or 5080‑class performance. Experience cinematic visuals, ultralow latency and responsive gameplay powered by technologies like NVIDIA DLSS , ray tracing and NVIDIA Reflex — all without the cost of a new gaming rig. Hear directly from the GeForce NOW Community.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260702-132930__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "How Open Models Are Driving AI Research",
+          "date": "2026-07-06",
+          "fetched_at": "20260707-140648",
+          "type": "官方候选",
+          "fact": "日期：2026-07-06；标题：How Open Models Are Driving AI Research；原文内容：Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVI…；来源：https://blogs.nvidia.com/blog/open-models-icml-2026/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260706,
+          "source_url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+          "source_excerpt": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVI…",
+          "source_body": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVIDIA Nemotron — a family of open models, including open datasets — as the foundation for new research. Hundreds more draw on NVIDIA Cosmos , NVIDIA Isaac GR00T , BioNeMo and other NVIDIA open model families, spanning physical AI, robotics, autonomous vehicles and biomedical research. Areas including vision and video generation, reinforcement learning for large language models ( LLMs ) and agent training as well as AI inference remained prominent themes across this year’s papers, reflecting sustained investment these fields command — while several new areas also broke through. Robot world models drew significant attention, with papers like DreamDojo pushing the boundary of how AI systems learn to reason about and act in physical environments. DreamDojo, for example, learns how the physical world behaves from human video and builds on NVIDIA Cosmos open frontier models to predict how a robot would handle objects and operate in environments it was never trained on. It lets researchers evaluate policies, plan actions and teleoperate a virtual robot, accelerating development without the costs and risks of physical deployment. AI for life sciences was fueled by NVIDIA BioNeMo open models and research contributions that help researchers understand protein function, molecular behavior and genetic code. Papers like FLIP2 introduce public benchmarks for testing how well AI predicts the effects of protein mutations. KERMT is a new BioNeMo open model for predicting molecular properties important to drug discovery. Synthetic data generation (SDG) drew particular interest at ICML this year with several Nemotron and physical AI open datasets, reflecting a broader shift in how researchers are thinking about training at scale without relying solely on human-labeled data. Open infrastructure gives researchers the tools to accelerate breakthroughs. The papers show Nemotron being used less like a single model release and more like a research stack: open weights to evaluate against, open datasets to train and adapt with, and open recipes for reasoning, tool use, safety, data curation and efficient inference. Alongside the models, NeMo Curator and the open datasets it supports gives researchers a reproducible foundation for training data curation . SDG tools enable creating high-quality training sets at a scale and speed that would’ve been impractical just a few years ago. The Cosmos 3 family of open, frontier omnimodels gives researchers and developers a generational leap in the ability to build robots, autonomous vehicles and vision AI that perceive, reason, plan and act in the physical world. In addition, the NVIDIA Alpamayo open model family for autonomous vehicle development, NVIDIA Isaac GR00T for robotics and NVIDIA BioNeMo for biomedical help accelerate research and development across industries.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260707-140648__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "How Nations Are Deploying AI for Strategic Priorities",
+          "date": "2026-07-06",
+          "fetched_at": "20260707-140648",
+          "type": "官方候选",
+          "fact": "日期：2026-07-06；标题：How Nations Are Deploying AI for Strategic Priorities；原文内容：Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare. AI, the most important technology of our time, is turbocharging innovation across every facet of society. Countries are investing in AI capabilities so they can design, trai…；来源：https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260706,
+          "source_url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
+          "source_excerpt": "Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare. AI, the most important technology of our time, is turbocharging innovation across every facet of society. Countries are investing in AI capabilities so they can design, trai…",
+          "source_body": "Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare. AI, the most important technology of our time, is turbocharging innovation across every facet of society. Countries are investing in AI capabilities so they can design, train and deploy models and applications, using domestic infrastructure, local datasets and homegrown expertise. This approach ensures AI solutions are tailored to local citizens, services and regulations. The urgency for countries to build and deploy AI capabilities has grown with the rise of generative and agentic AI , which is reshaping markets, inspiring new industries and transforming existing ones — from gaming to healthcare. It’s changing how people work, as many professions now use AI-powered copilots. These efforts span physical infrastructure and data infrastructure. On the data side, countries are developing foundation models, such as large language models , built by local teams and trained on local datasets. This helps reflect regional dialects, cultural context and specific domains in the models’ outputs. For example, speech AI models can help preserve, promote and revitalize indigenous languages. Large language models are not only used to understand and generate human language; they can also write software code, aid in drug discovery, help protect consumers from financial fraud, teach robots physical skills and much more. As AI and accelerated computing become increasingly important for tackling climate change, boosting energy efficiency and defending against cybersecurity threats, national AI capabilities play a critical role in enabling every country to strengthen its resilience and sustainability. A new class of essential infrastructure for AI production has emerged: AI factories, where data comes in and intelligence comes out. These are next-generation data centers that host advanced, full-stack accelerated computing platforms for the most computationally intensive tasks. Countries are building domestic computing capacity through various models. Some are procuring and operating AI clouds in collaboration with state-owned telecommunications providers or utilities. Others are sponsoring local cloud partners to provide shared AI computing platforms for public-private use. “The AI factory will become the bedrock of modern economies across the world,” NVIDIA founder and CEO Jensen Huang said in a media Q&A . There are five ingredients of a national AI strategy: Countries around the world are investing in AI capabilities tailored to their national needs. AI investments can help grow economies while delivering tangible social and environmental benefits for citizens.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260707-140648__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+          "date": "2026-07-06",
+          "fetched_at": "20260707-140648",
+          "type": "官方候选",
+          "fact": "日期：2026-07-06；标题：NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community；原文内容：Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Face are collaborating to bring the NVIDIA Isaac GR00T 1.7 open, reasoni…；来源：https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260706,
+          "source_url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+          "source_excerpt": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Face are collaborating to bring the NVIDIA Isaac GR00T 1.7 open, reasoni…",
+          "source_body": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Face are collaborating to bring the NVIDIA Isaac GR00T 1.7 open, reasoning vision language action (VLA) model for humanoid robots and the NVIDIA Isaac Teleop framework to LeRobot — Hugging Face’s open source library for robotics — with NVIDIA Cosmos 3 , a frontier model for physical AI, planned soon. Together, these integrations give developers a more accessible and standardized path for end-to-end robot development while driving innovation and collaboration across the open robotics community. “Open source is how a field turns advanced research into something people can study, adapt and build on,” said Thomas Wolf, cofounder and chief science officer at Hugging Face. “With NVIDIA Isaac GR00T 1.7 and Isaac TeleOp in LeRobot today, robotics developers can use shared models, data and workflows to train and evaluate robots in the open. And with NVIDIA Cosmos 3 planned next, the community will have a path to bring frontier world models into that same collaborative loop.” Hugging Face LeRobot is an open source robotics library for training, running and sharing robot datasets, models, policies and workflows. NVIDIA’s continued partnership with Hugging Face connects NVIDIA’s 3 million robotics developers with Hugging Face’s 16 million AI builders, expanding access to frontier physical AI tools through open workflows. Bringing NVIDIA physical AI capabilities into LeRobot gives developers a common way to collect and standardize data, train and fine-tune robot foundation models, evaluate performance and deploy models through open workflows. The integrations include: These integrations build on a broader set of NVIDIA resources already connected to LeRobot to support the full robotics development loop, including: Learn more about how to use Isaac Teleop, Isaac GR00T 1.7 and Isaac Lab-Arena with LeRobot for end-to-end humanoid development and explore detailed LeRobot integration workflows .",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260707-140648__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
@@ -2309,6 +2357,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260604-141031__www.gevernova.com_investors_events.html"
+        },
+        {
+          "title": "1st Quarter 2026 Earnings Webcast",
+          "date": "2026-04-22",
+          "fetched_at": "20260707-140648",
+          "type": "官方候选",
+          "fact": "日期：2026-04-22；标题：1st Quarter 2026 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260422,
+          "source_url": "https://www.gevernova.com/investors/events",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260707-140648__www.gevernova.com_investors_events.html"
         }
       ]
     },
@@ -3710,6 +3773,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260706-145827__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年7月7日投资者关系活动记录表",
+          "date": "2026-7-7",
+          "fetched_at": "20260707-140648",
+          "type": "官方候选",
+          "fact": "日期：2026-7-7；标题：沪电股份：2026年7月7日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260707,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260707-140648__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
