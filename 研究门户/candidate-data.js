@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-07T14:09:47",
+  "generated_at": "2026-07-08T13:33:28",
   "companies": {
     "nvidia": [
       {
@@ -284,6 +284,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+        "date": "2026-07-07",
+        "fetched_at": "20260708-133018",
+        "type": "官方候选",
+        "fact": "日期：2026-07-07；标题：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data process…；来源：https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260707,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+        "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data process…",
+        "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chiplet tax” where each CPU’s cores can no longer can get access to the full memory performance of the chip. AI agents need a CPU designed for max single-threaded performance at scale. A max single-threaded CPU at scale keeps each agent step fast while the system is fully loaded. Every core completes the agent task at full performance without other cores slowing it down. Max single-threaded CPUs at scale are designed differently to deliver: Every core can finish its task without any other core slowing it down, delivering excellent throughput and, more importantly, the fastest possible single-core task performance possible. NVIDIA Vera exemplifies this new class of CPU design.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260708-133018__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "How Open Models Are Driving AI Research",

@@ -1,21 +1,28 @@
-# 竹鉴日报 | 2026-07-07
+# 竹鉴日报 | 2026-07-08
 
-今日关键变化：
+今日没有新的可读内容。
 
-1. 公司：NVIDIA
-   事件：NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担
-   核心内容：2026-07-01，NVIDIA 公布面向 AI 云的收入分成与信用支持模式。AI 云采购 NVIDIA 设备后对外销售算力，NVIDIA 同时获得标准产品收入和受支持产能的云收入分成。首批 Sharon AI 与 Firmus 项目分别规划最多 4 万颗 GB300 GPU、最多 17 万颗 NVIDIA GPU 及 360MW 园区。
-   关键证据：2026-07-01，NVIDIA 公布面向 AI 云的收入分成与信用支持模式；AI 云采购 NVIDIA 设备后对外销售算力，NVIDIA 同时获得标准产品收入和受支持产能的云收入分成
-   为什么重要：这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。
-   动作：维持 A 池核心，新增对收入分成质量、信用暴露和客户利用率的高优先级跟踪
-   [原文](https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/)
+今日待读候选：
 
-其他可读线索：
+1. 沪电股份｜沪电股份：2026年7月7日投资者关系活动记录表
+   2026-7-7。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
 
-- 今天没有其他值得展开阅读的新内容。
+2. 沪电股份｜沪电股份：2026年7月6日投资者关系活动记录表
+   2026-7-6。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
 
-后续观察：
+3. NVIDIA｜How Open Models Are Driving AI Research
+   2026-07-06。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://blogs.nvidia.com/blog/open-models-icml-2026/)
 
-  1. 下次财报里数据中心收入能否继续维持高增速，而不是只靠个别大客户拉动。
-  2. GAAP / non-GAAP 毛利率是否仍能维持在高位，平台扩张是否开始侵蚀盈利质量。
-  3. 超大客户资本开支口径有没有变化，推理需求是否真的接上训练需求。
+4. NVIDIA｜NVIDIA and Partners Build in America, for America
+   2026-07-01。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/)
+
+明日重点：
+
+- 当前覆盖公司：NVIDIA、TSMC、Microsoft、阿里巴巴、汇川技术、GE Vernova、立讯精密、Constellation Energy、长电科技、北方华创、中微公司、中际旭创、新易盛、深南电路、沪电股份、工业富联
+- 优先打开原文：沪电股份｜沪电股份：2026年7月7日投资者关系活动记录表
+- 优先打开原文：沪电股份｜沪电股份：2026年7月6日投资者关系活动记录表
+- 优先打开原文：NVIDIA｜How Open Models Are Driving AI Research
