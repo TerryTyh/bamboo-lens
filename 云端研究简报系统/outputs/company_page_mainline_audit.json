@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T14:34:43",
-  "source_overrides_at": "2026-07-09T14:34:43",
+  "generated_at": "2026-07-09T23:18:37",
+  "source_overrides_at": "2026-07-09T23:18:29",
   "items": [
     {
       "company": "constellation",
@@ -38,8 +38,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-      "sourceEventDate": "2026-07-01",
+      "sourceEventTitle": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+      "sourceEventDate": "2026-07-08",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

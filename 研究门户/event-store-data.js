@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-09T14:34:43",
+  "generated_at": "2026-07-09T23:18:13",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -7,6 +7,44 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "tier": "A",
       "theme": "AI infrastructure",
       "events": [
+        {
+          "title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+          "source_candidate_title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+          "date": "2026-07-08",
+          "fetched_at": "",
+          "type": "企业 AI / 智能体软件栈 / 开源模型",
+          "fact": "2026-07-08，NVIDIA 披露 Nemotron 3 Ultra 与 LangChain 深度智能体框架的适配结果：在不重新训练模型的情况下，通过调优系统提示词、工具描述和中间件，Nemotron 3 Ultra 在 LangChain 深度智能体基准测试上取得开源模型最高准确率，并达到与最高分闭源模型相当的业务任务表现；同时完成更多任务、吞吐更高，单次推理运行成本比领先闭源模型低 10 倍。LangChain 平台月下载量超过 2 亿次，Abridge、Amdocs、Box 和 EY 已被列为采用或实施生态线索。",
+          "judgment": "这是一条 P2 级企业 AI 软件栈事件。它不等同于大额订单，也没有披露软件收入或 GPU 采购金额，因此不能按短期财务催化处理；但它把 NVIDIA 的企业智能体叙事从模型发布推进到可被主流编排平台直接调用的开放栈，并用成本、吞吐和业务任务表现给出了可验证指标。对 NVIDIA 的长期意义在于，企业 AI 采用不只依赖最大闭源模型，也可能通过开放模型、工具编排和安全运行时形成可控、低成本、可本地部署的智能体工作流。",
+          "action": "维持 A 池核心；把企业智能体开源栈的成本、采用客户和软件配套收入列为新增验证点",
+          "priority": "P2",
+          "sort_key": 20260708,
+          "source_url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260709-143327__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "原文讲的是 NVIDIA Nemotron 3 Ultra 与 LangChain 深度智能体框架的适配结果。LangChain 针对 Nemotron 3 Ultra 调整智能体运行框架，使其在深度智能体基准测试上取得开源模型中的最高准确率，同时完成更多任务、吞吐更高，并且单次运行推理成本比领先闭源模型低 10 倍。文章还强调，该结果不是通过重新训练模型获得，而是通过围绕模型的系统工程调优实现，包括系统提示词、工具描述和中间件。",
+            "文章进一步说明，Nemotron 3 Ultra 在 LangChain 的深度智能体基准测试中达到了与最高分闭源模型相当的业务任务表现。LangChain 的智能体工程平台拥有每月超过 2 亿次下载，调优后的配置已可直接通过 LangChain 使用，这让企业可以在开放模型、开放编排框架和开放安全运行时上构建可自定义、可治理、可部署在自有基础设施或云上的智能体系统。",
+            "原文给出了初步采用线索：Abridge、Amdocs 和 Box 正在把专用智能体嵌入各自平台，EY 则在扩展围绕 NVIDIA NemoClaw 深度智能体蓝图的实施能力。NVIDIA NemoClaw for LangChain Deep Agents 被定义为面向企业专用 AI 的开放参考蓝图，组合 LangChain 深度智能体代码、Nemotron 3 Ultra 调优结果和 NVIDIA OpenShell 安全运行时。"
+          ],
+          "evidence": [
+            "LangChain 针对 NVIDIA Nemotron 3 Ultra 调优深度智能体运行框架，使其在深度智能体基准测试上取得开源模型中的最高准确率。",
+            "原文称 Nemotron 3 Ultra 达到与最高分闭源模型相当的业务任务表现，并且完成更多任务、吞吐更高。",
+            "推理成本口径是每次运行比领先闭源模型低 10 倍，这直接影响企业持续评估、试验和部署专用智能体的经济性。",
+            "性能提升不来自模型重训，而来自围绕模型的系统工程调优，包括系统提示词、工具描述和中间件。",
+            "LangChain 智能体工程平台每月下载量超过 2 亿次，调优后的配置已可直接通过 LangChain 使用。",
+            "Abridge、Amdocs、Box 正在把专用智能体嵌入平台，EY 正在扩展围绕 NVIDIA NemoClaw 深度智能体蓝图的实施能力。"
+          ],
+          "business_analysis": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披露这些客户带来的收入规模、付费模式或硬件拉动量，因此目前只能作为企业智能体栈渗透证据。",
+          "valuation_analysis": "估值/动作上，这条事件支持继续给 NVIDIA 平台溢价，但不足以单独上调估值中枢。正面在于：开放模型在企业任务上接近闭源模型、推理成本显著下降，并进入 LangChain 这样高分发入口，有助于把企业 AI 从试点带向更多可治理的生产工作流。需要谨慎的是，低成本也可能压低部分推理单价，最终价值取决于使用量扩大、软件配套附加、企业私有部署和服务生态能否抵消单价下降。动作上维持 A 池核心，不因该事件追高；后续重点看企业客户数量、NemoClaw、OpenShell、NIM 的收费口径、推理工作负载增长，以及是否在财报中体现为软件和服务收入。",
+          "verification": [
+            "跟踪 Abridge、Amdocs、Box 与 EY 是否披露基于 Nemotron、NemoClaw 和 LangChain 的实际部署规模、客户数量或生产环境案例。",
+            "观察 NVIDIA 是否在财报、电话会或产品口径中披露 Nemotron、NemoClaw、OpenShell、NIM 与企业推理相关的软件收入、订阅或配套附加率。",
+            "验证 10 倍推理成本优势是否能在真实企业工作流中复现，而不是只停留在 LangChain 深度智能体基准测试。",
+            "比较开放智能体栈与闭源模型 API 在安全、治理、本地部署和持续评估成本上的差异，判断企业是否因此扩大 NVIDIA GPU 推理需求。",
+            "关注 LangChain、云厂商和系统集成商是否继续把 NVIDIA 开放栈做成默认可选路径，决定它是单点合作还是生态入口。"
+          ],
+          "reviewed_at": "2026-07-09T23:15:37+08:00",
+          "review_status": "reviewed"
+        },
         {
           "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
           "source_candidate_title": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
@@ -619,7 +657,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -631,7 +669,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -643,7 +681,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -655,7 +693,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -667,7 +705,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -679,7 +717,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1521,22 +1559,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW . The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also gets an update in the cloud, making it even easier to jump into the latest content from the supernatural adventure without a single download or more storage space needed. It leads the way for GeForce NOW bringing native touch control to the game, coming soon. There’s even more to explore with three new games joining the GeForce NOW library this week. A new GeForce RTX 5080-powered GeForce NOW server is coming to Toronto, expanding service in the region and bringing dedicated cloud gaming performance closer to local members. The new server will roll out within days, giving more players access to top-tier cloud gaming across Canada. Ultimate members can stream across PCs, Macs, handhelds, mobile devices, TVs and more with GeForce RTX 5080-class power in the cloud. Enjoy up to 4K resolution and beyond on supported ultrawide displays, up to 120 frames per second, plus NVIDIA DLSS , ray tracing and NVIDIA Reflex technologies. Step into the surreal world of NTE: Neverness to Everness with the NTE Version 1.2 “999 Nights” update. This version introduces a massive gameplay evolution, plunging players into an immersive, tabletop-inspired fantasy role-playing game on the Warren Continent — a new permanent game mode featuring its own dedicated progression system. This narrative and mechanical expansion is elevated by the debut of two powerful characters, Shinku and Iroi, alongside an unprecedented fashion upgrade featuring a sweeping collection of 19 new character outfits. To top it off, exploration gets a high-octane upgrade with Draco, a revolutionary new motorcycle vehicle, making this version an absolute playground for combat strategy, stylish customization and high-speed urban traversal. Plus, GeForce NOW will soon be rolling out native touch controls to NTE: Neverness to Everness , which will make it even easier to explore the city’s mysteries from supported mobile devices. Look for the game in the GeForce NOW app to seamlessly jump between devices and continue the adventure — no downloads, storage space or expensive additional hardware required.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260709-143013__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-          "date": "2026-07-08",
-          "fetched_at": "20260709-143013",
-          "type": "官方候选",
-          "fact": "日期：2026-07-08；标题：NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness；原文内容：NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured…；来源：https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260708,
-          "source_url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-          "source_excerpt": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured…",
-          "source_body": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agents directly into their platforms and global systems integrator EY is expanding its NVIDIA implementation capabilities around NVIDIA NemoClaw blueprints for LangChain Deep Agents, helping clients customize, evaluate and govern specialized agents across high-value workflows. NVIDIA founder and CEO Jensen Huang recently sat down with Chase to discuss why the last six months have seen a leap in useful AI for enterprises. LangChain’s team ran Nemotron 3 Ultra against its public Deep Agents benchmark suite, then analyzed the deep agent’s execution traces to find exactly where it lost points. Instead of retraining the model, the team tuned the harness around it — adjusting system prompts, tool descriptions and middleware. Every developer using LangChain Deep Agents with Nemotron 3 Ultra can put this to work today — the tuned profile is available directly through LangChain. NVIDIA NemoClaw for LangChain Deep Agents is the open reference blueprint that packages this work for enterprises building their own specialized AI — systems of models , tools and runtime — tuned for their own workflows. It combines LangChain Deep Agents Code, tuned for Nemotron 3 Ultra, with the NVIDIA OpenShell secure runtime for executing agent actions safely. An open model, an open harness and an open secure runtime means enterprises own the full stack, end to end. They can customize it around the expertise that sets their business apart, keep improving it and run it anywhere — their own infrastructure, their own cloud, their own governance.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260709-143013__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
@@ -1813,7 +1835,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -1825,7 +1847,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -1874,7 +1896,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -1886,7 +1908,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -1898,7 +1920,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -1910,7 +1932,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1963,7 +1985,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1975,7 +1997,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -1987,7 +2009,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -1999,7 +2021,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -2011,7 +2033,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -2023,7 +2045,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2044,7 +2066,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -2056,7 +2078,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -2068,7 +2090,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -2080,7 +2102,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -2092,7 +2114,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -2104,7 +2126,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2125,7 +2147,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -2137,7 +2159,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -2149,7 +2171,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -2161,7 +2183,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -2173,7 +2195,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -2185,7 +2207,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2327,7 +2349,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -2339,7 +2361,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -2351,7 +2373,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -2363,7 +2385,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -2375,7 +2397,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -2387,7 +2409,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2439,7 +2461,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -2451,7 +2473,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -2463,7 +2485,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -2475,7 +2497,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -2487,7 +2509,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -2499,7 +2521,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -2511,7 +2533,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2692,7 +2714,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -2704,7 +2726,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -2716,7 +2738,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -2728,7 +2750,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/ff5e/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [

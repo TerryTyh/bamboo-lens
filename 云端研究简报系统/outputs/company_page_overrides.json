@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-09T14:34:43",
-  "source_event_store_at": "2026-07-09T14:34:43",
-  "source_deposition_at": "2026-07-09T14:34:43",
+  "generated_at": "2026-07-09T23:18:29",
+  "source_event_store_at": "2026-07-09T23:18:13",
+  "source_deposition_at": "2026-07-09T23:18:22",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
-      "sourceEventTitle": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-      "sourceEventDate": "2026-07-01",
+      "sourceEventTitle": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+      "sourceEventDate": "2026-07-08",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-09T14:34:43",
-      "latestEvent": "2026-07-01｜NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-      "businessImpact": "正面影响是扩大可负担的客户范围，缩短 AI 云从订单到上线的融资周期，并把 DSX、GB300 和全栈软件嵌入新兴区域算力市场。更重要的是，NVIDIA 的收入不再只与设备交付挂钩，还与云产能实际销售挂钩。反面是信用支持可能降低初期订单的风险含金量：如果需求、定价或利用率不及预期，NVIDIA 可能同时面临客户信用和分成收入下降。",
-      "valuationImpact": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。",
-      "nextCheck": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。",
-      "action": "维持 A 池核心，新增对收入分成质量、信用暴露和客户利用率的高优先级跟踪",
+      "updatedAt": "2026-07-09T23:18:29",
+      "latestEvent": "2026-07-08｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+      "businessImpact": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披露这些客户带来的收入规模、付费模式或硬件拉动量，因此目前只能作为企业智能体栈渗透证据。",
+      "valuationImpact": "估值/动作上，这条事件支持继续给 NVIDIA 平台溢价，但不足以单独上调估值中枢。正面在于：开放模型在企业任务上接近闭源模型、推理成本显著下降，并进入 LangChain 这样高分发入口，有助于把企业 AI 从试点带向更多可治理的生产工作流。需要谨慎的是，低成本也可能压低部分推理单价，最终价值取决于使用量扩大、软件配套附加、企业私有部署和服务生态能否抵消单价下降。动作上维持 A 池核心，不因该事件追高；后续重点看企业客户数量、NemoClaw、OpenShell、NIM 的收费口径、推理工作负载增长，以及是否在财报中体现为软件和服务收入。",
+      "nextCheck": "跟踪 Abridge、Amdocs、Box 与 EY 是否披露基于 Nemotron、NemoClaw 和 LangChain 的实际部署规模、客户数量或生产环境案例。；观察 NVIDIA 是否在财报、电话会或产品口径中披露 Nemotron、NemoClaw、OpenShell、NIM 与企业推理相关的软件收入、订阅或配套附加率。",
+      "action": "维持 A 池核心；把企业智能体开源栈的成本、采用客户和软件配套收入列为新增验证点",
       "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
       "writebackQuality": {
         "status": "needs_model_update",
@@ -69,16 +69,16 @@
           "segments": [
             {
               "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-              "scale": "2026-07-01｜商业模式 / AI 云 / 资本支持",
-              "text": "正面影响是扩大可负担的客户范围，缩短 AI 云从订单到上线的融资周期，并把 DSX、GB300 和全栈软件嵌入新兴区域算力市场。更重要的是，NVIDIA 的收入不再只与设备交付挂钩，还与云产能实际销售挂钩。反面是信用支持可能降低初期订单的风险含金量：如果需求、定价或利用率不及预期，NVIDIA 可能同时面临客户信用和分成收入下降。 原文要点：NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。；首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。；原文把模式的经济动因定义为：新兴 AI 客户即使给出长期承诺，也往往不足以支持昂贵算力设施融资。NVIDIA 用信用支持和经济利益绑定帮助 AI 云更快上线产能，并从未来云收入中分享回报。"
+              "title": "财报/经营验证｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+              "scale": "2026-07-08｜企业 AI / 智能体软件栈 / 开源模型",
+              "text": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披露这些客户带来的收入规模、付费模式或硬件拉动量，因此目前只能作为企业智能体栈渗透证据。 原文要点：原文讲的是 NVIDIA Nemotron 3 Ultra 与 LangChain 深度智能体框架的适配结果。LangChain 针对 Nemotron 3 Ultra 调整智能体运行框架，使其在深度智能体基准测试上取得开源模型中的最高准确率，同时完成更多任务、吞吐更高，并且单次运行推理成本比领先闭源模型低 10 倍。文章还强调，该结果不是通过重新训练模型获得，而是通过围绕模型的系统工程调优实现，包括系统提示词、工具描述和中间件。；文章进一步说明，Nemotron 3 Ultra 在 LangChain 的深度智能体基准测试中达到了与最高分闭源模型相当的业务任务表现。LangChain 的智能体工程平台拥有每月超过 2 亿次下载，调优后的配置已可直接通过 LangChain 使用，这让企业可以在开放模型、开放编排框架和开放安全运行时上构建可自定义、可治理、可部署在自有基…"
             }
           ],
           "moat": [
             {
               "key": "business-moat-财报-经营验证",
               "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。"
+              "text": "这是一条 P2 级企业 AI 软件栈事件。它不等同于大额订单，也没有披露软件收入或 GPU 采购金额，因此不能按短期财务催化处理；但它把 NVIDIA 的企业智能体叙事从模型发布推进到可被主流编排平台直接调用的开放栈，并用成本、吞吐和业务任务表现给出了可验证指标。对 NVIDIA 的长期意义在于，企业 AI 采用不只依赖最大闭源模型，也可能通过开放模型、工具编排和安全运行时形成可控、低成本、可本地部署的智能体工作流。"
             }
           ]
         },
@@ -125,23 +125,23 @@
       "depositEvents": [
         {
           "eventIndex": 0,
-          "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-          "date": "2026-07-01",
-          "priority": "P1",
+          "title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+          "date": "2026-07-08",
+          "priority": "P2",
           "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
         },
         {
           "eventIndex": 1,
-          "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-          "date": "2026-06-07",
+          "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+          "date": "2026-07-01",
           "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
         },
         {
           "eventIndex": 2,
-          "title": "微软联手把 Windows 端侧、Azure 云端与本地私有部署接成统一智能体栈",
-          "date": "2026-06-02",
-          "priority": "P2",
+          "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
+          "date": "2026-06-07",
+          "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
         }
       ]
@@ -152,7 +152,7 @@
       "sourceEventTitle": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "sourceEventDate": "2026-06-24",
       "sourceEventLink": "./event.html?company=wus&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-09T14:34:43",
+      "updatedAt": "2026-07-09T23:18:29",
       "latestEvent": "2026-06-24｜高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "businessImpact": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
       "valuationImpact": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
@@ -281,7 +281,7 @@
       "sourceEventTitle": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "sourceEventDate": "2026-06-10",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-09T14:34:43",
+      "updatedAt": "2026-07-09T23:18:29",
       "latestEvent": "2026-06-10｜2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "businessImpact": "业务上，5 月营收继续高位，更像是对 Q1 财报和 4 月营收之后的延续确认。结合此前 Q1 中先进制程占晶圆收入 74%、HPC 是主要收入驱动的框架，5 月数据支持“先进制程与 AI/HPC 需求仍在承接高收入台阶”的判断。限制是，公告没有拆出 HPC、智能手机、汽车、IoT 或先进封装贡献，不能据此判断是哪一条业务线新增加速。",
       "valuationImpact": "估值/动作上，5 月营收支持 TSMC 继续保持 A 池核心和质量溢价，但不构成新的追高信号。真正决定估值中枢的仍是 Q2 指引能否完整兑现、毛利率是否维持在 65.5%-67.5%、以及高资本开支和海外扩产是否侵蚀自由现金流。动作上维持核心跟踪，不因单月收入上行加仓；下一步用 6 月营收和 Q2 财报确认收入高位是否能转化为高质量利润。",
@@ -438,7 +438,7 @@
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-09T14:34:43",
+      "updatedAt": "2026-07-09T23:18:29",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",

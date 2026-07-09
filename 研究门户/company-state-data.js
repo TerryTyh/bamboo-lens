@@ -1,24 +1,24 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-07-09T14:34:43",
-  "source_generated_at": "2026-07-09T14:34:43",
+  "generated_at": "2026-07-09T23:18:22",
+  "source_generated_at": "2026-07-09T23:18:13",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
-      "source_event_title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-      "source_event_date": "2026-07-01",
-      "latestEvent": "2026-07-01｜NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-      "businessImpact": "正面影响是扩大可负担的客户范围，缩短 AI 云从订单到上线的融资周期，并把 DSX、GB300 和全栈软件嵌入新兴区域算力市场。更重要的是，NVIDIA 的收入不再只与设备交付挂钩，还与云产能实际销售挂钩。反面是信用支持可能降低初期订单的风险含金量：如果需求、定价或利用率不及预期，NVIDIA 可能同时面临客户信用和分成收入下降。",
-      "valuationImpact": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。",
-      "nextCheck": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本、GPU 小时价格、利用率和客户集中度，判断分成收入的真实质量。",
-      "action": "维持 A 池核心，新增对收入分成质量、信用暴露和客户利用率的高优先级跟踪",
-      "priority": "P1",
+      "source_event_title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+      "source_event_date": "2026-07-08",
+      "latestEvent": "2026-07-08｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+      "businessImpact": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披...",
+      "valuationImpact": "估值/动作上，这条事件支持继续给 NVIDIA 平台溢价，但不足以单独上调估值中枢。正面在于：开放模型在企业任务上接近闭源模型、推理成本显著下降，并进入 LangChain 这样高分发入口，有助于把企业 AI 从试点带向更多可治理的生产工作流。需要谨慎的是，低成本也可能压低部分推理单价，最终价值取决于使用量扩大、软件配套附加、企业私有部署和服务生态能否抵消单价下降。动作上维持 A 池核心，不因该事件追高；后续重点看企业客户数量、NemoClaw、OpenShell、NIM 的...",
+      "nextCheck": "跟踪 Abridge、Amdocs、Box 与 EY 是否披露基于 Nemotron、NemoClaw 和 LangChain 的实际部署规模、客户数量或生产环境案例。；观察 NVIDIA 是否在财报、电话会或产品口径中披露 Nemotron、NemoClaw、OpenShell、NIM 与企业推理相关的软件收入、订阅或配套附加率。；验证 10 倍推理成本优势是否能在真实企业工作流中复现，而不是只停留在 LangChain 深度智能体基准测试。",
+      "action": "维持 A 池核心；把企业智能体开源栈的成本、采用客户和软件配套收入列为新增验证点",
+      "priority": "P2",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "source_event_date": "2026-06-10",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-09T14:34:43",
+      "updated_at": "2026-07-09T23:18:22",
       "source_event_index": 0,
       "source_event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "source_event_date": "2026-06-24",
