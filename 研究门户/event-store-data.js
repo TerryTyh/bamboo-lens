@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-08T13:35:08",
+  "generated_at": "2026-07-09T14:34:43",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -1504,6 +1504,38 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data process…",
           "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code execution, data processing, KV-cache and result analysis. The faster the CPU can run the tool, the faster the agent can perform the task at hand. For the AI factory, the utilization of GPU is the most valuable resource in the data center so any time waiting for a task to complete constrains the revenue of an AI factory — or worse, impacts the GPU utilization waiting for the CPU to finish its task. AI factories need a CPU with max single-threaded performance to maximize AI factory revenue and agent performance. Today’s data center CPUs are not designed for speed at scale. While the world has fast CPUs for PCs and workstations, data center CPUs have been evolving in directions away from single-threaded performance. The advent of the cloud has pushed CPU makers to build higher core-count CPUs while minimizing cost at the expense of performance. Building CPUs that optimize costs per rentable core increased the number of cores per chip while taking away silicon area from what makes those cores run fast — like high-performance memory fabrics and faster instruction processing per core. The move to chiplet architectures further reduced cost but created a “chiplet tax” where each CPU’s cores can no longer can get access to the full memory performance of the chip. AI agents need a CPU designed for max single-threaded performance at scale. A max single-threaded CPU at scale keeps each agent step fast while the system is fully loaded. Every core completes the agent task at full performance without other cores slowing it down. Max single-threaded CPUs at scale are designed differently to deliver: Every core can finish its task without any other core slowing it down, delivering excellent throughput and, more importantly, the fastest possible single-core task performance possible. NVIDIA Vera exemplifies this new class of CPU design.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260708-133018__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
+          "date": "2026-07-09",
+          "fetched_at": "20260709-143013",
+          "type": "官方候选",
+          "fact": "日期：2026-07-09；标题：GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server；原文内容：This GFN Thursday brings more games, more power and more ways to play on GeForce NOW . The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also gets an update in the cloud, making it even easier to jump into the latest content from the supernatural adventure withou…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260709,
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+          "source_excerpt": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW . The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also gets an update in the cloud, making it even easier to jump into the latest content from the supernatural adventure withou…",
+          "source_body": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW . The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to members across the region. NTE: Neverness to Everness also gets an update in the cloud, making it even easier to jump into the latest content from the supernatural adventure without a single download or more storage space needed. It leads the way for GeForce NOW bringing native touch control to the game, coming soon. There’s even more to explore with three new games joining the GeForce NOW library this week. A new GeForce RTX 5080-powered GeForce NOW server is coming to Toronto, expanding service in the region and bringing dedicated cloud gaming performance closer to local members. The new server will roll out within days, giving more players access to top-tier cloud gaming across Canada. Ultimate members can stream across PCs, Macs, handhelds, mobile devices, TVs and more with GeForce RTX 5080-class power in the cloud. Enjoy up to 4K resolution and beyond on supported ultrawide displays, up to 120 frames per second, plus NVIDIA DLSS , ray tracing and NVIDIA Reflex technologies. Step into the surreal world of NTE: Neverness to Everness with the NTE Version 1.2 “999 Nights” update. This version introduces a massive gameplay evolution, plunging players into an immersive, tabletop-inspired fantasy role-playing game on the Warren Continent — a new permanent game mode featuring its own dedicated progression system. This narrative and mechanical expansion is elevated by the debut of two powerful characters, Shinku and Iroi, alongside an unprecedented fashion upgrade featuring a sweeping collection of 19 new character outfits. To top it off, exploration gets a high-octane upgrade with Draco, a revolutionary new motorcycle vehicle, making this version an absolute playground for combat strategy, stylish customization and high-speed urban traversal. Plus, GeForce NOW will soon be rolling out native touch controls to NTE: Neverness to Everness , which will make it even easier to explore the city’s mysteries from supported mobile devices. Look for the game in the GeForce NOW app to seamlessly jump between devices and continue the adventure — no downloads, storage space or expensive additional hardware required.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260709-143013__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+          "date": "2026-07-08",
+          "fetched_at": "20260709-143013",
+          "type": "官方候选",
+          "fact": "日期：2026-07-08；标题：NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness；原文内容：NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured…；来源：https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260708,
+          "source_url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+          "source_excerpt": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured…",
+          "source_body": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x lower inference cost per run than leading closed models. Measured against LangChain’s Deep Agents benchmark, Nemotron 3 Ultra also achieved business task parity with the highest-scoring closed models. No model retraining was required. Every gain came from engineering the environment around the model, not the model itself. At a tenth of the cost, teams harnessing NVIDIA Nemotron 3 Ultra can run evaluations continuously, experiment faster and build specialized agents across more of their business. LangChain’s agent engineering platform has more than 200 million monthly downloads. By tuning its Deep Agents harness specifically for NVIDIA Nemotron 3 Ultra, it allows for high-performing agents that complete more tasks, run faster and give enterprises a fully open stack they can customize, own and run anywhere. “The way to build better agents is to keep improving the system around the model,” said Harrison Chase, cofounder and CEO of LangChain. “Memory, tool use, evaluation and model behavior compound when teams can tune them together. Our work with NVIDIA shows that enterprises can get strong performance from an open stack while keeping control over the agent systems they are building.” Abridge, Amdocs and Box are embedding specialized agents directly into their platforms and global systems integrator EY is expanding its NVIDIA implementation capabilities around NVIDIA NemoClaw blueprints for LangChain Deep Agents, helping clients customize, evaluate and govern specialized agents across high-value workflows. NVIDIA founder and CEO Jensen Huang recently sat down with Chase to discuss why the last six months have seen a leap in useful AI for enterprises. LangChain’s team ran Nemotron 3 Ultra against its public Deep Agents benchmark suite, then analyzed the deep agent’s execution traces to find exactly where it lost points. Instead of retraining the model, the team tuned the harness around it — adjusting system prompts, tool descriptions and middleware. Every developer using LangChain Deep Agents with Nemotron 3 Ultra can put this to work today — the tuned profile is available directly through LangChain. NVIDIA NemoClaw for LangChain Deep Agents is the open reference blueprint that packages this work for enterprises building their own specialized AI — systems of models , tools and runtime — tuned for their own workflows. It combines LangChain Deep Agents Code, tuned for Nemotron 3 Ultra, with the NVIDIA OpenShell secure runtime for executing agent actions safely. An open model, an open harness and an open secure runtime means enterprises own the full stack, end to end. They can customize it around the expertise that sets their business apart, keep improving it and run it anywhere — their own infrastructure, their own cloud, their own governance.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260709-143013__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
@@ -3518,6 +3550,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260616-162319__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于2026年度向特定对象发行股票获得有权国资监管单位批复的公告",
+          "date": "2026-07-09",
+          "fetched_at": "20260709-143013",
+          "type": "官方候选",
+          "fact": "日期：2026-07-09；标题：深南电路：关于2026年度向特定对象发行股票获得有权国资监管单位批复的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260709,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260709-143013__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -3948,6 +3995,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260618-144644__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "一季度报告",
+          "date": "20260709-1",
+          "fetched_at": "20260709-143013",
+          "type": "官方候选",
+          "fact": "日期：20260709-1；标题：一季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260709,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260709-143013__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }
