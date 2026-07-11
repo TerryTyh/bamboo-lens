@@ -1,7 +1,46 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-07-10T14:02:34",
-  "source_generated_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:57:22",
+  "source_generated_at": "2026-07-11T09:57:22",
   "items": [
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "event_index": 0,
+      "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+      "event_date": "2026-07-10",
+      "event_type": "业绩预告 / AI服务器 / 高速交换机",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "上调研究优先级",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P1 级业绩验证事件。工业富联不再只是 AI 服务器 ODM 概念，利润端、扣非利润端和出货端同时给出高增长证据，说明 AI 服务器与高速互联需求已经显著进入公司损益表。限制在于公告没有披露收入总额、分业务毛利率、主要客户占比、经营现金流和存货变化，因此还不能直接判断增长质量是否足够稳，也不能忽略大客户集中和产能投入带来的波动。",
+      "business_impact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
+      "valuation_impact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
+      "next_verification": [
+        "读取 2026 年半年报，拆解云计算业务、通讯及移动网络设备的收入、毛利率和利润贡献。",
+        "核对经营现金流、存货、应收账款和资本开支，判断 AI 服务器放量是否带来营运资本压力。",
+        "跟踪下一代大客户联合研发产品在 2026H2 是否按期量产，以及是否对应更高单机价值量或毛利率。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
+      "sort_key": 20260710,
+      "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -38,6 +77,47 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       "source_url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
       "sort_key": 20260708,
       "detail_link": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "event_index": 0,
+      "event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+      "event_date": "2026-07-07",
+      "event_type": "投资者关系记录 / 海外产能 / AI PCB",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "等待验证",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这条记录比 6 月 24 日调研更进一步，因为它不只重复高端 AI PCB 项目 2026H2 试产，还给出泰国基地实际爬坡数字和客户认证比例。对沪电而言，海外基地是否能承接头部客户认证、改善供应链韧性并贡献高端数据通讯产品，是 AI PCB 逻辑从国内扩产走向全球交付的关键验证。仍需谨慎的是，产值爬坡不等于利润爬坡，泰国基地规模化初期的良率、折旧、人工、材",
+      "business_impact": "业务影响主要在海外产能、头部客户认证和 AI 数据中心 PCB 交付能力。泰国基地单季营收超过 2025 年全年，且数据通讯产能基本满载，说明公司海外基地正在从建设期进入经营贡献期；超过 70% 海外客户认证完成，降低了海外客户导入的不确定性。400G 交换机产品批量量产和 AI 服务器/高速网络产品导入，强化了沪电在高速网络、AI 服务器和高性能 PCB 方向的主线，但汽车 PCB 仍处于爬坡和认证阶段，短期贡献应低于数据通讯。",
+      "valuation_impact": "估值/动作上，这条事件提高沪电 B+ 观察的质量，尤其是 2026H2 至 2027 年海外产能兑现的可见度；但仍不构成追价理由。若半年报显示泰国基地爬坡同时带来毛利率稳定、经营现金流改善、存货和应收可控，则可提高对公司 AI PCB 全球交付能力的估值权重；若产值增长伴随良率损耗、折旧压力或价格竞争，应把扩产视为风险而非单纯利好。",
+      "next_verification": [
+        "在 2026 年半年报或后续调研中核对泰国基地收入、毛利率、产能利用率、良率和经营性盈利目标进展。",
+        "跟踪剩余海外客户认证是否完成，以及 AI 服务器、高速网络和 400G/更高速交换机产品的量产节奏。",
+        "比较泰国基地与国内基地在产品结构、毛利率、交付周期和供应链风险上的差异。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12434363",
+      "sort_key": 20260707,
+      "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -81,7 +161,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "wus",
       "company_name": "沪电股份",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "event_date": "2026-06-24",
       "event_type": "产能 / AI 服务器 PCB",
@@ -117,7 +197,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
       "sort_key": 20260624,
-      "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
@@ -2020,6 +2100,47 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "wus",
         "company_name": "沪电股份",
         "event_index": 0,
+        "event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+        "event_date": "2026-07-07",
+        "event_type": "投资者关系记录 / 海外产能 / AI PCB",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "等待验证",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这条记录比 6 月 24 日调研更进一步，因为它不只重复高端 AI PCB 项目 2026H2 试产，还给出泰国基地实际爬坡数字和客户认证比例。对沪电而言，海外基地是否能承接头部客户认证、改善供应链韧性并贡献高端数据通讯产品，是 AI PCB 逻辑从国内扩产走向全球交付的关键验证。仍需谨慎的是，产值爬坡不等于利润爬坡，泰国基地规模化初期的良率、折旧、人工、材",
+        "business_impact": "业务影响主要在海外产能、头部客户认证和 AI 数据中心 PCB 交付能力。泰国基地单季营收超过 2025 年全年，且数据通讯产能基本满载，说明公司海外基地正在从建设期进入经营贡献期；超过 70% 海外客户认证完成，降低了海外客户导入的不确定性。400G 交换机产品批量量产和 AI 服务器/高速网络产品导入，强化了沪电在高速网络、AI 服务器和高性能 PCB 方向的主线，但汽车 PCB 仍处于爬坡和认证阶段，短期贡献应低于数据通讯。",
+        "valuation_impact": "估值/动作上，这条事件提高沪电 B+ 观察的质量，尤其是 2026H2 至 2027 年海外产能兑现的可见度；但仍不构成追价理由。若半年报显示泰国基地爬坡同时带来毛利率稳定、经营现金流改善、存货和应收可控，则可提高对公司 AI PCB 全球交付能力的估值权重；若产值增长伴随良率损耗、折旧压力或价格竞争，应把扩产视为风险而非单纯利好。",
+        "next_verification": [
+          "在 2026 年半年报或后续调研中核对泰国基地收入、毛利率、产能利用率、良率和经营性盈利目标进展。",
+          "跟踪剩余海外客户认证是否完成，以及 AI 服务器、高速网络和 400G/更高速交换机产品的量产节奏。",
+          "比较泰国基地与国内基地在产品结构、毛利率、交付周期和供应链风险上的差异。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12434363",
+        "sort_key": 20260707,
+        "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "wus",
+        "company_name": "沪电股份",
+        "event_index": 1,
         "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
         "event_date": "2026-06-24",
         "event_type": "产能 / AI 服务器 PCB",
@@ -2055,15 +2176,56 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
         "sort_key": 20260624,
-        "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
+      }
+    ],
+    "fii": [
+      {
+        "company": "fii",
+        "company_name": "工业富联",
+        "event_index": 0,
+        "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+        "event_date": "2026-07-10",
+        "event_type": "业绩预告 / AI服务器 / 高速交换机",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "上调研究优先级",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P1 级业绩验证事件。工业富联不再只是 AI 服务器 ODM 概念，利润端、扣非利润端和出货端同时给出高增长证据，说明 AI 服务器与高速互联需求已经显著进入公司损益表。限制在于公告没有披露收入总额、分业务毛利率、主要客户占比、经营现金流和存货变化，因此还不能直接判断增长质量是否足够稳，也不能忽略大客户集中和产能投入带来的波动。",
+        "business_impact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
+        "valuation_impact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
+        "next_verification": [
+          "读取 2026 年半年报，拆解云计算业务、通讯及移动网络设备的收入、毛利率和利润贡献。",
+          "核对经营现金流、存货、应收账款和资本开支，判断 AI 服务器放量是否带来营运资本压力。",
+          "跟踪下一代大客户联合研发产品在 2026H2 是否按期量产，以及是否对应更高单机价值量或毛利率。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
+        "sort_key": 20260710,
+        "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
       }
     ]
   },
   "summary": {
-    "total": 27,
-    "companies": 4,
-    "valuation_update_needed": 8,
-    "positive": 21,
-    "watch": 1
+    "total": 29,
+    "companies": 5,
+    "valuation_update_needed": 10,
+    "positive": 23,
+    "watch": 2
   }
 };

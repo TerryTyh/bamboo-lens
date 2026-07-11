@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-07-10T14:02:34",
-  "source_overrides_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:57:22",
+  "source_overrides_at": "2026-07-11T09:57:22",
   "items": [
     {
       "company": "constellation",
@@ -18,6 +18,40 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
       "sectionPresence": {
         "公司理解": 2,
         "财务数据地图": 6,
+        "估值模型": 3
+      },
+      "depositEvents": 1,
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "warnings": [],
+      "suggestions": [],
+      "strengths": [
+        "已关联 1 条正式事件。",
+        "业务影响有独立判断。",
+        "估值/动作影响有独立判断。",
+        "下一步验证点较具体。"
+      ]
+    },
+    {
+      "company": "fii",
+      "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+      "sourceEventDate": "2026-07-10",
+      "status": "healthy",
+      "score": 100,
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "sectionPresence": {
+        "公司理解": 2,
+        "财务数据地图": 7,
         "估值模型": 3
       },
       "depositEvents": 1,
@@ -106,8 +140,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "wus",
-      "sourceEventTitle": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
-      "sourceEventDate": "2026-06-24",
+      "sourceEventTitle": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+      "sourceEventDate": "2026-07-07",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
@@ -119,10 +153,10 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
       ],
       "sectionPresence": {
         "公司理解": 2,
-        "财务数据地图": 5,
+        "财务数据地图": 6,
         "估值模型": 3
       },
-      "depositEvents": 1,
+      "depositEvents": 2,
       "writebackQuality": {
         "status": "needs_model_update",
         "statusLabel": "可回写，需同步估值/财务",
@@ -132,7 +166,7 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
       "warnings": [],
       "suggestions": [],
       "strengths": [
-        "已关联 1 条正式事件。",
+        "已关联 2 条正式事件。",
         "业务影响有独立判断。",
         "估值/动作影响有独立判断。",
         "下一步验证点较具体。"
@@ -140,8 +174,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     }
   ],
   "summary": {
-    "companies": 4,
-    "healthy": 4,
+    "companies": 5,
+    "healthy": 5,
     "review": 0,
     "weak": 0
   }

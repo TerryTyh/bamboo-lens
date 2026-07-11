@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-07-10T14:02:34",
-  "source_generated_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:57:22",
+  "source_generated_at": "2026-07-11T09:57:22",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
       "source_event_date": "2026-07-08",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
       "source_event_date": "2026-06-10",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,17 +116,31 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-10T14:02:34",
+      "updated_at": "2026-07-11T09:57:22",
       "source_event_index": 0,
-      "source_event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
-      "source_event_date": "2026-06-24",
-      "latestEvent": "2026-06-24｜高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
-      "businessImpact": "高端 AI PCB 项目和昆山厂房扩建将增加高速运算服务器、AI 和高速网络交换机所需高附加值 PCB 的产能。国内与泰国产能协同有助于服务头部客户并分散供应链风险；原材料前置验证和多元化认证则关系到高阶产品良率与交付。但项目能否形成竞争优势，取决于技术平台、客户认证和良率，而不是单纯扩产规模。",
-      "valuationImpact": "事件提高了 2026H2 至 2027 年的产能兑现可见度，但不足以上调估值或触发追价。若试产按期、头部客户认证和产能利用率同步提升，且毛利率维持较高水平、经营现金流修复，可提高 B+ 观察置信度；若行业扩产导致价格竞争、折旧上升而现金流继续弱于利润，应降低估值容忍度。",
-      "nextCheck": "核对人工智能芯片配套高端 PCB 项目是否在 2026H2 按期试产，并披露客户认证、良率、产能利用率或收入贡献。；跟踪昆山普江厂房扩建的投资额、产品方向、建设进度和新增折旧。；复核 2026H1/Q3 毛利率、经营现金流、存货和应收，判断扩产是否被真实订单和回款支持。",
-      "action": "维持 B+ 观察，不追价；等待新产能试产、客户认证、毛利率和现金流验证。",
-      "priority": "B+ 观察",
+      "source_event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+      "source_event_date": "2026-07-07",
+      "latestEvent": "2026-07-07｜泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+      "businessImpact": "业务影响主要在海外产能、头部客户认证和 AI 数据中心 PCB 交付能力。泰国基地单季营收超过 2025 年全年，且数据通讯产能基本满载，说明公司海外基地正在从建设期进入经营贡献期；超过 70% 海外客户认证完成，降低了海外客户导入的不确定性。400G 交换机产品批量量产和 AI 服务器/高速网络产品导入，强化了沪电在高速网络、AI 服务器和高性能 PCB 方向的主线，但汽车 PCB 仍处于爬坡和认证阶段，短期贡献应低于数据通讯。",
+      "valuationImpact": "估值/动作上，这条事件提高沪电 B+ 观察的质量，尤其是 2026H2 至 2027 年海外产能兑现的可见度；但仍不构成追价理由。若半年报显示泰国基地爬坡同时带来毛利率稳定、经营现金流改善、存货和应收可控，则可提高对公司 AI PCB 全球交付能力的估值权重；若产值增长伴随良率损耗、折旧压力或价格竞争，应把扩产视为风险而非单纯利好。",
+      "nextCheck": "在 2026 年半年报或后续调研中核对泰国基地收入、毛利率、产能利用率、良率和经营性盈利目标进展。；跟踪剩余海外客户认证是否完成，以及 AI 服务器、高速网络和 400G/更高速交换机产品的量产节奏。；比较泰国基地与国内基地在产品结构、毛利率、交付周期和供应链风险上的差异。",
+      "action": "维持 B+ 观察并提高泰国基地验证优先级；等待半年报确认毛利率、现金流和客户认证兑现。",
+      "priority": "P1",
       "sourceLink": "./event.html?company=wus&event=0&return=company&v=20260412-24"
+    },
+    "fii": {
+      "name": "工业富联",
+      "updated_at": "2026-07-11T09:57:22",
+      "source_event_index": 0,
+      "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+      "source_event_date": "2026-07-10",
+      "latestEvent": "2026-07-10｜2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+      "businessImpact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
+      "valuationImpact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
+      "nextCheck": "读取 2026 年半年报，拆解云计算业务、通讯及移动网络设备的收入、毛利率和利润贡献。；核对经营现金流、存货、应收账款和资本开支，判断 AI 服务器放量是否带来营运资本压力。；跟踪下一代大客户联合研发产品在 2026H2 是否按期量产，以及是否对应更高单机价值量或毛利率。",
+      "action": "从候选观察提升为重点跟踪；等待半年报验证收入结构、毛利率、现金流和客户集中度。",
+      "priority": "P1",
+      "sourceLink": "./event.html?company=fii&event=0&return=company&v=20260412-24"
     }
   }
 };

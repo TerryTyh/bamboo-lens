@@ -1,13 +1,13 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:55:07",
   "summary": {
-    "total": 14,
+    "total": 15,
     "companies": 7,
     "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 4,
-      "needs_source": 10
+      "needs_source": 11
     },
     "priority_batch": [
       {
@@ -383,34 +383,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "wus::沪电股份：2026年7月7日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年7月7日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月7日投资者关系活动记录表",
-      "date": "2026-7-7",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月7日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "wus::沪电股份：2026年7月6日投资者关系活动记录表": {
       "draft_id": "auto-wus-沪电股份-2026年7月6日投资者关系活动记录表",
       "company": "wus",
@@ -485,6 +457,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月29日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年6月18日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月18日投资者关系活动记录表",
+      "date": "2026-6-18",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月18日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年6月16日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+      "date": "2026-6-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -720,34 +748,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-wus-沪电股份-2026年7月7日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年7月7日投资者关系活动记录表",
-        "date": "2026-7-7",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月7日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
         "draft_id": "auto-wus-沪电股份-2026年7月6日投资者关系活动记录表",
         "company": "wus",
         "company_name": "沪电股份",
@@ -821,6 +821,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
         "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月29日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月18日投资者关系活动记录表",
+        "date": "2026-6-18",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月18日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+        "date": "2026-6-16",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1164,34 +1220,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-wus-沪电股份-2026年7月7日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月7日投资者关系活动记录表",
-      "date": "2026-7-7",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月7日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-wus-沪电股份-2026年7月6日投资者关系活动记录表",
       "company": "wus",
       "company_name": "沪电股份",
@@ -1265,6 +1293,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月29日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月18日投资者关系活动记录表",
+      "date": "2026-6-18",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月18日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月16日投资者关系活动记录表",
+      "date": "2026-6-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月16日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

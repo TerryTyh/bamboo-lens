@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-07-10T14:02:34",
-  "source_overrides_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:57:22",
+  "source_overrides_at": "2026-07-11T09:57:22",
   "items": [
     {
       "company": "constellation",
@@ -18,6 +18,31 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
         "valuation_triggers": 1
       },
       "totalAutoItems": 11,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
+      "longTextSamples": [],
+      "warnings": [],
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
+    },
+    {
+      "company": "fii",
+      "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+      "sourceEventDate": "2026-07-10",
+      "status": "healthy",
+      "counts": {
+        "finance_rows": 3,
+        "finance_bridge": 3,
+        "finance_notes": 1,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
+      },
+      "totalAutoItems": 12,
       "omitted": {
         "valuationModel.scenarios": 1
       },
@@ -79,11 +104,11 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "wus",
-      "sourceEventTitle": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
-      "sourceEventDate": "2026-06-24",
+      "sourceEventTitle": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+      "sourceEventDate": "2026-07-07",
       "status": "healthy",
       "counts": {
-        "finance_rows": 1,
+        "finance_rows": 2,
         "finance_bridge": 3,
         "finance_notes": 1,
         "business_segments": 1,
@@ -92,7 +117,7 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
         "valuation_scenarios": 1,
         "valuation_triggers": 1
       },
-      "totalAutoItems": 10,
+      "totalAutoItems": 11,
       "omitted": {
         "valuationModel.scenarios": 1
       },
@@ -104,8 +129,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     }
   ],
   "summary": {
-    "companies": 4,
-    "healthy": 4,
+    "companies": 5,
+    "healthy": 5,
     "review": 0,
     "at_risk": 0
   }

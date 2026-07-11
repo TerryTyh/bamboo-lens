@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-10T14:02:34",
+  "generated_at": "2026-07-11T09:57:22",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -657,7 +657,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -669,7 +669,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -681,7 +681,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -693,7 +693,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -705,7 +705,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -717,7 +717,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1835,7 +1835,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -1847,7 +1847,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -1896,7 +1896,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -1908,7 +1908,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -1920,7 +1920,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -1932,7 +1932,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1985,7 +1985,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -1997,7 +1997,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -2009,7 +2009,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -2021,7 +2021,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -2033,7 +2033,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -2045,7 +2045,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2066,7 +2066,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -2078,7 +2078,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -2090,7 +2090,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -2102,7 +2102,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -2114,7 +2114,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -2126,7 +2126,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2147,7 +2147,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -2159,7 +2159,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -2171,7 +2171,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -2183,7 +2183,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -2195,7 +2195,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -2207,7 +2207,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2349,7 +2349,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -2361,7 +2361,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -2373,7 +2373,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -2385,7 +2385,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -2397,7 +2397,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -2409,7 +2409,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2461,7 +2461,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -2473,7 +2473,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -2485,7 +2485,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -2497,7 +2497,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -2509,7 +2509,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -2521,7 +2521,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -2533,7 +2533,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2714,7 +2714,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -2726,7 +2726,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -2738,7 +2738,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -2750,7 +2750,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/830a/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3597,6 +3597,43 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "theme": "High-speed PCB and AI server supply chain",
       "events": [
         {
+          "title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
+          "source_candidate_title": "沪电股份：2026年7月7日投资者关系活动记录表",
+          "date": "2026-07-07",
+          "fetched_at": "",
+          "type": "投资者关系记录 / 海外产能 / AI PCB",
+          "fact": "沪电股份披露泰国基地从产能爬坡进入规模化运营验证期：2025 年泰国基地营收约 2.89 亿元，2026Q1 营收约 2.95 亿元，二季度单月产值已超过 1.5 亿元；数据通讯事业部超过 70% 海外客户完成认证，产能利用率基本满载，400G 交换机等产品已批量量产；公司正在加速导入泰国基地 AI 服务器与高速网络中高端产品，并推进设备进厂调试安装和后续产能释放。",
+          "judgment": "这条记录比 6 月 24 日调研更进一步，因为它不只重复高端 AI PCB 项目 2026H2 试产，还给出泰国基地实际爬坡数字和客户认证比例。对沪电而言，海外基地是否能承接头部客户认证、改善供应链韧性并贡献高端数据通讯产品，是 AI PCB 逻辑从国内扩产走向全球交付的关键验证。仍需谨慎的是，产值爬坡不等于利润爬坡，泰国基地规模化初期的良率、折旧、人工、材料和客户价格条款还需要财报验证。",
+          "action": "维持 B+ 观察并提高泰国基地验证优先级；等待半年报确认毛利率、现金流和客户认证兑现。",
+          "priority": "P1",
+          "sort_key": 20260707,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12434363",
+          "source_doc": "",
+          "source_summary": [
+            "沪电股份在 2026 年 7 月 7 日投资者关系活动记录中集中披露泰国工厂进展。公司称 2025 年泰国基地实现营收约 2.89 亿元，2026Q1 泰国基地实现营收约 2.95 亿元，二季度单月产值已超过 1.5 亿元。",
+            "数据通讯事业部方面，公司表示已有超过 70% 的海外客户完成认证，余下客户认证稳步推进，产能利用率已基本满载，用于 400G 交换机等领域的产品已实现批量量产，品质逐步达到国内相应水准。",
+            "汽车事业部自 2025Q4 启动试产，已完成样品验证并推进客户认证，2026 年进入量产和爬坡阶段；同时，公司正加速把泰国生产基地的 AI 服务器与高速网络等中高端产品导入和交付，并推进针对性产能升级扩容。"
+          ],
+          "evidence": [
+            "2025 年泰国基地营收约 2.89 亿元，2026Q1 泰国基地营收约 2.95 亿元，单季已超过上一年全年。",
+            "公司称二季度单月产值已超过 1.5 亿元，说明泰国基地收入爬坡速度明显快于 2025 年。",
+            "数据通讯事业部已有超过 70% 的海外客户完成认证，余下客户认证仍在推进，产能利用率已基本满载。",
+            "用于 400G 交换机等领域的产品已实现批量量产，品质逐步达到国内相应水准。",
+            "汽车事业部 2026 年进入量产阶段，同时向 AI 服务器等数据通讯应用领域延伸布局，泰国基地正在加速 AI 服务器与高速网络中高端产品批量导入与交付。"
+          ],
+          "business_analysis": "业务影响主要在海外产能、头部客户认证和 AI 数据中心 PCB 交付能力。泰国基地单季营收超过 2025 年全年，且数据通讯产能基本满载，说明公司海外基地正在从建设期进入经营贡献期；超过 70% 海外客户认证完成，降低了海外客户导入的不确定性。400G 交换机产品批量量产和 AI 服务器/高速网络产品导入，强化了沪电在高速网络、AI 服务器和高性能 PCB 方向的主线，但汽车 PCB 仍处于爬坡和认证阶段，短期贡献应低于数据通讯。",
+          "valuation_analysis": "估值/动作上，这条事件提高沪电 B+ 观察的质量，尤其是 2026H2 至 2027 年海外产能兑现的可见度；但仍不构成追价理由。若半年报显示泰国基地爬坡同时带来毛利率稳定、经营现金流改善、存货和应收可控，则可提高对公司 AI PCB 全球交付能力的估值权重；若产值增长伴随良率损耗、折旧压力或价格竞争，应把扩产视为风险而非单纯利好。",
+          "verification": [
+            "在 2026 年半年报或后续调研中核对泰国基地收入、毛利率、产能利用率、良率和经营性盈利目标进展。",
+            "跟踪剩余海外客户认证是否完成，以及 AI 服务器、高速网络和 400G/更高速交换机产品的量产节奏。",
+            "比较泰国基地与国内基地在产品结构、毛利率、交付周期和供应链风险上的差异。",
+            "复核高端原材料、HVLP 铜箔、低损耗树脂和特种玻纤布供应是否限制海外产能释放。",
+            "观察行业同质化扩产是否导致成熟平台价格竞争，并影响沪电高端 PCB 的利润率。"
+          ],
+          "reviewed_at": "2026-07-11T22:31:00+08:00",
+          "review_status": "reviewed"
+        },
+        {
           "title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
           "source_candidate_title": "沪电股份：2026年6月24日投资者关系活动记录表",
           "date": "2026-06-24",
@@ -3860,21 +3897,6 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260706-145827__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         },
         {
-          "title": "沪电股份：2026年7月7日投资者关系活动记录表",
-          "date": "2026-7-7",
-          "fetched_at": "20260707-140648",
-          "type": "官方候选",
-          "fact": "日期：2026-7-7；标题：沪电股份：2026年7月7日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260707,
-          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-          "source_excerpt": "",
-          "source_body": "",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260707-140648__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
-        },
-        {
           "title": "沪电股份：2026年7月10日投资者关系活动记录表",
           "date": "2026-7-10",
           "fetched_at": "20260710-135905",
@@ -3896,7 +3918,45 @@ window.BAMBOO_LENS_EVENT_STORE = {
       "market": "CN A-share",
       "tier": "C",
       "theme": "AI server manufacturing and industrial internet",
-      "events": [],
+      "events": [
+        {
+          "title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
+          "source_candidate_title": "工业富联：2026年半年度业绩预增公告",
+          "date": "2026-07-10",
+          "fetched_at": "",
+          "type": "业绩预告 / AI服务器 / 高速交换机",
+          "fact": "工业富联预计 2026H1 归母净利润 234 亿至 244 亿元、同比增长 93% 至 101%，扣非归母净利润 227 亿至 237 亿元、同比增长 94% 至 103%；2026Q2 归母净利润 128 亿至 138 亿元、同比增长 86% 至 101%。公司称上半年云服务商 AI 服务器营业收入同比增长超过 230%，800G 以上数据中心交换机出货量同比增长 1.4 倍，下一代大客户联合研发产品预计下半年逐步进入量产阶段。",
+          "judgment": "这是一条 P1 级业绩验证事件。工业富联不再只是 AI 服务器 ODM 概念，利润端、扣非利润端和出货端同时给出高增长证据，说明 AI 服务器与高速互联需求已经显著进入公司损益表。限制在于公告没有披露收入总额、分业务毛利率、主要客户占比、经营现金流和存货变化，因此还不能直接判断增长质量是否足够稳，也不能忽略大客户集中和产能投入带来的波动。",
+          "action": "从候选观察提升为重点跟踪；等待半年报验证收入结构、毛利率、现金流和客户集中度。",
+          "priority": "P1",
+          "sort_key": 20260710,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
+          "source_doc": "",
+          "source_summary": [
+            "工业富联在 2026 年 7 月 10 日发布半年度业绩预增公告。公司预计 2026Q2 归母净利润 128 亿至 138 亿元，同比增长 86% 至 101%；预计 2026H1 归母净利润 234 亿至 244 亿元，同比增长 93% 至 101%。",
+            "扣非口径同样高增长：2026Q2 扣非归母净利润预计 124 亿至 134 亿元，同比增长 84% 至 99%；2026H1 扣非归母净利润预计 227 亿至 237 亿元，同比增长 94% 至 103%。公告同时提示这些数据为初步核算，尚未经审计，最终以半年报为准。",
+            "公司解释业绩增长的核心来源是云计算业务产品结构优化和 AI 服务器放量。2026 年上半年，云服务商 AI 服务器营业收入同比增长超过 230%，AI 相关产品成为主营业务核心增长引擎；通讯及移动网络设备方面，800G 以上数据中心交换机出货量同比增长 1.4 倍。"
+          ],
+          "evidence": [
+            "2026H1 归母净利润预计 234 亿至 244 亿元，同比增加 113 亿至 123 亿元，增幅 93% 至 101%。",
+            "2026H1 扣非归母净利润预计 227 亿至 237 亿元，同比增加 110 亿至 120 亿元，增幅 94% 至 103%。",
+            "2026Q2 归母净利润预计 128 亿至 138 亿元，同比增长 86% 至 101%；Q2 扣非归母净利润预计 124 亿至 134 亿元，同比增长 84% 至 99%。",
+            "云服务商 AI 服务器营业收入同比增长超过 230%，公告明确 AI 相关产品已成为主营业务核心增长引擎。",
+            "800G 以上数据中心交换机出货量同比增长 1.4 倍，公司称下一代大客户联合研发产品进展顺利，预计下半年逐步进入量产阶段。"
+          ],
+          "business_analysis": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
+          "valuation_analysis": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
+          "verification": [
+            "读取 2026 年半年报，拆解云计算业务、通讯及移动网络设备的收入、毛利率和利润贡献。",
+            "核对经营现金流、存货、应收账款和资本开支，判断 AI 服务器放量是否带来营运资本压力。",
+            "跟踪下一代大客户联合研发产品在 2026H2 是否按期量产，以及是否对应更高单机价值量或毛利率。",
+            "比较工业富联与沪电股份、深南电路、新易盛、中际旭创等 AI 硬件链条公司的增长质量，判断 AI 资本开支传导中利润留存最强的环节。",
+            "关注客户集中度、价格压力、汇率和供应链约束，避免把单期高增长线性外推。"
+          ],
+          "reviewed_at": "2026-07-11T22:30:00+08:00",
+          "review_status": "reviewed"
+        }
+      ],
       "official_candidates": [
         {
           "title": "工业富联：投资者关系活动记录表20260520",
