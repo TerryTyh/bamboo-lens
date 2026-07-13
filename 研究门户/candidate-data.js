@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-10T14:01:42",
+  "generated_at": "2026-07-13T14:07:37",
   "companies": {
     "nvidia": [
       {
@@ -1433,6 +1433,30 @@ window.BAMBOO_LENS_CANDIDATES = {
     ],
     "tsmc": [
       {
+        "title": "TSMC June 2026 Revenue Report",
+        "date": "2026-07-13",
+        "fetched_at": "20260713-140454",
+        "type": "官方候选",
+        "fact": "日期：2026-07-13；标题：TSMC June 2026 Revenue Report；原文内容：[](http://pr.tsmc.com/english/news/3323#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3323#)Search […；来源：http://pr.tsmc.com/english/news/3323",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260713,
+        "source_url": "http://pr.tsmc.com/english/news/3323",
+        "source_excerpt": "[](http://pr.tsmc.com/english/news/3323#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3323#)Search […",
+        "source_body": "[](http://pr.tsmc.com/english/news/3323#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3323#)Search [](http://pr.tsmc.com/english/news/3323) *HSINCHU, Taiwan, R.O.C. – July 13, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for June 2026: On a consolidated basis, revenue for June 2026 was approximately NT$442.68 billion, an increase of 6.2 percent from May 2026 and an increase of 67.9 percent from June 2025. Revenue for January through June 2026 totaled NT$2,404.48 billion, an increase of 35.6 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260713-140454__pr.tsmc.com_english_latest-news.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 7,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+      },
+      {
         "title": "TSMC Files Annual Report on Form 20-F for 2025",
         "date": "2026-04-16",
         "fetched_at": "20260604-141031",
@@ -2574,6 +2598,29 @@ window.BAMBOO_LENS_CANDIDATES = {
     ],
     "shennan": [
       {
+        "title": "深南电路：2026年半年度业绩预告",
+        "date": "2026-07-14",
+        "fetched_at": "20260713-140454",
+        "type": "官方候选",
+        "fact": "日期：2026-07-14；标题：深南电路：2026年半年度业绩预告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260714,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260713-140454__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 13,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
         "title": "深南电路：关于2026年度向特定对象发行股票获得有权国资监管单位批复的公告",
         "date": "2026-07-09",
         "fetched_at": "20260709-143013",
@@ -3196,6 +3243,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "wus": [
+      {
+        "title": "沪电股份：2026年半年度业绩预告",
+        "date": "2026-07-14",
+        "fetched_at": "20260713-140454",
+        "type": "官方候选",
+        "fact": "日期：2026-07-14；标题：沪电股份：2026年半年度业绩预告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260714,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260713-140454__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 13,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
       {
         "title": "沪电股份：2026年7月10日投资者关系活动记录表",
         "date": "2026-7-10",
