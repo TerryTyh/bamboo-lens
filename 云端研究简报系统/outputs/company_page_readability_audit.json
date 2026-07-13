@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T14:08:04",
-  "source_overrides_at": "2026-07-13T14:08:04",
+  "generated_at": "2026-07-13T22:43:28",
+  "source_overrides_at": "2026-07-13T22:43:28",
   "items": [
     {
       "company": "constellation",
@@ -79,8 +79,8 @@
     },
     {
       "company": "tsmc",
-      "sourceEventTitle": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
-      "sourceEventDate": "2026-06-10",
+      "sourceEventTitle": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
+      "sourceEventDate": "2026-07-13",
       "status": "healthy",
       "counts": {
         "finance_rows": 3,

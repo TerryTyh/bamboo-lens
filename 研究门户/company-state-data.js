@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-07-13T14:08:03",
-  "source_generated_at": "2026-07-13T14:08:03",
+  "generated_at": "2026-07-13T22:43:28",
+  "source_generated_at": "2026-07-13T22:43:27",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
       "source_event_date": "2026-07-08",
@@ -18,21 +18,21 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
-      "source_event_title": "2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
-      "source_event_date": "2026-06-10",
-      "latestEvent": "2026-06-10｜2026 年 5 月营收 NT$4169.8 亿，环比再增 1.5%，Q2 指引兑现进入第二块拼图",
-      "businessImpact": "业务上，5 月营收继续高位，更像是对 Q1 财报和 4 月营收之后的延续确认。结合此前 Q1 中先进制程占晶圆收入 74%、HPC 是主要收入驱动的框架，5 月数据支持“先进制程与 AI/HPC 需求仍在承接高收入台阶”的判断。限制是，公告没有拆出 HPC、智能手机、汽车、IoT 或先进封装贡献，不能据此判断是哪一条业务线新增加速。",
-      "valuationImpact": "估值/动作上，5 月营收支持 TSMC 继续保持 A 池核心和质量溢价，但不构成新的追高信号。真正决定估值中枢的仍是 Q2 指引能否完整兑现、毛利率是否维持在 65.5%-67.5%、以及高资本开支和海外扩产是否侵蚀自由现金流。动作上维持核心跟踪，不因单月收入上行加仓；下一步用 6 月营收和 Q2 财报确认收入高位是否能转化为高质量利润。",
-      "nextCheck": "6 月营收是否继续维持 NT$400 billion 以上，并和 4-5 月一起验证 Q2 收入指引 US$39.0-40.2 billion。；Q2 财报毛利率是否落在 65.5%-67.5% 指引区间，确认收入高位没有被海外扩产、汇率或产品组合稀释。；Q2 财报继续看先进制程占比、HPC 需求和先进封装产能口径，判断 5 月收入高位背后的结构质量。",
-      "action": "维持 A 池核心；继续用 6 月营收和 Q2 毛利率验证高景气质量",
+      "source_event_title": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
+      "source_event_date": "2026-07-13",
+      "latestEvent": "2026-07-13｜2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
+      "businessImpact": "业务上，6月营收把Q2收入高景气从连续性线索推进为整季验证。结合此前Q1先进制程占晶圆收入74%、HPC占比61%、Q2收入指引US$39.0-40.2 billion的框架，4-6月月度营收连续高位更支持“AI/HPC和先进制程仍在承接主要增量”的主线。对TSMC而言，价值不只是单月同比高增长，而是高端制程、先进封装和大客户AI资本开支能否持续把产能转化为收入。限制是公告没有拆分业务结构，不能据此判断N2、A16、CoWoS或单一客户贡献。",
+      "valuationImpact": "估值/动作上，6月营收支持TSMC继续保留A池核心和质量溢价，但不是单独追高信号。正面是Q2收入兑现能见度更高，市场对先进制程与AI/HPC需求的担忧下降；约束是估值中枢仍要看Q2毛利率是否落在65.5%-67.5%指引区间、海外扩产和折旧是否压低自由现金流、以及高资本开支能否继续获得足够回报。动作上维持核心跟踪，不因单月营收上行提高仓位；下一步等Q2财报确认收入高位是否同步转化为毛利率、EPS和现金流质量。",
+      "nextCheck": "Q2财报收入是否与4-6月合计营收约NT$1,270.39 billion一致，并对照公司US$39.0-40.2 billion收入指引。；Q2毛利率是否落在65.5%-67.5%指引区间，判断高收入是否被海外扩产、汇率、折旧或产品组合稀释。；继续看先进制程占比、HPC收入占比和先进封装产能口径，确认6月收入高位背后的结构质量。",
+      "action": "维持A池核心；等待Q2财报验证毛利率、先进制程结构和自由现金流质量",
       "priority": "P1",
       "sourceLink": "./event.html?company=tsmc&event=0&return=company&v=20260412-24"
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
       "source_event_date": "2026-07-07",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-07-13T14:08:03",
+      "updated_at": "2026-07-13T22:43:28",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

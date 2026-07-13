@@ -221,8 +221,11 @@ def check_brief_guard(now: datetime) -> dict:
     morning = read_text(OUTPUT_DIR / "morning_brief.md")
     daily = read_text(OUTPUT_DIR / "daily_brief.md")
     today = now.strftime("%Y-%m-%d")
+    # Keep this aligned with build_morning_brief.py: after early morning, the
+    # generated morning brief is for the next send date.
+    expected_morning_date = (now if now.hour < 6 else now + timedelta(days=1)).strftime("%Y-%m-%d")
     is_weekend = now.weekday() >= 5
-    morning_same_day = today in "\n".join(morning.splitlines()[:8])
+    morning_same_day = expected_morning_date in "\n".join(morning.splitlines()[:8])
     daily_same_day = today in "\n".join(daily.splitlines()[:8])
     morning_lines = [line.strip() for line in morning.splitlines() if line.strip()]
     morning_body = "\n".join(morning_lines[1:]).strip() if len(morning_lines) > 1 else ""
@@ -259,6 +262,7 @@ def check_brief_guard(now: datetime) -> dict:
     return {
         "status": status,
         "today": today,
+        "expectedMorningDate": expected_morning_date,
         "morningSameDay": morning_same_day,
         "morningMeaningful": morning_meaningful,
         "dailySameDay": daily_same_day,

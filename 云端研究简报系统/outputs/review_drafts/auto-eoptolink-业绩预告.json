@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-eoptolink-业绩预告",
   "draft_status": "auto_draft",
-  "generated_at": "2026-07-13T14:08:03",
+  "generated_at": "2026-07-13T22:43:28",
   "company": "eoptolink",
   "company_name": "新易盛",
   "source_candidate_title": "业绩预告",
@@ -68,5 +68,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-eoptolink-业绩预告.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-eoptolink-业绩预告.json"
+  "draft_file": "/Users/tianyuehua/.codex/worktrees/602b/竹鉴/云端研究简报系统/outputs/review_drafts/auto-eoptolink-业绩预告.json"
 }
