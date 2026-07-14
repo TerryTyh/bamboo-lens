@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-07-13T22:43:28",
-  "source_overrides_at": "2026-07-13T22:43:28",
+  "generated_at": "2026-07-14T13:10:36",
+  "source_overrides_at": "2026-07-14T13:10:36",
   "items": [
     {
       "company": "constellation",
