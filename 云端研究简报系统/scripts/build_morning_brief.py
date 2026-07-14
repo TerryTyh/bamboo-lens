@@ -143,6 +143,12 @@ def current_time() -> datetime:
     return datetime.now(ZoneInfo("Asia/Shanghai"))
 
 
+def selection_window_start(now: datetime, brief_date: datetime) -> datetime:
+    if now.hour < 6:
+        return (brief_date - timedelta(days=1)).replace(hour=6, minute=0, second=0, microsecond=0)
+    return now.replace(hour=6, minute=0, second=0, microsecond=0)
+
+
 def load_reviewed_events() -> list[dict]:
     if not REVIEWED_EVENTS_FILE.exists():
         return []
@@ -244,8 +250,9 @@ def main() -> None:
     brief_date = now if now.hour < 6 else (now + timedelta(days=1))
     today = brief_date.strftime("%Y-%m-%d")
     events = load_reviewed_events()
-    # Select: reviewed within the last 24 hours to avoid repeating older items.
-    window_start = now - timedelta(hours=24)
+    # Select the local trading/research day, not a rolling 24h window. Nightly
+    # runs near 22:00 should not repeat events promoted late the previous night.
+    window_start = selection_window_start(now, brief_date)
     selected = [
         item
         for item in events
