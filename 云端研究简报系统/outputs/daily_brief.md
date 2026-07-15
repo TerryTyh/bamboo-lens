@@ -1,21 +1,32 @@
-# 竹鉴日报 | 2026-07-14
+# 竹鉴日报 | 2026-07-15
 
-今日关键变化：
+今日没有新的可读内容。
 
-1. 公司：TSMC
-   事件：2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认
-   核心内容：2026-07-13，TSMC公布2026年6月合并营收约NT$442.68 billion，环比5月增长6.2%，同比2025年6月增长67.9%；2026年1-6月累计营收NT$2,404.48 billion，同比增长35.6%。结合4月NT$410.73 billion和5月NT$416.98 billion，TSMC 2026Q2三个月合计营收约NT$1,270.39 billion，月度收入连续三个月站在NT$410 billion以上，并在6月进一步抬升。
-   关键证据：2026-07-13，TSMC公布2026年6月合并营收约NT$442.68 billion，环比5月增长6.2%，同比2025年6月增长67.9%；2026年1-6月累计营收NT$2,404.48 billion，同比增长35.6%；结合4月NT$410.73 billion和5月NT$416.98 billion，TSMC 2026Q2三个月合计营收约NT$1,270.39 billion，月度收入连续三个月站在NT$410 billion以上，并在6月进一步抬升
-   为什么重要：这是一条P1级连续性验证事件。6月营收不仅维持在NT$400 billion以上，还环比继续增长，使Q2收入指引兑现从“前两个月高位”推进到“整季高位确认”。它强化了TSMC先进制程、AI/HPC需求和高端客户拉货仍处强周期的判断。限制同样明确：月度营收公告没有分业务、毛利率、资本开支、折旧或现金流，因此不能直接证明利润率继续扩张，也不能替代Q2财报。
-   动作：维持A池核心；等待Q2财报验证毛利率、先进制程结构和自由现金流质量
-   [原文](http://pr.tsmc.com/english/news/3323)
+今日待读候选：
 
-其他可读线索：
+1. NVIDIA｜Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency
+   2026-07-14。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/)
 
-- 今天没有其他值得展开阅读的新内容。
+2. 深南电路｜深南电路：2026年半年度业绩预告
+   2026-07-14。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
 
-后续观察：
+3. 沪电股份｜沪电股份：2026年半年度业绩预告
+   2026-07-14。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
 
-  1. 下一次法说会里 2nm 和 CoWoS 的需求口径是否继续偏紧。
-  2. 毛利率和营业利润率能否维持高位，海外扩产是否开始明显稀释盈利。
-  3. 高资本开支之后，自由现金流和资本回报是否仍然稳得住。
+4. 沪电股份｜沪电股份：2026年7月15日投资者关系活动记录表
+   2026-7-15。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
+
+5. 深南电路｜深南电路：2026年7月14日投资者关系活动记录表
+   2026-7-14。已抓到原文链接，但尚未抓到可引用的正文摘要；先列为待读候选，等读完原文后再升级为正式研判。
+   [原文](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
+
+明日重点：
+
+- 当前覆盖公司：NVIDIA、TSMC、Microsoft、阿里巴巴、汇川技术、GE Vernova、立讯精密、Constellation Energy、长电科技、北方华创、中微公司、中际旭创、新易盛、深南电路、沪电股份、工业富联
+- 优先打开原文：NVIDIA｜Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency
+- 优先打开原文：深南电路｜深南电路：2026年半年度业绩预告
+- 优先打开原文：沪电股份｜沪电股份：2026年半年度业绩预告

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T13:10:36",
-  "source_generated_at": "2026-07-14T13:10:35",
+  "generated_at": "2026-07-15T13:15:56",
+  "source_generated_at": "2026-07-15T13:15:56",
   "items": [
     {
       "company": "constellation",
@@ -487,6 +487,24 @@
       "event_index": 13,
       "sort_key": 20260115,
       "score": 18
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "date": "2026-07-14",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260714,
+      "score": 17
     },
     {
       "company": "nvidia",
@@ -1407,6 +1425,24 @@
       "score": 10
     },
     {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "沪电股份：2026年7月15日投资者关系活动记录表",
+      "date": "2026-7-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260715-131139__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20260715,
+      "score": 9
+    },
+    {
       "company": "shennan",
       "company_name": "深南电路",
       "source_type": "official_candidate",
@@ -2019,24 +2055,6 @@
       "score": 9
     },
     {
-      "company": "fii",
-      "company_name": "工业富联",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "工业富联：投资者关系活动记录表-20260515-20260518",
-      "date": "2026-05-15",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260604-141031__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
-      "event_index": null,
-      "sort_key": 20260515,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2107,6 +2125,24 @@
       "event_index": 5,
       "sort_key": 20250911,
       "score": 9
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+      "date": "2026-07-14",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260714,
+      "score": 8
     },
     {
       "company": "nvidia",
@@ -2413,6 +2449,24 @@
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+      "date": "2026-07-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260715,
+      "score": 6
     },
     {
       "company": "nvidia",
@@ -2956,9 +3010,9 @@
     }
   ],
   "summary": {
-    "total": 164,
+    "total": 167,
     "formal_events": 75,
-    "official_candidates": 89,
+    "official_candidates": 92,
     "companies": 15
   }
 }
