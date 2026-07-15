@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-07-15T13:15:56",
-  "source_overrides_at": "2026-07-15T13:15:56",
+  "generated_at": "2026-07-15T23:25:44",
+  "source_overrides_at": "2026-07-15T23:25:44",
   "items": [
     {
       "company": "constellation",
@@ -78,6 +78,31 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
       ]
     },
     {
+      "company": "shennan",
+      "sourceEventTitle": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
+      "sourceEventDate": "2026-07-14",
+      "status": "healthy",
+      "counts": {
+        "finance_rows": 3,
+        "finance_bridge": 3,
+        "finance_notes": 1,
+        "business_segments": 1,
+        "business_moat": 1,
+        "valuation_current": 1,
+        "valuation_scenarios": 1,
+        "valuation_triggers": 1
+      },
+      "totalAutoItems": 12,
+      "omitted": {
+        "valuationModel.scenarios": 1
+      },
+      "longTextSamples": [],
+      "warnings": [],
+      "suggestions": [
+        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
+      ]
+    },
+    {
       "company": "tsmc",
       "sourceEventTitle": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
       "sourceEventDate": "2026-07-13",
@@ -104,11 +129,11 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "wus",
-      "sourceEventTitle": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
-      "sourceEventDate": "2026-07-07",
+      "sourceEventTitle": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
+      "sourceEventDate": "2026-07-15",
       "status": "healthy",
       "counts": {
-        "finance_rows": 2,
+        "finance_rows": 3,
         "finance_bridge": 3,
         "finance_notes": 1,
         "business_segments": 1,
@@ -117,7 +142,7 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
         "valuation_scenarios": 1,
         "valuation_triggers": 1
       },
-      "totalAutoItems": 11,
+      "totalAutoItems": 12,
       "omitted": {
         "valuationModel.scenarios": 1
       },
@@ -129,8 +154,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     }
   ],
   "summary": {
-    "companies": 5,
-    "healthy": 5,
+    "companies": 6,
+    "healthy": 6,
     "review": 0,
     "at_risk": 0
   }

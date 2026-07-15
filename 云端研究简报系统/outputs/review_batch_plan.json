@@ -1,16 +1,41 @@
 {
-  "generated_at": "2026-07-13T22:43:28",
+  "generated_at": "2026-07-15T23:25:43",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
     "total": 15,
     "companies": 7,
-    "with_source_body": 5,
+    "with_source_body": 6,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 4,
-      "needs_source": 11
+      "ready_for_deep_review": 5,
+      "needs_source": 10
     },
     "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+        "date": "2026-07-14",
+        "score": 17,
+        "readiness_score": 37,
+        "investment_signal_score": 21,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
         "company": "nvidia",
@@ -116,6 +141,31 @@
   },
   "priority_batch": [
     {
+      "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "date": "2026-07-14",
+      "score": 17,
+      "readiness_score": 37,
+      "investment_signal_score": 21,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
       "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -219,6 +269,31 @@
   ],
   "items": [
     {
+      "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "date": "2026-07-14",
+      "score": 17,
+      "readiness_score": 37,
+      "investment_signal_score": 21,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
       "draft_id": "auto-nvidia-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -310,62 +385,6 @@
       "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
       "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-2026年半年度业绩预告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年半年度业绩预告",
-      "date": "2026-07-14",
-      "score": 14,
-      "readiness_score": 22,
-      "investment_signal_score": 10,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年半年度业绩预告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年半年度业绩预告",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年半年度业绩预告",
-      "date": "2026-07-14",
-      "score": 14,
-      "readiness_score": 22,
-      "investment_signal_score": 10,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年半年度业绩预告.md",
-      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
@@ -617,6 +636,34 @@
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月29日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年6月18日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年6月18日投资者关系活动记录表",
+      "date": "2026-6-18",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年6月18日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

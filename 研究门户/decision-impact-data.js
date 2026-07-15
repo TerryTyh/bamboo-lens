@@ -1,7 +1,165 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-07-15T13:15:56",
-  "source_generated_at": "2026-07-15T13:15:56",
+  "generated_at": "2026-07-15T23:25:43",
+  "source_generated_at": "2026-07-15T23:25:43",
   "items": [
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "event_index": 0,
+      "event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
+      "event_date": "2026-07-15",
+      "event_type": "投资者关系活动 / AI服务器PCB海外产能验证",
+      "priority": "P1",
+      "direction": "中性验证",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "维持确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条比单纯业绩预告更细的P1验证事件。沪电不仅确认AI服务器PCB带来H1高增，还给出泰国基地收入、产值、客户验证和400G/800G产品状态，说明海外产能从建设叙事进入交付和盈利验证。限制是调研没有披露具体客户、毛利率、产能利用率和订单金额，且公司也提示高端原材料可能阶段性供应偏紧，因此不能把产值放量直接等同于利润率持续上行。",
+      "business_impact": "业务上，沪电的核心变化是国内高端PCB能力与泰国海外基地开始形成协同。AI服务器和高速网络设备拉动高层高速PCB需求，泰国基地通过头部客户验证后，可以承接海外客户对交付地、供应链韧性和合规的要求。400G批量、800G逐步批量供应，说明产品层级在向更高端网络设备延伸。与此同时，公司提到高端树脂、超低损耗铜箔、HVLP铜箔等材料可能阶段性供应偏紧，意味着后续竞争不仅是产能扩张，还包括材料验证、供应链安全和客户共同开发能力。",
+      "valuation_impact": "估值/动作上，这条调研强化沪电作为AI服务器PCB链条核心公司的确定性，但也提高了对执行质量的要求。正面是泰国基地从亏损收窄到Q2转盈，海外产能价值开始被利润验证；风险是高端PCB行业扩产会带来价格和同质化压力，原材料瓶颈也可能限制交付节奏或压缩毛利。动作上继续核心跟踪，不因单月产值盲目外推；下一步看半年报和Q3是否证明泰国盈利可持续、800G批量供应爬坡顺利、经营现金流没有被应收和存货吞噬。",
+      "next_verification": [
+        "泰国基地Q3是否延续盈利，单月产值和产能利用率是否继续提升。",
+        "400G和800G相关PCB的收入占比、毛利率和客户数量是否披露。",
+        "高端树脂、HVLP铜箔等材料供应是否出现瓶颈，价格能否向客户传导。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12448274",
+      "sort_key": 20260715,
+      "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "event_index": 0,
+      "event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
+      "event_date": "2026-07-14",
+      "event_type": "业绩预告 / PCB与封装基板景气验证",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是深南电路进入AI服务器PCB链条高景气验证期的P1事件。利润区间和扣非增速足以说明，2026H1不只是主题受益，而是已经在盈利端兑现；同时，原文把增长同时指向PCB、封装基板、存储和数据中心，说明公司受益点并非单一产品。限制是公告没有披露收入、毛利率、经营现金流、存货、应收、客户集中度和各业务线利润贡献，不能直接判断增长质量已经完全稳定。",
+      "business_impact": "业务上，深南电路的关键变化在于AI服务器、存储和数据中心需求开始同时拉动PCB与封装基板。扣非利润增速高于归母利润增速，说明主营业务景气是本次预告的核心。广州封装基板工厂稳步爬坡也很重要，因为封装基板此前是公司从通信PCB向更高价值半导体封装链条延伸的验证点；如果爬坡带来收入和良率改善，深南的估值逻辑会从传统PCB周期股向AI服务器PCB+封装基板平台过渡。需要保留约束：公告没有拆出通信、数据中心、汽车、封装基板的收入和毛利，不能判断是",
+      "valuation_impact": "估值/动作上，这条事件提高深南电路作为AI服务器PCB链条重点公司的研究优先级，但不直接给出买入金额。正面是盈利增速和扣非质量足以支持估值中枢上移讨论；约束是A股复杂制造公司的估值不能只看利润预告，还要看毛利率、经营现金流、应收账款、存货和资本开支是否同步健康。动作上维持重点跟踪，等待半年报确认业务拆分和现金流质量；若毛利率和现金流同步改善，才可把这次预告从盈利弹性线索升级为长期质量改善证据。",
+      "next_verification": [
+        "2026H1半年报中通信/数据中心PCB、封装基板、存储相关收入和毛利率如何变化。",
+        "经营现金流是否跟上净利润增长，避免利润增长被应收、存货或预付款吞掉。",
+        "广州封装基板工厂爬坡是否改善良率、产能利用率和亏损/盈利状态。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002916&id=12442785",
+      "sort_key": 20260714,
+      "detail_link": "./event.html?company=shennan&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "event_index": 1,
+      "event_title": "深南电路7月调研确认H1利润预告、广州封装基板爬坡和45.36亿元AI服务器PCB募投方向",
+      "event_date": "2026-07-14",
+      "event_type": "投资者关系活动 / 产能与业务结构验证",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这条调研记录把业绩预告从利润数字推进到结构验证：数据中心PCB、存储封装基板、泰国工厂、广州FC-BGA和AI服务器PCB募投项目都被放到同一条扩产与产品升级主线中。它足以作为正式事件，因为原文给出了利润区间、业务占比方向、工厂进展、产品层数和投资金额。限制是调研仍没有披露具体客户、单项业务毛利率、良率、产能利用率和订单可见度，因此不能直接判断扩产项目已经进",
+      "business_impact": "业务影响主要有两层。第一，深南在PCB端的核心增量来自通信/数据中心，AI服务器PCB募投项目说明公司正把资本开支集中到高层高速PCB能力上。第二，封装基板端从BT到FC-BGA的进展说明公司不仅承接传统PCB景气，还在向半导体封装材料和先进封装相关环节延伸。泰国工厂和广州项目短期会带来折旧、摊销和单位固定成本压力，但若客户验证、良率和产能利用率顺利提升，将形成海外交付、封装基板和AI服务器PCB三条验证线。",
+      "valuation_impact": "估值/动作上，调研记录支持继续把深南电路放在AI服务器PCB链条的重点观察位置，但动作仍以验证为主。正面是45.36亿元AI服务器PCB项目、FC-BGA层数进展和利润预告共同提高成长确定性；风险是资本开支加速会抬高折旧和现金流压力，若订单持续性、良率或材料成本传导不足，利润弹性可能弱于收入增长。后续只有在半年报确认毛利率、现金流和产能爬坡质量后，才能把估值从盈利弹性上调到平台型成长溢价。",
+      "next_verification": [
+        "AI服务器PCB项目45.36亿元投资的建设节奏、产能释放和客户认证进度。",
+        "泰国工厂Q2以后收入、亏损收窄和产能利用率是否继续改善。",
+        "广州封装基板工厂FC-BGA 24层及以上产品验证是否进入批量生产。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002916&id=12446738",
+      "sort_key": 20260714,
+      "detail_link": "./event.html?company=shennan&event=1&return=company&v=20260505-1"
+    },
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "event_index": 1,
+      "event_title": "沪电股份2026H1归母净利润预增68%-78%，AI服务器PCB和泰国基地二季度转盈进入业绩兑现",
+      "event_date": "2026-07-14",
+      "event_type": "业绩预告 / AI服务器PCB盈利兑现",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是沪电股份AI服务器PCB逻辑从订单和产能线索进入利润兑现的P1事件。利润和扣非利润同步高增，说明AI服务器、高性能计算和高速网络PCB需求已经反映到业绩端；泰国基地Q2单季转盈则缓解了海外产能爬坡拖累利润的担忧。限制是预告没有披露收入、毛利率、客户结构、订单能见度、经营现金流和存货，不能直接推断高增速可按全年线性外推。",
+      "business_impact": "业务影响落在两条主线：一是AI服务器、高性能计算和网络设备推动高端PCB产品结构继续上移；二是泰国基地从建设期转向规模化运营，开始从产能拖累转为海外交付能力验证。对沪电而言，真正重要的是高端产品和海外基地能否同时贡献利润，而不是单纯收入放量。Q2泰国转盈说明规模、良率、客户认证和产品组合至少已有阶段性改善，但是否能持续仍要看后续季度。",
+      "valuation_impact": "估值/动作上，这条预告支持沪电继续享受AI服务器PCB龙头溢价，但动作上不能只凭预告追高。正面是扣非利润高增和泰国转盈提高盈利可见度；约束是高端PCB材料涨价、产能扩张、客户集中度和AI服务器需求节奏都会影响估值容错率。后续若半年报确认毛利率、经营现金流和泰国盈利持续改善，可强化核心跟踪；若利润增长伴随应收和存货快速上行，则需降低对高增速质量的打分。",
+      "next_verification": [
+        "2026H1收入、毛利率、经营现金流和自由现金流是否与利润高增匹配。",
+        "泰国子公司Q2转盈是否来自一次性因素，Q3能否维持盈利。",
+        "AI服务器、高性能计算和网络设备PCB收入占比、客户结构和订单能见度。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12442755",
+      "sort_key": 20260714,
+      "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
+    },
     {
       "company": "tsmc",
       "company_name": "TSMC",
@@ -120,7 +278,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "wus",
       "company_name": "沪电股份",
-      "event_index": 0,
+      "event_index": 2,
       "event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
       "event_date": "2026-07-07",
       "event_type": "投资者关系记录 / 海外产能 / AI PCB",
@@ -156,7 +314,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12434363",
       "sort_key": 20260707,
-      "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=wus&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -200,7 +358,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "wus",
       "company_name": "沪电股份",
-      "event_index": 1,
+      "event_index": 3,
       "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
       "event_date": "2026-06-24",
       "event_type": "产能 / AI 服务器 PCB",
@@ -236,7 +394,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
       "sort_key": 20260624,
-      "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=wus&event=3&return=company&v=20260505-1"
     },
     {
       "company": "tsmc",
@@ -2173,11 +2331,171 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
       }
     ],
+    "shennan": [
+      {
+        "company": "shennan",
+        "company_name": "深南电路",
+        "event_index": 0,
+        "event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
+        "event_date": "2026-07-14",
+        "event_type": "业绩预告 / PCB与封装基板景气验证",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是深南电路进入AI服务器PCB链条高景气验证期的P1事件。利润区间和扣非增速足以说明，2026H1不只是主题受益，而是已经在盈利端兑现；同时，原文把增长同时指向PCB、封装基板、存储和数据中心，说明公司受益点并非单一产品。限制是公告没有披露收入、毛利率、经营现金流、存货、应收、客户集中度和各业务线利润贡献，不能直接判断增长质量已经完全稳定。",
+        "business_impact": "业务上，深南电路的关键变化在于AI服务器、存储和数据中心需求开始同时拉动PCB与封装基板。扣非利润增速高于归母利润增速，说明主营业务景气是本次预告的核心。广州封装基板工厂稳步爬坡也很重要，因为封装基板此前是公司从通信PCB向更高价值半导体封装链条延伸的验证点；如果爬坡带来收入和良率改善，深南的估值逻辑会从传统PCB周期股向AI服务器PCB+封装基板平台过渡。需要保留约束：公告没有拆出通信、数据中心、汽车、封装基板的收入和毛利，不能判断是",
+        "valuation_impact": "估值/动作上，这条事件提高深南电路作为AI服务器PCB链条重点公司的研究优先级，但不直接给出买入金额。正面是盈利增速和扣非质量足以支持估值中枢上移讨论；约束是A股复杂制造公司的估值不能只看利润预告，还要看毛利率、经营现金流、应收账款、存货和资本开支是否同步健康。动作上维持重点跟踪，等待半年报确认业务拆分和现金流质量；若毛利率和现金流同步改善，才可把这次预告从盈利弹性线索升级为长期质量改善证据。",
+        "next_verification": [
+          "2026H1半年报中通信/数据中心PCB、封装基板、存储相关收入和毛利率如何变化。",
+          "经营现金流是否跟上净利润增长，避免利润增长被应收、存货或预付款吞掉。",
+          "广州封装基板工厂爬坡是否改善良率、产能利用率和亏损/盈利状态。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002916&id=12442785",
+        "sort_key": 20260714,
+        "detail_link": "./event.html?company=shennan&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "shennan",
+        "company_name": "深南电路",
+        "event_index": 1,
+        "event_title": "深南电路7月调研确认H1利润预告、广州封装基板爬坡和45.36亿元AI服务器PCB募投方向",
+        "event_date": "2026-07-14",
+        "event_type": "投资者关系活动 / 产能与业务结构验证",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这条调研记录把业绩预告从利润数字推进到结构验证：数据中心PCB、存储封装基板、泰国工厂、广州FC-BGA和AI服务器PCB募投项目都被放到同一条扩产与产品升级主线中。它足以作为正式事件，因为原文给出了利润区间、业务占比方向、工厂进展、产品层数和投资金额。限制是调研仍没有披露具体客户、单项业务毛利率、良率、产能利用率和订单可见度，因此不能直接判断扩产项目已经进",
+        "business_impact": "业务影响主要有两层。第一，深南在PCB端的核心增量来自通信/数据中心，AI服务器PCB募投项目说明公司正把资本开支集中到高层高速PCB能力上。第二，封装基板端从BT到FC-BGA的进展说明公司不仅承接传统PCB景气，还在向半导体封装材料和先进封装相关环节延伸。泰国工厂和广州项目短期会带来折旧、摊销和单位固定成本压力，但若客户验证、良率和产能利用率顺利提升，将形成海外交付、封装基板和AI服务器PCB三条验证线。",
+        "valuation_impact": "估值/动作上，调研记录支持继续把深南电路放在AI服务器PCB链条的重点观察位置，但动作仍以验证为主。正面是45.36亿元AI服务器PCB项目、FC-BGA层数进展和利润预告共同提高成长确定性；风险是资本开支加速会抬高折旧和现金流压力，若订单持续性、良率或材料成本传导不足，利润弹性可能弱于收入增长。后续只有在半年报确认毛利率、现金流和产能爬坡质量后，才能把估值从盈利弹性上调到平台型成长溢价。",
+        "next_verification": [
+          "AI服务器PCB项目45.36亿元投资的建设节奏、产能释放和客户认证进度。",
+          "泰国工厂Q2以后收入、亏损收窄和产能利用率是否继续改善。",
+          "广州封装基板工厂FC-BGA 24层及以上产品验证是否进入批量生产。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002916&id=12446738",
+        "sort_key": 20260714,
+        "detail_link": "./event.html?company=shennan&event=1&return=company&v=20260505-1"
+      }
+    ],
     "wus": [
       {
         "company": "wus",
         "company_name": "沪电股份",
         "event_index": 0,
+        "event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
+        "event_date": "2026-07-15",
+        "event_type": "投资者关系活动 / AI服务器PCB海外产能验证",
+        "priority": "P1",
+        "direction": "中性验证",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "维持确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条比单纯业绩预告更细的P1验证事件。沪电不仅确认AI服务器PCB带来H1高增，还给出泰国基地收入、产值、客户验证和400G/800G产品状态，说明海外产能从建设叙事进入交付和盈利验证。限制是调研没有披露具体客户、毛利率、产能利用率和订单金额，且公司也提示高端原材料可能阶段性供应偏紧，因此不能把产值放量直接等同于利润率持续上行。",
+        "business_impact": "业务上，沪电的核心变化是国内高端PCB能力与泰国海外基地开始形成协同。AI服务器和高速网络设备拉动高层高速PCB需求，泰国基地通过头部客户验证后，可以承接海外客户对交付地、供应链韧性和合规的要求。400G批量、800G逐步批量供应，说明产品层级在向更高端网络设备延伸。与此同时，公司提到高端树脂、超低损耗铜箔、HVLP铜箔等材料可能阶段性供应偏紧，意味着后续竞争不仅是产能扩张，还包括材料验证、供应链安全和客户共同开发能力。",
+        "valuation_impact": "估值/动作上，这条调研强化沪电作为AI服务器PCB链条核心公司的确定性，但也提高了对执行质量的要求。正面是泰国基地从亏损收窄到Q2转盈，海外产能价值开始被利润验证；风险是高端PCB行业扩产会带来价格和同质化压力，原材料瓶颈也可能限制交付节奏或压缩毛利。动作上继续核心跟踪，不因单月产值盲目外推；下一步看半年报和Q3是否证明泰国盈利可持续、800G批量供应爬坡顺利、经营现金流没有被应收和存货吞噬。",
+        "next_verification": [
+          "泰国基地Q3是否延续盈利，单月产值和产能利用率是否继续提升。",
+          "400G和800G相关PCB的收入占比、毛利率和客户数量是否披露。",
+          "高端树脂、HVLP铜箔等材料供应是否出现瓶颈，价格能否向客户传导。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12448274",
+        "sort_key": 20260715,
+        "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "wus",
+        "company_name": "沪电股份",
+        "event_index": 1,
+        "event_title": "沪电股份2026H1归母净利润预增68%-78%，AI服务器PCB和泰国基地二季度转盈进入业绩兑现",
+        "event_date": "2026-07-14",
+        "event_type": "业绩预告 / AI服务器PCB盈利兑现",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是沪电股份AI服务器PCB逻辑从订单和产能线索进入利润兑现的P1事件。利润和扣非利润同步高增，说明AI服务器、高性能计算和高速网络PCB需求已经反映到业绩端；泰国基地Q2单季转盈则缓解了海外产能爬坡拖累利润的担忧。限制是预告没有披露收入、毛利率、客户结构、订单能见度、经营现金流和存货，不能直接推断高增速可按全年线性外推。",
+        "business_impact": "业务影响落在两条主线：一是AI服务器、高性能计算和网络设备推动高端PCB产品结构继续上移；二是泰国基地从建设期转向规模化运营，开始从产能拖累转为海外交付能力验证。对沪电而言，真正重要的是高端产品和海外基地能否同时贡献利润，而不是单纯收入放量。Q2泰国转盈说明规模、良率、客户认证和产品组合至少已有阶段性改善，但是否能持续仍要看后续季度。",
+        "valuation_impact": "估值/动作上，这条预告支持沪电继续享受AI服务器PCB龙头溢价，但动作上不能只凭预告追高。正面是扣非利润高增和泰国转盈提高盈利可见度；约束是高端PCB材料涨价、产能扩张、客户集中度和AI服务器需求节奏都会影响估值容错率。后续若半年报确认毛利率、经营现金流和泰国盈利持续改善，可强化核心跟踪；若利润增长伴随应收和存货快速上行，则需降低对高增速质量的打分。",
+        "next_verification": [
+          "2026H1收入、毛利率、经营现金流和自由现金流是否与利润高增匹配。",
+          "泰国子公司Q2转盈是否来自一次性因素，Q3能否维持盈利。",
+          "AI服务器、高性能计算和网络设备PCB收入占比、客户结构和订单能见度。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12442755",
+        "sort_key": 20260714,
+        "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
+      },
+      {
+        "company": "wus",
+        "company_name": "沪电股份",
+        "event_index": 2,
         "event_title": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
         "event_date": "2026-07-07",
         "event_type": "投资者关系记录 / 海外产能 / AI PCB",
@@ -2213,12 +2531,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002463&id=12434363",
         "sort_key": 20260707,
-        "detail_link": "./event.html?company=wus&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=wus&event=2&return=company&v=20260505-1"
       },
       {
         "company": "wus",
         "company_name": "沪电股份",
-        "event_index": 1,
+        "event_index": 3,
         "event_title": "高端 AI PCB 项目预计 2026H2 试产，昆山厂房扩产同时提示行业利润挤压风险",
         "event_date": "2026-06-24",
         "event_type": "产能 / AI 服务器 PCB",
@@ -2254,7 +2572,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12409753&stockid=002463",
         "sort_key": 20260624,
-        "detail_link": "./event.html?company=wus&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=wus&event=3&return=company&v=20260505-1"
       }
     ],
     "fii": [
@@ -2300,10 +2618,10 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 30,
-    "companies": 5,
-    "valuation_update_needed": 11,
-    "positive": 24,
+    "total": 34,
+    "companies": 6,
+    "valuation_update_needed": 15,
+    "positive": 27,
     "watch": 3
   }
 };

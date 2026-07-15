@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T13:15:56",
-  "source_overrides_at": "2026-07-15T13:15:56",
+  "generated_at": "2026-07-15T23:25:44",
+  "source_overrides_at": "2026-07-15T23:25:44",
   "items": [
     {
       "company": "constellation",
@@ -105,6 +105,40 @@
       ]
     },
     {
+      "company": "shennan",
+      "sourceEventTitle": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
+      "sourceEventDate": "2026-07-14",
+      "status": "healthy",
+      "score": 100,
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "sectionPresence": {
+        "公司理解": 2,
+        "财务数据地图": 7,
+        "估值模型": 3
+      },
+      "depositEvents": 2,
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "warnings": [],
+      "suggestions": [],
+      "strengths": [
+        "已关联 2 条正式事件。",
+        "业务影响有独立判断。",
+        "估值/动作影响有独立判断。",
+        "下一步验证点较具体。"
+      ]
+    },
+    {
       "company": "tsmc",
       "sourceEventTitle": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
       "sourceEventDate": "2026-07-13",
@@ -140,8 +174,8 @@
     },
     {
       "company": "wus",
-      "sourceEventTitle": "泰国基地Q2单月产值超1.5亿元，AI服务器与高速网络PCB海外交付进入放量验证",
-      "sourceEventDate": "2026-07-07",
+      "sourceEventTitle": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
+      "sourceEventDate": "2026-07-15",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
@@ -153,10 +187,10 @@
       ],
       "sectionPresence": {
         "公司理解": 2,
-        "财务数据地图": 6,
+        "财务数据地图": 7,
         "估值模型": 3
       },
-      "depositEvents": 2,
+      "depositEvents": 3,
       "writebackQuality": {
         "status": "needs_model_update",
         "statusLabel": "可回写，需同步估值/财务",
@@ -166,7 +200,7 @@
       "warnings": [],
       "suggestions": [],
       "strengths": [
-        "已关联 2 条正式事件。",
+        "已关联 3 条正式事件。",
         "业务影响有独立判断。",
         "估值/动作影响有独立判断。",
         "下一步验证点较具体。"
@@ -174,8 +208,8 @@
     }
   ],
   "summary": {
-    "companies": 5,
-    "healthy": 5,
+    "companies": 6,
+    "healthy": 6,
     "review": 0,
     "weak": 0
   }
