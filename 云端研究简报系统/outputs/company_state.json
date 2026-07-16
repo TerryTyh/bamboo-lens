@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T13:24:27",
-  "source_generated_at": "2026-07-16T13:24:27",
+  "generated_at": "2026-07-16T22:57:20",
+  "source_generated_at": "2026-07-16T22:57:20",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
       "source_event_date": "2026-07-08",
@@ -18,21 +18,21 @@
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
-      "source_event_title": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
-      "source_event_date": "2026-07-13",
-      "latestEvent": "2026-07-13｜2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
-      "businessImpact": "业务上，6月营收把Q2收入高景气从连续性线索推进为整季验证。结合此前Q1先进制程占晶圆收入74%、HPC占比61%、Q2收入指引US$39.0-40.2 billion的框架，4-6月月度营收连续高位更支持“AI/HPC和先进制程仍在承接主要增量”的主线。对TSMC而言，价值不只是单月同比高增长，而是高端制程、先进封装和大客户AI资本开支能否持续把产能转化为收入。限制是公告没有拆分业务结构，不能据此判断N2、A16、CoWoS或单一客户贡献。",
-      "valuationImpact": "估值/动作上，6月营收支持TSMC继续保留A池核心和质量溢价，但不是单独追高信号。正面是Q2收入兑现能见度更高，市场对先进制程与AI/HPC需求的担忧下降；约束是估值中枢仍要看Q2毛利率是否落在65.5%-67.5%指引区间、海外扩产和折旧是否压低自由现金流、以及高资本开支能否继续获得足够回报。动作上维持核心跟踪，不因单月营收上行提高仓位；下一步等Q2财报确认收入高位是否同步转化为毛利率、EPS和现金流质量。",
-      "nextCheck": "Q2财报收入是否与4-6月合计营收约NT$1,270.39 billion一致，并对照公司US$39.0-40.2 billion收入指引。；Q2毛利率是否落在65.5%-67.5%指引区间，判断高收入是否被海外扩产、汇率、折旧或产品组合稀释。；继续看先进制程占比、HPC收入占比和先进封装产能口径，确认6月收入高位背后的结构质量。",
-      "action": "维持A池核心；等待Q2财报验证毛利率、先进制程结构和自由现金流质量",
+      "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
+      "source_event_date": "2026-07-16",
+      "latestEvent": "2026-07-16｜TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
+      "businessImpact": "业务上，Q2财报把“先进制程和AI/HPC需求高位”从月度收入验证推进到盈利质量验证。先进制程收入占比从此前高位进一步到77%，3nm和5nm仍是主体，2nm已进入收入结构并占3%，说明下一代节点开始商业化爬坡。Q3收入指引US$44.6-45.8 billion意味着公司预期领先制程需求继续推高收入台阶，而不只是Q2一次性拉货。对业务理解的关键变化是：TSMC不仅受益于AI芯片需求，还在用先进节点迭代和产能爬坡维持议价与利润率；但高资本开支、海外工厂成本、先进封装供给和客户...",
+      "valuationImpact": "估值/动作上，Q2财报支持TSMC维持A池核心和质量溢价，合理估值中枢应继续以高收入可见度、领先制程份额和毛利率韧性为主要支撑。正面变化是：Q2毛利率67.7%超过指引上沿，EPS同比增长77.4%，Q3收入指引继续抬升，降低了“AI需求只停留在订单预期”的疑虑。约束是：估值已经高度反映先进制程和AI需求，Q3毛利率指引回到65%-67%，后续若海外扩产折旧、2nm初期良率或资本开支压力压低自由现金流，估值容错会下降。动作上维持核心跟踪，不因单季强劲直接提高仓位；下一步用Q3...",
+      "nextCheck": "Q3收入是否落在US$44.6-45.8 billion指引区间，并观察7月、8月、9月月度营收是否连续支撑该区间。；Q3毛利率是否守住65%-67%，重点判断2nm爬坡、汇率、海外产能折旧和产品组合是否压低利润率。；后续财报或法说会继续跟踪2nm、3nm、5nm占比变化，确认先进制程收入占比77%是否继续上行。",
+      "action": "维持A池核心；用Q3收入、2nm爬坡、毛利率和资本开支回报验证高估值支撑",
       "priority": "P1",
       "sourceLink": "./event.html?company=tsmc&event=0&return=company&v=20260412-24"
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-07-16T13:24:27",
+      "updated_at": "2026-07-16T22:57:20",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

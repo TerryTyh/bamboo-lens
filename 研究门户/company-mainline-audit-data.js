@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-07-16T13:24:27",
-  "source_overrides_at": "2026-07-16T13:24:27",
+  "generated_at": "2026-07-16T22:57:20",
+  "source_overrides_at": "2026-07-16T22:57:20",
   "items": [
     {
       "company": "constellation",
@@ -140,8 +140,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "tsmc",
-      "sourceEventTitle": "2026年6月营收NT$4426.8亿、同比增长67.9%，Q2收入指引兑现进入最后确认",
-      "sourceEventDate": "2026-07-13",
+      "sourceEventTitle": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
+      "sourceEventDate": "2026-07-16",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
