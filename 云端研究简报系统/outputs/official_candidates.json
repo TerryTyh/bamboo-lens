@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T13:14:16",
+  "generated_at": "2026-07-16T13:21:58",
   "companies": {
     "nvidia": [
       {
@@ -997,6 +997,83 @@
         "source_body": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers up to 25x performance per watt compared with the NVIDIA Hopper generation — showcasing that MoE performance improves when moving from an 8-GPU to 72-GPU domain size. These numbers reflect where Blackwell stands today, a starting point that continues to improve. Any single number only tells part of the story. Different workloads demand different operating points: some optimize for latency, others for throughput and cost — and most need to move between the two. To best represent these operating points, NVIDIA showcases Pareto curves for each model rather than a single point and provides tools such as DynoSim to help teams find their optimal point on the Pareto frontier before spending a single GPU-hour on validation. The performance per watt NVIDIA Blackwell delivers is a result of extreme codesign: every component of the rack-scale system, from silicon to software , designed together to maximize token throughput for AI inference workloads. That codesign touches every layer of the stack. For example, NVIDIA NVLink Switch , critical for rack-scale performance, is purpose-built to unlock massive scale-up GPU domains, not adapted from general-purpose networking. Now in its sixth generation with the Vera Rubin platform, its capabilities are designed specifically for AI workloads such as SHARP, which performs in-network computing directly in the switch, offloading work from the GPUs themselves. NVIDIA’s inference software stack , including NVIDIA Dynamo and TensorRT LLM, as well as SGLang and vLLM, is built to run the full range of optimizations: NVFP4 quantization, disaggregated serving, large-scale expert parallelism, KV-aware routing, KV cache offloading and more. These stack together to multiply the performance each GPU delivers. Moreover, software keeps improving performance over time: On DeepSeek V4, performance per watt improved by up to 5x in a single month.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
+        "date": "2026-07-16",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-16；标题：Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW；原文内容：Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, moving from beta to public availability — meaning gamers can sign up without a waitlist. Capcom’s next legendary action adventure is coming to GeForce NOW. Onimusha: Way of the Sword…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260716,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
+        "source_excerpt": "Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, moving from beta to public availability — meaning gamers can sign up without a waitlist. Capcom’s next legendary action adventure is coming to GeForce NOW. Onimusha: Way of the Sword…",
+        "source_body": "Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, moving from beta to public availability — meaning gamers can sign up without a waitlist. Capcom’s next legendary action adventure is coming to GeForce NOW. Onimusha: Way of the Sword will arrive on the cloud at launch on Thursday, Sept. 3. Members can jump into the action even sooner with the demo now available to stream. Set in a dark fantasy vision of Edo Japan, follow a lone samurai wielding the legendary Oni Gauntlet against relentless demonic Genma. Master precise swordplay, unleash powerful abilities and absorb the souls of fallen enemies as supernatural battles unfold across a haunting world filled with mystery and danger. Ultimate members can experience every clash with GeForce RTX 5080-class performance in the cloud across PCs, Macs, handhelds, mobile devices and TVs. From the first swing in the demo through launch day, GeForce NOW lets members step into battle the moment it’s available — no downloads, storage space or expensive hardware required. Gamers can find the demo in the GeForce NOW app demo row and add the title to their wishlists today to be ready when the blade is drawn. GeForce NOW has officially exited beta in India , bringing the world’s highest-performance cloud gaming service to more gamers across the country. This week, gamers can choose from monthly Performance and Ultimate memberships, flexible day passes or the basic, free offering — making it easier than ever to experience GeForce RTX-powered cloud gaming. GeForce NOW now supports UPI payments, giving gamers across India a fast, secure and convenient way to purchase memberships and day passes. Premium memberships unlock GeForce RTX-powered features like ray tracing , NVIDIA DLSS and NVIDIA Reflex , along with higher resolutions, faster frame rates and priority access to streaming. With thousands of supported games — from blockbuster releases and free-to-play favorites to indie hits — members can enjoy PC games they already own without the cost of upgrading to high-end gaming hardware. Join the conversation with the GeForce NOW community on Reddit .",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
+        "date": "2026-07-16",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-16；标题：Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure；来源：https://investor.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260716,
+        "source_url": "https://investor.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html"
+      },
+      {
+        "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+        "date": "2026-07-15",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-15；标题：NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI；原文内容：General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that enable mass-market robotics and edge AI applications at scale. Jetson AG…；来源：https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260715,
+        "source_url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+        "source_excerpt": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that enable mass-market robotics and edge AI applications at scale. Jetson AG…",
+        "source_body": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that enable mass-market robotics and edge AI applications at scale. Jetson AGX Thor is powering this next generation of humanoid and robotic systems, with growing adoption across industries. Leading companies — including 1X , Agile Robots , Amazon Robotics , Boston Dynamics , FANUC , Hitachi and Techman Robot — are building on the platform. The hardware underpinning those capabilities starts with the Jetson and IGX T3000 modules, which delivers 865 FP4 teraflops of AI compute in a compact form factor roughly half the size and power of the T5000. Jetson T3000 combines an NVIDIA Blackwell GPU, an eight-core Neoverse Arm CPU, 32GB of LPDDR5X memory and 273GB/s of memory bandwidth, along with 25 GbE connectivity. IGX T3000 delivers the same performance with integrated functional safety while seamlessly running the NVIDIA Halos for Robotics full-stack safety system for robots operating alongside humans. Despite its smaller footprint, the T3000 achieves similar inference performance of the T5000 for multimodal workloads, including large language models, vision language models, vision language action models and world foundation models. Migrating to T3000 helps reduce costs amid high memory prices. The Jetson T2000 brings Thor architecture to a broader range of edge AI systems. With 400 FP4 teraflops of compute and 16GB of memory, it provides an entry point for developers building visual AI agents, autonomous mobile robots, industrial manipulators and other intelligent machines. With the introduction of the new NVIDIA Jetson modules, NVIDIA now offers a scalable edge AI platform spanning performance from 70 TOPS to 2,000 teraflops, enabling developers to address virtually any edge AI workload. AI agents are transforming developer productivity by automating memory optimization, system configuration and deployment tasks that previously required manual effort and deep domain expertise. With the newly released Jetson agent skills , developers can optimize the entire software stack and achieve significant memory savings in days instead of weeks. These skills support the entire Jetson portfolio, including Jetson Thor and Jetson Orin, enabling developers to run more capable workloads on lower-memory configurations. The result is lower system cost, faster deployment and the flexibility to move down one memory SKU within the same product tier without compromising performance. Companies across industries and regions have accelerated development while achieving substantial memory savings through software optimization. Humanoid robotics leaders including UBTech and Agile Robots , along with industrial solutions provider Connect Tech , have reduced memory usage by up to 15GB, enabling them to move from NVIDIA Jetson AGX Orin 64GB to the 32GB module.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
+        "date": "2026-07-15",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-15；标题：Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier；来源：https://investor.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260715,
+        "source_url": "https://investor.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html"
+      },
+      {
+        "title": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
+        "date": "2026-07-15",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-15；标题：Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models；来源：https://investor.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260715,
+        "source_url": "https://investor.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html"
       }
     ],
     "tsmc": [
@@ -1151,6 +1228,22 @@
         "source_excerpt": "[](http://pr.tsmc.com/english/news/3323#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3323#)Search […",
         "source_body": "[](http://pr.tsmc.com/english/news/3323#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3323#)Search [](http://pr.tsmc.com/english/news/3323) *HSINCHU, Taiwan, R.O.C. – July 13, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for June 2026: On a consolidated basis, revenue for June 2026 was approximately NT$442.68 billion, an increase of 6.2 percent from May 2026 and an increase of 67.9 percent from June 2025. Revenue for January through June 2026 totaled NT$2,404.48 billion, an increase of 35.6 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260713-140454__pr.tsmc.com_english_latest-news.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "TSMC Reports Second Quarter EPS of NT$27.25",
+        "date": "2026-07-16",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-07-16；标题：TSMC Reports Second Quarter EPS of NT$27.25；原文内容：[](http://pr.tsmc.com/english/news/3326#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3326#)Search 5…；来源：http://pr.tsmc.com/english/news/3326",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260716,
+        "source_url": "http://pr.tsmc.com/english/news/3326",
+        "source_excerpt": "[](http://pr.tsmc.com/english/news/3326#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3326#)Search 5…",
+        "source_body": "[](http://pr.tsmc.com/english/news/3326#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3326#)Search 5. TSMC Reports Second Quarter EPS of NT$27.25 [](http://pr.tsmc.com/english/news/3326) TSMC Reports Second Quarter EPS of NT$27.25 TSMC Reports Second Quarter EPS of NT$27.25 *HSINCHU, Taiwan, R.O.C., Jul. 16, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,270.38 billion, net income of NT$706.56 billion, and diluted earnings per share of NT$27.25 (US$4.31 per ADR unit) for the second quarter ended June 30, 2026. Year-over-year, second quarter revenue increased 36.0%, while net income and diluted EPS both increased 77.4%. Compared to first quarter 2026, second quarter results represented a 12.0% increase in revenue and a 23.4% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, second quarter revenue was $40.20 billion, which increased 33.7% year-over-year and increased 12.0% from the previous quarter. Gross margin for the quarter was 67.7%, operating margin was 60.3%, and net profit margin was 55.6%. In the second quarter, shipments of 2-nanometer accounted for 3% of total wafer revenue; 3-nanometer accounted for 30%; 5-nanometer accounted for 33%; and 7-nanometer accounted for 11%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 77% of total wafer revenue. “Our business in the second quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into third quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies, including the steep ramp-up of our 2-nanometer technology.” Based on the Company’s current business outlook, management expects the overall performance for third quarter 2026 to be as follows: Revenue is expected to be between US$44.6 billion and US$45.8 billion; And, based on the exchange rate assumption of 1 US dollar to 32 NT dollars, Gross profit margin is expected to be between 65% and 67%; Operating profit margin is expected to be between 56% and 58%. Senior Vice President & Chief Financial Officer TSMC-SUPPLY ONLINE 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260716-131934__pr.tsmc.com_english_latest-news.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
@@ -2199,6 +2292,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260714-130727__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+      },
+      {
+        "title": "深南电路：2026年7月16日投资者关系活动记录表",
+        "date": "2026-7-16",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-7-16；标题：深南电路：2026年7月16日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260716,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260716-131934__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
       }
     ],
     "wus": [
@@ -2501,6 +2609,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260715-131139__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+      },
+      {
+        "title": "沪电股份：2026年7月16日投资者关系活动记录表",
+        "date": "2026-7-16",
+        "fetched_at": "20260716-131934",
+        "type": "官方候选",
+        "fact": "日期：2026-7-16；标题：沪电股份：2026年7月16日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260716,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260716-131934__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
       }
     ],
     "fii": [
