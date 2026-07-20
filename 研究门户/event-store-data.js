@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-17T13:09:05",
+  "generated_at": "2026-07-20T13:51:34",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -1684,6 +1684,37 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "date": "2026-07-20",
+          "fetched_at": "20260720-134755",
+          "type": "官方候选",
+          "fact": "日期：2026-07-20；标题：Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin；原文内容：Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster…；来源：https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260720,
+          "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+          "source_excerpt": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster…",
+          "source_body": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sort of this abstract position of what AI can do to actually translating that to measurable impact.” BMS has operated a DGX SuperPOD for about three years, producing meaningful results. AI-enabled target identification already saves scientists weeks of manual work, freeing time to focus on the highest-value scientific decisions. BMS’s team has used AI to expand its library of CELMoD compounds — molecules engineered to selectively degrade cancer-causing proteins, with applications in blood cancer treatment and beyond. This has opened the door to new targets and new potential medicines across a wider range of diseases. AI is also applied in lead optimization stages of drug discovery using a methodology Sheth calls “Predict First,” which informs experimental gating based on design predictions. “We use predictions as a way to prioritize synthesis of molecules with multi parameter optimization,” she explains, “to weed out molecules that wouldn’t necessarily meet the property landscape we’re working towards. This ensures precious laboratory experiments are aligned with progressing molecules that have the highest probability of success. These research AI applications have significant impact on compute needs across the research organization.“We’re saturated,” Davis says. “We’re in production with some very large-scale predictions around large molecules. We’re building our own foundational models, and that takes a lot of GPUs.” With the new system coming, Davis already has her pitch for researchers thinking about where to do their best work: “Welcome to Limitless Compute.” A computational chemist by training, Davis spent years doing the science before concluding the technology wasn’t keeping up — and that she’d rather go fix it. She spent roughly 15 years on the vendor side, building enterprise platforms at ChemAxon, Schrödinger and X-Chem. At every company, pharma was wrestling with the same bottleneck. “It’s not the technology,” she says. “The challenge is how to get that into the hands of actual scientists and learn from it.”",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+          "date": "2026-07-17",
+          "fetched_at": "20260720-134755",
+          "type": "官方候选",
+          "fact": "日期：2026-07-17；标题：NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI；原文内容：Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to…；来源：https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260717,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+          "source_excerpt": "Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to…",
+          "source_body": "Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Post-training is where intelligence is built. In pretraining, the model learns to predict the next token, which gives it fluency but not intelligence. Post-training is where it learns to write code, plan a multistep task, use a search tool and recover when something goes wrong. Inference is what comes after: the model working on the job, priced in cost per token. Because there’s no answer key to memorize, only a reward, the model learns by reinforcement learning (RL) techniques. When given a task, it writes out an attempt — the forward pass — the same work it does on the job. The attempt is scored, and the lesson updates the model’s weights — the backward pass. Across millions of attempts, intelligence grows. Each step is compute intensive, and running this loop at scale is an orchestration problem: thousands of environments generating rollouts in parallel, rewards being verified and updated weights flowing back into training with accelerators fully utilized. NVIDIA NeMo open libraries, such as NeMo Gym for training environments and NeMo RL for distributed post-training, turn post-training from bespoke research code into repeatable infrastructure. If inference is the revenue engine, post-training is the multiplier: the more capable the model, the higher the value of every token served. Cost per token is the key metric for the inference factory: the all-in cost of delivering 1 million tokens. Intelligence per dollar sits one layer up, answering a different question: what does it cost to build a model worth serving, and keep it worth serving as its environment changes? The two are nested, not competing. AI infrastructure that lowers cost per token also lowers the cost of every point of intelligence built into the model. And every point of intelligence built in raises the value of every token the inference factory serves. In other words, cost per token measures operating yield; intelligence per dollar measures whether the investment in model intelligence is paying off.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -3372,6 +3403,36 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260610-145251__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "新易盛：投资者关系管理信息20260719",
+          "date": "2026-07-20",
+          "fetched_at": "20260720-134755",
+          "type": "官方候选",
+          "fact": "日期：2026-07-20；标题：新易盛：投资者关系管理信息20260719；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260720,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260720-134755__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "新易盛：2026年半年度业绩预告",
+          "date": "2026-07-20",
+          "fetched_at": "20260720-134755",
+          "type": "官方候选",
+          "fact": "日期：2026-07-20；标题：新易盛：2026年半年度业绩预告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260720,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260720-134755__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         }
       ]
     },
