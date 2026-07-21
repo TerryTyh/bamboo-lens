@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-20T13:51:07",
+  "generated_at": "2026-07-21T13:19:12",
   "companies": {
     "nvidia": [
       {
@@ -356,6 +356,53 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+        "date": "2026-07-20",
+        "fetched_at": "20260721-131603",
+        "type": "官方候选",
+        "fact": "日期：2026-07-20；标题：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVID…；来源：https://blogs.nvidia.com/blog/siggraph-news-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260720,
+        "source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+        "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVID…",
+        "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVIDIA AI research and engineering leaders Neil Ashton, Edward Liu and Ming-Yu Liu discussing neural rendering techniques, world models and simulation methods for AI, built by AI. Read on for the latest from the SIGGRAPH conference, with NVIDIA and partners showcasing: NVIDIA AI research and engineering leaders took the stage at SIGGRAPH today to share the latest advances in neural rendering, world models and simulation. These technologies — which are changing the way digital worlds are created and used across every domain — can be applied to creative tools, industrial design, robotics and autonomous systems. “Creators and designers need tools powerful enough to expand their imagination, malleable enough to give them the freedom to shape ideas and precise enough to realize their vision exactly as intended,” said NVIDIA founder and CEO Jensen Huang in an introductory video. “Whether for games, cinema, robotics or factory digital twins, the goal is the same: to create virtual worlds that behave with the fidelity and realism of the physical world.” Edward Liu, director of applied deep learning research at NVIDIA, kicked off the presentation by showcasing 3D-guided neural rendering. He shared how NVIDIA’s latest advancements in neural rendering address three key research challenges: preserving artistic intent, ensuring output is temporally stable across frames and rendering 4K content in real time. “Control in artistic direction is a really exciting research direction for us,” said Edward Liu. “Simulation defines the world, generation enriches its appearance and artists direct the outcome…AI extending graphics the same way programmable shaders and ray tracing have extended graphics before.” Neil Ashton, distinguished engineer at NVIDIA, covered innovation in AI physics with applications in weather forecasting, automotive aerodynamics, thermal design and more. In climate and weather research, the NVIDIA Earth-2 family of open models is enabling scientists to boost their simulation resolutions to new levels with AI models trained on simulation data — while achieving accuracy equal or greater to traditional approaches. “The challenge that we have is to translate the success of using these AI models in weather and climate into the world that we live in, to be able to design the planes and cars and data centers of the future,” Ashton said. “One of the things that NVIDIA is really focused on is helping to achieve that vision.”",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260721-131603__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
+        "date": "2026-07-20",
+        "fetched_at": "20260721-131603",
+        "type": "官方候选",
+        "fact": "日期：2026-07-20；标题：NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds；来源：https://investor.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260720,
+        "source_url": "https://investor.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260721-131603__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
@@ -3595,6 +3642,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "wus": [
+      {
+        "title": "沪电股份：2026年7月21日投资者关系活动记录表",
+        "date": "2026-7-21",
+        "fetched_at": "20260721-131603",
+        "type": "官方候选",
+        "fact": "日期：2026-7-21；标题：沪电股份：2026年7月21日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260721,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260721-131603__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
+      },
       {
         "title": "沪电股份：2026年7月16日投资者关系活动记录表",
         "date": "2026-7-16",

@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-20T13:51:34",
+  "generated_at": "2026-07-21T13:20:03",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -1715,6 +1715,37 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to…",
           "source_body": "Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token . That means that every improvement to cost per token flows directly into intelligence per dollar. Post-training is where intelligence is built. In pretraining, the model learns to predict the next token, which gives it fluency but not intelligence. Post-training is where it learns to write code, plan a multistep task, use a search tool and recover when something goes wrong. Inference is what comes after: the model working on the job, priced in cost per token. Because there’s no answer key to memorize, only a reward, the model learns by reinforcement learning (RL) techniques. When given a task, it writes out an attempt — the forward pass — the same work it does on the job. The attempt is scored, and the lesson updates the model’s weights — the backward pass. Across millions of attempts, intelligence grows. Each step is compute intensive, and running this loop at scale is an orchestration problem: thousands of environments generating rollouts in parallel, rewards being verified and updated weights flowing back into training with accelerators fully utilized. NVIDIA NeMo open libraries, such as NeMo Gym for training environments and NeMo RL for distributed post-training, turn post-training from bespoke research code into repeatable infrastructure. If inference is the revenue engine, post-training is the multiplier: the more capable the model, the higher the value of every token served. Cost per token is the key metric for the inference factory: the all-in cost of delivering 1 million tokens. Intelligence per dollar sits one layer up, answering a different question: what does it cost to build a model worth serving, and keep it worth serving as its environment changes? The two are nested, not competing. AI infrastructure that lowers cost per token also lowers the cost of every point of intelligence built into the model. And every point of intelligence built in raises the value of every token the inference factory serves. In other words, cost per token measures operating yield; intelligence per dollar measures whether the investment in model intelligence is paying off.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "date": "2026-07-20",
+          "fetched_at": "20260721-131603",
+          "type": "官方候选",
+          "fact": "日期：2026-07-20；标题：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVID…；来源：https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260720,
+          "source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVID…",
+          "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote , taking place today, July 20, at 3:45 p.m. PT, will feature NVIDIA AI research and engineering leaders Neil Ashton, Edward Liu and Ming-Yu Liu discussing neural rendering techniques, world models and simulation methods for AI, built by AI. Read on for the latest from the SIGGRAPH conference, with NVIDIA and partners showcasing: NVIDIA AI research and engineering leaders took the stage at SIGGRAPH today to share the latest advances in neural rendering, world models and simulation. These technologies — which are changing the way digital worlds are created and used across every domain — can be applied to creative tools, industrial design, robotics and autonomous systems. “Creators and designers need tools powerful enough to expand their imagination, malleable enough to give them the freedom to shape ideas and precise enough to realize their vision exactly as intended,” said NVIDIA founder and CEO Jensen Huang in an introductory video. “Whether for games, cinema, robotics or factory digital twins, the goal is the same: to create virtual worlds that behave with the fidelity and realism of the physical world.” Edward Liu, director of applied deep learning research at NVIDIA, kicked off the presentation by showcasing 3D-guided neural rendering. He shared how NVIDIA’s latest advancements in neural rendering address three key research challenges: preserving artistic intent, ensuring output is temporally stable across frames and rendering 4K content in real time. “Control in artistic direction is a really exciting research direction for us,” said Edward Liu. “Simulation defines the world, generation enriches its appearance and artists direct the outcome…AI extending graphics the same way programmable shaders and ray tracing have extended graphics before.” Neil Ashton, distinguished engineer at NVIDIA, covered innovation in AI physics with applications in weather forecasting, automotive aerodynamics, thermal design and more. In climate and weather research, the NVIDIA Earth-2 family of open models is enabling scientists to boost their simulation resolutions to new levels with AI models trained on simulation data — while achieving accuracy equal or greater to traditional approaches. “The challenge that we have is to translate the success of using these AI models in weather and climate into the world that we live in, to be able to design the planes and cars and data centers of the future,” Ashton said. “One of the things that NVIDIA is really focused on is helping to achieve that vision.”",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260721-131603__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
+          "date": "2026-07-20",
+          "fetched_at": "20260721-131603",
+          "type": "官方候选",
+          "fact": "日期：2026-07-20；标题：NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds；来源：https://investor.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260720,
+          "source_url": "https://investor.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260721-131603__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -4352,6 +4383,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260716-131934__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年7月21日投资者关系活动记录表",
+          "date": "2026-7-21",
+          "fetched_at": "20260721-131603",
+          "type": "官方候选",
+          "fact": "日期：2026-7-21；标题：沪电股份：2026年7月21日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260721,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260721-131603__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
