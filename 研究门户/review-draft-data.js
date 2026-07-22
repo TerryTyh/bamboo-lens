@@ -1,13 +1,13 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-07-22T13:31:02",
+  "generated_at": "2026-07-22T22:35:05",
   "summary": {
     "total": 15,
     "companies": 6,
-    "with_source_body": 8,
+    "with_source_body": 7,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 7,
-      "needs_source": 8
+      "ready_for_deep_review": 6,
+      "needs_source": 9
     },
     "priority_batch": [
       {
@@ -324,31 +324,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia vera rubin driving performance per watt, lowest token cost for partners worldwide": {
-      "draft_id": "auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-      "date": "2026-07-21",
-      "score": 10,
-      "readiness_score": 30,
-      "investment_signal_score": 13,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-rubin/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "nvidia::nairr science program reshapes scientific research, powered by nvidia ai infrastructure": {
       "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
       "company": "nvidia",
@@ -538,6 +513,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "wus::沪电股份：2026年7月16日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年7月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年7月16日投资者关系活动记录表",
+      "date": "2026-7-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月16日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   },
   "companies": {
@@ -658,31 +661,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-        "date": "2026-07-21",
-        "score": 10,
-        "readiness_score": 30,
-        "investment_signal_score": 13,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-rubin/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -921,6 +899,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年7月16日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年7月16日投资者关系活动记录表",
+        "date": "2026-7-16",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月16日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ],
     "shennan": [
@@ -1071,31 +1077,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-      "date": "2026-07-21",
-      "score": 10,
-      "readiness_score": 30,
-      "investment_signal_score": 13,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/vera-rubin/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-cost-for-partners-worldwide.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -1345,6 +1326,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月16日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年7月16日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年7月16日投资者关系活动记录表",
+      "date": "2026-7-16",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月16日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-07-22T13:31:03",
-  "source_overrides_at": "2026-07-22T13:31:03",
+  "generated_at": "2026-07-22T22:35:05",
+  "source_overrides_at": "2026-07-22T22:35:05",
   "items": [
     {
       "company": "constellation",
@@ -72,8 +72,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-      "sourceEventDate": "2026-07-08",
+      "sourceEventTitle": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+      "sourceEventDate": "2026-07-21",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

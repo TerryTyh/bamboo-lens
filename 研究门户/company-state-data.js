@@ -1,24 +1,24 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-07-22T13:31:02",
-  "source_generated_at": "2026-07-22T13:31:02",
+  "generated_at": "2026-07-22T22:35:05",
+  "source_generated_at": "2026-07-22T22:35:05",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
-      "source_event_title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-      "source_event_date": "2026-07-08",
-      "latestEvent": "2026-07-08｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-      "businessImpact": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披...",
-      "valuationImpact": "估值/动作上，这条事件支持继续给 NVIDIA 平台溢价，但不足以单独上调估值中枢。正面在于：开放模型在企业任务上接近闭源模型、推理成本显著下降，并进入 LangChain 这样高分发入口，有助于把企业 AI 从试点带向更多可治理的生产工作流。需要谨慎的是，低成本也可能压低部分推理单价，最终价值取决于使用量扩大、软件配套附加、企业私有部署和服务生态能否抵消单价下降。动作上维持 A 池核心，不因该事件追高；后续重点看企业客户数量、NemoClaw、OpenShell、NIM 的...",
-      "nextCheck": "跟踪 Abridge、Amdocs、Box 与 EY 是否披露基于 Nemotron、NemoClaw 和 LangChain 的实际部署规模、客户数量或生产环境案例。；观察 NVIDIA 是否在财报、电话会或产品口径中披露 Nemotron、NemoClaw、OpenShell、NIM 与企业推理相关的软件收入、订阅或配套附加率。；验证 10 倍推理成本优势是否能在真实企业工作流中复现，而不是只停留在 LangChain 深度智能体基准测试。",
-      "action": "维持 A 池核心；把企业智能体开源栈的成本、采用客户和软件配套收入列为新增验证点",
-      "priority": "P2",
+      "source_event_title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+      "source_event_date": "2026-07-21",
+      "latestEvent": "2026-07-21｜Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+      "businessImpact": "业务影响主要落在数据中心平台、网络业务和AI系统供应链。Vera Rubin机架已在四家大云合作方运行，说明下一代平台进入交付验证期；Spectrum-6进入CoreWeave、Microsoft、Nebius、SpaceXAI和Tesla等AI工厂，强化NVIDIA把网络从配套部件升级为AI工厂性能约束控制点的逻辑。Wistron美国工厂提供了本土制造与板卡产能证据，有助于支撑美国客户和政策环境下的交付可靠性。BMS案例说明生命科学等行业客户正在把新平台用于生产级药物发现工...",
+      "valuationImpact": "估值/动作上，这条事件强化NVIDIA的A池核心地位和平台溢价，但不足以单独上调估值中枢或改变仓位纪律。正面在于，10倍每兆瓦吞吐、102.4Tbps网络系统、350多个供应链站点和Wistron月产数万块板卡目标，都指向下一代AI工厂的单位经济与交付能力；这能支撑高估值对持续增长和高附加值系统销售的要求。需要克制的是，客户导入和供应链爬坡不等于收入、利润和自由现金流已经确认，下一步必须等财报中的数据中心收入、网络收入、毛利率、库存/应收和资本开支效率验证。",
+      "nextCheck": "跟踪NVIDIA后续财报和电话会是否披露Vera Rubin、GB300、Spectrum-X/Spectrum-6相关的数据中心收入、网络收入、毛利率和订单能见度。；观察CoreWeave、Google Cloud、Microsoft Azure、OCI、Nebius、Tesla和SpaceXAI是否披露Vera Rubin或Spectrum-6的实际上线规模、可用区、租赁价格和客户需求。；核验CoreWeave关于DeepSeek-R1每兆瓦吞吐10倍提升的口径能否在更多模型、更多云厂和真实生产负载中复现。",
+      "action": "维持A池核心；把Vera Rubin量产爬坡、Spectrum-6导入、美国制造产能和每兆瓦吞吐作为下一轮财报验证重点",
+      "priority": "P1",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-07-22T13:31:02",
+      "updated_at": "2026-07-22T22:35:05",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

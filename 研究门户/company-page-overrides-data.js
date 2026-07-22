@@ -1,15 +1,158 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-07-22T13:31:03",
-  "source_event_store_at": "2026-07-22T13:31:02",
-  "source_deposition_at": "2026-07-22T13:31:02",
+  "generated_at": "2026-07-22T22:35:05",
+  "source_event_store_at": "2026-07-22T22:35:05",
+  "source_deposition_at": "2026-07-22T22:35:05",
   "companies": {
+    "nvidia": {
+      "source": "decision_deposition",
+      "sourceEventIndex": 0,
+      "sourceEventTitle": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+      "sourceEventDate": "2026-07-21",
+      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
+      "updatedAt": "2026-07-22T22:35:05",
+      "latestEvent": "2026-07-21｜Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+      "businessImpact": "业务影响主要落在数据中心平台、网络业务和AI系统供应链。Vera Rubin机架已在四家大云合作方运行，说明下一代平台进入交付验证期；Spectrum-6进入CoreWeave、Microsoft、Nebius、SpaceXAI和Tesla等AI工厂，强化NVIDIA把网络从配套部件升级为AI工厂性能约束控制点的逻辑。Wistron美国工厂提供了本土制造与板卡产能证据，有助于支撑美国客户和政策环境下的交付可靠性。BMS案例说明生命科学等行业客户正在把新平台用于生产级药物发现工作流，但目前更适合作为需求广度证据，而不是单独的财务催化。",
+      "valuationImpact": "估值/动作上，这条事件强化NVIDIA的A池核心地位和平台溢价，但不足以单独上调估值中枢或改变仓位纪律。正面在于，10倍每兆瓦吞吐、102.4Tbps网络系统、350多个供应链站点和Wistron月产数万块板卡目标，都指向下一代AI工厂的单位经济与交付能力；这能支撑高估值对持续增长和高附加值系统销售的要求。需要克制的是，客户导入和供应链爬坡不等于收入、利润和自由现金流已经确认，下一步必须等财报中的数据中心收入、网络收入、毛利率、库存/应收和资本开支效率验证。",
+      "nextCheck": "跟踪NVIDIA后续财报和电话会是否披露Vera Rubin、GB300、Spectrum-X/Spectrum-6相关的数据中心收入、网络收入、毛利率和订单能见度。；观察CoreWeave、Google Cloud、Microsoft Azure、OCI、Nebius、Tesla和SpaceXAI是否披露Vera Rubin或Spectrum-6的实际上线规模、可用区、租赁价格和客户需求。",
+      "action": "维持A池核心；把Vera Rubin量产爬坡、Spectrum-6导入、美国制造产能和每兆瓦吞吐作为下一轮财报验证重点",
+      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "sectionDeposits": {
+        "financeMap": {
+          "rows": [
+            {
+              "key": "finance-row-财报-经营验证-1",
+              "metric": "事件证据 1",
+              "value": "NVIDIA 明确表示，将同时获得标准产品收入和受支持产能的云收入分成。",
+              "change": "2026-07-01｜商业模式 / AI 云 / 资本支持",
+              "read": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。"
+            }
+          ],
+          "bridge": [
+            {
+              "key": "finance-bridge-财报-经营验证-source",
+              "label": "第一层：原文发生了什么｜财报/经营验证",
+              "text": "NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-evidence",
+              "label": "第二层：哪些事实最关键",
+              "text": "首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-judgment",
+              "label": "第三层：它改变了什么判断",
+              "text": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。"
+            }
+          ],
+          "notes": [
+            {
+              "key": "finance-note-财报-经营验证",
+              "title": "财报/经营验证｜财务读法",
+              "text": "原文事实：NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。；首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。；原文把模式的经济动因定义为：新兴 AI 客户即使给出长期承诺，也往往不足以支持昂贵算力设施融资。NVIDIA 用信用支持和经济利益绑定帮助 AI 云更快上线产能，并从未来云收入中分享回报。 证据：NVIDIA 明确表示，将同时获得标准产品收入和受支持产能的云收入分成。。读法：这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。 后续验证：跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本…"
+            }
+          ]
+        },
+        "businessMap": {
+          "segments": [
+            {
+              "key": "business-segment-财报-经营验证",
+              "title": "财报/经营验证｜Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+              "scale": "2026-07-21｜AI工厂平台 / 供应链量产 / 网络系统",
+              "text": "业务影响主要落在数据中心平台、网络业务和AI系统供应链。Vera Rubin机架已在四家大云合作方运行，说明下一代平台进入交付验证期；Spectrum-6进入CoreWeave、Microsoft、Nebius、SpaceXAI和Tesla等AI工厂，强化NVIDIA把网络从配套部件升级为AI工厂性能约束控制点的逻辑。Wistron美国工厂提供了本土制造与板卡产能证据，有助于支撑美国客户和政策环境下的交付可靠性。BMS案例说明生命科学等行业客户正在把新平台用于生产级药物发现工作流，但目前更适合作为需求广度证据，而不是单独的财务催化。 原文要点：NVIDIA在[Vera Rubin平台文章](https://blogs.nvidia.com/blog/vera-rubin/)中说明，Vera Rubin NVL72已经进入量产爬坡，CoreWeave、Google Cloud、Microsoft Azure和Oracle Cloud Infrastructure的机架已经运行；公司同时强调这不是单颗GPU升级，而是围绕Vera CPU、Rubin GPU、NVLink、Spectrum-6、BlueField-4、液冷和光互连做成的整机架AI工厂平台。；同日的[Spectrum-6文章](https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/)进一步说明，102.4Tbps Spectrum-6交换系统将进入CoreWeave…"
+            }
+          ],
+          "moat": [
+            {
+              "key": "business-moat-财报-经营验证",
+              "title": "护城河/业务主线是否变化｜财报/经营验证",
+              "text": "这是P1级平台量产与供应链验证事件。它的核心不是又一次性能宣传，而是Vera Rubin从产品路线图进入客户机架、网络系统和制造产能同步爬坡。NVIDIA的竞争边界继续从GPU扩展到CPU、网络、光互连、液冷、整机架设计和全球供应链执行。限制是原文仍未披露订单金额、收入确认节奏、毛利率或客户最低采购承诺，因此不能把客户名单直接等同于已兑现收入。"
+            }
+          ]
+        },
+        "valuationModel": {
+          "currentBreakdown": [
+            {
+              "key": "valuation-current-财报-经营验证",
+              "title": "财报/经营验证｜估值/动作影响",
+              "text": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。"
+            }
+          ],
+          "scenarios": [
+            {
+              "key": "valuation-scenario-upside",
+              "title": "估值中枢上修条件",
+              "text": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。"
+            }
+          ],
+          "triggers": [
+            {
+              "key": "valuation-trigger-财报-经营验证",
+              "title": "下一步验证｜财报/经营验证",
+              "text": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本、GPU 小时价格、利用率和客户集中度，判断分成收入的真实质量。"
+            }
+          ]
+        }
+      },
+      "depositPolicy": {
+        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
+        "limits": {
+          "financeMap.rows": 3,
+          "financeMap.bridge": 3,
+          "financeMap.notes": 2,
+          "businessMap.segments": 2,
+          "businessMap.moat": 2,
+          "valuationModel.currentBreakdown": 2,
+          "valuationModel.scenarios": 1,
+          "valuationModel.triggers": 1
+        },
+        "omitted": {
+          "valuationModel.scenarios": 1
+        }
+      },
+      "depositEvents": [
+        {
+          "eventIndex": 0,
+          "title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+          "date": "2026-07-21",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 1,
+          "title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
+          "date": "2026-07-08",
+          "priority": "P2",
+          "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 2,
+          "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
+          "date": "2026-07-01",
+          "priority": "P1",
+          "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
+        }
+      ]
+    },
     "tsmc": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "sourceEventDate": "2026-07-16",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
+      "updatedAt": "2026-07-22T22:35:05",
       "latestEvent": "2026-07-16｜TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "businessImpact": "业务上，Q2财报把“先进制程和AI/HPC需求高位”从月度收入验证推进到盈利质量验证。先进制程收入占比从此前高位进一步到77%，3nm和5nm仍是主体，2nm已进入收入结构并占3%，说明下一代节点开始商业化爬坡。Q3收入指引US$44.6-45.8 billion意味着公司预期领先制程需求继续推高收入台阶，而不只是Q2一次性拉货。对业务理解的关键变化是：TSMC不仅受益于AI芯片需求，还在用先进节点迭代和产能爬坡维持议价与利润率；但高资本开支、海外工厂成本、先进封装供给和客户拉货节奏仍是决定增长质量的约束。",
       "valuationImpact": "估值/动作上，Q2财报支持TSMC维持A池核心和质量溢价，合理估值中枢应继续以高收入可见度、领先制程份额和毛利率韧性为主要支撑。正面变化是：Q2毛利率67.7%超过指引上沿，EPS同比增长77.4%，Q3收入指引继续抬升，降低了“AI需求只停留在订单预期”的疑虑。约束是：估值已经高度反映先进制程和AI需求，Q3毛利率指引回到65%-67%，后续若海外扩产折旧、2nm初期良率或资本开支压力压低自由现金流，估值容错会下降。动作上维持核心跟踪，不因单季强劲直接提高仓位；下一步用Q3收入、毛利率、资本开支和自由现金流验证高估值是否仍有基本面支撑。",
@@ -166,7 +309,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "sourceEventDate": "2026-07-15",
       "sourceEventLink": "./event.html?company=wus&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
+      "updatedAt": "2026-07-22T22:35:05",
       "latestEvent": "2026-07-15｜沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "businessImpact": "业务上，沪电的核心变化是国内高端PCB能力与泰国海外基地开始形成协同。AI服务器和高速网络设备拉动高层高速PCB需求，泰国基地通过头部客户验证后，可以承接海外客户对交付地、供应链韧性和合规的要求。400G批量、800G逐步批量供应，说明产品层级在向更高端网络设备延伸。与此同时，公司提到高端树脂、超低损耗铜箔、HVLP铜箔等材料可能阶段性供应偏紧，意味着后续竞争不仅是产能扩张，还包括材料验证、供应链安全和客户共同开发能力。",
       "valuationImpact": "估值/动作上，这条调研强化沪电作为AI服务器PCB链条核心公司的确定性，但也提高了对执行质量的要求。正面是泰国基地从亏损收窄到Q2转盈，海外产能价值开始被利润验证；风险是高端PCB行业扩产会带来价格和同质化压力，原材料瓶颈也可能限制交付节奏或压缩毛利。动作上继续核心跟踪，不因单月产值盲目外推；下一步看半年报和Q3是否证明泰国盈利可持续、800G批量供应爬坡顺利、经营现金流没有被应收和存货吞噬。",
@@ -323,7 +466,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "sourceEventDate": "2026-07-14",
       "sourceEventLink": "./event.html?company=shennan&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
+      "updatedAt": "2026-07-22T22:35:05",
       "latestEvent": "2026-07-14｜深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "businessImpact": "业务上，深南电路的关键变化在于AI服务器、存储和数据中心需求开始同时拉动PCB与封装基板。扣非利润增速高于归母利润增速，说明主营业务景气是本次预告的核心。广州封装基板工厂稳步爬坡也很重要，因为封装基板此前是公司从通信PCB向更高价值半导体封装链条延伸的验证点；如果爬坡带来收入和良率改善，深南的估值逻辑会从传统PCB周期股向AI服务器PCB+封装基板平台过渡。需要保留约束：公告没有拆出通信、数据中心、汽车、封装基板的收入和毛利，不能判断是哪一项贡献了最大弹性。",
       "valuationImpact": "估值/动作上，这条事件提高深南电路作为AI服务器PCB链条重点公司的研究优先级，但不直接给出买入金额。正面是盈利增速和扣非质量足以支持估值中枢上移讨论；约束是A股复杂制造公司的估值不能只看利润预告，还要看毛利率、经营现金流、应收账款、存货和资本开支是否同步健康。动作上维持重点跟踪，等待半年报确认业务拆分和现金流质量；若毛利率和现金流同步改善，才可把这次预告从盈利弹性线索升级为长期质量改善证据。",
@@ -473,7 +616,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "sourceEventDate": "2026-07-10",
       "sourceEventLink": "./event.html?company=fii&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
+      "updatedAt": "2026-07-22T22:35:05",
       "latestEvent": "2026-07-10｜2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "businessImpact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
       "valuationImpact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
@@ -610,156 +753,13 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
         }
       ]
     },
-    "nvidia": {
-      "source": "decision_deposition",
-      "sourceEventIndex": 0,
-      "sourceEventTitle": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-      "sourceEventDate": "2026-07-08",
-      "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
-      "latestEvent": "2026-07-08｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-      "businessImpact": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披露这些客户带来的收入规模、付费模式或硬件拉动量，因此目前只能作为企业智能体栈渗透证据。",
-      "valuationImpact": "估值/动作上，这条事件支持继续给 NVIDIA 平台溢价，但不足以单独上调估值中枢。正面在于：开放模型在企业任务上接近闭源模型、推理成本显著下降，并进入 LangChain 这样高分发入口，有助于把企业 AI 从试点带向更多可治理的生产工作流。需要谨慎的是，低成本也可能压低部分推理单价，最终价值取决于使用量扩大、软件配套附加、企业私有部署和服务生态能否抵消单价下降。动作上维持 A 池核心，不因该事件追高；后续重点看企业客户数量、NemoClaw、OpenShell、NIM 的收费口径、推理工作负载增长，以及是否在财报中体现为软件和服务收入。",
-      "nextCheck": "跟踪 Abridge、Amdocs、Box 与 EY 是否披露基于 Nemotron、NemoClaw 和 LangChain 的实际部署规模、客户数量或生产环境案例。；观察 NVIDIA 是否在财报、电话会或产品口径中披露 Nemotron、NemoClaw、OpenShell、NIM 与企业推理相关的软件收入、订阅或配套附加率。",
-      "action": "维持 A 池核心；把企业智能体开源栈的成本、采用客户和软件配套收入列为新增验证点",
-      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
-      "writebackQuality": {
-        "status": "needs_model_update",
-        "statusLabel": "可回写，需同步估值/财务",
-        "score": 10,
-        "blockers": []
-      },
-      "updatedSections": [
-        "当前结论",
-        "公司理解",
-        "财务数据地图",
-        "估值模型",
-        "跟踪重点与风险"
-      ],
-      "sectionDeposits": {
-        "financeMap": {
-          "rows": [
-            {
-              "key": "finance-row-财报-经营验证-1",
-              "metric": "事件证据 1",
-              "value": "NVIDIA 明确表示，将同时获得标准产品收入和受支持产能的云收入分成。",
-              "change": "2026-07-01｜商业模式 / AI 云 / 资本支持",
-              "read": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。"
-            }
-          ],
-          "bridge": [
-            {
-              "key": "finance-bridge-财报-经营验证-source",
-              "label": "第一层：原文发生了什么｜财报/经营验证",
-              "text": "NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。"
-            },
-            {
-              "key": "finance-bridge-财报-经营验证-evidence",
-              "label": "第二层：哪些事实最关键",
-              "text": "首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。"
-            },
-            {
-              "key": "finance-bridge-财报-经营验证-judgment",
-              "label": "第三层：它改变了什么判断",
-              "text": "这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。"
-            }
-          ],
-          "notes": [
-            {
-              "key": "finance-note-财报-经营验证",
-              "title": "财报/经营验证｜财务读法",
-              "text": "原文事实：NVIDIA 宣布一种面向 AI 云的新商业模式：合作方采购 NVIDIA 基础设施并向 AI 原生公司、企业和软件客户销售云服务，NVIDIA 除获得标准产品收入外，还对受支持产能获得云收入分成，并提供信用支持。这是从一次性硬件销售向持续、按使用量联动收益的延伸。；首批合作方已披露规模：Sharon AI 计划部署最多 4 万颗 Grace Blackwell GB300 GPU；Firmus 在印度尼西亚巴淡建设 DSX AI 工厂园区，预计扩展到 360MW 和最多 17 万颗 NVIDIA GPU。两个项目的上限合计约 21 万颗 GPU，但原文没有披露交付时间表、采购金额或最低利用率。；原文把模式的经济动因定义为：新兴 AI 客户即使给出长期承诺，也往往不足以支持昂贵算力设施融资。NVIDIA 用信用支持和经济利益绑定帮助 AI 云更快上线产能，并从未来云收入中分享回报。 证据：NVIDIA 明确表示，将同时获得标准产品收入和受支持产能的云收入分成。。读法：这是 P1 级商业模式变化。它有机会加快新兴 AI 云对 NVIDIA 设备的采购，并创造使用量联动的经常性收入；但也把部分客户融资、算力利用率和云服务定价风险带入 NVIDIA 的经济暴露。因此不能只按 GPU 数量理解为无条件利好。 后续验证：跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本…"
-            }
-          ]
-        },
-        "businessMap": {
-          "segments": [
-            {
-              "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-              "scale": "2026-07-08｜企业 AI / 智能体软件栈 / 开源模型",
-              "text": "业务影响主要落在企业推理、AI 软件栈和合作伙伴实施生态。LangChain 是开发者和企业构建智能体的重要入口，月下载量超过 2 亿次意味着 NVIDIA 的 Nemotron、NemoClaw 和 OpenShell 组合有机会进入大量现有智能体工作流，而不是只停留在自有示例。10 倍成本优势如果在真实企业任务中可复现，会降低持续评估和多场景部署门槛，拉动对 NVIDIA GPU 推理、NIM、NemoClaw 蓝图、安全运行时和企业实施服务的配套需求。限制是，文章仍未披露这些客户带来的收入规模、付费模式或硬件拉动量，因此目前只能作为企业智能体栈渗透证据。 原文要点：原文讲的是 NVIDIA Nemotron 3 Ultra 与 LangChain 深度智能体框架的适配结果。LangChain 针对 Nemotron 3 Ultra 调整智能体运行框架，使其在深度智能体基准测试上取得开源模型中的最高准确率，同时完成更多任务、吞吐更高，并且单次运行推理成本比领先闭源模型低 10 倍。文章还强调，该结果不是通过重新训练模型获得，而是通过围绕模型的系统工程调优实现，包括系统提示词、工具描述和中间件。；文章进一步说明，Nemotron 3 Ultra 在 LangChain 的深度智能体基准测试中达到了与最高分闭源模型相当的业务任务表现。LangChain 的智能体工程平台拥有每月超过 2 亿次下载，调优后的配置已可直接通过 LangChain 使用，这让企业可以在开放模型、开放编排框架和开放安全运行时上构建可自定义、可治理、可部署在自有基…"
-            }
-          ],
-          "moat": [
-            {
-              "key": "business-moat-财报-经营验证",
-              "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是一条 P2 级企业 AI 软件栈事件。它不等同于大额订单，也没有披露软件收入或 GPU 采购金额，因此不能按短期财务催化处理；但它把 NVIDIA 的企业智能体叙事从模型发布推进到可被主流编排平台直接调用的开放栈，并用成本、吞吐和业务任务表现给出了可验证指标。对 NVIDIA 的长期意义在于，企业 AI 采用不只依赖最大闭源模型，也可能通过开放模型、工具编排和安全运行时形成可控、低成本、可本地部署的智能体工作流。"
-            }
-          ]
-        },
-        "valuationModel": {
-          "currentBreakdown": [
-            {
-              "key": "valuation-current-财报-经营验证",
-              "title": "财报/经营验证｜估值/动作影响",
-              "text": "该模式为 NVIDIA 的平台估值提供了新的经常性收入选项，但不应立即上调估值中枢。当前披露的 21 万颗 GPU 是项目上限，不等于已确认订单、收入或高利用率。动作上维持 A 池核心和原有仓位纪律；只有在公司披露分成收入规模、信用支持条款、客户利用率和回款质量后，才能判断是否提升自由现金流质量或反而放大周期风险。"
-            }
-          ],
-          "scenarios": [
-            {
-              "key": "valuation-scenario-upside",
-              "title": "估值中枢上修条件",
-              "text": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。"
-            }
-          ],
-          "triggers": [
-            {
-              "key": "valuation-trigger-财报-经营验证",
-              "title": "下一步验证｜财报/经营验证",
-              "text": "跟踪 Sharon AI 与 Firmus 的实际融资关闭、设备采购、交付节奏和上线利用率，不把项目上限当成已实现销量。；在 NVIDIA 后续财报、10-Q/10-K 与电话会中查找信用支持、保证、融资应收、合同负债或收入分成的会计披露。；比较该模式与 CoreWeave 等 AI 云的资本成本、GPU 小时价格、利用率和客户集中度，判断分成收入的真实质量。"
-            }
-          ]
-        }
-      },
-      "depositPolicy": {
-        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
-        "limits": {
-          "financeMap.rows": 3,
-          "financeMap.bridge": 3,
-          "financeMap.notes": 2,
-          "businessMap.segments": 2,
-          "businessMap.moat": 2,
-          "valuationModel.currentBreakdown": 2,
-          "valuationModel.scenarios": 1,
-          "valuationModel.triggers": 1
-        },
-        "omitted": {
-          "valuationModel.scenarios": 1
-        }
-      },
-      "depositEvents": [
-        {
-          "eventIndex": 0,
-          "title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-          "date": "2026-07-08",
-          "priority": "P2",
-          "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 1,
-          "title": "NVIDIA为 AI 云引入收入分成与信用支持，从卖硬件延伸到算力运营收益与风险共担",
-          "date": "2026-07-01",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
-        },
-        {
-          "eventIndex": 2,
-          "title": "SK Telecom 将于 2027 年上线首座 AI 工厂，NVIDIA 开始把韩国电信网络推成主权 AI 云底座",
-          "date": "2026-06-07",
-          "priority": "P1",
-          "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
-        }
-      ]
-    },
     "constellation": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-07-22T13:31:03",
+      "updatedAt": "2026-07-22T22:35:05",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
