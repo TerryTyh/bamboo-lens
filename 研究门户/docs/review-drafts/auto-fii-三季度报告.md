@@ -1,15 +1,15 @@
-# 正式事件草稿｜沪电股份｜沪电股份：2026年7月16日投资者关系活动记录表
+# 正式事件草稿｜工业富联｜三季度报告
 
 ## 草稿状态
 
-- 公司：沪电股份（wus）
-- 日期：2026-7-16
+- 公司：工业富联（fii）
+- 日期：20260723-1
 - 类型：官方候选
 - 候选分数：9
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 14）
-- 官方来源：[打开官方来源](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260716-131934__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html
+- 官方来源：[打开官方来源](https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260723-132331__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-7-16；标题：沪电股份：2026年7月16日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463
+日期：20260723-1；标题：三季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
 
 ### 候选事实
 
-日期：2026-7-16；标题：沪电股份：2026年7月16日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463
+日期：20260723-1；标题：三季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-wus-沪电股份-2026年7月16日投资者关系活动记录表`
+`auto-fii-三季度报告`
 
 ## 质量闸门
 

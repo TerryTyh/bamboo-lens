@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-22T13:28:33",
+  "generated_at": "2026-07-23T13:25:44",
   "companies": {
     "nvidia": [
       {
@@ -382,6 +382,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
       },
       {
+        "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+        "date": "2026-07-23",
+        "fetched_at": "20260723-132331",
+        "type": "官方候选",
+        "fact": "日期：2026-07-23；标题：GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud；原文内容：Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260723,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+        "source_excerpt": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover…",
+        "source_body": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover nine titles arriving on GeForce NOW . Prepare to brave the unforgiving waters of Wraeclast. Path of Exile: Curse of the Allflame launches Friday, July 24, sending Exiles into the perilous Frozen Seas. Guided by formidable corsair captain Valerie and her cursed navigator Vesper, gamers must piece together scattered treasure charts, board the legendary vessel — the Sovereign — and chart a course into the abyss. Descend into the depths using Allflame Lanterns to uncover valuable relics while surviving the dangers lurking beneath the waves. The update introduces sweeping changes, including a complete rework of sockets and links. The Scion also gains the all-new Luminary Ascendancy, the Mercenaries of Trarthus return alongside mysterious Atlas Anomalies, and the preexisting Abyss, Legion and Talisman mechanics receive revitalized gameplay and exclusive rewards. GeForce NOW members can dive in the moment it launches across their devices, no downloads needed. Learn more about the latest additions on the Path of Exile website . Battlefield 6 takes the fight further with Season 4, bringing new battlegrounds, expanded progression and new ways to play. Take to the land, air and sea with the massive Tsuru Reef and the return of the fan-favorite Wake Island, coming in phase two. Both feature aircraft carriers with operational flight decks, new naval vehicles and a dynamic wave system that helps move every match. The update also introduces Custom Lobbies and Spectator Mode, delivering more ways to play. From large-scale multiplayer battles to intense vehicle combat, GeForce NOW lets members deploy across nearly any device. Ultimate members can stream with GeForce RTX 5080-powered performance across PCs, Macs, handhelds, mobile devices, TVs and more. Whether returning to the frontlines or enlisting for the first time, members can leap into the latest Battlefield update the moment it arrives on GeForce NOW — without waiting for patches. Three iconic Capcom adventures arrive on GeForce NOW this week, ready for longtime fans to revisit and new players to discover.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260723-132331__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
         "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
         "date": "2026-07-22",
         "fetched_at": "20260722-132115",
@@ -395,6 +419,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of the biggest…",
         "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don’t appear on schedule. That creates one of the biggest bottlenecks in healthcare robotics: obtaining the enormous amount of varied data developers need to train, test and improve robot behavior. NVIDIA Medical Physics Simulation framework — a new open source, GPU-accelerated capability within NVIDIA Isaac for Healthcare — announced today, helps medical robotics developers model anatomy-device interaction, generate hard-to-capture scenarios, test in silico, and train or evaluate robot policies before hardware-heavy testing. The framework brings together anatomy and medical device behavior with sensor simulation and robot learning so teams can create reusable simulation environments instead of rebuilding custom scenes for every workflow, saving developers time and bringing innovations to market faster. Because Medical Physics Simulation is open source, healthcare robotics developers can inspect the framework, adapt it to their own devices and workflows, and build on a GPU-accelerated foundation that works seamlessly with the broader NVIDIA stack. Open source is especially important in healthcare because teams need transparency into the data, models and weights that shape system behavior. Access to open models and model weights can help developers reproduce results, evaluate performance across different anatomies and scenarios, identify limitations and build evidence for regulatory review. For physical AI , experience is data in motion. Developers need to train robots to operate properly even when anatomy changes, devices behave differently, conditions shift or a policy fails unexpectedly. Medical Physics Simulation helps developers simulate anatomy, device contact, friction and sensor inputs, then test in interactions and environments to evaluate how robots perform across those changes. Powered by NVIDIA CUDA and part of Isaac for Healthcare — built on the NVIDIA Warp, Newton and Cosmos simulation and generative AI technologies — the framework can run hundreds of parallel simulation environments, helping teams explore more scenarios and identify failure modes earlier in development. For robot builders, this turns simulation from a bespoke engineering project into reusable infrastructure. The difference now is scale: benchmarks show 8,192 robot-training environments running in parallel with GPU-native simulation cut training from over five hours to under two minutes. With this framework, developers can connect vascular anatomy, flexible instruments such as catheters and guidewires, simulated X-ray imaging and reinforcement learning. The framework is designed to extend beyond that example to additional devices, anatomies, sensors and healthcare robotics domains. Medical Physics Simulation brings together classical physics simulation and generative AI physics simulation. Classical simulation helps model known physical rules, such as device contact, friction and motion. NVIDIA Cosmos-H Dreams , the real-time generative AI physics simulation capability within Medical Physics Simulation, helps model visual scene dynamics learned from procedural data.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260722-132115__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+        "date": "2026-07-22",
+        "fetched_at": "20260723-132331",
+        "type": "官方候选",
+        "fact": "日期：2026-07-22；标题：NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School；原文内容：NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than…；来源：https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260722,
+        "source_url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+        "source_excerpt": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than…",
+        "source_body": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that come with these technologies.” NPS educates active-duty officers and international partners across disciplines — from space operations to ocean science — awarding graduate degrees while centering each program on applied research with direct relevance to real-world problems. “Leadership is about being in service of something else. You’re in service of your team. You’re in service of your country. You’re in service of your mission,” Huang said to attendees. “And all of this technology is just tools to help you.” The DGX GB300 gives those programs new technical depth: the ability to train foundation models in house, run high-fidelity simulations at scale and develop AI tools with immediate applicability. Huang told attendees that even if they aren’t experts in computer science, today’s computers running AI make it easy. “The most important advice that I would give to someone is to engage the technology,” Huang said. “It’s not as hard as you think it is, and the reason for that is because, on first principles, technology is supposed to get smarter and smarter over time.” NVIDIA has also expanded the collaboration through its Deep Learning Institute , putting instructor toolkits in the hands of NPS faculty so AI is woven through graduate curricula across departments.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260723-132331__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -2304,6 +2352,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "luxshare": [
+      {
+        "title": "Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026",
+        "date": "2026-07-17",
+        "fetched_at": "20260723-132331",
+        "type": "官方候选",
+        "fact": "日期：2026-07-17；标题：Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026；原文内容：LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX…；来源：https://www.luxshare-ict.com/en/news/release/180.html",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260717,
+        "source_url": "https://www.luxshare-ict.com/en/news/release/180.html",
+        "source_excerpt": "LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX…",
+        "source_body": "LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX Architecture, NEXTiX LEGION delivers a comprehensive set of capabilities across four core dimensions: Intelligence – AI-native resource orchestration enabling agile computing power scheduling. eXecution – Accelerates both training and inference, meeting the demanding compute needs of intensive AI workloads. eXchange – Ultra-low latency, high-bandwidth interconnectivity for large-scale computing coordination. eXtreme – Seamless scalability from single-node deployment to 10,000-card clusters. By integrating four core capabilities, NEXTiX LEGION supports trillion-token high-speed throughput. Powered by low-latency, high-bandwidth interconnectivity and intelligently orchestrated global resource scheduling, it systematically streamlines the entire token processing pipeline — from single compute nodes to 10,000-card clusters. Fully supporting core scenarios including model pre-training, multi-modal parallel computing, and high-concurrency business inference, NEXTiX LEGION is also poised to empower the development of reinforcement learning-based reasoning models and agents. LUXSHARE Precision remains steadfast in its commitment to empowering the AI ecosystem — delivering flexible, scalable, and industrial-grade computing power solutions that power AI innovation at scale and serve as the foundational backbone for next-generation intelligent systems. #WAIC2026 #LUXSHARE #NEXTiXLEGION #AIInfrastructure #ComputingPower #Innovation Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260723-132331__www.luxshare-ict.com_en_news_release.html.html",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
       {
         "title": "REACH and SVHC Statement",
         "date": "2025-07-22",
@@ -4269,6 +4340,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "fii": [
+      {
+        "title": "三季度报告",
+        "date": "20260723-1",
+        "fetched_at": "20260723-132331",
+        "type": "官方候选",
+        "fact": "日期：20260723-1；标题：三季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260723,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260723-132331__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+        "company": "fii",
+        "company_name": "工业富联",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
       {
         "title": "一季度报告",
         "date": "20260709-1",

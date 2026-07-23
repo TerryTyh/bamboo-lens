@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-22T22:35:05",
+  "generated_at": "2026-07-23T13:28:13",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -697,7 +697,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -709,7 +709,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -721,7 +721,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -733,7 +733,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -745,7 +745,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -757,7 +757,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1834,6 +1834,38 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 — a 102.4-terabit-per-second Ethernet switch system delivering 2x the capacity of previous-generation systems and built as part of the NVIDIA Vera Rubin platform — is arriving across the world’s gigascale AI factories. Spectrum-6 anchors the next generation of the NVIDIA Spectrum-X Ethernet platform , delivering the bandwidth, scale and intelligence needed to operate an AI factory as one end-to-end computing system. The world’s leading AI infrastructure builders — including CoreWeave , Microsoft , Nebius , SpaceXAI and Tesla — will be among the first to bring in Spectrum-6 to accelerate their AI factories. For cloud providers, Spectrum-6 means more compute capacity can operate as a unified, high-performance resource, helping customers train models and deploy inference services faster. “CoreWeave is built for the most demanding AI workloads, and networking is central to delivering that performance at scale,” said Min Jun, director of product for networking at CoreWeave . “Bringing NVIDIA Spectrum-6 and liquid-cooled Spectrum-X Ethernet infrastructure into our AI factories will help us deliver the bandwidth, resilience and efficiency customers need to train frontier models and deploy inference faster.” “At gigascale, performance comes down to coordination: keeping every GPU in lockstep so one slow link doesn’t stall an entire job,” said Laurelle Roseman, vice president of global partnerships at Nebius. “That’s what NVIDIA Spectrum-6 goes after, and why we brought it in early — a fabric that stays fast and resilient as our customers’ most demanding workloads scale.” For AI pioneers building their own infrastructure, Spectrum-6 means more GPUs working in lockstep, higher utilization during demanding collective operations and greater resilience for long-running jobs. Across use cases, the outcome is faster time to results and better economics at extraordinary scale. CoreWeave , Microsoft and Nebius will be among the first providers to deploy NVIDIA Vera Rubin-based infrastructure with Spectrum-6, extending access to the platform across a broad community of developers, startups and enterprises. Peak GPU performance alone no longer predicts the performance of an AI factory. Large-scale training and inference workloads depend on thousands of accelerators exchanging data continuously. Collective communications are the fundamental operations that synchronize work across GPUs and generate intense east-west traffic, often with many systems transmitting simultaneously.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260722-132115__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+          "date": "2026-07-23",
+          "fetched_at": "20260723-132331",
+          "type": "官方候选",
+          "fact": "日期：2026-07-23；标题：GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud；原文内容：Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260723,
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+          "source_excerpt": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover…",
+          "source_body": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV , Dino Crisis and Dino Crisis 2 , jump into Halo: Campaign Evolved Advanced Access and discover nine titles arriving on GeForce NOW . Prepare to brave the unforgiving waters of Wraeclast. Path of Exile: Curse of the Allflame launches Friday, July 24, sending Exiles into the perilous Frozen Seas. Guided by formidable corsair captain Valerie and her cursed navigator Vesper, gamers must piece together scattered treasure charts, board the legendary vessel — the Sovereign — and chart a course into the abyss. Descend into the depths using Allflame Lanterns to uncover valuable relics while surviving the dangers lurking beneath the waves. The update introduces sweeping changes, including a complete rework of sockets and links. The Scion also gains the all-new Luminary Ascendancy, the Mercenaries of Trarthus return alongside mysterious Atlas Anomalies, and the preexisting Abyss, Legion and Talisman mechanics receive revitalized gameplay and exclusive rewards. GeForce NOW members can dive in the moment it launches across their devices, no downloads needed. Learn more about the latest additions on the Path of Exile website . Battlefield 6 takes the fight further with Season 4, bringing new battlegrounds, expanded progression and new ways to play. Take to the land, air and sea with the massive Tsuru Reef and the return of the fan-favorite Wake Island, coming in phase two. Both feature aircraft carriers with operational flight decks, new naval vehicles and a dynamic wave system that helps move every match. The update also introduces Custom Lobbies and Spectator Mode, delivering more ways to play. From large-scale multiplayer battles to intense vehicle combat, GeForce NOW lets members deploy across nearly any device. Ultimate members can stream with GeForce RTX 5080-powered performance across PCs, Macs, handhelds, mobile devices, TVs and more. Whether returning to the frontlines or enlisting for the first time, members can leap into the latest Battlefield update the moment it arrives on GeForce NOW — without waiting for patches. Three iconic Capcom adventures arrive on GeForce NOW this week, ready for longtime fans to revisit and new players to discover.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260723-132331__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "date": "2026-07-22",
+          "fetched_at": "20260723-132331",
+          "type": "官方候选",
+          "fact": "日期：2026-07-22；标题：NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School；原文内容：NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than…；来源：https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260722,
+          "source_url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+          "source_excerpt": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than…",
+          "source_body": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that come with these technologies.” NPS educates active-duty officers and international partners across disciplines — from space operations to ocean science — awarding graduate degrees while centering each program on applied research with direct relevance to real-world problems. “Leadership is about being in service of something else. You’re in service of your team. You’re in service of your country. You’re in service of your mission,” Huang said to attendees. “And all of this technology is just tools to help you.” The DGX GB300 gives those programs new technical depth: the ability to train foundation models in house, run high-fidelity simulations at scale and develop AI tools with immediate applicability. Huang told attendees that even if they aren’t experts in computer science, today’s computers running AI make it easy. “The most important advice that I would give to someone is to engage the technology,” Huang said. “It’s not as hard as you think it is, and the reason for that is because, on first principles, technology is supposed to get smarter and smarter over time.” NVIDIA has also expanded the collaboration through its Deep Learning Institute , putting instructor toolkits in the hands of NPS faculty so AI is woven through graduate curricula across departments.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260723-132331__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
@@ -2184,7 +2216,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -2196,7 +2228,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -2245,7 +2277,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -2257,7 +2289,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -2269,7 +2301,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -2281,7 +2313,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2334,7 +2366,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -2346,7 +2378,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -2358,7 +2390,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -2370,7 +2402,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -2382,7 +2414,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -2394,7 +2426,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2415,7 +2447,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -2427,7 +2459,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -2439,7 +2471,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -2451,7 +2483,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -2463,7 +2495,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -2475,7 +2507,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2496,7 +2528,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -2508,7 +2540,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -2520,7 +2552,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -2532,7 +2564,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -2544,7 +2576,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -2556,7 +2588,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2698,7 +2730,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -2710,7 +2742,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -2722,7 +2754,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -2734,7 +2766,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -2746,7 +2778,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -2758,7 +2790,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2810,7 +2842,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -2822,7 +2854,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -2834,7 +2866,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -2846,7 +2878,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -2858,7 +2890,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -2870,7 +2902,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -2882,7 +2914,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3005,6 +3037,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. T…",
           "source_body": "On the occasion of International Friendship Day, Luxshare Precision Industry Co., Ltd. reaffirms its unwavering commitment to cross-cultural exchange and global solidarity. As a multinational enterprise, the company actively cultivates lasting relationships of trust and friendship through its everyday operations—demonstrating how business growth can serve as a powerful force for social cohesion and global harmony. This philosophy was recently embodied in the successful conclusion of the sixth annual Luxshare Cup, a signature internal sporting and cultural event. Established in 2017, the Luxshare Cup has grown to represent much more than a sporting competition. It is a celebration of unity, collaboration, and the shared values that define Luxshare Precision’s corporate culture. The event brings together employees from diverse regions and job roles, fostering a dynamic platform for team building and mutual recognition. Through sport, participants experience firsthand the power of cooperation and a sense of collective purpose that transcends daily work. Each year, the Luxshare Cup evolves to reinforce cultural relevance and deepen employee connection. Beyond enhancing morale and wellness, the event serves as a powerful channel for embedding core values such as progress, inclusiveness, and collaboration. Cultural exchanges—ranging from traditional performances to regional displays—highlight the diversity within Luxshare Precision’s global workforce and create meaningful dialogue across borders. The centerpiece of this year’s event was the innovative “Luxshare Cup\" Global Relay,ss a nine-month journey that began on June 24, 2024. This symbolic relay connected 28 company locations across China, Vietnam, Japan, the United States, Singapore, and India. Employees from different backgrounds and regions actively participated, each proudly contributing to the Cup’s journey from one site to another. More than a physical handover, the event fostered a sense of global emotional connectivity and unity. Each stop in the relay featured unique cultural interpretations of welcome. At the Bac Giang facility in Vietnam, the Cup’s arrival sparked heartfelt celebrations. Employees donned traditional Ao Dai attire and performed a choreographed Vietnamese dance, prepared over weeks of rehearsal. “When I read the note inside the box that said, ‘Please deliver this safely to the next stop’—written in a language I don’t fully understand—I still felt its weight,” said Luong Thi Phuong, an HR representative in Vietnam. “It was a shared responsibility, a dream we were carrying together.” That same spirit echoed across the globe. In the United States, Mandy Yang from the Overseas Management Department recalled witnessing colleagues in India create intricate floral motifs and perform traditional dances. “It completely reshaped my view of cultural fusion,” Yang shared. “Every site greeted the Cup with genuine care and collective effort. These moments conveyed a warmth and unity no manual could ever express. That’s what ‘One Luxshare’ truly means.” At a time when the world faces growing complexity and uncertainty, Luxshare Precision continues to advance its technology-driven capabilities—while also investing in the cultural alignment and internal cohesion that define its global identity. By strengthening both operational excellence and human connection, the company is well-positioned to navigate global challenges with clarity and confidence, anchoring its international development strategy in unity, understanding, and trust. For more information about Luxshare Precision, please visit http://www.luxshare-ict.com/en/ . Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260604-141031__www.luxshare-ict.com_en_news_release.html.html"
+        },
+        {
+          "title": "Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026",
+          "date": "2026-07-17",
+          "fetched_at": "20260723-132331",
+          "type": "官方候选",
+          "fact": "日期：2026-07-17；标题：Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026；原文内容：LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX…；来源：https://www.luxshare-ict.com/en/news/release/180.html",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260717,
+          "source_url": "https://www.luxshare-ict.com/en/news/release/180.html",
+          "source_excerpt": "LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX…",
+          "source_body": "LUXSHARE Precision made a notable appearance at WAIC 2026 World Artificial Intelligence Conference (July 17–20, Shanghai) — a premier global stage gathering over 1,100 enterprises and 3,000+ innovations across the AI landscape. At this year's event, LUXSHARE unveiled NEXTiX LEGION — its next-generation, systematic computing power solution engineered to meet the surging demands of AI infrastructure. Powered by the iX Architecture, NEXTiX LEGION delivers a comprehensive set of capabilities across four core dimensions: Intelligence – AI-native resource orchestration enabling agile computing power scheduling. eXecution – Accelerates both training and inference, meeting the demanding compute needs of intensive AI workloads. eXchange – Ultra-low latency, high-bandwidth interconnectivity for large-scale computing coordination. eXtreme – Seamless scalability from single-node deployment to 10,000-card clusters. By integrating four core capabilities, NEXTiX LEGION supports trillion-token high-speed throughput. Powered by low-latency, high-bandwidth interconnectivity and intelligently orchestrated global resource scheduling, it systematically streamlines the entire token processing pipeline — from single compute nodes to 10,000-card clusters. Fully supporting core scenarios including model pre-training, multi-modal parallel computing, and high-concurrency business inference, NEXTiX LEGION is also poised to empower the development of reinforcement learning-based reasoning models and agents. LUXSHARE Precision remains steadfast in its commitment to empowering the AI ecosystem — delivering flexible, scalable, and industrial-grade computing power solutions that power AI innovation at scale and serve as the foundational backbone for next-generation intelligent systems. #WAIC2026 #LUXSHARE #NEXTiXLEGION #AIInfrastructure #ComputingPower #Innovation Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260723-132331__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -3063,7 +3110,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -3075,7 +3122,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -3087,7 +3134,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -3099,7 +3146,7 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/72e0/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -4698,6 +4745,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260709-143013__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "三季度报告",
+          "date": "20260723-1",
+          "fetched_at": "20260723-132331",
+          "type": "官方候选",
+          "fact": "日期：20260723-1；标题：三季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260723,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260723-132331__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }

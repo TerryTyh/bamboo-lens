@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-07-22T22:35:05",
-  "source_generated_at": "2026-07-22T22:35:05",
+  "generated_at": "2026-07-23T13:28:14",
+  "source_generated_at": "2026-07-23T13:28:13",
   "items": [
     {
       "company": "nvidia",
