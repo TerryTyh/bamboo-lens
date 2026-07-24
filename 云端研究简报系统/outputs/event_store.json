@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T22:32:58",
+  "generated_at": "2026-07-24T13:20:59",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -697,7 +697,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -709,7 +709,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -721,7 +721,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -733,7 +733,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -745,7 +745,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -757,7 +757,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1866,6 +1866,37 @@
           "source_body": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that come with these technologies.” NPS educates active-duty officers and international partners across disciplines — from space operations to ocean science — awarding graduate degrees while centering each program on applied research with direct relevance to real-world problems. “Leadership is about being in service of something else. You’re in service of your team. You’re in service of your country. You’re in service of your mission,” Huang said to attendees. “And all of this technology is just tools to help you.” The DGX GB300 gives those programs new technical depth: the ability to train foundation models in house, run high-fidelity simulations at scale and develop AI tools with immediate applicability. Huang told attendees that even if they aren’t experts in computer science, today’s computers running AI make it easy. “The most important advice that I would give to someone is to engage the technology,” Huang said. “It’s not as hard as you think it is, and the reason for that is because, on first principles, technology is supposed to get smarter and smarter over time.” NVIDIA has also expanded the collaboration through its Deep Learning Institute , putting instructor toolkits in the hands of NPS faculty so AI is woven through graduate curricula across departments.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260723-132331__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+          "date": "2026-07-23",
+          "fetched_at": "20260724-131704",
+          "type": "官方候选",
+          "fact": "日期：2026-07-23；标题：At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners；原文内容：At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month , this week’s discussions and announcements advance the nation’s full-stack push to expand Korea’s AI infrastructure and ex…；来源：https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260723,
+          "source_url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+          "source_excerpt": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month , this week’s discussions and announcements advance the nation’s full-stack push to expand Korea’s AI infrastructure and ex…",
+          "source_body": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month , this week’s discussions and announcements advance the nation’s full-stack push to expand Korea’s AI infrastructure and expertise on its path toward becoming a global center for AI innovation. To start, NVIDIA and the Korea Advanced Institute of Science and Technology (KAIST) today announced a joint AI research lab at the KAIST Kim Jaechul Graduate School of AI in Seoul, dedicated to advancing agentic AI for South Korea. It’s the first joint AI lab between a Korean university and any global technology company. The collaboration will establish a robust academic AI research program, bringing together NVIDIA full-stack AI expertise, NVIDIA Nemotron open models and NVIDIA AI Cloud partner computing with the world-class scientific talent at KAIST, one of Asia’s premier research universities. Check back here for updates as the summit continues, including Huang’s meetings with President Lee as well as Korea and U.S. business leaders. On the eve of the summit, Huang, SK Group Chairman Chey Tae-won, and the SK hynix, SK Telecom and NVIDIA teams gathered for dinner in Woodside, California — shown in the featured image above. It was a warm welcome to Silicon Valley on a warm summer evening for the Korean business leaders. NVIDIA and SK — which have had a longstanding partnership — announced in June an expanded collaboration to codevelop memory for NVIDIA platforms spanning AI infrastructure, personal AI and physical AI. Also in June, SK Telecom announced plans to build AI infrastructure to power Korea’s innovation in physical AI, robotics and more. Learn more about NVIDIA ’s work with Korea ecosystem partners .",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260724-131704__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea",
+          "date": "2026-07-23",
+          "fetched_at": "20260724-131704",
+          "type": "官方候选",
+          "fact": "日期：2026-07-23；标题：NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea；来源：https://investor.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260723,
+          "source_url": "https://investor.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260724-131704__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -2216,7 +2247,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -2228,7 +2259,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -2277,7 +2308,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -2289,7 +2320,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -2301,7 +2332,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -2313,7 +2344,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2366,7 +2397,7 @@
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -2378,7 +2409,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -2390,7 +2421,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -2402,7 +2433,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -2414,7 +2445,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -2426,7 +2457,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2447,7 +2478,7 @@
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -2459,7 +2490,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -2471,7 +2502,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -2483,7 +2514,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -2495,7 +2526,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -2507,7 +2538,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2528,7 +2559,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -2540,7 +2571,7 @@
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -2552,7 +2583,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -2564,7 +2595,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -2576,7 +2607,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -2588,7 +2619,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2730,7 +2761,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -2742,7 +2773,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -2754,7 +2785,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -2766,7 +2797,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -2778,7 +2809,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -2790,7 +2821,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2842,7 +2873,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -2854,7 +2885,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -2866,7 +2897,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -2878,7 +2909,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -2890,7 +2921,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -2902,7 +2933,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -2914,7 +2945,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3110,7 +3141,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -3122,7 +3153,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -3134,7 +3165,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -3146,7 +3177,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/Users/tianyuehua/.codex/worktrees/94a1/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -4104,6 +4135,21 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260716-131934__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年7月22日-24日投资者关系活动记录表",
+          "date": "2026-7-22",
+          "fetched_at": "20260724-131704",
+          "type": "官方候选",
+          "fact": "日期：2026-7-22；标题：深南电路：2026年7月22日-24日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260722,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260724-131704__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
