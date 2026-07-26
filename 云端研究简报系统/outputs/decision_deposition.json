@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T13:20:59",
-  "source_event_store_at": "2026-07-24T13:20:59",
-  "source_decision_impact_at": "2026-07-24T13:20:59",
+  "generated_at": "2026-07-26T09:42:41",
+  "source_event_store_at": "2026-07-26T09:42:40",
+  "source_decision_impact_at": "2026-07-26T09:42:41",
   "items": [
     {
       "company": "nvidia",

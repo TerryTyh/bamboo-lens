@@ -1129,34 +1129,7 @@ def render_brief(
                 for event in top_candidates[:3]
             )
         else:
-            tomorrow_focus = "- 继续扫描官方来源中的新增内容\n- 只在读到正文并形成中文摘要后，才进入晨报主体"
-            if fallback_candidates:
-                candidate_block = render_candidate_block(fallback_candidates)
-                tomorrow_focus = "\n".join(
-                    f"- 优先打开原文：{event['company_name']}｜{normalize(event['title'])}"
-                    for event in fallback_candidates[:3]
-                )
-                return f"""# 竹鉴日报 | {today}
-
-今日没有新的可读内容。
-
-今日待读候选：
-
-{candidate_block}
-
-明日重点：
-
-- 当前覆盖公司：{names}
-{tomorrow_focus}
-"""
             return f"""# 竹鉴日报 | {today}
-
-今日没有新的可读内容。
-
-明日重点：
-
-- 当前覆盖公司：{names}
-{tomorrow_focus}
 """
         return f"""# 竹鉴日报 | {today}
 
@@ -1168,10 +1141,6 @@ def render_brief(
 今日关键变化：
 
 {changes_block}
-
-其他可读线索：
-
-{candidate_block}
 
 后续观察：
 
