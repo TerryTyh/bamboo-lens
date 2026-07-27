@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T22:35:05",
+  "generated_at": "2026-07-27T22:34:35",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -392,6 +392,39 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+        "source_candidate_title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+        "date": "2026-07-27",
+        "type": "企业 AI / 开源安全生态 / Agent 运行时",
+        "priority": "P2",
+        "action": "维持跟踪；把开放安全运行时与企业 agent 治理作为软件生态渗透观察点",
+        "sort_key": 20260727,
+        "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+        "source_doc": "",
+        "source_summary": [
+          "原文宣布成立 Open Secure AI Alliance，建立在 Linux Foundation 的 Akrites initiative 和 OpenSSF 社区工作基础上，目标是用开放技术、模型、harness 和工具帮助 AI 时代的软件与 agent 安全防护、漏洞修复和披露。",
+          "文章把事件背景放在 AI 安全与网络防御：NVIDIA 认为关键基础设施不能只依赖少数不可审计的封闭系统，防御方需要能在本地检查、适配和运行的开放前沿工具，以降低单点失效并满足主权控制、数据保护和多供应商环境。",
+          "原文列出首批参与方，覆盖 Adobe、Cadence、Capital One、Cisco、Cloudflare、CrowdStrike、Databricks、Dell Technologies、Elastic、HPE、Hugging Face、IBM、LangChain、Linux Foundation、Microsoft、NAVER、Palantir、Palo Alto Networks、Red Hat、Salesforce、SAP、ServiceNow、Siemens、Snowflake、SpaceXAI、Synopsys、TrendAI 等云、安全、企业软件、开源和 AI 研究参与者。"
+        ],
+        "fact": "2026-07-27，NVIDIA 官方博客披露 Open Secure AI Alliance 成立。联盟聚焦开放 AI 安全技术，主张用开放模型、开放 harness 和开放工具支撑防御方的漏洞分析、修复和披露，并把 Linux Foundation Akrites、OpenSSF 社区工作以及多家云计算、网络安全、企业软件和开源生态公司连接起来。",
+        "evidence": [
+          "原文明确联盟建立在 Linux Foundation Akrites initiative 和 OpenSSF community work 之上，工作方向包括用开放技术进行漏洞 remediation 与 disclosure。",
+          "文章用 Hugging Face 安全事件作为例证：当封闭 AI 工具无法区分攻击者与防御者并阻止取证分析时，Hugging Face 在自有基础设施上运行开源权重 GLM 5.2，分析超过 17,000 个 actions 并控制入侵。",
+          "首批参与方横跨云、安全、企业软件、开发者工具和开源基金会，包括 Microsoft、Cloudflare、CrowdStrike、Databricks、Dell、HPE、Hugging Face、IBM、LangChain、Palantir、Palo Alto Networks、Red Hat、SAP、ServiceNow、Siemens、Snowflake、Synopsys 等，说明这不是单一厂商产品发布。",
+          "原文强调开放模型并非没有滥用风险，但网络安全场景需要把开放性与 safeguards、rules against malicious misuse、rigorous evaluation 和 rapid remediation 结合，而不是让防御能力完全封闭在不可审计系统中。"
+        ],
+        "judgment": "这是一条 P2 级生态与软件栈事件。它不会直接改变 NVIDIA 下一季收入或 GPU 订单判断，但延续了 NVIDIA 近期从算力、模型、OpenShell、NemoClaw 向企业 agent 安全执行层延伸的主线。变化在于参与方更广，安全与主权控制从单个客户合作升级为行业共建口径；没有改变的是，原文仍缺少收费模式、部署规模、软件收入或对 Data Center 收入的可量化拉动。",
+        "business_analysis": "业务影响主要在企业 AI 软件生态和 agent 安全治理层。企业要让 agent 进入代码、IT、金融、制造、供应链和安全运维，核心约束不是只看模型能力，还包括权限边界、可审计性、本地运行、漏洞修复和多供应商兼容。Open Secure AI Alliance 若能围绕开放模型、harness、runtime 和安全工具形成事实标准，会提高 NVIDIA 在企业 agent 安全执行层的话语权，并让其 OpenShell、Nemotron、NemoClaw、CUDA-X skills 等软件栈更容易被企业软件和安全厂商集成。",
+        "valuation_analysis": "估值/动作上，这条事件支持 NVIDIA 的平台溢价和软件生态可选项，但权重低于 Blackwell/Rubin 供给、网络产品、云厂资本开支和明确客户部署。当前不因联盟新闻上调盈利预测或仓位动作；更合理的处理是维持核心跟踪，把它作为 enterprise agent attach rate、软件生态和安全运行时标准化的观察点。只有当联盟成果进入主流企业产品、NVIDIA 在财报中披露相关软件/服务收入，或安全运行时带来可见推理与平台消耗，才可能提升估值权重。",
+        "verification": [
+          "跟踪 Open Secure AI Alliance 是否发布具体开源项目、参考架构、漏洞披露流程、benchmark 或企业可部署工具，而不是停留在成员名单和原则宣言。",
+          "观察 Microsoft、SAP、ServiceNow、Palantir、Palo Alto Networks、CrowdStrike 等参与方是否把联盟成果接入其正式产品或客户工作流。",
+          "关注 NVIDIA 财报和投资者材料中是否更具体披露 enterprise AI software、OpenShell/NemoClaw、agent runtime 或安全工具对收入、客户采用和推理需求的贡献。",
+          "验证开放 AI 安全路线是否受到监管、客户安全策略或闭源模型供应商竞争的限制，避免把生态倡议误读为确定性商业收入。"
+        ],
+        "reviewed_at": "2026-07-27T22:34:00+08:00"
+      },
       {
         "title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
         "source_candidate_title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",

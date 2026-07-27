@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-27T14:12:42",
-  "source_generated_at": "2026-07-27T14:12:42",
+  "generated_at": "2026-07-27T22:36:11",
+  "source_generated_at": "2026-07-27T22:36:11",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
-      "source_event_title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
-      "source_event_date": "2026-07-21",
-      "latestEvent": "2026-07-21｜Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
-      "businessImpact": "业务影响主要落在数据中心平台、网络业务和AI系统供应链。Vera Rubin机架已在四家大云合作方运行，说明下一代平台进入交付验证期；Spectrum-6进入CoreWeave、Microsoft、Nebius、SpaceXAI和Tesla等AI工厂，强化NVIDIA把网络从配套部件升级为AI工厂性能约束控制点的逻辑。Wistron美国工厂提供了本土制造与板卡产能证据，有助于支撑美国客户和政策环境下的交付可靠性。BMS案例说明生命科学等行业客户正在把新平台用于生产级药物发现工...",
-      "valuationImpact": "估值/动作上，这条事件强化NVIDIA的A池核心地位和平台溢价，但不足以单独上调估值中枢或改变仓位纪律。正面在于，10倍每兆瓦吞吐、102.4Tbps网络系统、350多个供应链站点和Wistron月产数万块板卡目标，都指向下一代AI工厂的单位经济与交付能力；这能支撑高估值对持续增长和高附加值系统销售的要求。需要克制的是，客户导入和供应链爬坡不等于收入、利润和自由现金流已经确认，下一步必须等财报中的数据中心收入、网络收入、毛利率、库存/应收和资本开支效率验证。",
-      "nextCheck": "跟踪NVIDIA后续财报和电话会是否披露Vera Rubin、GB300、Spectrum-X/Spectrum-6相关的数据中心收入、网络收入、毛利率和订单能见度。；观察CoreWeave、Google Cloud、Microsoft Azure、OCI、Nebius、Tesla和SpaceXAI是否披露Vera Rubin或Spectrum-6的实际上线规模、可用区、租赁价格和客户需求。；核验CoreWeave关于DeepSeek-R1每兆瓦吞吐10倍提升的口径能否在更多模型、更多云厂和真实生产负载中复现。",
-      "action": "维持A池核心；把Vera Rubin量产爬坡、Spectrum-6导入、美国制造产能和每兆瓦吞吐作为下一轮财报验证重点",
-      "priority": "P1",
+      "source_event_title": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+      "source_event_date": "2026-07-27",
+      "latestEvent": "2026-07-27｜Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+      "businessImpact": "业务影响主要在企业 AI 软件生态和 agent 安全治理层。企业要让 agent 进入代码、IT、金融、制造、供应链和安全运维，核心约束不是只看模型能力，还包括权限边界、可审计性、本地运行、漏洞修复和多供应商兼容。Open Secure AI Alliance 若能围绕开放模型、harness、runtime 和安全工具形成事实标准，会提高 NVIDIA 在企业 agent 安全执行层的话语权，并让其 OpenShell、Nemotron、NemoClaw、CUDA-X s...",
+      "valuationImpact": "估值/动作上，这条事件支持 NVIDIA 的平台溢价和软件生态可选项，但权重低于 Blackwell/Rubin 供给、网络产品、云厂资本开支和明确客户部署。当前不因联盟新闻上调盈利预测或仓位动作；更合理的处理是维持核心跟踪，把它作为 enterprise agent attach rate、软件生态和安全运行时标准化的观察点。只有当联盟成果进入主流企业产品、NVIDIA 在财报中披露相关软件/服务收入，或安全运行时带来可见推理与平台消耗，才可能提升估值权重。",
+      "nextCheck": "跟踪 Open Secure AI Alliance 是否发布具体开源项目、参考架构、漏洞披露流程、benchmark 或企业可部署工具，而不是停留在成员名单和原则宣言。；观察 Microsoft、SAP、ServiceNow、Palantir、Palo Alto Networks、CrowdStrike 等参与方是否把联盟成果接入其正式产品或客户工作流。；关注 NVIDIA 财报和投资者材料中是否更具体披露 enterprise AI software、OpenShell/NemoClaw、agent runtime 或安全工具对收入、客户采用和推理需求的贡献。",
+      "action": "维持跟踪；把开放安全运行时与企业 agent 治理作为软件生态渗透观察点",
+      "priority": "P2",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-07-27T14:12:42",
+      "updated_at": "2026-07-27T22:36:11",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

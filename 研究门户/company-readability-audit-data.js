@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-07-27T14:12:43",
-  "source_overrides_at": "2026-07-27T14:12:42",
+  "generated_at": "2026-07-27T22:36:11",
+  "source_overrides_at": "2026-07-27T22:36:11",
   "items": [
     {
       "company": "constellation",
@@ -54,28 +54,24 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
-      "sourceEventDate": "2026-07-21",
+      "sourceEventTitle": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+      "sourceEventDate": "2026-07-27",
       "status": "healthy",
       "counts": {
-        "finance_rows": 1,
-        "finance_bridge": 3,
-        "finance_notes": 1,
+        "finance_rows": 0,
+        "finance_bridge": 0,
+        "finance_notes": 0,
         "business_segments": 1,
         "business_moat": 1,
-        "valuation_current": 1,
-        "valuation_scenarios": 1,
-        "valuation_triggers": 1
+        "valuation_current": 0,
+        "valuation_scenarios": 0,
+        "valuation_triggers": 0
       },
-      "totalAutoItems": 10,
-      "omitted": {
-        "valuationModel.scenarios": 1
-      },
+      "totalAutoItems": 2,
+      "omitted": {},
       "longTextSamples": [],
       "warnings": [],
-      "suggestions": [
-        "已有内容被预算压缩；如发现重要事件消失，应提高该板块预算或强化事件优先级。"
-      ]
+      "suggestions": []
     },
     {
       "company": "shennan",

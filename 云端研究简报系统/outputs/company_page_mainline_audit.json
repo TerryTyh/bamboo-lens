@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T14:12:43",
-  "source_overrides_at": "2026-07-27T14:12:42",
+  "generated_at": "2026-07-27T22:36:11",
+  "source_overrides_at": "2026-07-27T22:36:11",
   "items": [
     {
       "company": "constellation",
@@ -72,21 +72,19 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
-      "sourceEventDate": "2026-07-21",
+      "sourceEventTitle": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+      "sourceEventDate": "2026-07-27",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
         "当前结论",
         "公司理解",
-        "财务数据地图",
-        "估值模型",
         "跟踪重点与风险"
       ],
       "sectionPresence": {
         "公司理解": 2,
-        "财务数据地图": 5,
-        "估值模型": 3
+        "财务数据地图": 0,
+        "估值模型": 0
       },
       "depositEvents": 3,
       "writebackQuality": {
