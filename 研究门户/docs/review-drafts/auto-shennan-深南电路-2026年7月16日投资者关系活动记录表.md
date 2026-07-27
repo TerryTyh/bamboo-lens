@@ -1,15 +1,15 @@
-# 正式事件草稿｜中际旭创｜中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证
+# 正式事件草稿｜深南电路｜深南电路：2026年7月16日投资者关系活动记录表
 
 ## 草稿状态
 
-- 公司：中际旭创（innolight）
-- 日期：2026-05-27
+- 公司：深南电路（shennan）
+- 日期：2026-7-16
 - 类型：官方候选
-- 候选分数：10
-- 当前动作：进入人工研判
-- 批处理建议：待补正文（readiness 20）
-- 官方来源：[打开官方来源](https://www.innolight.com/inv2.aspx)
-- 来源快照：暂无
+- 候选分数：9
+- 当前动作：等待补证据
+- 批处理建议：待补正文（readiness 14）
+- 官方来源：[打开官方来源](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260716-131934__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html
 
 ## 批处理建议
 
@@ -17,6 +17,7 @@
 
 ### 当前阻碍
 
+- 还没有抓到足够正文
 - 可读内容偏短
 
 ## 原文与事实
@@ -25,11 +26,11 @@
 
 ### 原文可读内容
 
-研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。
+日期：2026-7-16；标题：深南电路：2026年7月16日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ### 候选事实
 
-日期：2026-05-27；标题：中际旭创一页式观察卡待建：AI 光模块、800G/1.6T 与客户集中度验证；原文内容：研究池种子候选：中际旭创用于补 AI capex 向光模块链条传导的验证点。第一步读取 2025 年报、2026Q1、客户集中度、800G/1.6T 产品代际和现金流，判断高增长质量。；来源：https://www.innolight.com/inv2.aspx
+日期：2026-7-16；标题：深南电路：2026年7月16日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ## 升级为正式事件前必须补齐
 
@@ -69,11 +70,11 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-innolight-中际旭创一页式观察卡待建-ai-光模块-800g-1-6t-与客户集中度验证`
+`auto-shennan-深南电路-2026年7月16日投资者关系活动记录表`
 
 ## 质量闸门
 
 - 有来源：是
-- 有可读正文：是
+- 有可读正文：否
 - 当前是否可直接入库：否
 - 原因：草稿只负责降低整理摩擦，正式事件仍必须补齐原文总结、证据、业务影响、估值/动作影响和验证点。
