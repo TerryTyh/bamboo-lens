@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-07-28T13:32:46",
-  "source_generated_at": "2026-07-28T13:32:46",
+  "generated_at": "2026-07-29T13:47:16",
+  "source_generated_at": "2026-07-29T13:47:16",
   "items": [
     {
       "company": "constellation",
@@ -1029,6 +1029,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 14
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
+      "date": "2026-08-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
+      "event_index": null,
+      "sort_key": 20260806,
+      "score": 14
+    },
+    {
       "company": "eoptolink",
       "company_name": "新易盛",
       "source_type": "official_candidate",
@@ -1371,6 +1389,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 12
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Q2 2026 Earnings Call Information",
+      "date": "2026-08-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
+      "event_index": null,
+      "sort_key": 20260806,
+      "score": 11
+    },
+    {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
@@ -1423,6 +1459,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 1,
       "sort_key": 20260318,
       "score": 11
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
+      "date": "2026-07-28",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260729-134505__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260728,
+      "score": 10
     },
     {
       "company": "nvidia",
@@ -2703,6 +2757,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 7
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Presentations",
+      "date": "2026-08-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
+      "event_index": null,
+      "sort_key": 20260806,
+      "score": 6
+    },
+    {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
@@ -3333,6 +3405,42 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 6
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "CEG Q4 2025 Earnings Release and 2026 Business and Earnings Outlook Call Information",
+      "date": "2026-03-31",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "event_index": null,
+      "sort_key": 20260331,
+      "score": 6
+    },
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Business and Earnings Outlook Presentation",
+      "date": "2025-11-07",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "event_index": null,
+      "sort_key": 20251107,
+      "score": 6
+    },
+    {
       "company": "luxshare",
       "company_name": "立讯精密",
       "source_type": "formal_event",
@@ -3352,9 +3460,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 186,
+    "total": 192,
     "formal_events": 82,
-    "official_candidates": 104,
+    "official_candidates": 110,
     "companies": 12
   }
 };

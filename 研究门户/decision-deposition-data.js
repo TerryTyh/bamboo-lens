@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-07-28T13:32:46",
-  "source_event_store_at": "2026-07-28T13:32:46",
-  "source_decision_impact_at": "2026-07-28T13:32:46",
+  "generated_at": "2026-07-29T13:47:16",
+  "source_event_store_at": "2026-07-29T13:47:16",
+  "source_decision_impact_at": "2026-07-29T13:47:16",
   "items": [
     {
       "company": "nvidia",
