@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-07-29T13:47:16",
-  "source_generated_at": "2026-07-29T13:47:16",
+  "generated_at": "2026-07-30T13:28:13",
+  "source_generated_at": "2026-07-30T13:28:13",
   "items": [
     {
       "company": "constellation",
@@ -1044,6 +1044,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
       "event_index": null,
       "sort_key": 20260806,
+      "score": 14
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+      "date": "2026-07-29",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260729,
       "score": 14
     },
     {
@@ -2707,6 +2725,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "工业富联",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+      "date": "2026-07-31",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260730-132617__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20260731,
+      "score": 7
+    },
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "工业富联：关于以集中竞价交易方式回购股份的回购报告书",
       "date": "2026-07-28",
       "type": "官方候选",
@@ -3460,9 +3496,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 192,
+    "total": 194,
     "formal_events": 82,
-    "official_candidates": 110,
+    "official_candidates": 112,
     "companies": 12
   }
 };

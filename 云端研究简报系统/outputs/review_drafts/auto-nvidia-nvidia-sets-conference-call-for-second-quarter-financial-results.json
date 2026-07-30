@@ -1,19 +1,19 @@
 {
-  "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
+  "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results",
   "draft_status": "auto_draft",
   "generated_at": "2026-07-30T13:28:13",
-  "company": "constellation",
-  "company_name": "Constellation Energy",
-  "source_candidate_title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
-  "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
-  "date": "2026-08-06",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+  "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+  "date": "2026-07-29",
   "type": "财报 / 指引",
   "priority": "草稿",
   "action": "等待补证据",
   "score": 14,
-  "sort_key": 20260806,
-  "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260625-140319__investors.constellationenergy.com_events-and-presentations.html",
+  "sort_key": 20260729,
+  "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 21,
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-08-06；标题：Q2 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations"
+    "日期：2026-07-29；标题：NVIDIA Sets Conference Call for Second-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195"
   ],
-  "fact": "日期：2026-08-06；标题：Q2 2026 Constellation Energy Corporation Earnings Conference Call；来源：https://investors.constellationenergy.com/events-and-presentations",
+  "fact": "日期：2026-07-29；标题：NVIDIA Sets Conference Call for Second-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -58,7 +58,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 152,
+    "source_chars": 190,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -68,6 +68,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.json"
+  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results.md",
+  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results.json"
 }

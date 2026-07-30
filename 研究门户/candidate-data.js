@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-29T13:46:25",
+  "generated_at": "2026-07-30T13:27:22",
   "companies": {
     "nvidia": [
       {
@@ -23,6 +23,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "status_label": "待研判",
         "review_lane": "优先阅读",
         "review_score": 12,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+      },
+      {
+        "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+        "date": "2026-07-29",
+        "fetched_at": "20260730-132617",
+        "type": "官方候选",
+        "fact": "日期：2026-07-29；标题：NVIDIA Sets Conference Call for Second-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260729,
+        "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 11,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
@@ -450,6 +473,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+        "date": "2026-07-30",
+        "fetched_at": "20260730-132617",
+        "type": "官方候选",
+        "fact": "日期：2026-07-30；标题：Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW；原文内容：Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the c…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260730,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+        "source_excerpt": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the c…",
+        "source_body": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the cloud, alongside eight total games joining the GeForce NOW library this week. This back-to-school season, the easiest upgrade isn’t replacing laptops in backpacks. It’s unlocking even more from these same laptops, from creating to gaming. With a GeForce NOW membership, Chromebooks, Macs and Surface devices can become GeForce RTX-powered gaming PCs in the cloud. The GeForce NOW library features thousands of supported PC games, letting members stream titles they already own from digital stores like Steam, Xbox PC Game Pass and Epic Games Store in just a few clicks. The cloud keeps games up to date and ready to play, making it easy to jump into a match between classes, after homework or whenever there’s free time. Time spent waiting on downloads, patches and installs becomes time spent in game instead. The Ultimate membership enables best-in-class experiences by delivering 5080-class performance in the cloud with NVIDIA DLSS , ray tracing and NVIDIA Reflex technologies for responsive, visually rich gameplay — all on the hardware gamers already own. A creator known as “Menguiny” recently put this to the test after picking up a MacBook Neo. GeForce NOW turned the laptop — usually the creator’s go-to for editing videos and everyday work — into a top-notch gaming machine, too. Another creator, “TechWithSeong” highlighted that same versatility GeForce NOW offers. Rather than juggling separate devices for work and gaming, he used GeForce NOW Ultimate to stream supported PC games across the devices he already owns — from a MacBook used for editing to gaming on the go with handheld devices. Gamers can start with a day pass and experience all the premium benefits without a monthly commitment. Plus, the cost of a day pass can be applied toward a first membership purchase — it’s like earning a little extra credit along the way. Experience the Master Chief’s iconic journey on GeForce NOW in Halo: Campaign Evolved — a modernized remake of Halo: Combat Evolved’s campaign — rebuilt with high-definition visuals, updated cinematics and refined gameplay. Whether discovering Halo for the first time or returning after 25 years to finish the fight, it’s as the Master Chief says: “We’re just getting started.” Crash-land on the mysterious ringworld alongside Cortana and uncover great secrets while battling overwhelming Covenant forces. Fight through the rebuilt campaign, then continue the adventure with three brand-new missions featuring the Master Chief and Sergeant Johnson. Expanded weapons, iconic vehicles, hijackable Wraith tanks and optional Skull modifiers offer even more ways to play.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
@@ -4895,6 +4942,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 8,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
+        "title": "工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+        "date": "2026-07-31",
+        "fetched_at": "20260730-132617",
+        "type": "官方候选",
+        "fact": "日期：2026-07-31；标题：工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260731,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260730-132617__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+        "company": "fii",
+        "company_name": "工业富联",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 6,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "工业富联：关于以集中竞价交易方式回购股份的回购报告书",

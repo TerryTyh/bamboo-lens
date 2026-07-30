@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-07-29T13:47:16",
+  "generated_at": "2026-07-30T13:28:13",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2024,6 +2024,37 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Priors , highlighted how the NVIDIA Jetson platform for edge AI and robotics gives busy developers both power and portability in one agentic-ready AI platform built for the physical world — and every industry. The best part? It all fits in one handbag. Compact enough to carry in a bag, yet powerful enough to take on the toughest problems, NVIDIA Jetson modules and developer kits power robots, autonomous machines and real-world AI projects in classrooms, labs and makerspaces — wherever inspiration strikes — enabling developers to build using industry-transforming frontier open models at the highest standard of safety and security . Whether for a student running their first robotics project on Jetson Orin Nano Super , a professor bringing cutting-edge AI to their curriculum on Jetson AGX Orin or a researcher pushing the limits of autonomous systems with Jetson AGX Thor , the platform enables building, learning and launching the next generation of intelligent robots — in every classroom, every lab and every country. As Guo shows: bring the bag, Jetson brings the robot brain. Check back here throughout the week for a series of examples — beginning with the Jetson Orin Nano Super below — to help developers navigate the NVIDIA Jetson platform and get started on their next robotics breakthroughs. Robots deserve a real brain and, apparently, an incredibly chic commute. When Guo popped the Jetson Orin Nano Super into her Jacquemus Mini, she gained the entire AI stack right at her fingertips — now with a cute handle: clutch! Jetson Orin Nano Super brings desktop-class generative AI to a handbag-friendly developer kit, offering first-time builders a practical path to learning computer vision, building AI agents , prototyping edge AI and more. With 67 trillion operations per second (TOPS) of AI performance, Jetson Orin Nano Super helps developers get started on the problems they’ve always wanted to solve. To help builders move from inspiration to implementation, NVIDIA Jetson Device Skills and Jetson BSP Skills give students, researchers and developers an easier way to harness coding AI agents to create, optimize and deploy real-world AI at the edge. Robot builders can get inspired to start their first — or next — dream project with these innovative examples of Jetson Orin Nano Super in action: A custom SidewalkPilot AI model autonomously executes maneuvers in a toy electric vehicle using Jetson Orin Nano Super. Reachy Mini Jetson Assistant is a low-latency, fully on-device voice and vision assistant for Reachy Mini Lite powered by NVIDIA Jetson Orin Nano Super . Everything runs locally with GPU acceleration — no cloud, no API keys, no internet required at runtime. Get started here . Coding with Lewis constructed an AI-powered robot using Mistral — an open-weight model — showing that first time robotics developers can build from the ground up using Jetson Orin Nano Super. Using Jetson Orin Nano Super, Asier Arnaz built a Yocto-powered Robotics AI video podcast featuring two AI models discussing topics in real-time and highlighting what makers are creating at the edge.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260729-134505__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+          "date": "2026-07-30",
+          "fetched_at": "20260730-132617",
+          "type": "官方候选",
+          "fact": "日期：2026-07-30；标题：Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW；原文内容：Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the c…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260730,
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+          "source_excerpt": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the c…",
+          "source_body": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved , as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the cloud, alongside eight total games joining the GeForce NOW library this week. This back-to-school season, the easiest upgrade isn’t replacing laptops in backpacks. It’s unlocking even more from these same laptops, from creating to gaming. With a GeForce NOW membership, Chromebooks, Macs and Surface devices can become GeForce RTX-powered gaming PCs in the cloud. The GeForce NOW library features thousands of supported PC games, letting members stream titles they already own from digital stores like Steam, Xbox PC Game Pass and Epic Games Store in just a few clicks. The cloud keeps games up to date and ready to play, making it easy to jump into a match between classes, after homework or whenever there’s free time. Time spent waiting on downloads, patches and installs becomes time spent in game instead. The Ultimate membership enables best-in-class experiences by delivering 5080-class performance in the cloud with NVIDIA DLSS , ray tracing and NVIDIA Reflex technologies for responsive, visually rich gameplay — all on the hardware gamers already own. A creator known as “Menguiny” recently put this to the test after picking up a MacBook Neo. GeForce NOW turned the laptop — usually the creator’s go-to for editing videos and everyday work — into a top-notch gaming machine, too. Another creator, “TechWithSeong” highlighted that same versatility GeForce NOW offers. Rather than juggling separate devices for work and gaming, he used GeForce NOW Ultimate to stream supported PC games across the devices he already owns — from a MacBook used for editing to gaming on the go with handheld devices. Gamers can start with a day pass and experience all the premium benefits without a monthly commitment. Plus, the cost of a day pass can be applied toward a first membership purchase — it’s like earning a little extra credit along the way. Experience the Master Chief’s iconic journey on GeForce NOW in Halo: Campaign Evolved — a modernized remake of Halo: Combat Evolved’s campaign — rebuilt with high-definition visuals, updated cinematics and refined gameplay. Whether discovering Halo for the first time or returning after 25 years to finish the fight, it’s as the Master Chief says: “We’re just getting started.” Crash-land on the mysterious ringworld alongside Cortana and uncover great secrets while battling overwhelming Covenant forces. Fight through the rebuilt campaign, then continue the adventure with three brand-new missions featuring the Master Chief and Sergeant Johnson. Expanded weapons, iconic vehicles, hijackable Wraith tanks and optional Skull modifiers offer even more ways to play.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+          "date": "2026-07-29",
+          "fetched_at": "20260730-132617",
+          "type": "官方候选",
+          "fact": "日期：2026-07-29；标题：NVIDIA Sets Conference Call for Second-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260729,
+          "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -5083,6 +5114,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260727-140953__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
+          "date": "2026-07-31",
+          "fetched_at": "20260730-132617",
+          "type": "官方候选",
+          "fact": "日期：2026-07-31；标题：工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260731,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260730-132617__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }
