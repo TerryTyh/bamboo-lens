@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-07-30T13:27:22",
+  "generated_at": "2026-07-31T13:41:28",
   "companies": {
     "nvidia": [
       {
@@ -2610,6 +2610,30 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "luxshare": [
+      {
+        "title": "Luxshare Precision Jumps 86 Spots, Named to the Fortune Global 500 for the Fourth Consecutive Year",
+        "date": "2026-07-29",
+        "fetched_at": "20260731-134014",
+        "type": "官方候选",
+        "fact": "日期：2026-07-29；标题：Luxshare Precision Jumps 86 Spots, Named to the Fortune Global 500 for the Fourth Consecutive Year；原文内容：On July 28 (Beijing Time), the 2026 Fortune Global 500 ranking was officially released. Luxshare Precision ranked No. 337, climbing 86 places from last year to achieve its highest ranking since joining the list. This also marks the company's fourth consecutive year on the prestigious global ranking. As one of the world's most authoritative benchmarks of corporate strength, the Fortune Global 500 reflects not only a…；来源：https://www.luxshare-ict.com/en/news/release/181.html",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260729,
+        "source_url": "https://www.luxshare-ict.com/en/news/release/181.html",
+        "source_excerpt": "On July 28 (Beijing Time), the 2026 Fortune Global 500 ranking was officially released. Luxshare Precision ranked No. 337, climbing 86 places from last year to achieve its highest ranking since joining the list. This also marks the company's fourth consecutive year on the prestigious global ranking. As one of the world's most authoritative benchmarks of corporate strength, the Fortune Global 500 reflects not only a…",
+        "source_body": "On July 28 (Beijing Time), the 2026 Fortune Global 500 ranking was officially released. Luxshare Precision ranked No. 337, climbing 86 places from last year to achieve its highest ranking since joining the list. This also marks the company's fourth consecutive year on the prestigious global ranking. As one of the world's most authoritative benchmarks of corporate strength, the Fortune Global 500 reflects not only a company's business scale, but also its overall competitiveness in areas such as industry influence, global operations, and sustainable development. Being recognized for four consecutive years and advancing 86 places this year, not only reaffirms Luxshare Precision's strong business performance, but also highlights the company's growing comprehensive strength, market position, and brand influence within the global industrial landscape. Over the years, Luxshare Precision has remained committed to strengthening the real economy by driving industrial transformation through technological innovation and reinforcing its foundation with advanced manufacturing. The company has continuously expanded its global footprint while enhancing cross-regional industrial collaboration to create greater value across the supply chain. Looking ahead, Luxshare Precision will take this latest recognition as a new milestone to further strengthen its innovation capabilities and manufacturing excellence, deepen its global presence, and deliver sustainable, high-quality growth that reflects the trust of its customers and the expectations of the market. The company remains committed to contributing to the high-quality development of global industries and creating greater value for partners worldwide. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260731-134014__www.luxshare-ict.com_en_news_release.html.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "luxshare",
+        "company_name": "立讯精密",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
       {
         "title": "Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026",
         "date": "2026-07-17",
