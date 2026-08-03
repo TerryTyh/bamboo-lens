@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-31T13:42:19",
+  "generated_at": "2026-08-03T14:16:10",
   "summary": {
-    "total": 15,
+    "total": 14,
     "companies": 5,
     "with_source_body": 7,
     "suppressed_count": 0,
     "readiness_counts": {
       "ready_for_deep_review": 6,
-      "needs_source": 8,
+      "needs_source": 7,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -212,35 +212,6 @@
       ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    "nvidia::nvidia sets conference call for second-quarter financial results": {
-      "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
-      "date": "2026-07-29",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -696,35 +667,6 @@
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
-        "date": "2026-07-29",
-        "score": 14,
-        "readiness_score": 21,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       },
       {
@@ -1216,35 +1158,6 @@
       ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
-      "date": "2026-07-29",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-second-quarter-financial-results.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
