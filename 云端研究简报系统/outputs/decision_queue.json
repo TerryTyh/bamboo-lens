@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T14:16:10",
-  "source_generated_at": "2026-08-03T14:16:10",
+  "generated_at": "2026-08-04T13:48:52",
+  "source_generated_at": "2026-08-04T13:48:52",
   "items": [
     {
       "company": "constellation",
@@ -1083,24 +1083,6 @@
       "score": 14
     },
     {
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "业绩预告",
-      "date": "20260604-1",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
-      "event_index": null,
-      "sort_key": 20260604,
-      "score": 14
-    },
-    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "formal_event",
@@ -1530,24 +1512,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260616-162319__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260616,
-      "score": 10
-    },
-    {
-      "company": "shennan",
-      "company_name": "深南电路",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "深南电路公告包括：定期报告（含年度报告、半年度报告、季度报告）、临时公告等。公司依法披露信息，承诺报告内容真实可靠。",
-      "date": "20260604-1",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://www.scc.com.cn/scc/tzzgx/dqbg/index.html",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260604-141031__www.scc.com.cn_scc_tzzgx_dqbg_index.html.html",
-      "event_index": null,
-      "sort_key": 20260604,
       "score": 10
     },
     {
@@ -2070,24 +2034,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260605-142528__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
       "event_index": null,
       "sort_key": 20260605,
-      "score": 9
-    },
-    {
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "年度报告",
-      "date": "20260604-1",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
-      "event_index": null,
-      "sort_key": 20260604,
       "score": 9
     },
     {
@@ -2635,6 +2581,24 @@
       "company_name": "工业富联",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "工业富联：关于股份回购进展公告",
+      "date": "2026-08-05",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260804-134717__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20260805,
+      "score": 7
+    },
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "工业富联：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
       "date": "2026-07-31",
       "type": "官方候选",
@@ -2718,6 +2682,24 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
       "event_index": null,
       "sort_key": 20260806,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+      "date": "2026-08-04",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260804-134717__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260804,
       "score": 6
     },
     {
@@ -3261,19 +3243,19 @@
       "score": 6
     },
     {
-      "company": "tsmc",
-      "company_name": "TSMC",
+      "company": "eoptolink",
+      "company_name": "新易盛",
       "source_type": "official_candidate",
       "stage": "待读原文",
-      "title": "TSMC Shareholders’ Meeting Resolutions",
-      "date": "2026-06-04",
+      "title": "业绩预告",
+      "date": "20260604-1",
       "type": "官方候选",
       "priority": "候选",
       "decision_action": "进入研判队列",
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
       "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "http://pr.tsmc.com/english/news/3317",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20260604-141031__pr.tsmc.com_english_latest-news.html",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260604-141031__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
       "event_index": null,
       "sort_key": 20260604,
       "score": 6
@@ -3352,9 +3334,9 @@
     }
   ],
   "summary": {
-    "total": 186,
+    "total": 185,
     "formal_events": 82,
-    "official_candidates": 104,
+    "official_candidates": 103,
     "companies": 12
   }
 }
