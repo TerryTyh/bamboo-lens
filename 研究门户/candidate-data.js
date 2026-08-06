@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-08-05T13:43:20",
+  "generated_at": "2026-08-06T13:41:48",
   "companies": {
     "nvidia": [
       {
@@ -497,6 +497,54 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+        "date": "2026-08-06",
+        "fetched_at": "20260806-134037",
+        "type": "官方候选",
+        "fact": "日期：2026-08-06；标题：Into the Omniverse: How Open World Models Push the Frontier of Physical AI；原文内容：Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse . In July, NVIDIA joined more than 200 companies and organizations in signing “ Open Weights and American AI Leadership ,” an open letter arguing that AI leadership will be measured not by any single f…；来源：https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260806,
+        "source_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+        "source_excerpt": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse . In July, NVIDIA joined more than 200 companies and organizations in signing “ Open Weights and American AI Leadership ,” an open letter arguing that AI leadership will be measured not by any single f…",
+        "source_body": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse . In July, NVIDIA joined more than 200 companies and organizations in signing “ Open Weights and American AI Leadership ,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector. Open models , which anyone can download, inspect, modify and run on their own infrastructure, are what make that possible. Nowhere is that more crucial than in physical AI , where every deployment is a specialization problem. Physical AI has to understand and predict consequences, not just appearances. To make this possible, w orld models learn how physical environments behave, what may happen next and which following actions make sense. They can generate physically grounded world and action data, simulate future states and provide a foundation that teams can specialize for a robot, autonomous vehicle or vision AI system. Open world models are already being used to generate training data, test policies and specialize physical AI systems. NVIDIA Cosmos 3 brings these capabilities together in an open model family, with leading benchmark results and adoption across robotics, autonomous vehicles and vision AI. And NVIDIA Omniverse libraries, part of NVIDIA Agent Toolkit, provides prebuilt capabilities for building simulation-ready worlds that physical AI teams can use to train, test and validate systems before real-world deployment. The data behind physical AI is difficult and expensive to collect at the scale required. Rare events and long-tail scenarios can be especially difficult to reproduce safely and repeatedly. More useful data by learning physical relationships from large-scale multimodal scenarios. More diverse environments that vary in weather, lighting, objects and trajectories. A better foundation to build on and adapt to a particular robot, vehicle, sensor configuration, task or operating environment. A general model hasn’t seen a team’s particular robot, sensors or operating environment. Closing that gap requires access to model weights, a license that permits adaptation and the tools needed for post-training.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260806-134037__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "GeForce NOW Shakes Up August With 26 New Games",
+        "date": "2026-08-06",
+        "fetched_at": "20260806-134037",
+        "type": "官方候选",
+        "fact": "日期：2026-08-06；标题：GeForce NOW Shakes Up August With 26 New Games；原文内容：August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library , starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences awaiting attendees.；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260806,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
+        "source_excerpt": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library , starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences awaiting attendees.",
+        "source_body": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library , starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences awaiting attendees. Visit the NVIDIA booth at QuakeCon to experience GeForce RTX 5080-powered Ultimate cloud gaming in action, with demos showcasing stunning visuals at up to 5K 120 frames per second on an ultrawide display, as well as seamless gameplay on the Lenovo Legion Go S handheld device. Conference attendees can see how thousands of PC games, including fan-favorite Bethesda titles, can move effortlessly across laptops, Macs, handhelds, mobile devices, TVs and more — letting members pick up where they left off on nearly any supported screen. Gamers not at the show can try out Ultimate cloud gaming in action with a day pass and jump into Bethesda titles from any device. World of Warships: Legends drops anchor on GeForce NOW this week, bringing free-to-play naval combat. Captains can command destroyers, cruisers and battleships across massive multiplayer battles while exploring the latest update, featuring the Pacific Hammer Campaign, a new line of U.S. destroyers and more. Chart a course straight into the latest content across devices today without any installs needed, and check out all the games available this week: And look forward to the games coming throughout the month: In addition to the dozen games announced last month, 15 more joined the GeForce NOW library. Mistfall Hunter didn’t make it this month. Stay tuned to GFN Thursday for the latest updates. What are you planning to play this weekend? Let us know on X or in the comments below.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260806-134037__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",

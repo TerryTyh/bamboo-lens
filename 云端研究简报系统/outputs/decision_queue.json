@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T13:45:00",
-  "source_generated_at": "2026-08-05T13:45:00",
+  "generated_at": "2026-08-06T13:44:17",
+  "source_generated_at": "2026-08-06T13:44:17",
   "items": [
     {
       "company": "constellation",
@@ -2631,6 +2631,24 @@
       "score": 7
     },
     {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "date": "2026-08-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260806-134037__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20260806,
+      "score": 6
+    },
+    {
       "company": "constellation",
       "company_name": "Constellation Energy",
       "source_type": "official_candidate",
@@ -3334,9 +3352,9 @@
     }
   ],
   "summary": {
-    "total": 185,
+    "total": 186,
     "formal_events": 82,
-    "official_candidates": 103,
+    "official_candidates": 104,
     "companies": 12
   }
 }
