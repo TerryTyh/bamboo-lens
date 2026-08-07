@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-08-06T13:44:17",
+  "generated_at": "2026-08-07T12:41:09",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -3720,6 +3720,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations_past-events.html"
+        },
+        {
+          "title": "Q2 2026 Presentation",
+          "date": "2026-05-11",
+          "fetched_at": "20260807-123926",
+          "type": "官方候选",
+          "fact": "日期：2026-05-11；标题：Q2 2026 Presentation；来源：https://investors.constellationenergy.com/events-and-presentations/past-events",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260511,
+          "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260807-123926__investors.constellationenergy.com_events-and-presentations_past-events.html"
         }
       ]
     },
