@@ -1,24 +1,24 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-08-10T12:44:34",
-  "source_generated_at": "2026-08-10T12:44:34",
+  "generated_at": "2026-08-11T05:08:58",
+  "source_generated_at": "2026-08-11T05:08:58",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
-      "source_event_title": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-      "source_event_date": "2026-07-27",
-      "latestEvent": "2026-07-27｜Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-      "businessImpact": "业务影响主要在企业 AI 软件生态和 agent 安全治理层。企业要让 agent 进入代码、IT、金融、制造、供应链和安全运维，核心约束不是只看模型能力，还包括权限边界、可审计性、本地运行、漏洞修复和多供应商兼容。Open Secure AI Alliance 若能围绕开放模型、harness、runtime 和安全工具形成事实标准，会提高 NVIDIA 在企业 agent 安全执行层的话语权，并让其 OpenShell、Nemotron、NemoClaw、CUDA-X s...",
-      "valuationImpact": "估值/动作上，这条事件支持 NVIDIA 的平台溢价和软件生态可选项，但权重低于 Blackwell/Rubin 供给、网络产品、云厂资本开支和明确客户部署。当前不因联盟新闻上调盈利预测或仓位动作；更合理的处理是维持核心跟踪，把它作为 enterprise agent attach rate、软件生态和安全运行时标准化的观察点。只有当联盟成果进入主流企业产品、NVIDIA 在财报中披露相关软件/服务收入，或安全运行时带来可见推理与平台消耗，才可能提升估值权重。",
-      "nextCheck": "跟踪 Open Secure AI Alliance 是否发布具体开源项目、参考架构、漏洞披露流程、benchmark 或企业可部署工具，而不是停留在成员名单和原则宣言。；观察 Microsoft、SAP、ServiceNow、Palantir、Palo Alto Networks、CrowdStrike 等参与方是否把联盟成果接入其正式产品或客户工作流。；关注 NVIDIA 财报和投资者材料中是否更具体披露 enterprise AI software、OpenShell/NemoClaw、agent runtime 或安全工具对收入、客户采用和推理需求的贡献。",
-      "action": "维持跟踪；把开放安全运行时与企业 agent 治理作为软件生态渗透观察点",
+      "source_event_title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+      "source_event_date": "2026-08-04",
+      "latestEvent": "2026-08-04｜NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+      "businessImpact": "业务影响主要在AI工厂系统栈和数据中心平台化。大模型训练、长上下文推理、RAG、企业智能体和科学计算都在扩大数据读取与上下文窗口，存储不再只是低成本容量，而会影响GPU利用率、推理延迟、数据安全和单位算力产出。NVIDIA如果把GPUDirect Storage、BlueField/Vera数据服务、Spectrum-X网络和CUDA软件生态串起来，就能把服务器之外的存储、控制器和数据服务厂商也纳入其平台标准。对业务理解的增量是：NVIDIA的AI基础设施护城河不只来自GPU...",
+      "valuationImpact": "估值/动作上，这条事件支持NVIDIA的平台溢价和长期attach rate想象，但权重低于Blackwell/Rubin出货、云厂资本开支、网络收入、软件收入和明确客户部署。当前不因这篇文章提高估值区间或仓位动作；更合理的处理是维持核心跟踪，把GPU直连存储和Storage-Next作为AI工厂架构标准化观察点。若后续主流存储厂商把SCADA/cuFile做成正式产品、云厂在AI集群中默认部署GPUDirect Storage/Vera/BlueField数据路径，或NVI...",
+      "nextCheck": "跟踪Storage-Next是否发布具体标准、参考架构、认证清单或主流存储产品支持，而不是停留在会议文章和厂商名单。；观察DDN、KIOXIA、Micron及更多存储/闪存厂商是否把SCADA、cuFile或GPUDirect Storage支持写入正式产品规格和客户案例。；在NVIDIA后续财报中验证网络、DPU、CPU、软件和系统级解决方案收入是否加速，避免把架构趋势误读成已兑现收入。",
+      "action": "维持核心跟踪；把GPU直连存储、Vera/BlueField数据服务和Storage-Next标准化作为AI工厂平台控制点观察",
       "priority": "P2",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "source_event_date": "2026-03-31",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-10T12:44:34",
+      "updated_at": "2026-08-11T05:08:58",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

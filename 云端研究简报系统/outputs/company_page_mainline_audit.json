@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T12:44:34",
-  "source_overrides_at": "2026-08-10T12:44:34",
+  "generated_at": "2026-08-11T05:08:58",
+  "source_overrides_at": "2026-08-11T05:08:58",
   "items": [
     {
       "company": "constellation",
@@ -72,8 +72,8 @@
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-      "sourceEventDate": "2026-07-27",
+      "sourceEventTitle": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+      "sourceEventDate": "2026-08-04",
       "status": "healthy",
       "score": 100,
       "updatedSections": [

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-10T12:44:34",
-  "source_event_store_at": "2026-08-10T12:44:34",
-  "source_deposition_at": "2026-08-10T12:44:34",
+  "generated_at": "2026-08-11T05:08:58",
+  "source_event_store_at": "2026-08-11T05:08:58",
+  "source_deposition_at": "2026-08-11T05:08:58",
   "companies": {
     "nvidia": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
-      "sourceEventTitle": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-      "sourceEventDate": "2026-07-27",
+      "sourceEventTitle": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+      "sourceEventDate": "2026-08-04",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
-      "latestEvent": "2026-07-27｜Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-      "businessImpact": "业务影响主要在企业 AI 软件生态和 agent 安全治理层。企业要让 agent 进入代码、IT、金融、制造、供应链和安全运维，核心约束不是只看模型能力，还包括权限边界、可审计性、本地运行、漏洞修复和多供应商兼容。Open Secure AI Alliance 若能围绕开放模型、harness、runtime 和安全工具形成事实标准，会提高 NVIDIA 在企业 agent 安全执行层的话语权，并让其 OpenShell、Nemotron、NemoClaw、CUDA-X skills 等软件栈更容易被企业软件和安全厂商集成。",
-      "valuationImpact": "估值/动作上，这条事件支持 NVIDIA 的平台溢价和软件生态可选项，但权重低于 Blackwell/Rubin 供给、网络产品、云厂资本开支和明确客户部署。当前不因联盟新闻上调盈利预测或仓位动作；更合理的处理是维持核心跟踪，把它作为 enterprise agent attach rate、软件生态和安全运行时标准化的观察点。只有当联盟成果进入主流企业产品、NVIDIA 在财报中披露相关软件/服务收入，或安全运行时带来可见推理与平台消耗，才可能提升估值权重。",
-      "nextCheck": "跟踪 Open Secure AI Alliance 是否发布具体开源项目、参考架构、漏洞披露流程、benchmark 或企业可部署工具，而不是停留在成员名单和原则宣言。；观察 Microsoft、SAP、ServiceNow、Palantir、Palo Alto Networks、CrowdStrike 等参与方是否把联盟成果接入其正式产品或客户工作流。",
-      "action": "维持跟踪；把开放安全运行时与企业 agent 治理作为软件生态渗透观察点",
+      "updatedAt": "2026-08-11T05:08:58",
+      "latestEvent": "2026-08-04｜NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+      "businessImpact": "业务影响主要在AI工厂系统栈和数据中心平台化。大模型训练、长上下文推理、RAG、企业智能体和科学计算都在扩大数据读取与上下文窗口，存储不再只是低成本容量，而会影响GPU利用率、推理延迟、数据安全和单位算力产出。NVIDIA如果把GPUDirect Storage、BlueField/Vera数据服务、Spectrum-X网络和CUDA软件生态串起来，就能把服务器之外的存储、控制器和数据服务厂商也纳入其平台标准。对业务理解的增量是：NVIDIA的AI基础设施护城河不只来自GPU性能，还来自让GPU、网络、DPU/CPU和存储软件共同决定AI工厂吞吐的系统级协同。",
+      "valuationImpact": "估值/动作上，这条事件支持NVIDIA的平台溢价和长期attach rate想象，但权重低于Blackwell/Rubin出货、云厂资本开支、网络收入、软件收入和明确客户部署。当前不因这篇文章提高估值区间或仓位动作；更合理的处理是维持核心跟踪，把GPU直连存储和Storage-Next作为AI工厂架构标准化观察点。若后续主流存储厂商把SCADA/cuFile做成正式产品、云厂在AI集群中默认部署GPUDirect Storage/Vera/BlueField数据路径，或NVIDIA在财报中披露相关网络/DPU/软件收入贡献，才可能提高它在估值分部中的权重。",
+      "nextCheck": "跟踪Storage-Next是否发布具体标准、参考架构、认证清单或主流存储产品支持，而不是停留在会议文章和厂商名单。；观察DDN、KIOXIA、Micron及更多存储/闪存厂商是否把SCADA、cuFile或GPUDirect Storage支持写入正式产品规格和客户案例。",
+      "action": "维持核心跟踪；把GPU直连存储、Vera/BlueField数据服务和Storage-Next标准化作为AI工厂平台控制点观察",
       "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
       "writebackQuality": {
         "status": "needs_model_update",
@@ -37,16 +37,16 @@
           "segments": [
             {
               "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-              "scale": "2026-07-27｜企业 AI / 开源安全生态 / Agent 运行时",
-              "text": "业务影响主要在企业 AI 软件生态和 agent 安全治理层。企业要让 agent 进入代码、IT、金融、制造、供应链和安全运维，核心约束不是只看模型能力，还包括权限边界、可审计性、本地运行、漏洞修复和多供应商兼容。Open Secure AI Alliance 若能围绕开放模型、harness、runtime 和安全工具形成事实标准，会提高 NVIDIA 在企业 agent 安全执行层的话语权，并让其 OpenShell、Nemotron、NemoClaw、CUDA-X skills 等软件栈更容易被企业软件和安全厂商集成。 原文要点：原文宣布成立 Open Secure AI Alliance，建立在 Linux Foundation 的 Akrites initiative 和 OpenSSF 社区工作基础上，目标是用开放技术、模型、harness 和工具帮助 AI 时代的软件与 agent 安全防护、漏洞修复和披露。；文章把事件背景放在 AI 安全与网络防御：NVIDIA 认为关键基础设施不能只依赖少数不可审计的封闭系统，防御方需要能在本地检查、适配和运行的开放前沿工具，以降低单点失效并满足主权控制、数据保护和多供应商环境。；原文列出首批参与方，覆盖 Adobe、Cadence、Capital One、Cisco、Cloudflare、CrowdStrike、Databricks、Dell Technologies、Elastic、HPE、Hugging Face、IBM、LangChain、Linux Foundation、M…"
+              "title": "财报/经营验证｜NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+              "scale": "2026-08-04｜AI基础设施 / 存储数据路径 / 开源生态",
+              "text": "业务影响主要在AI工厂系统栈和数据中心平台化。大模型训练、长上下文推理、RAG、企业智能体和科学计算都在扩大数据读取与上下文窗口，存储不再只是低成本容量，而会影响GPU利用率、推理延迟、数据安全和单位算力产出。NVIDIA如果把GPUDirect Storage、BlueField/Vera数据服务、Spectrum-X网络和CUDA软件生态串起来，就能把服务器之外的存储、控制器和数据服务厂商也纳入其平台标准。对业务理解的增量是：NVIDIA的AI基础设施护城河不只来自GPU性能，还来自让GPU、网络、DPU/CPU和存储软件共同决定AI工厂吞吐的系统级协同。 原文要点：NVIDIA在2026年8月4日围绕Future of Memory and Storage会议发布文章，核心不是简单宣传更多存储容量，而是说明AI工厂的数据瓶颈正在从GPU算力扩展到内存、存储、加密、压缩、校验和数据重构。文章称智能体会消耗大量数据，GPU现在可以直接发起存储请求，带来数千个并发操作，传统由CPU承担的数据服务会成为新瓶颈。；原文披露两条具体技术推进：第一，NVIDIA宣布开源cuFile API以及其下方的垂直存储软件栈，让GPU而不只是CPU可以直接从存储读写数据；cuFile作为GPUDirect Storage组件，可以利用大量GPU线程和高带宽内存，在微秒级安全访问存储数据。第二，NVIDIA推动Storage-Next倡议，联合超过40家存储和闪存厂商，包括DDN、KIOXIA和Micron，围绕GPU驱动存储形成可互操作的开放行业标准…"
             }
           ],
           "moat": [
             {
               "key": "business-moat-财报-经营验证",
               "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是一条 P2 级生态与软件栈事件。它不会直接改变 NVIDIA 下一季收入或 GPU 订单判断，但延续了 NVIDIA 近期从算力、模型、OpenShell、NemoClaw 向企业 agent 安全执行层延伸的主线。变化在于参与方更广，安全与主权控制从单个客户合作升级为行业共建口径；没有改变的是，原文仍缺少收费模式、部署规模、软件收入或对 Data Center 收入的可量化拉动。"
+              "text": "这是一条P2级平台控制点事件。它不会直接改变NVIDIA下一季收入、毛利率或订单判断，但补上了AI工厂主线中容易被忽略的数据路径：当GPU不再只是等待CPU和存储系统喂数据，而是通过GPUDirect Storage、cuFile、SCADA、Vera和BlueField把存储访问、加密压缩和数据服务纳入加速计算路径，NVIDIA的控制范围会从GPU/网络继续延伸到AI工厂底层I/O和存储标准。限制也很清楚：原文没有披露客户采购金额、收入贡献、收费模式或对Data Center分部的量化拉动，因此只能作为平台生态与架构趋势沉淀，不能上调盈利预测。"
             }
           ]
         },
@@ -73,23 +73,23 @@
       "depositEvents": [
         {
           "eventIndex": 0,
-          "title": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
-          "date": "2026-07-27",
+          "title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
+          "date": "2026-08-04",
           "priority": "P2",
           "detailLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1"
         },
         {
           "eventIndex": 1,
-          "title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
-          "date": "2026-07-21",
-          "priority": "P1",
+          "title": "Open Secure AI Alliance 聚合云、安全、企业软件与开源伙伴，NVIDIA 把开放 Agent 安全栈推向行业共建",
+          "date": "2026-07-27",
+          "priority": "P2",
           "detailLink": "./event.html?company=nvidia&event=1&return=company&v=20260505-1"
         },
         {
           "eventIndex": 2,
-          "title": "Nemotron 3 Ultra 接入 LangChain 深度智能体，NVIDIA 把开源智能体栈推到接近闭源模型的企业可用区间",
-          "date": "2026-07-08",
-          "priority": "P2",
+          "title": "Vera Rubin进入量产与云厂导入，NVIDIA把AI工厂竞争从GPU扩展到机架、网络和供应链",
+          "date": "2026-07-21",
+          "priority": "P1",
           "detailLink": "./event.html?company=nvidia&event=2&return=company&v=20260505-1"
         }
       ]
@@ -100,7 +100,7 @@
       "sourceEventTitle": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "sourceEventDate": "2026-07-16",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
+      "updatedAt": "2026-08-11T05:08:58",
       "latestEvent": "2026-07-16｜TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "businessImpact": "业务上，Q2财报把“先进制程和AI/HPC需求高位”从月度收入验证推进到盈利质量验证。先进制程收入占比从此前高位进一步到77%，3nm和5nm仍是主体，2nm已进入收入结构并占3%，说明下一代节点开始商业化爬坡。Q3收入指引US$44.6-45.8 billion意味着公司预期领先制程需求继续推高收入台阶，而不只是Q2一次性拉货。对业务理解的关键变化是：TSMC不仅受益于AI芯片需求，还在用先进节点迭代和产能爬坡维持议价与利润率；但高资本开支、海外工厂成本、先进封装供给和客户拉货节奏仍是决定增长质量的约束。",
       "valuationImpact": "估值/动作上，Q2财报支持TSMC维持A池核心和质量溢价，合理估值中枢应继续以高收入可见度、领先制程份额和毛利率韧性为主要支撑。正面变化是：Q2毛利率67.7%超过指引上沿，EPS同比增长77.4%，Q3收入指引继续抬升，降低了“AI需求只停留在订单预期”的疑虑。约束是：估值已经高度反映先进制程和AI需求，Q3毛利率指引回到65%-67%，后续若海外扩产折旧、2nm初期良率或资本开支压力压低自由现金流，估值容错会下降。动作上维持核心跟踪，不因单季强劲直接提高仓位；下一步用Q3收入、毛利率、资本开支和自由现金流验证高估值是否仍有基本面支撑。",
@@ -257,7 +257,7 @@
       "sourceEventTitle": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "sourceEventDate": "2026-07-15",
       "sourceEventLink": "./event.html?company=wus&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
+      "updatedAt": "2026-08-11T05:08:58",
       "latestEvent": "2026-07-15｜沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "businessImpact": "业务上，沪电的核心变化是国内高端PCB能力与泰国海外基地开始形成协同。AI服务器和高速网络设备拉动高层高速PCB需求，泰国基地通过头部客户验证后，可以承接海外客户对交付地、供应链韧性和合规的要求。400G批量、800G逐步批量供应，说明产品层级在向更高端网络设备延伸。与此同时，公司提到高端树脂、超低损耗铜箔、HVLP铜箔等材料可能阶段性供应偏紧，意味着后续竞争不仅是产能扩张，还包括材料验证、供应链安全和客户共同开发能力。",
       "valuationImpact": "估值/动作上，这条调研强化沪电作为AI服务器PCB链条核心公司的确定性，但也提高了对执行质量的要求。正面是泰国基地从亏损收窄到Q2转盈，海外产能价值开始被利润验证；风险是高端PCB行业扩产会带来价格和同质化压力，原材料瓶颈也可能限制交付节奏或压缩毛利。动作上继续核心跟踪，不因单月产值盲目外推；下一步看半年报和Q3是否证明泰国盈利可持续、800G批量供应爬坡顺利、经营现金流没有被应收和存货吞噬。",
@@ -414,7 +414,7 @@
       "sourceEventTitle": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "sourceEventDate": "2026-07-14",
       "sourceEventLink": "./event.html?company=shennan&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
+      "updatedAt": "2026-08-11T05:08:58",
       "latestEvent": "2026-07-14｜深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "businessImpact": "业务上，深南电路的关键变化在于AI服务器、存储和数据中心需求开始同时拉动PCB与封装基板。扣非利润增速高于归母利润增速，说明主营业务景气是本次预告的核心。广州封装基板工厂稳步爬坡也很重要，因为封装基板此前是公司从通信PCB向更高价值半导体封装链条延伸的验证点；如果爬坡带来收入和良率改善，深南的估值逻辑会从传统PCB周期股向AI服务器PCB+封装基板平台过渡。需要保留约束：公告没有拆出通信、数据中心、汽车、封装基板的收入和毛利，不能判断是哪一项贡献了最大弹性。",
       "valuationImpact": "估值/动作上，这条事件提高深南电路作为AI服务器PCB链条重点公司的研究优先级，但不直接给出买入金额。正面是盈利增速和扣非质量足以支持估值中枢上移讨论；约束是A股复杂制造公司的估值不能只看利润预告，还要看毛利率、经营现金流、应收账款、存货和资本开支是否同步健康。动作上维持重点跟踪，等待半年报确认业务拆分和现金流质量；若毛利率和现金流同步改善，才可把这次预告从盈利弹性线索升级为长期质量改善证据。",
@@ -564,7 +564,7 @@
       "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "sourceEventDate": "2026-07-10",
       "sourceEventLink": "./event.html?company=fii&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
+      "updatedAt": "2026-08-11T05:08:58",
       "latestEvent": "2026-07-10｜2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "businessImpact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
       "valuationImpact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
@@ -707,7 +707,7 @@
       "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "sourceEventDate": "2026-03-31",
       "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-10T12:44:34",
+      "updatedAt": "2026-08-11T05:08:58",
       "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
       "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
