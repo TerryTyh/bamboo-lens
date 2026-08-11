@@ -1,11 +1,11 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_overrides_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_overrides_at": "2026-08-11T22:54:50",
   "items": [
     {
       "company": "constellation",
-      "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "sourceEventDate": "2026-03-31",
+      "sourceEventTitle": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "sourceEventDate": "2026-08-06",
       "status": "healthy",
       "counts": {
         "finance_rows": 2,

@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_generated_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_generated_at": "2026-08-11T22:54:50",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
       "source_event_date": "2026-08-04",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,21 +102,21 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
-      "source_event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "source_event_date": "2026-03-31",
-      "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
-      "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
-      "nextCheck": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。",
-      "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
+      "source_event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "source_event_date": "2026-08-06",
+      "latestEvent": "2026-08-06｜Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "businessImpact": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。",
+      "valuationImpact": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+      "nextCheck": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。；920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。；Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。",
+      "action": "维持A池核心；把全年EPS兑现、920MW长约质量、Crane 2027重启和Calpine资产处置列为下一轮验证主线。",
       "priority": "P1",
       "sourceLink": "./event.html?company=constellation&event=0&return=company&v=20260412-24"
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-11T12:41:24",
+      "updated_at": "2026-08-11T22:54:50",
       "source_event_index": 0,
       "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "source_event_date": "2026-07-10",

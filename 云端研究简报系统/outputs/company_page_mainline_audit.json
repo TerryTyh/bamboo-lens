@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_overrides_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_overrides_at": "2026-08-11T22:54:50",
   "items": [
     {
       "company": "constellation",
-      "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "sourceEventDate": "2026-03-31",
+      "sourceEventTitle": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "sourceEventDate": "2026-08-06",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
@@ -20,7 +20,7 @@
         "财务数据地图": 6,
         "估值模型": 3
       },
-      "depositEvents": 1,
+      "depositEvents": 2,
       "writebackQuality": {
         "status": "needs_model_update",
         "statusLabel": "可回写，需同步估值/财务",
@@ -30,7 +30,7 @@
       "warnings": [],
       "suggestions": [],
       "strengths": [
-        "已关联 1 条正式事件。",
+        "已关联 2 条正式事件。",
         "业务影响有独立判断。",
         "估值/动作影响有独立判断。",
         "下一步验证点较具体。"

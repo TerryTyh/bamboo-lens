@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
   "draft_status": "auto_draft",
-  "generated_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
@@ -66,5 +66,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.json"
+  "draft_file": "/Users/tianyuehua/.codex/worktrees/a989/竹鉴/云端研究简报系统/outputs/review_drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.json"
 }

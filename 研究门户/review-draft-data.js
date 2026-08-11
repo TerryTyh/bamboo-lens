@@ -1,13 +1,13 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
   "summary": {
-    "total": 15,
+    "total": 13,
     "companies": 5,
     "with_source_body": 7,
-    "suppressed_count": 0,
+    "suppressed_count": 2,
     "readiness_counts": {
       "ready_for_deep_review": 6,
-      "needs_source": 8,
+      "needs_source": 6,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -165,64 +165,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "constellation::q2 2026 constellation energy corporation earnings conference call": {
-      "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2026-08-06",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    "constellation::constellation energy will discuss second quarter 2026 earnings in a conference call scheduled for thursday, august 6, 2026, at 10:00 am et": {
-      "draft_id": "auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
-      "date": "2026-08-06",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
     "eoptolink::新易盛：2026年半年度业绩预告": {
       "draft_id": "auto-eoptolink-新易盛-2026年半年度业绩预告",
       "company": "eoptolink",
@@ -355,35 +297,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "constellation::q2 2026 earnings call information": {
-      "draft_id": "auto-constellation-q2-2026-earnings-call-information",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q2 2026 Earnings Call Information",
-      "date": "2026-08-06",
-      "score": 11,
-      "readiness_score": 18,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-earnings-call-information.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     "nvidia::nvidia blackwell leads on first agentic ai infrastructure benchmark": {
@@ -533,6 +446,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "wus::沪电股份：2026年7月22日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年7月22日投资者关系活动记录表",
+      "date": "2026-7-22",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -723,95 +664,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       }
     ],
-    "constellation": [
-      {
-        "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
-        "company": "constellation",
-        "company_name": "Constellation Energy",
-        "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
-        "date": "2026-08-06",
-        "score": 14,
-        "readiness_score": 21,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-        "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo",
-        "company": "constellation",
-        "company_name": "Constellation Energy",
-        "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
-        "date": "2026-08-06",
-        "score": 14,
-        "readiness_score": 21,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-        "portal_doc": "./docs/review-drafts/auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-constellation-q2-2026-earnings-call-information",
-        "company": "constellation",
-        "company_name": "Constellation Energy",
-        "title": "Q2 2026 Earnings Call Information",
-        "date": "2026-08-06",
-        "score": 11,
-        "readiness_score": 18,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-        "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-earnings-call-information.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      }
-    ],
     "eoptolink": [
       {
         "draft_id": "auto-eoptolink-新易盛-2026年半年度业绩预告",
@@ -947,6 +799,36 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
         "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
+    "wus": [
+      {
+        "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年7月22日投资者关系活动记录表",
+        "date": "2026-7-22",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1140,64 +1022,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
-      "date": "2026-08-06",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-constellation-energy-corporation-earnings-conference-call.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
-      "date": "2026-08-06",
-      "score": 14,
-      "readiness_score": 21,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-constellation-energy-will-discuss-second-quarter-2026-earnings-in-a-conference-call-scheduled-fo.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-fii-工业富联-2026年半年度报告",
       "company": "fii",
       "company_name": "工业富联",
@@ -1251,35 +1075,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-constellation-q2-2026-earnings-call-information",
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q2 2026 Earnings Call Information",
-      "date": "2026-08-06",
-      "score": 11,
-      "readiness_score": 18,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "portal_doc": "./docs/review-drafts/auto-constellation-q2-2026-earnings-call-information.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     {
@@ -1362,7 +1157,52 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年7月22日投资者关系活动记录表",
+      "date": "2026-7-22",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   ],
-  "suppressed": []
+  "suppressed": [
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
+      "date": "2026-08-06",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
+    },
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "Q2 2026 Earnings Call Information",
+      "date": "2026-08-06",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
+    }
+  ]
 };

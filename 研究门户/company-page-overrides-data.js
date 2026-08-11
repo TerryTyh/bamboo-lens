@@ -1,15 +1,158 @@
 window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_event_store_at": "2026-08-11T12:41:24",
-  "source_deposition_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_event_store_at": "2026-08-11T22:54:50",
+  "source_deposition_at": "2026-08-11T22:54:50",
   "companies": {
+    "constellation": {
+      "source": "decision_deposition",
+      "sourceEventIndex": 0,
+      "sourceEventTitle": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "sourceEventDate": "2026-08-06",
+      "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
+      "updatedAt": "2026-08-11T22:54:50",
+      "latestEvent": "2026-08-06｜Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "businessImpact": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。",
+      "valuationImpact": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+      "nextCheck": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。；920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。",
+      "action": "维持A池核心；把全年EPS兑现、920MW长约质量、Crane 2027重启和Calpine资产处置列为下一轮验证主线。",
+      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
+      "writebackQuality": {
+        "status": "needs_model_update",
+        "statusLabel": "可回写，需同步估值/财务",
+        "score": 10,
+        "blockers": []
+      },
+      "updatedSections": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "sectionDeposits": {
+        "financeMap": {
+          "rows": [
+            {
+              "key": "finance-row-财报-经营验证-1",
+              "metric": "事件证据 1",
+              "value": "2026Q2 GAAP 每股净收益为 1.42 美元，低于 2025Q2 的 2.67 美元；调整后经营 EPS 为 2.55 美元，高于 2025Q2 的 1.91 美元。",
+              "change": "2026-08-06｜季度财报 / 核电长约 / Calpine整合",
+              "read": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、Brazos Valley 出售仍需 DOJ 批准，且 Crane 2027 重启仍有执行和监管风险。"
+            },
+            {
+              "key": "finance-row-财报-经营验证-2",
+              "metric": "事件证据 2",
+              "value": "公司把全年调整后经营 EPS 指引上修至 11.50-12.50 美元，高于 3 月展望中的 11.00-12.00 美元区间。",
+              "change": "2026-08-06｜季度财报 / 核电长约 / Calpine整合",
+              "read": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、Brazos Valley 出售仍需 DOJ 批准，且 Crane 2027 重启仍有执行和监管风险。"
+            }
+          ],
+          "bridge": [
+            {
+              "key": "finance-bridge-财报-经营验证-source",
+              "label": "第一层：原文发生了什么｜财报/经营验证",
+              "text": "Constellation 在 2026-08-06 发布 2026Q2 业绩。原文说明，Q2 GAAP 每股净收益从上年同期 2.67 美元降至 1.42 美元，但调整后经营 EPS 从 1.91 美元升至 2.55 美元；公司同时把全年调整后经营 EPS 指引上修到 11.50-12.50 美元。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-evidence",
+              "label": "第二层：哪些事实最关键",
+              "text": "经营和资产进展方面，公司披露 FERC 已批准把 Eddystone 3/4 的容量互联权转移到 Crane Clean Energy Center，NRC 也批准了 Crane 的燃料许可修订请求；管理层仍把 Crane 重启目标放在 2027 年。公司还签署了额外 920MW 清洁可靠发电长期 PPA，客户为投资级别，期限 15-20 年，预计 2029-2032 年开始。"
+            },
+            {
+              "key": "finance-bridge-财报-经营验证-judgment",
+              "label": "第三层：它改变了什么判断",
+              "text": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、Brazos Valley 出售仍需 DOJ 批准，且 Crane 2027 重启仍有执行和监管风险。"
+            }
+          ],
+          "notes": [
+            {
+              "key": "finance-note-财报-经营验证",
+              "title": "财报/经营验证｜财务读法",
+              "text": "原文事实：Constellation 在 2026-08-06 发布 2026Q2 业绩。原文说明，Q2 GAAP 每股净收益从上年同期 2.67 美元降至 1.42 美元，但调整后经营 EPS 从 1.91 美元升至 2.55 美元；公司同时把全年调整后经营 EPS 指引上修到 11.50-12.50 美元。；经营和资产进展方面，公司披露 FERC 已批准把 Eddystone 3/4 的容量互联权转移到 Crane Clean Energy Center，NRC 也批准了 Crane 的燃料许可修订请求；管理层仍把 Crane 重启目标放在 2027 年。公司还签署了额外 920MW 清洁可靠发电长期 PPA，客户为投资级别，期限 15-20 年，预计 2029-2032 年开始。；Calpine 整合方面，公司在 2026 年 8 月与 LS Power 达成协议，以 8.60 亿美元、扣除交割调整前的价格出售 Brazos Valley Energy Center，这是完成 Calpine 收购监管承诺的最后一项资产出售。核电运营侧，Q2 核电发电量为 44,160GWh，剔除 Salem 和 STP 后自有核电容量因子为 93.0%。 证据：2026Q2 GAAP 每股净收益为 1.42 美元，低于 2025Q2 的 2.67 美元；调整后经营 EPS 为 2.55 美元，高于 2025Q2 的 1.91 美元。；公司把全年调整后经营 EPS 指引上修至 11.50-12.50 美元，高于 3 月展望中的 11.00-12.00 美元区间。。读法：这是一条 P1 级财报验证事件。与 3 月 Outlook…"
+            }
+          ]
+        },
+        "businessMap": {
+          "segments": [
+            {
+              "key": "business-segment-财报-经营验证",
+              "title": "财报/经营验证｜Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+              "scale": "2026-08-06｜季度财报 / 核电长约 / Calpine整合",
+              "text": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。 原文要点：Constellation 在 2026-08-06 发布 2026Q2 业绩。原文说明，Q2 GAAP 每股净收益从上年同期 2.67 美元降至 1.42 美元，但调整后经营 EPS 从 1.91 美元升至 2.55 美元；公司同时把全年调整后经营 EPS 指引上修到 11.50-12.50 美元。；经营和资产进展方面，公司披露 FERC 已批准把 Eddystone 3/4 的容量互联权转移到 Crane Clean Energy Center，NRC 也批准了 Crane 的燃料许可修订请求；管理层仍把 Crane 重启目标放在 2027 年。公司还签署了额外 920MW 清洁可靠发电长期 PPA，客户为投资级别，期限 15-20 年，预计 2029-2032 年开始。；Calpine 整合方面，公司在 2026 年 8 月与 LS Power 达成协议，以 8.60 亿美元、扣除交割调整前的价格出售 Brazos Valley Energy Center，这是完成 Calpine 收…"
+            }
+          ],
+          "moat": [
+            {
+              "key": "business-moat-财报-经营验证",
+              "title": "护城河/业务主线是否变化｜财报/经营验证",
+              "text": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、Brazos Valley 出售仍需 DOJ 批准，且 Crane 2027 重启仍有执行和监管风险。"
+            }
+          ]
+        },
+        "valuationModel": {
+          "currentBreakdown": [
+            {
+              "key": "valuation-current-财报-经营验证",
+              "title": "财报/经营验证｜估值/动作影响",
+              "text": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。"
+            }
+          ],
+          "scenarios": [
+            {
+              "key": "valuation-scenario-upside",
+              "title": "估值中枢上修条件",
+              "text": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。"
+            }
+          ],
+          "triggers": [
+            {
+              "key": "valuation-trigger-财报-经营验证",
+              "title": "下一步验证｜财报/经营验证",
+              "text": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。；920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。；Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+            }
+          ]
+        }
+      },
+      "depositPolicy": {
+        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
+        "limits": {
+          "financeMap.rows": 3,
+          "financeMap.bridge": 3,
+          "financeMap.notes": 2,
+          "businessMap.segments": 2,
+          "businessMap.moat": 2,
+          "valuationModel.currentBreakdown": 2,
+          "valuationModel.scenarios": 1,
+          "valuationModel.triggers": 1
+        },
+        "omitted": {
+          "valuationModel.scenarios": 1
+        }
+      },
+      "depositEvents": [
+        {
+          "eventIndex": 0,
+          "title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+          "date": "2026-08-06",
+          "priority": "P1",
+          "detailLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
+        },
+        {
+          "eventIndex": 1,
+          "title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
+          "date": "2026-03-31",
+          "priority": "P1",
+          "detailLink": "./event.html?company=constellation&event=1&return=company&v=20260505-1"
+        }
+      ]
+    },
     "nvidia": {
       "source": "decision_deposition",
       "sourceEventIndex": 0,
       "sourceEventTitle": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
       "sourceEventDate": "2026-08-04",
       "sourceEventLink": "./event.html?company=nvidia&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
+      "updatedAt": "2026-08-11T22:54:50",
       "latestEvent": "2026-08-04｜NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
       "businessImpact": "业务影响主要在AI工厂系统栈和数据中心平台化。大模型训练、长上下文推理、RAG、企业智能体和科学计算都在扩大数据读取与上下文窗口，存储不再只是低成本容量，而会影响GPU利用率、推理延迟、数据安全和单位算力产出。NVIDIA如果把GPUDirect Storage、BlueField/Vera数据服务、Spectrum-X网络和CUDA软件生态串起来，就能把服务器之外的存储、控制器和数据服务厂商也纳入其平台标准。对业务理解的增量是：NVIDIA的AI基础设施护城河不只来自GPU性能，还来自让GPU、网络、DPU/CPU和存储软件共同决定AI工厂吞吐的系统级协同。",
       "valuationImpact": "估值/动作上，这条事件支持NVIDIA的平台溢价和长期attach rate想象，但权重低于Blackwell/Rubin出货、云厂资本开支、网络收入、软件收入和明确客户部署。当前不因这篇文章提高估值区间或仓位动作；更合理的处理是维持核心跟踪，把GPU直连存储和Storage-Next作为AI工厂架构标准化观察点。若后续主流存储厂商把SCADA/cuFile做成正式产品、云厂在AI集群中默认部署GPUDirect Storage/Vera/BlueField数据路径，或NVIDIA在财报中披露相关网络/DPU/软件收入贡献，才可能提高它在估值分部中的权重。",
@@ -100,7 +243,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "sourceEventDate": "2026-07-16",
       "sourceEventLink": "./event.html?company=tsmc&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
+      "updatedAt": "2026-08-11T22:54:50",
       "latestEvent": "2026-07-16｜TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "businessImpact": "业务上，Q2财报把“先进制程和AI/HPC需求高位”从月度收入验证推进到盈利质量验证。先进制程收入占比从此前高位进一步到77%，3nm和5nm仍是主体，2nm已进入收入结构并占3%，说明下一代节点开始商业化爬坡。Q3收入指引US$44.6-45.8 billion意味着公司预期领先制程需求继续推高收入台阶，而不只是Q2一次性拉货。对业务理解的关键变化是：TSMC不仅受益于AI芯片需求，还在用先进节点迭代和产能爬坡维持议价与利润率；但高资本开支、海外工厂成本、先进封装供给和客户拉货节奏仍是决定增长质量的约束。",
       "valuationImpact": "估值/动作上，Q2财报支持TSMC维持A池核心和质量溢价，合理估值中枢应继续以高收入可见度、领先制程份额和毛利率韧性为主要支撑。正面变化是：Q2毛利率67.7%超过指引上沿，EPS同比增长77.4%，Q3收入指引继续抬升，降低了“AI需求只停留在订单预期”的疑虑。约束是：估值已经高度反映先进制程和AI需求，Q3毛利率指引回到65%-67%，后续若海外扩产折旧、2nm初期良率或资本开支压力压低自由现金流，估值容错会下降。动作上维持核心跟踪，不因单季强劲直接提高仓位；下一步用Q3收入、毛利率、资本开支和自由现金流验证高估值是否仍有基本面支撑。",
@@ -257,7 +400,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "sourceEventDate": "2026-07-15",
       "sourceEventLink": "./event.html?company=wus&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
+      "updatedAt": "2026-08-11T22:54:50",
       "latestEvent": "2026-07-15｜沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "businessImpact": "业务上，沪电的核心变化是国内高端PCB能力与泰国海外基地开始形成协同。AI服务器和高速网络设备拉动高层高速PCB需求，泰国基地通过头部客户验证后，可以承接海外客户对交付地、供应链韧性和合规的要求。400G批量、800G逐步批量供应，说明产品层级在向更高端网络设备延伸。与此同时，公司提到高端树脂、超低损耗铜箔、HVLP铜箔等材料可能阶段性供应偏紧，意味着后续竞争不仅是产能扩张，还包括材料验证、供应链安全和客户共同开发能力。",
       "valuationImpact": "估值/动作上，这条调研强化沪电作为AI服务器PCB链条核心公司的确定性，但也提高了对执行质量的要求。正面是泰国基地从亏损收窄到Q2转盈，海外产能价值开始被利润验证；风险是高端PCB行业扩产会带来价格和同质化压力，原材料瓶颈也可能限制交付节奏或压缩毛利。动作上继续核心跟踪，不因单月产值盲目外推；下一步看半年报和Q3是否证明泰国盈利可持续、800G批量供应爬坡顺利、经营现金流没有被应收和存货吞噬。",
@@ -414,7 +557,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "sourceEventDate": "2026-07-14",
       "sourceEventLink": "./event.html?company=shennan&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
+      "updatedAt": "2026-08-11T22:54:50",
       "latestEvent": "2026-07-14｜深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "businessImpact": "业务上，深南电路的关键变化在于AI服务器、存储和数据中心需求开始同时拉动PCB与封装基板。扣非利润增速高于归母利润增速，说明主营业务景气是本次预告的核心。广州封装基板工厂稳步爬坡也很重要，因为封装基板此前是公司从通信PCB向更高价值半导体封装链条延伸的验证点；如果爬坡带来收入和良率改善，深南的估值逻辑会从传统PCB周期股向AI服务器PCB+封装基板平台过渡。需要保留约束：公告没有拆出通信、数据中心、汽车、封装基板的收入和毛利，不能判断是哪一项贡献了最大弹性。",
       "valuationImpact": "估值/动作上，这条事件提高深南电路作为AI服务器PCB链条重点公司的研究优先级，但不直接给出买入金额。正面是盈利增速和扣非质量足以支持估值中枢上移讨论；约束是A股复杂制造公司的估值不能只看利润预告，还要看毛利率、经营现金流、应收账款、存货和资本开支是否同步健康。动作上维持重点跟踪，等待半年报确认业务拆分和现金流质量；若毛利率和现金流同步改善，才可把这次预告从盈利弹性线索升级为长期质量改善证据。",
@@ -564,7 +707,7 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
       "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "sourceEventDate": "2026-07-10",
       "sourceEventLink": "./event.html?company=fii&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
+      "updatedAt": "2026-08-11T22:54:50",
       "latestEvent": "2026-07-10｜2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "businessImpact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
       "valuationImpact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
@@ -700,146 +843,10 @@ window.BAMBOO_LENS_COMPANY_PAGE_OVERRIDES = {
           "detailLink": "./event.html?company=fii&event=0&return=company&v=20260505-1"
         }
       ]
-    },
-    "constellation": {
-      "source": "decision_deposition",
-      "sourceEventIndex": 0,
-      "sourceEventTitle": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "sourceEventDate": "2026-03-31",
-      "sourceEventLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
-      "updatedAt": "2026-08-11T12:41:24",
-      "latestEvent": "2026-03-31｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-      "businessImpact": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。",
-      "valuationImpact": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。",
-      "nextCheck": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。",
-      "action": "维持 A 池核心，并提升合同与资本回报验证优先级",
-      "depositionNotice": "已根据通过质量门槛的正式事件自动更新当前结论，并按事件性质沉淀到对应的业务、财务或估值板块。",
-      "writebackQuality": {
-        "status": "needs_model_update",
-        "statusLabel": "可回写，需同步估值/财务",
-        "score": 10,
-        "blockers": []
-      },
-      "updatedSections": [
-        "当前结论",
-        "公司理解",
-        "财务数据地图",
-        "估值模型",
-        "跟踪重点与风险"
-      ],
-      "sectionDeposits": {
-        "financeMap": {
-          "rows": [
-            {
-              "key": "finance-row-财报-经营验证-1",
-              "metric": "事件证据 1",
-              "value": "2026 指引：adjusted operating EPS 为 11.00-12.00 美元。",
-              "change": "2026-03-31｜管理层展望 / 财务指引",
-              "read": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。"
-            },
-            {
-              "key": "finance-row-财报-经营验证-2",
-              "metric": "事件证据 2",
-              "value": "长期目标：2026-2029 Base EPS 增长 20%+，长期滚动三年 Base EPS 增长 10%+。",
-              "change": "2026-03-31｜管理层展望 / 财务指引",
-              "read": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。"
-            }
-          ],
-          "bridge": [
-            {
-              "key": "finance-bridge-财报-经营验证-source",
-              "label": "第一层：原文发生了什么｜财报/经营验证",
-              "text": "这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。核心是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。"
-            },
-            {
-              "key": "finance-bridge-财报-经营验证-evidence",
-              "label": "第二层：哪些事实最关键",
-              "text": "第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。"
-            },
-            {
-              "key": "finance-bridge-财报-经营验证-judgment",
-              "label": "第三层：它改变了什么判断",
-              "text": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。"
-            }
-          ],
-          "notes": [
-            {
-              "key": "finance-note-财报-经营验证",
-              "title": "财报/经营验证｜财务读法",
-              "text": "原文事实：这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。核心是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。；第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。；第二组是资产稀缺性。合并 Calpine 后，公司拥有约 55GW 发电组合，并强调拥有美国最大的核电、天然气和地热发电资产组合之一。核电提供清洁、稳定、可调度电力；天然气和地热增强组合灵活性；商业平台则负责把电力能力卖给大型客户。 证据：2026 指引：adjusted operating EPS 为 11.00-12.00 美元。；长期目标：2026-2029 Base EPS 增长 20%+，长期滚动三年 Base EPS 增长 10%+。。读法：这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以…"
-            }
-          ]
-        },
-        "businessMap": {
-          "segments": [
-            {
-              "key": "business-segment-财报-经营验证",
-              "title": "财报/经营验证｜2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-              "scale": "2026-03-31｜管理层展望 / 财务指引",
-              "text": "这条动态把 Constellation 的业务定位讲清楚了：它不是普通电力公用事业，也不只是核电资产持有人。核电提供清洁、稳定、可调度的底座；Calpine 带来天然气、地热和更大商业平台；长期供电协议把这些资产卖给数据中心、工业客户和大企业。AI 数据中心需要的是长周期、稳定、可用且越来越偏低碳的电力，Constellation 正好处在这个需求交汇点上。 原文要点：这次读的不是普通会议提醒，而是 Constellation 2026 Business and Earnings Outlook 的投资者材料和官方新闻稿。核心是公司把 Calpine 整合后的新边界、长期 EPS 目标、资本配置和大负荷电力需求放在同一个框架里。；第一组是盈利目标。公司给出 2026 adjusted operating EPS 11.00-12.00 美元，并提出 2026-2029 Base EPS 增长 20%+、长期滚动三年 Base EPS 增长 10%+。这意味着管理层不再只把公司描述为稳定公用事业资产，而是在给一个成长型电力平台的长期目标。；第二组是资产稀缺性。合并 Calpine 后，公司拥有约 55GW 发电组合，并强调拥有美国最大的核电、天然气和地热发电资产组合之一。核电提供清洁、稳定、可调度电力；天然气和地热增强组合灵活性；商业平台则负责把电力能力卖给大型客户。"
-            }
-          ],
-          "moat": [
-            {
-              "key": "business-moat-财报-经营验证",
-              "title": "护城河/业务主线是否变化｜财报/经营验证",
-              "text": "这是 P1 级别的战略与财务框架更新。它强化了 Constellation 的长期逻辑：稳定、清洁、可调度电力正在变成 AI 数据中心、电气化和能源安全周期中的稀缺资产。但这不是无脑利好。2026 adjusted operating EPS 指引 11-12 美元只是起点，市场更关心 20%+ Base EPS 增长能否兑现、147 million MWh 核电电量能否签出溢价合同，以及 39 亿美元 growth capex 是否真的能获得双位数回报。"
-            }
-          ]
-        },
-        "valuationModel": {
-          "currentBreakdown": [
-            {
-              "key": "valuation-current-财报-经营验证",
-              "title": "财报/经营验证｜估值/动作影响",
-              "text": "估值上，正面是 20%+ Base EPS 增长目标、147 million MWh 可签约核电电量、50 亿美元回购和 55GW 稀缺资产平台，说明市场把它从传统公用事业重估为成长型电力平台有逻辑。压力是短期 2026 adjusted operating EPS 指引需要兑现，39 亿美元 growth capex 必须产生足够回报，Calpine 整合和监管资产处置不能拖累现金流。当前动作是维持核心跟踪，但不因主题热度追价，要等合同溢价、EPS 和自由现金流继续验证。"
-            }
-          ],
-          "scenarios": [
-            {
-              "key": "valuation-scenario-upside",
-              "title": "估值中枢上修条件",
-              "text": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。"
-            }
-          ],
-          "triggers": [
-            {
-              "key": "valuation-trigger-财报-经营验证",
-              "title": "下一步验证｜财报/经营验证",
-              "text": "2026 adjusted operating EPS 是否落在 11.00-12.00 美元区间，后续是否上修。；147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。；Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
-            }
-          ]
-        }
-      },
-      "depositPolicy": {
-        "strategy": "按主线 key 去重，保留最近且最关键的自动沉淀；同类事件更新同一条主线，而不是无限追加。",
-        "limits": {
-          "financeMap.rows": 3,
-          "financeMap.bridge": 3,
-          "financeMap.notes": 2,
-          "businessMap.segments": 2,
-          "businessMap.moat": 2,
-          "valuationModel.currentBreakdown": 2,
-          "valuationModel.scenarios": 1,
-          "valuationModel.triggers": 1
-        },
-        "omitted": {
-          "valuationModel.scenarios": 1
-        }
-      },
-      "depositEvents": [
-        {
-          "eventIndex": 0,
-          "title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
-          "date": "2026-03-31",
-          "priority": "P1",
-          "detailLink": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
-        }
-      ]
     }
   },
   "summary": {
     "companies": 6,
-    "events_applied": 13
+    "events_applied": 14
   }
 };

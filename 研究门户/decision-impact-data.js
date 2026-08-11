@@ -1,7 +1,48 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_generated_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_generated_at": "2026-08-11T22:54:50",
   "items": [
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "event_index": 0,
+      "event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "event_date": "2026-08-06",
+      "event_type": "季度财报 / 核电长约 / Calpine整合",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、",
+      "business_impact": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求",
+      "valuation_impact": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+      "next_verification": [
+        "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。",
+        "920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。",
+        "Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+      ],
+      "source_url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-second-quarter-2026-results",
+      "sort_key": 20260806,
+      "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -1418,7 +1459,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "constellation",
       "company_name": "Constellation Energy",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "event_date": "2026-03-31",
       "event_type": "管理层展望 / 财务指引",
@@ -1452,7 +1493,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://investors.constellationenergy.com/events/event-details/constellation-energy-corporation-2026-business-and-earnings-outlook-conference",
       "sort_key": 20260331,
-      "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=constellation&event=1&return=company&v=20260505-1"
     }
   ],
   "companies": {
@@ -2599,6 +2640,47 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "constellation",
         "company_name": "Constellation Energy",
         "event_index": 0,
+        "event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+        "event_date": "2026-08-06",
+        "event_type": "季度财报 / 核电长约 / Calpine整合",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "研究优先级上调，但资金动作保持克制，等下一次财报或合同数据验证。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、",
+        "business_impact": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求",
+        "valuation_impact": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+        "next_verification": [
+          "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。",
+          "920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。",
+          "Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+        ],
+        "source_url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-second-quarter-2026-results",
+        "sort_key": 20260806,
+        "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "event_index": 1,
         "event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
         "event_date": "2026-03-31",
         "event_type": "管理层展望 / 财务指引",
@@ -2632,7 +2714,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://investors.constellationenergy.com/events/event-details/constellation-energy-corporation-2026-business-and-earnings-outlook-conference",
         "sort_key": 20260331,
-        "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=constellation&event=1&return=company&v=20260505-1"
       }
     ],
     "shennan": [
@@ -2922,10 +3004,10 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     ]
   },
   "summary": {
-    "total": 38,
+    "total": 39,
     "companies": 6,
-    "valuation_update_needed": 17,
-    "positive": 31,
+    "valuation_update_needed": 18,
+    "positive": 32,
     "watch": 3
   }
 };

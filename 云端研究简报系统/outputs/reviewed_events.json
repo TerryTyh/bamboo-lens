@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:08:58",
+  "generated_at": "2026-08-11T22:54:50",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -353,6 +353,42 @@
       }
     ],
     "constellation": [
+      {
+        "title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+        "source_candidate_title": "Q2 2026 Constellation Energy Corporation Earnings Conference Call",
+        "date": "2026-08-06",
+        "type": "季度财报 / 核电长约 / Calpine整合",
+        "priority": "P1",
+        "action": "维持A池核心；把全年EPS兑现、920MW长约质量、Crane 2027重启和Calpine资产处置列为下一轮验证主线。",
+        "sort_key": 20260806,
+        "source_url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-second-quarter-2026-results",
+        "source_doc": "",
+        "source_summary": [
+          "Constellation 在 2026-08-06 发布 2026Q2 业绩。原文说明，Q2 GAAP 每股净收益从上年同期 2.67 美元降至 1.42 美元，但调整后经营 EPS 从 1.91 美元升至 2.55 美元；公司同时把全年调整后经营 EPS 指引上修到 11.50-12.50 美元。",
+          "经营和资产进展方面，公司披露 FERC 已批准把 Eddystone 3/4 的容量互联权转移到 Crane Clean Energy Center，NRC 也批准了 Crane 的燃料许可修订请求；管理层仍把 Crane 重启目标放在 2027 年。公司还签署了额外 920MW 清洁可靠发电长期 PPA，客户为投资级别，期限 15-20 年，预计 2029-2032 年开始。",
+          "Calpine 整合方面，公司在 2026 年 8 月与 LS Power 达成协议，以 8.60 亿美元、扣除交割调整前的价格出售 Brazos Valley Energy Center，这是完成 Calpine 收购监管承诺的最后一项资产出售。核电运营侧，Q2 核电发电量为 44,160GWh，剔除 Salem 和 STP 后自有核电容量因子为 93.0%。"
+        ],
+        "fact": "Constellation 2026Q2 披露 GAAP 每股净收益 1.42 美元、调整后经营 EPS 2.55 美元，并把全年调整后经营 EPS 指引上修至 11.50-12.50 美元。公司同时推进 Crane Clean Energy Center 重启：FERC 批准容量互联权转移，NRC 批准燃料许可修订；新增签署 920MW 长期清洁电力 PPA，期限 15-20 年，预计 2029-2032 年开始；并同意以 8.60 亿美元出售 Brazos Valley Energy Center，完成 Calpine 监管承诺下最后一项资产出售。",
+        "evidence": [
+          "2026Q2 GAAP 每股净收益为 1.42 美元，低于 2025Q2 的 2.67 美元；调整后经营 EPS 为 2.55 美元，高于 2025Q2 的 1.91 美元。",
+          "公司把全年调整后经营 EPS 指引上修至 11.50-12.50 美元，高于 3 月展望中的 11.00-12.00 美元区间。",
+          "Crane Clean Energy Center 获得两项关键监管进展：FERC 批准容量互联权转移，NRC 批准燃料许可修订请求，管理层称这些进展推动 2027 年重启目标。",
+          "公司新增签署 920MW 长期清洁可靠发电 PPA，客户为多元化投资级客户，期限 15-20 年，预计 2029-2032 年启动。",
+          "公司同意以 8.60 亿美元、扣除交割调整前的价格出售 606MW Brazos Valley Energy Center，预计年底前完成，属于 Calpine 收购监管承诺下最后一项必要资产出售。",
+          "Q2 核电发电量为 44,160GWh，剔除 Salem 和 STP 后自有核电容量因子 93.0%，低于上年同期 94.8%，主要受计划换料停机天数增加影响。"
+        ],
+        "judgment": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、Brazos Valley 出售仍需 DOJ 批准，且 Crane 2027 重启仍有执行和监管风险。",
+        "business_analysis": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。",
+        "valuation_analysis": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+        "verification": [
+          "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。",
+          "920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。",
+          "Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。",
+          "Brazos Valley Energy Center 出售能否获得 DOJ 批准并在年底前完成，Calpine 整合是否继续释放 EPS 和自由现金流增厚。",
+          "核电容量因子、换料停机天数和非计划停机天数是否恢复，避免运营波动抵消合同重定价收益。"
+        ],
+        "reviewed_at": "2026-08-11T22:54:50"
+      },
       {
         "title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
         "source_candidate_title": "Constellation Energy Corporation 2026 Business and Earnings Outlook Conference Call",

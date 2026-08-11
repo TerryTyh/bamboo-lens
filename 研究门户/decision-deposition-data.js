@@ -1,8 +1,115 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-08-11T12:41:24",
-  "source_event_store_at": "2026-08-11T12:41:24",
-  "source_decision_impact_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-11T22:54:50",
+  "source_event_store_at": "2026-08-11T22:54:50",
+  "source_decision_impact_at": "2026-08-11T22:54:50",
   "items": [
+    {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "event_index": 0,
+      "event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
+      "event_date": "2026-08-06",
+      "priority": "P1",
+      "direction": "正向强化",
+      "trigger_type": "维持核心并观察加仓条件",
+      "status": "needs_model_update",
+      "status_label": "可回写，需同步估值/财务",
+      "writeback_ready": true,
+      "writeback_quality_score": 10,
+      "writeback_blockers": [],
+      "quality": "可自动生成回写建议",
+      "update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "raw_update_targets": [
+        "当前结论",
+        "公司理解",
+        "财务数据地图",
+        "估值模型",
+        "跟踪重点与风险"
+      ],
+      "recommended_updates": [
+        {
+          "target": "当前结论",
+          "fields": [
+            "latestEvent",
+            "businessImpact",
+            "valuationImpact",
+            "nextCheck"
+          ],
+          "suggestion": "把最新事件更新为「Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段」；业务影响写入：业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。；估值/动作写入：估值/动作"
+        },
+        {
+          "target": "公司理解",
+          "fields": [
+            "businessMap",
+            "positioning",
+            "moatDetail"
+          ],
+          "suggestion": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。"
+        },
+        {
+          "target": "财务数据地图",
+          "fields": [
+            "financeMap",
+            "financials"
+          ],
+          "suggestion": "如果事件包含收入、利润率、现金流、capex、订单或 backlog 数字，应把关键数字进入财务表格，并解释它改变了哪条财务判断。"
+        },
+        {
+          "target": "估值模型",
+          "fields": [
+            "valuationModel",
+            "valuationFrame"
+          ],
+          "suggestion": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。"
+        },
+        {
+          "target": "跟踪重点与风险",
+          "fields": [
+            "focus",
+            "trackingGuide",
+            "risk"
+          ],
+          "suggestion": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。；920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。；Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+        }
+      ],
+      "writeback_plan": [
+        {
+          "section": "当前结论",
+          "plan": "用「Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段」更新最新事件；当前结论只写这条事件对主线判断的增量，不覆盖长期判断底稿。"
+        },
+        {
+          "section": "公司理解",
+          "plan": "业务层面，这条业绩说明 Constellation 的核心不再只是发电资产规模，而是用核电、天然气和商业平台把可靠电力卖成长期合同。920MW、15-20 年、投资级客户的 PPA 直接验证了大客户对清洁、稳定、可调度电力的需求；Crane 的互联权和燃料许可进展把退役核电资产重启从概念推进到监管里程碑；Calpine 相关资产出售则降低整合收尾的不确定性。核电容量因子短期受换料停机影响下滑，提醒后续仍要看运营可用率，而不是只看合同需求。"
+        },
+        {
+          "section": "财务数据地图",
+          "plan": "提取收入、利润率、现金流、订单、backlog、capex、应收或存货等可核验数字，写成财务地图的增量注释。"
+        },
+        {
+          "section": "估值模型",
+          "plan": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。"
+        },
+        {
+          "section": "跟踪重点与风险",
+          "plan": "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。；920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。；Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+        }
+      ],
+      "reason": "这是一条 P1 级财报验证事件。与 3 月 Outlook 相比，Q2 不是只重复成长型电力平台叙事，而是把调整后 EPS、全年指引、核电长约、Crane 重启和 Calpine 整合处置同时推进了一步。正面是调整后 EPS 上修和 920MW 长约说明核电与可调度电力的商业价值正在落到合同和业绩上；约束是 GAAP EPS 同比下降、换料停机影响容量因子、",
+      "valuation_impact": "估值/动作上，上修全年调整后经营 EPS 至 11.50-12.50 美元，支持 Constellation 从传统公用事业向成长型电力平台重估，但还不足以无条件上调估值区间。关键变量是 920MW 长约的价格和回报、147 million MWh 可用核电电量后续能否继续溢价签约、Crane 是否按 2027 年重启、Calpine 整合后自由现金流是否兑现。动作上维持核心跟踪，不因单季财报追高；若后续 EPS、自由现金流和合同溢价连续兑现，再提高估值容忍度。",
+      "next_verification": [
+        "2026 全年调整后经营 EPS 是否落在 11.50-12.50 美元区间，后续是否继续上修或出现一次性项目扰动。",
+        "920MW 长期 PPA 的客户结构、合同价格、开始时间和毛利贡献是否在后续材料中披露。",
+        "Crane Clean Energy Center 的 2027 重启是否按监管、燃料采购、工程和并网计划推进。"
+      ],
+      "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
+      "sort_key": 20260806
+    },
     {
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -3913,7 +4020,7 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
     {
       "company": "constellation",
       "company_name": "Constellation Energy",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "2026 Outlook 给出 Base EPS 高增长目标，把公司定位推向成长型电力平台",
       "event_date": "2026-03-31",
       "priority": "P1",
@@ -4013,14 +4120,14 @@ window.BAMBOO_LENS_DECISION_DEPOSITION = {
         "147 million MWh 年度可用核电电量能否签出高质量长期合同，并体现溢价。",
         "Calpine 整合后天然气、地热和商业平台是否带来 EPS 与自由现金流增厚。"
       ],
-      "detail_link": "./event.html?company=constellation&event=0&return=company&v=20260505-1",
+      "detail_link": "./event.html?company=constellation&event=1&return=company&v=20260505-1",
       "sort_key": 20260331
     }
   ],
   "summary": {
-    "total": 38,
-    "ready": 35,
-    "needs_model_update": 35,
+    "total": 39,
+    "ready": 36,
+    "needs_model_update": 36,
     "watch_only": 3,
     "blocked": 0,
     "companies": 6
