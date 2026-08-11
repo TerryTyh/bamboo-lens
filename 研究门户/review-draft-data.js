@@ -1,8 +1,8 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-08-11T05:08:58",
+  "generated_at": "2026-08-11T12:41:24",
   "summary": {
     "total": 15,
-    "companies": 6,
+    "companies": 5,
     "with_source_body": 7,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -251,6 +251,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "fii::工业富联：2026年半年度报告": {
+      "draft_id": "auto-fii-工业富联-2026年半年度报告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年半年度报告",
+      "date": "2026-08-12",
+      "score": 13,
+      "readiness_score": 21,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：2026年半年度报告摘要": {
+      "draft_id": "auto-fii-工业富联-2026年半年度报告摘要",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年半年度报告摘要",
+      "date": "2026-08-12",
+      "score": 13,
+      "readiness_score": 21,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告摘要.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "nvidia::bristol myers squibb building life science industry’s most advanced ai factory on nvidia vera rubin": {
       "draft_id": "auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru",
       "company": "nvidia",
@@ -477,62 +533,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "wus::沪电股份：2026年7月22日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月22日投资者关系活动记录表",
-      "date": "2026-7-22",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "wus::沪电股份：2026年7月21日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年7月21日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月21日投资者关系活动记录表",
-      "date": "2026-7-21",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月21日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -844,6 +844,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ],
     "fii": [
       {
+        "draft_id": "auto-fii-工业富联-2026年半年度报告",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：2026年半年度报告",
+        "date": "2026-08-12",
+        "score": 13,
+        "readiness_score": 21,
+        "investment_signal_score": 9,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-fii-工业富联-2026年半年度报告摘要",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：2026年半年度报告摘要",
+        "date": "2026-08-12",
+        "score": 13,
+        "readiness_score": 21,
+        "investment_signal_score": 9,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告摘要.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
         "draft_id": "auto-fii-三季度报告",
         "company": "fii",
         "company_name": "工业富联",
@@ -891,64 +947,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
         "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
-    "wus": [
-      {
-        "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年7月22日投资者关系活动记录表",
-        "date": "2026-7-22",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年7月21日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年7月21日投资者关系活动记录表",
-        "date": "2026-7-21",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月21日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1200,6 +1198,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
+      "draft_id": "auto-fii-工业富联-2026年半年度报告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年半年度报告",
+      "date": "2026-08-12",
+      "score": 13,
+      "readiness_score": 21,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-2026年半年度报告摘要",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年半年度报告摘要",
+      "date": "2026-08-12",
+      "score": 13,
+      "readiness_score": 21,
+      "investment_signal_score": 9,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年半年度报告摘要.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
       "draft_id": "auto-constellation-q2-2026-earnings-call-information",
       "company": "constellation",
       "company_name": "Constellation Energy",
@@ -1299,62 +1353,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月22日投资者关系活动记录表",
-      "date": "2026-7-22",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年7月21日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年7月21日投资者关系活动记录表",
-      "date": "2026-7-21",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月21日投资者关系活动记录表.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

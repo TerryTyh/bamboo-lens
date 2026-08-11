@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T12:44:33",
+  "generated_at": "2026-08-11T12:41:24",
   "companies": {
     "nvidia": [
       {
@@ -3531,6 +3531,51 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260804-134717__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+      },
+      {
+        "title": "工业富联：2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+        "date": "2026-08-12",
+        "fetched_at": "20260811-124030",
+        "type": "官方候选",
+        "fact": "日期：2026-08-12；标题：工业富联：2026年半年度募集资金存放、管理与实际使用情况的专项报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260812,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+      },
+      {
+        "title": "工业富联：2026年半年度报告",
+        "date": "2026-08-12",
+        "fetched_at": "20260811-124030",
+        "type": "官方候选",
+        "fact": "日期：2026-08-12；标题：工业富联：2026年半年度报告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260812,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+      },
+      {
+        "title": "工业富联：2026年半年度报告摘要",
+        "date": "2026-08-12",
+        "fetched_at": "20260811-124030",
+        "type": "官方候选",
+        "fact": "日期：2026-08-12；标题：工业富联：2026年半年度报告摘要；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260812,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
       }
     ],
     "jcet": [
