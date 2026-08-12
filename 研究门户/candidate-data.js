@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-08-11T12:41:24",
+  "generated_at": "2026-08-12T12:44:46",
   "companies": {
     "nvidia": [
       {
@@ -4511,6 +4511,29 @@ window.BAMBOO_LENS_CANDIDATES = {
       }
     ],
     "wus": [
+      {
+        "title": "沪电股份：2026年8月12日投资者关系活动记录表",
+        "date": "2026-8-12",
+        "fetched_at": "20260812-124353",
+        "type": "官方候选",
+        "fact": "日期：2026-8-12；标题：沪电股份：2026年8月12日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260812,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260812-124353__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
+      },
       {
         "title": "沪电股份：2026年7月22日投资者关系活动记录表",
         "date": "2026-7-22",

@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-08-11T22:54:50",
-  "source_generated_at": "2026-08-11T22:54:50",
+  "generated_at": "2026-08-12T12:44:46",
+  "source_generated_at": "2026-08-12T12:44:46",
   "items": [
     {
       "company": "constellation",

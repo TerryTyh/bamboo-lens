@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-08-11T22:54:50",
-  "source_event_store_at": "2026-08-11T22:54:50",
-  "source_decision_impact_at": "2026-08-11T22:54:50",
+  "generated_at": "2026-08-12T12:44:46",
+  "source_event_store_at": "2026-08-12T12:44:46",
+  "source_decision_impact_at": "2026-08-12T12:44:46",
   "items": [
     {
       "company": "constellation",

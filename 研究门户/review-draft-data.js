@@ -1,13 +1,13 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-08-11T22:54:50",
+  "generated_at": "2026-08-12T12:44:46",
   "summary": {
     "total": 13,
     "companies": 5,
-    "with_source_body": 7,
+    "with_source_body": 6,
     "suppressed_count": 2,
     "readiness_counts": {
-      "ready_for_deep_review": 6,
-      "needs_source": 6,
+      "ready_for_deep_review": 5,
+      "needs_source": 7,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -113,20 +113,20 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
+        "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-        "date": "2026-06-12",
-        "score": 11,
-        "readiness_score": 31,
-        "investment_signal_score": 12,
+        "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+        "date": "2026-06-22",
+        "score": 10,
+        "readiness_score": 28,
+        "investment_signal_score": 6,
         "readiness_lane": "ready_for_deep_review",
         "readiness_label": "优先深读",
         "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
         "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
+        "source_url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -299,31 +299,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::nvidia blackwell leads on first agentic ai infrastructure benchmark": {
-      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-      "date": "2026-06-12",
-      "score": 11,
-      "readiness_score": 31,
-      "investment_signal_score": 12,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "nvidia::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson": {
       "draft_id": "auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson",
       "company": "nvidia",
@@ -398,6 +373,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "估值模型"
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    "wus::沪电股份：2026年8月12日投资者关系活动记录表": {
+      "draft_id": "auto-wus-沪电股份-2026年8月12日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年8月12日投资者关系活动记录表",
+      "date": "2026-8-12",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年8月12日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     "fii::三季度报告": {
@@ -589,31 +592,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-        "date": "2026-06-12",
-        "score": 11,
-        "readiness_score": 31,
-        "investment_signal_score": 12,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
         "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -780,6 +758,64 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       }
     ],
+    "wus": [
+      {
+        "draft_id": "auto-wus-沪电股份-2026年8月12日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年8月12日投资者关系活动记录表",
+        "date": "2026-8-12",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年8月12日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "title": "沪电股份：2026年7月22日投资者关系活动记录表",
+        "date": "2026-7-22",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "shennan": [
       {
         "draft_id": "auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表",
@@ -799,36 +835,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
         "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年7月22日-24日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
-    "wus": [
-      {
-        "draft_id": "auto-wus-沪电股份-2026年7月22日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年7月22日投资者关系活动记录表",
-        "date": "2026-7-22",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月22日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -941,31 +947,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "估值模型"
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-      "date": "2026-06-12",
-      "score": 11,
-      "readiness_score": 31,
-      "investment_signal_score": 12,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
@@ -1093,6 +1074,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.md",
       "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-wus-沪电股份-2026年8月12日投资者关系活动记录表",
+      "company": "wus",
+      "company_name": "沪电股份",
+      "title": "沪电股份：2026年8月12日投资者关系活动记录表",
+      "date": "2026-8-12",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年8月12日投资者关系活动记录表.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",
