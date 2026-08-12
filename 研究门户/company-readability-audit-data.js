@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-08-12T12:44:46",
-  "source_overrides_at": "2026-08-12T12:44:46",
+  "generated_at": "2026-08-12T22:40:44",
+  "source_overrides_at": "2026-08-12T22:40:44",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "fii",
-      "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
-      "sourceEventDate": "2026-07-10",
+      "sourceEventTitle": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+      "sourceEventDate": "2026-08-12",
       "status": "healthy",
       "counts": {
         "finance_rows": 3,

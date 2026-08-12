@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T12:44:46",
-  "source_overrides_at": "2026-08-12T12:44:46",
+  "generated_at": "2026-08-12T22:40:44",
+  "source_overrides_at": "2026-08-12T22:40:44",
   "items": [
     {
       "company": "constellation",
@@ -38,8 +38,8 @@
     },
     {
       "company": "fii",
-      "sourceEventTitle": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
-      "sourceEventDate": "2026-07-10",
+      "sourceEventTitle": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+      "sourceEventDate": "2026-08-12",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
@@ -54,7 +54,7 @@
         "财务数据地图": 7,
         "估值模型": 3
       },
-      "depositEvents": 1,
+      "depositEvents": 2,
       "writebackQuality": {
         "status": "needs_model_update",
         "statusLabel": "可回写，需同步估值/财务",
@@ -64,7 +64,7 @@
       "warnings": [],
       "suggestions": [],
       "strengths": [
-        "已关联 1 条正式事件。",
+        "已关联 2 条正式事件。",
         "业务影响有独立判断。",
         "估值/动作影响有独立判断。",
         "下一步验证点较具体。"

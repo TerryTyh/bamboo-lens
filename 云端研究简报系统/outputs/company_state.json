@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T12:44:46",
-  "source_generated_at": "2026-08-12T12:44:46",
+  "generated_at": "2026-08-12T22:40:44",
+  "source_generated_at": "2026-08-12T22:40:44",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
       "source_event_date": "2026-08-04",
@@ -18,7 +18,7 @@
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
       "source_event_date": "2026-08-06",
@@ -116,7 +116,7 @@
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,15 +144,15 @@
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-12T12:44:46",
+      "updated_at": "2026-08-12T22:40:44",
       "source_event_index": 0,
-      "source_event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
-      "source_event_date": "2026-07-10",
-      "latestEvent": "2026-07-10｜2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
-      "businessImpact": "业务层面，云服务商 AI 服务器同比增长超过 230%，意味着工业富联正受益于全球 AI 基础设施资本开支从 GPU 芯片向服务器整机、机柜集成和高速互联设备传导。800G 以上数据中心交换机出货量同比增长 1.4 倍，说明公司不仅承接 AI 服务器组装，也在数据中心网络设备侧获得需求弹性。下一代大客户联合研发产品若在下半年量产，将进一步验证公司在头部客户设计协同、供应链组织和规模交付上的位置。",
-      "valuationImpact": "估值/动作上，这条事件足以把工业富联从普通候选观察提升为 AI 服务器链条重点跟踪对象，但不直接给买入金额或追高动作。正面是利润弹性已被半年度预告验证，且扣非增速与归母净利增速一致，说明增长不是主要靠一次性收益。需要等待半年报确认收入结构、毛利率、经营现金流、存货、应收账款和客户集中度；若高增长同时伴随现金流改善和产品结构升级，估值容忍度可上调，若增长主要来自低毛利放量或营运资本占用扩大，则应降低动作优先级。",
-      "nextCheck": "读取 2026 年半年报，拆解云计算业务、通讯及移动网络设备的收入、毛利率和利润贡献。；核对经营现金流、存货、应收账款和资本开支，判断 AI 服务器放量是否带来营运资本压力。；跟踪下一代大客户联合研发产品在 2026H2 是否按期量产，以及是否对应更高单机价值量或毛利率。",
-      "action": "从候选观察提升为重点跟踪；等待半年报验证收入结构、毛利率、现金流和客户集中度。",
+      "source_event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+      "source_event_date": "2026-08-12",
+      "latestEvent": "2026-08-12｜2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+      "businessImpact": "业务层面，工业富联的主线从 AI 服务器 ODM 概念变成云计算和高速网络双轮验证。云服务商 AI 服务器收入增长 2.3 倍，说明全球 AI 资本开支已经传导到服务器整机、机柜和供应链交付；GPU 与 ASIC 机柜同步放量，降低了公司只押单一路线的风险。高速网络收入增长 1 倍、800G 以上交换机和 SuperNIC 出货增长 1.4 倍，则把公司连接到 AI 集群互联瓶颈。Vera Rubin 前瞻卡位、液冷散热和电源管理能力意味着下一轮验证不只是出货数量，而是高功率...",
+      "valuationImpact": "估值/动作上，半年报支持工业富联继续作为 AI 服务器链条重点跟踪对象，并提高对业绩兑现的认可度，但不支持单纯因高增速追高。正面是扣非利润增速接近归母净利，经营现金流由 14.07 亿元提升至 73.91 亿元，说明利润并非完全停留在账面；约束是存货升至 1,921.09 亿元、应收升至 1,275.22 亿元，在建工程也随 AI 产能扩充增加。动作上应把估值容忍度与现金流质量绑定：若 2026H2 高端平台量产继续放量，同时存货周转、应收回款和毛利率不恶化，可上调对 B+...",
+      "nextCheck": "2026H2 Vera Rubin 或下一代大客户联合研发产品是否按期量产，是否带来更高单机价值量和更好毛利率。；云计算业务和通信网络业务是否披露更细的收入、毛利率或客户结构，尤其是 AI 服务器、800G/1.6T 交换机、SuperNIC 和液冷相关贡献。；存货从 1,509.13 亿元升至 1,921.09 亿元后，Q3/Q4 是否继续上行，是否出现跌价准备或周转恶化。",
+      "action": "维持AI服务器ODM重点跟踪；把验证重点从利润预告转向现金流、存货、应收和高端平台量产质量。",
       "priority": "P1",
       "sourceLink": "./event.html?company=fii&event=0&return=company&v=20260412-24"
     }

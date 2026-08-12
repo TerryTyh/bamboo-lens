@@ -1,7 +1,48 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-08-12T12:44:46",
-  "source_generated_at": "2026-08-12T12:44:46",
+  "generated_at": "2026-08-12T22:40:44",
+  "source_generated_at": "2026-08-12T22:40:44",
   "items": [
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "event_index": 0,
+      "event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+      "event_date": "2026-08-12",
+      "event_type": "半年报 / AI服务器 / 现金流质量验证",
+      "priority": "P1",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值",
+        "风险"
+      ],
+      "trigger_type": "维持核心并观察加仓条件",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型",
+          "跟踪重点与风险"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这条半年报把 7 月业绩预告中的利润弹性推进到正式财务验证。正面是收入、扣非利润和经营现金流同步改善，AI 服务器和高速网络设备不再只是订单叙事，而是已经进入收入、出货和利润表；同时 GPU、ASIC、液冷、整机柜、800G 交换机、SuperNIC 和 CPO 样机共同说明工业富联的角色在从普通代工向 AI 基础设施系统集成延伸。限制也更清楚：存货和应收随",
+      "business_impact": "业务层面，工业富联的主线从 AI 服务器 ODM 概念变成云计算和高速网络双轮验证。云服务商 AI 服务器收入增长 2.3 倍，说明全球 AI 资本开支已经传导到服务器整机、机柜和供应链交付；GPU 与 ASIC 机柜同步放量，降低了公司只押单一路线的风险。高速网络收入增长 1 倍、800G 以上交换机和 SuperNIC 出货增长 1.4 倍，则把公司连接到 AI 集群互联瓶颈。Vera Rubin 前瞻卡位、液冷散热和电源管理能力意",
+      "valuation_impact": "估值/动作上，半年报支持工业富联继续作为 AI 服务器链条重点跟踪对象，并提高对业绩兑现的认可度，但不支持单纯因高增速追高。正面是扣非利润增速接近归母净利，经营现金流由 14.07 亿元提升至 73.91 亿元，说明利润并非完全停留在账面；约束是存货升至 1,921.09 亿元、应收升至 1,275.22 亿元，在建工程也随 AI 产能扩充增加。动作上应把估值容忍度与现金流质量绑定：若 2026H2 高端平台量产继续放量，同时存货周转、应收回款和毛利率不恶化，可上调对 B+",
+      "next_verification": [
+        "2026H2 Vera Rubin 或下一代大客户联合研发产品是否按期量产，是否带来更高单机价值量和更好毛利率。",
+        "云计算业务和通信网络业务是否披露更细的收入、毛利率或客户结构，尤其是 AI 服务器、800G/1.6T 交换机、SuperNIC 和液冷相关贡献。",
+        "存货从 1,509.13 亿元升至 1,921.09 亿元后，Q3/Q4 是否继续上行，是否出现跌价准备或周转恶化。"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12487983",
+      "sort_key": 20260812,
+      "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+    },
     {
       "company": "constellation",
       "company_name": "Constellation Energy",
@@ -395,7 +436,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "fii",
       "company_name": "工业富联",
-      "event_index": 0,
+      "event_index": 1,
       "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "event_date": "2026-07-10",
       "event_type": "业绩预告 / AI服务器 / 高速交换机",
@@ -429,7 +470,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
       "sort_key": 20260710,
-      "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -2966,6 +3007,47 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "fii",
         "company_name": "工业富联",
         "event_index": 0,
+        "event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
+        "event_date": "2026-08-12",
+        "event_type": "半年报 / AI服务器 / 现金流质量验证",
+        "priority": "P1",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值",
+          "风险"
+        ],
+        "trigger_type": "维持核心并观察加仓条件",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型",
+            "跟踪重点与风险"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这条半年报把 7 月业绩预告中的利润弹性推进到正式财务验证。正面是收入、扣非利润和经营现金流同步改善，AI 服务器和高速网络设备不再只是订单叙事，而是已经进入收入、出货和利润表；同时 GPU、ASIC、液冷、整机柜、800G 交换机、SuperNIC 和 CPO 样机共同说明工业富联的角色在从普通代工向 AI 基础设施系统集成延伸。限制也更清楚：存货和应收随",
+        "business_impact": "业务层面，工业富联的主线从 AI 服务器 ODM 概念变成云计算和高速网络双轮验证。云服务商 AI 服务器收入增长 2.3 倍，说明全球 AI 资本开支已经传导到服务器整机、机柜和供应链交付；GPU 与 ASIC 机柜同步放量，降低了公司只押单一路线的风险。高速网络收入增长 1 倍、800G 以上交换机和 SuperNIC 出货增长 1.4 倍，则把公司连接到 AI 集群互联瓶颈。Vera Rubin 前瞻卡位、液冷散热和电源管理能力意",
+        "valuation_impact": "估值/动作上，半年报支持工业富联继续作为 AI 服务器链条重点跟踪对象，并提高对业绩兑现的认可度，但不支持单纯因高增速追高。正面是扣非利润增速接近归母净利，经营现金流由 14.07 亿元提升至 73.91 亿元，说明利润并非完全停留在账面；约束是存货升至 1,921.09 亿元、应收升至 1,275.22 亿元，在建工程也随 AI 产能扩充增加。动作上应把估值容忍度与现金流质量绑定：若 2026H2 高端平台量产继续放量，同时存货周转、应收回款和毛利率不恶化，可上调对 B+",
+        "next_verification": [
+          "2026H2 Vera Rubin 或下一代大客户联合研发产品是否按期量产，是否带来更高单机价值量和更好毛利率。",
+          "云计算业务和通信网络业务是否披露更细的收入、毛利率或客户结构，尤其是 AI 服务器、800G/1.6T 交换机、SuperNIC 和液冷相关贡献。",
+          "存货从 1,509.13 亿元升至 1,921.09 亿元后，Q3/Q4 是否继续上行，是否出现跌价准备或周转恶化。"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12487983",
+        "sort_key": 20260812,
+        "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "fii",
+        "company_name": "工业富联",
+        "event_index": 1,
         "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
         "event_date": "2026-07-10",
         "event_type": "业绩预告 / AI服务器 / 高速交换机",
@@ -2999,15 +3081,15 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
         "sort_key": 20260710,
-        "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
       }
     ]
   },
   "summary": {
-    "total": 39,
+    "total": 40,
     "companies": 6,
-    "valuation_update_needed": 18,
-    "positive": 32,
+    "valuation_update_needed": 19,
+    "positive": 33,
     "watch": 3
   }
 };
