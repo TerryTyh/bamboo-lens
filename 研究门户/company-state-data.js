@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-08-12T22:40:44",
-  "source_generated_at": "2026-08-12T22:40:44",
+  "generated_at": "2026-08-13T12:49:31",
+  "source_generated_at": "2026-08-13T12:49:31",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
       "source_event_date": "2026-08-04",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
       "source_event_date": "2026-08-06",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-12T22:40:44",
+      "updated_at": "2026-08-13T12:49:31",
       "source_event_index": 0,
       "source_event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
       "source_event_date": "2026-08-12",
