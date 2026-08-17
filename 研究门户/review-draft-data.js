@@ -1,13 +1,13 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-08-14T12:41:37",
+  "generated_at": "2026-08-17T12:26:33",
   "summary": {
     "total": 13,
     "companies": 5,
-    "with_source_body": 6,
+    "with_source_body": 5,
     "suppressed_count": 2,
     "readiness_counts": {
-      "ready_for_deep_review": 5,
-      "needs_source": 7,
+      "ready_for_deep_review": 4,
+      "needs_source": 8,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -84,32 +84,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-        "date": "2026-06-16",
-        "score": 10,
-        "readiness_score": 32,
-        "investment_signal_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       },
       {
@@ -321,32 +295,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::fastest, largest, strongest: nvidia blackwell sweeps mlperf training 6.0": {
-      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "date": "2026-06-16",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
     "wus::沪电股份：2026年8月12日投资者关系活动记录表": {
       "draft_id": "auto-wus-沪电股份-2026年8月12日投资者关系活动记录表",
       "company": "wus",
@@ -486,6 +434,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "eoptolink::新易盛：投资者关系管理信息20260719": {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260719",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20260719",
+      "date": "2026-07-20",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260719.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   },
   "companies": {
@@ -566,32 +542,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         }
       },
       {
-        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-        "date": "2026-06-16",
-        "score": 10,
-        "readiness_score": 32,
-        "investment_signal_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
         "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
         "company": "nvidia",
         "company_name": "NVIDIA",
@@ -661,6 +611,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
         "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-2026年半年度业绩预告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260719",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "title": "新易盛：投资者关系管理信息20260719",
+        "date": "2026-07-20",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260719.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -924,32 +902,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "date": "2026-06-16",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -1185,6 +1137,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年7月21日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20260719",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20260719",
+      "date": "2026-07-20",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20260719.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
