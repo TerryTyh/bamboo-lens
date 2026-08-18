@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T12:26:33",
-  "source_generated_at": "2026-08-17T12:26:33",
+  "generated_at": "2026-08-18T12:24:35",
+  "source_generated_at": "2026-08-18T12:24:35",
   "items": [
     {
       "company": "constellation",
@@ -1587,6 +1587,24 @@
       "score": 10
     },
     {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+      "date": "2026-08-19",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260818-122338__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20260819,
+      "score": 9
+    },
+    {
       "company": "wus",
       "company_name": "沪电股份",
       "source_type": "official_candidate",
@@ -1836,24 +1854,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260629-153008__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
       "event_index": null,
       "sort_key": 20260629,
-      "score": 9
-    },
-    {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年6月18日投资者关系活动记录表",
-      "date": "2026-6-18",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260618-144644__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260618,
       "score": 9
     },
     {
@@ -2865,42 +2865,6 @@
       "score": 6
     },
     {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
-      "date": "2026-06-18",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260618-144644__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260618,
-      "score": 6
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
-      "date": "2026-06-18",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260619-144247__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260618,
-      "score": 6
-    },
-    {
       "company": "eoptolink",
       "company_name": "新易盛",
       "source_type": "official_candidate",
@@ -2992,9 +2956,9 @@
     }
   ],
   "summary": {
-    "total": 166,
+    "total": 164,
     "formal_events": 85,
-    "official_candidates": 81,
+    "official_candidates": 79,
     "companies": 12
   }
 }

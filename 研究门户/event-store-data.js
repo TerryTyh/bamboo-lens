@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-08-17T12:26:33",
+  "generated_at": "2026-08-18T12:24:35",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -5414,6 +5414,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+          "date": "2026-08-19",
+          "fetched_at": "20260818-122338",
+          "type": "官方候选",
+          "fact": "日期：2026-08-19；标题：工业富联：关于召开2026年半年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260819,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260818-122338__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }
