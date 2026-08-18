@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
-  "generated_at": "2026-08-18T12:24:35",
-  "source_overrides_at": "2026-08-18T12:24:35",
+  "generated_at": "2026-08-18T22:33:37",
+  "source_overrides_at": "2026-08-18T22:33:37",
   "items": [
     {
       "company": "constellation",
@@ -54,8 +54,8 @@ window.BAMBOO_LENS_COMPANY_READABILITY_AUDIT = {
     },
     {
       "company": "nvidia",
-      "sourceEventTitle": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
-      "sourceEventDate": "2026-08-04",
+      "sourceEventTitle": "Cosmos 3与Omniverse把开放世界模型推向物理AI训练验证，NVIDIA继续把平台边界从芯片扩到仿真数据闭环",
+      "sourceEventDate": "2026-08-06",
       "status": "healthy",
       "counts": {
         "finance_rows": 0,

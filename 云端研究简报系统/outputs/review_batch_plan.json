@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T22:40:44",
+  "generated_at": "2026-08-18T22:33:37",
   "description": "按可读正文、候选分数和事件类型自动生成的草稿批处理优先级。这里只决定先读谁，不代表已经可以入库。",
   "summary": {
     "total": 13,
     "companies": 5,
-    "with_source_body": 6,
+    "with_source_body": 5,
     "suppressed_count": 2,
     "readiness_counts": {
-      "ready_for_deep_review": 5,
-      "needs_source": 7,
+      "ready_for_deep_review": 4,
+      "needs_source": 8,
       "low_investment_signal": 1
     },
     "priority_batch": [
@@ -85,32 +85,6 @@
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-        "date": "2026-06-16",
-        "score": 10,
-        "readiness_score": 32,
-        "investment_signal_score": 20,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       },
       {
@@ -217,32 +191,6 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "date": "2026-06-16",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -345,32 +293,6 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "date": "2026-06-16",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 20,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-fastest-largest-strongest-nvidia-blackwell-sweeps-mlperf-training-6-0.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-nairr-science-program-reshapes-scientific-research-powered-by-nvidia-ai-infrastructure",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -467,6 +389,34 @@
       "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.md",
       "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+      "date": "2026-08-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
+      "has_source_body": false,
       "company_page_writeback": {
         "targets": [
           "最新动态",

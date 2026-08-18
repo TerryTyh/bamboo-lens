@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T22:38:31",
+  "generated_at": "2026-08-18T23:12:00+08:00",
   "description": "已完成原文阅读和正式研判的事件会进入这里。build_event_store.py 会优先合并这些事件，再生成事件库和公司状态回写数据。",
   "companies": {
     "tsmc": [
@@ -1139,6 +1139,41 @@
           "警惕 Google、OpenAI 等大客户自研 ASIC 与多供应商策略对 NVIDIA 单位经济和议价能力的长期压制。"
         ],
         "reviewed_at": "2026-05-05T18:20:00"
+      },
+      {
+        "title": "Cosmos 3与Omniverse把开放世界模型推向物理AI训练验证，NVIDIA继续把平台边界从芯片扩到仿真数据闭环",
+        "source_candidate_title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+        "date": "2026-08-06",
+        "type": "平台技术 / 物理AI",
+        "priority": "P2",
+        "action": "维持A池核心；把物理AI和Omniverse作为数据中心需求的中长期验证线，不因单篇技术文章改变仓位",
+        "sort_key": 20260806,
+        "source_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+        "source_doc": "云端研究简报系统/outputs/official_candidates.json",
+        "source_summary": [
+          "NVIDIA 这篇 Omniverse 文章先解释开放模型为什么对物理 AI 重要：机器人、自动驾驶和视觉 AI 不是只识别画面，而是要理解环境如何变化、动作会导致什么后果，并在真实部署前用可控场景做训练、测试和验证。文章把 world models 定义为能够学习物理环境行为、预测下一步状态、生成世界与动作数据的模型底座。",
+          "文章的核心产品线索是 Cosmos 3 和 Omniverse。NVIDIA 称 Cosmos 3 把开放世界模型能力组合成一个 open model family，并已在机器人、自动驾驶和视觉 AI 中被采用；Omniverse libraries 作为 NVIDIA Agent Toolkit 的一部分，提供构建 simulation-ready worlds 的预置能力，让团队在真实部署前训练、测试和验证物理 AI 系统。",
+          "原文还说明了物理 AI 数据瓶颈：真实世界数据难以大规模采集，稀有事件和长尾场景难以安全、重复复现。开放世界模型的价值在于生成更多有物理关系的数据、更多天气/光照/物体/轨迹变化的环境，并允许团队通过可访问权重、可改许可证和 post-training 工具，把通用模型适配到特定机器人、传感器、车辆或任务。"
+        ],
+        "fact": "2026-08-06，NVIDIA 在 Omniverse 系列文章中披露开放世界模型与物理 AI 的平台进展：公司把 world models 描述为可学习物理环境行为、预测未来状态并生成 physically grounded world and action data 的模型底座；Cosmos 3 被定位为开放模型家族，面向机器人、自动驾驶和视觉 AI；Omniverse libraries 作为 NVIDIA Agent Toolkit 的一部分，用于构建 simulation-ready worlds，帮助团队在真实部署前训练、测试和验证系统。原文明确提到 NVIDIA 此前加入超过 200 家公司和组织签署的开放权重与美国 AI 领导力公开信，并强调物理 AI 部署需要可访问模型权重、允许适配的许可证和 post-training 工具。",
+        "evidence": [
+          "文章称物理 AI 不只是理解外观，而是要理解和预测后果；world models 用来学习物理环境行为、预测下一步状态并生成世界与动作数据。",
+          "NVIDIA 把 Cosmos 3 描述为开放模型家族，聚合世界模型能力，并面向机器人、自动驾驶和视觉 AI 场景。",
+          "Omniverse libraries 被放入 NVIDIA Agent Toolkit，提供构建 simulation-ready worlds 的预置能力，用于训练、测试和验证真实部署前的物理 AI 系统。",
+          "原文指出真实物理 AI 数据昂贵且难以大规模采集，稀有事件和长尾场景尤其难以安全、重复复现。",
+          "文章强调通用模型需要通过可访问权重、允许适配的许可证和 post-training 工具，才能贴合具体机器人、车辆、传感器配置和运行环境。"
+        ],
+        "judgment": "这是一条P2级平台技术事件，不是短期收入确认事件。它强化的是 NVIDIA 在物理 AI 中“GPU算力 + 世界模型 + Omniverse仿真 + Agent Toolkit工具链”的系统级平台位置：客户如果要把机器人、自动驾驶或视觉 AI 从演示推进到可验证部署，数据生成、仿真、后训练和验证会成为新的算力消耗来源。限制也要保留：原文没有披露商业订单、价格、收入规模或付费客户数量，不能把它直接当作财报催化；它更适合写入 NVIDIA 公司页的业务理解和中长期验证线。",
+        "business_analysis": "业务上，这条信息把 NVIDIA 的物理 AI 主线从单一硬件需求扩展到训练数据和仿真闭环。机器人和自动驾驶的难点在于真实数据稀缺、长尾场景复现困难、不同设备和传感器需要适配；Cosmos 3 和 Omniverse 如果能成为团队生成场景、测试策略、做后训练的默认工具，就会增加 NVIDIA 平台在开发流程中的黏性。它对数据中心业务的影响不是立刻新增一个可量化收入项，而是把未来算力需求从大模型训练/推理延伸到物理世界仿真、合成数据和验证工作负载。",
+        "valuation_analysis": "估值/动作上，这条事件支持继续给 NVIDIA 一部分平台溢价，但不能单独提高估值区间。正面含义是：NVIDIA 正在把 AI 工厂叙事扩展到机器人、自动驾驶、视觉 AI 和工业仿真，这些场景如果商业化，会拉长数据中心需求周期并提高软件/工具链附加率。约束是：文章没有收入、毛利率、客户转化或部署规模，现阶段只能作为中长期期权验证点；仓位动作维持原有A池核心跟踪，用后续财报、开发者采用、企业部署和 Omniverse/Cosmos 相关商业口径来验证，而不是因为技术叙事追高。",
+        "verification": [
+          "后续财报或投资者活动中，观察 NVIDIA 是否披露 Omniverse、Cosmos、Agent Toolkit 或物理 AI 相关的商业客户、收入贡献或软件订阅口径。",
+          "跟踪机器人、自动驾驶和视觉 AI 客户是否把 Cosmos 3 / Omniverse 用于生产级训练验证，而不只是研发演示。",
+          "观察数据中心收入结构中，推理、仿真、合成数据和后训练工作负载是否成为管理层反复强调的新需求来源。",
+          "验证开放模型策略是否带来生态扩散，同时不削弱 NVIDIA 在硬件、网络、软件栈和企业支持上的变现能力。",
+          "继续对照毛利率和资本开支，判断物理 AI 平台扩张是否能维持高盈利质量，而不是只增加研发和生态投入。"
+        ],
+        "reviewed_at": "2026-08-18T23:12:00+08:00"
       }
     ],
     "wus": [

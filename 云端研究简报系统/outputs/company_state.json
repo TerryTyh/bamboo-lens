@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T12:24:35",
-  "source_generated_at": "2026-08-18T12:24:35",
+  "generated_at": "2026-08-18T22:33:37",
+  "source_generated_at": "2026-08-18T22:33:37",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
-      "source_event_title": "NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
-      "source_event_date": "2026-08-04",
-      "latestEvent": "2026-08-04｜NVIDIA把GPUDirect Storage推向开源与行业标准，AI工厂数据路径从存储侧开始重新定价",
-      "businessImpact": "业务影响主要在AI工厂系统栈和数据中心平台化。大模型训练、长上下文推理、RAG、企业智能体和科学计算都在扩大数据读取与上下文窗口，存储不再只是低成本容量，而会影响GPU利用率、推理延迟、数据安全和单位算力产出。NVIDIA如果把GPUDirect Storage、BlueField/Vera数据服务、Spectrum-X网络和CUDA软件生态串起来，就能把服务器之外的存储、控制器和数据服务厂商也纳入其平台标准。对业务理解的增量是：NVIDIA的AI基础设施护城河不只来自GPU...",
-      "valuationImpact": "估值/动作上，这条事件支持NVIDIA的平台溢价和长期attach rate想象，但权重低于Blackwell/Rubin出货、云厂资本开支、网络收入、软件收入和明确客户部署。当前不因这篇文章提高估值区间或仓位动作；更合理的处理是维持核心跟踪，把GPU直连存储和Storage-Next作为AI工厂架构标准化观察点。若后续主流存储厂商把SCADA/cuFile做成正式产品、云厂在AI集群中默认部署GPUDirect Storage/Vera/BlueField数据路径，或NVI...",
-      "nextCheck": "跟踪Storage-Next是否发布具体标准、参考架构、认证清单或主流存储产品支持，而不是停留在会议文章和厂商名单。；观察DDN、KIOXIA、Micron及更多存储/闪存厂商是否把SCADA、cuFile或GPUDirect Storage支持写入正式产品规格和客户案例。；在NVIDIA后续财报中验证网络、DPU、CPU、软件和系统级解决方案收入是否加速，避免把架构趋势误读成已兑现收入。",
-      "action": "维持核心跟踪；把GPU直连存储、Vera/BlueField数据服务和Storage-Next标准化作为AI工厂平台控制点观察",
+      "source_event_title": "Cosmos 3与Omniverse把开放世界模型推向物理AI训练验证，NVIDIA继续把平台边界从芯片扩到仿真数据闭环",
+      "source_event_date": "2026-08-06",
+      "latestEvent": "2026-08-06｜Cosmos 3与Omniverse把开放世界模型推向物理AI训练验证，NVIDIA继续把平台边界从芯片扩到仿真数据闭环",
+      "businessImpact": "业务上，这条信息把 NVIDIA 的物理 AI 主线从单一硬件需求扩展到训练数据和仿真闭环。机器人和自动驾驶的难点在于真实数据稀缺、长尾场景复现困难、不同设备和传感器需要适配；Cosmos 3 和 Omniverse 如果能成为团队生成场景、测试策略、做后训练的默认工具，就会增加 NVIDIA 平台在开发流程中的黏性。它对数据中心业务的影响不是立刻新增一个可量化收入项，而是把未来算力需求从大模型训练/推理延伸到物理世界仿真、合成数据和验证工作负载。",
+      "valuationImpact": "估值/动作上，这条事件支持继续给 NVIDIA 一部分平台溢价，但不能单独提高估值区间。正面含义是：NVIDIA 正在把 AI 工厂叙事扩展到机器人、自动驾驶、视觉 AI 和工业仿真，这些场景如果商业化，会拉长数据中心需求周期并提高软件/工具链附加率。约束是：文章没有收入、毛利率、客户转化或部署规模，现阶段只能作为中长期期权验证点；仓位动作维持原有A池核心跟踪，用后续财报、开发者采用、企业部署和 Omniverse/Cosmos 相关商业口径来验证，而不是因为技术叙事追高。",
+      "nextCheck": "后续财报或投资者活动中，观察 NVIDIA 是否披露 Omniverse、Cosmos、Agent Toolkit 或物理 AI 相关的商业客户、收入贡献或软件订阅口径。；跟踪机器人、自动驾驶和视觉 AI 客户是否把 Cosmos 3 / Omniverse 用于生产级训练验证，而不只是研发演示。；观察数据中心收入结构中，推理、仿真、合成数据和后训练工作负载是否成为管理层反复强调的新需求来源。",
+      "action": "维持A池核心；把物理AI和Omniverse作为数据中心需求的中长期验证线，不因单篇技术文章改变仓位",
       "priority": "P2",
       "sourceLink": "./event.html?company=nvidia&event=0&return=company&v=20260412-24"
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
       "source_event_date": "2026-08-06",
@@ -116,7 +116,7 @@
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,7 +144,7 @@
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-18T12:24:35",
+      "updated_at": "2026-08-18T22:33:37",
       "source_event_index": 0,
       "source_event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
       "source_event_date": "2026-08-12",
