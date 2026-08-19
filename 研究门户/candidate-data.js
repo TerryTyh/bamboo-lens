@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-08-18T12:24:34",
+  "generated_at": "2026-08-19T12:24:11",
   "companies": {
     "nvidia": [
       {
@@ -5202,6 +5202,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 8,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
+        "title": "工业富联：关于以集中竞价交易方式首次回购股份的公告",
+        "date": "2026-08-20",
+        "fetched_at": "20260819-122319",
+        "type": "官方候选",
+        "fact": "日期：2026-08-20；标题：工业富联：关于以集中竞价交易方式首次回购股份的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260820,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260819-122319__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+        "company": "fii",
+        "company_name": "工业富联",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 6,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "工业富联：关于股份回购进展公告",
