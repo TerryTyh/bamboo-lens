@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-08-19T12:24:11",
-  "source_overrides_at": "2026-08-19T12:24:11",
+  "generated_at": "2026-08-19T22:56:55",
+  "source_overrides_at": "2026-08-19T22:56:55",
   "items": [
     {
       "company": "constellation",
@@ -38,8 +38,8 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
     },
     {
       "company": "fii",
-      "sourceEventTitle": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
-      "sourceEventDate": "2026-08-12",
+      "sourceEventTitle": "首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+      "sourceEventDate": "2026-08-20",
       "status": "healthy",
       "score": 100,
       "updatedSections": [
@@ -54,7 +54,7 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
         "财务数据地图": 7,
         "估值模型": 3
       },
-      "depositEvents": 2,
+      "depositEvents": 3,
       "writebackQuality": {
         "status": "needs_model_update",
         "statusLabel": "可回写，需同步估值/财务",
@@ -64,7 +64,7 @@ window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
       "warnings": [],
       "suggestions": [],
       "strengths": [
-        "已关联 2 条正式事件。",
+        "已关联 3 条正式事件。",
         "业务影响有独立判断。",
         "估值/动作影响有独立判断。",
         "下一步验证点较具体。"

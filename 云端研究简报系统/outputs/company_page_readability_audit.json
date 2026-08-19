@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T12:24:11",
-  "source_overrides_at": "2026-08-19T12:24:11",
+  "generated_at": "2026-08-19T22:56:55",
+  "source_overrides_at": "2026-08-19T22:56:55",
   "items": [
     {
       "company": "constellation",
@@ -29,8 +29,8 @@
     },
     {
       "company": "fii",
-      "sourceEventTitle": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
-      "sourceEventDate": "2026-08-12",
+      "sourceEventTitle": "首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+      "sourceEventDate": "2026-08-20",
       "status": "healthy",
       "counts": {
         "finance_rows": 3,

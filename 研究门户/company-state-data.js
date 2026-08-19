@@ -1,10 +1,10 @@
 window.BAMBOO_LENS_COMPANY_STATE = {
-  "generated_at": "2026-08-19T12:24:11",
-  "source_generated_at": "2026-08-19T12:24:11",
+  "generated_at": "2026-08-19T22:56:54",
+  "source_generated_at": "2026-08-19T22:56:54",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "Cosmos 3与Omniverse把开放世界模型推向物理AI训练验证，NVIDIA继续把平台边界从芯片扩到仿真数据闭环",
       "source_event_date": "2026-08-06",
@@ -18,7 +18,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "tsmc": {
       "name": "TSMC",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "TSMC 2026Q2营收NT$1.27万亿、EPS NT$27.25，2nm开始贡献收入且Q3指引继续上台阶",
       "source_event_date": "2026-07-16",
@@ -32,7 +32,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "microsoft": {
       "name": "Microsoft",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "FY26 Q3 Microsoft Cloud 达 545 亿美元，Azure 增长 40%，AI 年化收入 run-rate 超 370 亿美元",
       "source_event_date": "2026-04-29",
@@ -46,7 +46,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "alibaba": {
       "name": "阿里巴巴",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "云收入增长 36%、Qwen 月活超 3 亿，但集团利润和自由现金流被高投入明显压低",
       "source_event_date": "2026-03-19",
@@ -60,7 +60,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "inovance": {
       "name": "汇川技术",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "出海能力正在从叙事变成订单验证",
       "source_event_date": "2025-08-26 至 2026-01-07",
@@ -74,7 +74,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "gevernova": {
       "name": "GE Vernova",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "2026Q1：订单增长 71%，backlog 顺增 130 亿美元，电力周期继续兑现",
       "source_event_date": "2026-04-22",
@@ -88,7 +88,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "luxshare": {
       "name": "立讯精密",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "现金流与营运资本深度剖析笔记入库，形成可复用的验证清单",
       "source_event_date": "2026-04-19",
@@ -102,7 +102,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "constellation": {
       "name": "Constellation Energy",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "Q2调整后EPS升至2.55美元并上修全年指引，Constellation把核电长约、Crane重启和Calpine整合推进到兑现阶段",
       "source_event_date": "2026-08-06",
@@ -116,7 +116,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "shennan": {
       "name": "深南电路",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "深南电路2026H1归母净利润预增54%-69%，AI服务器与存储需求把PCB和封装基板同时推到高景气验证期",
       "source_event_date": "2026-07-14",
@@ -130,7 +130,7 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "wus": {
       "name": "沪电股份",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
       "source_event_title": "沪电7月调研披露泰国Q2单月产值超1.5亿元、亏损较Q1少1.48亿元，AI服务器PCB海外交付继续放量",
       "source_event_date": "2026-07-15",
@@ -144,16 +144,16 @@ window.BAMBOO_LENS_COMPANY_STATE = {
     },
     "fii": {
       "name": "工业富联",
-      "updated_at": "2026-08-19T12:24:11",
+      "updated_at": "2026-08-19T22:56:54",
       "source_event_index": 0,
-      "source_event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
-      "source_event_date": "2026-08-12",
-      "latestEvent": "2026-08-12｜2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
-      "businessImpact": "业务层面，工业富联的主线从 AI 服务器 ODM 概念变成云计算和高速网络双轮验证。云服务商 AI 服务器收入增长 2.3 倍，说明全球 AI 资本开支已经传导到服务器整机、机柜和供应链交付；GPU 与 ASIC 机柜同步放量，降低了公司只押单一路线的风险。高速网络收入增长 1 倍、800G 以上交换机和 SuperNIC 出货增长 1.4 倍，则把公司连接到 AI 集群互联瓶颈。Vera Rubin 前瞻卡位、液冷散热和电源管理能力意味着下一轮验证不只是出货数量，而是高功率...",
-      "valuationImpact": "估值/动作上，半年报支持工业富联继续作为 AI 服务器链条重点跟踪对象，并提高对业绩兑现的认可度，但不支持单纯因高增速追高。正面是扣非利润增速接近归母净利，经营现金流由 14.07 亿元提升至 73.91 亿元，说明利润并非完全停留在账面；约束是存货升至 1,921.09 亿元、应收升至 1,275.22 亿元，在建工程也随 AI 产能扩充增加。动作上应把估值容忍度与现金流质量绑定：若 2026H2 高端平台量产继续放量，同时存货周转、应收回款和毛利率不恶化，可上调对 B+...",
-      "nextCheck": "2026H2 Vera Rubin 或下一代大客户联合研发产品是否按期量产，是否带来更高单机价值量和更好毛利率。；云计算业务和通信网络业务是否披露更细的收入、毛利率或客户结构，尤其是 AI 服务器、800G/1.6T 交换机、SuperNIC 和液冷相关贡献。；存货从 1,509.13 亿元升至 1,921.09 亿元后，Q3/Q4 是否继续上行，是否出现跌价准备或周转恶化。",
-      "action": "维持AI服务器ODM重点跟踪；把验证重点从利润预告转向现金流、存货、应收和高端平台量产质量。",
-      "priority": "P1",
+      "source_event_title": "首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+      "source_event_date": "2026-08-20",
+      "latestEvent": "2026-08-20｜首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+      "businessImpact": "业务上，这条公告不改变工业富联 AI 服务器、云计算和高速网络的经营主线。真正决定公司研究层级的仍是 2026H2 高端平台量产、云服务商 AI 服务器增长、800G/1.6T 网络设备、存货周转、应收回款和经营现金流质量。回购的作用更多在资本配置层面：如果公司能在 AI 服务器放量带来营运资本占用的同时持续拿出现金回购，说明利润兑现和现金管理有一定余地；如果后续只执行很小比例，则不能把它解读为强股东回报。",
+      "valuationImpact": "估值/动作上，首次回购对工业富联形成边际估值支撑，但不足以单独提高估值区间或触发追高。正面是公司用约 1.49 亿元开始兑现 10-20 亿元方案，给市场提供了价格承接和管理层态度信号；约束是回购资金规模相对公司市值和半年报利润都不大，而且回购股份拟用于出售，注销只有在逾期未出售时发生，因此不能直接按注销回购处理。动作上维持 AI 服务器 ODM 重点跟踪，把回购完成比例、均价、用途和现金流承压情况放入后续验证。",
+      "nextCheck": "跟踪 2026 年 10 月 26 日前累计回购金额是否接近 10 亿元下限，还是只停留在首笔执行。；观察后续回购均价、数量和节奏，判断公司是否在估值明显回落时持续买入。；确认回购股份后续用于出售还是最终注销，避免把未注销股份直接计入 EPS 增厚。",
+      "action": "维持AI服务器ODM重点跟踪；把回购执行作为估值支撑和资本配置纪律观察，不替代现金流与存货验证。",
+      "priority": "P2",
       "sourceLink": "./event.html?company=fii&event=0&return=company&v=20260412-24"
     }
   }

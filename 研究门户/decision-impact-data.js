@@ -1,11 +1,50 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-08-19T12:24:11",
-  "source_generated_at": "2026-08-19T12:24:11",
+  "generated_at": "2026-08-19T22:56:55",
+  "source_generated_at": "2026-08-19T22:56:54",
   "items": [
     {
       "company": "fii",
       "company_name": "工业富联",
       "event_index": 0,
+      "event_title": "首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+      "event_date": "2026-08-20",
+      "event_type": "资本配置 / 股份回购",
+      "priority": "P2",
+      "direction": "正向强化",
+      "dimensions": [
+        "业务",
+        "财务",
+        "估值"
+      ],
+      "trigger_type": "维持观察",
+      "valuation_update_needed": true,
+      "decision_output": {
+        "confidence_change": "小幅上调确信度",
+        "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+        "update_targets": [
+          "当前结论",
+          "公司理解",
+          "财务数据地图",
+          "估值模型"
+        ],
+        "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+      },
+      "decision_change": "这是一条 P2 级资本配置事件。它的核心不是证明 AI 服务器业务继续增长，而是说明工业富联在半年报高增长之后开始实际执行股份回购，用现金行为回应估值和股东权益。正面含义是：首次投入约 1.49 亿元，说明回购不再停留在董事会方案；回购价格远低于 103 元上限，显示公司在当前价格区间愿意开始买入。限制也明确：首笔金额仅约占 10 亿元下限的 14.9%，占",
+      "business_impact": "业务上，这条公告不改变工业富联 AI 服务器、云计算和高速网络的经营主线。真正决定公司研究层级的仍是 2026H2 高端平台量产、云服务商 AI 服务器增长、800G/1.6T 网络设备、存货周转、应收回款和经营现金流质量。回购的作用更多在资本配置层面：如果公司能在 AI 服务器放量带来营运资本占用的同时持续拿出现金回购，说明利润兑现和现金管理有一定余地；如果后续只执行很小比例，则不能把它解读为强股东回报。",
+      "valuation_impact": "估值/动作上，首次回购对工业富联形成边际估值支撑，但不足以单独提高估值区间或触发追高。正面是公司用约 1.49 亿元开始兑现 10-20 亿元方案，给市场提供了价格承接和管理层态度信号；约束是回购资金规模相对公司市值和半年报利润都不大，而且回购股份拟用于出售，注销只有在逾期未出售时发生，因此不能直接按注销回购处理。动作上维持 AI 服务器 ODM 重点跟踪，把回购完成比例、均价、用途和现金流承压情况放入后续验证。",
+      "next_verification": [
+        "跟踪 2026 年 10 月 26 日前累计回购金额是否接近 10 亿元下限，还是只停留在首笔执行。",
+        "观察后续回购均价、数量和节奏，判断公司是否在估值明显回落时持续买入。",
+        "确认回购股份后续用于出售还是最终注销，避免把未注销股份直接计入 EPS 增厚。"
+      ],
+      "source_url": "https://www.cfi.net.cn/p20260819001497.html",
+      "sort_key": 20260820,
+      "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+    },
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "event_index": 1,
       "event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
       "event_date": "2026-08-12",
       "event_type": "半年报 / AI服务器 / 现金流质量验证",
@@ -41,7 +80,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12487983",
       "sort_key": 20260812,
-      "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -473,7 +512,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
     {
       "company": "fii",
       "company_name": "工业富联",
-      "event_index": 1,
+      "event_index": 2,
       "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
       "event_date": "2026-07-10",
       "event_type": "业绩预告 / AI服务器 / 高速交换机",
@@ -507,7 +546,7 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
       "sort_key": 20260710,
-      "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
+      "detail_link": "./event.html?company=fii&event=2&return=company&v=20260505-1"
     },
     {
       "company": "nvidia",
@@ -3081,6 +3120,45 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         "company": "fii",
         "company_name": "工业富联",
         "event_index": 0,
+        "event_title": "首次回购241.44万股、使用资金1.49亿元，工业富联把10-20亿元回购方案开始落地",
+        "event_date": "2026-08-20",
+        "event_type": "资本配置 / 股份回购",
+        "priority": "P2",
+        "direction": "正向强化",
+        "dimensions": [
+          "业务",
+          "财务",
+          "估值"
+        ],
+        "trigger_type": "维持观察",
+        "valuation_update_needed": true,
+        "decision_output": {
+          "confidence_change": "小幅上调确信度",
+          "portfolio_hint": "维持观察，只有验证点继续兑现时才考虑提高动作强度。",
+          "update_targets": [
+            "当前结论",
+            "公司理解",
+            "财务数据地图",
+            "估值模型"
+          ],
+          "next_work": "更新公司页相关板块，并把验证点放入下一轮财报/公告跟踪。"
+        },
+        "decision_change": "这是一条 P2 级资本配置事件。它的核心不是证明 AI 服务器业务继续增长，而是说明工业富联在半年报高增长之后开始实际执行股份回购，用现金行为回应估值和股东权益。正面含义是：首次投入约 1.49 亿元，说明回购不再停留在董事会方案；回购价格远低于 103 元上限，显示公司在当前价格区间愿意开始买入。限制也明确：首笔金额仅约占 10 亿元下限的 14.9%，占",
+        "business_impact": "业务上，这条公告不改变工业富联 AI 服务器、云计算和高速网络的经营主线。真正决定公司研究层级的仍是 2026H2 高端平台量产、云服务商 AI 服务器增长、800G/1.6T 网络设备、存货周转、应收回款和经营现金流质量。回购的作用更多在资本配置层面：如果公司能在 AI 服务器放量带来营运资本占用的同时持续拿出现金回购，说明利润兑现和现金管理有一定余地；如果后续只执行很小比例，则不能把它解读为强股东回报。",
+        "valuation_impact": "估值/动作上，首次回购对工业富联形成边际估值支撑，但不足以单独提高估值区间或触发追高。正面是公司用约 1.49 亿元开始兑现 10-20 亿元方案，给市场提供了价格承接和管理层态度信号；约束是回购资金规模相对公司市值和半年报利润都不大，而且回购股份拟用于出售，注销只有在逾期未出售时发生，因此不能直接按注销回购处理。动作上维持 AI 服务器 ODM 重点跟踪，把回购完成比例、均价、用途和现金流承压情况放入后续验证。",
+        "next_verification": [
+          "跟踪 2026 年 10 月 26 日前累计回购金额是否接近 10 亿元下限，还是只停留在首笔执行。",
+          "观察后续回购均价、数量和节奏，判断公司是否在估值明显回落时持续买入。",
+          "确认回购股份后续用于出售还是最终注销，避免把未注销股份直接计入 EPS 增厚。"
+        ],
+        "source_url": "https://www.cfi.net.cn/p20260819001497.html",
+        "sort_key": 20260820,
+        "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+      },
+      {
+        "company": "fii",
+        "company_name": "工业富联",
+        "event_index": 1,
         "event_title": "2026H1营收5578.6亿元、净利润237.4亿元，AI服务器放量开始接受现金流和存货压力验证",
         "event_date": "2026-08-12",
         "event_type": "半年报 / AI服务器 / 现金流质量验证",
@@ -3116,12 +3194,12 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12487983",
         "sort_key": 20260812,
-        "detail_link": "./event.html?company=fii&event=0&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
       },
       {
         "company": "fii",
         "company_name": "工业富联",
-        "event_index": 1,
+        "event_index": 2,
         "event_title": "2026H1净利润预增93%-101%，AI服务器收入同比增长超230%成为核心增长引擎",
         "event_date": "2026-07-10",
         "event_type": "业绩预告 / AI服务器 / 高速交换机",
@@ -3155,15 +3233,15 @@ window.BAMBOO_LENS_DECISION_IMPACT = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601138&id=12438274",
         "sort_key": 20260710,
-        "detail_link": "./event.html?company=fii&event=1&return=company&v=20260505-1"
+        "detail_link": "./event.html?company=fii&event=2&return=company&v=20260505-1"
       }
     ]
   },
   "summary": {
-    "total": 41,
+    "total": 42,
     "companies": 6,
-    "valuation_update_needed": 19,
-    "positive": 34,
+    "valuation_update_needed": 20,
+    "positive": 35,
     "watch": 3
   }
 };
