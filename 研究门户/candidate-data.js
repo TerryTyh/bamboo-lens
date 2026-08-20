@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-08-19T12:24:11",
+  "generated_at": "2026-08-20T12:26:26",
   "companies": {
     "nvidia": [
       {
@@ -3678,6 +3678,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 6,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
+        "title": "新易盛：关于召开2026年第三次临时股东会的通知",
+        "date": "2026-08-21",
+        "fetched_at": "20260820-122533",
+        "type": "官方候选",
+        "fact": "日期：2026-08-21；标题：新易盛：关于召开2026年第三次临时股东会的通知；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260821,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260820-122533__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "新易盛：关于召开2026年第二次临时股东会的通知",

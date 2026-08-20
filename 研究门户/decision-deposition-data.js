@@ -1,7 +1,7 @@
 window.BAMBOO_LENS_DECISION_DEPOSITION = {
-  "generated_at": "2026-08-19T22:56:55",
-  "source_event_store_at": "2026-08-19T22:56:54",
-  "source_decision_impact_at": "2026-08-19T22:56:55",
+  "generated_at": "2026-08-20T12:26:27",
+  "source_event_store_at": "2026-08-20T12:26:26",
+  "source_decision_impact_at": "2026-08-20T12:26:27",
   "items": [
     {
       "company": "fii",
