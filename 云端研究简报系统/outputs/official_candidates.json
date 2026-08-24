@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T12:26:21",
+  "generated_at": "2026-08-24T12:26:52",
   "companies": {
     "nvidia": [
       {
@@ -2505,6 +2505,51 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260820-122533__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "新易盛：关于2026年半年度报告披露的提示性公告",
+        "date": "2026-08-25",
+        "fetched_at": "20260824-122551",
+        "type": "官方候选",
+        "fact": "日期：2026-08-25；标题：新易盛：关于2026年半年度报告披露的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260825,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260824-122551__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "新易盛：2026年半年度报告",
+        "date": "2026-08-25",
+        "fetched_at": "20260824-122551",
+        "type": "官方候选",
+        "fact": "日期：2026-08-25；标题：新易盛：2026年半年度报告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260825,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260824-122551__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "新易盛：2026年半年度报告摘要",
+        "date": "2026-08-25",
+        "fetched_at": "20260824-122551",
+        "type": "官方候选",
+        "fact": "日期：2026-08-25；标题：新易盛：2026年半年度报告摘要；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260825,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260824-122551__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
       }
     ],
     "shennan": [
