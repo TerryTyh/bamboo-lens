@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:27:22",
+  "generated_at": "2026-08-26T12:30:13",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -4725,6 +4725,66 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260821-122517__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于回购注销限制性股票激励计划(第二期)部分限制性股票的公告",
+          "date": "2026-08-27",
+          "fetched_at": "20260826-122914",
+          "type": "官方候选",
+          "fact": "日期：2026-08-27；标题：深南电路：关于回购注销限制性股票激励计划(第二期)部分限制性股票的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260827,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260826-122914__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于召开2026年第三次临时股东会的通知",
+          "date": "2026-08-27",
+          "fetched_at": "20260826-122914",
+          "type": "官方候选",
+          "fact": "日期：2026-08-27；标题：深南电路：关于召开2026年第三次临时股东会的通知；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260827,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260826-122914__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所受理的公告",
+          "date": "2026-08-26",
+          "fetched_at": "20260826-122914",
+          "type": "官方候选",
+          "fact": "日期：2026-08-26；标题：深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所受理的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260826,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260826-122914__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年度向特定对象发行股票募集说明书(申报稿)",
+          "date": "2026-08-26",
+          "fetched_at": "20260826-122914",
+          "type": "官方候选",
+          "fact": "日期：2026-08-26；标题：深南电路：2026年度向特定对象发行股票募集说明书(申报稿)；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260826,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260826-122914__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -5592,6 +5652,21 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260818-122338__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
+        },
+        {
+          "title": "工业富联：投资者关系活动记录表20260825",
+          "date": "2026-08-26",
+          "fetched_at": "20260826-122914",
+          "type": "官方候选",
+          "fact": "日期：2026-08-26；标题：工业富联：投资者关系活动记录表20260825；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260826,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260826-122914__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html"
         }
       ]
     }
