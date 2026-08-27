@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-08-26T12:30:13",
-  "source_generated_at": "2026-08-26T12:30:13",
+  "generated_at": "2026-08-27T21:31:00",
+  "source_generated_at": "2026-08-27T21:31:00",
   "items": [
     {
       "company": "constellation",
@@ -1699,6 +1699,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "深南电路",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "深南电路：2026年8月27日投资者关系活动记录表",
+      "date": "2026-8-27",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260827-212604__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+      "event_index": null,
+      "sort_key": 20260827,
+      "score": 9
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所受理的公告",
       "date": "2026-08-26",
       "type": "官方候选",
@@ -2920,9 +2938,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 162,
+    "total": 163,
     "formal_events": 87,
-    "official_candidates": 75,
+    "official_candidates": 76,
     "companies": 12
   }
 };
