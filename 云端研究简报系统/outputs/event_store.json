@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T21:39:39",
+  "generated_at": "2026-08-31T22:34:02",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -154,6 +154,80 @@
             "关注BMS等垂直行业客户是否继续扩大DGX SuperPOD、BioNeMo和行业智能体工作流使用规模，并观察这些案例是否带来可量化的软件或服务附加收入。"
           ],
           "reviewed_at": "2026-07-22T22:56:00+08:00",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "BMS部署第二套DGX SuperPOD并采用8套Vera Rubin NVL72，验证NVIDIA AI工厂进入生命科学研发生产流",
+          "source_candidate_title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "date": "2026-07-20",
+          "fetched_at": "",
+          "type": "客户部署 / AI工厂 / 生命科学",
+          "fact": "2026-07-20，NVIDIA发布Bristol Myers Squibb客户案例，称BMS正在部署第二套NVIDIA DGX SuperPOD，新系统由8套DGX Vera Rubin NVL72系统构成，每套包含NVIDIA Vera CPU和Rubin GPU，性能/兆瓦最高达到被替换基础设施的10x。BMS已运行DGX SuperPOD约三年，AI-enabled target identification已节省科学家数周手工工作，并用于扩展CELMoD化合物库和lead optimization中的Predict First分子筛选；新旧系统将整合为统一环境和单一数据平面，面向全球BMS科学家开放。",
+          "judgment": "这是一条P2级客户部署事件。它的价值不在于单笔金额披露，因为原文没有给订单价格或收入确认节奏；价值在于BMS把NVIDIA AI工厂从实验集群扩展到全球研发生产平台，说明企业级行业客户正在用机架级系统、BioNeMo、Mission Control和智能体工作流重构药物发现流程。它验证的是NVIDIA数据中心需求不只来自互联网大模型公司，也可能来自制药、科学计算和行业研发的长期算力预算。",
+          "action": "维持A池核心跟踪；把生命科学AI工厂作为企业级行业渗透样本观察，不因单一客户案例改变仓位",
+          "priority": "P2",
+          "sort_key": 20260720,
+          "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "NVIDIA这篇官方客户案例说明，Bristol Myers Squibb已经运行一套DGX SuperPOD约三年，现在继续部署第二套DGX SuperPOD，新系统由8套DGX Vera Rubin NVL72机架级系统组成。BMS的目标不是只给少数计算专家使用超算，而是把统一AI平台开放给全球每位科学家，用于预测、模型训练和贯穿药物发现流程的智能体工作流。",
+            "原文给出具体部署和效率线索：8套系统每套由NVIDIA Vera CPU和Rubin GPU组成，性能/兆瓦最高达到被替换基础设施的10x，并接入NVIDIA BioNeMo Agent Toolkit。BMS称现有AI已经在target identification中节省科学家数周手工工作，并帮助扩展CELMoD化合物库；在lead optimization阶段，BMS使用Predict First方法，用预测结果筛选更可能满足多参数性质要求的分子，减少低价值合成实验。",
+            "文章还说明BMS的组织用法正在从单点AI工具走向研发平台。新旧SuperPOD会整合进统一环境和单一数据平面，面向全球BMS站点开放；过去由并购遗留站点限制、计算专业门槛造成的访问障碍，将通过NVIDIA Mission Control和自然语言发起复杂预测的AI-native tooling降低。BMS还计划把算力分配到小分子、大分子、临床应用和digital twins等多个节点。"
+          ],
+          "evidence": [
+            "BMS部署第二套NVIDIA DGX SuperPOD，新系统由8套DGX Vera Rubin NVL72机架级系统组成。",
+            "每套系统包含NVIDIA Vera CPU和Rubin GPU，原文称性能/兆瓦最高达到被替换基础设施的10x。",
+            "BMS已经运行DGX SuperPOD约三年，AI-enabled target identification已节省科学家数周手工工作。",
+            "BMS把AI用于扩展CELMoD化合物库，并在lead optimization阶段用Predict First方法优先筛选更可能满足多参数性质要求的分子。",
+            "新旧SuperPOD将整合进统一环境和单一数据平面，覆盖全球BMS站点，并通过NVIDIA Mission Control降低复杂预测的使用门槛。"
+          ],
+          "business_analysis": "业务影响主要在企业AI和生命科学垂直行业渗透。BMS案例把NVIDIA平台嵌入target identification、化合物库扩展、lead optimization、临床应用和digital twins等研发节点，客户需求从一次性GPU采购变成统一AI平台、工具链、算力调度和工作流接入。若这种模式被更多药企复制，NVIDIA的数据中心业务会多一条行业AI工厂需求线，并提高BioNeMo、Mission Control、DGX SuperPOD和Vera Rubin整机架系统的组合销售价值。",
+          "valuation_analysis": "估值/动作上，这条事件支持NVIDIA平台溢价和企业AI渗透假设，但权重低于财报收入、毛利率、订单能见度和云厂资本开支。当前不因BMS个案提高估值区间或仓位；更合理的处理是维持A池核心跟踪，把生命科学AI工厂作为企业行业化样本。若后续NVIDIA披露更多药企/生物科技客户、BioNeMo商业化收入、DGX SuperPOD行业复购或Mission Control软件收入，才可能提高企业AI软件和系统业务在估值分部中的权重。",
+          "verification": [
+            "跟踪BMS第二套DGX SuperPOD是否形成后续扩容、更多药物发现流程接入或公开研发效率指标。",
+            "观察NVIDIA是否披露更多生命科学客户采用Vera Rubin NVL72、BioNeMo Agent Toolkit或Mission Control。",
+            "在财报中检查企业AI、DGX系统、软件和服务收入是否有可见增量，避免把客户案例误读成已量化收入。",
+            "关注制药行业AI基础设施是否从研发试点转为常规资本开支，尤其是全球站点统一数据平面和智能体工作流。",
+            "继续验证性能/兆瓦优势是否带来客户复购，而不只是单篇案例中的效率表述。"
+          ],
+          "reviewed_at": "2026-08-31T22:34:02",
+          "review_status": "reviewed"
+        },
+        {
+          "title": "Blackwell NVL72把推理能效作为AI工厂经济性的核心指标，强化NVIDIA从GPU到整机架系统的定价权",
+          "source_candidate_title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+          "date": "2026-07-14",
+          "fetched_at": "",
+          "type": "AI基础设施 / 推理经济性 / 机架级平台",
+          "fact": "2026-07-14，NVIDIA发布performance per watt主题官方文章，强调AI工厂经济性取决于固定电力预算内生成token的能力。文章披露，GB300 NVL72在DeepSeek V4 Pro等新一代开放模型上的performance per watt相对Hopper最高可达25x，GLM5.1可达20x，Kimi K2.6可达10x；DeepSeek V4的软件优化在一个月内又把performance per watt最高提升5x。NVIDIA还称DSX MaxLPS可通过实时功率调度和液冷等手段，让AI工厂在同一功率预算内运行最多40%更多GPU，并点名Anthropic、OpenAI、SpaceXAI、CoreWeave、Perplexity和Fireworks AI等生产采用线索。",
+          "judgment": "这是一条P2级平台经济性事件。它不直接新增一个可确认订单，但把NVIDIA数据中心业务的竞争焦点从单卡性能扩展到机架级推理吞吐、能耗、软件优化和生产稳定性。对高估值最关键的含义是：如果推理需求成为下一阶段AI资本开支主轴，客户采购时会更重视每瓦token产出和每token成本，而这正是NVIDIA把GPU、NVLink、网络、软件和电力管理打包成AI工厂平台的定价依据。",
+          "action": "维持A池核心跟踪；把Blackwell/Rubin机架级能效、推理每token成本和生产客户采用作为高估值验证线",
+          "priority": "P2",
+          "sort_key": 20260714,
+          "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "source_summary": [
+            "NVIDIA这篇官方文章把AI工厂的核心约束从单纯GPU数量转到电力预算内的token产出。原文认为，智能体AI会继续推高推理token需求，谁能在固定功耗下生成更多token，谁就能获得更高收入和更低每token成本；因此performance per watt不是营销指标，而是AI工厂收入和利润率的底层变量。",
+            "文章用Blackwell NVL72解释为什么机架级设计重要。前沿模型普遍采用MoE架构，服务这类模型时，GPU domain size会影响专家并行和推理效率；Hopper时代的8-GPU domain已经不够，Blackwell NVL72把规模扩到72-GPU domain，并通过NVLink Switch、Dynamo、TensorRT LLM、SGLang、vLLM、NVFP4量化、分离式服务、KV-aware routing和KV cache offloading等软硬件协同提升推理效率。",
+            "原文还给出生产侧证据：NVIDIA称GB300 NVL72在新一代开放模型上的performance per watt相对Hopper最高可达25x，GLM5.1可达20x，Kimi K2.6可达10x；DeepSeek V4的软件优化在一个月内又把performance per watt最高提升5x。AI工厂中冷却和机架效率损耗可能让约60%的电力真正转化为有效AI工作，DSX MaxLPS通过实时调度GPU和机架功率、支持温水液冷等方式，使运营方可在同一功率预算内运行最多40%更多GPU。文章点名Anthropic、OpenAI、SpaceXAI、CoreWeave、Perplexity、Fireworks AI等生产客户或部署场景。"
+          ],
+          "evidence": [
+            "NVIDIA称GB300 NVL72在DeepSeek V4 Pro上的performance per watt相对Hopper最高可达25x，在GLM5.1上可达20x，在Kimi K2.6上可达10x。",
+            "文章把MoE前沿模型的推理效率与GPU domain size绑定：Hopper时代是8-GPU domain，Blackwell NVL72扩展到72-GPU domain。",
+            "推理软件栈覆盖NVIDIA Dynamo、TensorRT LLM、SGLang、vLLM、NVFP4量化、分离式服务、大规模专家并行、KV-aware routing和KV cache offloading。",
+            "原文称DeepSeek V4的performance per watt在一个月内通过软件最高提升5x，说明推理经济性不只来自芯片换代，也来自软件持续优化。",
+            "AI工厂中约60%电力可能真正转化为有效AI工作；NVIDIA称DSX MaxLPS可让运营方在同一功率预算内运行最多40%更多GPU。"
+          ],
+          "business_analysis": "业务上，这条信息强化NVIDIA从芯片供应商向AI工厂系统供应商的转变。MoE模型、长上下文和智能体工作负载会放大推理端的电力、网络、KV cache、液冷和调度瓶颈，单独比较GPU标称算力已经不够。Blackwell NVL72和未来Vera Rubin如果能在真实生产中持续降低每token成本，就会提升客户对整机架系统、NVLink Switch、Dynamo/TensorRT LLM和DSX电力管理软件的依赖，也会提高网络、系统和软件的配套附加率。",
+          "valuation_analysis": "估值/动作上，这条事件支持继续给NVIDIA平台溢价，但不能单独上调估值区间。正面是推理经济性为Blackwell/Rubin迭代、NVLink scale-up、DSX和软件栈提供了可量化叙事，能帮助解释为什么客户可能继续接受高ASP和整机架采购。约束是文章中的倍数主要来自benchmark和NVIDIA口径，缺少收入贡献、订单金额、毛利率和客户采购规模；仓位动作维持A池核心跟踪，把后续财报中的数据中心收入、网络/系统收入、毛利率、库存、云厂资本开支和推理客户披露作为验证点。",
+          "verification": [
+            "跟踪Blackwell NVL72和GB300 NVL72在头部云厂、AI云和模型公司的实际部署规模，确认benchmark优势是否转化为持续采购。",
+            "观察下一次财报中数据中心收入、网络/系统收入和毛利率是否继续支撑AI工厂平台溢价。",
+            "验证推理需求是否真正接上训练需求，尤其是OpenAI、Anthropic、Perplexity、CoreWeave、Fireworks AI等客户的生产负载扩张。",
+            "跟踪DSX MaxLPS、Dynamo、TensorRT LLM等软件是否形成可收费、可续费或可提升系统ASP的商业口径。",
+            "继续检查电力、液冷、机架可靠性和客户资本开支是否成为增长瓶颈。"
+          ],
+          "reviewed_at": "2026-08-31T22:34:02",
           "review_status": "reviewed"
         },
         {
@@ -806,7 +880,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260331,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4：数据中心收入 623 亿美元，FY27 Q1 指引 780 亿美元，AI 工厂逻辑继续强化",
@@ -818,7 +892,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY26 Q4 与全年业绩再创新高，数据中心业务继续主导增长",
@@ -830,7 +904,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "FY27 Q1 指引继续上修到 780 亿美元，但公司明确不假设来自中国的数据中心计算收入",
@@ -842,7 +916,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "高增长继续，但毛利率、库存与客户集中度仍然需要持续验证",
@@ -854,7 +928,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260225,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         },
         {
           "title": "Meta 扩大与 NVIDIA 的多代际合作，进一步验证超大客户资本开支强度",
@@ -866,7 +940,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260217,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/28-NVIDIA动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -1742,22 +1816,6 @@
           "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-          "date": "2026-07-14",
-          "fetched_at": "20260715-131139",
-          "type": "官方候选",
-          "fact": "日期：2026-07-14；标题：Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency；原文内容：Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will deter…；来源：https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260714,
-          "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-          "source_excerpt": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will deter…",
-          "source_body": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform , that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers up to 25x performance per watt compared with the NVIDIA Hopper generation — showcasing that MoE performance improves when moving from an 8-GPU to 72-GPU domain size. These numbers reflect where Blackwell stands today, a starting point that continues to improve. Any single number only tells part of the story. Different workloads demand different operating points: some optimize for latency, others for throughput and cost — and most need to move between the two. To best represent these operating points, NVIDIA showcases Pareto curves for each model rather than a single point and provides tools such as DynoSim to help teams find their optimal point on the Pareto frontier before spending a single GPU-hour on validation. The performance per watt NVIDIA Blackwell delivers is a result of extreme codesign: every component of the rack-scale system, from silicon to software , designed together to maximize token throughput for AI inference workloads. That codesign touches every layer of the stack. For example, NVIDIA NVLink Switch , critical for rack-scale performance, is purpose-built to unlock massive scale-up GPU domains, not adapted from general-purpose networking. Now in its sixth generation with the Vera Rubin platform, its capabilities are designed specifically for AI workloads such as SHARP, which performs in-network computing directly in the switch, offloading work from the GPUs themselves. NVIDIA’s inference software stack , including NVIDIA Dynamo and TensorRT LLM, as well as SGLang and vLLM, is built to run the full range of optimizations: NVFP4 quantization, disaggregated serving, large-scale expert parallelism, KV-aware routing, KV cache offloading and more. These stack together to multiply the performance each GPU delivers. Moreover, software keeps improving performance over time: On DeepSeek V4, performance per watt improved by up to 5x in a single month.",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260715-131139__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
-        },
-        {
           "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
           "date": "2026-07-16",
           "fetched_at": "20260716-131934",
@@ -1833,22 +1891,6 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html"
-        },
-        {
-          "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-          "date": "2026-07-20",
-          "fetched_at": "20260720-134755",
-          "type": "官方候选",
-          "fact": "日期：2026-07-20；标题：Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin；原文内容：Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster…；来源：https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-          "action": "加入待研判队列",
-          "priority": "候选",
-          "sort_key": 20260720,
-          "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-          "source_excerpt": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster…",
-          "source_body": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sort of this abstract position of what AI can do to actually translating that to measurable impact.” BMS has operated a DGX SuperPOD for about three years, producing meaningful results. AI-enabled target identification already saves scientists weeks of manual work, freeing time to focus on the highest-value scientific decisions. BMS’s team has used AI to expand its library of CELMoD compounds — molecules engineered to selectively degrade cancer-causing proteins, with applications in blood cancer treatment and beyond. This has opened the door to new targets and new potential medicines across a wider range of diseases. AI is also applied in lead optimization stages of drug discovery using a methodology Sheth calls “Predict First,” which informs experimental gating based on design predictions. “We use predictions as a way to prioritize synthesis of molecules with multi parameter optimization,” she explains, “to weed out molecules that wouldn’t necessarily meet the property landscape we’re working towards. This ensures precious laboratory experiments are aligned with progressing molecules that have the highest probability of success. These research AI applications have significant impact on compute needs across the research organization.“We’re saturated,” Davis says. “We’re in production with some very large-scale predictions around large molecules. We’re building our own foundational models, and that takes a lot of GPUs.” With the new system coming, Davis already has her pitch for researchers thinking about where to do their best work: “Welcome to Limitless Compute.” A computational chemist by training, Davis spent years doing the science before concluding the technology wasn’t keeping up — and that she’d rather go fix it. She spent roughly 15 years on the vendor side, building enterprise platforms at ChemAxon, Schrödinger and X-Chem. At every company, pharma was wrestling with the same bottleneck. “It’s not the technology,” she says. “The challenge is how to get that into the hands of actual scientists and learn from it.”",
-          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html",
-          "summary_error": "HTTP Error 429: Too Many Requests"
         },
         {
           "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
@@ -2543,7 +2585,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 16 日的一季度法说会，成为下一次最关键验证点",
@@ -2555,7 +2597,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260416,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2026 年 3 月营收环比反弹 30.7%，Q1 累计同比 35.1%，先进制程需求仍处高位",
@@ -2604,7 +2646,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260310,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "董事会继续大额批准资本支出与相关融资安排，扩产节奏没有放缓",
@@ -2616,7 +2658,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260210,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度收入、利润和利润率继续走强，先进制程占比进一步抬升",
@@ -2628,7 +2670,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         },
         {
           "title": "管理层对 2026 年第一季度给出高位指引，领先制程需求仍然强劲",
@@ -2640,7 +2682,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260115,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/25-TSMC动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -2693,7 +2735,7 @@
           "action": "维持 A 池核心，并提升财务回报验证优先级",
           "priority": "P1",
           "sort_key": 20260429,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "FY26 Q2 收入和利润继续高质量增长，Microsoft Cloud 单季收入突破 500 亿美元",
@@ -2705,7 +2747,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Intelligent Cloud 继续高速增长，Azure 所在业务板块成为最关键的经营抓手",
@@ -2717,7 +2759,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "Azure 和企业 AI 的增长已经从“概念验证”进入“兑现验证”",
@@ -2729,7 +2771,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "OpenAI 投资波动提醒我们，微软的 AI 逻辑不能只看收入，还要看收益质量",
@@ -2741,7 +2783,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         },
         {
           "title": "资本开支和云基础设施投入仍然是估值能否持续的关键变量",
@@ -2753,7 +2795,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/24-Microsoft动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2774,7 +2816,7 @@
           "action": "维持 A 池核心，但提升现金流与投入回报验证优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "2025 年 12 月季度，云业务增速明显加快，AI 继续成为增长引擎",
@@ -2786,7 +2828,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "Qwen App 用户增长和开源模型生态强化了消费侧与开发者侧双轮驱动",
@@ -2798,7 +2840,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "阿里正在强化“全栈 AI”叙事，从模型、芯片、云到应用形成一体化",
@@ -2810,7 +2852,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260319,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "持续回购说明管理层仍在通过资本配置支持股东回报",
@@ -2822,7 +2864,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20251002,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         },
         {
           "title": "可转债融资说明公司愿意继续为云和国际业务扩张筹集长期资本",
@@ -2834,7 +2876,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20250911,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/20-阿里巴巴动态更新样例V1.md"
         }
       ],
       "official_candidates": []
@@ -2855,7 +2897,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 前三季度收入 316.63 亿元、净利润 42.54 亿元，双轮增长继续兑现但存货减值压力上升",
@@ -2867,7 +2909,7 @@
           "action": "维持 A 池核心，但提升现金流和存货质量验证优先级",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年前三季度收入和利润继续双位数增长，主航道经营延续强势",
@@ -2879,7 +2921,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20251024,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司在 2025 年 CIIF 上强调“系统级智能制造 + AI 驱动解决方案”",
@@ -2891,7 +2933,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250929,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "2025 年上半年，通用自动化和新能源汽车业务双轮驱动更清晰",
@@ -2903,7 +2945,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         },
         {
           "title": "公司继续强调多产品组合销售和平台化扩张",
@@ -2915,7 +2957,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20250826,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/23-汇川技术动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3057,7 +3099,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2026 年 4 月 22 日一季度业绩会，是下一次最关键验证点",
@@ -3069,7 +3111,7 @@
           "action": "等待验证",
           "priority": "P1",
           "sort_key": 20260422,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "管理层继续强化“electricity supercycle”叙事，但当前更该跟踪兑现质量",
@@ -3081,7 +3123,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "Prolec GE 并购完成，进一步强化北美电网设备供给能力",
@@ -3093,7 +3135,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260202,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 年第四季度订单和 backlog 明显跳升，Power 与 Electrification 同时强化",
@@ -3105,7 +3147,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         },
         {
           "title": "2025 全年收入、利润率和自由现金流继续改善，经营质量明显提升",
@@ -3117,7 +3159,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260128,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/26-GE Vernova动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3169,7 +3211,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260419,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年报明确“现金流波动的真因”是应付回落 + 存货占用，而非全面回款崩坏",
@@ -3181,7 +3223,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20260414,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "公司在 2026 年启动较大规模回购",
@@ -3193,7 +3235,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "汽车业务继续向系统级方案延展",
@@ -3205,7 +3247,7 @@
           "action": "维持原判断",
           "priority": "P2",
           "sort_key": 20250723,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2025 年一季度收入和利润继续增长，但经营现金流明显承压",
@@ -3217,7 +3259,7 @@
           "action": "需要二次验证",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "2024 年全年收入和利润保持双位数增长，业务边界继续扩展",
@@ -3229,7 +3271,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20250426,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         },
         {
           "title": "ESG 与全球客户体系继续强化",
@@ -3241,7 +3283,7 @@
           "action": "仅记录，不调整评级",
           "priority": "P3",
           "sort_key": 20250418,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/18-立讯精密动态更新样例V1.md"
         }
       ],
       "official_candidates": [
@@ -3506,7 +3548,7 @@
           "action": "需要二次验证",
           "priority": "P2",
           "sort_key": 20260318,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "2025 全年业绩继续超指引中枢，股东回报进一步上调",
@@ -3518,7 +3560,7 @@
           "action": "维持原判断",
           "priority": "P1",
           "sort_key": 20260224,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "与 CyrusOne 的数据中心供电协议，验证了大负荷客户长期供电能力",
@@ -3530,7 +3572,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260209,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         },
         {
           "title": "Calpine 并购于 2026 年 1 月完成，Constellation 成为美国最大私营发电平台",
@@ -3542,7 +3584,7 @@
           "action": "提升优先级",
           "priority": "P1",
           "sort_key": 20260107,
-          "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
+          "source_doc": "/Users/tianyuehua/.codex/worktrees/d820/竹鉴/长期高潜力公司跟踪系统/27-Constellation Energy动态更新样例V1.md"
         }
       ],
       "official_candidates": [

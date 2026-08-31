@@ -1,94 +1,17 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-08-28T21:39:40",
+  "generated_at": "2026-08-31T22:34:02",
   "summary": {
     "total": 13,
     "companies": 5,
-    "with_source_body": 3,
+    "with_source_body": 1,
     "suppressed_count": 2,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "needs_source": 10,
+      "needs_source": 12,
       "low_investment_signal": 1
     },
-    "priority_batch": [
-      {
-        "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-        "date": "2026-07-14",
-        "score": 17,
-        "readiness_score": 37,
-        "investment_signal_score": 21,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-        "date": "2026-07-20",
-        "score": 13,
-        "readiness_score": 33,
-        "investment_signal_score": 8,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ]
+    "priority_batch": []
   },
   "by_key": {
-    "nvidia::why performance per watt is the ultimate metric for ai infrastructure efficiency": {
-      "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-      "date": "2026-07-14",
-      "score": 17,
-      "readiness_score": 37,
-      "investment_signal_score": 21,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "eoptolink::新易盛：2026年半年度业绩预告": {
       "draft_id": "auto-eoptolink-新易盛-2026年半年度业绩预告",
       "company": "eoptolink",
@@ -313,31 +236,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
-    "nvidia::bristol myers squibb building life science industry’s most advanced ai factory on nvidia vera rubin": {
-      "draft_id": "auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-      "date": "2026-07-20",
-      "score": 13,
-      "readiness_score": 33,
-      "investment_signal_score": 8,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "nvidia::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson": {
       "draft_id": "auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson",
       "company": "nvidia",
@@ -418,86 +316,65 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "fii::工业富联：投资者关系活动记录表20260825": {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260825",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表20260825",
+      "date": "2026-08-26",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：关于召开2026年半年度业绩说明会的公告": {
+      "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+      "date": "2026-08-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   },
   "companies": {
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-        "date": "2026-07-14",
-        "score": 17,
-        "readiness_score": 37,
-        "investment_signal_score": 21,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-        "date": "2026-07-20",
-        "score": 13,
-        "readiness_score": 33,
-        "investment_signal_score": 8,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
-        "date": "2026-07-28",
-        "score": 10,
-        "readiness_score": 16,
-        "investment_signal_score": 0,
-        "readiness_lane": "low_investment_signal",
-        "readiness_label": "低投资信息密度",
-        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
     "eoptolink": [
       {
         "draft_id": "auto-eoptolink-新易盛-2026年半年度业绩预告",
@@ -784,60 +661,93 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260825",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：投资者关系活动记录表20260825",
+        "date": "2026-08-26",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+        "date": "2026-08-19",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
+        "date": "2026-07-28",
+        "score": 10,
+        "readiness_score": 16,
+        "investment_signal_score": 0,
+        "readiness_lane": "low_investment_signal",
+        "readiness_label": "低投资信息密度",
+        "review_batch_reason": "虽然有较长正文，但内容更偏品牌、演讲或泛宣传，不应排在正式事件深读前列。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ]
   },
   "items": [
-    {
-      "draft_id": "auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-      "date": "2026-07-14",
-      "score": 17,
-      "readiness_score": 37,
-      "investment_signal_score": 21,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-efficiency.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
-      "date": "2026-07-20",
-      "score": 13,
-      "readiness_score": 33,
-      "investment_signal_score": 8,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-bristol-myers-squibb-building-life-science-industry-s-most-advanced-ai-factory-on-nvidia-vera-ru.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     {
       "draft_id": "auto-eoptolink-新易盛-2026年半年度业绩预告",
       "company": "eoptolink",
@@ -1133,6 +1043,62 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
       "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所受理的公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-投资者关系活动记录表20260825",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：投资者关系活动记录表20260825",
+      "date": "2026-08-26",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
+      "date": "2026-08-19",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
