@@ -109,7 +109,7 @@ def parse_company_events(company_id: str) -> list[dict]:
                 "action": clean(action),
                 "priority": clean(priority),
                 "sort_key": parse_sort_key(date_text),
-                "source_doc": str(source_path),
+                "source_doc": str(source_path.relative_to(PROJECT_ROOT)),
             }
         )
     return events
