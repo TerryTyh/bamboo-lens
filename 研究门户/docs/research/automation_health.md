@@ -1,8 +1,8 @@
 # 竹鉴自动化健康检查
 
-生成时间：2026-09-01T22:34:51+08:00
+生成时间：2026-09-01T23:46:06+08:00
 
-总体状态：健康
+总体状态：有风险
 
 ## 核心结论
 
@@ -11,7 +11,7 @@
 - 门户数据文件：10/10 已存在。
 - 日报保护状态：healthy。
 - 公司页审计状态：healthy。
-- 行情覆盖状态：healthy。
+- 行情覆盖状态：risk。
 
 ## 文件与产物
 
@@ -22,18 +22,19 @@
 ## 新鲜度
 
 - 阈值：42 小时
-- official_candidates：healthy，时间 2026-08-31T18:26:36+08:00，年龄 28.1h
-- event_store：healthy，时间 2026-09-01T22:34:51+08:00，年龄 0.0h
-- decision_queue：healthy，时间 2026-09-01T22:34:51+08:00，年龄 0.0h
-- company_page_overrides：healthy，时间 2026-09-01T22:34:51+08:00，年龄 0.0h
-- readability_audit：healthy，时间 2026-08-31T18:26:37+08:00，年龄 28.1h
-- mainline_audit：healthy，时间 2026-08-31T18:26:37+08:00，年龄 28.1h
-- market_snapshot：healthy，时间 2026-09-01T02:26:43+08:00，年龄 20.1h
-- daily_brief：healthy，时间 2026-09-01T00:00:00+08:00，年龄 22.6h
-- morning_brief：healthy，时间 2026-09-01T00:00:00+08:00，年龄 22.6h
+- official_candidates：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- event_store：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- decision_queue：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- company_page_overrides：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- readability_audit：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- mainline_audit：healthy，时间 2026-09-01T15:46:00+08:00，年龄 8.0h
+- market_snapshot：healthy，时间 2026-09-01T23:46:06+08:00，年龄 0.0h
+- daily_brief：healthy，时间 2026-09-01T00:00:00+08:00，年龄 23.8h
+- morning_brief：healthy，时间 2026-09-02T00:00:00+08:00，年龄 0.0h
 
 ## 日报发送保护
 
+- 当天晨报存在但正文不足，发送逻辑会回退到 fallback 日报。
 - 当天 fallback 日报可用，但质量取决于前一晚候选收集是否成功。
 
 ## 公司页质量审计
@@ -43,4 +44,5 @@
 
 ## 行情与估值动态化
 
-- 覆盖公司：16/16，状态 healthy
+- 覆盖公司：16/16，状态 risk
+- 问题：tsmc: 缺少主交易口径 2330.TW
