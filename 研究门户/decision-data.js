@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-09-02T22:35:33",
-  "source_generated_at": "2026-09-02T22:35:32",
+  "generated_at": "2026-09-02T15:37:07",
+  "source_generated_at": "2026-09-02T15:37:07",
   "items": [
     {
       "company": "constellation",

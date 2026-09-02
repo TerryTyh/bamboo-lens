@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02T22:35:33+08:00",
-  "status": "risk",
-  "status_label": "有风险",
+  "generated_at": "2026-09-02T23:37:15+08:00",
+  "status": "healthy",
+  "status_label": "健康",
   "summary_notes": [
     "工作流文件：4/4 已存在。",
     "关键云端产物：12/12 已存在。",
     "门户数据文件：10/10 已存在。",
     "日报保护状态：healthy。",
     "公司页审计状态：healthy。",
-    "行情覆盖状态：risk。"
+    "行情覆盖状态：healthy。"
   ],
   "file_groups": [
     {
@@ -44,57 +44,57 @@
       {
         "name": "official_candidates",
         "path": "云端研究简报系统/outputs/official_candidates.json",
-        "timestamp": "2026-09-02T22:33:52+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:07+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "event_store",
         "path": "云端研究简报系统/outputs/event_store.json",
-        "timestamp": "2026-09-02T22:35:32+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:07+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "decision_queue",
         "path": "云端研究简报系统/outputs/decision_queue.json",
-        "timestamp": "2026-09-02T22:35:33+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:07+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "company_page_overrides",
         "path": "云端研究简报系统/outputs/company_page_overrides.json",
-        "timestamp": "2026-09-02T22:35:33+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:08+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "readability_audit",
         "path": "云端研究简报系统/outputs/company_page_readability_audit.json",
-        "timestamp": "2026-09-02T22:35:33+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:08+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "mainline_audit",
         "path": "云端研究简报系统/outputs/company_page_mainline_audit.json",
-        "timestamp": "2026-09-02T22:35:33+08:00",
-        "ageHours": 0.0,
+        "timestamp": "2026-09-02T15:37:08+08:00",
+        "ageHours": 8.0,
         "status": "healthy"
       },
       {
         "name": "market_snapshot",
         "path": "云端研究简报系统/outputs/market_snapshot.json",
-        "timestamp": "2026-09-01T23:46:06+08:00",
-        "ageHours": 22.8,
+        "timestamp": "2026-09-02T23:37:14+08:00",
+        "ageHours": 0.0,
         "status": "healthy"
       },
       {
         "name": "daily_brief",
         "path": "云端研究简报系统/outputs/daily_brief.md",
         "timestamp": "2026-09-02T00:00:00+08:00",
-        "ageHours": 22.6,
+        "ageHours": 23.6,
         "status": "healthy"
       },
       {
@@ -137,12 +137,10 @@
     }
   },
   "market_snapshot_quality": {
-    "status": "risk",
+    "status": "healthy",
     "expected": 16,
     "covered": 16,
-    "issues": [
-      "tsmc: 缺少主交易口径 2330.TW"
-    ],
+    "issues": [],
     "warnings": [
       "Yahoo quote fetch failed, falling back to chart API: HTTP Error 401: Unauthorized"
     ],
