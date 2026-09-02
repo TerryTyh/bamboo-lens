@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-wus-沪电股份-2026年半年度报告",
   "draft_status": "auto_draft",
-  "generated_at": "2026-09-01T15:46:00",
+  "generated_at": "2026-09-02T22:35:33",
   "company": "wus",
   "company_name": "沪电股份",
   "source_candidate_title": "沪电股份：2026年半年度报告",
@@ -68,5 +68,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年半年度报告.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-wus-沪电股份-2026年半年度报告.json"
+  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-wus-沪电股份-2026年半年度报告.json"
 }

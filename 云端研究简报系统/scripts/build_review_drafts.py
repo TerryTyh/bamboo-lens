@@ -567,7 +567,7 @@ def build_draft(candidate: dict, event_candidate: dict, generated_at: str) -> di
             ],
         },
         "portal_doc": f"./docs/review-drafts/{draft_id}.md",
-        "draft_file": str(DRAFT_DIR / f"{draft_id}.json"),
+        "draft_file": str((DRAFT_DIR / f"{draft_id}.json").relative_to(PROJECT_ROOT)),
     }
 
 

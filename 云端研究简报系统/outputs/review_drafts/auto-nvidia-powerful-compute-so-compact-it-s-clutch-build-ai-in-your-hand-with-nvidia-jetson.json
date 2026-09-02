@@ -1,7 +1,7 @@
 {
   "draft_id": "auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson",
   "draft_status": "auto_draft",
-  "generated_at": "2026-09-01T15:46:00",
+  "generated_at": "2026-09-02T22:35:33",
   "company": "nvidia",
   "company_name": "NVIDIA",
   "source_candidate_title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
@@ -65,5 +65,5 @@
     ]
   },
   "portal_doc": "./docs/review-drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.md",
-  "draft_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/review_drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.json"
+  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-nvidia-powerful-compute-so-compact-it-s-clutch-build-ai-in-your-hand-with-nvidia-jetson.json"
 }
