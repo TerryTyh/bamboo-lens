@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-09-02T15:37:07",
+  "generated_at": "2026-09-03T15:28:55",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -4842,6 +4842,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260827-212604__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+          "date": "2026-8-31",
+          "fetched_at": "20260903-152746",
+          "type": "官方候选",
+          "fact": "日期：2026-8-31；标题：深南电路：2026年8月31日-9月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260831,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260903-152746__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },

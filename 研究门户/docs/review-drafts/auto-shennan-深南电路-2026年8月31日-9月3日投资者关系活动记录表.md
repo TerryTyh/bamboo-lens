@@ -1,15 +1,15 @@
-# 正式事件草稿｜工业富联｜工业富联：关于召开2026年半年度业绩说明会的公告
+# 正式事件草稿｜深南电路｜深南电路：2026年8月31日-9月3日投资者关系活动记录表
 
 ## 草稿状态
 
-- 公司：工业富联（fii）
-- 日期：2026-08-19
+- 公司：深南电路（shennan）
+- 日期：2026-8-31
 - 类型：官方候选
 - 候选分数：9
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 14）
-- 官方来源：[打开官方来源](https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260818-122338__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html
+- 官方来源：[打开官方来源](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260903-152746__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-08-19；标题：工业富联：关于召开2026年半年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
+日期：2026-8-31；标题：深南电路：2026年8月31日-9月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ### 候选事实
 
-日期：2026-08-19；标题：工业富联：关于召开2026年半年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml
+日期：2026-8-31；标题：深南电路：2026年8月31日-9月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告`
+`auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表`
 
 ## 质量闸门
 

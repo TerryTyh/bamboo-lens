@@ -1,19 +1,19 @@
 {
-  "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
+  "draft_id": "auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表",
   "draft_status": "auto_draft",
-  "generated_at": "2026-09-02T15:37:07",
-  "company": "fii",
-  "company_name": "工业富联",
-  "source_candidate_title": "工业富联：关于召开2026年半年度业绩说明会的公告",
-  "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
-  "date": "2026-08-19",
+  "generated_at": "2026-09-03T15:28:55",
+  "company": "shennan",
+  "company_name": "深南电路",
+  "source_candidate_title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+  "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+  "date": "2026-8-31",
   "type": "官方候选",
   "priority": "草稿",
   "action": "等待补证据",
   "score": 9,
-  "sort_key": 20260819,
-  "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260818-122338__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+  "sort_key": 20260831,
+  "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260903-152746__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
   "readiness_score": 14,
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-08-19；标题：工业富联：关于召开2026年半年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml"
+    "日期：2026-8-31；标题：深南电路：2026年8月31日-9月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg"
   ],
-  "fact": "日期：2026-08-19；标题：工业富联：关于召开2026年半年度业绩说明会的公告；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+  "fact": "日期：2026-8-31；标题：深南电路：2026年8月31日-9月3日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
   "evidence": [
     "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
     "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
@@ -57,7 +57,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 132,
+    "source_chars": 143,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -67,6 +67,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
-  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.json"
+  "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表.md",
+  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表.json"
 }

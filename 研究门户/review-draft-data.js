@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-09-02T15:37:07",
+  "generated_at": "2026-09-03T15:28:55",
   "summary": {
     "total": 13,
     "companies": 5,
@@ -261,6 +261,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "shennan::深南电路：2026年8月31日-9月3日投资者关系活动记录表": {
+      "draft_id": "auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+      "date": "2026-8-31",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "shennan::深南电路：2026年8月27日投资者关系活动记录表": {
       "draft_id": "auto-shennan-深南电路-2026年8月27日投资者关系活动记录表",
       "company": "shennan",
@@ -335,34 +363,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
       "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "fii::工业富联：关于召开2026年半年度业绩说明会的公告": {
-      "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
-      "company": "fii",
-      "company_name": "工业富联",
-      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
-      "date": "2026-08-19",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -508,6 +508,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
         "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集说明书-申报稿.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+        "date": "2026-8-31",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -680,34 +708,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
         "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
-        "company": "fii",
-        "company_name": "工业富联",
-        "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
-        "date": "2026-08-19",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -998,6 +998,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
+      "draft_id": "auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
+      "date": "2026-8-31",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年8月31日-9月3日投资者关系活动记录表.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
       "draft_id": "auto-shennan-深南电路-2026年8月27日投资者关系活动记录表",
       "company": "shennan",
       "company_name": "深南电路",
@@ -1071,34 +1099,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
       "portal_doc": "./docs/review-drafts/auto-fii-工业富联-投资者关系活动记录表20260825.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告",
-      "company": "fii",
-      "company_name": "工业富联",
-      "title": "工业富联：关于召开2026年半年度业绩说明会的公告",
-      "date": "2026-08-19",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-关于召开2026年半年度业绩说明会的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
