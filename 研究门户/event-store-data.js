@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-09-04T15:28:21",
+  "generated_at": "2026-09-07T16:51:43",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -5361,6 +5361,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260904-152534__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年9月7日投资者关系活动记录表",
+          "date": "2026-9-7",
+          "fetched_at": "20260907-165051",
+          "type": "官方候选",
+          "fact": "日期：2026-9-7；标题：沪电股份：2026年9月7日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260907,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260907-165051__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
