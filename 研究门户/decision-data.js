@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-09-08T15:39:51",
-  "source_generated_at": "2026-09-08T15:39:51",
+  "generated_at": "2026-09-09T15:35:05",
+  "source_generated_at": "2026-09-09T15:35:05",
   "items": [
     {
       "company": "constellation",
@@ -415,6 +415,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 25,
       "sort_key": 20260225,
       "score": 19
+    },
+    {
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
+      "date": "2026-09-09",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260909-153300__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+      "event_index": null,
+      "sort_key": 20260909,
+      "score": 18
     },
     {
       "company": "fii",
@@ -1803,6 +1821,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 9
     },
     {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "深南电路：2026年9月7日-9月9日投资者关系活动记录表",
+      "date": "2026-9-7",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260909-153300__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+      "event_index": null,
+      "sort_key": 20260907,
+      "score": 9
+    },
+    {
       "company": "wus",
       "company_name": "沪电股份",
       "source_type": "official_candidate",
@@ -2070,24 +2106,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260716-131934__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
       "event_index": null,
       "sort_key": 20260716,
-      "score": 9
-    },
-    {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年7月10日投资者关系活动记录表",
-      "date": "2026-7-10",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260710-135905__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260710,
       "score": 9
     },
     {
@@ -2812,9 +2830,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 156,
+    "total": 157,
     "formal_events": 89,
-    "official_candidates": 67,
+    "official_candidates": 68,
     "companies": 12
   }
 };

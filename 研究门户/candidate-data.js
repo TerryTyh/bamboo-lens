@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-09-08T15:39:51",
+  "generated_at": "2026-09-09T15:35:04",
   "companies": {
     "nvidia": [
       {
@@ -3473,6 +3473,29 @@ window.BAMBOO_LENS_CANDIDATES = {
     ],
     "eoptolink": [
       {
+        "title": "新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
+        "date": "2026-09-09",
+        "fetched_at": "20260909-153300",
+        "type": "官方候选",
+        "fact": "日期：2026-09-09；标题：新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260909,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260909-153300__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 17,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
         "title": "新易盛：2026年半年度业绩预告",
         "date": "2026-07-20",
         "fetched_at": "20260720-134755",
@@ -4002,6 +4025,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 8,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "先读募投项目、金额、稀释、产能用途和客户验证；确认是否改善长期竞争位置。"
+      },
+      {
+        "title": "深南电路：2026年9月7日-9月9日投资者关系活动记录表",
+        "date": "2026-9-7",
+        "fetched_at": "20260909-153300",
+        "type": "官方候选",
+        "fact": "日期：2026-9-7；标题：深南电路：2026年9月7日-9月9日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260907,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260909-153300__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
       },
       {
         "title": "深南电路：2026年8月31日-9月3日投资者关系活动记录表",
