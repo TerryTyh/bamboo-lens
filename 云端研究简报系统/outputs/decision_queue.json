@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T17:16:05",
-  "source_generated_at": "2026-09-14T17:16:05",
+  "generated_at": "2026-09-15T15:55:53",
+  "source_generated_at": "2026-09-15T15:55:53",
   "items": [
     {
       "company": "constellation",
@@ -1717,6 +1717,24 @@
       "company_name": "沪电股份",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "沪电股份：2026年9月15日投资者关系活动记录表",
+      "date": "2026-9-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260915-155350__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20260915,
+      "score": 9
+    },
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "沪电股份：2026年9月14日投资者关系活动记录表",
       "date": "2026-9-14",
       "type": "官方候选",
@@ -2109,42 +2127,6 @@
       "score": 9
     },
     {
-      "company": "shennan",
-      "company_name": "深南电路",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "深南电路：2026年7月16日投资者关系活动记录表",
-      "date": "2026-7-16",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260716-131934__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
-      "event_index": null,
-      "sort_key": 20260716,
-      "score": 9
-    },
-    {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年7月16日投资者关系活动记录表",
-      "date": "2026-7-16",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260716-131934__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260716,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2358,24 +2340,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260810-124334__www.luxshare-ict.com_en_news_release.html.html",
       "event_index": null,
       "sort_key": 20260717,
-      "score": 8
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
-      "date": "2026-07-16",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://investor.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260716-131934__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260716,
       "score": 8
     },
     {
@@ -2776,9 +2740,9 @@
     }
   ],
   "summary": {
-    "total": 154,
+    "total": 152,
     "formal_events": 89,
-    "official_candidates": 65,
+    "official_candidates": 63,
     "companies": 12
   }
 }
