@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T15:55:53",
-  "source_generated_at": "2026-09-15T15:55:53",
+  "generated_at": "2026-09-16T15:47:52",
+  "source_generated_at": "2026-09-16T15:47:52",
   "items": [
     {
       "company": "constellation",
@@ -2307,42 +2307,6 @@
       "score": 8
     },
     {
-      "company": "luxshare",
-      "company_name": "立讯精密",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Title: LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026",
-      "date": "2026-07-17",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://www.luxshare-ict.com/en/news/release/180.html",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260723-132331__www.luxshare-ict.com_en_news_release.html.html",
-      "event_index": null,
-      "sort_key": 20260717,
-      "score": 8
-    },
-    {
-      "company": "luxshare",
-      "company_name": "立讯精密",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "LUXSHARE Precision Showcases NEXTiX LEGION at WAIC 2026",
-      "date": "2026-07-17",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://www.luxshare-ict.com/en/news/release/180.html",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20260810-124334__www.luxshare-ict.com_en_news_release.html.html",
-      "event_index": null,
-      "sort_key": 20260717,
-      "score": 8
-    },
-    {
       "company": "shennan",
       "company_name": "深南电路",
       "source_type": "official_candidate",
@@ -2631,24 +2595,6 @@
       "score": 6
     },
     {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
-      "date": "2026-07-17",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260720-134755__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260717,
-      "score": 6
-    },
-    {
       "company": "eoptolink",
       "company_name": "新易盛",
       "source_type": "official_candidate",
@@ -2740,9 +2686,9 @@
     }
   ],
   "summary": {
-    "total": 152,
+    "total": 149,
     "formal_events": 89,
-    "official_candidates": 63,
+    "official_candidates": 60,
     "companies": 12
   }
 }
