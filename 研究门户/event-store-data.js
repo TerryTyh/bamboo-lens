@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-09-18T15:28:11",
+  "generated_at": "2026-09-21T17:26:40",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -3080,6 +3080,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260604-141031__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
+        },
+        {
+          "title": "2026秋季爆品发布会",
+          "date": "2026-09-20",
+          "fetched_at": "20260921-172449",
+          "type": "官方候选",
+          "fact": "日期：2026-09-20；标题：2026秋季爆品发布会；来源：https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260920,
+          "source_url": "https://www.inovance.com/portal-front/api/product/launch/listPage?pageNum=1&pageSize=10",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260921-172449__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
         }
       ]
     },
@@ -4992,6 +5007,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260918-152613__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年9月21日投资者关系活动记录表",
+          "date": "2026-9-21",
+          "fetched_at": "20260921-172449",
+          "type": "官方候选",
+          "fact": "日期：2026-9-21；标题：深南电路：2026年9月21日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260921,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260921-172449__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
