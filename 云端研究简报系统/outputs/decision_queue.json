@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T17:26:40",
-  "source_generated_at": "2026-09-21T17:26:40",
+  "generated_at": "2026-09-22T15:58:08",
+  "source_generated_at": "2026-09-22T15:58:08",
   "items": [
     {
       "company": "constellation",
@@ -2055,24 +2055,6 @@
       "score": 9
     },
     {
-      "company": "fii",
-      "company_name": "工业富联",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "三季度报告",
-      "date": "20260723-1",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260723-132331__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
-      "event_index": null,
-      "sort_key": 20260723,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2178,24 +2160,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260727-140953__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20260724,
-      "score": 8
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea",
-      "date": "2026-07-23",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://investor.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260724-131704__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260723,
       "score": 8
     },
     {
@@ -2451,24 +2415,6 @@
       "score": 6
     },
     {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-      "date": "2026-07-23",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260724-131704__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260723,
-      "score": 6
-    },
-    {
       "company": "eoptolink",
       "company_name": "新易盛",
       "source_type": "official_candidate",
@@ -2578,9 +2524,9 @@
     }
   ],
   "summary": {
-    "total": 143,
+    "total": 140,
     "formal_events": 89,
-    "official_candidates": 54,
+    "official_candidates": 51,
     "companies": 12
   }
 }
