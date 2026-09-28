@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-09-25T16:09:47",
-  "source_generated_at": "2026-09-25T16:09:47",
+  "generated_at": "2026-09-28T18:58:18",
+  "source_generated_at": "2026-09-28T18:58:18",
   "items": [
     {
       "company": "constellation",
@@ -1155,24 +1155,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 14
     },
     {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
-      "date": "2026-07-29",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260729,
-      "score": 14
-    },
-    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "formal_event",
@@ -1621,24 +1603,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 2,
       "sort_key": 20260318,
       "score": 11
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
-      "date": "2026-07-28",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260729-134505__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260728,
-      "score": 10
     },
     {
       "company": "tsmc",
@@ -2217,24 +2181,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 7
     },
     {
-      "company": "fii",
-      "company_name": "工业富联",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "工业富联：关于以集中竞价交易方式回购股份的回购报告书",
-      "date": "2026-07-28",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260727-140953__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
-      "event_index": null,
-      "sort_key": 20260728,
-      "score": 7
-    },
-    {
       "company": "luxshare",
       "company_name": "立讯精密",
       "source_type": "formal_event",
@@ -2347,17 +2293,17 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
-      "title": "Ilya Sutskever’s Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
-      "date": "2026-07-27",
+      "title": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
+      "date": "2026-07-29",
       "type": "官方候选",
       "priority": "候选",
       "decision_action": "进入研判队列",
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
-      "source_url": "https://investor.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260727-140953__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260730-132617__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
-      "sort_key": 20260727,
+      "sort_key": 20260729,
       "score": 6
     },
     {
@@ -2470,9 +2416,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 137,
+    "total": 134,
     "formal_events": 89,
-    "official_candidates": 48,
+    "official_candidates": 45,
     "companies": 12
   }
 };
