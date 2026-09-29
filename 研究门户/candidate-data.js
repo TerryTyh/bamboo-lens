@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-09-28T18:58:18",
+  "generated_at": "2026-09-29T17:17:20",
   "companies": {
     "nvidia": [
       {
@@ -5752,6 +5752,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 18,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "沪电股份：关于召开2026年第二次临时股东会的通知",
+        "date": "2026-09-30",
+        "fetched_at": "20260929-171528",
+        "type": "官方候选",
+        "fact": "日期：2026-09-30；标题：沪电股份：关于召开2026年第二次临时股东会的通知；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260930,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260929-171528__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       }
     ],
     "fii": [
