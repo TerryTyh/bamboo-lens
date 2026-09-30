@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-09-29T17:17:20",
+  "generated_at": "2026-09-30T17:15:21",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
