@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_MARKET_SNAPSHOT = {
-  "generated_at": "2026-10-01T17:44:22Z",
+  "generated_at": "2026-10-02T17:03:53Z",
   "source": "https://query1.finance.yahoo.com/v7/finance/quote / https://query1.finance.yahoo.com/v8/finance/chart / https://hq.sinajs.cn/list=",
   "warnings": [
     "Yahoo quote fetch failed, falling back to chart API: HTTP Error 401: Unauthorized"
@@ -15,15 +15,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "NVIDIA Corporation",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 231.23,
-        "previousClose": 224.58,
-        "change": 6.649999999999977,
-        "changePercent": 2.9610829103214784,
+        "price": 235.455,
+        "previousClose": 225.07,
+        "change": 10.38500000000002,
+        "changePercent": 4.61412005153953,
         "marketCap": null,
-        "marketTime": 1790876661,
+        "marketTime": 1790960632,
         "display": {
-          "price": "US$231.23",
-          "changePercent": "+2.96%",
+          "price": "US$235.46",
+          "changePercent": "+4.61%",
           "marketCap": "暂无"
         }
       },
@@ -33,20 +33,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "NVIDIA Corporation",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 231.23,
-          "previousClose": 224.58,
-          "change": 6.649999999999977,
-          "changePercent": 2.9610829103214784,
+          "price": 235.455,
+          "previousClose": 225.07,
+          "change": 10.38500000000002,
+          "changePercent": 4.61412005153953,
           "marketCap": null,
-          "marketTime": 1790876661,
+          "marketTime": 1790960632,
           "display": {
-            "price": "US$231.23",
-            "changePercent": "+2.96%",
+            "price": "US$235.46",
+            "changePercent": "+4.61%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -59,15 +59,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "TAIWAN SEMICONDUCTOR MANUFACTUR",
         "exchange": "Taiwan",
         "currency": "TWD",
-        "price": 2510.0,
-        "previousClose": 2500.0,
-        "change": 10.0,
-        "changePercent": 0.4,
+        "price": 2500.0,
+        "previousClose": 2475.0,
+        "change": 25.0,
+        "changePercent": 1.0101010101010102,
         "marketCap": null,
-        "marketTime": 1790832607,
+        "marketTime": 1790919001,
         "display": {
-          "price": "NT$2,510.00",
-          "changePercent": "+0.40%",
+          "price": "NT$2,500.00",
+          "changePercent": "+1.01%",
           "marketCap": "暂无"
         }
       },
@@ -77,15 +77,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "TAIWAN SEMICONDUCTOR MANUFACTUR",
           "exchange": "Taiwan",
           "currency": "TWD",
-          "price": 2510.0,
-          "previousClose": 2500.0,
-          "change": 10.0,
-          "changePercent": 0.4,
+          "price": 2500.0,
+          "previousClose": 2475.0,
+          "change": 25.0,
+          "changePercent": 1.0101010101010102,
           "marketCap": null,
-          "marketTime": 1790832607,
+          "marketTime": 1790919001,
           "display": {
-            "price": "NT$2,510.00",
-            "changePercent": "+0.40%",
+            "price": "NT$2,500.00",
+            "changePercent": "+1.01%",
             "marketCap": "暂无"
           }
         },
@@ -94,20 +94,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "Taiwan Semiconductor Manufactur",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 459.95,
-          "previousClose": 451.15,
-          "change": 8.800000000000011,
-          "changePercent": 1.9505707636041254,
+          "price": 472.945,
+          "previousClose": 450.61,
+          "change": 22.33499999999998,
+          "changePercent": 4.956614367191136,
           "marketCap": null,
-          "marketTime": 1790876660,
+          "marketTime": 1790960632,
           "display": {
-            "price": "US$459.95",
-            "changePercent": "+1.95%",
+            "price": "US$472.94",
+            "changePercent": "+4.96%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -120,15 +120,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "Microsoft Corporation",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 516.04,
-        "previousClose": 497.93,
-        "change": 18.109999999999957,
-        "changePercent": 3.637057417709308,
+        "price": 514.44,
+        "previousClose": 516.17,
+        "change": -1.7299999999999045,
+        "changePercent": -0.3351608966038136,
         "marketCap": null,
-        "marketTime": 1790876657,
+        "marketTime": 1790960630,
         "display": {
-          "price": "US$516.04",
-          "changePercent": "+3.64%",
+          "price": "US$514.44",
+          "changePercent": "-0.34%",
           "marketCap": "暂无"
         }
       },
@@ -138,20 +138,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "Microsoft Corporation",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 516.04,
-          "previousClose": 497.93,
-          "change": 18.109999999999957,
-          "changePercent": 3.637057417709308,
+          "price": 514.44,
+          "previousClose": 516.17,
+          "change": -1.7299999999999045,
+          "changePercent": -0.3351608966038136,
           "marketCap": null,
-          "marketTime": 1790876657,
+          "marketTime": 1790960630,
           "display": {
-            "price": "US$516.04",
-            "changePercent": "+3.64%",
+            "price": "US$514.44",
+            "changePercent": "-0.34%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -164,15 +164,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "BABA-W",
         "exchange": "HKSE",
         "currency": "HKD",
-        "price": 106.6,
-        "previousClose": 109.8,
-        "change": -3.200000000000003,
-        "changePercent": -2.914389799635704,
+        "price": 104.4,
+        "previousClose": 110.0,
+        "change": -5.599999999999994,
+        "changePercent": -5.0909090909090855,
         "marketCap": null,
-        "marketTime": 1790755706,
+        "marketTime": 1790928487,
         "display": {
-          "price": "HK$106.60",
-          "changePercent": "-2.91%",
+          "price": "HK$104.40",
+          "changePercent": "-5.09%",
           "marketCap": "暂无"
         }
       },
@@ -182,15 +182,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "BABA-W",
           "exchange": "HKSE",
           "currency": "HKD",
-          "price": 106.6,
-          "previousClose": 109.8,
-          "change": -3.200000000000003,
-          "changePercent": -2.914389799635704,
+          "price": 104.4,
+          "previousClose": 110.0,
+          "change": -5.599999999999994,
+          "changePercent": -5.0909090909090855,
           "marketCap": null,
-          "marketTime": 1790755706,
+          "marketTime": 1790928487,
           "display": {
-            "price": "HK$106.60",
-            "changePercent": "-2.91%",
+            "price": "HK$104.40",
+            "changePercent": "-5.09%",
             "marketCap": "暂无"
           }
         },
@@ -199,20 +199,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "Alibaba Group Holding Limited",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 107.74,
-          "previousClose": 110.63,
-          "change": -2.8900000000000006,
-          "changePercent": -2.6123113079634828,
+          "price": 105.7,
+          "previousClose": 109.74,
+          "change": -4.039999999999992,
+          "changePercent": -3.68142883178421,
           "marketCap": null,
-          "marketTime": 1790876654,
+          "marketTime": 1790960630,
           "display": {
-            "price": "US$107.74",
-            "changePercent": "-2.61%",
+            "price": "US$105.70",
+            "changePercent": "-3.68%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -256,7 +256,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -269,15 +269,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "GE Vernova Inc.",
         "exchange": "NYSE",
         "currency": "USD",
-        "price": 994.66,
-        "previousClose": 955.04,
-        "change": 39.620000000000005,
-        "changePercent": 4.148517339587872,
+        "price": 992.5,
+        "previousClose": 957.63,
+        "change": 34.870000000000005,
+        "changePercent": 3.641281079331266,
         "marketCap": null,
-        "marketTime": 1790876654,
+        "marketTime": 1790960631,
         "display": {
-          "price": "US$994.66",
-          "changePercent": "+4.15%",
+          "price": "US$992.50",
+          "changePercent": "+3.64%",
           "marketCap": "暂无"
         }
       },
@@ -287,20 +287,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "GE Vernova Inc.",
           "exchange": "NYSE",
           "currency": "USD",
-          "price": 994.66,
-          "previousClose": 955.04,
-          "change": 39.620000000000005,
-          "changePercent": 4.148517339587872,
+          "price": 992.5,
+          "previousClose": 957.63,
+          "change": 34.870000000000005,
+          "changePercent": 3.641281079331266,
           "marketCap": null,
-          "marketTime": 1790876654,
+          "marketTime": 1790960631,
           "display": {
-            "price": "US$994.66",
-            "changePercent": "+4.15%",
+            "price": "US$992.50",
+            "changePercent": "+3.64%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -344,7 +344,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -357,15 +357,15 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
         "shortName": "Constellation Energy Corporatio",
         "exchange": "NasdaqGS",
         "currency": "USD",
-        "price": 259.599,
-        "previousClose": 261.62,
-        "change": -2.021000000000015,
-        "changePercent": -0.7724944576102801,
+        "price": 254.01,
+        "previousClose": 263.27,
+        "change": -9.259999999999991,
+        "changePercent": -3.5173016295058273,
         "marketCap": null,
-        "marketTime": 1790876656,
+        "marketTime": 1790960628,
         "display": {
-          "price": "US$259.60",
-          "changePercent": "-0.77%",
+          "price": "US$254.01",
+          "changePercent": "-3.52%",
           "marketCap": "暂无"
         }
       },
@@ -375,20 +375,20 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           "shortName": "Constellation Energy Corporatio",
           "exchange": "NasdaqGS",
           "currency": "USD",
-          "price": 259.599,
-          "previousClose": 261.62,
-          "change": -2.021000000000015,
-          "changePercent": -0.7724944576102801,
+          "price": 254.01,
+          "previousClose": 263.27,
+          "change": -9.259999999999991,
+          "changePercent": -3.5173016295058273,
           "marketCap": null,
-          "marketTime": 1790876656,
+          "marketTime": 1790960628,
           "display": {
-            "price": "US$259.60",
-            "changePercent": "-0.77%",
+            "price": "US$254.01",
+            "changePercent": "-3.52%",
             "marketCap": "暂无"
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -432,7 +432,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -476,7 +476,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -520,7 +520,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -564,7 +564,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -608,7 +608,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -652,7 +652,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -696,7 +696,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     },
@@ -740,7 +740,7 @@ window.BAMBOO_LENS_MARKET_SNAPSHOT = {
           }
         }
       ],
-      "updatedAt": "2026-10-01T17:44:22Z",
+      "updatedAt": "2026-10-02T17:03:53Z",
       "source": "https://query1.finance.yahoo.com/v7/finance/quote",
       "stale": false
     }
