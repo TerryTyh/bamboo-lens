@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-02T17:03:46",
+  "generated_at": "2026-10-06T17:41:36",
   "summary": {
-    "total": 14,
+    "total": 16,
     "companies": 4,
     "with_source_body": 0,
-    "suppressed_count": 2,
+    "suppressed_count": 0,
     "readiness_counts": {
-      "needs_source": 14
+      "needs_source": 16
     },
     "priority_batch": []
   },
@@ -402,6 +402,62 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "shennan::深南电路：2026年度向特定对象发行股票募集资金使用的可行性分析报告(修订稿)": {
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年度向特定对象发行股票募集资金使用的可行性分析报告(修订稿)",
+      "date": "2026-09-09",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "shennan::深南电路：2026年度向特定对象发行股票方案的论证分析报告(修订稿)": {
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年度向特定对象发行股票方案的论证分析报告(修订稿)",
+      "date": "2026-09-09",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
   },
   "companies": {
@@ -622,6 +678,62 @@
         ],
         "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
         "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年9月17日-9月18日投资者关系活动记录表.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年度向特定对象发行股票募集资金使用的可行性分析报告(修订稿)",
+        "date": "2026-09-09",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "title": "深南电路：2026年度向特定对象发行股票方案的论证分析报告(修订稿)",
+        "date": "2026-09-09",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1198,24 +1310,63 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    }
-  ],
-  "suppressed": [
-    {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
-      "date": "2026-08-06",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
     },
     {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "title": "Q2 2026 Earnings Call Information",
-      "date": "2026-08-06",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "reason": "同一日期的财报深读已经进入正式事件或公司主页"
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年度向特定对象发行股票募集资金使用的可行性分析报告(修订稿)",
+      "date": "2026-09-09",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票募集资金使用的可行性分析报告-修订稿.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿",
+      "company": "shennan",
+      "company_name": "深南电路",
+      "title": "深南电路：2026年度向特定对象发行股票方案的论证分析报告(修订稿)",
+      "date": "2026-09-09",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年度向特定对象发行股票方案的论证分析报告-修订稿.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
     }
-  ]
+  ],
+  "suppressed": []
 }

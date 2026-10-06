@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-10-02T17:03:46",
-  "source_generated_at": "2026-10-02T17:03:46",
+  "generated_at": "2026-10-06T17:41:36",
+  "source_generated_at": "2026-10-06T17:41:36",
   "items": [
     {
       "company": "constellation",
@@ -1137,24 +1137,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 16
     },
     {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
-      "date": "2026-08-06",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
-      "event_index": null,
-      "sort_key": 20260806,
-      "score": 14
-    },
-    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "formal_event",
@@ -1549,24 +1531,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 1,
       "sort_key": 20251024,
       "score": 12
-    },
-    {
-      "company": "constellation",
-      "company_name": "Constellation Energy",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Q2 2026 Earnings Call Information",
-      "date": "2026-08-06",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
-      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
-      "event_index": null,
-      "sort_key": 20260806,
-      "score": 11
     },
     {
       "company": "nvidia",
@@ -2145,24 +2109,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 7
     },
     {
-      "company": "fii",
-      "company_name": "工业富联",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "工业富联：关于股份回购进展公告",
-      "date": "2026-08-05",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260804-134717__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
-      "event_index": null,
-      "sort_key": 20260805,
-      "score": 7
-    },
-    {
       "company": "luxshare",
       "company_name": "立讯精密",
       "source_type": "formal_event",
@@ -2203,71 +2149,17 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "Constellation Energy",
       "source_type": "official_candidate",
       "stage": "待读原文",
-      "title": "Presentations",
+      "title": "Constellation Energy will discuss second quarter 2026 earnings in a conference call scheduled for Thursday, August 6, 2026, at 10:00 AM ET",
       "date": "2026-08-06",
       "type": "官方候选",
       "priority": "候选",
       "decision_action": "进入研判队列",
       "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20260729-134505__investors.constellationenergy.com_events-and-presentations.html",
       "event_index": null,
       "sort_key": 20260806,
-      "score": 6
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "date": "2026-08-04",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260804-134717__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260804,
-      "score": 6
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
-      "date": "2026-08-04",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260805-134216__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260804,
-      "score": 6
-    },
-    {
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
-      "date": "2026-08-04",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20260805-134216__investor.nvidia.com_news_press-releases_default.aspx.html",
-      "event_index": null,
-      "sort_key": 20260804,
       "score": 6
     },
     {
@@ -2398,9 +2290,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 133,
+    "total": 127,
     "formal_events": 89,
-    "official_candidates": 44,
+    "official_candidates": 38,
     "companies": 12
   }
 };
