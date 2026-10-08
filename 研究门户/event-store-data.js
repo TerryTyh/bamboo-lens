@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-10-07T18:09:34",
+  "generated_at": "2026-10-08T18:11:19",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -3095,6 +3095,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20260921-172449__www.inovance.com_portal-front_api_product_launch_listPage_pageNum_1_pageSize_10.html"
+        },
+        {
+          "title": "济南工厂电力巡检机器人系统项目 招标公告",
+          "date": "2026-10-08",
+          "fetched_at": "20261008-180926",
+          "type": "官方候选",
+          "fact": "日期：2026-10-08；标题：济南工厂电力巡检机器人系统项目 招标公告；来源：https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261008,
+          "source_url": "https://www.inovance.com/portal-front/api/home/search?key=%E6%9C%BA%E5%99%A8%E4%BA%BA&showChannel=2",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/inovance__20261008-180926__www.inovance.com_portal-front_api_home_search_key_%E6%9C%BA%E5%99%A8%E4%BA%BA_showChannel_2.html"
         }
       ]
     },
