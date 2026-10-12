@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T17:44:52",
-  "source_generated_at": "2026-10-09T17:44:52",
+  "generated_at": "2026-10-12T20:37:34",
+  "source_generated_at": "2026-10-12T20:37:34",
   "items": [
     {
       "company": "constellation",
@@ -1137,6 +1137,24 @@
       "score": 16
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Q3 2026 Constellation Energy Corporation Earnings Conference Call",
+      "date": "2026-11-09",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20261012-203500__investors.constellationenergy.com_events-and-presentations.html",
+      "event_index": null,
+      "sort_key": 20261109,
+      "score": 14
+    },
+    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "formal_event",
@@ -1303,6 +1321,24 @@
       "company_name": "深南电路",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "深南电路：关于2026年度向特定对象发行股票的募集说明书等申请文件更新的提示性公告",
+      "date": "2026-10-13",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261012-203500__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+      "event_index": null,
+      "sort_key": 20261013,
+      "score": 13
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "深南电路：2026年度向特定对象发行股票募集说明书(申报稿)",
       "date": "2026-08-26",
       "type": "官方候选",
@@ -1404,24 +1440,6 @@
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260824-122551__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
       "event_index": null,
       "sort_key": 20260825,
-      "score": 13
-    },
-    {
-      "company": "fii",
-      "company_name": "工业富联",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "工业富联：2026年半年度报告摘要",
-      "date": "2026-08-12",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
-      "event_index": null,
-      "sort_key": 20260812,
       "score": 13
     },
     {
@@ -1567,6 +1585,42 @@
       "event_index": 2,
       "sort_key": 20260318,
       "score": 11
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC September 2026 Revenue Report",
+      "date": "2026-10-08",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "http://pr.tsmc.com/english/news/3343",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261012-203500__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20261008,
+      "score": 10
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC August 2026 Revenue Report",
+      "date": "2026-09-10",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "http://pr.tsmc.com/english/news/3340",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261012-203500__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20260910,
+      "score": 10
     },
     {
       "company": "tsmc",
@@ -1983,24 +2037,6 @@
       "score": 9
     },
     {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年8月12日投资者关系活动记录表",
-      "date": "2026-8-12",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260812-124353__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260812,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2145,6 +2181,24 @@
       "score": 7
     },
     {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
+      "date": "2026-09-08",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "http://pr.tsmc.com/english/news/3338",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261012-203500__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20260908,
+      "score": 6
+    },
+    {
       "company": "constellation",
       "company_name": "Constellation Energy",
       "source_type": "official_candidate",
@@ -2271,6 +2325,24 @@
       "score": 6
     },
     {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "工业富联：2026年半年度报告摘要",
+      "date": "2026-08-12",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20260811-124030__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20260812,
+      "score": 5
+    },
+    {
       "company": "luxshare",
       "company_name": "立讯精密",
       "source_type": "formal_event",
@@ -2290,9 +2362,9 @@
     }
   ],
   "summary": {
-    "total": 127,
+    "total": 131,
     "formal_events": 89,
-    "official_candidates": 38,
+    "official_candidates": 42,
     "companies": 12
   }
 }
