@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:37:34",
+  "generated_at": "2026-10-13T18:41:27",
   "companies": {
     "nvidia": [
       {
@@ -1928,6 +1928,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20260707-140648__www.gevernova.com_investors_events.html"
+      },
+      {
+        "title": "2nd Quarter 2026 Earnings Webcast",
+        "date": "2026-07-22",
+        "fetched_at": "20261013-183858",
+        "type": "官方候选",
+        "fact": "日期：2026-07-22；标题：2nd Quarter 2026 Earnings Webcast；来源：https://www.gevernova.com/investors/events",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20260722,
+        "source_url": "https://www.gevernova.com/investors/events",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/gevernova__20261013-183858__www.gevernova.com_investors_events.html"
       }
     ],
     "luxshare": [
