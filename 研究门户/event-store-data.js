@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-10-13T18:41:28",
+  "generated_at": "2026-10-14T16:12:20",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -3587,6 +3587,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "At 9:30 a.m. on July 9, 2026, the opening gong sounded at the Hong Kong Stock Exchange (HKEX), marking the successful listing ceremony of Luxshare Precision Industry Co., Ltd. (A-shares: 002475; H-shares: 02475) on the Main Board. Company Founder and Chairwoman Ms. Wang Laichun, Vice Chairman Mr. Wang Laisheng, core members of the management team, joint sponsors CITIC Securities, Goldman Sachs (Asia), and CICC, alon…",
           "source_body": "At 9:30 a.m. on July 9, 2026, the opening gong sounded at the Hong Kong Stock Exchange (HKEX), marking the successful listing ceremony of Luxshare Precision Industry Co., Ltd. (A-shares: 002475; H-shares: 02475) on the Main Board. Company Founder and Chairwoman Ms. Wang Laichun, Vice Chairman Mr. Wang Laisheng, core members of the management team, joint sponsors CITIC Securities, Goldman Sachs (Asia), and CICC, along with the broader intermediary team, gathered at the HKEX trading hall in Central to witness this historic milestone in the Group's \"A+H dual capital platform\" strategy. Over the years, Luxshare Precision has built deep expertise in Precision Intelligent Manufacturing Solutions (PIMS), with a strategic focus on three key sectors: consumer electronics, automotive electronics, and communications and data centers. The Company has established vertically integrated R&D and manufacturing capabilities spanning components, modules, and finished products, providing reliable intelligent manufacturing solutions to more than 100 Fortune Global 500 companies worldwide. With over 100 smart manufacturing facilities across Asia, Europe, the Americas, and North Africa, Luxshare has established an integrated ecosystem spanning R&D, mass production, and global delivery. This listing on the HKEX, completing the Group's dual-listing structure, marks a key milestone in its globalization strategy, building a two-way bridge connecting the real economy with global capital markets. At the ceremony, Chairwoman Wang Laichun delivered the listing address: \"Today, Luxshare Precision's listing on the Main Board of the Hong Kong Stock Exchange is not only an important milestone in the company's development, but also a new starting point for connecting with global capital markets through Hong Kong's strengths as an international financial center. On behalf of everyone at the company, I would like to extend our sincere gratitude to the Exchange, the regulators, our investors, and our intermediary partners, and especially to every member of the Luxshare family who has worked with dedication and integrity to help us reach this point.\" She noted that over more than two decades, Luxshare has remained committed to the real economy and precision manufacturing. Amid the wave of transformation and upgrading in China's manufacturing sector, the company has continuously strengthened its technological capabilities and operational resilience, evolving from basic precision manufacturing to intelligent manufacturing, and from single-product delivery to full value-chain vertical integration, consistently delivering reliable manufacturing solutions to customers worldwide. Looking ahead, the Chairwoman emphasized that the Group will continue to uphold long-termism, stay driven by technology, and maintain steady operations, while further deepening its global industrial footprint. Luxshare will continue to serve global markets with world-class manufacturing capabilities, creating sustainable value for customers, employees, shareholders, and society. As the ceremony drew to a close, company management and representatives from the intermediary institutions posed for group photos and took part in a media Q&A session. As the gong fell silent, a new journey began. Leveraging its dual-listing platforms on the Shenzhen and Hong Kong Stock Exchanges, Luxshare Precision remains committed to its industrial roots, continuing to expand its global R&D and manufacturing footprint, delivering steady growth and sustained innovation for investors, partners, and the entire Luxshare family worldwide. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261009-174257__www.luxshare-ict.com_en_news_release.html.html"
+        },
+        {
+          "title": "Luxshare Precision's Subsidiary Luxshare Intelligent Computing Unveils NEXTiX LEGION at Intel Connection 2026",
+          "date": "2026-09-24",
+          "fetched_at": "20261014-160930",
+          "type": "官方候选",
+          "fact": "日期：2026-09-24；标题：Luxshare Precision's Subsidiary Luxshare Intelligent Computing Unveils NEXTiX LEGION at Intel Connection 2026；原文内容：Intel Connection 2026, Intel’s technology innovation and industry ecosystem conference, took place on September 22–23 at the Suzhou International Expo Center. Luxshare Precision showcased NEXTiX LEGION, its AI infrastructure product portfolio, featuring a range of AI computing systems and comprehensive solutions spanning core components, prefabricated data centers, and computing services. Building on its strengths i…；来源：https://www.luxshare-ict.com/en/news/release/183.html",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20260924,
+          "source_url": "https://www.luxshare-ict.com/en/news/release/183.html",
+          "source_excerpt": "Intel Connection 2026, Intel’s technology innovation and industry ecosystem conference, took place on September 22–23 at the Suzhou International Expo Center. Luxshare Precision showcased NEXTiX LEGION, its AI infrastructure product portfolio, featuring a range of AI computing systems and comprehensive solutions spanning core components, prefabricated data centers, and computing services. Building on its strengths i…",
+          "source_body": "Intel Connection 2026, Intel’s technology innovation and industry ecosystem conference, took place on September 22–23 at the Suzhou International Expo Center. Luxshare Precision showcased NEXTiX LEGION, its AI infrastructure product portfolio, featuring a range of AI computing systems and comprehensive solutions spanning core components, prefabricated data centers, and computing services. Building on its strengths in R&D, precision manufacturing, and vertical integration, Luxshare Precision continues to expand its AI computing infrastructure portfolio and strengthen its ability to deliver standardized solutions at scale. As AI models grow in scale and applications become more diverse, computing infrastructure is evolving from standalone machines toward integrated systems and clusters. In response to this trend, NEXTiX LEGION embraces the product philosophy of “Evolving with models. Built for every scenario.” Built on the unified iX Architecture, NEXTiX LEGION delivers four core capabilities: intelligent orchestration (Intelligence), efficient computing (eXecution), high-speed interconnects (eXchange), and extreme scalability (eXtreme). It scales flexibly from a single server to GPU clusters with tens of thousands of GPUs, providing efficient, scalable computing power for a wide range of AI applications. LEGION Server Portfolio for Diverse AI Computing Needs Six NEXTiX LEGION products—TITAN, APEX, NOVA, IRON, VORTEX, and FALCON—were showcased at the conference, supporting a wide range of applications, including large-scale computing centers, core AI training workloads, open heterogeneous computing, enterprise AI, high-density computing, and high-density liquid-cooled deployments. Built on a unified architecture, the product portfolio shares coordinated firmware, thermal design, operations and maintenance frameworks, and cluster networking capabilities. This reduces the complexity of large-scale deployment and ongoing operations, providing flexible, efficient computing options for applications of varying scales and requirements. Prefabricated Data Centers Accelerate AI Infrastructure Deployment To meet rapidly growing demand for computing capacity, Luxshare Precision continues to advance prefabricated, modular data center construction. Power, cooling, computing, networking, and storage systems are integrated and tested before being transported to the project site for modular deployment, significantly reducing construction timelines. Individual functional modules can be flexibly expanded to meet business needs, bringing new computing resources online faster and further improving the efficiency and flexibility of infrastructure development. Extending from Product Delivery to Computing Services While continuously improving hardware products and infrastructure solutions, Luxshare Precision is actively expanding its computing service model. By building a GPU computing resource pool and combining it with remote monitoring, on-site O&M, and other service capabilities, the company flexibly allocates computing resources according to actual business needs, driving the extension of computing capabilities from product delivery to continuous services. This exhibition further presented Luxshare Precision's layout in AI computing servers, liquid cooling infrastructure, prefabricated data centers, and computing services, reflecting the Group's comprehensive capabilities in continuously extending from core components to complete machines, systems, and services. Looking ahead, Luxshare Precision will continue to leverage its comprehensive advantages in technology R&D, precision manufacturing, vertical integration, and large-scale delivery. Working hand in hand with industry chain partners, the company will continuously improve its AI computing infrastructure products and solutions, providing reliable and efficient computing support for the intelligent transformation of various industries. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261014-160930__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -5172,6 +5187,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261012-203500__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+          "date": "2026-10-15",
+          "fetched_at": "20261014-160930",
+          "type": "官方候选",
+          "fact": "日期：2026-10-15；标题：深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261015,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261014-160930__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -5766,6 +5796,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260929-171528__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年前三季度业绩预告",
+          "date": "2026-10-15",
+          "fetched_at": "20261014-160930",
+          "type": "官方候选",
+          "fact": "日期：2026-10-15；标题：沪电股份：2026年前三季度业绩预告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261015,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261014-160930__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },

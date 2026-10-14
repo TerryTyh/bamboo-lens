@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-10-13T18:41:28",
-  "source_generated_at": "2026-10-13T18:41:28",
+  "generated_at": "2026-10-14T16:12:20",
+  "source_generated_at": "2026-10-14T16:12:20",
   "items": [
     {
       "company": "constellation",
@@ -1155,6 +1155,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 14
     },
     {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "沪电股份：2026年前三季度业绩预告",
+      "date": "2026-10-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261014-160930__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20261015,
+      "score": 14
+    },
+    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "formal_event",
@@ -1677,6 +1695,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 10
     },
     {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+      "date": "2026-10-15",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261014-160930__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+      "event_index": null,
+      "sort_key": 20261015,
+      "score": 9
+    },
+    {
       "company": "wus",
       "company_name": "沪电股份",
       "source_type": "official_candidate",
@@ -2181,6 +2217,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 7
     },
     {
+      "company": "luxshare",
+      "company_name": "立讯精密",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Luxshare Precision's Subsidiary Luxshare Intelligent Computing Unveils NEXTiX LEGION at Intel Connection 2026",
+      "date": "2026-09-24",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://www.luxshare-ict.com/en/news/release/183.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261014-160930__www.luxshare-ict.com_en_news_release.html.html",
+      "event_index": null,
+      "sort_key": 20260924,
+      "score": 6
+    },
+    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "official_candidate",
@@ -2362,9 +2416,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 131,
+    "total": 134,
     "formal_events": 89,
-    "official_candidates": 42,
+    "official_candidates": 45,
     "companies": 12
   }
 };
