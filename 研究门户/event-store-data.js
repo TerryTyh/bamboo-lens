@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-10-14T16:12:20",
+  "generated_at": "2026-10-15T16:00:41",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2791,6 +2791,22 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "[](http://pr.tsmc.com/english/news/3329#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3329#)Search […",
           "source_body": "[](http://pr.tsmc.com/english/news/3329#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3329#)Search [](http://pr.tsmc.com/english/news/3329) *HSINCHU, Taiwan, R.O.C. – August 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for July 2026: On a consolidated basis, revenue for July 2026 was approximately NT$467.58 billion, an increase of 5.6 percent from June 2026 and an increase of 44.7 percent from July 2025. Revenue for January through July 2026 totaled NT$2,872.06 billion, an increase of 37.0 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-Supply Online 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261012-203500__pr.tsmc.com_english_latest-news.html"
+        },
+        {
+          "title": "TSMC Reports Third Quarter EPS of NT$29.43",
+          "date": "2026-10-15",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-15；标题：TSMC Reports Third Quarter EPS of NT$29.43；原文内容：[](http://pr.tsmc.com/english/news/3346#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3346#)Search 5…；来源：http://pr.tsmc.com/english/news/3346",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261015,
+          "source_url": "http://pr.tsmc.com/english/news/3346",
+          "source_excerpt": "[](http://pr.tsmc.com/english/news/3346#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3346#)Search 5…",
+          "source_body": "[](http://pr.tsmc.com/english/news/3346#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3346#)Search 5. TSMC Reports Third Quarter EPS of NT$29.43 [](http://pr.tsmc.com/english/news/3346) TSMC Reports Third Quarter EPS of NT$29.43 TSMC Reports Third Quarter EPS of NT$29.43 *HSINCHU, Taiwan, R.O.C., Oct. 15, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,494.24 billion, net income of NT$763.06 billion, and diluted earnings per share of NT$29.43 (US$4.60 per ADR unit) for the third quarter ended September 30, 2026. Year-over-year, third quarter revenue increased 50.9%, while net income and diluted EPS both increased 68.7%. Compared to second quarter 2026, third quarter results represented a 17.6% increase in revenue and an 8.0% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, third quarter revenue was $46.72 billion, which increased 41.2% year-over-year and increased 16.2% from the previous quarter. Gross margin for the quarter was 66.4%, operating margin was 58.7%, and net profit margin was 51.1%. In the third quarter, shipments of 2-nanometer accounted for 8% of total wafer revenue; 3-nanometer accounted for 33%; 5-nanometer accounted for 28%; and 7-nanometer accounted for 10%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 79% of total wafer revenue. “Our business in the third quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into fourth quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies, including the steep ramp-up of our 2-nanometer technology.” Based on the Company’s current business outlook, management expects the overall performance for fourth quarter 2026 to be as follows: Revenue is expected to be between US$52.3 billion and US$54.3 billion; And, based on the exchange rate assumption of 1 US dollar to 31.8 NT dollars, Gross profit margin is expected to be between 65% and 67%; Operating profit margin is expected to be between 56.5% and 58.5%. Senior Vice President & Chief Financial Officer TSMC-Supply Online 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261015-155718__pr.tsmc.com_english_latest-news.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
@@ -4412,6 +4428,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20260914-171407__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+        },
+        {
+          "title": "新易盛：关于收到控股股东、实际控制人、董事长提议回购公司股份的公告",
+          "date": "2026-10-15",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-15；标题：新易盛：关于收到控股股东、实际控制人、董事长提议回购公司股份的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261015,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261015-155718__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
         }
       ]
     },
@@ -5202,6 +5233,51 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261014-160930__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于2026年度向特定对象发行股票提交募集说明书(注册稿)等申请文件的提示性公告",
+          "date": "2026-10-16",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-16；标题：深南电路：关于2026年度向特定对象发行股票提交募集说明书(注册稿)等申请文件的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261016,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261015-155718__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年前三季度业绩预告",
+          "date": "2026-10-16",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-16；标题：深南电路：2026年前三季度业绩预告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261016,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261015-155718__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年度向特定对象发行股票募集说明书(注册稿)",
+          "date": "2026-10-16",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-16；标题：深南电路：2026年度向特定对象发行股票募集说明书(注册稿)；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261016,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261015-155718__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -5811,6 +5887,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261014-160930__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年10月15日投资者关系活动记录表",
+          "date": "2026-10-15",
+          "fetched_at": "20261015-155718",
+          "type": "官方候选",
+          "fact": "日期：2026-10-15；标题：沪电股份：2026年10月15日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261015,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261015-155718__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
