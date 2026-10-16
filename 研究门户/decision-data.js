@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-10-15T16:00:41",
-  "source_generated_at": "2026-10-15T16:00:41",
+  "generated_at": "2026-10-16T15:48:59",
+  "source_generated_at": "2026-10-16T15:48:58",
   "items": [
     {
       "company": "constellation",
@@ -1767,6 +1767,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 10
     },
     {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "沪电股份：2026年10月16日投资者关系活动记录表",
+      "date": "2026-10-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261016-154549__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20261016,
+      "score": 9
+    },
+    {
       "company": "shennan",
       "company_name": "深南电路",
       "source_type": "official_candidate",
@@ -2524,9 +2542,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 140,
+    "total": 141,
     "formal_events": 89,
-    "official_candidates": 51,
+    "official_candidates": 52,
     "companies": 12
   }
 };
