@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_COMPANY_MAINLINE_AUDIT = {
-  "generated_at": "2026-10-23T16:15:18",
-  "source_overrides_at": "2026-10-23T16:15:18",
+  "generated_at": "2026-10-26T17:56:47",
+  "source_overrides_at": "2026-10-26T17:56:47",
   "items": [
     {
       "company": "constellation",

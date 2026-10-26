@@ -1,6 +1,6 @@
 # 竹鉴自动化健康检查
 
-生成时间：2026-10-24T00:15:25+08:00
+生成时间：2026-10-27T01:56:53+08:00
 
 总体状态：健康
 
@@ -21,16 +21,16 @@
 
 ## 新鲜度
 
-- 阈值：90 小时
-- official_candidates：healthy，时间 2026-10-23T16:14:01+08:00，年龄 8.0h
-- event_store：healthy，时间 2026-10-23T16:15:17+08:00，年龄 8.0h
-- decision_queue：healthy，时间 2026-10-23T16:15:18+08:00，年龄 8.0h
-- company_page_overrides：healthy，时间 2026-10-23T16:15:18+08:00，年龄 8.0h
-- readability_audit：healthy，时间 2026-10-23T16:15:18+08:00，年龄 8.0h
-- mainline_audit：healthy，时间 2026-10-23T16:15:18+08:00，年龄 8.0h
-- market_snapshot：healthy，时间 2026-10-24T00:15:25+08:00，年龄 0.0h
-- daily_brief：healthy，时间 2026-10-24T00:00:00+08:00，年龄 0.3h
-- morning_brief：healthy，时间 2026-10-24T00:00:00+08:00，年龄 0.3h
+- 阈值：42 小时
+- official_candidates：healthy，时间 2026-10-26T17:56:46+08:00，年龄 8.0h
+- event_store：healthy，时间 2026-10-26T17:56:47+08:00，年龄 8.0h
+- decision_queue：healthy，时间 2026-10-26T17:56:47+08:00，年龄 8.0h
+- company_page_overrides：healthy，时间 2026-10-26T17:56:47+08:00，年龄 8.0h
+- readability_audit：healthy，时间 2026-10-26T17:56:47+08:00，年龄 8.0h
+- mainline_audit：healthy，时间 2026-10-26T17:56:47+08:00，年龄 8.0h
+- market_snapshot：healthy，时间 2026-10-27T01:56:53+08:00，年龄 0.0h
+- daily_brief：healthy，时间 2026-10-27T00:00:00+08:00，年龄 1.9h
+- morning_brief：healthy，时间 2026-10-27T00:00:00+08:00，年龄 1.9h
 
 ## 日报发送保护
 
