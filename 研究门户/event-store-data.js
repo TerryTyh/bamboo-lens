@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-10-26T17:56:47",
+  "generated_at": "2026-10-27T17:04:24",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2358,6 +2358,52 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can…",
           "source_body": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can customize with their own data. Running on NVIDIA computing, these technologies support global weather prediction, detailed regional forecasts and environmental research. StormScope EU is the latest model to join Earth-2 — a regional version of the StormScope model for short-term forecasting, trained over Europe weather and climate data. It uses EUMETSAT satellite observations to predict evolving cloud conditions across 16 Meteosat channels at 10-minute intervals. At GTC Berlin, NVIDIA is showcasing a live StormScope EU pipeline in an interactive weather demo built in partnership with Earthmover . The demo uses Earth2Studio to run forecasts and Earthmover’s data platform to manage and serve the real-time results, which are updated as soon as new satellite observations come in, every 10 minutes. Earthmover serves these results as map tiles, letting visitors explore predictions across Europe without downloading entire datasets. Developers can combine Earth-2 models in workflows tailored to regional needs, using StormScope for short-term forecasting and CorrDiff to add local detail to coarser weather data. Developers can also pick up these model architectures and train them for new environmental applications such as air-quality modeling. The open source NVIDIA PhysicsNeMo framework provides training and customization tools so teams can build applications that incorporate proprietary data and domain expertise to meet regional needs. Organizations building on Earth-2 capabilities include: AXA is using NVIDIA Earth-2’s FourCastNet 3 to study regional cyclone risk beyond the historical record across more than 1,000 simulated seasons, generating insights that can inform risk assessments and help customers target prevention efforts. Vaisala Xweather is combining Earth-2 with its proprietary observations , lightning data and forecasting expertise to enhance its weather intelligence platforms for government, energy, maritime, transportation and insurance customers. Its work includes adapting StormScope with lightning data to advance short-term forecasting lead time and make these warnings accessible through Vaisala Xweather’s software-as-a-service offerings and AI-assistant integrations. University of Manchester researchers adapted the Earth-2 CorrDiff model for U.K. air-quality modeling. It trained the model on the NVIDIA-powered Isambard-AI supercomputer and ran it locally on NVIDIA DGX Spark systems, bringing environmental modeling from a national supercomputer to the desktop. TotalEnergies is exploring NVIDIA Earth-2 for solar-energy forecasting, evaluating StormScope-based solar-radiation nowcasts at two photovoltaic sites and developing models to provide weather information at subhourly intervals. The work explores how more detailed forecasts could help anticipate changes in solar-power generation. Space42 developed SARDiff4Height using CorrDiff and NVIDIA PhysicsNeMo. The research estimates surface heights from a single radar image and produces uncertainty maps, helping analysts understand where estimates need closer scrutiny. Explore NVIDIA Earth-2 open models and tools , and explore with Earth2Studio’s forecasting examples . Read AXA’s hurricane-risk case study and Manchester’s air-quality story to learn how teams are adapting weather AI to specialized challenges.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261023-160622__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+          "date": "2026-10-27",
+          "fetched_at": "20261027-170047",
+          "type": "官方候选",
+          "fact": "日期：2026-10-27；标题：How AI Is Changing the Pace of Discovery for Millions Living With Dementia；原文内容：There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using AI to change that. Alzheimer’s disease is one of to…；来源：https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261027,
+          "source_url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+          "source_excerpt": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using AI to change that. Alzheimer’s disease is one of to…",
+          "source_body": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using AI to change that. Alzheimer’s disease is one of today’s leading global health challenges, with over 10 million new dementia cases diagnosed each year. Despite a 7x increase in National Institutes of Health funding in the last 15 years — reaching $3.9 billion annually — no treatment has been found to stop, prevent or reverse the disease yet. The bottlenecks are not enough high impact scientific findings, too much data living in institutional silos and too slow a pace of synthesis to keep up with the research that is published. C-BRAIN, led by Dr. Randall Bateman and a consortium of 18 member institutions across academic, philanthropic, pharma and research organizations, launched in November 2025 to help scientists make better, faster discoveries by accelerating the research that makes new treatments possible. “We have a window of opportunity with artificial intelligence to do research fundamentally different than we’ve ever done before, in a way that accelerates discoveries to help patients,” said Bateman, founder and director of C-BRAIN and the Charles F. and Joanne Knight Distinguished Professor of Neurology at the Washington University School of Medicine in St. Louis. He described their work as “AI tools built by scientists, for scientists.” The consortium is building a system that harnesses previously untapped Alzheimer’s research data to support scientists’ work. Essential assets in Alzheimer’s research are datasets that have never been publicly accessible to AI tools or human researchers. This includes unpublished findings, negative results and governed proprietary data from member institutions. “A lot of life sciences data doesn’t make its way into the frontier models,” said Dr. Ade Ojewole, chief technology officer of C-BRAIN. “The consequence of that is we’re leaving a lot of intelligence on the table.” C-BRAIN refers to this as “dark data,” which slows down Alzheimer’s research. C-BRAIN currently runs 64 NVIDIA data center GPUs on premises alongside cloud-based nodes on Microsoft Azure, with additional NVIDIA GPU capacity, including NVIDIA Blackwell systems , on the horizon as the consortium’s ambitions scale. To explore how AI and accelerated computing can advance Alzheimer’s research while navigating its technical demands, C-BRAIN is working with NVIDIA to incorporate technologies including the NVIDIA BioNeMo open developer platform and the MONAI framework for C-BRAIN’s research pipelines.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261027-170047__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+          "date": "2026-10-27",
+          "fetched_at": "20261027-170047",
+          "type": "官方候选",
+          "fact": "日期：2026-10-27；标题：NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure；来源：https://investor.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261027,
+          "source_url": "https://investor.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261027-170047__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+          "date": "2026-10-26",
+          "fetched_at": "20261027-170047",
+          "type": "官方候选",
+          "fact": "日期：2026-10-26；标题：NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth；来源：https://investor.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261026,
+          "source_url": "https://investor.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261027-170047__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -6130,6 +6176,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261020-160058__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年三季度报告",
+          "date": "2026-10-28",
+          "fetched_at": "20261027-170047",
+          "type": "官方候选",
+          "fact": "日期：2026-10-28；标题：沪电股份：2026年三季度报告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261028,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261027-170047__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
