@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:04:24",
+  "generated_at": "2026-10-28T17:41:56",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2404,6 +2404,22 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261027-170047__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+          "date": "2026-10-28",
+          "fetched_at": "20261028-173732",
+          "type": "官方候选",
+          "fact": "日期：2026-10-28；标题：NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games；原文内容：NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX gr…；来源：https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261028,
+          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+          "source_excerpt": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX gr…",
+          "source_body": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX graphics and the capabilities of a personal AI supercomputer inside premium Windows laptops built to go anywhere. New and expected RTX Spark updates, coming soon, include: Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new, open weight speech model that turns recorded conversations into useful information. Instead of needing multiple models for transcription, speaker labels and translation, developers can use one promptable model that handles all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages. Developers guide the model with plain-language prompts. For example, for a single recorded meeting, users can ask it to: Prompts can also include product terms and formatting conventions, which helps the model handle specialized vocabulary in fields like healthcare, financial services and customer service. Because the weights are open, developers can choose where audio is processed, from a desktop to the cloud. Nemotron 3.5 Transcribe ranks No. 1 on the Hugging Face Open ASR and No. 2 among open weight models on Artificial Analysis — delivering leading accuracy with approximately 4.3 billion active parameters, 80% fewer than the No. 1 open weight model, making high-quality, intelligent transcription more practical on local hardware. It’s available today on Hugging Face . Quantized versions are coming soon, so developers can run Transcribe locally onNVIDIA RTX Spark and DGX Spark systems, Jetson AGX Thor devices or scale up on NVIDIA Blackwell data center GPUs. NVFP4 versions will be deployable through NeMo-Speech.cpp or vLLM. On RTX Spark, users can have long-running agents working alongside their favorite applications. Both share the system’s GPU compute, and the right balance of resources depends on what matters to users at that moment. With the new resource management feature in NVIDIA App , users can now choose how GPU resources are shared. They can prioritize their foreground app for the best performance, or give their background-running agent more resources to get work done faster. Access control resource sharing from System > Advanced in the NVIDIA App. This feature requires hardware-accelerated GPU scheduling to be enabled in Windows Settings. Liquid AI’s LFM3 provides a new generation of Liquid Foundation Models designed for specialized tasks. The family spans text, vision, audio, omni and decision models built on one shared backbone, with base and post-trained models available as open weights. The models are compact and fast: Liquid AI’s new 1.7-billion-parameter base model outperforms its previous 2.6-billion-parameter base model.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261028-173732__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
         }
       ]
     },
