@@ -1,8 +1,8 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-10-28T17:41:57",
+  "generated_at": "2026-10-29T17:50:17",
   "summary": {
     "total": 16,
-    "companies": 5,
+    "companies": 7,
     "with_source_body": 3,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -137,6 +137,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://investors.constellationenergy.com/events-and-presentations",
       "portal_doc": "./docs/review-drafts/auto-constellation-q3-2026-constellation-energy-corporation-earnings-conference-call.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    "nvidia::nvidia sets conference call for third-quarter financial results": {
+      "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+      "date": "2026-10-28",
+      "score": 14,
+      "readiness_score": 21,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -366,6 +395,118 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
+    "eoptolink::新易盛：关于2026年第三季度报告披露的提示性公告": {
+      "draft_id": "auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：关于2026年第三季度报告披露的提示性公告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "eoptolink::新易盛：2026年三季度报告": {
+      "draft_id": "auto-eoptolink-新易盛-2026年三季度报告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：2026年三季度报告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-2026年三季度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "fii::工业富联：2026年第三季度报告": {
+      "draft_id": "auto-fii-工业富联-2026年第三季度报告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年第三季度报告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年第三季度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "eoptolink::新易盛：投资者关系管理信息20261029": {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20261029",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20261029",
+      "date": "2026-10-29",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20261029.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "wus::沪电股份：2026年三季度报告": {
       "draft_id": "auto-wus-沪电股份-2026年三季度报告",
       "company": "wus",
@@ -384,146 +525,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年三季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "shennan::深南电路：关于调整2026年度向特定对象发行股票发行数量上限的公告": {
-      "draft_id": "auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于调整2026年度向特定对象发行股票发行数量上限的公告",
-      "date": "2026-10-23",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "shennan::深南电路：2026年10月23日投资者关系活动记录表": {
-      "draft_id": "auto-shennan-深南电路-2026年10月23日投资者关系活动记录表",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年10月23日投资者关系活动记录表",
-      "date": "2026-10-23",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年10月23日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "wus::沪电股份：2026年10月20日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年10月20日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年10月20日投资者关系活动记录表",
-      "date": "2026-10-20",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月20日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "wus::沪电股份：2026年10月16日投资者关系活动记录表": {
-      "draft_id": "auto-wus-沪电股份-2026年10月16日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年10月16日投资者关系活动记录表",
-      "date": "2026-10-16",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月16日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "shennan::深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告": {
-      "draft_id": "auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-      "date": "2026-10-15",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -564,6 +565,90 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
+      },
+      {
+        "draft_id": "auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "title": "新易盛：关于2026年第三季度报告披露的提示性公告",
+        "date": "2026-10-30",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-eoptolink-新易盛-2026年三季度报告",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "title": "新易盛：2026年三季度报告",
+        "date": "2026-10-30",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-2026年三季度报告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20261029",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "title": "新易盛：投资者关系管理信息20261029",
+        "date": "2026-10-29",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20261029.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
       }
     ],
     "constellation": [
@@ -585,6 +670,37 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://investors.constellationenergy.com/events-and-presentations",
         "portal_doc": "./docs/review-drafts/auto-constellation-q3-2026-constellation-energy-corporation-earnings-conference-call.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      }
+    ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+        "date": "2026-10-28",
+        "score": 14,
+        "readiness_score": 21,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -709,90 +825,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：关于调整2026年度向特定对象发行股票发行数量上限的公告",
-        "date": "2026-10-23",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-2026年10月23日投资者关系活动记录表",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：2026年10月23日投资者关系活动记录表",
-        "date": "2026-10-23",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年10月23日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-        "company": "shennan",
-        "company_name": "深南电路",
-        "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-        "date": "2026-10-15",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-        "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ],
     "wus": [
@@ -842,62 +874,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
         "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年三季度报告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年10月20日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年10月20日投资者关系活动记录表",
-        "date": "2026-10-20",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月20日投资者关系活动记录表.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-wus-沪电股份-2026年10月16日投资者关系活动记录表",
-        "company": "wus",
-        "company_name": "沪电股份",
-        "title": "沪电股份：2026年10月16日投资者关系活动记录表",
-        "date": "2026-10-16",
-        "score": 9,
-        "readiness_score": 14,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-        "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月16日投资者关系活动记录表.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -986,6 +962,36 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
             "估值模型"
           ],
           "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      }
+    ],
+    "fii": [
+      {
+        "draft_id": "auto-fii-工业富联-2026年第三季度报告",
+        "company": "fii",
+        "company_name": "工业富联",
+        "title": "工业富联：2026年第三季度报告",
+        "date": "2026-10-30",
+        "score": 9,
+        "readiness_score": 14,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年第三季度报告.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
     ]
@@ -1183,6 +1189,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
+      "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+      "date": "2026-10-28",
+      "score": 14,
+      "readiness_score": 21,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
       "draft_id": "auto-shennan-深南电路-关于2026年度向特定对象发行股票提交募集说明书-注册稿-等申请文件的提示性公告",
       "company": "shennan",
       "company_name": "深南电路",
@@ -1267,6 +1302,118 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
+      "draft_id": "auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：关于2026年第三季度报告披露的提示性公告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-eoptolink-新易盛-2026年三季度报告",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：2026年三季度报告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-2026年三季度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-fii-工业富联-2026年第三季度报告",
+      "company": "fii",
+      "company_name": "工业富联",
+      "title": "工业富联：2026年第三季度报告",
+      "date": "2026-10-30",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "portal_doc": "./docs/review-drafts/auto-fii-工业富联-2026年第三季度报告.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-eoptolink-新易盛-投资者关系管理信息20261029",
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "title": "新易盛：投资者关系管理信息20261029",
+      "date": "2026-10-29",
+      "score": 9,
+      "readiness_score": 14,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-投资者关系管理信息20261029.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
       "draft_id": "auto-wus-沪电股份-2026年三季度报告",
       "company": "wus",
       "company_name": "沪电股份",
@@ -1284,146 +1431,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
       "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年三季度报告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于调整2026年度向特定对象发行股票发行数量上限的公告",
-      "date": "2026-10-23",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于调整2026年度向特定对象发行股票发行数量上限的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-2026年10月23日投资者关系活动记录表",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：2026年10月23日投资者关系活动记录表",
-      "date": "2026-10-23",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-2026年10月23日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年10月20日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年10月20日投资者关系活动记录表",
-      "date": "2026-10-20",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月20日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-wus-沪电股份-2026年10月16日投资者关系活动记录表",
-      "company": "wus",
-      "company_name": "沪电股份",
-      "title": "沪电股份：2026年10月16日投资者关系活动记录表",
-      "date": "2026-10-16",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "portal_doc": "./docs/review-drafts/auto-wus-沪电股份-2026年10月16日投资者关系活动记录表.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-      "company": "shennan",
-      "company_name": "深南电路",
-      "title": "深南电路：关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-      "date": "2026-10-15",
-      "score": 9,
-      "readiness_score": 14,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "portal_doc": "./docs/review-drafts/auto-shennan-深南电路-关于2026年度向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

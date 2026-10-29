@@ -1,15 +1,15 @@
-# 正式事件草稿｜沪电股份｜沪电股份：2026年10月16日投资者关系活动记录表
+# 正式事件草稿｜新易盛｜新易盛：关于2026年第三季度报告披露的提示性公告
 
 ## 草稿状态
 
-- 公司：沪电股份（wus）
-- 日期：2026-10-16
+- 公司：新易盛（eoptolink）
+- 日期：2026-10-30
 - 类型：官方候选
 - 候选分数：9
 - 当前动作：等待补证据
 - 批处理建议：待补正文（readiness 14）
-- 官方来源：[打开官方来源](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261016-154549__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html
+- 官方来源：[打开官方来源](https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261029-174621__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html
 
 ## 批处理建议
 
@@ -26,11 +26,11 @@
 
 ### 原文可读内容
 
-日期：2026-10-16；标题：沪电股份：2026年10月16日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463
+日期：2026-10-30；标题：新易盛：关于2026年第三季度报告披露的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml
 
 ### 候选事实
 
-日期：2026-10-16；标题：沪电股份：2026年10月16日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463
+日期：2026-10-30；标题：新易盛：关于2026年第三季度报告披露的提示性公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml
 
 ## 升级为正式事件前必须补齐
 
@@ -70,7 +70,7 @@
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-wus-沪电股份-2026年10月16日投资者关系活动记录表`
+`auto-eoptolink-新易盛-关于2026年第三季度报告披露的提示性公告`
 
 ## 质量闸门
 
