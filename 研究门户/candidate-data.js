@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-10-29T17:49:25",
+  "generated_at": "2026-10-30T17:30:21",
   "companies": {
     "nvidia": [
       {
@@ -544,6 +544,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+        "date": "2026-10-30",
+        "fetched_at": "20261030-172653",
+        "type": "官方候选",
+        "fact": "日期：2026-10-30；标题：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals；原文内容：While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents built by aliens. Some scientists have suggested that extraterrestrial civilizations, i…；来源：https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261030,
+        "source_url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+        "source_excerpt": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents built by aliens. Some scientists have suggested that extraterrestrial civilizations, i…",
+        "source_body": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents built by aliens. Some scientists have suggested that extraterrestrial civilizations, if they exist, could be billions of years older than humanity. Such civilizations might have developed technologies far beyond humanity’s, including forms of AI. Breakthrough Listen and the SETI Institute are bringing agentic AI into the daily search for extraterrestrial intelligence. At the Allen Telescope Array in Northern California, agents can now steer the instrument, enhance and correct incoming data, and apply AI models to the incoming stream — all from a single natural language request. The NVIDIA Holoscan platform processes the massive streams of sensor data, giving agents live data to act on. The result is a faster, more adaptable search for potential signals from extraterrestrial life and technologies. “As our new agentic observatories reach out into the universe, what they find may have much more in common with themselves than with the humans who created them,” said Andrew Siemion, Bernard M. Oliver chair for SETI at the SETI Institute and principal investigator of Breakthrough Listen. “But this isn’t something to fear. Rather, it’s a breakthrough in translation.” Radio telescopes generate enormous volumes of data, creating a challenge for scientists who need to identify potentially interesting signals as observations unfold. At the Allen Telescope Array, DAQIRI , a Holoscan platform library, enables the telescope to pull terabits per second of sensor data straight into GPU memory so observations are processed in flight rather than filling hard drives. CyberEther , a signal-processing framework developed at the SETI Institute, does the math using NVIDIA CUDA-X libraries including cuFFT and cuBLAS . Nexus , a web-based observatory orchestrator, acts as the agent harness. It gives agents a single source of truth for instrument state, compute resources and pipelines and lets researchers monitor packet loss, read live spectrograms and rewrite signal-processing blocks — all by prompting in natural language. The system can handle 2.4 terabits per second on NVIDIA RTX PRO 6000 Blackwell GPUs, with inference running on premises, next to the instrument. Put together, the system enables an agent to steer a telescope’s antennae, calibrate and focus the instrument for a clean signal, catch and fix data errors and plot the result. Agents compress what would take humans weeks or years into hours. The pipeline has already proven itself, achieving the first real-time AI detection of a pulsar — a rapidly spinning stellar remnant that pulses like a cosmic lighthouse — in the Crab Nebula. Next, the team is evaluating open models including NVIDIA Nemotron for cases where data locality and turnaround matter most and for observatories that may someday run offline on the far side of the moon.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261030-172653__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
@@ -4423,6 +4447,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
+        "title": "新易盛：关于首次回购公司股份的公告",
+        "date": "2026-10-30",
+        "fetched_at": "20261030-172653",
+        "type": "官方候选",
+        "fact": "日期：2026-10-30；标题：新易盛：关于首次回购公司股份的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261030,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261030-172653__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 6,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
         "title": "新易盛：回购股份报告书",
         "date": "2026-10-23",
         "fetched_at": "20261023-160622",
@@ -7231,6 +7278,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "status_label": "先存档",
         "review_lane": "低优先级",
         "review_score": 4,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "工业富联：关于召开2026年第二次临时股东会的通知",
+        "date": "2026-10-31",
+        "fetched_at": "20261030-172653",
+        "type": "官方候选",
+        "fact": "日期：2026-10-31；标题：工业富联：关于召开2026年第二次临时股东会的通知；来源：https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261031,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20261030-172653__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+        "company": "fii",
+        "company_name": "工业富联",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
         "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
         "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
