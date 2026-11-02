@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-10-30T17:31:12",
+  "generated_at": "2026-11-02T21:06:07",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -3039,6 +3039,111 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "[](http://pr.tsmc.com/english/news/3346#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](http://pr.tsmc.com/english/news/3346#)Search 5. TSMC Reports Third Quarter EPS of NT$29.43 [](http://pr.tsmc.com/english/news/3346) TSMC Reports Third Quarter EPS of NT$29.43 TSMC Reports Third Quarter EPS of NT$29.43 *HSINCHU, Taiwan, R.O.C., Oct. 15, 2026 --**TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$1,494.24 billion, net income of NT$763.06 billion, and diluted earnings per share of NT$29.43 (US$4.60 per ADR unit) for the third quarter ended September 30, 2026. Year-over-year, third quarter revenue increased 50.9%, while net income and diluted EPS both increased 68.7%. Compared to second quarter 2026, third quarter results represented a 17.6% increase in revenue and an 8.0% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis. In US dollars, third quarter revenue was $46.72 billion, which increased 41.2% year-over-year and increased 16.2% from the previous quarter. Gross margin for the quarter was 66.4%, operating margin was 58.7%, and net profit margin was 51.1%. In the third quarter, shipments of 2-nanometer accounted for 8% of total wafer revenue; 3-nanometer accounted for 33%; 5-nanometer accounted for 28%; and 7-nanometer accounted for 10%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 79% of total wafer revenue. “Our business in the third quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into fourth quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies, including the steep ramp-up of our 2-nanometer technology.” Based on the Company’s current business outlook, management expects the overall performance for fourth quarter 2026 to be as follows: Revenue is expected to be between US$52.3 billion and US$54.3 billion; And, based on the exchange rate assumption of 1 US dollar to 31.8 NT dollars, Gross profit margin is expected to be between 65% and 67%; Operating profit margin is expected to be between 56.5% and 58.5%. Senior Vice President & Chief Financial Officer TSMC-Supply Online 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261015-155718__pr.tsmc.com_english_latest-news.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "TSMC 2026 monthly revenue",
+          "date": "2026-10-08",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：2026-10-08；标题：TSMC 2026 monthly revenue；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261008,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Relocation to Headquarters",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Relocation to Headquarters；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Historical Monthly Revenue",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Historical Monthly Revenue；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Relocation to Headquarter",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Relocation to Headquarter；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Quarterly Results",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Quarterly Results；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Monthly Revenue",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Monthly Revenue；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
+        },
+        {
+          "title": "Financial Results",
+          "date": "20261102-2",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：20261102-2；标题：Financial Results；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261102,
+          "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html"
         }
       ]
     },
@@ -5660,6 +5765,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261023-160622__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：2026年10月27日-30日投资者关系活动记录表",
+          "date": "2026-10-27",
+          "fetched_at": "20261102-210326",
+          "type": "官方候选",
+          "fact": "日期：2026-10-27；标题：深南电路：2026年10月27日-30日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261027,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261102-210326__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },

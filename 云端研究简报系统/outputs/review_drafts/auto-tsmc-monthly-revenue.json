@@ -1,22 +1,22 @@
 {
-  "draft_id": "auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results",
+  "draft_id": "auto-tsmc-monthly-revenue",
   "draft_status": "auto_draft",
-  "generated_at": "2026-10-30T17:31:12",
-  "company": "nvidia",
-  "company_name": "NVIDIA",
-  "source_candidate_title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
-  "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
-  "date": "2026-10-28",
+  "generated_at": "2026-11-02T21:06:07",
+  "company": "tsmc",
+  "company_name": "TSMC",
+  "source_candidate_title": "Monthly Revenue",
+  "title": "Monthly Revenue",
+  "date": "20261102-2",
   "type": "财报 / 指引",
   "priority": "草稿",
   "action": "等待补证据",
-  "score": 14,
-  "sort_key": 20261028,
-  "source_url": "https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
-  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261029-174621__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "score": 10,
+  "sort_key": 20261102,
+  "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html",
   "readiness_lane": "needs_source",
   "readiness_label": "待补正文",
-  "readiness_score": 21,
+  "readiness_score": 17,
   "investment_signal_score": 5,
   "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
   "promotion_blockers": [
@@ -24,9 +24,9 @@
     "可读内容偏短"
   ],
   "source_summary": [
-    "日期：2026-10-28；标题：NVIDIA Sets Conference Call for Third-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+    "日期：20261102-2；标题：Monthly Revenue；来源：https://investor.tsmc.com/english/monthly-revenue/2026"
   ],
-  "fact": "日期：2026-10-28；标题：NVIDIA Sets Conference Call for Third-Quarter Financial Results；来源：https://investor.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+  "fact": "日期：20261102-2；标题：Monthly Revenue；来源：https://investor.tsmc.com/english/monthly-revenue/2026",
   "evidence": [
     "证据缺口：收入、分部收入、利润率、EPS、现金流或指引中的具体数字",
     "证据缺口：管理层对需求、产能、价格、成本或资本开支的口径",
@@ -58,7 +58,7 @@
     "has_source": true,
     "has_readable_source": true,
     "has_source_body": false,
-    "source_chars": 188,
+    "source_chars": 90,
     "can_promote_now": false,
     "missing_before_promotion": [
       "原文内容总结",
@@ -68,6 +68,6 @@
       "下一次验证点"
     ]
   },
-  "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results.md",
-  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-nvidia-nvidia-sets-conference-call-for-third-quarter-financial-results.json"
+  "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
+  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-tsmc-monthly-revenue.json"
 }
