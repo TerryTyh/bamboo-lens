@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-02T21:06:07",
-  "source_generated_at": "2026-11-02T21:06:07",
+  "generated_at": "2026-11-03T18:52:22",
+  "source_generated_at": "2026-11-03T18:52:22",
   "items": [
     {
       "company": "constellation",
@@ -1188,6 +1188,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20261012-203500__investors.constellationenergy.com_events-and-presentations.html",
       "event_index": null,
       "sort_key": 20261109,
+      "score": 14
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "date": "2026-11-03",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261103-184831__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261103,
       "score": 14
     },
     {
@@ -2437,6 +2455,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "新易盛",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "新易盛：关于回购公司股份的进展公告",
+      "date": "2026-11-03",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261103-184831__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+      "event_index": null,
+      "sort_key": 20261103,
+      "score": 7
+    },
+    {
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "新易盛：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
       "date": "2026-10-30",
       "type": "官方候选",
@@ -2575,6 +2611,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "date": "2026-11-02",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261103-184831__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261102,
+      "score": 6
     },
     {
       "company": "nvidia",
@@ -3028,9 +3082,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 168,
+    "total": 171,
     "formal_events": 89,
-    "official_candidates": 79,
+    "official_candidates": 82,
     "companies": 12
   }
 };

@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-11-02T21:06:07",
+  "generated_at": "2026-11-03T18:51:31",
   "companies": {
     "nvidia": [
       {
@@ -92,6 +92,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "status_label": "待研判",
         "review_lane": "优先阅读",
         "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+      },
+      {
+        "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+        "date": "2026-11-03",
+        "fetched_at": "20261103-184831",
+        "type": "官方候选",
+        "fact": "日期：2026-11-03；标题：AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing…；来源：https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261103,
+        "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+        "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing…",
+        "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are slow and expensive. A wrong call on yield or process quality has real consequences. AI is transforming semiconductor manufacturing, impacting what engineers can do — and how fast. Accelerated computing shortens simulation time, allowing engineers to evaluate more alternatives before committing to physical trials. Physics-based AI helps engineers predict process behavior without running a full simulation every time. AI agents handle sequences of engineering tasks that once consumed hours. And digital twins let teams test changes in a virtual environment before committing to physical trials. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full manufacturing chip lifecycle. Engineers direct the work and make decisions based on their expertise while spending less time waiting for answers. Accelerated computing doesn’t just speed up individual calculations — it changes how many alternatives engineers can test before committing. Multiphysics simulations model interactions among physical effects, such as heat transfer, electrical behavior and mechanical stress. Using the NVIDIA cuDSS library, multiphysics software provider COMSOL is accelerating such simulations for semiconductor manufacturing by up to 10x. This helps engineers optimize equipment and processes, compare alternatives and decide which changes to test physically.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261103-184831__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 7,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },
@@ -544,6 +568,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "date": "2026-11-02",
+        "fetched_at": "20261103-184831",
+        "type": "官方候选",
+        "fact": "日期：2026-11-02；标题：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI；原文内容：Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used. Bui…；来源：https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261102,
+        "source_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+        "source_excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used. Bui…",
+        "source_body": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used. Building on initiatives announced at GTC Berlin , NVIDIA and its partners are expanding physical AI and AI agents to cities worldwide. Shared computing infrastructure gives city departments, neighboring municipalities and local developers a common foundation to build on — extending services without each organization having to acquire and manage resources of their own. From resident services to vision agents, cities are adopting NVIDIA agentic AI to deliver faster, more responsive public services. City teams don’t need a massive infrastructure investment to get started building these AI services: depending on the workload, NVIDIA RTX workstations or a small GPU system may be enough. In Spain, 1MillionBot combines open source ALIA models trained at the Barcelona Supercomputing Center with NVIDIA Nemotron and other models in resident-service agents for Madrid Digital (Comunidad de Madrid), Administració Oberta de Catalunya and 150+ deployments across Spain, handling municipal procedures, appointment requests, urban-planning incidents and service inquiries. In the San Francisco Bay Area , LiveX is bringing its AI City vision to life with NVIDIA Cosmos world models and Nemotron open models, and Omniverse and Metropolis libraries on NVIDIA RTX PRO GPUs. The interactive, conversational AI hosts understand people’s needs, provide answers and take action, and can be tailored to local languages and service needs in airports, hospitals, local events and other public spaces. Vision AI agents can turn existing city camera feeds into operational insights, helping teams identify mobility and safety issues and coordinate emergency responses across city services. In Wrocław, Poland , K2K is building shared AI infrastructure using NVIDIA accelerated computing, NVIDIA Cosmos world reasoning models, and NVIDIA Metropolis Blueprint for video search and summarization (VSS) to transform existing camera streams into actionable intelligence for mobility, safety and event response — using the same infrastructure across several city functions. In Malaysia , ITMAX bundles infrastructure and agentic AI applications into long-term managed services for cities, including for traffic management. Built with reference to Cosmos, Nemotron and the Metropolis VSS blueprint, ITMAX’s SamurAI V2 vision agents are scaling on NVIDIA RTX PRO 6000 GPUs to support 17,000+ cameras by 2027. ITMAX integrates TeraSim, an open source traffic simulation platform from Laplace Intelligence , to test signal timing, reducing peak-hour corridor travel times by up to 26%. Beyond public-facing services, digital twins can help cities expedite infrastructure planning, minimizing disruption to local communities. City digital twins can also serve as a real-time operational simulation to facilitate faster decision-making. At Dangote’s Lekki refinery in Nigeria, Honeywell Technologies’ Forge Plant Cognition uses Nemotron-powered AI agents to understand operational data. A digital twin of the plant and its processes, built using Omniverse libraries, is also planned to support simulation and training. The platform, built on Dell PowerEdge servers with NVIDIA RTX PRO accelerators, helps operators identify bottlenecks, anticipate equipment and process issues, and optimize plant performance. In Taiwan , Linker Vision and Dutch architecture firm MVRDV are using NVIDIA Omniverse and Nemotron to build environmental, social and governance agents that can assess the environmental impact of various urban planning scenarios, simulating 15-year outcomes of an urban forest canopy in 10 minutes — increasing design iteration speed from two weeks per iteration to less than an hour.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261103-184831__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
@@ -4583,6 +4631,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 8,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
+      },
+      {
+        "title": "新易盛：关于回购公司股份的进展公告",
+        "date": "2026-11-03",
+        "fetched_at": "20261103-184831",
+        "type": "官方候选",
+        "fact": "日期：2026-11-03；标题：新易盛：关于回购公司股份的进展公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261103,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261103-184831__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+        "company": "eoptolink",
+        "company_name": "新易盛",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 6,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "新易盛：关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",

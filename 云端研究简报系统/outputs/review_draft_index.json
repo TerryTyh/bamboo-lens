@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T21:06:07",
+  "generated_at": "2026-11-03T18:52:22",
   "summary": {
     "total": 15,
-    "companies": 5,
+    "companies": 6,
     "with_source_body": 2,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -37,29 +37,28 @@
         }
       },
       {
-        "draft_id": "auto-tsmc-tsmc-september-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC September 2026 Revenue Report",
-        "date": "2026-10-08",
-        "score": 10,
-        "readiness_score": 30,
-        "investment_signal_score": 8,
+        "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+        "date": "2026-11-03",
+        "score": 14,
+        "readiness_score": 31,
+        "investment_signal_score": 11,
         "readiness_lane": "ready_for_deep_review",
         "readiness_label": "优先深读",
         "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
         "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3343",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-september-2026-revenue-report.md",
+        "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
             "最新动态",
-            "财务地图",
             "当前结论",
-            "估值模型"
+            "跟踪重点"
           ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
         }
       }
     ]
@@ -178,6 +177,31 @@
           "估值模型"
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    "nvidia::ai is changing how semiconductor fabs work — and engineers are moving faster because of it": {
+      "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "date": "2026-11-03",
+      "score": 14,
+      "readiness_score": 31,
+      "investment_signal_score": 11,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     "shennan::深南电路：2026年前三季度业绩预告": {
@@ -459,32 +483,6 @@
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
-    },
-    "tsmc::tsmc september 2026 revenue report": {
-      "draft_id": "auto-tsmc-tsmc-september-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC September 2026 Revenue Report",
-      "date": "2026-10-08",
-      "score": 10,
-      "readiness_score": 30,
-      "investment_signal_score": 8,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3343",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-september-2026-revenue-report.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
     }
   },
   "companies": {
@@ -534,32 +532,6 @@
         "promotion_blockers": [],
         "source_url": "http://pr.tsmc.com/english/news/3346",
         "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-tsmc-tsmc-september-2026-revenue-report",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC September 2026 Revenue Report",
-        "date": "2026-10-08",
-        "score": 10,
-        "readiness_score": 30,
-        "investment_signal_score": 8,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3343",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-september-2026-revenue-report.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -775,6 +747,33 @@
         }
       }
     ],
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+        "date": "2026-11-03",
+        "score": 14,
+        "readiness_score": 31,
+        "investment_signal_score": 11,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "shennan": [
       {
         "draft_id": "auto-shennan-深南电路-2026年前三季度业绩预告",
@@ -948,29 +947,28 @@
       }
     },
     {
-      "draft_id": "auto-tsmc-tsmc-september-2026-revenue-report",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC September 2026 Revenue Report",
-      "date": "2026-10-08",
-      "score": 10,
-      "readiness_score": 30,
-      "investment_signal_score": 8,
+      "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "date": "2026-11-03",
+      "score": 14,
+      "readiness_score": 31,
+      "investment_signal_score": 11,
       "readiness_lane": "ready_for_deep_review",
       "readiness_label": "优先深读",
       "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
       "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3343",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-september-2026-revenue-report.md",
+      "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
           "最新动态",
-          "财务地图",
           "当前结论",
-          "估值模型"
+          "跟踪重点"
         ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
     {
