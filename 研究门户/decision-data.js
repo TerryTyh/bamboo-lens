@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-04T19:07:04",
-  "source_generated_at": "2026-11-04T19:07:04",
+  "generated_at": "2026-11-05T19:18:01",
+  "source_generated_at": "2026-11-05T19:18:01",
   "items": [
     {
       "company": "constellation",
@@ -2433,6 +2433,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 8
     },
     {
+      "company": "luxshare",
+      "company_name": "立讯精密",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "That's a wrap on OCP Global Summit 2026!",
+      "date": "2026-10-19",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://www.luxshare-ict.com/en/news/release/184.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261105-191331__www.luxshare-ict.com_en_news_release.html.html",
+      "event_index": null,
+      "sort_key": 20261019,
+      "score": 8
+    },
+    {
       "company": "eoptolink",
       "company_name": "新易盛",
       "source_type": "official_candidate",
@@ -2599,6 +2617,42 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "date": "2026-11-05",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261105-191331__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261105,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "date": "2026-11-05",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261105-191331__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261105,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
       "date": "2026-11-02",
       "type": "官方候选",
@@ -2628,6 +2682,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261030-172653__investor.nvidia.com_news_press-releases_default.aspx.html",
       "event_index": null,
       "sort_key": 20261030,
+      "score": 6
+    },
+    {
+      "company": "luxshare",
+      "company_name": "立讯精密",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Thunderbolt™ 5 (TBT5) Passive Cable 1.5M",
+      "date": "2026-10-28",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://www.luxshare-ict.com/en/news/release/185.html",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261105-191331__www.luxshare-ict.com_en_news_release.html.html",
+      "event_index": null,
+      "sort_key": 20261028,
       "score": 6
     },
     {
@@ -3064,9 +3136,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 170,
+    "total": 174,
     "formal_events": 89,
-    "official_candidates": 81,
+    "official_candidates": 85,
     "companies": 12
   }
 };
