@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-05T19:18:01",
-  "source_generated_at": "2026-11-05T19:18:01",
+  "generated_at": "2026-11-06T18:45:24",
+  "source_generated_at": "2026-11-06T18:45:24",
   "items": [
     {
       "company": "constellation",
@@ -1497,6 +1497,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 13
     },
     {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "date": "2026-11-05",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261106-184015__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261105,
+      "score": 12
+    },
+    {
       "company": "gevernova",
       "company_name": "GE Vernova",
       "source_type": "formal_event",
@@ -1585,6 +1603,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 1,
       "sort_key": 20251024,
       "score": 12
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "date": "2026-11-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261106-184015__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261106,
+      "score": 11
     },
     {
       "company": "nvidia",
@@ -1819,6 +1855,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 4,
       "sort_key": 20251002,
       "score": 10
+    },
+    {
+      "company": "shennan",
+      "company_name": "深南电路",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "深南电路：2026年11月6日投资者关系活动记录表",
+      "date": "2026-11-6",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261106-184015__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+      "event_index": null,
+      "sort_key": 20261106,
+      "score": 9
     },
     {
       "company": "eoptolink",
@@ -2449,6 +2503,42 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": null,
       "sort_key": 20261019,
       "score": 8
+    },
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "沪电股份：关于董事长提议回购公司股份的提示性公告",
+      "date": "2026-11-07",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261106-184015__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20261107,
+      "score": 7
+    },
+    {
+      "company": "eoptolink",
+      "company_name": "新易盛",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "新易盛：关于公司回购股份事项的公告",
+      "date": "2026-11-06",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261106-184015__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html",
+      "event_index": null,
+      "sort_key": 20261106,
+      "score": 7
     },
     {
       "company": "eoptolink",
@@ -3136,9 +3226,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 174,
+    "total": 179,
     "formal_events": 89,
-    "official_candidates": 85,
+    "official_candidates": 90,
     "companies": 12
   }
 };

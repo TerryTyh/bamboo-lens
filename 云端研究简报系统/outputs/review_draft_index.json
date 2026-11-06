@@ -1,41 +1,15 @@
 {
-  "generated_at": "2026-11-05T19:18:01",
+  "generated_at": "2026-11-06T18:45:24",
   "summary": {
     "total": 15,
     "companies": 6,
-    "with_source_body": 2,
+    "with_source_body": 3,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 2,
-      "needs_source": 13
+      "ready_for_deep_review": 3,
+      "needs_source": 12
     },
     "priority_batch": [
-      {
-        "draft_id": "auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Reports Third Quarter EPS of NT$29.43",
-        "date": "2026-10-15",
-        "score": 10,
-        "readiness_score": 32,
-        "investment_signal_score": 30,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3346",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
       {
         "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
         "company": "nvidia",
@@ -51,6 +25,56 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+        "date": "2026-11-05",
+        "score": 12,
+        "readiness_score": 28,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+        "date": "2026-11-06",
+        "score": 11,
+        "readiness_score": 28,
+        "investment_signal_score": 5,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -344,6 +368,56 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "nvidia::vera delivers the best of both worlds: highest throughput and fastest agents": {
+      "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "date": "2026-11-05",
+      "score": 12,
+      "readiness_score": 28,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "nvidia::how nvidia open source tools are helping researchers build next-generation 6g networks": {
+      "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "date": "2026-11-06",
+      "score": 11,
+      "readiness_score": 28,
+      "investment_signal_score": 5,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
     "tsmc::relocation to headquarters": {
       "draft_id": "auto-tsmc-relocation-to-headquarters",
       "company": "tsmc",
@@ -428,61 +502,6 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "tsmc::monthly revenue": {
-      "draft_id": "auto-tsmc-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    "tsmc::tsmc reports third quarter eps of nt$29.43": {
-      "draft_id": "auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Reports Third Quarter EPS of NT$29.43",
-      "date": "2026-10-15",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 30,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3346",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
     }
   },
   "companies": {
@@ -517,32 +536,6 @@
       }
     ],
     "tsmc": [
-      {
-        "draft_id": "auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "TSMC Reports Third Quarter EPS of NT$29.43",
-        "date": "2026-10-15",
-        "score": 10,
-        "readiness_score": 32,
-        "investment_signal_score": 30,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "http://pr.tsmc.com/english/news/3346",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
       {
         "draft_id": "auto-tsmc-quarterly-results",
         "company": "tsmc",
@@ -619,35 +612,6 @@
         ],
         "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
         "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-tsmc-monthly-revenue",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Monthly Revenue",
-        "date": "20261102-2",
-        "score": 10,
-        "readiness_score": 17,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -763,6 +727,56 @@
         "promotion_blockers": [],
         "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
         "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+        "date": "2026-11-05",
+        "score": 12,
+        "readiness_score": 28,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+        "date": "2026-11-06",
+        "score": 11,
+        "readiness_score": 28,
+        "investment_signal_score": 5,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
         "has_source_body": true,
         "company_page_writeback": {
           "targets": [
@@ -921,32 +935,6 @@
   },
   "items": [
     {
-      "draft_id": "auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "TSMC Reports Third Quarter EPS of NT$29.43",
-      "date": "2026-10-15",
-      "score": 10,
-      "readiness_score": 32,
-      "investment_signal_score": 30,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "http://pr.tsmc.com/english/news/3346",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-reports-third-quarter-eps-of-nt-29-43.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
       "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -961,6 +949,56 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "date": "2026-11-05",
+      "score": 12,
+      "readiness_score": 28,
+      "investment_signal_score": 10,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "date": "2026-11-06",
+      "score": 11,
+      "readiness_score": 28,
+      "investment_signal_score": 5,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -1244,35 +1282,6 @@
       ],
       "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
       "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

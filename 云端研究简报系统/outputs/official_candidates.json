@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:16:46",
+  "generated_at": "2026-11-06T18:43:20",
   "companies": {
     "nvidia": [
       {
@@ -1810,6 +1810,38 @@
         "source_body": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW . Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available for GeForce NOW members. Meanwhile, Ubisoft brings fresh challenges with expansions for Tom Clancy’s The Division 2 and Anno 117: Pax Romana . It’s all part of a packed month of play, with two-dozen games joining the GeForce NOW library throughout November, including eight this week. NVIDIA DLSS 5 with 3D-Guided Neural Rendering arrives in Hogwarts Legacy today, giving members a new reason to return to Hogwarts, streaming from Steam, Epic Games and Xbox with Play Anywhere support. Published by Warner Bros. Games under the Portkey Games label and developed by Avalanche Software, Hogwarts Legacy is an immersive, open-world action role-playing game set in the 1800s wizarding world. Begin as a fifth-year student, encounter magical creatures, brew potions and learn spells while exploring both recognizable and unfamiliar places. The update adds lifelike lighting and material detail while retaining underlying geometry and textures. Avalanche Software has tuned the integration through DLSS 5’s developer controls to maintain the game’s artistic intent and style. Hogwarts Legacy also includes support for the DLSS Multi Frame Generation and Ray Reconstruction features, accelerating and enhancing the ray-traced graphics that immerse players in Hogwarts School of Witchcraft and Wizardry. Thanks to NVIDIA DLSS 4.5 controls in the cloud, members can fine-tune their experience. Ultimate members can experience the update with GeForce RTX 5080-class performance across PCs, Macs, handhelds, browsers, mobile devices, compatible TVs and more, without an expensive PC upgrade or waiting for game downloads. GeForce NOW handles the installs and updates, saving the storage space for everyday essentials. Just pick up the wand, hop on a broom and take flight. Blizzard Entertainment’s World of Warcraft: Forever launched Wednesday, Nov. 4, and is streaming on GeForce NOW, inviting players into a reimagined original Azeroth built to keep growing for years to come. Explore new and expanded zones, discover gameplay enhancements and take in upgraded graphics in a world where community and the journey take center stage. Access is included with an active World of Warcraft subscription or Game Time, giving returning heroes and newcomers a fresh starting point. GeForce NOW also supports CurseForge Addons for World of Warcraft: Forever , giving premium members more ways to customize their experience. At launch, GeForce NOW plans to support around 100 of the most popular CurseForge add-ons, with the selection evolving to reflect player favorites. Members can request additional add-ons through in-app feedback for consideration in future updates. The cloud keeps the next quest within reach across supported devices. For new World of Warcraft users who don’t already have a subscription, a launch-week access reward is available across all GeForce NOW membership tiers. The access period runs through Wednesday, Nov. 11, at 11:59 p.m. PT.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261105-191331__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+        "date": "2026-11-06",
+        "fetched_at": "20261106-184015",
+        "type": "官方候选",
+        "fact": "日期：2026-11-06；标题：How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks；原文内容：Your browser doesn't support HTML5 video. Here is a link to the video instead. A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with exp…；来源：https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261106,
+        "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+        "source_excerpt": "Your browser doesn't support HTML5 video. Here is a link to the video instead. A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with exp…",
+        "source_body": "Your browser doesn't support HTML5 video. Here is a link to the video instead. A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless systems. Today, researchers and developers are using these tools to build 6G-ready networks that do more than just transmit data — receiving signals more effectively, keeping robots and autonomous systems connected when it matters most, and adapting in real time as devices move through the world. Over the past year, global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x, while NVIDIA’s open source 5G/6G tools have surpassed 1 million downloads. More than 8,000 research and academic institutions worldwide are using these platforms. The projects emerging today offer a view of how future networks could look. Each addresses a different challenge, but together point toward a broader ambition for building AI-native 6G networks that deliver connectivity, computing and sensing over a converged software-defined platform for billions of people, machines and agents. A robot picking up an object needs to understand its surroundings and act before they change. When the AI powering that decision runs on a nearby server or in the cloud, the wireless connection becomes part of the response time. Researchers are exploring a more efficient approach called goal-oriented semantic communications. Instead of sending full images, robots transmit compact descriptions of objects, their positions and their relationships. Transmitting just as much information as needed allows robots to more quickly respond, especially in dynamic environments like workplaces and warehouses. At King’s College London , researchers connected a camera-equipped robot arm to an NVIDIA Jetson AGX Orin running NVIDIA Sionna, which supports both software-defined 5G network and edge AI processing. In fruit-packing and cube-stacking experiments with deliberately introduced faults, the approach reduced robot task completion time by up to 52.6% and improved task success compared with sending periodic images. In addition to quicker responses and less processing overhead, the system also proved more resilient — detecting dropped objects, recovering from unsuccessful actions and, in configurations using a digital twin, checking planned movements for potential collisions before execution. For a firefighter receiving live drone footage or a rescue team searching for a missing person, timely images can help guide urgent decisions. But interference and changing radio conditions can make wireless signals harder to decode, causing errors and retransmissions that delay information from the field. AI receivers address this challenge by learning to recover information from incoming signals more effectively. Better reception could help responders maintain a clearer, more current view of a fire scene or search area. SoftBank demonstrated this by integrating a neural receiver into NVIDIA Aerial CUDA-Accelerated RAN (ACAR) and testing it with a commercial 5G smartphone. In controlled tests with interference, the neural receiver delivered higher uplink throughput than a conventional receiver at all 15 tested settings, with a maximum gain of roughly 60% .",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261106-184015__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+        "date": "2026-11-05",
+        "fetched_at": "20261106-184015",
+        "type": "官方候选",
+        "fact": "日期：2026-11-05；标题：Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents；原文内容：AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power.；来源：https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261105,
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+        "source_excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power.",
+        "source_body": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power. What this means: AI infrastructure providers need to support more agents without making each one wait longer to get work done. And critically, AI factories are power limited. This means operators need to choose infrastructure that maximizes the work done for every watt. Why it matters: NVIDIA Vera delivers both fast agent performance and high capacity per watt within a single CPU. That gives providers one CPU for a range of agent workloads, rather than having to mix and match fast and dense x86 parts to balance speed and capacity. The data that proves it: In a 100-megawatt data center comparison, NVIDIA found that a single Vera CPU performs better than the fastest x86 CPU and the most energy-efficient x86 CPU. Partners are already putting Vera to work. Early adopters see the same exceptional performance in production-style tests:",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261106-184015__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
       }
     ],
     "tsmc": [
@@ -3343,6 +3375,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261103-184831__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
+      },
+      {
+        "title": "新易盛：关于公司回购股份事项的公告",
+        "date": "2026-11-06",
+        "fetched_at": "20261106-184015",
+        "type": "官方候选",
+        "fact": "日期：2026-11-06；标题：新易盛：关于公司回购股份事项的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261106,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/eoptolink__20261106-184015__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_300502.phtml.html"
       }
     ],
     "shennan": [
@@ -4185,6 +4232,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261102-210326__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+      },
+      {
+        "title": "深南电路：2026年11月6日投资者关系活动记录表",
+        "date": "2026-11-6",
+        "fetched_at": "20261106-184015",
+        "type": "官方候选",
+        "fact": "日期：2026-11-6；标题：深南电路：2026年11月6日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261106,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261106-184015__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
       }
     ],
     "wus": [
@@ -4757,6 +4819,21 @@
         "source_excerpt": "",
         "source_body": "",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261027-170047__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+      },
+      {
+        "title": "沪电股份：关于董事长提议回购公司股份的提示性公告",
+        "date": "2026-11-07",
+        "fetched_at": "20261106-184015",
+        "type": "官方候选",
+        "fact": "日期：2026-11-07；标题：沪电股份：关于董事长提议回购公司股份的提示性公告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261107,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261106-184015__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
       }
     ],
     "fii": [
