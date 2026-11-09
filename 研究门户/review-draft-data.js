@@ -1,8 +1,8 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-11-06T18:45:24",
+  "generated_at": "2026-11-09T21:49:49",
   "summary": {
     "total": 15,
-    "companies": 6,
+    "companies": 5,
     "with_source_body": 3,
     "suppressed_count": 0,
     "readiness_counts": {
@@ -88,34 +88,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "by_key": {
-    "eoptolink::新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告": {
-      "draft_id": "auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-      "date": "2026-09-09",
-      "score": 18,
-      "readiness_score": 26,
-      "investment_signal_score": 14,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
     "tsmc::quarterly results": {
       "draft_id": "auto-tsmc-quarterly-results",
       "company": "tsmc",
@@ -502,39 +474,38 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
+    },
+    "tsmc::monthly revenue": {
+      "draft_id": "auto-tsmc-monthly-revenue",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "Monthly Revenue",
+      "date": "20261102-2",
+      "score": 10,
+      "readiness_score": 17,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
     }
   },
   "companies": {
-    "eoptolink": [
-      {
-        "draft_id": "auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-        "company": "eoptolink",
-        "company_name": "新易盛",
-        "title": "新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-        "date": "2026-09-09",
-        "score": 18,
-        "readiness_score": 26,
-        "investment_signal_score": 14,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-        "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      }
-    ],
     "tsmc": [
       {
         "draft_id": "auto-tsmc-quarterly-results",
@@ -612,6 +583,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
         "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
+        "has_source_body": false,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
+      {
+        "draft_id": "auto-tsmc-monthly-revenue",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "Monthly Revenue",
+        "date": "20261102-2",
+        "score": 10,
+        "readiness_score": 17,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -1010,34 +1010,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-      "company": "eoptolink",
-      "company_name": "新易盛",
-      "title": "新易盛：关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告",
-      "date": "2026-09-09",
-      "score": 18,
-      "readiness_score": 26,
-      "investment_signal_score": 14,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
-      "portal_doc": "./docs/review-drafts/auto-eoptolink-新易盛-关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会的公告.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-tsmc-quarterly-results",
       "company": "tsmc",
       "company_name": "TSMC",
@@ -1282,6 +1254,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       ],
       "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
       "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
+      "draft_id": "auto-tsmc-monthly-revenue",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "Monthly Revenue",
+      "date": "20261102-2",
+      "score": 10,
+      "readiness_score": 17,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [

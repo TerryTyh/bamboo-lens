@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_EVENT_STORE = {
-  "generated_at": "2026-11-06T18:45:24",
+  "generated_at": "2026-11-09T21:49:49",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2579,6 +2579,132 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_body": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power. What this means: AI infrastructure providers need to support more agents without making each one wait longer to get work done. And critically, AI factories are power limited. This means operators need to choose infrastructure that maximizes the work done for every watt. Why it matters: NVIDIA Vera delivers both fast agent performance and high capacity per watt within a single CPU. That gives providers one CPU for a range of agent workloads, rather than having to mix and match fast and dense x86 parts to balance speed and capacity. The data that proves it: In a 100-megawatt data center comparison, NVIDIA found that a single Vera CPU performs better than the fastest x86 CPU and the most energy-efficient x86 CPU. Partners are already putting Vera to work. Early adopters see the same exceptional performance in production-style tests:",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261106-184015__investor.nvidia.com_news_press-releases_default.aspx.html",
           "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+          "date": "2026-11-09",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-09；标题：NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum；原文内容：Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT -NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT , joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2 , with additional investments planned in Motif Technologies…；来源：https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261109,
+          "source_url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "source_excerpt": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT -NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT , joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2 , with additional investments planned in Motif Technologies…",
+          "source_body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT -NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT , joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2 , with additional investments planned in Motif Technologies , RLWRLD and Upstage. Point2 Technology, an AI interconnect company, builds scalable, radio frequency-based interconnects that move data between chips and racks in AI factories, offering an innovative alternative to conventional copper and optical interconnect solutions for AI cluster scale-up, delivering the reach, performance and efficiency needed for next-generation AI infrastructure. Motif Technologies , a Seoul-based AI lab, develops foundation models for building AI agents that carry out complex tasks, including Motif-3, a large language model released with open weights. RLWRLD, a physical AI startup based in San Francisco, Seoul and Tokyo, develops robotics foundation models that enable humanoid and industrial robots to perform complex real-world tasks that require five-finger dexterity, such as precisely inserting components, threading nuts onto bolts and kitting parts from moving conveyors. Upstage , a Korean enterprise AI company, develops Solar language models and document AI tools that help businesses extract information from complex documents, streamline workflows and build AI applications for everyday operations. The companies represent work across the full AI stack , from infrastructure to models to robotics applications. The planned investments build on NVIDIA’s work with Korea’s startup and venture community, including more than 1,000 Korea-based members of NVIDIA Inception , a program that helps startups grow with access to preferred pricing, technical expertise and opportunities for investor introductions.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+          "date": "2026-11-09",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-09；标题：Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation；原文内容：Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in Austin, Texas, alongside the rise of agentic robotics — a new par…；来源：https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261109,
+          "source_url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "source_excerpt": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in Austin, Texas, alongside the rise of agentic robotics — a new par…",
+          "source_body": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in Austin, Texas, alongside the rise of agentic robotics — a new paradigm that integrates frontier agents to create interpretable code for physical robotics systems. At CoRL, NVIDIA is introducing new open robotics technologies, including world action models , simulation tools, benchmarks and agentic workflows. Two NVIDIA papers are among six finalists out of thousands of submissions for the Best Paper Awards at CoRL: These advancements help researchers train robots on complex tasks, evaluate their performance across changing conditions and use failures to guide further learning — building the precision, adaptability and autonomy needed to move from lab demonstrations to industrial deployment. NVIDIA is working with partners like Ambi Robotics , Bosch Research , Dexmate , Dyna Robotics , FieldAI , Flexion , Noitom Robotics , Siemens , Skild AI , RLWRLD , UC Berkeley , Walden Robotics and the University of Washington to bring these advancements to the broader robotics community. The next level of robot autonomy requires robots to perceive their surroundings, anticipate how their actions will change the environment and execute complex, multistep tasks with a high degree of precision. World action models enable exactly that. At CoRL, NVIDIA is introducing GR00T 2 , an open frontier world action model built on NVIDIA Cosmos. Trained on diverse robot and human data, including 100,000 hours of NVIDIA open source human egocentric data , the model enables robots to learn dexterous manipulation skills. Key features include: GR00T 2 currently ranks among the top three models across all vision language action and world action model categories for the RoboCasa365, RoboLab, RoboDojo and MolmoSpaces benchmarks, with multiple leaderboard wins. Nexuni is testing it for robotic laundry handling, Foxconn is applying GR00T 2 to factory automation for server manufacturing and Siemens is evaluating it across industrial use cases. MicroAGI is using GR00T 2, post-trained through reinforcement learning, to perform Ethernet cable swapping with a YAM robotic arm. Its agentic robotics approach automates the creation and calibration of simulation environments using Isaac Lab 3.0 and Newton, where the policy is trained. Training capable robots requires diverse data. Open NVIDIA workflows and models equip researchers with better tools for data collection and annotation:",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：Korea Advances Physical AI Across Industries With NVIDIA；原文内容：Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production.；来源：https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+          "source_excerpt": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production.",
+          "source_body": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Electronics is expanding its collaboration with NVIDIA to advance semiconductor innovation through accelerated computing and AI physics. The work spans materials research, process development and device engineering. In technology computer-aided design, Samsung is working with NVIDIA cuISS and NVIDIA cuDSS to accelerate computations involving sparse linear systems. The collaboration also extends to GPU acceleration for process and optical simulations. In materials research, Samsung’s sMOL platform has run selected quantum chemical calculations up to 5x faster end to end with NVIDIA cuEST . Samsung is also exploring NVIDIA cuEquivariance to speed up tensor operations used in training and inference for atomistic AI models. Samsung is developing chip-scale thermal and mechanical analysis workflows with NVIDIA PhysicsNeMo . In one AI homogenization case, combining AI-predicted effective material properties, coarser grids and GPU acceleration resulted in a roughly 1,600x speedup. Simulation time fell from about 18 hours for a fine-grid solve on a 32-core CPU to 41 seconds for a GPU-accelerated coarse-grid solve. Looking ahead, NVIDIA Agent Toolkit could connect these simulation tools and AI models, helping future engineering agents run analyses and compare design options. Kakao Mobility plans to build on NVIDIA’s autonomous vehicle computing and safety technologies to advance development of a level 4 autonomous driving system. The work combines Kakao Mobility’s proprietary driving software and experience operating in Seoul’s Gangnam district with NVIDIA’s vehicle computing platform. Kakao Mobility plans to use NVIDIA Hyperion , a reference platform for vehicle sensors and compute, powered by NVIDIA DRIVE AGX Thor. It also plans to use NVIDIA Halos to support safety across the development and validation of its autonomous driving technology. Initial development is planned around Kia purpose-built vehicles, integrating Kakao Mobility’s autonomous driving software with NVIDIA technologies. The effort aims to support future level 4 mobility services in Korea. NVIDIA and LG Electronics successfully demonstrated NVIDIA Isaac GR00T-powered robotic manipulation and manufacturing tasks using LG’s CLOiD robot in an actual manufacturing environment. The collaboration implemented a physical AI data flywheel connecting real-world data collection, NVIDIA Cosmos-based data augmentation, GR00T model training, NVIDIA Jetson AGX Thor onboard computing and simulation-based evaluation, establishing reusable workflows for continued development and validation of CLOiD’s robotic capabilities.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA；原文内容：As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows . A key component of the NVIDIA Open Agent Safety Platform…；来源：https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+          "source_excerpt": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows . A key component of the NVIDIA Open Agent Safety Platform…",
+          "source_body": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows . A key component of the NVIDIA Open Agent Safety Platform, OpenShell provides a secure runtime with sandboxed execution and policy-based controls to safeguard sensitive data, manage access to enterprise tools and govern autonomous agent actions. AIM Intelligence , a Korean AI security company, is integrating its Starfort agent control platform with NVIDIA OpenShell. The goal is to combine OpenShell’s runtime access controls with Starfort’s detection of malicious instructions and data leakage. The company is also considering a preliminary proof of concept for the public energy sector, with potential applications across enterprise, industrial and robotics environments. On the model side, LG AI Research is opening application programming interface access for K-EXAONE-2.5, developed using NVIDIA Nemotron datasets, including Nemotron-Personas-Korea . Nemotron-Personas-Korea is an open dataset of 7 million fully synthetic Korean personas, grounded in official Korean statistics, that model builders use to ground training data and evaluation in Korean contexts. NVIDIA Nemotron is a family of open models, datasets and techniques that help developers build specialized, efficient AI agents. Learn more about NVIDIA Nemotron open models and get started building secure agents with NVIDIA OpenShell .",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration；原文内容：NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes NVIDIA training and certification…；来源：https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+          "source_excerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes NVIDIA training and certification…",
+          "source_body": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes NVIDIA training and certification programs, hackathons and technical seminars to strengthen GPU utilization. Through Korea’s AI for All initiative, NVIDIA will collaborate with three selected consortia and four leading Korean foundation model builders, using NVIDIA Dynamo software to optimize and scale AI inference. In addition, NVIDIA today announced a collaboration with SK Telecom and Rebellions, supported by MSIT, to advance sovereign AI infrastructure for Korean models and workloads with NVIDIA NVLink Fusion. Read more in the press release .",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production；原文内容：NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom , K-EXAONE 2.0 from LG AI Research , Solar Open 2 from Upstage and Motif-3 from Motif Technologies . As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing and communication to maintain performance. NVIDIA Dynamo is an…；来源：https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+          "source_excerpt": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom , K-EXAONE 2.0 from LG AI Research , Solar Open 2 from Upstage and Motif-3 from Motif Technologies . As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing and communication to maintain performance. NVIDIA Dynamo is an…",
+          "source_body": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom , K-EXAONE 2.0 from LG AI Research , Solar Open 2 from Upstage and Motif-3 from Motif Technologies . As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing and communication to maintain performance. NVIDIA Dynamo is an open source, distributed inference-serving framework built to deploy models in multi-node environments at data center scale. It handles this routing and communication to maximize inference performance. Optimized for NVIDIA B200 GPUs, these recipes take the guesswork out of deployment, delivering up to 2x performance out of the box. They help developers bring Korea’s open models into production faster and turn them into broadly accessible AI for All services.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion；来源：https://investor.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://investor.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "A Message to Our Company",
+          "date": "2026-11-08",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-08；标题：A Message to Our Company；来源：https://investor.nvidia.com/news/a-message-to-our-company",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261108,
+          "source_url": "https://investor.nvidia.com/news/a-message-to-our-company",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261109-214418__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -4097,6 +4223,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "Last week in San Jose, we showcased our latest advances in high-speed interconnects, liquid cooling, and power solutions for next-generation AI infrastructure. Among the highlights was the debut of our NovaLink™ 35 kV / 10 MW Liquid-Cooled Solid-State Transformer (SST), designed to simplify power architectures, improve efficiency, and support higher-density computing environments. Beyond the showcase, our team share…",
           "source_body": "Last week in San Jose, we showcased our latest advances in high-speed interconnects, liquid cooling, and power solutions for next-generation AI infrastructure. Among the highlights was the debut of our NovaLink™ 35 kV / 10 MW Liquid-Cooled Solid-State Transformer (SST), designed to simplify power architectures, improve efficiency, and support higher-density computing environments. Beyond the showcase, our team shared insights on direct medium-voltage-to-800 VDC conversion for AI data centers and real-world engineering practices that enhance efficiency, reliability, and scalability. Thank you to everyone who visited our booth and exchanged ideas with us. We look forward to continuing the conversation and advancing AI infrastructure together. Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261105-191331__www.luxshare-ict.com_en_news_release.html.html"
+        },
+        {
+          "title": "Luxshare Awarded EcoVadis Gold Medal, Reaching New Heights",
+          "date": "2026-10-16",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-10-16；标题：Luxshare Awarded EcoVadis Gold Medal, Reaching New Heights；原文内容：We're excited to share that LUXSHARE has been awarded the EcoVadis Gold Medal, placing us among the top 5% of companies assessed worldwide and the top 2% in our industry. This recognition reflects the dedication and collaboration of teams across our organization, as well as our continued efforts to strengthen ESG performance and integrate sustainable practices into our business. A big thank you to everyone who made…；来源：https://www.luxshare-ict.com/en/news/release/187.html",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261016,
+          "source_url": "https://www.luxshare-ict.com/en/news/release/187.html",
+          "source_excerpt": "We're excited to share that LUXSHARE has been awarded the EcoVadis Gold Medal, placing us among the top 5% of companies assessed worldwide and the top 2% in our industry. This recognition reflects the dedication and collaboration of teams across our organization, as well as our continued efforts to strengthen ESG performance and integrate sustainable practices into our business. A big thank you to everyone who made…",
+          "source_body": "We're excited to share that LUXSHARE has been awarded the EcoVadis Gold Medal, placing us among the top 5% of companies assessed worldwide and the top 2% in our industry. This recognition reflects the dedication and collaboration of teams across our organization, as well as our continued efforts to strengthen ESG performance and integrate sustainable practices into our business. A big thank you to everyone who made this possible. This milestone is worth celebrating, and we look forward to building on this progress in the years ahead Learn more: http://recognition.ecovadis.com/msSFr49st0ChOvi5rD4u2A Luxshare-Tech showcases its“AI Data Center Solution” at the Electronica China 2024 The \"Fortune\" China ESG Influence List Was Announced, Luxshare Precision Makes the List Luxshare Included in the 'ESG Top 100 List for Chinese Listed Companies’ Luxshare Won the 2023 Green Sustainable Development Contribution Award Copyright © 2024 Luxshare ICP11045145 Powered by Yongsy",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261109-214418__www.luxshare-ict.com_en_news_release.html.html"
         }
       ]
     },
@@ -5967,6 +6108,21 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261106-184015__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
+        },
+        {
+          "title": "深南电路：关于2026年度向特定对象发行股票申请获得中国证券监督管理委员会同意注册批复的公告",
+          "date": "2026-11-09",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-09；标题：深南电路：关于2026年度向特定对象发行股票申请获得中国证券监督管理委员会同意注册批复的公告；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261109,
+          "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261109-214418__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html"
         }
       ]
     },
@@ -6651,6 +6807,36 @@ window.BAMBOO_LENS_EVENT_STORE = {
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261106-184015__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：关于以集中竞价交易方式回购公司股份方案暨回购报告书的公告",
+          "date": "2026-11-10",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-10；标题：沪电股份：关于以集中竞价交易方式回购公司股份方案暨回购报告书的公告；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261110,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261109-214418__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年11月9日投资者关系活动记录表",
+          "date": "2026-11-9",
+          "fetched_at": "20261109-214418",
+          "type": "官方候选",
+          "fact": "日期：2026-11-9；标题：沪电股份：2026年11月9日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261109,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261109-214418__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
