@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-11-09T21:47:20",
+  "generated_at": "2026-11-10T19:05:15",
   "companies": {
     "nvidia": [
       {
@@ -640,6 +640,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+        "date": "2026-11-10",
+        "fetched_at": "20261110-190142",
+        "type": "官方候选",
+        "fact": "日期：2026-11-10；标题：NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure；原文内容：Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for s…；来源：https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261110,
+        "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+        "source_excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for s…",
+        "source_body": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for securing and governing autonomous agents, to the Cloud Native Computing Foundation (CNCF), a nonprofit that is part of the Linux Foundation and the host of KubeCon. As a CNCF Sandbox project, OpenShell will be governed by the organizations building it into their products and strengthened by the expertise of security professionals worldwide. NVIDIA is also contributing to Agent Substrate , an open source Google-led framework for operating long-running agent workloads at scale on Kubernetes that has been accepted into the CNCF Sandbox. Additionally, NVIDIA announced new components of the NVIDIA DSX AI Factory Platform : NVIDIA Kubernetes Engine , NVIDIA Kubernetes Recipes and NVIDIA Snapshot . These tools help teams deploy, manage and scale GPU infrastructure on Kubernetes for AI factories. Together, these advancements mark a step forward in making Kubernetes the leading foundation for AI workloads at scale — empowering developers to build safer, more efficient AI infrastructure for the future. NVIDIA’s contribution of OpenShell to CNCF puts security infrastructure for autonomous agents in the community’s hands to build, inspect and improve — accelerating development and hardening its safeguards. “The cloud-native community has a new infrastructure challenge: giving agents secure environments in which to operate,” said Jim Zemlin, CEO of the Linux Foundation. “NVIDIA’s contribution of OpenShell to CNCF gives developers a shared foundation to build on and an opportunity to shape how agent security evolves. Bringing this work into the community enables broader collaboration on infrastructure that will be critical to the next generation of cloud-native applications.” OpenShell gives organizations control over what AI agents can do. It applies deterministic controls to agent activity, so teams can enforce policies as agents use tools, access inference services and execute workloads. Its extensible architecture lets teams connect their own compute, inference providers, credential storage and monitoring tools. This allows organizations to apply governance across different deployment environments while integrating OpenShell with their existing enterprise systems. Hundreds of organizations have put OpenShell to use, and the project has received tens of thousands of contributions in less than a year since launch. Governing agents is only part of the challenge. Organizations also need to deploy them at scale. NVIDIA is contributing to Agent Substrate, a Google -originated project in the CNCF Sandbox, and ensuring it works with NVIDIA Dynamo for model inference and KAI Scheduler for shared cluster resource allocation. This effort brings together agent execution, inference serving and resource scheduling on Kubernetes. Agent Substrate preserves agent environments between tasks while releasing compute when agents are idle. By suspending and resuming those environments across a shared pool of agents, it lets teams scale agent workloads without keeping dedicated compute running for every session.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261110-190142__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
@@ -3014,6 +3038,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "status_label": "待研判",
         "review_lane": "优先阅读",
         "review_score": 12,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
+      },
+      {
+        "title": "TSMC October 2026 Revenue Report",
+        "date": "2026-11-10",
+        "fetched_at": "20261110-190142",
+        "type": "官方候选",
+        "fact": "日期：2026-11-10；标题：TSMC October 2026 Revenue Report；原文内容：[](https://pr.tsmc.com/english/news/3349#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](https://pr.tsmc.com/english/news/3349#)Search…；来源：https://pr.tsmc.com/english/news/3349",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261110,
+        "source_url": "https://pr.tsmc.com/english/news/3349",
+        "source_excerpt": "[](https://pr.tsmc.com/english/news/3349#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](https://pr.tsmc.com/english/news/3349#)Search…",
+        "source_body": "[](https://pr.tsmc.com/english/news/3349#) Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts Engineering Performance Optimization TWSE Market Observation Post System\") TSMC Education and Culture Foundation Investor Relations, Public Relations, ESG Contacts [](https://pr.tsmc.com/english/news/3349#)Search 5. TSMC October 2026 Revenue Report [](https://pr.tsmc.com/english/news/3349) *HSINCHU, Taiwan, R.O.C. – November 10, 2026 -** TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for October 2026: On a consolidated basis, revenue for October 2026 was approximately NT$586.89 billion, an increase of 14.7 percent from September 2026 and an increase of 59.7 percent from October 2025. Revenue for January through October 2026 totaled NT$4,485.62 billion, an increase of 43.3 percent compared to the same period in 2025. Senior Vice President & Chief Financial Officer TSMC-Supply Online 360 The web-based portal for TSMC suppliers TSMC Education and Culture Foundation Copyright © Taiwan Semiconductor Manufacturing Company Limited 2010-2026, All Rights Reserved. You are now leaving our web site. The web site you wish to link to is owned or operated by an entity other than Taiwan Semiconductor Manufacturing Company, Ltd.. We do not control this third party web site. We are providing this link for your convenience only and we are not responsible for the availability of or the content located on or through this third party web site, the accuracy, completeness, timeliness, or legality of any information contained in this third party web site, and any opinions expressed therein, nor for any link contained in this third party web site. This third party web site is not investigated, monitored, or checked for accuracy, completeness, timeliness, or legality, by Taiwan Semiconductor Manufacturing Company, Ltd.. The link from our web site to this third party web site does not imply that we approve of, endorse, or recommend this third party web site. We expressly disclaim all warranties, express or implied, as to the accuracy, legality, reliability, timeliness, quality, or validity of any content on this third party web site.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261110-190142__pr.tsmc.com_english_latest-news.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 7,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。"
       },

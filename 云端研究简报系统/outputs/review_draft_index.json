@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T21:49:49",
+  "generated_at": "2026-11-10T19:06:57",
   "summary": {
     "total": 15,
     "companies": 5,
-    "with_source_body": 3,
+    "with_source_body": 4,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 3,
-      "needs_source": 12
+      "ready_for_deep_review": 4,
+      "needs_source": 11
     },
     "priority_batch": [
       {
@@ -33,6 +33,32 @@
             "跟踪重点"
           ],
           "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-tsmc-tsmc-october-2026-revenue-report",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC October 2026 Revenue Report",
+        "date": "2026-11-10",
+        "score": 10,
+        "readiness_score": 30,
+        "investment_signal_score": 8,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://pr.tsmc.com/english/news/3349",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-october-2026-revenue-report.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       },
       {
@@ -390,6 +416,32 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "tsmc::tsmc october 2026 revenue report": {
+      "draft_id": "auto-tsmc-tsmc-october-2026-revenue-report",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC October 2026 Revenue Report",
+      "date": "2026-11-10",
+      "score": 10,
+      "readiness_score": 30,
+      "investment_signal_score": 8,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://pr.tsmc.com/english/news/3349",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-october-2026-revenue-report.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "tsmc::relocation to headquarters": {
       "draft_id": "auto-tsmc-relocation-to-headquarters",
       "company": "tsmc",
@@ -474,39 +526,36 @@
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
-    },
-    "tsmc::monthly revenue": {
-      "draft_id": "auto-tsmc-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
     }
   },
   "companies": {
     "tsmc": [
+      {
+        "draft_id": "auto-tsmc-tsmc-october-2026-revenue-report",
+        "company": "tsmc",
+        "company_name": "TSMC",
+        "title": "TSMC October 2026 Revenue Report",
+        "date": "2026-11-10",
+        "score": 10,
+        "readiness_score": 30,
+        "investment_signal_score": 8,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://pr.tsmc.com/english/news/3349",
+        "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-october-2026-revenue-report.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
       {
         "draft_id": "auto-tsmc-quarterly-results",
         "company": "tsmc",
@@ -583,35 +632,6 @@
         ],
         "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
         "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-tsmc-monthly-revenue",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Monthly Revenue",
-        "date": "20261102-2",
-        "score": 10,
-        "readiness_score": 17,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
         "has_source_body": false,
         "company_page_writeback": {
           "targets": [
@@ -960,6 +980,32 @@
       }
     },
     {
+      "draft_id": "auto-tsmc-tsmc-october-2026-revenue-report",
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "title": "TSMC October 2026 Revenue Report",
+      "date": "2026-11-10",
+      "score": 10,
+      "readiness_score": 30,
+      "investment_signal_score": 8,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://pr.tsmc.com/english/news/3349",
+      "portal_doc": "./docs/review-drafts/auto-tsmc-tsmc-october-2026-revenue-report.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
       "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -1254,35 +1300,6 @@
       ],
       "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
       "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-monthly-revenue.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
