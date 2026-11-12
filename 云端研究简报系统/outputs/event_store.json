@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:04:47",
+  "generated_at": "2026-11-12T19:21:56",
   "companies": {
     "nvidia": {
       "name": "NVIDIA",
@@ -2752,6 +2752,37 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261111-185948__investor.nvidia.com_news_press-releases_default.aspx.html"
+        },
+        {
+          "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+          "date": "2026-11-12",
+          "fetched_at": "20261112-191814",
+          "type": "官方候选",
+          "fact": "日期：2026-11-12；标题：A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW；原文内容：Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW , allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet . Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales and encounters, alongside 10 games joining the GeForce NOW library this week. Warhammer…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261112,
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+          "source_excerpt": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW , allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet . Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales and encounters, alongside 10 games joining the GeForce NOW library this week. Warhammer…",
+          "source_body": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW , allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet . Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales and encounters, alongside 10 games joining the GeForce NOW library this week. Warhammer 40,000: Dawn of War IV , developed by KING Art Games and published by Deep Silver, is coming to GeForce NOW. Launching on Steam Thursday, Dec. 3, the real-time strategy game returns to the series’ roots with large-scale battles, base building and a renewed fight for planet Kronus. Command the Space Marines, Orks, Necrons or the Adeptus Mechanicus, which makes their series debut. Build a base, secure resources and customize squads to the conflict across more than 70 campaign missions, playable solo or in co-op mode. The Last Stand, Skirmish and multiplayer modes offer more ways to put tactics to the test. GeForce NOW will bring the action to supported PCs, Macs, handhelds and other devices, with game downloads and updates handled in the cloud. Save the storage space for everyday essentials and planning for the next offensive. Wishlist the game on Steam , and stay tuned to GFN Thursday to prepare for launch. NVIDIA DLSS 5 continues to evolve, with Gaijin Entertainment’s War Thunder and Everstone Studio’s Where Winds Meet next to receive support for the technology with the 3D-Guided Neural Rendering feature. Arriving in mid-November, War Thunder ’s Eagle’s Shadow major update adds DLSS 5 with 3D-Guided Neural Rendering, dozens of new planes, ships and tanks, along with cluster bombs for planes and visual-effects enhancements increasing the realism and dynamism of battle. In Where Winds Meet , DLSS support arrives Monday, Nov. 23, enhancing the environments and characters of its wuxia open-world action role-playing game. Both titles will use the latest DLSS 5 with 3D-Guided Neural Rendering model, released in October, which doubles model performance compared with the previous version. Since its initial announcement in March, model performance has improved tenfold, bringing the technology to more gamers, including GeForce NOW Ultimate members streaming with GeForce RTX 5080 cloud rigs. Get a closer look at the DLSS updates and find more details . Dragon’s Dogma 2: Dark Arisen is streaming on GeForce NOW, expanding the deep, explorable fantasy world of Dragon’s Dogma 2 with new tales and encounters. Travel to the long-abandoned region of Norgan, join the enigmatic Eir and uncover the secrets of the undying Fallen Dragon. Unearth forgotten relics to unlock powerful weapons and skills, take on Lost Rites’ 12 dungeon challenges and explore new hairstyles and tattoos for Arisen and Pawn customization.",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261112-191814__investor.nvidia.com_news_press-releases_default.aspx.html",
+          "summary_error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "NVIDIA Announces CEO Transition",
+          "date": "2026-11-12",
+          "fetched_at": "20261112-191814",
+          "type": "官方候选",
+          "fact": "日期：2026-11-12；标题：NVIDIA Announces CEO Transition；来源：https://investor.nvidia.com/news/nvidia-announces-ceo-transition",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261112,
+          "source_url": "https://investor.nvidia.com/news/nvidia-announces-ceo-transition",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261112-191814__investor.nvidia.com_news_press-releases_default.aspx.html"
         }
       ]
     },
@@ -6915,6 +6946,21 @@
           "source_excerpt": "",
           "source_body": "",
           "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261111-185948__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
+        },
+        {
+          "title": "沪电股份：2026年11月12日投资者关系活动记录表",
+          "date": "2026-11-12",
+          "fetched_at": "20261112-191814",
+          "type": "官方候选",
+          "fact": "日期：2026-11-12；标题：沪电股份：2026年11月12日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+          "action": "加入待研判队列",
+          "priority": "候选",
+          "sort_key": 20261112,
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+          "source_excerpt": "",
+          "source_body": "",
+          "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261112-191814__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html"
         }
       ]
     },
