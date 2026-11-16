@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-13T19:04:23",
-  "source_generated_at": "2026-11-13T19:04:22",
+  "generated_at": "2026-11-16T21:28:48",
+  "source_generated_at": "2026-11-16T21:28:48",
   "items": [
     {
       "company": "constellation",
@@ -1119,6 +1119,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 16
     },
     {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 15
+    },
+    {
       "company": "tsmc",
       "company_name": "TSMC",
       "source_type": "official_candidate",
@@ -1587,6 +1605,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 12
     },
     {
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "CEG Q3 2026 Earnings Call Information",
+      "date": "2026-11-09",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20261116-212503__investors.constellationenergy.com_events-and-presentations_past-events.html",
+      "event_index": null,
+      "sort_key": 20261109,
+      "score": 11
+    },
+    {
       "company": "nvidia",
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
@@ -1639,6 +1675,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 2,
       "sort_key": 20260318,
       "score": 11
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 10
     },
     {
       "company": "tsmc",
@@ -1855,6 +1909,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 4,
       "sort_key": 20251002,
       "score": 10
+    },
+    {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "工业富联：关于召开2026年第三季度业绩说明会的公告",
+      "date": "2026-11-17",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20261116-212503__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20261117,
+      "score": 9
     },
     {
       "company": "wus",
@@ -2235,42 +2307,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 9
     },
     {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年9月15日投资者关系活动记录表",
-      "date": "2026-9-15",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260915-155350__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260915,
-      "score": 9
-    },
-    {
-      "company": "wus",
-      "company_name": "沪电股份",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "沪电股份：2026年9月14日投资者关系活动记录表",
-      "date": "2026-9-14",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20260914-171407__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
-      "event_index": null,
-      "sort_key": 20260914,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2341,6 +2377,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 5,
       "sort_key": 20250911,
       "score": 9
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 8
     },
     {
       "company": "nvidia",
@@ -2719,6 +2773,78 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 6
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Announces Collaboration With IBM and Fermi National Accelerator Laboratory to Launch Quantum-Classical Codesign Platform, Plus Error-Correction Breakthrough to Advance Practical Quantum Computing",
+      "date": "2026-11-16",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://investor.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261116-212503__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261116,
+      "score": 6
     },
     {
       "company": "nvidia",
@@ -3424,9 +3550,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 190,
+    "total": 197,
     "formal_events": 89,
-    "official_candidates": 101,
+    "official_candidates": 108,
     "companies": 12
   }
 };

@@ -1,15 +1,41 @@
 window.BAMBOO_LENS_REVIEW_DRAFTS = {
-  "generated_at": "2026-11-13T19:04:23",
+  "generated_at": "2026-11-16T21:28:49",
   "summary": {
     "total": 15,
     "companies": 5,
-    "with_source_body": 4,
+    "with_source_body": 6,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 4,
-      "needs_source": 11
+      "ready_for_deep_review": 6,
+      "needs_source": 9
     },
     "priority_batch": [
+      {
+        "draft_id": "auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+        "date": "2026-11-16",
+        "score": 15,
+        "readiness_score": 36,
+        "investment_signal_score": 15,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
       {
         "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
         "company": "nvidia",
@@ -114,6 +140,32 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
     ]
   },
   "by_key": {
+    "nvidia::nvidia sweeps mlperf training and endpoints as vera rubin debuts with leading performance": {
+      "draft_id": "auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "date": "2026-11-16",
+      "score": 15,
+      "readiness_score": 36,
+      "investment_signal_score": 15,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "tsmc::quarterly results": {
       "draft_id": "auto-tsmc-quarterly-results",
       "company": "tsmc",
@@ -391,6 +443,35 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "constellation::ceg q3 2026 earnings call information": {
+      "draft_id": "auto-constellation-ceg-q3-2026-earnings-call-information",
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "CEG Q3 2026 Earnings Call Information",
+      "date": "2026-11-09",
+      "score": 11,
+      "readiness_score": 18,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+      "portal_doc": "./docs/review-drafts/auto-constellation-ceg-q3-2026-earnings-call-information.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "nvidia::how nvidia open source tools are helping researchers build next-generation 6g networks": {
       "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
       "company": "nvidia",
@@ -406,6 +487,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    "nvidia::lambda boosts ai factory resiliency and efficiency with nvidia photonics": {
+      "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "date": "2026-11-16",
+      "score": 10,
+      "readiness_score": 27,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -441,94 +547,137 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
-    },
-    "tsmc::relocation to headquarters": {
-      "draft_id": "auto-tsmc-relocation-to-headquarters",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Relocation to Headquarters",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 15,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarters.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "tsmc::historical monthly revenue": {
-      "draft_id": "auto-tsmc-historical-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Historical Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "财务地图",
-          "当前结论",
-          "估值模型"
-        ],
-        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    "tsmc::relocation to headquarter": {
-      "draft_id": "auto-tsmc-relocation-to-headquarter",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Relocation to Headquarter",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 15,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarter.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
     }
   },
   "companies": {
+    "nvidia": [
+      {
+        "draft_id": "auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+        "date": "2026-11-16",
+        "score": 15,
+        "readiness_score": 36,
+        "investment_signal_score": 15,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "财务地图",
+            "当前结论",
+            "估值模型"
+          ],
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+        "date": "2026-11-03",
+        "score": 14,
+        "readiness_score": 31,
+        "investment_signal_score": 11,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+        "date": "2026-11-05",
+        "score": 12,
+        "readiness_score": 28,
+        "investment_signal_score": 10,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+        "date": "2026-11-06",
+        "score": 11,
+        "readiness_score": 28,
+        "investment_signal_score": 5,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      },
+      {
+        "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+        "date": "2026-11-16",
+        "score": 10,
+        "readiness_score": 27,
+        "investment_signal_score": 6,
+        "readiness_lane": "ready_for_deep_review",
+        "readiness_label": "优先深读",
+        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+        "promotion_blockers": [],
+        "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
+        "has_source_body": true,
+        "company_page_writeback": {
+          "targets": [
+            "最新动态",
+            "当前结论",
+            "跟踪重点"
+          ],
+          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+        }
+      }
+    ],
     "tsmc": [
       {
         "draft_id": "auto-tsmc-tsmc-october-2026-revenue-report",
@@ -613,91 +762,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
-      },
-      {
-        "draft_id": "auto-tsmc-historical-monthly-revenue",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Historical Monthly Revenue",
-        "date": "20261102-2",
-        "score": 10,
-        "readiness_score": 17,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "财务地图",
-            "当前结论",
-            "估值模型"
-          ],
-          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-        }
-      },
-      {
-        "draft_id": "auto-tsmc-relocation-to-headquarters",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Relocation to Headquarters",
-        "date": "20261102-2",
-        "score": 10,
-        "readiness_score": 15,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarters.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-tsmc-relocation-to-headquarter",
-        "company": "tsmc",
-        "company_name": "TSMC",
-        "title": "Relocation to Headquarter",
-        "date": "20261102-2",
-        "score": 10,
-        "readiness_score": 15,
-        "investment_signal_score": 5,
-        "readiness_lane": "needs_source",
-        "readiness_label": "待补正文",
-        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-        "promotion_blockers": [
-          "还没有抓到足够正文",
-          "可读内容偏短"
-        ],
-        "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-        "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarter.md",
-        "has_source_body": false,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       }
     ],
     "constellation": [
@@ -729,82 +793,34 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           ],
           "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
-      }
-    ],
-    "nvidia": [
-      {
-        "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-        "date": "2026-11-03",
-        "score": 14,
-        "readiness_score": 31,
-        "investment_signal_score": 11,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
       },
       {
-        "draft_id": "auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-        "date": "2026-11-05",
-        "score": 12,
-        "readiness_score": 28,
-        "investment_signal_score": 10,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-agents.md",
-        "has_source_body": true,
-        "company_page_writeback": {
-          "targets": [
-            "最新动态",
-            "当前结论",
-            "跟踪重点"
-          ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-        }
-      },
-      {
-        "draft_id": "auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks",
-        "company": "nvidia",
-        "company_name": "NVIDIA",
-        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-        "date": "2026-11-06",
+        "draft_id": "auto-constellation-ceg-q3-2026-earnings-call-information",
+        "company": "constellation",
+        "company_name": "Constellation Energy",
+        "title": "CEG Q3 2026 Earnings Call Information",
+        "date": "2026-11-09",
         "score": 11,
-        "readiness_score": 28,
+        "readiness_score": 18,
         "investment_signal_score": 5,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
-        "has_source_body": true,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+        "portal_doc": "./docs/review-drafts/auto-constellation-ceg-q3-2026-earnings-call-information.md",
+        "has_source_body": false,
         "company_page_writeback": {
           "targets": [
             "最新动态",
+            "财务地图",
             "当前结论",
-            "跟踪重点"
+            "估值模型"
           ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       }
     ],
@@ -955,6 +971,32 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
   },
   "items": [
     {
+      "draft_id": "auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "date": "2026-11-16",
+      "score": 15,
+      "readiness_score": 36,
+      "investment_signal_score": 15,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-leading-performance.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
+    {
       "draft_id": "auto-nvidia-ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-faster-because-of-it",
       "company": "nvidia",
       "company_name": "NVIDIA",
@@ -1045,6 +1087,31 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
+      "has_source_body": true,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "当前结论",
+          "跟踪重点"
+        ],
+        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "date": "2026-11-16",
+      "score": 10,
+      "readiness_score": 27,
+      "investment_signal_score": 6,
+      "readiness_lane": "ready_for_deep_review",
+      "readiness_label": "优先深读",
+      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+      "promotion_blockers": [],
+      "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -1283,13 +1350,13 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
       }
     },
     {
-      "draft_id": "auto-tsmc-historical-monthly-revenue",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Historical Monthly Revenue",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 17,
+      "draft_id": "auto-constellation-ceg-q3-2026-earnings-call-information",
+      "company": "constellation",
+      "company_name": "Constellation Energy",
+      "title": "CEG Q3 2026 Earnings Call Information",
+      "date": "2026-11-09",
+      "score": 11,
+      "readiness_score": 18,
       "investment_signal_score": 5,
       "readiness_lane": "needs_source",
       "readiness_label": "待补正文",
@@ -1298,8 +1365,8 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
         "还没有抓到足够正文",
         "可读内容偏短"
       ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-historical-monthly-revenue.md",
+      "source_url": "https://investors.constellationenergy.com/events-and-presentations/past-events",
+      "portal_doc": "./docs/review-drafts/auto-constellation-ceg-q3-2026-earnings-call-information.md",
       "has_source_body": false,
       "company_page_writeback": {
         "targets": [
@@ -1309,62 +1376,6 @@ window.BAMBOO_LENS_REVIEW_DRAFTS = {
           "估值模型"
         ],
         "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-relocation-to-headquarters",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Relocation to Headquarters",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 15,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarters.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
-      "draft_id": "auto-tsmc-relocation-to-headquarter",
-      "company": "tsmc",
-      "company_name": "TSMC",
-      "title": "Relocation to Headquarter",
-      "date": "20261102-2",
-      "score": 10,
-      "readiness_score": 15,
-      "investment_signal_score": 5,
-      "readiness_lane": "needs_source",
-      "readiness_label": "待补正文",
-      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
-      "promotion_blockers": [
-        "还没有抓到足够正文",
-        "可读内容偏短"
-      ],
-      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-      "portal_doc": "./docs/review-drafts/auto-tsmc-relocation-to-headquarter.md",
-      "has_source_body": false,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     }
   ],

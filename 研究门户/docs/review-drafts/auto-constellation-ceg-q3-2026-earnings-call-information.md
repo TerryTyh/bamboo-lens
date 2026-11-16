@@ -1,15 +1,15 @@
-# 正式事件草稿｜TSMC｜Relocation to Headquarter
+# 正式事件草稿｜Constellation Energy｜CEG Q3 2026 Earnings Call Information
 
 ## 草稿状态
 
-- 公司：TSMC（tsmc）
-- 日期：20261102-2
-- 类型：官方候选
-- 候选分数：10
+- 公司：Constellation Energy（constellation）
+- 日期：2026-11-09
+- 类型：财报 / 指引
+- 候选分数：11
 - 当前动作：等待补证据
-- 批处理建议：待补正文（readiness 15）
-- 官方来源：[打开官方来源](https://investor.tsmc.com/english/monthly-revenue/2026)
-- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261102-210326__investor.tsmc.com_english_monthly-revenue_2026.html
+- 批处理建议：待补正文（readiness 18）
+- 官方来源：[打开官方来源](https://investors.constellationenergy.com/events-and-presentations/past-events)
+- 来源快照：/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/constellation__20261116-212503__investors.constellationenergy.com_events-and-presentations_past-events.html
 
 ## 批处理建议
 
@@ -26,17 +26,17 @@
 
 ### 原文可读内容
 
-日期：20261102-2；标题：Relocation to Headquarter；来源：https://investor.tsmc.com/english/monthly-revenue/2026
+日期：2026-11-09；标题：CEG Q3 2026 Earnings Call Information；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
 
 ### 候选事实
 
-日期：20261102-2；标题：Relocation to Headquarter；来源：https://investor.tsmc.com/english/monthly-revenue/2026
+日期：2026-11-09；标题：CEG Q3 2026 Earnings Call Information；来源：https://investors.constellationenergy.com/events-and-presentations/past-events
 
 ## 升级为正式事件前必须补齐
 
-- 原文里能支持判断的数字、日期、客户、产品或管理层表述
-- 这件事影响哪条业务线、财务科目或竞争位置
-- 下一次可以验证这件事是否真正有价值的指标
+- 收入、分部收入、利润率、EPS、现金流或指引中的具体数字
+- 管理层对需求、产能、价格、成本或资本开支的口径
+- 和上一期或市场预期相比，真正变化的指标
 
 ## 初步判断
 
@@ -61,16 +61,17 @@
 建议回写位置：
 
 - 最新动态
+- 财务地图
 - 当前结论
-- 跟踪重点
+- 估值模型
 
-回写原则：正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。
+回写原则：若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。
 
 ## 入库方式
 
 当这份草稿已经补齐原文总结、三条以上证据、业务影响、估值/动作影响和验证点后，可以在 GitHub Actions 里运行 `Promote Review Draft`，输入以下草稿 ID：
 
-`auto-tsmc-relocation-to-headquarter`
+`auto-constellation-ceg-q3-2026-earnings-call-information`
 
 ## 质量闸门
 
