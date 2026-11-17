@@ -1,0 +1,69 @@
+{
+  "draft_id": "auto-nvidia-ian-buck-kicks-off-nvidia-s-week-at-sc26-as-science-enters-the-age-of-agents",
+  "draft_status": "auto_draft",
+  "generated_at": "2026-11-17T20:20:25",
+  "company": "nvidia",
+  "company_name": "NVIDIA",
+  "source_candidate_title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+  "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+  "date": "2026-11-17",
+  "type": "官方候选",
+  "priority": "草稿",
+  "action": "进入人工研判",
+  "score": 11,
+  "sort_key": 20261117,
+  "source_url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+  "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261117-201300__investor.nvidia.com_news_press-releases_default.aspx.html",
+  "readiness_lane": "ready_for_deep_review",
+  "readiness_label": "优先深读",
+  "readiness_score": 28,
+  "investment_signal_score": 12,
+  "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
+  "promotion_blockers": [],
+  "source_summary": [
+    "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM and Fermi National Accelerator Laboratory . “The frontier of computing and the new scientific stack is going to be simulation, as always, but combined with AI and the future of quantum,” said Buck, vice president of hyperscale and high-performance computing at NVIDIA. Buck opened the talk by looking back to his first public talk on CUDA, at an SC06 tutorial in Tampa, Florida, 20 years ago. NVIDIA now offers more than 1,000 CUDA-X libraries , he said. “[Agents] have been just a game changer in how we interface with our supercomputers, with our devices, our instruments and how we can do the research,” Buck said. Simulation remains the foundation of scientific computing, “which will always be on the top,” Buck said, with AI, quantum and now agents working alongside it. Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, Buck explained. Researchers can run it locally on a DGX Spark, a workstation or their own supercomputer. At Argonne National Laboratory, Buck said, an agent built with the toolkit took a single prompt, planned and tested hypotheses, chose which simulations to run and identified two new binding sites. “You own your data. You own the model,” Buck said. Buck highlighted other agents already in use: Agents lean on CPUs to run tool calls between model steps, Buck explained. “That’s exactly what agents need,” he said. “They need a CPU that can run, evaluate, run the tool, perform the operations, gather the results.”"
+  ],
+  "fact": "日期：2026-11-17；标题：Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents；原文内容：NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM a…；来源：https://blogs.nvidia.com/blog/ian-buck-sc26/",
+  "evidence": [
+    "证据缺口：原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "证据缺口：这件事影响哪条业务线、财务科目或竞争位置",
+    "证据缺口：下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "evidence_needed": [
+    "原文里能支持判断的数字、日期、客户、产品或管理层表述",
+    "这件事影响哪条业务线、财务科目或竞争位置",
+    "下一次可以验证这件事是否真正有价值的指标"
+  ],
+  "judgment": "这只是正式事件草稿，还不能直接形成投资判断。先读完来源，把事实、数字和管理层口径补齐，再决定是否升级。",
+  "business_analysis": "待补：说明它影响哪条业务线、产品、客户、市场、供应链或成本结构。",
+  "valuation_analysis": "待补：说明它是否影响收入质量、利润率、现金流、资本开支、估值区间或仓位动作。",
+  "verification": [
+    "打开原始来源，确认正文是否足够支撑正式事件。",
+    "补齐至少三条具体证据，再写业务影响和估值/动作影响。",
+    "如果只有标题、日程或营销口号，保留候选，不进入正式事件。"
+  ],
+  "company_page_writeback": {
+    "targets": [
+      "最新动态",
+      "当前结论",
+      "跟踪重点"
+    ],
+    "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+  },
+  "quality_check": {
+    "has_source": true,
+    "has_readable_source": true,
+    "has_source_body": true,
+    "source_chars": 1972,
+    "can_promote_now": false,
+    "missing_before_promotion": [
+      "原文内容总结",
+      "三条以上具体证据",
+      "业务影响",
+      "估值或动作影响",
+      "下一次验证点"
+    ]
+  },
+  "portal_doc": "./docs/review-drafts/auto-nvidia-ian-buck-kicks-off-nvidia-s-week-at-sc26-as-science-enters-the-age-of-agents.md",
+  "draft_file": "云端研究简报系统/outputs/review_drafts/auto-nvidia-ian-buck-kicks-off-nvidia-s-week-at-sc26-as-science-enters-the-age-of-agents.json"
+}

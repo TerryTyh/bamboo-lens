@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-16T21:28:48",
-  "source_generated_at": "2026-11-16T21:28:48",
+  "generated_at": "2026-11-17T20:20:25",
+  "source_generated_at": "2026-11-17T20:20:25",
   "items": [
     {
       "company": "constellation",
@@ -1605,6 +1605,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 12
     },
     {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "date": "2026-11-17",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "优先读原文里的收入、利润率、指引、现金流和管理层口径；够具体后再升级为正式事件。",
+      "source_url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261117-201300__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261117,
+      "score": 11
+    },
+    {
       "company": "constellation",
       "company_name": "Constellation Energy",
       "source_type": "official_candidate",
@@ -2289,24 +2307,6 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 9
     },
     {
-      "company": "shennan",
-      "company_name": "深南电路",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "深南电路：2026年9月17日-9月18日投资者关系活动记录表",
-      "date": "2026-9-17",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20260918-152613__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
-      "event_index": null,
-      "sort_key": 20260917,
-      "score": 9
-    },
-    {
       "company": "alibaba",
       "company_name": "阿里巴巴",
       "source_type": "formal_event",
@@ -2773,6 +2773,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "tsmc",
+      "company_name": "TSMC",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "TSMC 2026 Supply Chain Management Forum Presents Awards to Outstanding Suppliers",
+      "date": "2026-11-17",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://pr.tsmc.com/english/news/3355",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/tsmc__20261117-201300__pr.tsmc.com_english_latest-news.html",
+      "event_index": null,
+      "sort_key": 20261117,
+      "score": 6
     },
     {
       "company": "nvidia",
@@ -3550,9 +3568,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 197,
+    "total": 198,
     "formal_events": 89,
-    "official_candidates": 108,
+    "official_candidates": 109,
     "companies": 12
   }
 };
