@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:16:19",
+  "generated_at": "2026-11-18T19:46:46",
   "companies": {
     "nvidia": [
       {
@@ -2236,6 +2236,52 @@
         "source_body": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems , each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming soon. Researchers get a place at their desk to run multi-node scientific workloads, AI models and agents, instead of waiting for time on a shared GPU cluster. The kit puts the GB10 Grace Blackwell Superchip on researchers’ desks. The DGX Spark Developer Kit changes how researchers work. It scales from one system, or node, to four — linked directly to one another over NVIDIA ConnectX-7 networking, with no network switch to buy or set up. At four nodes, it provides 512GB of combined memory and 20TB of NVMe storage that provides researchers more capacity to distribute models and scientific workloads across the cluster. With NVFP4, researchers can deploy models with up to 700B parameters locally across the four DGX Spark clusters, such as DeepSeek V4.1. With that much power at the desk, researchers with a fixed compute and server allocation no longer have to wait in a queue for every job. Teams can develop and debug on their own, saving server hours for production runs and keeping unpublished results, and proprietary datasets on premises. The playbook for NVIDIA HPC SDK is coming soon, bringing GPU-accelerated C, C++ and Fortran compilers, libraries and message passing interface tools to the DGX Spark cluster — the same development tools used on NVIDIA-powered supercomputers. Teams can build and test scientific applications across four nodes, check how computation and data are distributed, and debug communication issues before scaling to larger systems. The kit brings scientific simulation and AI models and agents to the desktop, with demonstrated four-system workloads including LAMMPS with Kokkos for materials simulation and NAMD for molecular dynamics. The broader DGX Spark community has validated GROMACS for molecular dynamics, OpenFOAM for fluid dynamics, WRF for weather modeling and NVIDIA NIM microservices such as OpenFold3 and Boltz-2 for predicting biomolecular structures. Running on DGX Spark, new open dataset and post-training recipes for Nemotron 3.5 Super VL help researchers adapt the model for life sciences and chemistry, enabling secure scientific workflows on infrastructure organizations control. The kit opens up new possibilities for researchers. Researchers can explore agent-assisted workflows that prepare simulation inputs, launch runs and summarize results, while the scientists validate the setup and conclusions. Researchers can also train AI models that approximate slow simulations, then use them to refine wing designs toward minimum drag.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261117-201300__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+        "date": "2026-11-18",
+        "fetched_at": "20261118-194406",
+        "type": "官方候选",
+        "fact": "日期：2026-11-18；标题：NVIDIA RTX Spark Compact Desktops Out Now；原文内容：New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks r…；来源：https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261118,
+        "source_url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "source_excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks r…",
+        "source_body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work. Alongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops. Native Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC. As workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks. RTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system. Running supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks. RTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance. Ten-gigabit Ethernet connectivity enables fast transfers of large datasets, model files and creative assets between RTX Spark compact desktops and networked storage. This advanced hardware unlocks incredible capabilities for creators, developers and AI enthusiasts, including: New compact desktops are available for purchase from ASUS, Dell and MSI, joining the RTX Spark family of laptops available today. Mini PCs from Acer, GIGABYTE and HP are coming soon, along with the Microsoft Surface RTX Spark Dev Box . Native CUDA support and Linux development tools through Windows Subsystem for Linux give developers a foundation for building and running local AI workflows. Developers can set up agents with Hermes Agent or NVIDIA NemoClaw blueprints and fine-tune supported models using Unsloth. RTX Spark can run creative agents that connect familiar applications and local AI tools, helping creators move from an idea to finished work with natural-language instructions.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261118-194406__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+        "date": "2026-11-17",
+        "fetched_at": "20261118-194406",
+        "type": "官方候选",
+        "fact": "日期：2026-11-17；标题：NVIDIA Announces Financial Results for Third Quarter Fiscal 2027；来源：https://investor.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261117,
+        "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261118-194406__investor.nvidia.com_news_press-releases_default.aspx.html"
+      },
+      {
+        "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+        "date": "2026-11-17",
+        "fetched_at": "20261118-194406",
+        "type": "官方候选",
+        "fact": "日期：2026-11-17；标题：NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout；来源：https://investor.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261117,
+        "source_url": "https://investor.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261118-194406__investor.nvidia.com_news_press-releases_default.aspx.html"
       }
     ],
     "tsmc": [

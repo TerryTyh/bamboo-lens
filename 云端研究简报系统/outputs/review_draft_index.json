@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T20:20:25",
+  "generated_at": "2026-11-18T19:48:01",
   "summary": {
     "total": 15,
     "companies": 5,
-    "with_source_body": 6,
+    "with_source_body": 5,
     "suppressed_count": 0,
     "readiness_counts": {
-      "ready_for_deep_review": 6,
-      "needs_source": 9
+      "ready_for_deep_review": 5,
+      "needs_source": 10
     },
     "priority_batch": [
       {
@@ -467,6 +467,35 @@
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
       }
     },
+    "nvidia::nvidia announces financial results for third quarter fiscal 2027": {
+      "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "date": "2026-11-17",
+      "score": 11,
+      "readiness_score": 18,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
+      }
+    },
     "constellation::ceg q3 2026 earnings call information": {
       "draft_id": "auto-constellation-ceg-q3-2026-earnings-call-information",
       "company": "constellation",
@@ -511,31 +540,6 @@
       "promotion_blockers": [],
       "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "portal_doc": "./docs/review-drafts/auto-nvidia-how-nvidia-open-source-tools-are-helping-researchers-build-next-generation-6g-networks.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    "nvidia::lambda boosts ai factory resiliency and efficiency with nvidia photonics": {
-      "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "date": "2026-11-16",
-      "score": 10,
-      "readiness_score": 27,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
       "has_source_body": true,
       "company_page_writeback": {
         "targets": [
@@ -676,28 +680,32 @@
         }
       },
       {
-        "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
+        "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
         "company": "nvidia",
         "company_name": "NVIDIA",
-        "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-        "date": "2026-11-16",
-        "score": 10,
-        "readiness_score": 27,
-        "investment_signal_score": 6,
-        "readiness_lane": "ready_for_deep_review",
-        "readiness_label": "优先深读",
-        "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-        "promotion_blockers": [],
-        "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-        "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
-        "has_source_body": true,
+        "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+        "date": "2026-11-17",
+        "score": 11,
+        "readiness_score": 18,
+        "investment_signal_score": 5,
+        "readiness_lane": "needs_source",
+        "readiness_label": "待补正文",
+        "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+        "promotion_blockers": [
+          "还没有抓到足够正文",
+          "可读内容偏短"
+        ],
+        "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027.md",
+        "has_source_body": false,
         "company_page_writeback": {
           "targets": [
             "最新动态",
+            "财务地图",
             "当前结论",
-            "跟踪重点"
+            "估值模型"
           ],
-          "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+          "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
         }
       }
     ],
@@ -1094,31 +1102,6 @@
       }
     },
     {
-      "draft_id": "auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics",
-      "company": "nvidia",
-      "company_name": "NVIDIA",
-      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-      "date": "2026-11-16",
-      "score": 10,
-      "readiness_score": 27,
-      "investment_signal_score": 6,
-      "readiness_lane": "ready_for_deep_review",
-      "readiness_label": "优先深读",
-      "review_batch_reason": "已有较长可读正文，候选分数也足够高，适合作为下一批正式事件研判对象。",
-      "promotion_blockers": [],
-      "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-      "portal_doc": "./docs/review-drafts/auto-nvidia-lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics.md",
-      "has_source_body": true,
-      "company_page_writeback": {
-        "targets": [
-          "最新动态",
-          "当前结论",
-          "跟踪重点"
-        ],
-        "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
-      }
-    },
-    {
       "draft_id": "auto-tsmc-quarterly-results",
       "company": "tsmc",
       "company_name": "TSMC",
@@ -1343,6 +1326,35 @@
           "跟踪重点"
         ],
         "guidance": "正式事件入库后，应判断是否改变当前结论、业务地图、财务地图、估值模型或跟踪重点。"
+      }
+    },
+    {
+      "draft_id": "auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "date": "2026-11-17",
+      "score": 11,
+      "readiness_score": 18,
+      "investment_signal_score": 5,
+      "readiness_lane": "needs_source",
+      "readiness_label": "待补正文",
+      "review_batch_reason": "当前主要是标题或短事实，不适合直接进入正式事件。",
+      "promotion_blockers": [
+        "还没有抓到足够正文",
+        "可读内容偏短"
+      ],
+      "source_url": "https://investor.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "portal_doc": "./docs/review-drafts/auto-nvidia-nvidia-announces-financial-results-for-third-quarter-fiscal-2027.md",
+      "has_source_body": false,
+      "company_page_writeback": {
+        "targets": [
+          "最新动态",
+          "财务地图",
+          "当前结论",
+          "估值模型"
+        ],
+        "guidance": "若原文包含收入、利润率、现金流、指引或管理层口径，正式事件入库后必须同步更新公司主页的财务地图和估值/动作判断。"
       }
     },
     {
