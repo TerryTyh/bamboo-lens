@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-11-18T19:46:46",
+  "generated_at": "2026-11-19T19:45:24",
   "companies": {
     "nvidia": [
       {
@@ -735,6 +735,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+        "date": "2026-11-19",
+        "fetched_at": "20261119-194436",
+        "type": "官方候选",
+        "fact": "日期：2026-11-19；标题：Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW；原文内容：GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership . Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, creators and AI enthusiasts. The living room gets a little more playtime, too. GeForce NO…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261119,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+        "source_excerpt": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership . Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, creators and AI enthusiasts. The living room gets a little more playtime, too. GeForce NO…",
+        "source_body": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership . Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVIDIA holiday deals for gamers, creators and AI enthusiasts. The living room gets a little more playtime, too. GeForce NOW arrives on Amazon Fire TV Stick HD, Fire TV Stick 4K Select and Fire TV Stick 4K (2026 model) running Vega OS, alongside an Amazon offer launching later today for 90% off the first month of an eligible Performance or Ultimate membership in participating countries. It brings console-style gaming to the TV, straight from the Amazon cart. Bethesda fans have more in store, with five favorites adding GOG support as part of nine games joining GeForce NOW this week. Six-month Performance and Ultimate memberships are back for Black Friday, with 30% off the first six months for new memberships and eligible upgrades in select regions. The sale runs through Monday, Nov. 30, while supplies last. Go Ultimate for GeForce RTX 5080-class performance across PCs, Macs, Steam Deck and other supported handhelds, browsers, mobile devices, compatible TVs and more . Sessions lasting up to eight hours and first-priority server access leave more room for marathon play. Ultimate brings the latest NVIDIA innovations to the cloud, including DLSS 5 technology with the 3D-Guided Neural Rendering feature for lifelike lighting and materials in NBA 2K27 and Hogwarts Legacy , with support coming to War Thunder and Where Winds Meet . The experience goes big with streaming at up to 5K resolution or up to 360 frames per second, plus high dynamic range, ultrawide support and saved in-game settings. DLSS Super Resolution, Multi Frame Generation and Ray Reconstruction enhance supported games, including the path-traced missions of 007 First Light and the reality-bending action of CONTROL Resonant , while NVIDIA Reflex and Cloud G-SYNC technologies help keep gameplay responsive and smooth. GeForce NOW handles downloads, patches and updates for Ready-to-Play games, freeing local storage and leaving more time for gaming. Choose a membership and start the season streaming. GeForce NOW officially expands to all three of Amazon’s Vega OS streaming media players including Fire TV Stick HD, Fire TV Stick 4K Select and Fire TV Stick 4K (2026 model) bringing thousands of supported games to more another screens in the home. Vega OS keeps Fire TV fast and responsive, so launching GeForce NOW and jumping into games feels quick and snappy, with no console required. Getting started is simple: download the GeForce NOW app on a supported Fire TV device , sign in and connect a compatible controller. From cozy stories to epic adventures, turn-based tactics to co-op challenges, there’s plenty to build, explore and share with friends — all from the comfort of the couch. There’s a fire deal to get the games going, too. Launching later today through Thursday, Dec. 31, get 90% off the first month of a Performance or Ultimate membership purchased directly through Amazon on supported Fire TV devices in participating regions. The cloud is ready. The next quest is calling.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261119-194436__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "NVIDIA RTX Spark Compact Desktops Out Now",
@@ -7353,6 +7377,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 12,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "打开报告原文，提取收入、利润率、现金流、存货、应收和经营指引；不要只凭标题升级。"
+      },
+      {
+        "title": "沪电股份：2026年11月19日投资者关系活动记录表",
+        "date": "2026-11-19",
+        "fetched_at": "20261119-194436",
+        "type": "官方候选",
+        "fact": "日期：2026-11-19；标题：沪电股份：2026年11月19日投资者关系活动记录表；来源：https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261119,
+        "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261119-194436__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+        "company": "wus",
+        "company_name": "沪电股份",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
       },
       {
         "title": "沪电股份：2026年11月12日投资者关系活动记录表",
