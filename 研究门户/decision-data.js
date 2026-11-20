@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-19T19:46:18",
-  "source_generated_at": "2026-11-19T19:46:17",
+  "generated_at": "2026-11-20T19:29:01",
+  "source_generated_at": "2026-11-20T19:29:01",
   "items": [
     {
       "company": "constellation",
@@ -1717,6 +1717,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "NVIDIA",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "date": "2026-11-19",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先读交易/客户/合作的规模、期限、收入路径和利润影响；避免只凭标题判断。",
+      "source_url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261120-192514__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261119,
+      "score": 10
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
       "date": "2026-11-16",
       "type": "官方候选",
@@ -2581,6 +2599,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "company_name": "沪电股份",
       "source_type": "official_candidate",
       "stage": "待读原文",
+      "title": "沪电股份：关于以集中竞价交易方式首次回购公司股份的公告",
+      "date": "2026-11-21",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletin.php?Page=1&stockid=002463",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/wus__20261120-192514__vip.stock.finance.sina.com.cn_corp_view_vCB_AllBulletin.php_Page_1_stockid_002463.html",
+      "event_index": null,
+      "sort_key": 20261121,
+      "score": 7
+    },
+    {
+      "company": "wus",
+      "company_name": "沪电股份",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
       "title": "沪电股份：关于取得金融机构股票回购专项贷款承诺函的公告",
       "date": "2026-11-14",
       "type": "官方候选",
@@ -2827,6 +2863,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "event_index": 3,
       "sort_key": 20250723,
       "score": 7
+    },
+    {
+      "company": "nvidia",
+      "company_name": "NVIDIA",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "NVIDIA Announces Upcoming Event for Financial Community",
+      "date": "2026-11-19",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://investor.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6929322",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261120-192514__investor.nvidia.com_news_press-releases_default.aspx.html",
+      "event_index": null,
+      "sort_key": 20261119,
+      "score": 6
     },
     {
       "company": "nvidia",
@@ -3640,9 +3694,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 202,
+    "total": 205,
     "formal_events": 89,
-    "official_candidates": 113,
+    "official_candidates": 116,
     "companies": 12
   }
 };
