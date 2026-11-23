@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-11-20T19:28:10",
+  "generated_at": "2026-11-23T23:06:25",
   "companies": {
     "nvidia": [
       {
@@ -759,6 +759,53 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+        "date": "2026-11-23",
+        "fetched_at": "20261123-230307",
+        "type": "官方候选",
+        "fact": "日期：2026-11-23；标题：Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season；原文内容：The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the…；来源：https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261123,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "source_excerpt": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the…",
+        "source_body": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the details. With the holiday break here, everyone can be online to score bragging rights or explore a world that’s only been seen in video game trailers. For some players, an upgrade means a desktop that brings out the detail in every scene. For others, it’s a laptop they can take along when visiting family, or a way to play in the cloud on a device they already own. The right setup depends on where and what to play: For creators with a project that’s been on the backburner, the right gift this season can be the push to finally make it happen. Maybe it’s holiday clips becoming a short film, a snowy scene coming together in 3D or a livestream that brings friends across time zones to the same virtual table. Creators can use NVIDIA systems — such as GeForce RTX 50 Series and RTX Spark devices — to keep up with the workflows, along with NVIDIA Studio tools and technologies for AI acceleration. Studio Drivers support video editing, 3D design and livestreaming. In supported applications, faster processing gives more room to experiment and refine. Every robot starts somewhere. This season, it could be under the tree. Building a robot is an experiment in teaching a device to see or sense its surroundings. A first project might be as simple as using a camera to identify a candy cane or a gingerbread man, then moving on to an app that probes what the camera sees. Testing brings new questions. Can the robot recognize the candy cane under twinkling lights? Can it tell a frosted gingerbread man from an unfrosted one? Each experiment leaves more to improve and explore. The NVIDIA Jetson edge AI platform provides the hardware and software to build projects like these. It combines compact computers with the NVIDIA JetPack software development kit to help makers build robots, autonomous machines and intelligent devices.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261123-230307__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
+      },
+      {
+        "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+        "date": "2026-11-23",
+        "fetched_at": "20261123-230307",
+        "type": "官方候选",
+        "fact": "日期：2026-11-23；标题：NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director；来源：https://investor.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261123,
+        "source_url": "https://investor.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261123-230307__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",

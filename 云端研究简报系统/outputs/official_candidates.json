@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:28:10",
+  "generated_at": "2026-11-23T23:06:25",
   "companies": {
     "nvidia": [
       {
@@ -2329,6 +2329,37 @@
         "source_body": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite , the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as well as adding customer availability to NVIDIA open models and customization capabilities through Microsoft Foundry, and new options for running AI at the edge, where businesses generate and use their data. Microsoft is also using NVIDIA technologies to accelerate its own models and services, including NVIDIA Dynamo inference software for post-training and NVIDIA RTX PRO 6000 Blackwell GPUs for Bing search models. NVIDIA Vera Rubin NVL72 systems are running in Azure data centers , providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference. Microsoft and NVIDIA are also collaborating to extend confidential computing to bare-metal and rack-scale AI infrastructure. The work will help protect sensitive models and data while they are being processed, supporting organizations that need to work with proprietary or regulated information. NVIDIA Confidential Computing and attestation help customers verify the computing environment before releasing sensitive models, data or keys. As AI workloads span more interconnected accelerators, the companies are working to extend those protections across the AI factory infrastructure. To help data centers get more performance from available power, NVIDIA and Microsoft are also collaborating on power efficiency using NVIDIA MaxLPS . Azure’s Vera Rubin preview builds on NVIDIA and Microsoft’s codesign and performance optimization, underscored in the latest NVIDIA Blackwell-based MLPerf results. In MLPerf Training v6.1 , Azure scaled to 10,240 NVIDIA GPUs with GB200 NVL72 systems on the DeepSeek-V3 model, the largest scale in the round. In MLPerf Inference v6.1 , Azure’s NVIDIA GB300 NVL72 systems led cloud submissions on DeepSeek-R1 interactive throughput by over 10%, per Signal65. Enterprise AI agents need to reason through complex tasks, find relevant company information and understand business documents. NVIDIA and Microsoft are expanding the models and services available through Microsoft Foundry to help developers bring these capabilities into business applications. Microsoft’s serverless Programmed Training offering gives developers control over post-training workflows while Foundry manages the underlying infrastructure. Enterprises can focus on their business data, evaluating model responses and improving model behavior. Foundry Managed Compute adds support for deploying custom model weights, helping connect model customization with deployment through Microsoft’s managed services. EY used Programmed Training in Microsoft Foundry to adapt NVIDIA Nemotron open models for classifying corporate purchasing records, improving accuracy on its evaluation dataset by 55% and lowering cost by 15x compared with proprietary frontier models. The work demonstrates how enterprises can customize open models for specialized business tasks.",
         "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261120-192514__investor.nvidia.com_news_press-releases_default.aspx.html",
         "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+        "date": "2026-11-23",
+        "fetched_at": "20261123-230307",
+        "type": "官方候选",
+        "fact": "日期：2026-11-23；标题：Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season；原文内容：The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the…；来源：https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261123,
+        "source_url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+        "source_excerpt": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the…",
+        "source_body": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the details. With the holiday break here, everyone can be online to score bragging rights or explore a world that’s only been seen in video game trailers. For some players, an upgrade means a desktop that brings out the detail in every scene. For others, it’s a laptop they can take along when visiting family, or a way to play in the cloud on a device they already own. The right setup depends on where and what to play: For creators with a project that’s been on the backburner, the right gift this season can be the push to finally make it happen. Maybe it’s holiday clips becoming a short film, a snowy scene coming together in 3D or a livestream that brings friends across time zones to the same virtual table. Creators can use NVIDIA systems — such as GeForce RTX 50 Series and RTX Spark devices — to keep up with the workflows, along with NVIDIA Studio tools and technologies for AI acceleration. Studio Drivers support video editing, 3D design and livestreaming. In supported applications, faster processing gives more room to experiment and refine. Every robot starts somewhere. This season, it could be under the tree. Building a robot is an experiment in teaching a device to see or sense its surroundings. A first project might be as simple as using a camera to identify a candy cane or a gingerbread man, then moving on to an app that probes what the camera sees. Testing brings new questions. Can the robot recognize the candy cane under twinkling lights? Can it tell a frosted gingerbread man from an unfrosted one? Each experiment leaves more to improve and explore. The NVIDIA Jetson edge AI platform provides the hardware and software to build projects like these. It combines compact computers with the NVIDIA JetPack software development kit to help makers build robots, autonomous machines and intelligent devices.",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261123-230307__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+        "date": "2026-11-23",
+        "fetched_at": "20261123-230307",
+        "type": "官方候选",
+        "fact": "日期：2026-11-23；标题：NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director；来源：https://investor.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261123,
+        "source_url": "https://investor.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261123-230307__investor.nvidia.com_news_press-releases_default.aspx.html"
       }
     ],
     "tsmc": [
