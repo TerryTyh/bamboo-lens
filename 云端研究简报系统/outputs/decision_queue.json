@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T23:06:52",
-  "source_generated_at": "2026-11-23T23:06:52",
+  "generated_at": "2026-11-24T21:46:00",
+  "source_generated_at": "2026-11-24T21:46:00",
   "items": [
     {
       "company": "constellation",
@@ -3387,24 +3387,6 @@
       "score": 6
     },
     {
-      "company": "luxshare",
-      "company_name": "立讯精密",
-      "source_type": "official_candidate",
-      "stage": "待读原文",
-      "title": "Luxshare Precision's Subsidiary Luxshare Intelligent Computing Unveils NEXTiX LEGION at Intel Connection 2026",
-      "date": "2026-09-24",
-      "type": "官方候选",
-      "priority": "候选",
-      "decision_action": "进入研判队列",
-      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
-      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
-      "source_url": "https://www.luxshare-ict.com/en/news/release/183.html",
-      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/luxshare__20261014-160930__www.luxshare-ict.com_en_news_release.html.html",
-      "event_index": null,
-      "sort_key": 20260924,
-      "score": 6
-    },
-    {
       "company": "constellation",
       "company_name": "Constellation Energy",
       "source_type": "official_candidate",
@@ -3676,9 +3658,9 @@
     }
   ],
   "summary": {
-    "total": 204,
+    "total": 203,
     "formal_events": 89,
-    "official_candidates": 115,
+    "official_candidates": 114,
     "companies": 12
   }
 }
