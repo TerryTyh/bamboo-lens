@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_QUEUE = {
-  "generated_at": "2026-11-24T21:46:00",
-  "source_generated_at": "2026-11-24T21:46:00",
+  "generated_at": "2026-11-25T20:53:09",
+  "source_generated_at": "2026-11-25T20:53:09",
   "items": [
     {
       "company": "constellation",
@@ -1965,6 +1965,24 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
       "score": 10
     },
     {
+      "company": "fii",
+      "company_name": "工业富联",
+      "source_type": "official_candidate",
+      "stage": "待读原文",
+      "title": "工业富联：投资者关系活动记录表20261123",
+      "date": "2026-11-25",
+      "type": "官方候选",
+      "priority": "候选",
+      "decision_action": "进入研判队列",
+      "why": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+      "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。",
+      "source_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601138.phtml",
+      "source_doc": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/fii__20261125-205032__vip.stock.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_601138.phtml.html",
+      "event_index": null,
+      "sort_key": 20261125,
+      "score": 9
+    },
+    {
       "company": "wus",
       "company_name": "沪电股份",
       "source_type": "official_candidate",
@@ -3658,9 +3676,9 @@ window.BAMBOO_LENS_DECISION_QUEUE = {
     }
   ],
   "summary": {
-    "total": 203,
+    "total": 204,
     "formal_events": 89,
-    "official_candidates": 114,
+    "official_candidates": 115,
     "companies": 12
   }
 };

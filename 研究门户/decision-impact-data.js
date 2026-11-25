@@ -1,6 +1,6 @@
 window.BAMBOO_LENS_DECISION_IMPACT = {
-  "generated_at": "2026-11-24T21:46:00",
-  "source_generated_at": "2026-11-24T21:46:00",
+  "generated_at": "2026-11-25T20:53:09",
+  "source_generated_at": "2026-11-25T20:53:09",
   "items": [
     {
       "company": "fii",
