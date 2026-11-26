@@ -1,5 +1,5 @@
 window.BAMBOO_LENS_CANDIDATES = {
-  "generated_at": "2026-11-25T20:53:09",
+  "generated_at": "2026-11-26T20:43:51",
   "companies": {
     "nvidia": [
       {
@@ -759,6 +759,30 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 13,
         "review_reason": "这条候选已经完成原文研判，并沉淀为正式事件；不再作为待读候选重复出现。",
         "read_next": "可直接进入对应公司主页或事件详情阅读正式研判。"
+      },
+      {
+        "title": "Come for the Games, Stay for the Community With GeForce NOW",
+        "date": "2026-11-26",
+        "fetched_at": "20261126-204147",
+        "type": "官方候选",
+        "fact": "日期：2026-11-26；标题：Come for the Games, Stay for the Community With GeForce NOW；原文内容：Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own can get 30% off six-month Performance and Ultimate member…；来源：https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261126,
+        "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+        "source_excerpt": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own can get 30% off six-month Performance and Ultimate member…",
+        "source_body": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own can get 30% off six-month Performance and Ultimate memberships in the Black Friday sale and a special seasonal offer through Amazon Fire TV Sticks. Plus, War Thunder gets a new look with NVIDIA DLSS 5 for Ultimate members and a Ready for Battle Pack reward is now available across all membership tiers. Rounding out the week, 12 new games join the GeForce NOW library . Behind every screenshot, helpful tip and play session is a gamer with a story. GeForce NOW Ambassadors share what keeps them playing. For Discord moderator Luna, a low-spec laptop was the start of lasting connections: “Without GFN, I might’ve not been able to meet certain close friends … It has extended to me being given the privilege to be a moderator of an ever-growing community that links people together and continues to allow friends or partners to play with each other, regardless of what they own at home.” After years helping moderate the community’s Reddit and Discord spaces, Hamza went from an aging laptop to cloud gaming across a TV, phone, tablet and desktop: “ I’m genuinely thankful not just for the technology that keeps me gaming effortlessly wherever I am, but for the amazing community and friendships I’ve built along the way, and I look forward to what the future holds for cloud gaming.” GeForce NOW kept new releases within reach for moderator Flacz , without needing frequent hardware upgrades: “GeForce NOW allowed me to enjoy games and adventures I’ve never imagined to be possible and it continues to be a part of my daily gaming experience till this day.” For creators such as Warwick , playing is only part of the picture: “GFN has allowed me to play the games I want, as soon as they come out. The support GFN has given me to create content for them and be partnered with them means the world and encourages me to get better each day.” Freedom to play and create resonates with Nads : “Being able to jump into my favorite games in an instant without worrying about downloads, storage limits or constant hardware upgrades feels like magic … Being able to play my game and stream on YouTube at the same time is something I never could have imagined before.” Nigiri21Sushi also turns to the cloud when games stretch a local PC: “As a gaming content-creator, my current PC sometimes struggles showcasing new-release games that are CPU/GPU-intensive … Hence, huge thank you to GFN for allowing me to produce fluid content via cloud-gaming.” For Marchief , demanding games on Steam Deck are the draw: “I’m thankful that GeForce NOW allows me to play the top AAA games on the Steam Deck … Having the power of an RTX 5080 in a handheld is just absolutely mindblowing.” Markys enjoys the comfort of the couch with his favorite game, World of Warcraft: Forever : “No high-end gaming PC needed, just my controller, my TV and the freedom to play wherever I want.”",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/nvidia__20261126-204147__investor.nvidia.com_news_press-releases_default.aspx.html",
+        "summary_error": "HTTP Error 429: Too Many Requests",
+        "company": "nvidia",
+        "company_name": "NVIDIA",
+        "candidate_status": "archived",
+        "status_label": "先存档",
+        "review_lane": "低优先级",
+        "review_score": 3,
+        "review_reason": "当前信号不足以进入优先研判；先保存来源，避免把普通新闻包装成投资事件。",
+        "read_next": "先打开官方来源阅读全文，提取事实和数字；如果只有标题或营销话术，就保留候选不升级。"
       },
       {
         "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
@@ -6158,6 +6182,29 @@ window.BAMBOO_LENS_CANDIDATES = {
         "review_score": 12,
         "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
         "read_next": "先读募投项目、金额、稀释、产能用途和客户验证；确认是否改善长期竞争位置。"
+      },
+      {
+        "title": "深南电路：2026年11月26日投资者关系活动记录表",
+        "date": "2026-11-26",
+        "fetched_at": "20261126-204147",
+        "type": "官方候选",
+        "fact": "日期：2026-11-26；标题：深南电路：2026年11月26日投资者关系活动记录表；来源：https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "judgment": "这是云端从官方页面自动抓到的候选更新，需进一步研判后再升级为正式研究事件。",
+        "action": "加入待研判队列",
+        "priority": "候选",
+        "sort_key": 20261126,
+        "source_url": "https://money.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/002916.phtml?ftype=lsgg",
+        "source_excerpt": "",
+        "source_body": "",
+        "source_file": "/home/runner/work/bamboo-lens/bamboo-lens/云端研究简报系统/outputs/snapshots/shennan__20261126-204147__money.finance.sina.com.cn_corp_go.php_vCB_AllBulletin_stockid_002916.phtml_ftype_lsgg.html",
+        "company": "shennan",
+        "company_name": "深南电路",
+        "candidate_status": "pending",
+        "status_label": "待研判",
+        "review_lane": "优先阅读",
+        "review_score": 8,
+        "review_reason": "标题中包含财报、展望、技术路线、客户合作或交易等投资相关信号，值得打开原文判断是否升级。",
+        "read_next": "优先读问答记录里的客户需求、800G/1.6T、订单能见度、毛利率、现金流、存货和应收变化；够具体后再升级。"
       },
       {
         "title": "深南电路：2026年11月10日-13日投资者关系活动记录表",
